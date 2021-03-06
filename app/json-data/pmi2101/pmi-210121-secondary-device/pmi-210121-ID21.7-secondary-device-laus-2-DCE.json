@@ -1,0 +1,367 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.dev:8888/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.dev/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.dev/html/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE.html",
+
+        "Subject"          :   "El cambio no para y con un segundo IQOS, tú tampoco.",
+        "Preheader"        :   "Aprovecha un exclusivo descuento y adquiere hoy el tuyo.",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20210121_NA > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Secondary Device LAUS 2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE.html"  },
+            { "urlS" : "http://mailtool.dev:8888/email/pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2101/pmi-210121-secondary-device/pmi-210121-ID21.7-secondary-device-laus-2-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-blocks-mod-B01-600-v01.twig",
+    "Source"           :   "pmi-210121-ID21.7-secondary-device-laus-2-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "logo" : 
+    {
+        "img"           :   "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d45cd45e-9c4a-4dda-a941-2ad5b85a8051.png",
+        "imgFSH"        :   "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/379e2111-ed83-43fe-88ec-0a7a46307c53.png",
+        "imgDCE"        :   "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d45cd45e-9c4a-4dda-a941-2ad5b85a8051.png",
+        "imgHTML"       :   "logo-iqos.png",
+        "width"         :   "85"
+    },
+    "footer" : 
+    {
+        "type"          :   "amazing_v1",
+        "use_notes"     :   "README: empty value of optout_url hides optout link.",
+
+        "showFooterIcons" : "1",
+
+        "optout_title"  :   "Si deseas darte de baja o dejar de recibir nuestras comunicaciones, click en:",
+        "optout_txt"    :   "Darme de baja",
+        "optout_url"    :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlDCE" :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlFSH" :   "%%unsub_center_url%%",
+        "optout_urlNONE":   "",
+        "color_lnk"     :   "#333333",
+        "color_txt"     :   "#a5a5a5",
+        "color_bkg"     :   "#f7f7f7",
+
+        "profile_title2":   "o bien: ",
+        "profile_title" :   "",
+        "profile_txt"   :   "Actualizar perfil",
+        "profile_url"   :   "%%profile_center_url%%",
+
+        "hideActPerf"   :   "1",
+        "legal"         :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalDCEHTML"  :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalFSH"      :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "this"          :   ""
+    },
+    "footericons" :
+    [
+        {
+            "url"       : "https://www.iqos.com/mx/es/descubre/devices.html",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "imgHTML"   : "footer-ico-cart.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbeff2e9-4aba-40af-8353-d8b0080d09ab.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "txt"       : "compra en línea",
+            "name"      : "Carrito"
+        },
+        {
+            "url"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "imgHTML"   : "footer-ico-locator.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/be1acae3-c32d-4938-927e-a1afcca9b6ed.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "txt"       : "localiza una tienda",
+            "name"      : "Localización"
+        },
+        {
+            "url"       : "mailto:contact.mx@iqos.com",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "imgHTML"   : "footer-ico-mail.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/06428bc4-9388-41df-bd2c-c2a44d5ace99.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "txt"       : "email",
+            "name"      : "Correo"
+        },
+        {
+            "url"       : "tel:8001476769",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "imgHTML"   : "footer-ico-phone.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cac1047b-f9e7-49d0-a580-1979a8617c91.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "txt"       : "llámanos",
+            "name"      : "Teléfono"
+        }
+    ],
+    "social" :  
+    [
+        {
+            "url"       : "https://www.facebook.com/iqosmx/",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
+            "imgHTML"   : "ico-facebook.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
+            "name"      : "facebook"
+        },
+        {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+        {
+            "url"       : "https://www.instagram.com/iqos_mx/",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
+            "imgHTML"   : "ico-instagram.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d037097f-fd8b-42a6-a3dd-563c9048e773.png",
+            "name"      : "instagram"
+        }
+    ],
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0bc2beb-aea1-41da-831a-f9101cdeca95.png",
+            "imgHTML": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0bc2beb-aea1-41da-831a-f9101cdeca95.png",
+            "imgFSH": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e2f8bd1f-3fe6-4e38-8962-28d385dddb6b.png",
+            "imgDCE": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0bc2beb-aea1-41da-831a-f9101cdeca95.png",
+            "url": "https://mx.iqos.com/",
+            "this": "Logo"
+        },
+        {
+            "type": "img",
+            "img": "21.7-1.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "Cover"
+        },
+        {
+            "type": "spacer",
+            "height": "90",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "50",
+            "content": "¿Sabías que muchos usuarios tienen más de un dispositivo IQOS?",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#f7f7f7",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#f7f7f7",
+            "framepadding": "20",
+            "content": "Teniendo otro <b>IQOS</b>, no importará si dejas uno en casa o si se te acaba la batería en el mejor momento del día, siempre estarás listo para seguir con el cambio.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Gracias a tu fidelidad,<br>¡tenemos grandes noticias para ti!<br><br>Adquiere un <span style=\"font-size:18px; font-weight: 700;\">IQOS 3 MULTI</span> con <br><span style=\"font-size:22px; font-weight: 700;\">$420 MXN de descuento </span> con el siguiente código<sup>(1)</sup> para que nada interrumpa tu día.",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "20",
+            "width": "40%",
+            "align": "center",
+            "color": "#d3d3d3",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#0d2e69  ",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#0d2e69",
+            "framepadding": "20",
+            "content": "SINHUMO21",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "21.7-2.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-3-multi-blanco.html",
+            "this": "IMG 21.7-2"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Miles de usuarios alrededor del mundo ya viven el cambio con más de un <b>IQOS.</b> Conoce algunas de sus experiencias.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "21.7-3.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.7-3"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "25",
+            "content": "Sigamos juntos el camino libre de humo de cigarro.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#064d81",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "50",
+            "content": "IQOS LO CAMBIA TODO",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1) Solo para fumadores adultos, usuarios adultos IQOS o usuarios adultos de otros productos con nicotina. Únicamente son elegibles para utilizar el código de descuento los usuarios con cuenta registrada en www.iqos.com, que tengan cuando menos 12 meses de haberse registrado (creado su cuenta) y que, además, cuenten con un dispositivo ligado/registrado a su cuenta. El código de descuento estará vigente a partir del 1o de febrero de 2021, para ser redimido hasta por 24 meses contados desde la fecha de registro del usuario en www.iqos.com, sin exceder en ningún caso del 31 de diciembre de 2021 que es la fecha límite para redimirlo. Aplica solamente para 1 (un) Kit IQOS 3 MULTI por usuario elegible. Descuento no aplicable en la compra de unidades de tabaco para calentar ni accesorios IQOS. Válido únicamente en compras realizadas con Asesores Comerciales IQOS, Tiendas IQOS participantes (IQOS Store, IQOS Shop), compras realizadas en www.iqos.com, y IQOS Corners en puntos de venta seleccionados. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

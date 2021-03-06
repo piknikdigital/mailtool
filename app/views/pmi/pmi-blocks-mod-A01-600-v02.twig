@@ -1,0 +1,421 @@
+{#
+
+v2. cambios
+
+v1. version inicial, footer IQOS. Derivada de pmi-ecommerce-mod-E2-600-v01.twig
+
+#}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{PageTitle}}</title>
+    <style type="text/css">
+      #outlook a {
+        padding: 0;
+      }
+      
+      div{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        padding: 0;
+      }
+
+      body {
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .ExternalClass {
+        width: 100%;
+      }
+      
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass th,
+      .ExternalClass div {
+        line-height: 100%;
+      }
+      
+      .background-table {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        min-width: 100% !important;
+        line-height: 100% !important;
+      }
+      
+      img {
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+        display: block;
+      }
+      
+      a img {
+        border: none;
+      }
+    </style>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+      
+      th {
+        border-collapse: collapse;
+      }
+      
+      @media all and (max-width: 600px) {
+        .background-table.has-width-600 .email-content {
+          width: 100% !important;
+        }
+        .background-table.has-width-600 img {
+          max-width: 100%;
+          height: auto;
+        }
+        .background-table.has-width-600 .mobile-display-block {
+          display: block;
+          width: 100%;
+        }
+        .background-table.has-width-600 .mobile-display-none {
+          display: none;
+        }
+        .background-table.has-width-600 .mobile-display-table-caption {
+          display: table-caption !important;
+        }
+        .background-table.has-width-600 .mobile-display-table-header-group {
+          display: table-header-group !important;
+        }
+        .background-table.has-width-600 .mobile-display-table-row {
+          display: table-row !important;
+        }
+        .background-table.has-width-600 .mobile-display-table-footer-group {
+          display: table-footer-group !important;
+        }
+        .background-table.has-width-600 .mobile-width-auto {
+          width: auto !important;
+        }
+      }
+      
+      @media screen and (device-width: 768px) and (device-height: 1024px) {
+        body {
+          min-width: 701px !important;
+        }
+      }
+    </style>
+    <style type="text/css">
+      a {
+        color: #000077;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0; font-family: Gotham, Arial, sans-serif; font-size: 14px; line-height: 18px; color: #000000; width: 100%;" class="md-r">
+    <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden" class="preheader">{{PREHEADER}}</div>
+    <table cellpadding="0" cellspacing="0" border="0" width="600" style="margin: 0; padding: 0; text-align: left; width: 100%; min-width: 600px; line-height: 100%;" role="presentation" class="background-table has-width-600" bgcolor="#FFFFFF" valign="top">
+      <tbody>
+        <tr>
+          <th valign="top">
+            <table cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;margin:0 auto" role="presentation" class="email-content" align="center">
+              <tbody>
+                <tr>
+                    <th valign="top">
+                        <div style="margin:0;padding:0;background-color:{{colorbkg_cover}};">
+
+                          <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                            <tbody>
+                            {% for index in blocks|keys %}                  
+                                {% if blocks[index].type == "img" %}
+
+                                    <tr>
+                                        <th valign="top" style="text-align:left;margin:0;padding:0;" class="image-container" align="left">
+                                            {% if blocks[index].url is defined and blocks[index].url != "#" %}<a href="{{blocks[index].url}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].img}}" width="600" height="auto" align="absbottom" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0;padding:0;border:0;">{% if blocks[index].url is defined and blocks[index].url != "#" %}</a>{% endif %}
+                                        </th>
+                                    </tr>
+
+                                {% elseif blocks[index].type == "spacer" %}
+
+                                    <tr style="background-color:{{blocks[index].color_bkg}};">
+                                        <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].height}}">&nbsp;</th>
+                                    </tr>
+
+                                {% elseif blocks[index].type == "cta1" %}
+
+                                    <tr>
+                                        <th valign="middle" style="text-align:center" class="horizontal-grid">
+                                        <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                            <tbody>
+                                            <tr>
+                                                <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                    <a href="{{blocks[index].url_cta}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].button}}" width="{{blocks[index].widthbutton}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; align:center;margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton}}px;"></a>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        </th>
+                                    </tr>
+
+                                {% elseif blocks[index].type == "cta2" %}
+
+                                    <tr>
+                                        <th valign="middle" style="text-align:center" class="horizontal-grid">
+                                        <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                            <tbody>
+                                            <tr>
+                                                <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                    <a href="{{blocks[index].url_cta1}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].button1}}" width="{{blocks[index].widthbutton1}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; align:center;margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton1}}px;"></a>
+                                                </th>
+                                                <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                    <a href="{{blocks[index].url_cta2}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].button2}}" width="{{blocks[index].widthbutton2}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; align:center;margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton2}}px;"></a>
+                                                </th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        </th>
+                                    </tr>
+
+                                {% elseif blocks[index].type == "greeting" %}
+
+                                    <tr style="background-color:{{blocks[index].color_bkg}};">
+                                        <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:center;font-size:28px;font-weight:{{blocks[index].fontweight}};line-height:34px;color:{{blocks[index].color_greeting}}" class="horizontal-gutter" height="34">
+                                        {{blocks[index].greeting}}
+                                        </th>
+                                    </tr>
+
+                                {% elseif blocks[index].type == "p" %}
+
+                                    <tr style="background-color:{{blocks[index].color_bkg}};">
+                                        <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_top}}">&nbsp;</th>
+                                    </tr>
+                                    <tr style="background-color:{{blocks[index].color_bkg}};">
+                                        <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}" class="horizontal-gutter" height="{{blocks[index].height}}">
+                                        <div style="width:{{blocks[index].width}};text-align:center;margin:0 auto;">
+                                        {{blocks[index].content|raw}}</div>
+                                        </th>
+                                    </tr>
+                                    <tr style="background-color:{{blocks[index].color_bkg}};">
+                                        <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_bottom}}">&nbsp;</th>
+                                    </tr>                                    
+
+                                {% elseif blocks[index].type == "disclaimer" %}
+
+                                    <tr>
+                                        <th valign="top" style="text-align:center;font-size:11px;line-height:{{blocks[index].fontsize + 2}}px" class="horizontal-gutter">
+                                        
+                                            <table valign="middle" align="right" cellpadding="0" cellspacing="0" border="0" width="600" style="min-width:600px" role="presentation">
+                                            <tbody>
+                                            <tr>
+                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                                <th valign="middle" style="text-align:center" align="center">
+                                                <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin: 0 auto;">{{blocks[index].txt|raw}}</span>
+                                                </th>
+                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        </th>
+                                    </tr>
+
+                                {% endif %}
+                            {% endfor %}
+
+                            </tbody>
+                          </table>
+                        </div>
+                        
+
+                        {# === FOOTER - LOGO & SOCIAL ICONS ========================================= #}
+
+                        <div style="margin:0;padding:0;">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#FFFFFF" style="min-width:100%" role="presentation">
+                            <tbody>
+                            <tr>
+                                <th valign="top" style="text-align:left" class="vertical-grid">
+                                    <table cellpadding="0" cellspacing="0" border="0" bgcolor="{{prefooter.color_bkg}}" width="100%" style="min-width:100%" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+                                            </tr>
+                                            <tr >
+                                                <th valign="middle" style="text-align:right" class="horizontal-grid">
+                                                <table valign="top" align=left cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                                        <th valign="top" style="text-align:left" class="image-container" align="left">
+                                                        <img src="{{BaseURLimg}}{{logo.img}}" width="{{logo.width}}" height="auto" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;">
+                                                        </th>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                </th>
+
+                                                <th valign="middle" style="text-align:right" class="horizontal-grid">
+                                                {% if prefooter.showShare == "0" %}
+                                                &nbsp;
+                                                {% else %}
+
+                                                <table align=right cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th rowspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="20%">&nbsp;</th>
+                                                        <th colspan="5" valign="top" style="text-align:center;color:{{prefooter.color}};font-weight:400;font-size:11px;text-transform:uppercase;line-height:22px">&nbsp;{{prefooter.share}}</th>
+                                                        <th rowspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                                    </tr>
+                                                    <tr>
+                                                        {% for index in social|keys %}
+                                                        <th valign="top" style="text-align:right" class="image-container" align="right">
+                                                            <a target="_blank" href="{{social[index].url}}" style="color: #1aa4d8; text-decoration: none;"><img src="{{BaseURLassets}}{{social[index].img}}" width="38" height="auto" alt="{{social[index].name}}" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: auto;"></a>
+                                                        </th>
+                                                          {% if not loop.last  %}<th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="14">&nbsp;</th>{% endif %}
+                                                        {% endfor %}
+                                                        
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                {% endif %}
+
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                            </tr>
+
+
+
+                                        </tbody>
+                                    </table>
+                                </th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        {# === /FOOTER - LOGO & SOCIAL ICONS ========================================= #}
+
+
+                        {# === FOOTER - LEGAL & UNSUBSCRIBE ========================================= #}
+
+                        <div style="margin:0;padding:0;">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="{{footer.color_bkg}}" style="min-width:100%" role="presentation">
+                            <tbody>
+                            <tr>
+                                <th valign="top" style="text-align:left" class="vertical-grid">
+                                    <table cellpadding="0" cellspacing="0" border="0" bgcolor="{{footer.color_bkg}}" width="100%" style="min-width:100%" role="presentation">
+                                        <tbody>
+                                            <tr>
+                                                <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                            </tr>
+                                            <tr>
+                                                <th valign="middle" style="text-align:left" class="horizontal-grid">
+                                                <table valign="middle" align="left" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                                        <th valign="middle" style="text-align:left" align="left">
+                                                        <span style="color:white; font-size:11px;line-height:12px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;">{{footer.legal|raw}}</span>
+                                                        </th>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                </th>
+
+                                                <th valign="top" style="text-align:right" class="horizontal-grid">
+                                                <table valign="middle" align="right" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                        <th valign="middle" style="text-align:right;color:{{footer.color_lnk}};font-weight:300;font-size:12px;" align="right">
+                                                        {% if footer.optout_url !="" %}
+                                                        {% if footer.optout_title|length > 0 %}{{footer.optout_title}}<br>{% endif %}<a target="_blank" href="{{footer.optout_url}}" style="color:{{footer.color_lnk}}; text-decoration: none;"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;">{{footer.optout_txt}}</span></a>
+                                                        {% endif %}
+
+                                                        </th>
+                                                                                                    
+                                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                </th>
+                                            </tr>
+
+                                            <tr>
+                                                <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                            </tr>
+
+
+                                        </tbody>
+                                    </table>
+                                </th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        {# === /FOOTER - LEGAL & UNSUBSCRIBE ========================================= #}
+
+                        <div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                            <tbody>
+                            <tr>
+                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" bgcolor="transparent" height="15">&nbsp;</th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+
+                        {% if footer.optout_url !=""  and  footer.hideActPerf != "1" %}
+
+                        <div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                            <tbody> 
+                            <tr>
+                                  <th valign="centered" style="mso-line-height-rule: exactly; text-align:center;font-family:Arial, sans-serif;font-size:10px;line-height:16px;font-weight:normal;color:#333333" class="text-container" bgcolor="#ffffff" align="center"><table cellpadding="2" cellspacing="0" width="600" ID="Table5" Border=0 align="center"><tr><td><font face="verdana" size="1" color="#E6E6EE">This email was sent by:<b>%%Member_Busname%%</b><br>%%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%<br><br></font></td></tr><custom name="opencounter" type="tracking"/><font face="Arial" size="1" color="#F7F6FD"><a href="%%profile_center_url%%" alias="Update Profile" >Actualizar perfil</a></font></table></th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        {% endif %}
+
+
+                        {# === PRIVACY ========================================= #} 
+                        {% if showPrivacy == "1" %}
+                        <div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                            <tbody>
+                                <tr>
+                                    <th valign="middle" style="mso-line-height-rule: exactly; text-align:center;font-family:gotham,Arial, sans-serif;font-size:12px;line-height:16px;font-weight:normal;color:#333333" class="text-container" bgcolor="#ffffff">
+                                      Si quieres conocer nuestro aviso de privacidad <a target="_blank" href="{{url_privacy}}" style="color: #0000FF; text-decoration: none;">haz click aquí.</a>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        <div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                            <tbody>
+                            <tr>
+                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" bgcolor="#ffffff" height="15">&nbsp;</th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                        {% endif %}
+                        {# === /PRIVACY ========================================= #}
+
+                    </th>
+                </tr>
+              </tbody>
+            </table>
+          </th>
+        </tr>
+      </tbody>
+      
+    </table>
+  </body>
+</html>
