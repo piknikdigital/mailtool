@@ -97,14 +97,6 @@ $footer_blocks['DCE'] ='
             "name"      : "facebook"
         },
         {
-            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
-            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgHTML"   : "ico-youtube.png",
-            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "name"      : "youtube"
-        },
-        {
             "url"       : "https://www.instagram.com/iqos_mx/",
             "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
             "imgHTML"   : "ico-instagram.png",
@@ -201,14 +193,7 @@ $footer_blocks['FSH'] ='
             "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
             "name"      : "facebook"
         },
-        {
-            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
-            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "imgHTML"   : "ico-youtube.png",
-            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "name"      : "youtube"
-        },
+
         {
             "url"       : "https://www.instagram.com/iqos_mx/",
             "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d037097f-fd8b-42a6-a3dd-563c9048e773.png",
@@ -304,14 +289,6 @@ $footer_blocks['HTML'] ='
             "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
             "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
             "name"      : "facebook"
-        },
-        {
-            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
-            "img"       : "ico-youtube.png",
-            "imgHTML"   : "ico-youtube.png",
-            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "name"      : "youtube"
         },
         {
             "url"       : "https://www.instagram.com/iqos_mx/",
@@ -414,14 +391,7 @@ $footer_blocks['HTMLWHITE'] ='
             "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
             "name"      : "facebook"
         },
-        {
-            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
-            "img"       : "ico-youtube.png",
-            "imgHTML"   : "ico-youtube.png",
-            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "name"      : "youtube"
-        },
+
         {
             "url"       : "https://www.instagram.com/iqos_mx/",
             "img"       : "ico-instagram.png",
@@ -517,14 +487,7 @@ $footer_blocks['FSHWHITE'] ='
             "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
             "name"      : "facebook"
         },
-        {
-            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
-            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "imgHTML"   : "ico-youtube.png",
-            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
-            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
-            "name"      : "youtube"
-        },
+
         {
             "url"       : "https://www.instagram.com/iqos_mx/",
             "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d037097f-fd8b-42a6-a3dd-563c9048e773.png",
@@ -534,3 +497,63 @@ $footer_blocks['FSHWHITE'] ='
             "name"      : "instagram"
         }
     ],';
+
+
+
+/* ---- */
+
+/*
+
+    REMOVIDO DE SOCIAL en DCE
+
+         {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+
+    REMOVIDO DE SOCIAL en FSH
+ 
+        {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+
+        
+    REMOVIDO DE SOCIAL en HTML
+            {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "ico-youtube.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+    REMOVIDO DE SOCIAL en HTMLWHITE
+        {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "ico-youtube.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+
+    REMOVIDO DE SOCIAL en FSHWHITE
+            {
+            "url"       : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "imgHTML"   : "ico-youtube.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1c99003f-d4d1-42bb-9471-6dd8b3188349.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9cfc918d-42ca-46be-9b13-90ef0e889e77.png",
+            "name"      : "youtube"
+        },
+
+ */   

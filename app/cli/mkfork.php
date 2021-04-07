@@ -63,7 +63,7 @@ if( file_exists( $arguments )  ){
     die;
 }
 
-$vars            = create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $subject, $preheader, $path, $nameincrm, $customerkey);
+$vars            = create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, $path, $nameincrm, $customerkey);
 $config_sections = fill_config( $vars );
 $blocks_section  = blockreplace_v2($filename, $filename1, $source, $target, $vars);
 $ending          = get_ending();

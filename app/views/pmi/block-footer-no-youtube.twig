@@ -1,0 +1,309 @@
+{% block footer %}
+
+                    <!--footer: begin  -->
+                    <div pik-mail-block="footer-container" style="margin:0 auto;padding:0;width:600px;min-width: 600px;">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="{{footer.color_bkg}}" style="min-width:100%" role="presentation">
+                      <tbody>
+                      <tr>
+                        <th valign="top" style="text-align:left" class="vertical-grid">
+                          <table cellpadding="0" cellspacing="0" border="0" bgcolor="{{footer.color_bkg}}" width="100%" style="min-width:100%" role="presentation">
+                            <tbody>
+                              {% if footer.type == "amazing_v1" %}
+
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:center" class="horizontal-grid">
+                                    <!-- footer icons : begin -->
+                                    <table align=right cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                        <tbody>
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                            {% for index in footericons|keys %}
+
+                                            <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                <a target="_blank" href="{{footericons[index].url}}" style="color: #1aa4d8; text-decoration: none;"><img src="{{BaseURLassets}}{{footericons[index].img}}" width="64" height="auto" alt="{{footericons[index].name}}" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin: auto;"></a><br>
+
+                                                <table align="center" cellpadding="0" cellspacing="0" border="0" width="70" style="min-width:70px;" role="presentation">
+                                                <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <div style="text-align:center;font-weight:700;text-transform:uppercase;color:#9c9c9c;font-size:11px;font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text"><a href="{{footericons[index].url}}" target="_blank"><span style="color:#3c3c3c;">{{footericons[index].txt|raw}}</span></div>
+                                                    </th>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+
+                                            </th>
+                                            {% if not loop.last  %}<th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="10">&nbsp;</th>{% endif %}
+                                            {% endfor %}
+
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- footer icons : end -->
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+                                </tr>
+                                <tr>
+                                  <th valign="bottom" style="text-align:left" class="horizontal-grid">
+                                    <table valign="bottom" align="left" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        <!-- Footer.Logo -->
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                            <th valign="top" style="text-align:left" class="image-container" align="left">
+                                            <img src="{{BaseURLimg}}{{logo.img}}" width="{{logo.width}}" height="auto" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;margin-bottom:10px;">
+                                            </th>
+                                        </tr>
+                                        <!-- Footer.Copyright -->
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                            <th valign="middle" style="text-align:left" align="left">
+                                            <span style="color:{{footer.color_txt}}; font-size:11px;line-height:12px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.legal|raw}}</span>
+                                            </th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                  <th valign="bottom" style="text-align:right" class="horizontal-grid">
+                                    <table valign="middle" align="right" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        <!-- Footer.socialnetworks   -->
+                                        <tr>
+                                          <th>
+                                            {% set wtable = 50 * social|length %}
+
+                                            <table align=right cellpadding="0" cellspacing="0" border="0" width="{{wtable}}" style="min-width:{{wtable}}px" role="presentation">
+                                              <tbody>
+                                              {# <tr>
+                                                  <th colspan="5" valign="top" style="text-align:center;color:{{prefooter.color}};font-weight:400;font-size:11px;text-transform:uppercase;line-height:22px" class="fallback-text">&nbsp;{{prefooter.share}}</th>
+                                              </tr> #}
+
+                                              <tr>{% for index in social|keys %}
+
+                                                  <th valign="top" style="text-align:right" class="image-container" align="right">
+                                                      <a target="_blank" href="{{social[index].url}}" style="color: #1aa4d8; text-decoration: none;"><img src="{{BaseURLassets}}{{social[index].img}}" width="38" height="auto" alt="{{social[index].name}}" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: auto;"></a>
+                                                  </th>
+                                                  {% if not loop.last  %}<th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="1">&nbsp;</th>{% endif %}
+                                                  {% endfor %}
+
+                                              </tr>
+                                              <tr>
+                                                  <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+                                              </tr>
+                                              </tbody>
+                                            </table>
+                                          </th>
+                                        </tr>
+                                        <!-- Footer.Opt-out -->
+                                        <tr>
+                                          <th valign="middle" style="text-align:right;color:{{footer.color_lnk}};font-weight:300;font-size:12px;" align="right">
+                                            {% if footer.optout_url !="" %}
+                                            {% if footer.optout_title|length > 0 %}<span style="color:{{footer.color_txt}};font-size:10px;line-height:12px;font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">{{footer.optout_title|raw}}</span><br>{% endif %}<a target="_blank" href="{{footer.optout_url}}" style="color:{{footer.color_lnk}}; text-decoration: none;"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.optout_txt}}</span></a>
+                                            {% endif %}
+                                            {% if footer.hideActPerf != "1" and footer.profile_url != "" %}
+
+                                              <span style="color:{{footer.color_txt}};font-size:10px;line-height:12px;">{{footer.profile_title}} <a href="{{footer.profile_url}}" target="_blank" style="color:{{footer.color_lnk}}; text-decoration: none"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.profile_txt}}</span></span></a>
+                                            {% endif %}
+
+                                          </th>
+                                          <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                </tr>
+
+                              {% elseif footer.type == "amazing_v2" %}
+
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+                                </tr>
+                                {% if footer.showFooterIcons == "1" %}
+
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:center" class="horizontal-grid">
+                                    <!-- footer icons : begin -->
+                                    <table align=right cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                        <tbody>
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                            {% for index in footericons|keys %}
+
+                                            <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                <a target="_blank" href="{{footericons[index].url}}" style="color: #1aa4d8; text-decoration: none;"><img src="{{BaseURLassets}}{{footericons[index].img}}" width="64" height="auto" alt="{{footericons[index].name}}" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin: auto;"></a><br>
+
+                                                <table align="center" cellpadding="0" cellspacing="0" border="0" width="70" style="min-width:70px;" role="presentation">
+                                                <tbody>
+                                                <tr>
+                                                    <th>
+                                                        <div style="text-align:center;font-weight:700;text-transform:uppercase;color:#9c9c9c;font-size:11px;font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text"><a href="{{footericons[index].url}}" target="_blank"><span style="color:#3c3c3c;">{{footericons[index].txt|raw}}</span></div>
+                                                    </th>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+
+                                            </th>
+                                            {% if not loop.last  %}<th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="10">&nbsp;</th>{% endif %}
+                                            {% endfor %}
+
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- footer icons : end -->
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+                                </tr>
+                                {% else %}
+
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+                                </tr>
+                                {% endif %}
+
+                                <tr>
+                                  <th valign="bottom" style="text-align:left" class="horizontal-grid">
+                                    <table valign="bottom" align="left" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        <!-- Footer.Logo -->
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                            <th valign="top" style="text-align:left" class="image-container" align="left">
+                                            <img src="{{BaseURLimg}}{{logo.img}}" width="{{logo.width}}" height="auto" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;margin-bottom:10px;">
+                                            </th>
+                                        </tr>
+                                        <!-- Footer.Copyright -->
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                            <th valign="middle" style="text-align:left" align="left">
+                                            <span style="color:{{footer.color_txt}}; font-size:11px;line-height:12px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.legal|raw}}</span>
+                                            </th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                  <th valign="bottom" style="text-align:right" class="horizontal-grid">
+                                    <table valign="middle" align="right" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        {% if footer.showSocialIcons == "1" %}
+
+                                        <!-- Footer.socialnetworks   -->
+                                        <tr>
+                                          <th>
+                                            {% set wtable = 50 * social|length %}
+
+                                            <table align=right cellpadding="0" cellspacing="0" border="0" width="{{wtable}}" style="min-width:{{wtable}}px" role="presentation">
+                                              <tbody>
+                                              {# <tr>
+                                                  <th colspan="5" valign="top" style="text-align:center;color:{{prefooter.color}};font-weight:400;font-size:11px;text-transform:uppercase;line-height:22px" class="fallback-text">&nbsp;{{prefooter.share}}</th>
+                                              </tr> #}
+
+                                              <tr>{% for index in social|keys %}
+
+                                                  <th valign="top" style="text-align:right" class="image-container" align="right">
+                                                      <a target="_blank" href="{{social[index].url}}" style="color: #1aa4d8; text-decoration: none;"><img src="{{BaseURLassets}}{{social[index].img}}" width="38" height="auto" alt="{{social[index].name}}" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: auto;"></a>
+                                                  </th>
+                                                  {% if not loop.last  %}<th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="1">&nbsp;</th>{% endif %}
+                                                  {% endfor %}
+
+                                              </tr>
+                                              <tr>
+                                                  <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+                                              </tr>
+                                              </tbody>
+                                            </table>
+                                          </th>
+                                        </tr>
+                                        {% endif %}
+
+                                        <!-- Footer.Opt-out -->
+                                        <tr>
+                                          <th valign="middle" style="text-align:right;color:{{footer.color_lnk}};font-weight:300;font-size:12px;" align="right">
+                                            {% if footer.optout_url !="" %}
+                                            {% if footer.optout_title|length > 0 %}<span style="color:{{footer.color_txt}};font-size:10px;line-height:12px;font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">{{footer.optout_title|raw}}</span><br>{% endif %}<a target="_blank" href="{{footer.optout_url}}" style="color:{{footer.color_lnk}}; text-decoration: none;"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.optout_txt}}</span></a>
+                                            {% endif %}
+                                            {% if footer.hideActPerf != "1" and footer.profile_url != "" %}
+
+                                              <span style="color:{{footer.color_txt}};font-size:10px;line-height:12px;">{{footer.profile_title}} <a href="{{footer.profile_url}}" target="_blank" style="color:{{footer.color_lnk}}; text-decoration: none"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.profile_txt}}</span></span></a>
+                                            {% endif %}
+
+                                          </th>
+                                          <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                </tr>
+
+                              {% else %}
+
+                                <tr>
+                                  <th colspan="2" valign="middle" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                </tr>
+                                <tr>
+                                  <th valign="middle" style="text-align:left" class="horizontal-grid">
+                                    <table valign="middle" align="left" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        <tr>
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                            <th valign="middle" style="text-align:left" align="left">
+                                            <span style="color:{{footer.color_txt}}; font-size:11px;line-height:12px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.legal|raw}}</span>
+                                            </th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                  <th valign="top" style="text-align:right" class="horizontal-grid">
+                                    <table valign="middle" align="right" cellpadding="0" cellspacing="0" border="0" width="299" style="min-width:299px" role="presentation">
+                                        <tbody>
+                                        <tr>
+                                            <th valign="middle" style="text-align:right;color:{{footer.color_lnk}};font-weight:300;font-size:12px;" align="right" class="fallback-text">
+                                            {% if footer.optout_url !="" %}
+
+                                              {% if footer.optout_title|length > 0 %}{{footer.optout_title}}<br>{% endif %}<a target="_blank" href="{{footer.optout_url}}" style="color:{{footer.color_lnk}}; text-decoration: none;"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.optout_txt}}</span></a>
+                                              {% if footer.hideActPerf != "1" and footer.profile_url != "" %}
+
+                                                <br><a href="{{footer.profile_url}}" target="_blank" style="color:{{footer.color_lnk}}; text-decoration: none;"><span style="color:{{footer.color_lnk}}; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: underline; -ms-interpolation-mode: bicubic; display: block; border: none; margin-left: 0;" class="fallback-text">{{footer.profile_txt}}</span></a>
+                                              {% endif %}
+                                            {% endif %}
+
+                                            </th>
+
+                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="25%">&nbsp;</th>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                  </th>
+                                </tr>
+                                <tr>
+                                  <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+                                </tr>
+
+                              {% endif %}
+
+                            </tbody>
+                          </table>
+                        </th>
+                      </tr>
+                      </tbody>
+                    </table>
+                    </div>
+                    <!--footer: end -->
+
+{% endblock %}

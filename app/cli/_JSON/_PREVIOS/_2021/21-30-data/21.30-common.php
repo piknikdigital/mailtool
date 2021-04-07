@@ -11,10 +11,10 @@ $p_name4json =  'speed-dialing-1';
 $p_name4folderDCE =  'Speed Dialing';
 $p_mailname4DCE =  'Speed Dialing 1';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
-$p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$p_name4folderFSH =  'Speed Dialing';
+$p_mailname4FSH =  'Speed Dialing 1';
+$p_customerkey_FSH =  '0ffe7607-3f92-4f25-b230-bf6909e99524';
+$id_FSH_folder =  '107';
 
 //-----------------------------------------
 
@@ -36,7 +36,9 @@ $path_FSH         = "Content Builder > ". $id_FSH_folder .  "_" .$p_name4folderF
 $name_in_FSH      = $p_mailname4FSH;
 $customerkey_FSH  = $p_customerkey_FSH;
 
-$TwigTemplate     = "pmi-blocks-mod-B01-600-v01.twig";
+$TwigTemplate     = "pmi-blocks-mod-B01-600-v02.twig";
+$TwigFooterBlock  = "block-footer-no-youtube.twig";
+
 $footergrey       = "1";          // 1:grey  0:white
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 

@@ -39,7 +39,9 @@ $path_FSH         = "Content Builder > ". $id_FSH_folder .  "_" .$p_name4folderF
 $name_in_FSH      = $p_mailname4FSH;
 $customerkey_FSH  = $p_customerkey_FSH;
 
-$TwigTemplate     = "pmi-blocks-mod-B01-600-v01.twig";
+$TwigTemplate     = "pmi-blocks-mod-B01-600-v02.twig";
+$TwigFooterBlock  = "block-footer-no-youtube.twig";
+
 $footergrey       = "1";          // 1:grey  0:white
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 

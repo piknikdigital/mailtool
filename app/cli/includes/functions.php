@@ -102,24 +102,25 @@ function getOriginalBlocks($f)
     return $c;
 }
 
-function create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $subject, $preheader, $path, $nameincrm, $customerkey)
+function create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, $path, $nameincrm, $customerkey)
 {
     include_once("footer_vars.php"); 
 
     $a = array();
 
-    $a['mes']          = $mes;
-    $a['folder']       = $folder;
-    $a['filename']     = $filename;
-    $a['target']       = $target;
-    $a['footergrey']   = $footergrey;
-    $a['bgColor']      = $bgColor;
-    $a['TwigTemplate'] = $TwigTemplate;    
-    $a['subject']      = $subject;
-    $a['preheader']    = $preheader;
-    $a['path']         = $path;
-    $a['nameincrm']    = $nameincrm;
-    $a['customerkey']  = $customerkey;
+    $a['mes']             = $mes;
+    $a['folder']          = $folder;
+    $a['filename']        = $filename;
+    $a['target']          = $target;
+    $a['footergrey']      = $footergrey;
+    $a['bgColor']         = $bgColor;
+    $a['TwigTemplate']    = $TwigTemplate;    
+    $a['TwigFooterBlock'] = $TwigFooterBlock;
+    $a['subject']         = $subject;
+    $a['preheader']       = $preheader;
+    $a['path']            = $path;
+    $a['nameincrm']       = $nameincrm;
+    $a['customerkey']     = $customerkey;
     // NO SE PONEN DE ACUERDO CON ESTO EN EL HUB DE PMI...   
   //$a['DCEfootercolor']    = ( $footergrey == "1" )? "%%=ContentBlockbyKey(&quot;Commercial_MX_es_footer&quot;)=%%"  : "%%=ContentBlockbyKey(&quot;Commercial_MX_es_footer_white&quot;)=%%" ;
     $a['DCEfootercolor']    = ( $footergrey == "1" )? 
@@ -215,6 +216,7 @@ function fill_config( $a )
     "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
 
     "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
+    "TwigFooterBlock"  :   "' .$a['TwigFooterBlock'].  '",
     "Source"           :   "' .$a['filename'].  '",
     "isWebVer"         :   " ",
     
