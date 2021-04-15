@@ -3,9 +3,9 @@
    
     "config_template" :
     {
-        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML",
-        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML.html",
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML.html",
 
         "Subject"          :   "Gracias por ser parte de Futuro Sin Humo",
         "Preheader"        :   "Juntos haremos de esto una realidad",
@@ -20,9 +20,9 @@
         ],
         "test-url"         :   
         [
-            { "urlD" : "https://paginum.com/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML" } ,
-            { "urlS" : "https://paginum.com/email/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML.html"  },
-            { "urlS" : "http://mailtool.lan:8888/email/pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML.html"},
+            { "urlD" : "https://paginum.com/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML.html"},
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
 
         ]
@@ -32,7 +32,7 @@
     "BaseURLassets"    :   "",
     "BaseURLimg"       :   "",
     
-    "HTMLstaticfile"   :   "pmi2104/pmi-210406-fsh/pmi-210406-ID21.46-fsh-transaccional-HTML.html",
+    "HTMLstaticfile"   :   "pmi2104/pmi-210406-fsh-v2/pmi-210406-ID21.52-fsh-transaccional-v2-HTML.html",
 
     "trackmailopen"            :   "0",
     "trackmailaudience"        :   "0",    
@@ -44,7 +44,7 @@
 
     "TwigTemplate"     :   "pmi/pmi-blocks-mod-B01-600-v02.twig",
     "TwigFooterBlock"  :   "block-footer.twig",
-    "Source"           :   "pmi-210406-ID21.46-fsh-transaccional-HTML",
+    "Source"           :   "pmi-210406-ID21.52-fsh-transaccional-v2-HTML",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
@@ -147,7 +147,7 @@
     [
         {
             "type"          : "spacer",
-            "height"        : "70",
+            "height"        : "50",
             "color_bkg"     : "transparent",
             "this"          : "height in px"
         },
@@ -164,22 +164,6 @@
         },
         {
             "type"          : "spacer",
-            "height"        : "70",
-            "color_bkg"     : "transparent",
-            "this"          : "height in px"
-        },
-        {
-            "type"          : "img",
-            "bgcolor"       : "transparent",
-            "img"           : "21.46-1.png",
-            "imgHTML"       : "",
-            "imgFSH"        : "",
-            "imgDCE"        : "",
-            "url"           : "#",
-            "this"          : "IMG 21.46-1"
-        },
-        {
-            "type"          : "spacer",
             "height"        : "50",
             "color_bkg"     : "transparent",
             "this"          : "height in px"
@@ -187,32 +171,40 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.46-2.png",
+            "img"           : "21.52-1.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.46-2"
+            "this"          : "IMG 21.52-1"
         },
         {
-            "type"          : "spacer",
-            "height"        : "50",
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
             "color_bkg"     : "transparent",
-            "this"          : "height in px"
+            "margin_top"    : "50",
+            "margin_bottom" : "90",
+            "content"       : "Tu carta ha sido enviada al Congreso.<br>Agradecemos tu apoyo para la regulación<br>de las alternativas.<br><br>Juntos podremos hacer de esto <b>UNA REALIDAD.</b>",
+            "this"          : "TXT"
         },
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.46-3.png",
+            "img"           : "21.52-2.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.46-3"
+            "this"          : "IMG 21.52-2"
         },
         {
             "type"          : "spacer",
-            "height"        : "30",
+            "height"        : "20",
             "color_bkg"     : "transparent",
             "this"          : "height in px"
         },
@@ -279,19 +271,36 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.46-4.png",
+            "img"           : "21.52-3.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.46-4"
+            "this"          : "IMG 21.52-3"
+        },
+        {
+            "type"          : "pframed_nope",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
         },
         {
             "type"          : "spacer",
-            "height"        : "50",
+            "height"        : "30",
             "color_bkg"     : "transparent",
             "this"          : "height in px"
-        },
+        },        
         {
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",

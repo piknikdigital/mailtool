@@ -1,0 +1,921 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML.html",
+
+        "Subject"          :   "Queremos que formes parte de nuestro Instagram Live",
+        "Preheader"        :   "Tu participación es muy importante para nosotros",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2104/pmi-210408-ig-live-tips/pmi-210408-ID21.49-ig-live-considerations-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-blocks-mod-B01-600-v02.twig",
+    "TwigFooterBlock"  :   "block-footer-no-youtube.twig",
+    "Source"           :   "pmi-210408-ID21.49-ig-live-considerations-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "logo" : 
+    {
+        "img"           :   "logo-iqos.png",
+        "imgFSH"        :   "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/379e2111-ed83-43fe-88ec-0a7a46307c53.png",
+        "imgDCE"        :   "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d45cd45e-9c4a-4dda-a941-2ad5b85a8051.png",
+        "imgHTML"       :   "logo-iqos.png",
+        "width"         :   "85"
+    },
+    "footer" : 
+    {
+        "type"          :   "amazing_v1",
+        "use_notes"     :   "README: empty value of optout_url hides optout link.",
+
+        "showFooterIcons" : "1",
+
+        "optout_title"  :   "Si deseas darte de baja o dejar de recibir nuestras comunicaciones, click en:",
+        "optout_txt"    :   "Darme de baja",
+        "optout_url"    :   "%%unsub_center_url%%",
+        "optout_urlDCE" :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlFSH" :   "%%unsub_center_url%%",
+        "optout_urlNONE":   "",
+        "color_lnk"     :   "#333333",
+        "color_txt"     :   "#a5a5a5",
+        "color_bkg"     :   "#f7f7f7",
+
+        "profile_title2":   "o bien: ",
+        "profile_title" :   "",
+        "profile_txt"   :   "Actualizar perfil",
+        "profile_url"   :   "%%profile_center_url%%",
+
+        "hideActPerf"   :   "0",
+        "legal"         :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalDCEHTML"  :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalFSH"      :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "this"          :   ""
+    },
+    "footericons" :
+    [
+        {
+            "url"       : "https://www.iqos.com/mx/es/descubre/devices.html",
+            "img"       : "footer-ico-cart.png",
+            "imgHTML"   : "footer-ico-cart.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbeff2e9-4aba-40af-8353-d8b0080d09ab.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "txt"       : "compra en línea",
+            "name"      : "Carrito"
+        },
+        {
+            "url"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "img"       : "footer-ico-locator.png",
+            "imgHTML"   : "footer-ico-locator.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/be1acae3-c32d-4938-927e-a1afcca9b6ed.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "txt"       : "localiza una tienda",
+            "name"      : "Localización"
+        },
+        {
+            "url"       : "mailto:contact.mx@iqos.com",
+            "img"       : "footer-ico-mail.png",
+            "imgHTML"   : "footer-ico-mail.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/06428bc4-9388-41df-bd2c-c2a44d5ace99.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "txt"       : "email",
+            "name"      : "Correo"
+        },
+        {
+            "url"       : "tel:8001476769",
+            "img"       : "footer-ico-phone.png",
+            "imgHTML"   : "footer-ico-phone.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cac1047b-f9e7-49d0-a580-1979a8617c91.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "txt"       : "llámanos",
+            "name"      : "Teléfono"
+        }
+    ],
+    "social" :  
+    [
+        {
+            "url"       : "https://www.facebook.com/iqosmx/",
+            "img"       : "ico-facebook.png",
+            "imgHTML"   : "ico-facebook.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
+            "name"      : "facebook"
+        },
+        {
+            "url"       : "https://www.instagram.com/iqos_mx/",
+            "img"       : "ico-instagram.png",
+            "imgHTML"   : "ico-instagram.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d037097f-fd8b-42a6-a3dd-563c9048e773.png",
+            "name"      : "instagram"
+        }
+    ],
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "img"           : "header_iqos.png",
+            "imgHTML"       : "header_iqos.png",
+            "imgFSH"        : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e2f8bd1f-3fe6-4e38-8962-28d385dddb6b.png",
+            "imgDCE"        : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0bc2beb-aea1-41da-831a-f9101cdeca95.png",
+            "url"           : "https://mx.iqos.com/",
+            "this"          : "Logo"
+        },
+        {
+            "type"          : "img",
+            "img"           : "21.49-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "Cover"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "90",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "greeting",
+            "fontweight"    : "300",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "50",
+            "content"       : "Estamos muy emocionados de invitarte a formar parte de nuestro próximo Instagram Live.<br>Tú has sido parte importante del cambio y queremos que nos cuentes acerca de tu experiencia durante la transmisión.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#3087bd",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#3087bd",
+            "framepadding"  : "30",
+            "content"       : "<br>Durante la transmisión, te haremos 3 preguntas para que nos cuentes cómo ha sido tu experiencia con IQOS. Las preguntas serán las siguientes:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "1-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "30",
+                    "mtop"          : "5",
+                    "img"           : "1uno.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 1uno"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "80",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "¿Qué pensaste la primera vez que<br>viste un IQOS?",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "22px",
+                    "p_align"       : "left",
+                    "p_color"       : "#FFFFFF",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "graylineframed",
+            "img"           : "linegray2b.png",
+            "imgwidth"      : "400",
+            "height"        : "auto",
+            "width"         : "80%",
+            "align"         : "center",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#3087bd",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "2-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "30",
+                    "mtop"          : "25",
+                    "img"           : "2dos.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 2dos"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "80",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>¿Qué opinan tus amigos fumadores<br> adultos de que usas IQOS?",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "22px",
+                    "p_align"       : "left",
+                    "p_color"       : "#FFFFFF",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "graylineframed",
+            "img"           : "linegray2b.png",
+            "imgwidth"      : "400",
+            "height"        : "auto",
+            "width"         : "80%",
+            "align"         : "center",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#3087bd",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "3-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "30",
+                    "mtop"          : "25",
+                    "img"           : "3tres.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 3tres"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#3087bd",
+                    "widthp100"     : "80",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>Según tu experiencia, ¿cuál es la razón<br>más importante por la que más fumadores adultos<br>deberían de cambiar a IQOS?",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "22px",
+                    "p_align"       : "left",
+                    "p_color"       : "#FFFFFF",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#185a99",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#185a99",
+            "framepadding"  : "30",
+            "content"       : "Te sugerimos tomar en cuenta las siguientes consideraciones durante tu participación:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "1-4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#e1e0e2",
+                    "widthp100"     : "15",
+                    "imgwidth"      : "20",
+                    "mtop"          : "35",
+                    "img"           : "dash.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "dash"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#e1e0e2",
+                    "widthp100"     : "75",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>No hacer mención de la marca de las unidades de tabaco para calentar.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "20px",
+                    "p_align"       : "left",
+                    "p_color"       : "#185a99",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                }
+
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#185a99",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#185a99",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#185a99",
+            "framepadding"  : "1",
+            "content"       : "",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "2-4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#b8b7bb",
+                    "widthp100"     : "15",
+                    "imgwidth"      : "20",
+                    "mtop"          : "60",
+                    "img"           : "dash.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "dash"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#b8b7bb",
+                    "widthp100"     : "75",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>En tus respuestas, evita relacionar tu experiencia con temas de salud. Si lo prefieres, puedes ahondar en beneficios como menos olor, sin ceniza, sin humo.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "20px",
+                    "p_align"       : "left",
+                    "p_color"       : "#FFFFFF",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                }
+
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#185a99",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#185a99",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#185a99",
+            "framepadding"  : "1",
+            "content"       : "",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "3-4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#e1e0e2",
+                    "widthp100"     : "15",
+                    "imgwidth"      : "20",
+                    "mtop"          : "60",
+                    "img"           : "dash.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "dash"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#e1e0e2",
+                    "widthp100"     : "75",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>Al ser IQOS un producto para mayores de edad, durante tu participación por favor contempla que no pueden aparecer menores de edad.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "20px",
+                    "p_align"       : "left",
+                    "p_color"       : "#185a99",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                }
+
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#185a99",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#185a99",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#185a99",
+            "framepadding"  : "1",
+            "content"       : "",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "4-4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#b8b7bb",
+                    "widthp100"     : "15",
+                    "imgwidth"      : "20",
+                    "mtop"          : "60",
+                    "img"           : "dash.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "dash"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#b8b7bb",
+                    "widthp100"     : "75",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>Ten en cuenta que debes tener una cuenta de Instagram activa para unirte a la transmisión. Serás invitado por parte de @iqos_mx para que seas conectado.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "20px",
+                    "p_align"       : "left",
+                    "p_color"       : "#FFFFFF",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#185a99",
+                    "widthp100"     : "5",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "pixel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "pixel.png"
+                }
+
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#185a99",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#185a99",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#185a99",
+            "framepadding"  : "1",
+            "content"       : "&nbsp;",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Te contactaremos en los siguientes días para comunicarte los siguientes pasos.<br><br>Te recordamos el horario:",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "36",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#f4f4f4",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#3087bd",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#3087bd",
+            "framepadding"  : "30",
+            "content"       : "15 de abril 2021<br>7:00 pm (Ciudad de México)",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Si aún no nos sigues, encuentra la cuenta de IQOS aquí.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1",
+            "widthbutton"   : "280",
+            "color_bkg"     : "transparent",
+            "button"        : "btn-sa-ig-iqos-mx.png",
+            "buttonHTML"    : "",
+            "buttonFSH"     : "",
+            "buttonDCE"     : "",
+            "url_cta"       : "https://www.instagram.com/iqos_mx/",
+            "this"          : "CTA btn-sa-ig-iqos-mx"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "25",
+            "content"       : "¡Te agradecemos en grande tu participación!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "700",
+            "fontsize"      : "20",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#0a2354",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "25",
+            "margin_bottom" : "35",
+            "content"       : "CALIENTA TABACO REAL.<br>MENOS OLOR. SIN HUMO. SIN CENIZA.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
+        },        
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    
