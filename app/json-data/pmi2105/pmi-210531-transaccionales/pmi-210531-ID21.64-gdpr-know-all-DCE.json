@@ -1,0 +1,905 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20210531_Transaccionales > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "GDPRKnowAll",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2105/pmi-210531-transaccionales/pmi-210531-ID21.64-gdpr-know-all-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210531-ID21.64-gdpr-know-all-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "logo" : 
+    {
+        "img"           :   "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d45cd45e-9c4a-4dda-a941-2ad5b85a8051.png",
+        "imgFSH"        :   "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/379e2111-ed83-43fe-88ec-0a7a46307c53.png",
+        "imgDCE"        :   "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d45cd45e-9c4a-4dda-a941-2ad5b85a8051.png",
+        "imgHTML"       :   "logo-iqos.png",
+        "width"         :   "85"
+    },
+    "footer" : 
+    {
+        "type"          :   "amazing_v1",
+        "use_notes"     :   "README: empty value of optout_url hides optout link.",
+
+        "showFooterIcons" : "1",
+
+        "optout_title"  :   "Si deseas darte de baja o dejar de recibir nuestras comunicaciones, click en:",
+        "optout_txt"    :   "Darme de baja",
+        "optout_url"    :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlDCE" :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlFSH" :   "%%unsub_center_url%%",
+        "optout_urlNONE":   "",
+        "color_lnk"     :   "#333333",
+        "color_txt"     :   "#a5a5a5",
+        "color_bkg"     :   "#f7f7f7",
+
+        "profile_title2":   "o bien: ",
+        "profile_title" :   "",
+        "profile_txt"   :   "Actualizar perfil",
+        "profile_url"   :   "%%profile_center_url%%",
+
+        "hideActPerf"   :   "1",
+        "legal"         :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalDCEHTML"  :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalFSH"      :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "this"          :   ""
+    },
+    "footericons" :
+    [
+        {
+            "url"       : "https://www.iqos.com/mx/es/descubre/devices.html",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "imgHTML"   : "footer-ico-cart.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbeff2e9-4aba-40af-8353-d8b0080d09ab.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "txt"       : "compra en línea",
+            "name"      : "Carrito"
+        },
+        {
+            "url"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "imgHTML"   : "footer-ico-locator.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/be1acae3-c32d-4938-927e-a1afcca9b6ed.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "txt"       : "localiza una tienda",
+            "name"      : "Localización"
+        },
+        {
+            "url"       : "mailto:contact.mx@iqos.com",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "imgHTML"   : "footer-ico-mail.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/06428bc4-9388-41df-bd2c-c2a44d5ace99.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "txt"       : "email",
+            "name"      : "Correo"
+        },
+        {
+            "url"       : "tel:8001476769",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "imgHTML"   : "footer-ico-phone.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cac1047b-f9e7-49d0-a580-1979a8617c91.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "txt"       : "llámanos",
+            "name"      : "Teléfono"
+        }
+    ],
+    "social" :  
+    [
+        {
+            "url"       : "https://www.facebook.com/iqosmx/",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
+            "imgHTML"   : "ico-facebook.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb855f80-66e5-4f83-8fa7-16e114db63f5.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5d8d9fb-bbdf-4848-ba5a-f74b76efe528.png",
+            "name"      : "facebook"
+        },
+        {
+            "url"       : "https://www.instagram.com/iqos_mx/",
+            "img"       : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
+            "imgHTML"   : "ico-instagram.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce1f5bfa-6237-4826-8bbf-36318a18a6dc.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d037097f-fd8b-42a6-a3dd-563c9048e773.png",
+            "name"      : "instagram"
+        }
+    ],
+      
+    "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "21.64-1.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.64-x"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "#00d1d2",
+            "this": "height in px"
+        },
+        {
+            "type": "spacer",
+            "height": "70",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "<span style=\"color:#00d1d2;\">Estimado </span> %%ProperCase(first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "50",
+            "content": "En respuesta a su solicitud relacionada con su información, confirmamos que nosotros y nuestras empresas afiliadas actualmente procesamos y hemos procesado información suya de conformidad con lo descrito en nuestro aviso de privacidad. En este detallamos lo siguiente:",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "#faf7f4",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 1",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "Los propósitos del procesamiento",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 2",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "Los tipos de información que se procesan",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 3",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "Los tipos de destinatarios de la información",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 4",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "(cuando no obtengamos la información directamente de usted) las fuentes de información",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 5",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "El periodo previsto durante el cual se almacenará la información (o los criterios que usamos para determinar dicho periodo",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 6",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "La existencia del derecho de acceso, rectificación, cancelación de información u oposición de procesamiento",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 7",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "5",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "El derecho de presentar una queja con una autoridad de control ",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "#faf7f4",
+            "THIS": "BULLET 8 ",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "20",
+                    "mtop": "8",
+                    "img": "21.64-bullet.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.id-x"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "30px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "La existencia de toma de decisiones automatizadas en caso de que tales decisiones generen efectos legales que le conciernan o afecten de manera importante",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "#faf7f4",
+            "this": "height in px"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "25",
+            "content": "Además de los datos del informe, revisamos publicaciones de redes sociales, por lo que podríamos tener información relacionada con usted de varias plataformas de redes sociales que use. Sin embargo, no podemos vincular esa información a individuos específicos y tampoco lo integramos a nuestra base de datos de consumidores. <br><br>Si quisiera saber si tenemos información de esta índole sobre usted, deberá proporcionarnos su nombre de usuarios de las plataformas de redes sociales en cuestión que le interesen y podremos buscar por usted.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "50",
+            "content": "Atentamente.<br><br>Philip Morris México <br>Productos y Servicios, S. De R.L. de C.V.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "12",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#faf7f4",
+            "margin_top": "50",
+            "margin_bottom": "10",
+            "content": "Este correo se envió únicamente a USERNAME. <br>Si usted no es esta persona, recibió este correo por error. <br>Si es el caso, notifiquemos inmediatamente a <br>contact.mx@iqos.com y borre este correo de su sistema. <br>Este correo no deberá ser modificado. ",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "12",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#faf7f4",
+            "margin_top": "15",
+            "margin_bottom": "50",
+            "content": "Para saber más sobre como usamos su información, actualizar sus preferencias de suscripción o abandonar nuestra base de datos, consulte nuestro aviso de privacidad disponible en https://www.pmiprivacy.com/",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "35",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- FOOTER ------------",
+            "type": "spacer",
+            "height": "15",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "15",
+            "margin_topbottom": "10",
+            "color_bkg": "#34303e",
+            "THIS": "LINKS STORE & CONTACT",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "1",
+            "color_bkg": "#34303e",
+            "THIS": "LOGO & SOCIAL",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "30",
+                    "imgwidth": "130",
+                    "mtop": "0",
+                    "img": "footer-logo-iqos.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303e",
+                    "widthp100": "50",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "footer-logo-fb.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.facebook.com/iqosmx/",
+                    "THISIMG": "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "footer-logo-ig.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "35",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- LEGAL ------------",
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "15",
+            "content": "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

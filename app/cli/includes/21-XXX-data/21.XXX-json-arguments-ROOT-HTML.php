@@ -16,16 +16,17 @@ switch ($target)
 }
 
 $requiredBlocks = array(
-    "img_Logo_Header_HTML",
-    "img_Cover_HTML",
+    "header_brand_world",
+
     "spacer",
     "greeting_negro",
-    "p300",
+    "p300_BW",
 
 
     "spacer",   
     "legal_extra",
-    "disclaimer_iqos"    
+    "disclaimer_iqos",
+    "footer_brand_world"
 );
 
 
@@ -34,11 +35,16 @@ $requiredBlocks = array(
     "spacer",
     "pframed",
     "cta1",
+    "p300_BW",
+    "p700_BW",
     "greeting_negro",
     "greeting_dorado",
+    "footer_brand_world",
+    "header_brand_world",
+
+    
     "p300",
     "p700",
-
     "img_Logo_Header_HTML",
     "img_Cover_HTML",
     "rawHTML",

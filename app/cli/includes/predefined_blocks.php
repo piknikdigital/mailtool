@@ -116,6 +116,7 @@ $libraryBlocks['rawHTML'] ='
 $libraryBlocks['m_TXT_TXT_m'] ='
         {
             "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
@@ -125,7 +126,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                 {
                     "coltype"       : "txt_cta",
                     "color_bkg"     : "#ffffff",
-                    "widthp100"     : "50",
+                    "widthp100"     : "45",
 
                     "h1"            : "",
                     "h1_fontweight" : "700",
@@ -152,9 +153,15 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "THISIMG"       : ""
                 },
                 {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",                    
+                    "mtop"          : "0"
+                },
+                {
                     "coltype"       : "txt_cta",
                     "color_bkg"     : "#ffffff",
-                    "widthp100"     : "50",
+                    "widthp100"     : "45",
 
                     "h1"            : "",
                     "h1_fontweight" : "700",
@@ -185,6 +192,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
 $libraryBlocks['m_TXT_IMG_m'] ='
         {
             "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
@@ -194,7 +202,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                 {
                     "coltype"       : "txt_cta",
                     "color_bkg"     : "#ffffff",
-                    "widthp100"     : "75",
+                    "widthp100"     : "45",
 
                     "h1"            : "",
                     "h1_fontweight" : "700",
@@ -221,9 +229,15 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "THISIMG"       : ""
                 },
                 {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",                    
+                    "mtop"          : "0"
+                },
+                {
                     "coltype"       : "img",
                     "color_bkg"     : "#ffffff",
-                    "widthp100"     : "25",
+                    "widthp100"     : "45",
                     "imgwidth"      : "100",
                     "mtop"          : "0",
                     "img"           : "21.id-x.jpg",
@@ -238,6 +252,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
 $libraryBlocks['m_IMG_TXT_m'] ='
         {
             "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
@@ -256,6 +271,12 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 21.id-x"
+                },
+                {
+                    "coltype"       : "spacer____",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",                    
+                    "mtop"          : "0"
                 },
                 {
                     "coltype"       : "txt_cta",
@@ -311,6 +332,12 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                     "THISIMG"       : "IMG 21.id-x"
                 },
                 {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",                    
+                    "mtop"          : "0"
+                },
+                {
                     "coltype"       : "img",
                     "color_bkg"     : "#ffffff",
                     "widthp100"     : "25",
@@ -341,12 +368,12 @@ $libraryBlocks['cta1'] ='
             "type"          : "cta1",
             "widthbutton"   : "280",
             "color_bkg"     : "transparent",
-            "button"        : "btn-sa-.png",
+            "button"        : "btn.png",
             "buttonHTML"    : "",
             "buttonFSH"     : "",
             "buttonDCE"     : "",
             "url_cta"       : "#",
-            "this"          : "CTA btn-sa-"
+            "this"          : "CTA btn"
         },';
 $libraryBlocks['spacer'] ='
         {
@@ -1053,14 +1080,274 @@ $libraryBlocks['3cols_chat_fb_phone'] ='
                 }                
             ]
         },';
+$libraryBlocks['footer_brand_world'] =',
+        {
+            "_THIS_BLOCK"   : "-------------- FOOTER ------------",
+            "type"          : "spacer",
+            "height"        : "15",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "15",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#34303e",
+            "THIS"              : "LINKS STORE & CONTACT",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "1",
+            "color_bkg"         : "#34303e",
+            "THIS"              : "LOGO & SOCIAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "130",
+                    "mtop"          : "0",
+                    "img"           : "footer-logo-iqos.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "50",                    
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "10",
+                    "imgwidth"      : "30",
+                    "mtop"          : "6",
+                    "img"           : "footer-logo-fb.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://www.facebook.com/iqosmx/",
+                    "THISIMG"       : "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "10",
+                    "imgwidth"      : "30",
+                    "mtop"          : "6",
+                    "img"           : "footer-logo-ig.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "35",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+
+        {
+            "_THIS_BLOCK"   : "-------------- LEGAL ------------",
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "25",
+            "margin_bottom" : "15",
+            "content"       : "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
+            "this"          : "TXT"
+        }';
+$libraryBlocks['header_brand_world'] ='
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },';
+$libraryBlocks['p300_BW'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "IQOS <span style=\"color:#e4ab68;\">IQOS</span>",
+            "this"          : "TXT"
+        },';
+$libraryBlocks['p700_BW'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "20",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "IQOS <span style=\"color:#e4ab68;\">IQOS</span>",
+            "this"          : "TXT"
+        },';
+
 
 // ----
 
 
 // Get the keys of array
 // print_r(array_keys($libraryBlocks));
-
-
 
 /*
     "img_Logo_Header_HTML",
@@ -1095,4 +1382,9 @@ $libraryBlocks['3cols_chat_fb_phone'] ='
     "graylineframed",
     "shopping_list",
     "3cols_chat_fb_phone",
+    "footer_brand_world",
+    "header_brand_world",
+    "p300_BW",
+    "p700_BW",
+
 */

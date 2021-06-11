@@ -8,6 +8,13 @@ https://www.iqos.com/mx/es/descubre/devices.html?utm_source=crm&utm_medium=email
 
 */ 
 
+global $designStyle;
+
+if ( !isset($designStyle) )
+    $designStyle     =  "sa";     // "sa": Simple Amazing 2020 // "bw": Brand World 2021
+
+
+
 $footer_blocks = array();
 
 $footer_blocks['DCE'] ='
@@ -501,6 +508,13 @@ $footer_blocks['FSHWHITE'] ='
 
 
 /* ---- */
+
+
+if ($designStyle == "bw")
+    $footer_blocks = NULL;
+    
+
+
 
 /*
 
