@@ -1,0 +1,380 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH.html",
+
+        "Subject"          :   "Gracias por registrarte en Futuro Sin Humo",
+        "Preheader"        :   "¡Hagámoslo una realidad!",
+
+        "PATH"             :   "Content Builder > 118_FSH 21 06 2021 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "FSH Welcome Performance",
+                "CustomerKey" : "e0622818-edcd-44d3-85dd-4999c747b57d"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2106/pmi-210621-fsh/pmi-210621-ID21.90-fsh-welcome-performance-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-blocks-mod-B01-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210621-ID21.90-fsh-welcome-performance-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "logo" : 
+    {
+        "img"           :   "",
+        "imgFSH"        :   "",
+        "imgDCE"        :   "",
+        "imgHTML"       :   "",
+        "width"         :   "85"
+    },
+    "footer" : 
+    {
+        "type"          :   "FSH_transaccional_v1",
+        "use_notes"     :   "README: use the social block to define the social icons to use.",
+
+        "color_lnk"     :   "#333333",
+        "color_txt"     :   "#a5a5a5",
+        "color_bkg"     :   "#f7f7f7",
+
+        "optout_title"  :   "Si deseas darte de baja o dejar de recibir nuestras comunicaciones, click en: <br>",
+        "optout_txt"    :   "Darme de baja",
+        "optout_urlDCE" :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlFSH" :   "%%unsub_center_url%%",
+        "optout_url"    :   "%%unsub_center_url%%",
+
+        "profile_title":   " | ",
+        "profile_txt"   :   "Actualizar perfil",
+        "profile_url"   :   "%%profile_center_url%%",
+
+        "legal"         :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "legalDCEHTML"  :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalFSH"      :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "this"          :   ""
+    },
+    "footericons" :
+    [
+        {
+            "url"       : "https://www.iqos.com/mx/es/descubre/devices.html",
+            "img"       : "footer-ico-cart.png",
+            "imgHTML"   : "footer-ico-cart.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbeff2e9-4aba-40af-8353-d8b0080d09ab.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/79d1ca5f-2afe-45fa-97ce-b38c15d2b906.png",
+            "txt"       : "compra en línea",
+            "name"      : "Carrito"
+        },
+        {
+            "url"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "img"       : "footer-ico-locator.png",
+            "imgHTML"   : "footer-ico-locator.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/be1acae3-c32d-4938-927e-a1afcca9b6ed.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fafbb1a8-d42b-42ea-b2c4-649ec73e7b67.png",
+            "txt"       : "localiza una tienda",
+            "name"      : "Localización"
+        },
+        {
+            "url"       : "mailto:contact.mx@iqos.com",
+            "img"       : "footer-ico-mail.png",
+            "imgHTML"   : "footer-ico-mail.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/06428bc4-9388-41df-bd2c-c2a44d5ace99.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/02d62fa8-4662-46b3-a60d-ed0ee8f52b1e.png",
+            "txt"       : "email",
+            "name"      : "Correo"
+        },
+        {
+            "url"       : "tel:8001476769",
+            "img"       : "footer-ico-phone.png",
+            "imgHTML"   : "footer-ico-phone.png",
+            "imgFSH"    : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cac1047b-f9e7-49d0-a580-1979a8617c91.png",
+            "imgDCE"    : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44a52512-e8f0-48bf-b3ea-4a2e8cabc017.png",
+            "txt"       : "llámanos",
+            "name"      : "Teléfono"
+        }
+    ],
+    "social" :  
+    [
+        {
+            "url"       : "mailto:contacto@futurosinhumo.com.mx",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/97f7b4f8-b8a1-4e91-a0ee-46ca5b27d7cc.png",
+            "imgHTML"   : "mail-gris.png",
+            "txt"       : "contacto@futurosinhumo.com.mx",
+            "name"      : ""
+        },
+        {
+            "url"       : "https://futurosinhumo.com.mx/",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/3e0d2084-6f8a-4ede-b158-ce9ab99f7c63.png",
+            "imgHTML"   : "www-gris.png",
+            "txt"       : "futurosinhumo.com.mx",
+            "name"      : ""
+        },
+        {
+            "url"       : "https://www.facebook.com/FuturoSinHumo",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/2655baf5-514d-4564-995d-c234a8135251.png",
+            "imgHTML"   : "facebook-gris.png",
+            "txt"       : "Síguenos",            
+            "name"      : ""
+        }
+    ],
+
+    "blocks" : 
+    [
+        {
+            "type": "spacer",
+            "height": "90",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "spacer",
+            "height": "90",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/ca3c4e91-3f73-496d-9dac-2ab08b1efe96.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.90-1"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Gracias por registrarte.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/84f31a71-a603-4546-b98f-db06f8f30faf.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.90-2"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Alcemos la voz para hacerle saber al Congreso que estas alternativas son necesarias para lograr un México sin humo de cigarro.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/587d9d4d-db02-4a21-86fa-72108f954171.png",
+            "buttonHTML": "",
+            "buttonFSH": "",
+            "buttonDCE": "",
+            "url_cta": "https://futurosinhumo.com.mx/",
+            "this": "CTA cta-fsh-firmar"
+        },
+        {
+            "type": "spacer",
+            "height": "90",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "4",
+            "margin_topbottom": "25",
+            "color_bkg2": "#ffdd3a",
+            "color_bkg": "#ffffff",
+            "THIS": "SHARE FB TW WA",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "40",
+                    "imgwidth": "260",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/39a2d7ce-19c3-4d77-84a2-f5f2ee4bc32c.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.90-3"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/8cbb8a78-1d61-4d45-be94-35cde7572cdd.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG": "IMG facebook-negro"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/96efa663-0d67-47af-84ee-d382aa929b02.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://ctt.ac/z13Mr",
+                    "THISIMG": "IMG twitter-negro"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/b309b5cc-c005-4d31-97c0-0b00a6497b16.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG": "IMG whatsapp-negro"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "6",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<br>&nbsp;",
+                    "p_fontweight": "300",
+                    "p_fontsize": "16px",
+                    "p_height": "20px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/59b7f1a8-7077-46e1-aeb4-2e1e761b9a74.png    ",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.90-4"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/a6b4042a-323f-4543-be07-e2efd42b69ec.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.90-5"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

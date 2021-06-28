@@ -53,6 +53,7 @@ $libraryBlocks['greeting_negro'] ='
             "color_greeting": "#333333",
             "color_bkg"     : "transparent",
             "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
             "greetingFSH"   : "Hola, %%FirstName%%",
             "greetingHTML"  : "Hola, %%first_name%%",
             "greetingDCE"   : "Hola, %%first_name%%",
@@ -595,13 +596,13 @@ $libraryBlocks['pframed'] ='
             "width"         : "80%",
             "align"         : "center",
             "color"         : "#000000",
-            "color_bkg"     : "#f6f6f6",
-            "color_boxbkg"  : "#eeeeee",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#faf7f4",
             "margin_top"    : "0",
             "margin_bottom" : "0",
-            "framecolor"    : "#eeeeee",
+            "framecolor"    : "#faf7f4",
             "framepadding"  : "30",
-            "content"       : "Si tu amigo<sup>(1)</sup> adquiere su primer <strong>IQOS</strong> usando tu código único <strong>recibirá $300 MXN</strong> de descuento.<sup>(2)</sup><br><br>¡Tú <strong>recibirás $300 MXN<sup>(3)</sup></strong> redimibles en artículos <strong>IQOS</strong>!",
+            "content"       : "<strong>IQOS</strong> descuento.<sup>(2)</sup><br><br>¡Tú <strong>recibirás $300 MXN<sup>(3)</sup></strong>",
             "this"          : "TXT"
         },';
 $libraryBlocks['cols_33_33_33'] ='
