@@ -3,12 +3,12 @@
    
     "config_template" :
     {
-        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML",
-        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML.html",
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML.html",
 
-        "Subject"          :   "",
-        "Preheader"        :   "",
+        "Subject"          :   "El mantenimiento ideal para tu IQOS está en nuestra Tiendas",
+        "Preheader"        :   "Visitanos y recibe el mejor servicio.",
 
         "PATH"             :   "",
         "Name-CustomerKey" :   
@@ -20,9 +20,9 @@
         ],
         "test-url"         :   
         [
-            { "urlD" : "https://paginum.com/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML" } ,
-            { "urlS" : "https://paginum.com/email/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML.html"  },
-            { "urlS" : "http://mailtool.lan:8888/email/pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML.html"},
+            { "urlD" : "https://paginum.com/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML.html"},
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
 
         ]
@@ -32,7 +32,7 @@
     "BaseURLassets"    :   "",
     "BaseURLimg"       :   "",
     
-    "HTMLstaticfile"   :   "pmi2106/pmi-210625-transaccionales/pmi-210625-ID21.98-m12-nps-3-HTML.html",
+    "HTMLstaticfile"   :   "pmi2106/pmi-210631-oos-stores/pmi-210631-ID21.105-oos-stores-maintenance-HTML.html",
 
     "trackmailopen"            :   "0",
     "trackmailaudience"        :   "0",    
@@ -44,7 +44,7 @@
 
     "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
     "TwigFooterBlock"  :   "block-footer.twig",
-    "Source"           :   "pmi-210625-ID21.98-m12-nps-3-HTML",
+    "Source"           :   "pmi-210631-ID21.105-oos-stores-maintenance-HTML",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
@@ -58,7 +58,7 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "header-iqos-bw.png",
+            "img"           : "header-iqos-bw-2.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
@@ -68,12 +68,22 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.98-1.jpg",
+            "img"           : "21.105-1.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.98-1"
+            "this"          : "IMG 21.105-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.105-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.105-2"
         },
         {
             "type"          : "spacer",
@@ -83,11 +93,11 @@
         },
         {
             "type"          : "greeting",
-            "fontweight"    : "300",
+            "fontweight"    : "700",
             "color_greeting": "#333333",
             "color_bkg"     : "transparent",
-            "greeting"      : "<span style=\"color:#e27d34;\">Hola,</span> %%first_name%%",
-            "greetingBW"    : "<span style=\"color:#e27d34;\">Hola,</span> %%first_name%%",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
             "greetingFSH"   : "Hola, %%FirstName%%",
             "greetingHTML"  : "Hola, %%first_name%%",
             "greetingDCE"   : "Hola, %%first_name%%",
@@ -103,36 +113,76 @@
             "align"         : "center",
             "color"         : "#333333",
             "color_bkg"     : "transparent",
-            "margin_top"    : "60",
+            "margin_top"    : "70",
             "margin_bottom" : "50",
-            "content"       : "Queremos conocer sobre tu experiencia al realizar una <b>Llamada de Servicio IQOS</b> contestando la siguiente encuesta.",
+            "content"       : "Recuerda que tu IQOS al ser un dispositivo electrónico, necesita mantenimiento constante. Acércate a nuestros expertos en las <b>Tiendas IQOS</b> y asegura que esté en óptimas condiciones. <br><br>Además, encuentra los siguientes servicios:",
             "this"          : "TXT"
         },
         {
-            "type"          : "cta1",
-            "widthbutton"   : "250",
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.105-3.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.105-3"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
             "color_bkg"     : "transparent",
-            "button"        : "cta-bw-contestar-encuesta.png",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.105-4.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.105-4"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "cta1",
+            "widthbutton"   : "230",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-localizar-tienda.png",
             "buttonHTML"    : "",
             "buttonFSH"     : "",
             "buttonDCE"     : "",
-            "url_cta"       : "#LINK_SURVEY",
-            "this"          : "CTA cta-bw-contestar-encuesta"
+            "url_cta"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this"          : "CTA cta-bw-localizar-tienda"
         },
         {
             "type"          : "p",
             "font"          : "Cabin",
             "fontweight"    : "700",
-            "fontsize"      : "20",
+            "fontsize"      : "26",
             "height"        : "30",
             "width"         : "70%",
             "align"         : "center",
-            "color"         : "#e27d34",
+            "color"         : "#00d1d2",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "CALIENTA TABACO REAL. MENOS OLOR,<br>SIN HUMO, SIN CENIZA",
+            "content"       : "#ElijoIQOS",
             "this"          : "TXT"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "*Sujeto a disponibilidad de inventario.  "
         },
         {
             "type"          : "pframed",

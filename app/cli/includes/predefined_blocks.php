@@ -1303,7 +1303,7 @@ $libraryBlocks['header_brand_world'] ='
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "header-iqos-bw.png",
+            "img"           : "header-iqos-bw-2.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",

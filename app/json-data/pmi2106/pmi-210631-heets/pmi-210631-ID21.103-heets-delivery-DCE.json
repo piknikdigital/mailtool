@@ -1,0 +1,418 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE.html",
+
+        "Subject"          :   "Encuentra las Unidades de tabaco para calentar",
+        "Preheader"        :   "Nosotros te decimos dónde",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20210631_heets > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Heets Delivery",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2106/pmi-210631-heets/pmi-210631-ID21.103-heets-delivery-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210631-ID21.103-heets-delivery-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "header-iqos-bw-2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "spacer",
+            "height": "70",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "pframed",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#FFFFFF",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#34303d",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#34303d",
+            "framepadding": "30",
+            "content": "<br>Las Unidades de tabaco para calentar<br>seguirán disponibles en los más de<br><span style=\"font-size:24px; font-weight: 700;\">3500 puntos de venta</span><br> seleccionados de las siguientes tiendas de<br> conveniencia y cadenas comerciales.<br>&nbsp;",
+            "this": "TXT"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "10",
+            "margin_topbottom": "10",
+            "color_bkg": "transparent",
+            "THIS": "LOGOS PUNTO DE VENTA",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "imgwidth": "380",
+                    "mtop": "0",
+                    "img": "21.103-1.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.103-1"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "10",
+            "margin_topbottom": "50",
+            "color_bkg": "transparent",
+            "THIS": "ORDENA TUS UNIDADES DE TABACO",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "100",
+                    "h1": "¡Ordena tus Unidades de tabaco<br>para calentar en línea!",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "20px",
+                    "h1_height": "30px",
+                    "h1_align": "center",
+                    "h1_color": "#FFFFFF",
+                    "p": "<br>Te recordamos que puedes ordenarlas<br>en línea y pagarlas al momento de la entrega en<br>Ciudad de México, Área Metropolitana, Toluca,<br>Morelos y Puebla con entrega en 24 horas,<br><span style=\"font-size:24px;font-weight:700;\">¡sin costo de envío!</span>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "30px",
+                    "p_align": "center",
+                    "p_color": "#FFFFFF",
+                    "button": "cta-bw-ordenar-unidades.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "https://www.ordenar-unidades.com/?utm_source=crm&utm_medium=email&utm_campaign=launch",
+                    "widthbutton": "180",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "*Entregas únicamente en Ciudad de México y Área Metropolitana. Sólo para mayores de edad con identificación oficial. Este servicio es exclusivo para usuarios adultos de IQOS registrados en nuestra base de datos."
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- FOOTER ------------",
+            "type": "spacer",
+            "height": "15",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "15",
+            "margin_topbottom": "10",
+            "color_bkg": "#34303e",
+            "THIS": "LINKS STORE & CONTACT",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "1",
+            "color_bkg": "#34303e",
+            "THIS": "LOGO & SOCIAL",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "30",
+                    "imgwidth": "130",
+                    "mtop": "0",
+                    "img": "footer-logo-iqos.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303e",
+                    "widthp100": "50",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "footer-logo-fb.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.facebook.com/iqosmx/",
+                    "THISIMG": "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "footer-logo-ig.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "35",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- LEGAL ------------",
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "15",
+            "content": "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
