@@ -1,0 +1,462 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH.html",
+
+        "Subject"          :   "¡Gracias por registrarte en IQOS!",
+        "Preheader"        :   "Es momento de dar el siguiente paso.",
+
+        "PATH"             :   "Content Builder > 122_Leads Welcome 04 08 2021 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Leads Welcome",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2108/pmi-210804-leads-welcome/pmi-210804-ID21.152-leads-welcome-nbw-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210804-ID21.152-leads-welcome-nbw-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/fc4ac51b-e965-48fe-96cd-024ce9e97fd2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/bca2bca1-aa40-46b3-b123-3a8555d866cd.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.152-1"
+        },
+        {
+            "type": "spacer",
+            "height": "70",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "50",
+            "content": "¡Gracias por registrarte en IQOS!",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#faf7f4",
+            "framepadding": "1",
+            "content": "<br>Adquiere tu primer <b>Kit IQOS</b> <br>con el siguiente código y recibe<br><span style=\"font-size:26px;font-weight:700;\">10% de descuento</span><br>en tu compra.",
+            "this": "TXT"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "10",
+            "margin_topbottom": "30",
+            "color_bkg": "transparent",
+            "THIS": "PROMO CODE",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "imgwidth": "260",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/7431f06a-7e47-479b-94b8-ada831a3cdc2.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "21.id-x"
+                }
+            ]
+        },
+        {
+            "type": "pframed",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "1",
+            "height": "1",
+            "width": "80%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#faf7f4",
+            "framepadding": "5",
+            "content": "&nbsp;",
+            "this": "SPACER UNDER PROMO CODE"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/3fcd12fb-16b4-4c91-ae39-74b945005f81.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.152-2"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "cta1",
+            "widthbutton": "280",
+            "color_bkg": "transparent",
+            "button": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/8a258fc8-bad9-4d0b-a628-e3c36b9bf83a.png",
+            "buttonHTML": "",
+            "buttonFSH": "",
+            "buttonDCE": "",
+            "url_cta": "https://www.iqos.com/mx/es/descubre/comprar-dispositivos.html",
+            "this": "CTA cta-bw-compra-ahora"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "*Promoción vigente del 1 de agosto al 31 de diciembre de 2021. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código hasta el 31 de diciembre de 2021. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago."
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- FOOTER ------------",
+            "type": "spacer",
+            "height": "15",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "15",
+            "margin_topbottom": "10",
+            "color_bkg": "#34303e",
+            "THIS": "LINKS STORE & CONTACT",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "1",
+            "color_bkg": "#34303e",
+            "THIS": "LOGO & SOCIAL",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "30",
+                    "imgwidth": "130",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/c9b2fa85-d20e-4c02-a00c-b55a829cbd28.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303e",
+                    "widthp100": "50",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/3c8312ba-dc63-404f-b301-ab8e86dc8eb3.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.facebook.com/iqosmx/",
+                    "THISIMG": "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/b3a2f567-acea-46d7-868d-7ed49b573469.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "35",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- LEGAL ------------",
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "15",
+            "content": "&copy; 2021 %%Member_Busname%% Todos los derechos reservados.<br>%%Member_Addr%%,<br>%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%%<br><a href=\"%%unsub_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja</span></a> | <a href=\"%%profile_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Actualizar perfil</span></a>",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

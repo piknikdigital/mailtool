@@ -156,7 +156,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                 {
                     "coltype"       : "spacer",
                     "color_bkg"     : "transparent",
-                    "widthp100"     : "10",                    
+                    "widthp100"     : "10",
                     "mtop"          : "0"
                 },
                 {
@@ -232,7 +232,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                 {
                     "coltype"       : "spacer",
                     "color_bkg"     : "transparent",
-                    "widthp100"     : "10",                    
+                    "widthp100"     : "10",
                     "mtop"          : "0"
                 },
                 {
@@ -276,7 +276,7 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                 {
                     "coltype"       : "spacer____",
                     "color_bkg"     : "transparent",
-                    "widthp100"     : "10",                    
+                    "widthp100"     : "10",
                     "mtop"          : "0"
                 },
                 {
@@ -335,7 +335,7 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                 {
                     "coltype"       : "spacer__",
                     "color_bkg"     : "transparent",
-                    "widthp100"     : "10",                    
+                    "widthp100"     : "10",
                     "mtop"          : "0"
                 },
                 {
@@ -1246,7 +1246,7 @@ $libraryBlocks['footer_brand_world'] =',
                 {
                     "coltype"       : "spacer",
                     "color_bkg"     : "#34303e",
-                    "widthp100"     : "50",                    
+                    "widthp100"     : "50",
                     "mtop"          : "0"
                 },
                 {
@@ -1343,7 +1343,153 @@ $libraryBlocks['p700_BW'] ='
             "this"          : "TXT"
         },';
 
+$libraryBlocks['FSH_Yellow_Share'] ='
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "4",
+            "margin_topbottom"  : "25",
+            "color_bkg2"         : "#ffdd3a",
+            "color_bkg"         : "#ffffff",
+            "THIS"              : "SHARE FB TW WA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "40",
+                    "imgwidth"      : "260",
+                    "mtop"          : "0",
+                    "img"           : "yellow-share-1-txt.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG yellow-share-1-txt  TXT COMPARTE ESTA INICIATIVA"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-2-fb-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG"       : "IMG yellow-share-2-fb-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-3-tw-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://ctt.ac/z13Mr",
+                    "THISIMG"       : "IMG yellow-share-3-tw-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-4-wa-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG"       : "IMG yellow-share-4-wa-share"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "6",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "yellow-share-5-end.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
+        },';
+$libraryBlocks['FSH_Framed_Card'] ='
+        {
+            "type"              : "cols_m_A_B_m",
+            "frameSize"         :  "2",
+            "frameColor"        :  "#ffdd3a",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CARD 1",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "190",
+                    "mtop"          : "0",
+                    "img"           : "21.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.id-x"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "65",
 
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "24px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<br>Hoy en día existen muchos fumadores adultos que no tienen acceso a productos de menor riesgo, por esta razón, es necesario hacerle saber al <b>Congreso</b> que estas alternativas deben ser reguladas y no prohibidas.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
 // ----
 
 
@@ -1387,5 +1533,7 @@ $libraryBlocks['p700_BW'] ='
     "header_brand_world",
     "p300_BW",
     "p700_BW",
+    "FSH_Yellow_Share",
+    "FSH_Framed_Card",
 
 */

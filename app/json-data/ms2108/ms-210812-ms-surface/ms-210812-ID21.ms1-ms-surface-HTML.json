@@ -1,0 +1,472 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML" } ,
+            { "urlS" : "https://paginum.com/email/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "ms2108/ms-210812-ms-surface/ms-210812-ID21.ms1-ms-surface-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "ms/ms-A01-600-v01.twig",
+    "TwigFooterBlock"  :   "",
+    "Source"           :   "ms-210812-ID21.ms1-ms-surface-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "ms1-header.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG ms1-header"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+
+
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "50%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#f1f1f1",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#f1f1f1",
+            "framepadding"  : "1",
+            "content"       : "&nbsp;",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Noto Sans TC",
+            "margin_sides"      : "25",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "DATE & VENUE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#f1f1f1",
+                    "widthp100"     : "8",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#f1f1f1",
+                    "widthp100"     : "35",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "500",
+                    "h1_fontsize"   : "1px",
+                    "h1_height"     : "15px",
+                    "h1_align"      : "center",
+                    "h1_color"      : "#e25a30",
+                    
+                    "p"             : "<span style=\"font-size:48px;font-weight:500;\">30</span><br><span style=\"font-size:24px;\">JUNIO</span><br>19:00 H",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "20px",
+                    "p_height"      : "24px",
+                    "p_align"       : "center",
+                    "p_color"       : "#e25a30",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "0",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#e25a30",
+                    "widthp100"     : "1",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#f1f1f1",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#f1f1f1",
+                    "widthp100"     : "51",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "500",
+                    "h1_fontsize"   : "1px",
+                    "h1_height"     : "15px",
+                    "h1_align"      : "center",
+                    "h1_color"      : "#e25a30",
+                    
+                    "p"             : "Conéctate el próximo<br>30 de junio de 2021<br>a las 19:00 h,<br>Hora Central CDMX.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "20px",
+                    "p_align"       : "left",
+                    "p_color"       : "#a6a6a6",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "50%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#f1f1f1",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#f1f1f1",
+            "framepadding"  : "1",
+            "content"       : "&nbsp;",
+            "this"          : "SPACER DATE & VENUE"
+        },
+
+
+        {
+            "type"          : "p",
+            "fontweight"    : "500",
+            "fontsize"      : "26",
+            "height"        : "34",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#e25a30",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "10",
+            "content"       : "Microsoft Surface<br>Atrévete a ir más allá",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "20",
+            "content"       : "Acompáñanos a nuestras sesiones Microsoft y conoce todo lo que Surface puede hacer por tu organización.<br><br>Agenda del evento:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Noto Sans TC",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "SCHEDULE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "49",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<span style=\"color:#e25a30;\">1.</span> Visión general de la familia Surface<br><span style=\"color:#e25a30;\">2.</span> Trabajadores de primera línea<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">a.</span> Surface Go 2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">b.</span> Surface Pro 7+<br><span style=\"color:#e25a30;\">3.</span> Trabajadores de información<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">a.</span> Surface Laptop 4<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">b.</span> Surface Book 3<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">c.</span> Surface Pro X<br><span style=\"color:#e25a30;\">4.</span> Lugar de trabajo híbrido<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">a.</span> Surface Hub 2S<br><span style=\"color:#e25a30;\">5.</span> Accesorios<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">a.</span> Surface Mice<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">b.</span> Surface Pen<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">c.</span> Surface Dial<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">d.</span> Surface Dock 2<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">e.</span> Surface Adapters<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">f.</span> Microsoft USB-C Travel Hub",
+                    "p_fontweight"  : "400",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "49",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<span style=\"color:#e25a30;\">6.</span> Seguridad y administración<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">a.</span> Firmware<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">b.</span> Gestión unificada<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">c.</span> Gestión desde la nube (DFCI)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">d.</span> Bitlocker<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">e.</span> Windows Hello para empresas<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">f.</span> Surface Tools for Business<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">g.</span> Windows 10<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Modo Seguro Virtual<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Microsoft Defender ATP<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Credential Guard<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- HVCI<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Acceso Condicional<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Windows Update for Enterprise<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Intune Wipe and Retire<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Windows Autopilot con Surface<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:#e25a30;\">h.</span> Windows 11 Preview",
+                    "p_fontweight"  : "400",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "cta1",
+            "widthbutton"   : "180",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-registrate.png",
+            "buttonHTML"    : "",
+            "buttonFSH"     : "",
+            "buttonDCE"     : "",
+            "url_cta"       : "#LINK",
+            "this"          : "CTA cta-registrate"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#f1f1f1",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "4",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#f1f1f1",
+            "THIS"              : "SOCIAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "logo-facebook.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#LINK_FB",
+                    "THISIMG"       : "IMG logo-facebook"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "logo-twitter.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#LINK_TW",
+                    "THISIMG"       : "IMG logo-twitter"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "logo-linkedin.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#LINK_IN",
+                    "THISIMG"       : "IMG logo-linkedin"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "logo-youtube.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#LINK_YT",
+                    "THISIMG"       : "IMG logo-youtube"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",
+                    "imgwidth"      : "20",
+                    "mtop"          : "0",
+                    "img"           : "logo-y.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#LINK_Y",
+                    "THISIMG"       : "IMG logo-y"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "fontweight"    : "400",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "width"         : "88%",
+            "align"         : "left",
+            "color"         : "#505050",
+            "color_bkg"     : "#f1f1f1",
+            "margin_top"    : "10",
+            "margin_bottom" : "15",
+            "content"       : "Copyright &copy;2021  Microsoft Corporation.<br><a href=\"#LINK_UNSUBSCRIBE\" style=\"text-decoration:underline;\" target=\"_blank\">Cancelar suscripción</a>  &nbsp; <a href=\"#LINK_PRIVACY\" style=\"text-decoration:underline;\" target=\"_blank\">Declaración de privacidad</a><br>Microsoft Mexico, S. de R.L. de C.V.<br>Av. Vasco de Quiroga No. 1700 Piso 7, Centro Ciudad Santa Fe<br>Delegación Álvaro Obregón, Mexico D.F C.P. de 01210 Mexico",
+            "this"          : "TXT ADDRESS"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#f1f1f1",
+            "THIS"              : "LOGO MS SURFACE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "34",
+                    "imgwidth"      : "180",
+                    "mtop"          : "0",
+                    "img"           : "logo-ms-surface.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG logo-ms-surface"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "66",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#f1f1f1",
+            "this"          : "height in px"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

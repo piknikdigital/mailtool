@@ -1,0 +1,696 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH.html",
+
+        "Subject"          :   "Lo que haces por ti beneficia a los demás.",
+        "Preheader"        :   "Checa la nueva alternativa al consumo de tabaco.",
+
+        "PATH"             :   "Content Builder > 120_Leads NBW 30 07 2021 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Leads COLD Learn Consider",
+                "CustomerKey" : "64b0f836-34e5-446e-8d3e-520354714642"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2107/pmi-210730-leads-nbw/pmi-210730-ID21.136-leads-cold-learn-consider-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210730-ID21.136-leads-cold-learn-consider-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/fc4ac51b-e965-48fe-96cd-024ce9e97fd2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/091f36c2-22a8-4a7e-94b8-b84610d08364.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.136-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/d890e351-6435-4b4f-99c5-3a3ae90a07ad.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.136-2"
+        },
+        {
+            "type": "spacer",
+            "height": "70",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "spacer",
+            "height": "70",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "2",
+            "height": "2",
+            "width": "90%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#faf7f4",
+            "framepadding": "2",
+            "content": "&nbsp;",
+            "this": "TXT SPACER"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "transparent",
+            "THIS": "pain point 1/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "8",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "imgwidth": "50",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/49c0c071-dfbb-4166-8420-71a4decfebe8.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG check-item"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "65",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<br>¿Te has perdido momentos por fumar?",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "25px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "transparent",
+            "THIS": "pain point 2/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "8",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "imgwidth": "50",
+                    "mtop": "25",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/49c0c071-dfbb-4166-8420-71a4decfebe8.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG check-item"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "65",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<br>¿Amistades han mantenido distancia por el humo del cigarro?",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "25px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "transparent",
+            "THIS": "pain point 3/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "8",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "imgwidth": "50",
+                    "mtop": "25",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/49c0c071-dfbb-4166-8420-71a4decfebe8.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG check-item"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "65",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<br>¿Ya te cansaste de limpiar la ceniza del cigarro?",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "25px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "pframed",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "16",
+            "height": "30",
+            "width": "90%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#faf7f4",
+            "framepadding": "10",
+            "content": "Si respondiste, si, a una o más de estas preguntas,<BR>tal vez es momento de cambiarte a <b>IQOS</b>.<br><br><b>IQOS</b> disminuye las molestias ocasionadas<BR>por el humo del cigarro.",
+            "this": "TXT"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "10",
+            "color_bkg": "transparent",
+            "THIS": "3 BENEFITS",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "imgwidth": "420",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/39fded52-1fa9-4731-9cb9-012e8924008b.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.136-3"
+                }
+            ]
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "2",
+            "height": "2",
+            "width": "90%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framecolor": "#faf7f4",
+            "framepadding": "12",
+            "content": "&nbsp;",
+            "this": "TXT SPACER"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "CHANGE - COVER",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/1d4c8744-f6b0-42f0-adc1-7c6657af42ee.jpg",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.136-4"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_topbottom": "50",
+            "color_bkg": "transparent",
+            "THIS": "CHANGE - CTA",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303d",
+                    "widthp100": "45",
+                    "h1": "Cambia a <span style=\"color: #00d1d2;\">IQOS</span> y forma parte de los<br> más de <span style=\"color: #00d1d2;\">10 millones de usuarios<span style=\"font-size:18px;\"><sup>(1)</sup></span></span> <br>que ya usan esta alternativa.",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "26px",
+                    "h1_height": "34px",
+                    "h1_align": "center",
+                    "h1_color": "#FFFFFF",
+                    "p": "<br>(1) Fuente: Datos financieros de PMI y estimaciones internas, paneles de usuarios IQOS y Estudios de Mercado de PMI. Información actualizada a marzo de 2020. Usuarios IQOS que han dejado completamente los cigarros y para quienes las unidades de tabaco para calentar de PMI representan, cuando menos, un 70% de su consumo de tabaco calentado en los últimos 7 días.",
+                    "p_fontweight": "300",
+                    "p_fontsize": "16px",
+                    "p_height": "26px",
+                    "p_align": "center",
+                    "p_color": "#FFFFFF",
+                    "button": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/d4745ac5-7176-4fce-b15f-75dd89034d68.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "https://www.iqos.com/mx/es/descubre/comprar-dispositivos.html",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- FOOTER ------------",
+            "type": "spacer",
+            "height": "15",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "15",
+            "margin_topbottom": "10",
+            "color_bkg": "#34303e",
+            "THIS": "LINKS STORE & CONTACT",
+            "columns": [
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#34303e",
+                    "widthp100": "25",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight": "300",
+                    "p_fontsize": "12px",
+                    "p_height": "14px",
+                    "p_align": "center",
+                    "p_color": "#c7c7c7",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "5",
+            "margin_topbottom": "1",
+            "color_bkg": "#34303e",
+            "THIS": "LOGO & SOCIAL",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "30",
+                    "imgwidth": "130",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/c9b2fa85-d20e-4c02-a00c-b55a829cbd28.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303e",
+                    "widthp100": "50",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/3c8312ba-dc63-404f-b301-ab8e86dc8eb3.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.facebook.com/iqosmx/",
+                    "THISIMG": "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303e",
+                    "widthp100": "10",
+                    "imgwidth": "30",
+                    "mtop": "6",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/b3a2f567-acea-46d7-868d-7ed49b573469.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "35",
+            "color_bkg": "#34303e",
+            "this": "height in px"
+        },
+        {
+            "_THIS_BLOCK": "-------------- LEGAL ------------",
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "25",
+            "margin_bottom": "15",
+            "content": "&copy; 2021 %%Member_Busname%% Todos los derechos reservados.<br>%%Member_Addr%%,<br>%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%%<br><a href=\"%%unsub_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja</span></a> | <a href=\"%%profile_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Actualizar perfil</span></a>",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

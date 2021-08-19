@@ -17,7 +17,8 @@ switch ($target)
 
 $requiredBlocks = array(
     "header_brand_world",
-
+    "img",
+    "img",
     "spacer",
     "greeting_negro",
     "p300_BW",
@@ -42,7 +43,9 @@ $requiredBlocks = array(
     "footer_brand_world",
     "header_brand_world",
 
-    
+    "FSH_Yellow_Share",
+    "FSH_Framed_Card",
+
     "p300",
     "p700",
     "img_Logo_Header_HTML",
@@ -94,6 +97,23 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+COLOR AQUA Brand World
+00d1d2
+--------------------
+--------------------
+LEGAL FSH  - Brand World
+&copy; 2021 %%Member_Busname%% Todos los derechos reservados.<br>%%Member_Addr%%,<br>%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%%<br><a href=\"%%unsub_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja</span></a> | <a href=\"%%profile_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Actualizar perfil</span></a>
+--------------------
+--------------------
+--------------------
 <a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
 
 <br>
@@ -119,38 +139,42 @@ BAD CHR : "", "	"
 <b></b>
 <b></b>
 
+<span style=\"color:#00d1d2;font-weight:700;\">IQOS</span>
+<span style=\"color:#00d1d2;font-weight:700;\">Kit IQOS</span>
+<span style=\"color:#00d1d2;font-weight:700;\">Tiendas IQOS</span>
+<span style=\"color:#00d1d2;font-weight:700;\">Experto IQOS</span>
 
-<span style=\"color: #e4ab68; font-weight: 700;\">IQOS EL RETO</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">IQOS EL RETO<sup>(1)</sup></span>
-<span style=\"color: #e4ab68; font-weight: 700;\">KIT IQOS</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">iqos.com</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">350&deg;C</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">¡$300 MXN de descuento!</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">$300 MXN de descuento</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">$300 MXN</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">HeatControl&trade; Technology</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">¿Aún no te has convencido?</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">¿Todavía lo estás pensando?</span>
-<span style=\"color: #e4ab68; font-weight: 700;\">gratis</span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-weight: 700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO</span>
+<span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO<sup>(1)</sup></span>
+<span style=\"color:#00d1d2;font-weight:700;\">KIT IQOS</span>
+<span style=\"color:#00d1d2;font-weight:700;\">IQOS</span>
+<span style=\"color:#00d1d2;font-weight:700;\">iqos.com</span>
+<span style=\"color:#00d1d2;font-weight:700;\">350&deg;C</span>
+<span style=\"color:#00d1d2;font-weight:700;\">¡$300 MXN de descuento!</span>
+<span style=\"color:#00d1d2;font-weight:700;\">$300 MXN de descuento</span>
+<span style=\"color:#00d1d2;font-weight:700;\">$300 MXN</span>
+<span style=\"color:#00d1d2;font-weight:700;\">HeatControl&trade; Technology</span>
+<span style=\"color:#00d1d2;font-weight:700;\">¿Aún no te has convencido?</span>
+<span style=\"color:#00d1d2;font-weight:700;\">¿Todavía lo estás pensando?</span>
+<span style=\"color:#00d1d2;font-weight:700;\">gratis</span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
-<span style=\"color: #e4ab68; font-size:24px; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-size:24px; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-size:24px; font-weight: 700;\"></span>
-<span style=\"color: #e4ab68; font-size:24px; font-weight: 700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
-<span style=\"font-size:24px; font-weight: 700;\"></span>
-<span style=\"font-size:24px; font-weight: 700;\"></span>
-<span style=\"font-size:24px; font-weight: 700;\">35% de descuento</span>
-<span style=\"font-size:24px; font-weight: 700;\">IQOS 2.4 PLUS</span>
+<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
+
+<span style=\"font-size:24px;font-weight:700;\"></span>
+<span style=\"font-size:24px;font-weight:700;\"></span>
+<span style=\"font-size:24px;font-weight:700;\">35% de descuento</span>
+<span style=\"font-size:24px;font-weight:700;\">IQOS 2.4 PLUS</span>
 
 
 */
