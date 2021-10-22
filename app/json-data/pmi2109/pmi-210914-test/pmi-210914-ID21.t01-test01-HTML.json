@@ -1,0 +1,879 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2109/pmi-210914-test/pmi-210914-ID21.t01-test01-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210914-ID21.t01-test01-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.163-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.163-2"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "70",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "28", 
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "margin_sides"  : "10",
+            "margin_color"  : "transparent",
+            "content"       : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "transparent",
+            "THIS"              : "HOW 1/4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "21.177-ico1.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.177-ico1"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "60",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "6px",
+                    "h1_height"     : "6px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Te prestamos un <b>IQOS 3 DUO</b>, solo escoge el color que te guste y completa el formulario.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "8",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CONTACT STRIP 4 COLUMNS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-1-chat.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://iqos.com/",
+                    "THISIMG"       : "IMG contact-1-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-2-fb.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://facebook.com/iqosmx",
+                    "THISIMG"       : "IMG contact-2-fb"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-3-tel.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG contact-3-tel"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-4-celular.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "tel:*933",
+                    "THISIMG"       : "IMG contact-4-celular"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "TIPS 1/6",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "35",
+                    "imgwidth"      : "189",
+                    "mtop"          : "0",
+                    "img"           : "21.183-pic1.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.183-pic1"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "15px",
+                    "h1_height"     : "15px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "1. Inserta el Holder dentro del Cargador para recargarlo.<br>2. Retíralo cuando esté cargado.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }                
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "TIPS 2/6",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "35",
+                    "imgwidth"      : "189",
+                    "mtop"          : "0",
+                    "img"           : "21.183-pic2.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.183-pic2"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "15px",
+                    "h1_height"     : "15px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "3. Inserta la unidad de tabaco para calentar presionando suavemente hasta la línea plateada.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }                
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "2/3: LIBRE DE CENIZA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "20",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "40",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Por fin le dijiste adiós a los ceniceros. Con IQOS tu casa está <b>libre de ceniza.</b>",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "28px",
+                            "p_align"       : "right",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "70",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "200",
+                    "mtop"          : "0",
+                    "img"           : "21.184-4.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.184-4"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "3/3: MENOS SUSTANCIAS TOXICAS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "200",
+                    "mtop"          : "0",
+                    "img"           : "21.184-5.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.184-5.jpg"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10'",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "54",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Al calentar el tabaco con IQOS, se producen <b>95% menos sustancias tóxicas*</b> comparado con los cigarros.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "10"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "*Reducciones promedio en niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarrillo de referencia. (3R4F)",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "12px",
+                            "p_height"      : "14px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "15",
+                            "margin_bottom" : "10"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "lineheight"    : "11",
+                            "align"         : "left",
+                            "width"         : "100%",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "15",
+            "margin_top"        : "25",
+            "margin_bottom"     : "25",
+            "color_bkg"         : "transparent",
+            "THIS"              : "FOLLOW IG/YT",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "45",
+                    "imgwidth"      : "189",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-ig-mx.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG cta-bw-ig-mx.png"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "45",
+                    "imgwidth"      : "189",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-yt-mx.png",
+                    "imgulr"        : "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+                    "THISIMG"       : "IMG cta-bw-yt-mx.png"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "50",
+            "margin_bottom"     : "50",
+            "color_bkg"         : "transparent",
+            "THIS"              : "SHARE SOCIAL FB IG YT",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "170",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-fb2-mx.png",
+                    "imgulr"        : "https://facebook.com/iqosmx",
+                    "THISIMG"       : "IMG cta-bw-fb2-mx"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "34",
+                    "imgwidth"      : "170",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-ig2-mx.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG cta-bw-ig2-mx"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "170",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-yt2-mx.png",
+                    "imgulr"        : "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+                    "THISIMG"       : "IMG cta-bw-yt2-mx"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "COLOR BOX TEXT CTA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#db3826",
+                    "widthp100"     : "20",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#db3826",
+                    "widthp100"     : "60",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Sabías que existen diversas variantes de unidades de tabaco para calentar?",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "34px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Encuéntralas en cualquiera de nuestras Tiendas IQOS, uno de nuestros Expertos podrá apoyarte de acorde a tus preferencias.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-localizar-tienda.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "40",
+                            "margin_bottom"  : "40",
+                            "imgWidth"       : "220",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.iqos.com/mx/es/tiendas.html",
+                            "THISIMG"        : "cta-bw-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#db3826",
+                    "widthp100"     : "20",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.187-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.187-3"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CTA - LOCALIZAR TIENDA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Qué sigue?",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "27px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Sin importar la decisión que tomes, te<br>esperamos en tu Tienda IQOS más cercana<br>para comprar o devolver el dispositivo.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "25"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-blanco-localizar-tienda.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "40",
+                            "imgWidth"       : "220",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.iqos.com/mx/es/tiendas.html",
+                            "THISIMG"        : "cta-bw-blanco-localizar-tienda"
+                        },
+                        {
+                            "rowtype"       : "spacer__",
+                            "height"        : "20px",
+                            "color_bkg"     : "transparent"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "cyan",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "(1) Solo para fumadores adultos.<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. Descuento no válido en productos de tabaco.<br>(3) Recompensa no canjeable por dinero en efectivo y redimible en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. No canjeable por productos de tabaco. Limitado a los primeros 5 amigos referidos que compren y registren su primer dispositivo con tu código único."
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
+        },        
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        } 
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

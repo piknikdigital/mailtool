@@ -1,0 +1,474 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE.html",
+
+        "Subject"          :   "Ordena en línea tus unidades de tabaco para calentar",
+        "Preheader"        :   "Aquí te decimos cómo",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20211008_Heets October > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Heets Delivery Rappi",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211008-heets/pmi-211008-ID21.199-heets-delivery-rappi-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211008-ID21.199-heets-delivery-rappi-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f0d90e66-84c5-4cf4-b6db-1192ea45c858.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.199-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "ORDENAR UNIDADES",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Ordena las unidades<br>de tabaco para<br>calentar en línea",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "34px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Si vives en la Ciudad de México y área<br>metropolitana puedes realizar tu orden<br>en línea*.<br>También contamos con cobertura en<br>zonas seleccionadas de Morelos, Puebla y<br>Estado de México.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/7df16f27-b7f3-4ffa-9d5c-8459de0a8faf.png",
+                            "color_bkg": "#34303d",
+                            "margin_top": "50",
+                            "margin_bottom": "60",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr_UTM": "https://www.ordenar-unidades.com/?utm_source=crm&utm_medium=email&utm_campaign=launch",
+                            "imgulr": "https://www.ordenar-unidades.com/",
+                            "THISIMG": "cta-bw-blanco-ordenar-unidades"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "ENTREGA 24 HORAS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "7",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "35",
+                    "imgwidth": "80",
+                    "mtop": "10",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/18fa4ade-7f1d-4b43-9edc-b2b457a795a2.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.199-ico1"
+                },
+                {
+                    "coltype": "spacer__",
+                    "color_bkg": "#34303d",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Entrega en 24 horas",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Recibe tus unidades de tabaco para calentar en las siguientes 24 horas.**",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "45"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "13",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "SIN COSTOS DE ENVIO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "7",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "35",
+                    "imgwidth": "80",
+                    "mtop": "10",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/6130c9de-8eda-4196-a575-a77e618e4ec0.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.199-ico2"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Sin costo de envío",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Al ordenar tus unidades de tabaco para calentar el línea, el envío corre por nuestra cuenta.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "20"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "13",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "DISCLAIMER PAGO / ENVIO",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Recuerda, tu orden se pagará al<br>momento de la entrega.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "*Entregas únicamente en Ciudad de México, área metropolitana y zonas<br>seleccionadas de Morelos, Puebla y Estado de México. Solo para mayores de<br>edad con identificación oficial. Este servicio es exclusivo para usuarios adultos de<br>IQOS registrados en nuestra base de datos.<br><br>**Los tiempos de entrega pueden variar. Sujeto a disponibilidad de inventario.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "11px",
+                            "p_height": "16px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "40"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "RAPPI",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "También puedes pedir tus unidades de<br> tabaco para calentar a través de",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "30",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/c45ffa8a-c398-4a28-a7fd-7d451eac8543.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.199-2 LOGO RAPPI"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Con entrega en <br><b>¡menos de una hora!<span style=\"font-size:12px;\"><sup>(1)</sup></span></b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "15",
+                            "margin_bottom": "5"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/adb3d396-49c6-4b76-9503-db29d804c401.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "30",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://www.rappi.com.mx/",
+                            "THISIMG": "cta-bw-ordenar-unidades"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "Realiza tu orden, hoy mismo.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "30",
+            "content": "#ElijoIQOS",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "center",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1)  Servicio exclusivo para zonas seleccionadas por Rappi."
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

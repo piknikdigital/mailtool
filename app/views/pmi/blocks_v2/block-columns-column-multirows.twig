@@ -1,0 +1,42 @@
+{% block column_multirows %}
+
+                                            <th valign="top" style="text-align:center;background-color:{{colbkg}}" class="" align="center" width="{{blocks[index].columns[idx].widthp100}}%">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                              <tbody>
+
+                                              {% if margin_top != 0 %}<tr>
+                                                <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_top}}">&nbsp;</th>
+                                              </tr>{% endif %}
+
+                                              {% for idxrow in blocks[index].columns[idx].rows|keys %}
+
+                                              <tr pik-mail-block="columns-column-multirows-{{blocks[index].columns[idx].rows[idxrow].rowtype}}">
+                                                <th>
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "p" %}
+                                                  {{ block("multirows_p", "blocks_v2/block-columns-column-multirows-p.twig") }}
+                                                {% endif %}
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "pframed" %}
+                                                  {{ block("multirows_pframed", "blocks_v2/block-columns-column-multirows-pframed.twig") }}
+                                                {% endif %}
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "spacer" %}
+                                                  {{ block("multirows_spacer", "blocks_v2/block-columns-column-multirows-spacer.twig") }}
+                                                {% endif %}
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "img" %}
+                                                  {{ block("multirows_img", "blocks_v2/block-columns-column-multirows-img.twig") }}
+                                                {% endif %}
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "cta1" %}
+                                                  {{ block("multirows_cta1", "blocks_v2/block-columns-column-multirows-cta1.twig") }}
+                                                {% endif %}
+
+                                                </th>
+                                              </tr>
+                                              {% endfor %}
+
+                                              {% if margin_bottom != 0 %}<tr>
+                                                <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_bottom}}">&nbsp;</th>
+                                              </tr>{% endif %}
+
+                                              </tbody>
+                                              </table>
+                                            </th>
+{% endblock %}

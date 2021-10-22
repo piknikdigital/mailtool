@@ -1,0 +1,544 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH.html",
+
+        "Subject"          :   "Un Futuro sin Humo sí es posible",
+        "Preheader"        :   "Sigamos alzando la voz",
+
+        "PATH"             :   "Content Builder > 125_FSH 24 08 2021 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "FSH Firmas",
+                "CustomerKey" : "c5d62d68-a9be-435f-87d2-177ecfcf48a5"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2108/pmi-210824-fsh/pmi-210824-ID21.160-fsh-firmas-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-blocks-mod-B01-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-210824-ID21.160-fsh-firmas-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "logo" : 
+    {
+        "img"           :   "",
+        "imgFSH"        :   "",
+        "imgDCE"        :   "",
+        "imgHTML"       :   "",
+        "width"         :   "85"
+    },
+    "footer" : 
+    {
+        "type"          :   "FSH_transaccional_v1",
+        "use_notes"     :   "README: use the social block to define the social icons to use.",
+
+        "color_lnk"     :   "#333333",
+        "color_txt"     :   "#a5a5a5",
+        "color_bkg"     :   "#f7f7f7",
+
+        "optout_title"  :   "Si deseas darte de baja o dejar de recibir nuestras comunicaciones, click en: <br>",
+        "optout_txt"    :   "Darme de baja",
+        "optout_urlDCE" :   "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+        "optout_urlFSH" :   "%%unsub_center_url%%",
+        "optout_url"    :   "%%unsub_center_url%%",
+
+        "profile_title":   " | ",
+        "profile_txt"   :   "Actualizar perfil",
+        "profile_url"   :   "%%profile_center_url%%",
+
+        "legal"         :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "legalDCEHTML"  :   "&copy; 2021 Philip Morris Products S.A.<br>Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, Miguel Hidalgo, 11529, CDMX, México.",
+        "legalFSH"      :   "&copy; 2021 %%Member_Busname%%<br>Todos los derechos reservados.<br>%%Member_Addr%%, %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%, %%Member_Country%%",
+        "this"          :   ""
+    },
+    "footericons" :
+    [
+    ],
+    "social" :  
+    [
+        {
+            "url"       : "mailto:contacto@futurosinhumo.com.mx",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/97f7b4f8-b8a1-4e91-a0ee-46ca5b27d7cc.png",
+            "imgHTML"   : "mail-gris.png",
+            "txt"       : "contacto@futurosinhumo.com.mx",
+            "name"      : ""
+        },
+        {
+            "url"       : "https://futurosinhumo.com.mx/",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/3e0d2084-6f8a-4ede-b158-ce9ab99f7c63.png",
+            "imgHTML"   : "www-gris.png",
+            "txt"       : "futurosinhumo.com.mx",
+            "name"      : ""
+        },
+        {
+            "url"       : "https://www.facebook.com/FuturoSinHumo",
+            "img"       : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/2655baf5-514d-4564-995d-c234a8135251.png",
+            "imgHTML"   : "facebook-gris.png",
+            "txt"       : "Síguenos",            
+            "name"      : ""
+        }
+    ],
+
+    "blocks" : 
+    [
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "greeting",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/68f8cfe5-340b-411c-a09f-f1e91afb6907.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.160-1"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "<b>FUTURO </b><span style=\"background-color:#f6d94f;font-weight:700;\">&nbsp;SIN HUMO </span>&nbsp;busca alzar la voz sobre la importancia de la regulación de productos alternativos al consumo de tabaco.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/a1715430-a08c-4349-b59d-369285dd05c4.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.160-2"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "28",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#0a1734",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "Como tú, <b>miles de personas</b> quieren hacerle saber al Congreso que estas alternativas <b>son necesarias y deben ser reguladas.</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/19af043b-eea5-4e7d-bdb7-28a0243b5171.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.160-3"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font__": "Cabin",
+            "margin_sides": "0",
+            "margin_topbottom": "15",
+            "color_bkg": "transparent",
+            "THIS": "FECHA DE CONTEO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "68",
+                    "h1": "&nbsp;",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "10px",
+                    "h1_height": "10px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "Al 20 de agosto:",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "20px",
+                    "p_align": "center",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font__": "Cabin",
+            "margin_sides": "0",
+            "margin_topbottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "RECUADRO DE CONTEO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "68",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<span style=\"background-color:#f6d94f;\">&nbsp;</span><span style=\"background-color:#f6d94f;\"> 14,207 personas </span><span style=\"background-color:#f6d94f;\">&nbsp;</span>",
+                    "p_fontweight": "700",
+                    "p_fontsize": "34px",
+                    "p_height": "44px",
+                    "p_align": "center",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font__": "Cabin",
+            "margin_sides": "0",
+            "margin_topbottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "TEXTO CIERRE",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "68",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "han demostrado su interés<br>en esta iniciativa.<br>&nbsp;",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "28px",
+                    "p_align": "center",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#f6d94f",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "12",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/d5a83a02-0331-41db-ab9f-9e6fdc64f616.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.160-4"
+        },
+        {
+            "type": "p",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Sigamos alzando la voz.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/eeca5e93-ea77-4f1a-a717-1753647aa9c7.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.160-5"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "4",
+            "margin_topbottom": "25",
+            "color_bkg2": "#ffdd3a",
+            "color_bkg": "#ffffff",
+            "THIS": "SHARE FB TW WA",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "40",
+                    "imgwidth": "260",
+                    "mtop": "0",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/75ce0a47-f067-46ec-b4a8-fdb8c8553022.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG yellow-share-1-txt  TXT COMPARTE ESTA INICIATIVA"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/4f2de2ad-a55e-4ee5-be93-d4f01113ced2.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG": "IMG yellow-share-2-fb-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/cc27ab58-30af-4093-9d0b-64e7e32f76fc.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://ctt.ac/z13Mr",
+                    "THISIMG": "IMG yellow-share-3-tw-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "18",
+                    "imgwidth": "45",
+                    "mtop": "15",
+                    "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/8dc4f01a-6d24-46f1-8e50-5a3598de3e41.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG": "IMG yellow-share-4-wa-share"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "6",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/1bd93fa2-8ba5-48b6-8a69-cc3bac439d4c.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/2d54afae-59ed-4be3-b548-c1b2710cfa1e.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG white-banner"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

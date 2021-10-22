@@ -1,0 +1,420 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE.html",
+
+        "Subject"          :   "¿Cómo fue tu experiencia con el servicio IQOS?",
+        "Preheader"        :   "Queremos apoyarte",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20211022_Dormant > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Dormant PainPoint Service",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211022-dormant/pmi-211022-ID21.213-dormant-painpoint-service-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211022-ID21.213-dormant-painpoint-service-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/6a63fb6a-c3da-448f-a3d1-67944b12d9a5.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.213-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Lamentamos saber que nuestro servicio<br> no ha sido del todo satisfactorio.<br><br>Por favor comunícate con nosotros a través de cualquiera de nuestros canales de comunicación disponibles para que podamos darte la asistencia personalizada que necesitas.",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer_v2",
+            "height": "40",
+            "color_bkg": "#faf7f4",
+            "margin_sides": "8",
+            "margin_color": "transparent",
+            "this": "height px, margin %"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "8",
+            "margin_topbottom": "15",
+            "color_bkg": "transparent",
+            "THIS": "CONTACT CHANNELS - CHAT",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f231a00a-c028-42a4-9fd2-b22930822515.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG contact-ico1-chat"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<b>CHAT EN VIVO</b><br>iqos.com",
+                    "p_fontweight": "300",
+                    "p_fontsize": "20px",
+                    "p_height": "26px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/a3858e87-7bb7-4c6a-a355-5b96db2d138a.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "https://iqos.com/",
+                    "widthbutton": "100",
+                    "button_topm": "5",
+                    "buttonalign": "left",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer_v2",
+            "height": "20",
+            "color_bkg": "#faf7f4",
+            "margin_sides": "8",
+            "margin_color": "transparent",
+            "this": "height px, margin %"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "8",
+            "margin_topbottom": "15",
+            "color_bkg": "transparent",
+            "THIS": "CONTACT CHANNELS - FB",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/3ffe1c42-75a9-46ab-ae51-2ad6a0329376.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG contact-ico2-fb"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<b>FACEBOOK</b><br>@iqosmx",
+                    "p_fontweight": "300",
+                    "p_fontsize": "20px",
+                    "p_height": "26px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/a3858e87-7bb7-4c6a-a355-5b96db2d138a.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "https://facebook.com/iqosmx",
+                    "widthbutton": "100",
+                    "button_topm": "5",
+                    "buttonalign": "left",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer_v2",
+            "height": "20",
+            "color_bkg": "#faf7f4",
+            "margin_sides": "8",
+            "margin_color": "transparent",
+            "this": "height px, margin %"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "8",
+            "margin_topbottom": "15",
+            "color_bkg": "transparent",
+            "THIS": "CONTACT CHANNELS - PHONE",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/0f548ec3-7409-439c-a786-fb3c49dfde26.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG contact-ico3-phone"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<b>TELÉFONO</b><br>800 1 476769",
+                    "p_fontweight": "300",
+                    "p_fontsize": "20px",
+                    "p_height": "26px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/a2c00c99-be11-419e-b223-d90ce483605a.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "tel:8001476769",
+                    "widthbutton": "100",
+                    "button_topm": "5",
+                    "buttonalign": "left",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer_v2",
+            "height": "20",
+            "color_bkg": "#faf7f4",
+            "margin_sides": "8",
+            "margin_color": "transparent",
+            "this": "height px, margin %"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "8",
+            "margin_topbottom": "15",
+            "color_bkg": "transparent",
+            "THIS": "CONTACT CHANNELS - MOBILE",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f13b3591-965e-4ddb-8dfa-d21d4f71f26d.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG contact-ico4-mobile"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<b>CELULAR</b><br>*933",
+                    "p_fontweight": "300",
+                    "p_fontsize": "20px",
+                    "p_height": "26px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/a2c00c99-be11-419e-b223-d90ce483605a.png",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "tel:*933",
+                    "widthbutton": "100",
+                    "button_topm": "5",
+                    "buttonalign": "left",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer_v2",
+            "height": "30",
+            "color_bkg": "#faf7f4",
+            "margin_sides": "8",
+            "margin_color": "transparent",
+            "this": "height px, margin %"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "#ElijoIQOS",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

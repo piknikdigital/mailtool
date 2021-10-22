@@ -19,15 +19,15 @@ $requiredBlocks = array(
     "header_brand_world",
     "img",
     "img",
-    "spacer",
-    "greeting_negro",
+    "greeting_v2",
     "p300_BW",
 
 
     "spacer",   
+    "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
-    "footer_brand_world"
+    "footer_bw_v1"
 );
 
 
@@ -36,8 +36,15 @@ $requiredBlocks = array(
     "spacer",
     "pframed",
     "cta1",
+    "p_v2",
     "p300_BW",
     "p700_BW",
+    "greeting_v2",
+    "columns",
+    "cta1_v2",
+    "spacer_v2",
+
+
     "greeting_negro",
     "greeting_dorado",
     "footer_brand_world",
@@ -45,6 +52,7 @@ $requiredBlocks = array(
 
     "FSH_Yellow_Share",
     "FSH_Framed_Card",
+
 
     "p300",
     "p700",
@@ -73,10 +81,16 @@ $requiredBlocks = array(
     "shopping_list",
     "3cols_chat_fb_phone",
 
+    PREVIO, YA NO USAR: "footer_brand_world"
+
+
+
     CODIGO PARA CUPON X X X X X X X X :   %%=v(@voucher_code)=%% 
+
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
-    $a= "p300|^|f7f7f7|@|Queremos que vivas la mejor experiencia <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span>, por esa razón te presentamos las medidas de seguridad que tendremos en todas nuestras <span style=\"color: #e4ab68; font-weight: 700;\">Tiendas IQOS</span>.";
+
+
 */
 
 
@@ -102,11 +116,18 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
 COLOR AQUA Brand World
 00d1d2
+--------------------
+--------------------
+"donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+"url_ctaDECODED"     : "whatsapp://send?text=",
+"text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
+"imgulr1"            : "whatsapp://send?text=",
+"imgulr2"            : "https://wa.me/?text=",
+"imgulr3"            : "https://web.whatsapp.com/send?text=",
+"imgulr"             : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
+--------------------
 --------------------
 --------------------
 LEGAL FSH  - Brand World
@@ -115,15 +136,13 @@ LEGAL FSH  - Brand World
 --------------------
 --------------------
 <a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
+--------------------
+--------------------
 
 <br>
 <br><br>
 <b></b>
 
-<sup>(1)</sup>
-<sup>(2)</sup>
-<sup>(3)</sup>
-<sup>(4)</sup>
 
 <span style=\"font-size:12px;\"><sup>(1)</sup></span>
 <span style=\"font-size:12px;\"><sup>(2)</sup></span>
@@ -135,6 +154,9 @@ LEGAL FSH  - Brand World
 <b>Kit IQOS</b>
 <b>Tiendas IQOS</b>
 <b>IQOS 2.4 PLUS</b>
+<b>iqos.com</b>
+
+
 <b></b>
 <b></b>
 <b></b>
@@ -143,6 +165,7 @@ LEGAL FSH  - Brand World
 <span style=\"color:#00d1d2;font-weight:700;\">Kit IQOS</span>
 <span style=\"color:#00d1d2;font-weight:700;\">Tiendas IQOS</span>
 <span style=\"color:#00d1d2;font-weight:700;\">Experto IQOS</span>
+
 
 <span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO</span>
 <span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO<sup>(1)</sup></span>
@@ -175,6 +198,7 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:24px;font-weight:700;\"></span>
 <span style=\"font-size:24px;font-weight:700;\">35% de descuento</span>
 <span style=\"font-size:24px;font-weight:700;\">IQOS 2.4 PLUS</span>
+
 
 
 */

@@ -1,0 +1,54 @@
+{% block column_txt_cta %}
+
+                                            <th valign="top" style="text-align:center;background-color:{{colbkg}}" class="" align="center" width="{{blocks[index].columns[idx].widthp100}}%">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                              <tbody>
+
+                                              {% if margin_top != 0 %}<tr>
+                                                <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_top}}">&nbsp;</th>
+                                              </tr>{% endif %}
+
+                                              <tr>
+                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+                                                <th>
+                                                  {% if blocks[index].columns[idx].h1 != "" %}
+
+                                                  <h1 style="font-family: '{{fontFamily}}', Gotham, Arial, sans-serif; color:{{blocks[index].columns[idx].h1_color}}; display:block;margin-top:0; text-align:{{blocks[index].columns[idx].h1_align}}; line-height:{{blocks[index].columns[idx].h1_height}}; font-size:{{blocks[index].columns[idx].h1_fontsize}}; font-weight:{{blocks[index].columns[idx].h1_fontweight}};" class="fallback-text">{{blocks[index].columns[idx].h1|raw}}</h1>
+                                                  {% endif %}
+
+                                                  {% if blocks[index].columns[idx].img is defined  %}<span style="text-align:left;font-size:1px;line-height:{{blocks[index].columns[idx].mtop}}px" class="horizontal-gutter" height="{{blocks[index].columns[idx].mtop}}">&nbsp;
+                                                  </span>
+
+                                                  {% if blocks[index].columns[idx].imgulr is defined and blocks[index].columns[idx].imgulr != "#" %}<a href="{{blocks[index].columns[idx].imgulr}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].columns[idx].img}}" width="{{blocks[index].columns[idx].imgwidth}}" height="auto" align="{{blocks[index].columns[idx].imgalign}}" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; {% if blocks[index].columns[idx].imgalign == "center" %}margin-left:auto;margin-right:auto;{% endif %}width:{{blocks[index].columns[idx].imgwidth}}px;">{% if blocks[index].columns[idx].imgulr is defined and blocks[index].columns[idx].imgulr != "#" %}</a>{% endif %}
+                                                  {% endif %}
+
+                                                  <div style="font-family: '{{fontFamily}}', Gotham, Arial, sans-serif; color:{{blocks[index].columns[idx].p_color}}; display:block; padding-right:10px; text-align:{{blocks[index].columns[idx].p_align}}; line-height:{{blocks[index].columns[idx].p_height}}; font-size:{{blocks[index].columns[idx].p_fontsize}}; font-weight:{{blocks[index].columns[idx].p_fontweight}};" class="fallback-text">{{blocks[index].columns[idx].p|raw}}</div><br>
+
+                                                  {% if blocks[index].columns[idx].button != "" %}
+
+                                                  <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                      <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].button_topm}}">&nbsp;</th>
+                                                    </tr>
+                                                    <tr>
+                                                      <th valign="top" style="text-align:{{blocks[index].columns[idx].buttonalign}}" class="image-container" align="{{blocks[index].columns[idx].buttonalign}}">
+                                                        <a href="{{blocks[index].columns[idx].buttonurl}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].columns[idx].button}}" width="{{blocks[index].columns[idx].widthbutton}}" height="auto" align="{{blocks[index].columns[idx].buttonalign}}" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; {% if blocks[index].columns[idx].buttonalign == "center" %}margin-left:auto;margin-right:auto;{% endif %}width:{{blocks[index].columns[idx].widthbutton}}px;"></a>
+                                                      </th>
+                                                    </tr>
+                                                    </tbody>
+                                                  </table>
+                                                  {% endif %}
+
+                                                </th>
+                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+                                              </tr>
+
+                                              {% if margin_bottom != 0 %}<tr>
+                                                <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_bottom}}">&nbsp;</th>
+                                              </tr>{% endif %}
+
+                                              </tbody>
+                                              </table>
+                                            </th>
+{% endblock %}

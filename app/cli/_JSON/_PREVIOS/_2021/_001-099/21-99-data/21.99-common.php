@@ -1,20 +1,20 @@
 <?php
 
 $p_id =  '99';
-$p_subject =  '';
-$p_preheader =  '';
+$p_subject =  'Gracias por ser parte del Programa de Préstamo IQOS';
+$p_preheader =  'Queremos conocer tu experiencia';
 $p_yy =  '21';
-$p_mm =  '06';
-$p_dd =  '25';
-$p_name4folder =  'transaccionales';
+$p_mm =  '09';
+$p_dd =  '27';
+$p_name4folder =  'lending';
 $p_name4json =  'm13-nps-4';
-$p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'M13 NPS 4';
-$p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
-$p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$p_name4folderDCE =  'Lending';
+$p_mailname4DCE =  'NPS';
+$p_customerkey_DCE =  'tbd';
+$p_name4folderFSH =  'Lending';
+$p_mailname4FSH =  'NPS';
+$p_customerkey_FSH =  'tbd';
+$id_FSH_folder =  '127';
 
 
 //-----------------------------------------
@@ -22,7 +22,7 @@ $id_FSH_folder =  'NA';
 $companyBrand     =  "pmi";
 $designStyle      =  "bw";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
 
-$TwigTemplate     = "pmi-Brand-World-A02-600-v03.twig";
+$TwigTemplate     = "pmi-Brand-World-B01-600-v01.twig";
 $TwigFooterBlock  = "block-footer.twig";
 
 $footergrey       = "1";          // 1:grey  0:white ( "sa" designStyle)

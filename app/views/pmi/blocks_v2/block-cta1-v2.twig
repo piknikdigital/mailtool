@@ -1,0 +1,24 @@
+{% block cta1_v2 %}
+
+                            {% if blocks[index].margin_top != "0" %}<tr pik-mail-block="cta1_spacer_top" style="background-color:{{bg_color}};">
+                              <th valign="top" style="background-color:{{bg_color}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_top}}">&nbsp;</th>
+                            </tr>{% endif%}
+
+                            <tr pik-mail-block="cta1" style="background-color:{{bg_color}};">
+                              <th valign="middle" style="text-align:center" class="horizontal-grid">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                <tbody>
+                                <tr>
+                                  <th valign="top" style="text-align:center" class="image-container" align="center">
+                                    <a href="{{blocks[index].url_cta}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].button}}" width="{{blocks[index].widthbutton}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton}}px;"></a>
+                                  </th>
+                                </tr>
+                                </tbody>
+                              </table>
+                              </th>
+                            </tr>
+
+                            {% if blocks[index].margin_bottom != "0" %}<tr pik-mail-block="cta1_spacer_bottom" style="background-color:{{bg_color}};">
+                              <th valign="top" style="background-color:{{bg_color}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_bottom}}">&nbsp;</th>
+                            </tr>{% endif%}
+{% endblock %}

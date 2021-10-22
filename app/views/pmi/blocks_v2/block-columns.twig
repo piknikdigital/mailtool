@@ -1,0 +1,91 @@
+{% block columns %}
+
+                            <tr pik-mail-block="columns">
+                              <th valign="middle" style="text-align:center;background-color:{{blocks[index].color_bkg}}" class="horizontal-grid">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                <tbody>
+                                <tr>
+                                  {% if blocks[index].margin_sides is defined and blocks[index].margin_sides != "" and blocks[index].margin_sides != "0" %} 
+                                    {% set abw = 100 - 2*blocks[index].margin_sides %}
+                                    {% set showmargin = 1 %}
+                                  {% else %}
+                                    {% set abw = 100  %}
+                                    {% set showmargin = 0 %}
+                                  {% endif %}
+                                  {% if blocks[index].margin_top is defined %}
+                                    {% set margin_top = blocks[index].margin_top %}
+                                  {% else %}
+                                    {% set margin_top = 0 %}
+                                  {% endif %}
+                                  {% if blocks[index].margin_bottom is defined %}
+                                    {% set margin_bottom = blocks[index].margin_bottom %}
+                                  {% else %}
+                                    {% set margin_bottom = 0 %}
+                                  {% endif %}
+
+                                  {% if showmargin == 1 %}<th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{blocks[index].margin_sides}}%" class="vertical-gutter" width="{{blocks[index].margin_sides}}%">&nbsp;</th>{% endif %} 
+                                  <th valign="middle" style="text-align:center;" class="horizontal-grid" width="{{abw}}%">
+
+                                    <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                    <tbody>
+                                    {% if blocks[index].frameSize is defined %}
+
+                                    <tr style="background-color:{{blocks[index].frameColor}};">
+                                      <th colspan="3" valign="top" style="background-color:{{blocks[index].frameColor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].frameSize}}">&nbsp;</th>
+                                    </tr>{% endif %}
+
+                                    <tr>
+                                    {% if blocks[index].frameSize is defined %}<th valign="middle" style="text-align:center;background-color:{{blocks[index].frameColor}}; font-size:1px;line-height:1px;min-width:{{blocks[index].frameSize}}px" class="vertical-gutter" width="{{blocks[index].frameSize}}">&nbsp;</th>{% endif %}
+
+                                    <th>  
+                                      <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                        <tbody>
+                                        <tr>
+                                          {% for idx in blocks[index].columns|keys %}
+                                            {% if  blocks[index].columns[idx].color_bkg is defined %} 
+                                              {% set colbkg = blocks[index].columns[idx].color_bkg  %}
+                                            {% else %}
+                                              {% set colbkg = blocks[index].color_bkg %}
+                                            {% endif %}
+                                            {% if blocks[index].columns[idx].coltype == "txt_cta" %}
+                                              {{ block("column_img", "blocks_v2/block-columns-column-img.twig") }}
+                                            {% endif %}
+                                            {% if blocks[index].columns[idx].coltype == "img" %}
+                                              {{ block("column_img", "blocks_v2/block-columns-column-img.twig") }}
+                                            {% endif %}
+                                            {% if blocks[index].columns[idx].coltype == "spacer" %}
+                                              {{ block("column_spacer", "blocks_v2/block-columns-column-spacer.twig") }}
+                                            {% endif %}
+                                            {% if blocks[index].columns[idx].coltype == "txt_pframed" %}
+                                              {{ block("column_pframed", "blocks_v2/block-columns-column-pframed.twig") }}
+                                            {% endif %}
+                                            {% if blocks[index].columns[idx].coltype == "multirows" %}
+                                              {{ block("column_multirows", "blocks_v2/block-columns-column-multirows.twig") }}
+                                            {% endif %}
+                                          {% endfor %}
+
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                    {% if blocks[index].frameSize is defined %}<th valign="middle" style="text-align:center;background-color:{{blocks[index].frameColor}}; font-size:1px;line-height:1px;min-width:{{blocks[index].frameSize}}px" class="vertical-gutter" width="{{blocks[index].frameSize}}">&nbsp;</th>{% endif %}
+
+                                    </tr>
+
+                                    {% if blocks[index].frameSize is defined %}<tr style="background-color:{{blocks[index].frameColor}};">
+                                      <th  colspan="3" valign="top" style="background-color:{{blocks[index].frameColor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].frameSize}}">&nbsp;</th>
+                                    </tr>{% endif %}
+
+                                    </tbody>
+                                    </table>
+
+                                  </th>
+                                  {% if showmargin == 1 %}<th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{blocks[index].margin_sides}}%" class="vertical-gutter" width="{{blocks[index].margin_sides}}%">&nbsp;</th>{% endif %}
+
+                                </tr>
+                                </tbody>
+                              </table>
+                              </th>
+
+                            </tr>
+{% endblock %}

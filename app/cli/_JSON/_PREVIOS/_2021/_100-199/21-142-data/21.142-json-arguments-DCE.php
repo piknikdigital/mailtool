@@ -6,7 +6,7 @@ $target     = "DCE";          // "HTML", "DCE" o "FSH"
 $source     = "HTML";         // "HTML", "DCE" o "FSH"
 
 // Definition of replacements to be made
-$filename1  = "_JSON/no-replacements.json";      
+$filename1  = "_JSON/21-142-data/21.142-replacements.json";      
 
 
 /**

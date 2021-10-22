@@ -1,0 +1,29 @@
+{% block multirows_pframed %}
+  {% if blocks[index].font is not defined %}
+  {% set fontFamily = "Noto Sans" %}
+  {% else %}
+  {% set fontFamily =  blocks[index].font %}
+  {% endif %}
+  
+                                                  {% if blocks[index].columns[idx].rows[idxrow].margin_top  != "0" %}<tr pik-mail-block="multirow-column-pframed margin-top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};">
+                                                    <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].margin_top}}">&nbsp;</th>
+                                                  </tr>{% endif %}
+
+                                                  <tr pik-mail-block="multirow-column-pframed content" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};">
+                                                  <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};" class="" >
+                                                    <table valign="middle" align="center" cellpadding="{{blocks[index].columns[idx].rows[idxrow].framepadding}}" cellspacing="0" border="{{blocks[index].columns[idx].rows[idxrow].border}}" bordercolor="{{blocks[index].columns[idx].rows[idxrow].framecolor}}" width="{{blocks[index].columns[idx].rows[idxrow].width}}" style="min-width:{{blocks[index].columns[idx].rows[idxrow].width}};background-color:{{blocks[index].columns[idx].rows[idxrow].framebgcolor}}; border: {{blocks[index].columns[idx].rows[idxrow].border}}px {{blocks[index].columns[idx].rows[idxrow].framecolor}} solid;" role="presentation">
+                                                    <tbody>
+                                                    <tr>
+                                                      <th style="text-align:{{blocks[index].columns[idx].rows[idxrow].align}};">
+                                                        <span style="width:100%; {% if blocks[index].columns[idx].rows[idxrow].align =="center" %}text-align:center;margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[idxrow].align}};{% endif %} font-size:{{blocks[index].columns[idx].rows[idxrow].fontsize}}px; font-weight:{{blocks[index].columns[idx].rows[idxrow].fontweight}}; line-height:{{blocks[index].columns[idx].rows[idxrow].lineheight}}px; color:{{blocks[index].columns[idx].rows[idxrow].color}}; font-family: '{{fontFamily}}', Gotham, Arial, sans-serif;" class="fallback-text">{{blocks[index].columns[idx].rows[idxrow].p|raw}}</span>
+                                                      </th>
+                                                    </tr>
+                                                    </tbody>
+                                                    </table>
+                                                  </th>
+                                                  </tr>
+
+                                                  {% if blocks[index].columns[idx].rows[idxrow].margin_bottom  != "0" %}<tr pik-mail-block="multirow-column-pframed margin-bottom" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};">
+                                                    <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].margin_bottom}}">&nbsp;</th>
+                                                  </tr>{% endif %}
+{% endblock %}

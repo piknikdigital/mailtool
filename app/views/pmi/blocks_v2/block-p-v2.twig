@@ -1,0 +1,43 @@
+{% block p_v2 %}
+{% if blocks[index].margin_sides is not defined or blocks[index].margin_sides == "0" or blocks[index].margin_sides == "" %}
+  {% set widthCol = 100  %}
+  {% set bgcolor1 = blocks[index].color_bkg  %}
+  {% set bgcolor2 = blocks[index].color_bkg  %}
+  {% set margins = 0  %}
+{% else %}
+  {% set widthCol = 100 - 2*blocks[index].margin_sides  %}
+  {% set bgcolor1 = blocks[index].margin_color  %}
+  {% set bgcolor2 = blocks[index].color_bkg  %}
+  {% set bgcolor3 = "red"  %}
+  {% set bgcolor4 = "brown"  %}
+  {% set margins = 1  %}
+{% endif %}
+
+                            <tr pik-mail-block="p_v2" style="background-color:{{bgcolor1}};">
+                              <th valign="top" style="background-color:{{bgcolor1}};" class="" height="{{blocks[index].height}}">
+                                <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                <tbody>
+                                <tr>
+                                  {% if margins == 1 %}<th valign="top" style="font-size:12px;line-height:12px;background-color:{{bgcolor1}};" class="" width="{{blocks[index].margin_sides}}%" height="{{blocks[index].height}}">&nbsp;</th>{% endif %}
+
+                                  <th valign="top" style= "background-color:{{bgcolor2}};text-align:{{blocks[index].align}};" width="{{widthCol}}%" height="{{blocks[index].height}}">
+                                      <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                      <tbody>
+                                            {% if blocks[index].margin_top is defined and blocks[index].margin_top !="0" and blocks[index].margin_top !="" %}<tr><th valign="top" style="font-size:12px;line-height:12px;background-color:{{bgcolor2}};" class="" height="{{blocks[index].margin_top}}">&nbsp;</th></tr>{% endif %}
+
+                                            <tr>
+                                              <th><div  style= "width:{{blocks[index].width}};margin: 0 auto;text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}};font-family: '{{fontFamily}}', Gotham, Arial, sans-serif;background-color: {{bgcolor2}};">{{blocks[index].content|raw}}</div> </th>
+                                            </tr>
+                                            {% if blocks[index].margin_bottom is defined and blocks[index].margin_bottom !="0" and blocks[index].margin_bottom !="" %}<tr><th valign="top" style="font-size:12px;line-height:12px;background-color:{{bgcolor2}};" class="" height="{{blocks[index].margin_bottom}}">&nbsp;</th></tr>{% endif %}
+
+                                      </tbody>
+                                      </table>
+                                  </th>
+                                  {% if margins == 1 %}<th valign="top" style="color:black;font-size:12px;line-height:12px;background-color:{{bgcolor1}};" class="" width="{{blocks[index].margin_sides}}%" height="{{blocks[index].height}}">&nbsp;</th> {% endif %}
+
+                                </tr>
+                                </tbody>
+                                </table>
+                              </th>
+                            </tr>
+{% endblock %}

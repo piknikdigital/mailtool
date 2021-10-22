@@ -91,6 +91,8 @@ Cuéntanos sobre tu experiencia<br>con el <b>Programa de Préstamo IQOS</b><br>c
 --------------------
 --------------------
 --------------------
+Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
+
 --------------------
 --------------------
 --------------------

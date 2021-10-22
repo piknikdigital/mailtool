@@ -1,0 +1,16 @@
+{% block greeting_v2 %}
+
+                            {% if blocks[index].margin_top != "0" %}<tr pik-mail-block="greeting_spacer_Top" style="background-color:{{blocks[index].color_bkg}};">
+                              <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_top}}">&nbsp;</th>
+                            </tr>{% endif%}
+
+                            <tr pik-mail-block="greeting" style="background-color:{{blocks[index].color_bkg}};">
+                              <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:center;font-size:28px;font-weight:{{blocks[index].fontweight}};line-height:34px;color:{{blocks[index].color_greeting}}" class="horizontal-gutter fallback-text" height="34">
+                                <span class="fallback-text" style="font-family: 'Cabin', Gotham, Arial, sans-serif;">{{blocks[index].greeting|raw}}</span>
+                              </th>
+                            </tr>
+
+                            {% if blocks[index].margin_bottom != "0" %}<tr pik-mail-block="greeting_spacer_bottom" style="background-color:{{blocks[index].color_bkg}};">
+                              <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_bottom}}">&nbsp;</th>
+                            </tr>{% endif%}
+{% endblock %}

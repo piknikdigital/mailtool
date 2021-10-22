@@ -290,7 +290,7 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
                     "h1_color"      : "#333333",
-                    
+
                     "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
                     "p_fontsize"    : "18px",
@@ -524,11 +524,6 @@ $libraryBlocks['sinfuego_sinhumo_sinceniza_negro_HTML'] ='
             "content"       : "SIN FUEGO, SIN HUMO, SIN CENIZA.",
             "this"          : "TXT"
         },';
-
-
-
-
-
 $libraryBlocks['sinfuego_sinhumo_sinceniza_dorado_HTML'] ='
         {
             "type"          : "p",
@@ -598,11 +593,11 @@ $libraryBlocks['pframed'] ='
             "color"         : "#000000",
             "color_bkg"     : "transparent",
             "color_boxbkg"  : "#faf7f4",
+            "framecolor"    : "#faf7f4",
             "margin_top"    : "0",
             "margin_bottom" : "0",
-            "framecolor"    : "#faf7f4",
             "framepadding"  : "30",
-            "content"       : "<strong>IQOS</strong> descuento.<sup>(2)</sup><br><br>¡Tú <strong>recibirás $300 MXN<sup>(3)</sup></strong>",
+            "content"       : "<strong>IQOS</strong><sup>(2)</sup>",
             "this"          : "TXT"
         },';
 $libraryBlocks['cols_33_33_33'] ='
@@ -697,7 +692,7 @@ $libraryBlocks['cols_33_33_33'] ='
                     "widthbutton"    : "120",
                     "button_topm"    : "15",
                     "buttonalign"    : "center"
-                }                
+                }
             ]
         },';
 $libraryBlocks['form'] ='
@@ -1078,7 +1073,7 @@ $libraryBlocks['3cols_chat_fb_phone'] ='
                     "widthbutton"    : "120",
                     "button_topm"    : "30",
                     "buttonalign"    : "center"
-                }                
+                }
             ]
         },';
 $libraryBlocks['footer_brand_world'] =',
@@ -1283,7 +1278,6 @@ $libraryBlocks['footer_brand_world'] =',
             "color_bkg"     : "#34303e",
             "this"          : "height in px"
         },
-
         {
             "_THIS_BLOCK"   : "-------------- LEGAL ------------",
             "type"          : "p",
@@ -1299,6 +1293,11 @@ $libraryBlocks['footer_brand_world'] =',
             "content"       : "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
             "this"          : "TXT"
         }';
+
+
+
+
+        
 $libraryBlocks['header_brand_world'] ='
         {
             "type"          : "img",
@@ -1490,6 +1489,177 @@ $libraryBlocks['FSH_Framed_Card'] ='
                 }
             ]
         },';
+
+$libraryBlocks['columns'] ='
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "THIS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "40",
+                    "imgwidth"      : "240",
+                    "mtop"          : "0",
+                    "img"           : "21.id-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.id-x"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "spacer",
+                            "height"        : "20px",
+                            "color_bkg"     : "transparent"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "lineheight"    : "11",
+                            "align"         : "center",
+                            "width"         : "100%",
+                            "margin_top"    : "5",
+                            "margin_bottom" : "5",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "21.id-x.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "10",
+                            "imgWidth"       : "100",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "21.id-x"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+
+$libraryBlocks['greeting_v2'] ='
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "300",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "70",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },';
+$libraryBlocks['cta1_v2'] ='
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "280",
+            "color_bkg"     : "transparent",
+            "button"        : "btn.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "#",
+            "this"          : "CTA btn"
+        },';
+$libraryBlocks['spacer_v2'] ='
+        {
+            "type"          : "spacer_v2",
+            "height"        : "30",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "5",
+            "margin_color"  : "transparent",
+            "this"          : "height px, margin %" 
+        },';
+$libraryBlocks['p_v2'] ='
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "28", 
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "margin_sides"  : "10",
+            "margin_color"  : "transparent",
+            "content"       : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "this"          : "height px, margin %" 
+        },';
+$libraryBlocks['ElijoIQOS'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "TXT"
+        },';
+$libraryBlocks['footer_bw_v1'] =',
+        {
+            "type"          : "footer_bw_v1"
+        }';
+$libraryBlocks['undefined'] ='
+        {
+        },';
+
+
 // ----
 
 
@@ -1535,5 +1705,11 @@ $libraryBlocks['FSH_Framed_Card'] ='
     "p700_BW",
     "FSH_Yellow_Share",
     "FSH_Framed_Card",
+    "columns",
+    "greeting_v2",
+    "cta1_v2",
+    "spacer_v2",
+    "p_v2",
+    "footer_bw_v1",
 
 */

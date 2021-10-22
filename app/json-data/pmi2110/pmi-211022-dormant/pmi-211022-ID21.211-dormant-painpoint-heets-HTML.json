@@ -1,0 +1,598 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML.html",
+
+        "Subject"          :   "Queremos ayudarte a mejorar tu experiencia con las unidades de tabaco para calentar",
+        "Preheader"        :   "Aquí encontrarás algunos consejos para hacerlo",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211022-dormant/pmi-211022-ID21.211-dormant-painpoint-heets-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211022-ID21.211-dormant-painpoint-heets-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.211-1.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.211-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Tenemos algunos consejos para que tu dispositivo permanezca en las mejores condiciones y puedas tener una mejor experiencia de consumo.<br><br><b>Te compartimos un video que seguro te ayudará. </b>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.211-2.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "https://www.youtube.com/watch?v=qexwzjXjfrg&t=1s",
+            "this"          : "IMG 21.211-2"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Recuerda limpiar tu IQOS cada 20 usos para obtener un sabor consistente. Utiliza el Limpiador IQOS y los Hisopos Limpiadores IQOS para una limpieza profunda o visita cualquiera de nuestras Tiendas IQOS para solicitar una limpieza ¡sin costo!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#e27d34",
+            "margin_top"    : "60",
+            "margin_bottom" : "0",
+            "content"       : "¿Sabías qué?",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "75%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#e27d34",
+            "margin_top"    : "30",
+            "margin_bottom" : "60",
+            "content"       : "Las unidades de tabaco para calentar están diseñadas para tener una duración similar a la de un cigarro, lo que significa que cada unidad de tabaco para calentar tiene una duración aproximada de 3 minutos o 14 inhalaciones <br>(lo primero que suceda).",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.211-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.211-3"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "THIS"              : "CTA ORDENAR UNIDADES",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "8",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "84",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Ordena las unidades de tabaco <br>para calentar en línea*",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "28px",
+                            "p_height"      : "36px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Te recordamos que puedes ordenarlas en<br> línea y pagarlas al momento de la entrega<br> en Ciudad de México, área metropolitana,<br> Toluca, Morelos y Puebla con entrega en 24<br> horas, sin costo de envío.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-blanco-ordenar-unidades.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "30",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "220",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.ordenar-unidades.com/?utm_source=crm&utm_medium=email&utm_campaign=launch",
+                            "THISIMG"        : "cta-bw-blanco-ordenar-unidades"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "8",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "40",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30", 
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "60",
+            "margin_bottom" : "40",
+            "margin_sides"  : "8",
+            "margin_color"  : "transparent",
+            "content"       : "Nuestros Expertos IQOS están listos para  atenderte en cualquiera de nuestros canales de comunicación disponibles.",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CONTACT CHANNELS - CHAT",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "15",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-ico1-chat.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG contact-ico1-chat"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "<b>CHAT EN VIVO</b><br>iqos.com",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "20px",
+                    "p_height"      : "26px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "cta-visitar.png",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "https://iqos.com/",
+                    "widthbutton"   : "100",
+                    "button_topm"   : "5",
+                    "buttonalign"   : "left",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "spacer_v2",
+            "height"        : "20",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "8",
+            "margin_color"  : "transparent",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CONTACT CHANNELS - FB",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "15",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-ico2-fb.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG contact-ico2-fb"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "<b>FACEBOOK</b><br>@iqosmx",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "20px",
+                    "p_height"      : "26px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "cta-visitar.png",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "https://facebook.com/iqosmx",
+                    "widthbutton"   : "100",
+                    "button_topm"   : "5",
+                    "buttonalign"   : "left",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "spacer_v2",
+            "height"        : "20",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "8",
+            "margin_color"  : "transparent",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CONTACT CHANNELS - PHONE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "15",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-ico3-phone.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG contact-ico3-phone"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "<b>TELÉFONO</b><br>800 1 476769",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "20px",
+                    "p_height"      : "26px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "cta-llamar.png",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "tel:8001476769",
+                    "widthbutton"   : "100",
+                    "button_topm"   : "5",
+                    "buttonalign"   : "left",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "spacer_v2",
+            "height"        : "20",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "8",
+            "margin_color"  : "transparent",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "transparent",
+            "THIS"              : "CONTACT CHANNELS - MOBILE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "15",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "contact-ico4-mobile.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG contact-ico4-mobile"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+
+                    "p"             : "<b>CELULAR</b><br>*933",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "20px",
+                    "p_height"      : "26px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "cta-llamar.png",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "tel:*933",
+                    "widthbutton"   : "100",
+                    "button_topm"   : "5",
+                    "buttonalign"   : "left",
+                    "THISIMG"       : ""
+                }
+            ]
+        },
+        {
+            "type"          : "spacer_v2",
+            "height"        : "30",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "8",
+            "margin_color"  : "transparent",
+            "this"          : "height px, margin %" 
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "*Entregas únicamente en Ciudad de México y área metropolitana, Toluca, Puebla y Morelos. Sólo para mayores de edad con identificación oficial. Este servicio es exclusivo para usuarios adultos de IQOS registrados en nuestra base de datos."
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
+        },        
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "footer_bw_v1"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

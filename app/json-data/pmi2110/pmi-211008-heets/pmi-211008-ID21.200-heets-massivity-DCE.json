@@ -1,0 +1,252 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE.html",
+
+        "Subject"          :   "Encuentra las unidades de tabaco para calentar cerca de ti",
+        "Preheader"        :   "Da click para saber más",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20211008_Heets October > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Heets Massivity",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211008-heets/pmi-211008-ID21.200-heets-massivity-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211008-ID21.200-heets-massivity-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/027082a9-faf3-4dc5-b6c1-b7c1e7a540ba.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.200-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "content": "Te recordamos que podrás encontrar las variantes de las unidades de tabaco para calentar en el punto de venta más cercano.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "11",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "THIS": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/a65c475f-9e9b-435f-b1b6-47484da377e1.jpg",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "468",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.200-2"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Visita uno de los",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "3500 puntos de venta",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "de diferentes cadenas comerciales,<br>tiendas de conveniencia y puntos de venta<br>seleccionados en la República Mexicana.",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "40"
+                        },
+                        {
+                            "rowtype": "spacer",
+                            "height": "10px",
+                            "color_bkg": "#f8f6f3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/6ed2e143-33ea-410f-a2a7-fe6528f02cb8.png",
+                            "color_bkg": "#f8f6f3",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "460",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.200-3  LOGOS TIENDAS"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/2abf3610-3e19-46cd-8066-984da6b766bf.png",
+                            "color_bkg": "#f8f6f3",
+                            "margin_top": "10",
+                            "margin_bottom": "40",
+                            "imgWidth": "220",
+                            "align": "center",
+                            "imgulr": "https://www.google.com/maps/d/u/0/viewer?mid=1EYuPNUZPkjlLN7QOK3pqwCg_IBGw-d6u&ll=23.380641649464128%2C-103.41271133492364&z=5",
+                            "THISIMG": "cta-bw-localizar-tienda"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "#ElijoIQOS",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "TXT"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "height in px"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

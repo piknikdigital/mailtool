@@ -1,0 +1,64 @@
+{% block column_pframed %}
+
+                                                <th valign="top" style="text-align:center;background-color:{{colbkg}}" class="" align="center" width="{{blocks[index].columns[idx].widthp100}}%">
+                                                    <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                    <tbody>
+
+                                                    {% if margin_top != 0 %}<tr>
+                                                        <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_top}}">&nbsp;</th>
+                                                    </tr>{% endif %}
+                                                    
+                                                    <tr>
+                                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+                                                        <th>
+                                                        <div style="color:{{blocks[index].columns[idx].p_color}}; display:block; padding-right:10px; text-align:{{blocks[index].columns[idx].p_align}}; line-height:{{blocks[index].columns[idx].p_height}}; font-size:{{blocks[index].columns[idx].p_fontsize}}; font-weight:{{blocks[index].columns[idx].p_fontweight}};" class="fallback-text">{{blocks[index].columns[idx].p|raw}}</div><br>
+                                                        <table bgcolor={{blocks[index].columns[idx].border_color}} align="center" cellpadding="0" cellspacing="0" border="0" width="{{blocks[index].columns[idx].pframed_widthpx}}" style="min-width:{{blocks[index].columns[idx].pframed_widthpx}}px;" role="presentation">
+                                                            <tbody>
+                                                            <tr>
+                                                                <th style="padding:{{blocks[index].columns[idx].border}}px;line-height:{{blocks[index].columns[idx].pframed_heightpx}}px;">
+                                                                <table bgcolor={{blocks[index].columns[idx].frame_bkg}} align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                                    <tbody>
+                                                                    <tr>
+                                                                        <th style="height:{{blocks[index].columns[idx].pframed_heightpx}}px;">
+                                                                        <span style="font-family: '{{fontFamily}}', Gotham, Arial, sans-serif; font-size:{{blocks[index].columns[idx].pframed_fontsizepx}}px;line-height:{{blocks[index].columns[idx].pframed_heightpx}}px;color:{{blocks[index].columns[idx].pframed_color}};">{{blocks[index].columns[idx].pframed}}</span>
+                                                                        </th>
+                                                                    </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                </th>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                        {% if blocks[index].columns[idx].button is defined and blocks[index].columns[idx].button != "" %}
+
+                                                        <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                            <tbody>
+                                                            <tr>
+                                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].margintop}}">&nbsp;</th>
+                                                            </tr>
+                                                            <tr>
+                                                            <th valign="top" style="text-align:center" class="image-container" align="center">
+                                                                <a href="{{blocks[index].columns[idx].url_cta}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].columns[idx].button}}" width="{{blocks[index].columns[idx].widthbutton}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:{{blocks[index].columns[idx].widthbutton}}px;"></a>
+                                                            </th>
+                                                            </tr>
+                                                            <tr>
+                                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].marginbottom}}">&nbsp;</th>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>{% endif %}
+
+                                                        {% if blocks[index].columns[idx].pB is defined and blocks[index].columns[idx].pB != "" %}<div style="color:{{blocks[index].columns[idx].pB_color}}; display:block; padding-right:10px; text-align:{{blocks[index].columns[idx].pB_align}}; line-height:{{blocks[index].columns[idx].pB_height}}; font-size:{{blocks[index].columns[idx].pB_fontsize}}; font-weight:{{blocks[index].columns[idx].pB_fontweight}};" class="fallback-text">{{blocks[index].columns[idx].pB|raw}}</div><br>{% endif %}
+
+                                                        </th>
+                                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+                                                    </tr>
+
+                                                    {% if margin_bottom != 0 %}<tr>
+                                                        <th colspan ="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{margin_bottom}}">&nbsp;</th>
+                                                    </tr>{% endif %}
+
+                                                    </tbody>
+                                                    </table>
+                                                </th>
+{% endblock %}
