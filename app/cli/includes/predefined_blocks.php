@@ -16,7 +16,7 @@ $libraryBlocks['img_Logo_Header_HTML'] ='
             "imgFSH"        : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e2f8bd1f-3fe6-4e38-8962-28d385dddb6b.png",
             "imgDCE"        : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0bc2beb-aea1-41da-831a-f9101cdeca95.png",
             "url"           : "https://mx.iqos.com/",
-            "this"          : "Logo"
+            "this"          : "Logo Header"
         },';
 $libraryBlocks['img_Cover_HTML'] ='
         {
@@ -38,13 +38,6 @@ $libraryBlocks['img'] ='
             "imgDCE"        : "",
             "url"           : "#",
             "this"          : "IMG 21.id-x"
-        },';
-$libraryBlocks['spacer'] ='
-        {
-            "type"          : "spacer",
-            "height"        : "60",
-            "color_bkg"     : "transparent",
-            "this"          : "height in px"
         },';
 $libraryBlocks['greeting_negro'] ='
         {
@@ -121,7 +114,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
-            "THIS"              : "DESCRIPCION",
+            "this"              : "",
             "columns"           :
             [
                 {
@@ -197,7 +190,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
-            "THIS"              : "DESCRIPCION",
+            "this"              : "DESCRIPCION",
             "columns"           :
             [
                 {
@@ -257,7 +250,7 @@ $libraryBlocks['m_IMG_TXT_m'] ='
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
-            "THIS"              : "DESCRIPCION",
+            "this"              : "DESCRIPCION",
             "columns"           :
             [
                 {
@@ -316,7 +309,7 @@ $libraryBlocks['m_IMG_IMG_m'] ='
             "margin_sides"      : "5",
             "margin_topbottom"  : "10",
             "color_bkg"         : "transparent",
-            "THIS"              : "DESCRIPCION",
+            "this"              : "DESCRIPCION",
             "columns"           :
             [
                 {
@@ -381,7 +374,8 @@ $libraryBlocks['spacer'] ='
             "type"          : "spacer",
             "height"        : "50",
             "color_bkg"     : "transparent",
-            "this"          : "height in px"
+            "readme"        : "height in px",
+            "this"          : "spacer"
         },';
 $libraryBlocks['one_rs'] =' 
         {
@@ -522,7 +516,7 @@ $libraryBlocks['sinfuego_sinhumo_sinceniza_negro_HTML'] ='
             "margin_top"    : "50",
             "margin_bottom" : "50",
             "content"       : "SIN FUEGO, SIN HUMO, SIN CENIZA.",
-            "this"          : "TXT"
+            "this"          : "TXT SIN FUEGO, SIN HUMO, SIN CENIZA"
         },';
 $libraryBlocks['sinfuego_sinhumo_sinceniza_dorado_HTML'] ='
         {
@@ -537,7 +531,7 @@ $libraryBlocks['sinfuego_sinhumo_sinceniza_dorado_HTML'] ='
             "margin_top"    : "50",
             "margin_bottom" : "50",
             "content"       : "SIN FUEGO, SIN HUMO, SIN CENIZA.",
-            "this"          : "TXT"
+            "this"          : "TXT SIN FUEGO, SIN HUMO, SIN CENIZA"
         },';
 
 
@@ -548,7 +542,8 @@ $libraryBlocks['legal_extra'] ='
             "align"         : "justify",
             "color"         : "#333333",
             "fontsize"      : "11",
-            "txt"           : "LEGALES_TBD"
+            "txt"           : "LEGALES_TBD",
+            "this"          : "LEGALES"
         },';
 $libraryBlocks['disclaimer_iqos'] ='
         {
@@ -566,21 +561,23 @@ $libraryBlocks['disclaimer_iqos'] ='
             "framecolor"    : "#000000",
             "framepadding"  : "15",
             "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
-            "this"          : "TXT"
-        },        
+            "this"          : "Información importante"
+        },
         {
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
             "color"         : "#333333",
             "fontsize"      : "11",
-            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
         },
         {
             "type"          : "spacer",
             "height"        : "25",
             "color_bkg"     : "transparent",
-            "this"          : "height in px"
+            "this"          : "spacer"
         }';
 $libraryBlocks['pframed'] ='
         {
@@ -598,7 +595,7 @@ $libraryBlocks['pframed'] ='
             "margin_bottom" : "0",
             "framepadding"  : "30",
             "content"       : "<strong>IQOS</strong><sup>(2)</sup>",
-            "this"          : "TXT"
+            "this"          : ""
         },';
 $libraryBlocks['cols_33_33_33'] ='
         {
@@ -727,7 +724,7 @@ $libraryBlocks['form'] ='
                     "checked"   : "",
                     "value"     : "Survey_1_only_IQOS",
                     "txt"       : "Solo uso IQOS."
-                },        
+                },
                 {
                     "name"      : "onboarding_conversion_check_reply",
                     "type"      : "radio",
@@ -735,7 +732,7 @@ $libraryBlocks['form'] ='
                     "checked"   : "",
                     "value"     : "Survey_4_both_cigarettes_more",
                     "txt"       : "Uso IQOS tanto como fumo cigarros pero fumo cigarros con mayor frecuencia."
-                },                
+                },
                 {
                     "name"      : "onboarding_conversion_check_reply",
                     "type"      : "radio",
@@ -774,7 +771,7 @@ $libraryBlocks['mgm_coupon_1'] ='
             "framecolor"    : "#e2aa68",
             "framepadding"  : "10",
             "content"       : "%%=v(@voucher_code)=%%",
-            "this"          : "TXT"
+            "this"          : "MGM COUPON"
         },';
 $libraryBlocks['mgm_coupon_2cols'] ='
         {
@@ -782,7 +779,7 @@ $libraryBlocks['mgm_coupon_2cols'] ='
             "margin_sides"      : "10",
             "margin_topbottom"  : "30",
             "color_bkg"         : "#f6f6f6",
-            "THIS"              : "CUPON MGM",
+            "this"              : "MGM COUPON",
             "columns"           : 
             [
                 {
@@ -792,7 +789,7 @@ $libraryBlocks['mgm_coupon_2cols'] ='
                     "imgwidth"  : "200",
                     "img"       : "21.id-x.jpg",
                     "imgulr"    : "#",
-                    "THIS"      : "IMG 21.id-x"
+                    "this"      : "IMG 21.id-x"
                 },
                 {
                     "coltype"            : "txt_pframed",
@@ -838,7 +835,7 @@ $libraryBlocks['rgm_coupon_2cols'] = '
             "margin_sides"      : "10",
             "margin_topbottom"  : "30",
             "color_bkg"         : "#f6f6f6",
-            "THIS"              : "CUPON RGM NUEVO - VER 2",
+            "this"              : "CUPON RGM NUEVO - VER 2",
             "columns"           :
             [
                 {
@@ -919,7 +916,7 @@ $libraryBlocks['graylineframed'] ='
             "color_boxbkg"  : "#e2aa68",
             "margin_top"    : "0",
             "margin_bottom" : "0",
-            "this"          : "TXT"
+            "this"          : "GRAY LINE"
         },';
 $libraryBlocks['shopping_list'] ='
         {
@@ -927,7 +924,7 @@ $libraryBlocks['shopping_list'] ='
             "margin_sides"      : "12",
             "margin_topbottom"  : "0",
             "margin_bgcolor"    : "transparent",
-            "THIS"              : "ITEM ",
+            "this"              : "ITEM LIST",
             "columns"           :
             [
                 {
@@ -1082,14 +1079,14 @@ $libraryBlocks['footer_brand_world'] =',
             "type"          : "spacer",
             "height"        : "15",
             "color_bkg"     : "#34303e",
-            "this"          : "height in px"
+            "this"          : "FOOTER SPACER"
         },
         {
             "type"              : "cols_m_A_B_m",
             "margin_sides"      : "15",
             "margin_topbottom"  : "10",
             "color_bkg"         : "#34303e",
-            "THIS"              : "LINKS STORE & CONTACT",
+            "this"              : "FOOTER LINKS STORE & CONTACT",
             "columns"           :
             [
                 {
@@ -1215,14 +1212,14 @@ $libraryBlocks['footer_brand_world'] =',
             "type"          : "spacer",
             "height"        : "20",
             "color_bkg"     : "#34303e",
-            "this"          : "height in px"
+            "this"          : "FOOTER SPACER"
         },
         {
             "type"              : "cols_m_A_B_m",
             "margin_sides"      : "5",
             "margin_topbottom"  : "1",
             "color_bkg"         : "#34303e",
-            "THIS"              : "LOGO & SOCIAL",
+            "this"              : "FOOTER LOGO & SOCIAL",
             "columns"           :
             [
                 {
@@ -1276,7 +1273,7 @@ $libraryBlocks['footer_brand_world'] =',
             "type"          : "spacer",
             "height"        : "35",
             "color_bkg"     : "#34303e",
-            "this"          : "height in px"
+            "this"          : "FOOTER SPACER"
         },
         {
             "_THIS_BLOCK"   : "-------------- LEGAL ------------",
@@ -1291,7 +1288,7 @@ $libraryBlocks['footer_brand_world'] =',
             "margin_top"    : "25",
             "margin_bottom" : "15",
             "content"       : "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
-            "this"          : "TXT"
+            "this"          : "COPYRIGHT"
         }';
 
 
@@ -1349,7 +1346,7 @@ $libraryBlocks['FSH_Yellow_Share'] ='
             "margin_topbottom"  : "25",
             "color_bkg2"         : "#ffdd3a",
             "color_bkg"         : "#ffffff",
-            "THIS"              : "SHARE FB TW WA",
+            "this"              : "SHARE FB TW WA",
             "columns"           :
             [
                 {
@@ -1430,7 +1427,7 @@ $libraryBlocks['FSH_Framed_Card'] ='
             "margin_sides"      : "5",
             "margin_topbottom"  : "0",
             "color_bkg"         : "transparent",
-            "THIS"              : "CARD 1",
+            "this"              : "CARD 1",
             "columns"           :
             [
                 {
@@ -1498,7 +1495,7 @@ $libraryBlocks['columns'] ='
             "margin_top"        : "0",
             "margin_bottom"     : "0",
             "color_bkg"         : "transparent",
-            "THIS"              : "THIS",
+            "this"              : "",
             "columns"           :
             [
                 {
@@ -1615,7 +1612,8 @@ $libraryBlocks['spacer_v2'] ='
             "color_bkg"     : "#faf7f4",
             "margin_sides"  : "5",
             "margin_color"  : "transparent",
-            "this"          : "height px, margin %" 
+            "readme"        : "height px, margin %",
+            "this"          : "spacer" 
         },';
 $libraryBlocks['p_v2'] ='
         {
@@ -1633,7 +1631,9 @@ $libraryBlocks['p_v2'] ='
             "margin_sides"  : "10",
             "margin_color"  : "transparent",
             "content"       : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "this"          : "height px, margin %" 
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+
         },';
 $libraryBlocks['ElijoIQOS'] ='
         {
@@ -1649,7 +1649,7 @@ $libraryBlocks['ElijoIQOS'] ='
             "margin_top"    : "50",
             "margin_bottom" : "50",
             "content"       : "#ElijoIQOS",
-            "this"          : "TXT"
+            "this"          : "#ElijoIQOS"
         },';
 $libraryBlocks['footer_bw_v1'] =',
         {

@@ -1,0 +1,371 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML.html",
+
+        "Subject"          :   "¿Necesitas un cambio?",
+        "Preheader"        :   "La solución está a un clic de distancia",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.218-warm-learn-discover-vpd-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211027-ID21.218-warm-learn-discover-vpd-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.218-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.218-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.218-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.218-2"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "300",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "30",
+            "content"       : "Cambiar a IQOS viene con diferentes beneficios. ¿Sabes cuáles son?<br><br>IQOS calienta tabaco en lugar de quemarlo, por lo que no produce fuego, humo, ni ceniza.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.218-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.218-3"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "EQUIPADO CON TECNOLOGÍA HEATCONTROL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Equipado con Tecnología HeatControl&trade;,<br> IQOS produce 95% menos sustancias tóxicas*<br> comparado con los cigarros.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "*Reducciones promedio en niveles de una variedad de sustancias<br>químicas nocivas (excluyendo la nicotina) en comparación con<br>el humo de un cigarrillo de referencia (3R4F).",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "14px",
+                            "p_height"      : "18px",
+                            "p_align"       : "center",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.",
+                            "fontweight"    : "300",
+                            "fontsize"      : "14",
+                            "lineheight"    : "18",
+                            "align"         : "center",
+                            "width"         : "74%",
+                            "margin_top"    : "15",
+                            "margin_bottom" : "40",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.218-4.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.218-4"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "60%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#34303d",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "La tecnología de IQOS calienta el tabaco a temperaturas por debajo de 350°C evitando la combustión, generando en su lugar, vapor de tabaco el cual brinda el sabor del tabaco real.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Únete a la comunidad que ya le dijo adiós a las molestias provocadas por el humo y la ceniza del cigarro y empieza tu camino al cambio.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "THIS"              : "COLOR BOX TEXT CTA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Aún no te decides?",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "30px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Conoce todo sobre IQOS y el calentamiento del<br>tabaco en una demostración virtual de producto.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-solicitar-demostracion.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "40",
+                            "margin_bottom"  : "40",
+                            "imgWidth"       : "250",
+                            "align"          : "center",
+                            "imgulr"         : "tel:*993",
+                            "THISIMG"        : "cta-bw-solicitar-demostracion"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }                
+            ]
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "35",
+            "content"       : "#ElijoIQOS",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
+        },        
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "footer_bw_v1"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

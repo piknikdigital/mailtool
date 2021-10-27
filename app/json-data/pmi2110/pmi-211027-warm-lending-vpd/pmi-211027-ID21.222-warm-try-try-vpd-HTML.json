@@ -3,9 +3,9 @@
    
     "config_template" :
     {
-        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML",
-        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML.html",
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML.html",
 
         "Subject"          :   "El siguiente paso es cambiar",
         "Preheader"        :   "Dile hola a IQOS",
@@ -20,9 +20,9 @@
         ],
         "test-url"         :   
         [
-            { "urlD" : "https://paginum.com/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML" } ,
-            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML.html"  },
-            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML.html"},
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML.html"},
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
 
         ]
@@ -32,7 +32,7 @@
     "BaseURLassets"    :   "",
     "BaseURLimg"       :   "",
     
-    "HTMLstaticfile"   :   "pmi2110/pmi-211019-warm-lending/pmi-211019-ID21.209-warm-try-try-lending-HTML.html",
+    "HTMLstaticfile"   :   "pmi2110/pmi-211027-warm-lending-vpd/pmi-211027-ID21.222-warm-try-try-vpd-HTML.html",
 
     "trackmailopen"            :   "0",
     "trackmailaudience"        :   "0",    
@@ -44,7 +44,7 @@
 
     "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
     "TwigFooterBlock"  :   "block-footer.twig",
-    "Source"           :   "pmi-211019-ID21.209-warm-try-try-lending-HTML",
+    "Source"           :   "pmi-211027-ID21.222-warm-try-try-vpd-HTML",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
@@ -68,22 +68,22 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.209-1.jpg",
+            "img"           : "21.222-1.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.209-1"
+            "this"          : "IMG 21.222-1"
         },
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.209-2.png",
+            "img"           : "21.222-2.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.209-2"
+            "this"          : "IMG 21.222-2"
         },
         {
             "type"          : "greeting_v2",
@@ -117,12 +117,12 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.209-3.jpg",
+            "img"           : "21.222-3.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.209-x"
+            "this"          : "IMG 21.222-x"
         },
         {
             "type"              : "columns",
@@ -211,38 +211,16 @@
             "content"       : "Recuerda que al realizar tu registro recibiste un correo con un <b>código de descuento</b> aplicable en la compra de tu primer <b>Kit IQOS.</b>",
             "this"          : "TXT"
         },
-        {
-            "type"          : "pframed___",
-            "fontweight"    : "700",
-            "fontsize"      : "22",
-            "height"        : "22",
-            "width"         : "50%",
-            "align"         : "center",
-            "color"         : "#000000",
-            "color_bkg"     : "transparent",
-            "color_boxbkg"  : "transparent",
-            "framecolor"    : "#000000",
-            "margin_top"    : "0",
-            "margin_bottom" : "0",
-            "framepadding"  : "20",
-            "content"       : "%%=v(@voucher_code)=%%",
-            "this"          : "TXT"
-        },
-        {
-            "type"          : "spacer__",
-            "height"        : "50",
-            "color_bkg"     : "transparent",
-            "this"          : "height in px"
-        },
+
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.209-4.jpg",
+            "img"           : "21.222-4.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.209-4"
+            "this"          : "IMG 21.222-4"
         },
         {
             "type"          : "cta1_v2",

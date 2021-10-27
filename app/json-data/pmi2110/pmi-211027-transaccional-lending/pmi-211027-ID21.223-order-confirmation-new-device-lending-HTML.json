@@ -1,0 +1,1344 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML.html"},
+            { "this" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2110/pmi-211027-transaccional-lending/pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211027-ID21.223-order-confirmation-new-device-lending-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#34303d",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "70",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "greeting",
+            "fontweight"    : "300",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "greeting"      : "Hola, %%=v(@customer_name)=%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Encuentra los detalles de tu compra a continuación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "65%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "<b>¡Buenas noticias!</b> Hemos recibido tu orden. En breve nuestros repartidores estarán contigo para realizar la entrega de tu dispositivo IQOS. No olvides tener tu identificación oficial a la mano.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#faf7f4",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#faf7f4",
+            "framepadding"  : "30",
+            "content"       : "<b>Fecha de pedido:</b><br>%%=properCase(FormatDate(@date,\"l\",\"\",\"es-MX\"))=%%",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "700",
+            "fontsize"      : "18",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#faf7f4",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#faf7f4",
+            "framepadding"  : "10",
+            "content"       : "Lista de artículos:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "20",
+            "color_bkg"         : "transparent",
+            "this"              : "THUMBNAIL, LISTA DE ARTICULOS, PRECIO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "10",
+                    "imgwidth"      : "40",
+                    "mtop"          : "0",
+                    "img"           : "%%=v(@prod_imageUrl)=%%",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG thumbnail product"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "50",
+
+                    "h1"            : "%%=v(@prod_product_name)=%%",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "16px",
+                    "h1_height"     : "16px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Código: %%=v(@prod_product_code)=%%<br>Cantidad: %%=v(@prod_quantity)=%%",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "22px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "24",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "$%%=Multiply(@prod_basePrice_value,@prod_quantity)=%%",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "16px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+
+            ]
+        },
+
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "20",
+            "color_bkg"         : "transparent",
+            "this"              : "LENDING FEE, PRECIO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "50",
+
+                    "h1"            : "Cuota de préstamo IQOS",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "16px",
+                    "h1_height"     : "16px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Código: %%=v(@prod_product_code)=%%<br>Cantidad: %%=v(@prod_quantity)=%%",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "22px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "24",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "$%%=Multiply(@prod_basePrice_value,@prod_quantity)=%%",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "16px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+
+            ]
+        },
+
+        {
+            "type"          : "pframed",
+            "fontweight"    : "700",
+            "fontsize"      : "1",
+            "height"        : "1",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#faf7f4",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framecolor"    : "#faf7f4",
+            "framepadding"  : "5",
+            "content"       : "&nbsp;",
+            "this"          : "SPACER"
+        },
+
+        {
+            "type"              : "cols_m_A_B_m__________",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "DESCUENTO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "40",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Descuento",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "18px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "@totalDiscount_formattedValue",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "20px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m____________",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "IVA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "40",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "IVA",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "18px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "@totalTax_formattedValue",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "20px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "COSTO DE ENVÍO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "40",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Costo de Envío",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "18px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "@deliveryMode_deliveryCost_formattedValue",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "20px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "TOTAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "40",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Total",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "18px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "@totalPriceWithTax_formattedValue",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "20px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "PAGO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "40",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "Pago",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "18px",
+                    "p_height"      : "18px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "30",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "@totalPriceWithTax_formattedValue",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "14px",
+                    "p_height"      : "20px",
+                    "p_align"       : "right",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              :  "Cabin", 
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "ADDRESS - TITLES",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "28",
+
+                    "h1"            : "Dirección de Envío",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "12px",
+                    "h1_align"      : "center",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "1px",
+                    "p_height"      : "1px",
+                    "p_align"       : "center",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "1",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",                    
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "28",
+
+                    "h1"            : "Dirección de Facturación",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "12px",
+                    "h1_align"      : "center",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "",
+                    "p_fontweight"  : "700",
+                    "p_fontsize"    : "1px",
+                    "p_height"      : "1px",
+                    "p_align"       : "center",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "1",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",                    
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "28",
+
+                    "h1"            : "Número de pedido",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "14px",
+                    "h1_align"      : "center",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "1px",
+                    "p_height"      : "1px",
+                    "p_align"       : "center",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "1",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "transparent",
+            "this"              : "ADDRESS - DATA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "%%=v(@deliveryAddress_line1)=%%<br>%%=v(@deliveryAddress_line2)=%%<br>%%=v(@deliveryAddress_postalCode)=%% %%=v(@deliveryAddress_town)=%%<br>%%=v(@deliveryAddress_country_name)=%%",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "10px",
+                    "p_height"      : "12px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",                    
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "%%=v(@billingAddress_line1)=%%<br>%%=v(@billingAddress_line2)=%%<br>%%=v(@billingAddress_postalCode)=%% %%=v(@billingAddress_town)=%% <br>%%=v(@billingAddress_country_name)=%%",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "10px",
+                    "p_height"      : "12px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "8",                    
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"%%=RedirectTo(@myAccount)=%%\" style=\"text-decoration:underline;font-size:14px;font-weight:700;font-style:normal;font-stretch:normal;\">%%=v(@code)=%%</a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "260",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+
+            ]
+        },    
+        {
+            "type"          : "spacer__",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "5",
+            "content"       : "Saludos",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "5",
+            "margin_bottom" : "25",
+            "content"       : "Equipo IQOS",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "26",
+            "width"         : "60%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "25",
+            "margin_bottom" : "25",
+            "content"       : "Si decides quedarte con el dispositivo, podrás solicitar tu factura máximo 72 horas posterior a tu compra al correo: <br><b><a href=\"mailto:FacturacionElectronica.IQOS@pmi.com?Subject=Solicitud%20de%20factura\"><span style=\"text-decoration:underline;\">FacturacionElectronica.IQOS@pmi.com</span></a></b><br>Conserva tu ticket para devoluciones, reemplazos y para hacer válida la garantía.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "TXT"
+        },        
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>."
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "height in px"
+        },
+        {
+            "_THIS_BLOCK"   : "-------------- FOOTER ------------",
+            "type"          : "spacer",
+            "height"        : "15",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "15",
+            "margin_topbottom"  : "10",
+            "color_bkg"         : "#34303e",
+            "this"              : "LINKS STORE & CONTACT",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "25",
+
+                    "h1"            : "",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "18px",
+                    "h1_height"     : "20px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "12px",
+                    "p_height"      : "14px",
+                    "p_align"       : "center",
+                    "p_color"       : "#c7c7c7",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                }
+
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "1",
+            "color_bkg"         : "#34303e",
+            "this"              : "LOGO & SOCIAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "130",
+                    "mtop"          : "0",
+                    "img"           : "footer-logo-iqos.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "50",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "10",
+                    "imgwidth"      : "30",
+                    "mtop"          : "6",
+                    "img"           : "footer-logo-fb.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://www.facebook.com/iqosmx/",
+                    "THISIMG"       : "IMG footer-logo-fb LOGO FB"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303e",
+                    "widthp100"     : "10",
+                    "imgwidth"      : "30",
+                    "mtop"          : "6",
+                    "img"           : "footer-logo-ig.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG footer-logo-ig LOGO IG"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "35",
+            "color_bkg"     : "#34303e",
+            "this"          : "height in px"
+        },
+
+        {
+            "_THIS_BLOCK"   : "-------------- LEGAL ------------",
+            "type"          : "p",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "25",
+            "margin_bottom" : "15",
+            "content"       : "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
+            "this"          : "TXT"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

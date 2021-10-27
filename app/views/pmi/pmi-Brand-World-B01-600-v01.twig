@@ -980,7 +980,7 @@ Set @email= [email_address]
                               {% set fontFamily =  blocks[index].font %}
                             {% endif %}  
 
-                            <tr pik-mail-block="cols_m_A_B_m">
+                            <tr pik-txt-data="{{blocks[index].this}}" pik-mail-block="cols_m_A_B_m">
 
                               <th valign="middle" style="text-align:center;background-color:{{blocks[index].color_bkg}}" class="horizontal-grid">
                               <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
@@ -1234,7 +1234,7 @@ Set @email= [email_address]
 
 
 
-                            </tr>
+                            </tr> <!-- ENDBLOCK: {{blocks[index].this}} -->
 
 
                           {% elseif blocks[index].type == "columns" %}
@@ -1430,7 +1430,7 @@ Set @email= [email_address]
                               <th valign="top" style="background-color:{{blocks[index].color_bkg}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].margin_top}}">&nbsp;</th>
                             </tr>{% endif %}
 
-                            <tr pik-mail-block="pframed content" style="background-color:{{blocks[index].color_bkg}};">
+                            <tr pik-txt-data="{{blocks[index].this}}" pik-mail-block="pframed content" style="background-color:{{blocks[index].color_bkg}};">
                               <th valign="top" style="background-color:{{blocks[index].color_bkg}};" class="" height="{{blocks[index].height}}">
                                 <table valign="middle" align="center" cellpadding="{{blocks[index].framepadding}}" cellspacing="0" border="2" bordercolor="{{blocks[index].framecolor}}" width="{{blocks[index].width}}" style="min-width:{{blocks[index].width}};background-color:{{boxbkg}}; border: 2px {{blocks[index].framecolor}} solid;" role="presentation">
                                 <tbody>

@@ -1,8 +1,8 @@
 {% block column_img %}
-                                            {% set m_top = 0 %}
-                                            {% if blocks[index].columns[idx].mtop is defined %}
-                                                {% set m_top = blocks[index].columns[idx].mtop %}
-                                            {% endif %}
+  {% set m_top = 0 %}
+  {% if blocks[index].columns[idx].mtop is defined %}
+    {% set m_top = blocks[index].columns[idx].mtop %}
+  {% endif %}
 
                                             <th valign="top" style="text-align:center;background-color:{{colbkg}}" class="image-container" align="center" width="{{blocks[index].columns[idx].widthp100}}%">
                                               <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">

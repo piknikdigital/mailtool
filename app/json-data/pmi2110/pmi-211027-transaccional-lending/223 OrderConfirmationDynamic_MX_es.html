@@ -1,0 +1,2242 @@
+
+<script runat="server" language="JavaScript">
+  /* globals payload:false */
+  if (payload && payload['totalDiscounts']) {
+    for (var i = 0; i < payload['totalDiscounts'].length; i++) {
+      for (var el2 in payload['totalDiscounts'][i]) {
+        // Write(i + '.' + el2 + ': ' + payload['entries'][i][el2] + '<br>');
+        var name = (el2.split('.').join('_'));
+        // publish proper AMPscript variable for table
+        Variable.SetValue('@totalDiscount_' + name, payload['totalDiscounts'][i][el2]);
+      }
+    }
+  }
+  if (payload && payload['appliedOrderPromotions']) {
+    for (var i = 0; i < payload['appliedOrderPromotions'].length; i++) {
+      for (var el2 in payload['appliedOrderPromotions'][i]) {
+        // Write(i + '.' + el2 + ': ' + payload['entries'][i][el2] + '<br>');
+        var name = (el2.split('.').join('_'));
+        // parse orderPromotions array into the string with promotion names divided with pipes: "Spring Promotion|Summer Promotion|Winter Promotion"
+        if (Variable.GetValue('@appliedOrderPromotions_' + name) != null) {
+          Variable.SetValue('@appliedOrderPromotions_' + name, Variable.GetValue('@appliedOrderPromotions_' + name) + '|' + payload['appliedOrderPromotions'][i][el2]);
+        }
+        else {
+          Variable.SetValue('@appliedOrderPromotions_' + name, payload['appliedOrderPromotions'][i][el2]);
+        }
+      }
+    }
+  }
+</script>  
+
+%%[
+var @appliedOrderPromotionsNames, @appliedOrderPromotionsNamesRowCount
+
+/* parse the pipe-divided string prepared in Javascript into the rowset with promotions names */
+set @appliedOrderPromotionsNames = BuildRowsetFromString(@appliedOrderPromotions_name, "|")
+set @appliedOrderPromotionsNamesRowCount = rowCount(@appliedOrderPromotionsNames)
+]%%
+
+ <custom name="opencounter" type="tracking">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title></title>
+ <!-- pmi-210816-ID21.159-order-confirmation-HTML -->
+ <style type="text/css">
+ #outlook a {
+ padding: 0;
+ }
+ 
+ div{
+ margin-top: 0!important;
+ margin-bottom: 0!important;
+ padding: 0;
+ }
+ 
+ body {
+ width: 100% !important;
+ -webkit-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ margin: 0;
+ padding: 0;
+ }
+ 
+ .ExternalClass {
+ width: 100%;
+ }
+ 
+ .ExternalClass,
+ .ExternalClass p,
+ .ExternalClass span,
+ .ExternalClass font,
+ .ExternalClass th,
+ .ExternalClass div {
+ line-height: 100%;
+ }
+ 
+ .background-table {
+ margin: 0;
+ padding: 0;
+ width: 100% !important;
+ min-width: 100% !important;
+ line-height: 100% !important;
+ }
+ 
+ img {
+ outline: none;
+ text-decoration: none;
+ -ms-interpolation-mode: bicubic;
+ display: block;
+ }
+ 
+ a img {
+ border: none;
+ }
+ </style>
+ <style type="text/css">
+ table {
+ border-collapse: collapse;
+ mso-table-lspace: 0pt;
+ mso-table-rspace: 0pt;
+ border:0;
+ }
+ th {
+ border-collapse: collapse;
+ }
+ 
+ @media all and (max-width: 600px) {
+ .background-table.has-width-600 .email-content {
+ width: 100% !important;
+ }
+ .background-table.has-width-600 img {
+ max-width: 100%;
+ height: auto;
+ }
+ .background-table.has-width-600 .mobile-display-block {
+ display: block;
+ width: 100%;
+ }
+ .background-table.has-width-600 .mobile-display-none {
+ display: none;
+ }
+ .background-table.has-width-600 .mobile-display-table-caption {
+ display: table-caption !important;
+ }
+ .background-table.has-width-600 .mobile-display-table-header-group {
+ display: table-header-group !important;
+ }
+ .background-table.has-width-600 .mobile-display-table-row {
+ display: table-row !important;
+ }
+ .background-table.has-width-600 .mobile-display-table-footer-group {
+ display: table-footer-group !important;
+ }
+ .background-table.has-width-600 .mobile-width-auto {
+ width: auto !important;
+ }
+ }
+ 
+ @media screen and (device-width: 768px) and (device-height: 1024px) {
+ body {
+ min-width: 701px !important;
+ }
+ }
+ </style>
+ <style type="text/css">
+ a {
+ color: #000077;
+ text-decoration: none;
+ }
+ </style>
+ 
+ 
+ <!--[if mso]>
+ <style type=”text/css”>
+ .fallback-text {
+ font-family: Arial, sans-serif;
+ }
+ </style>
+ <![endif]-->
+ 
+ <!--[if gte mso 9]>
+ <style type="text/css">
+ table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border:0;}
+ table td, table th { border-collapse:collapse; font-size:1px; line-height:1px; }
+ </style>
+ <xml>
+ <o:OfficeDocumentSettings>
+ <o:AllowPNG/>
+ <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml>
+ <![endif]-->
+ 
+ 
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+
+ <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&amp;family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+
+ 
+ 
+
+ <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden" class="preheader"></div>
+ <table cellpadding="0" cellspacing="0" border="0" width="600" style="margin: 0; padding: 0; text-align: left; width: 100%; min-width: 600px; line-height: 100%;" role="presentation" class="background-table has-width-600" bgcolor="#FFFFFF" valign="top">
+ 
+ <tr>
+ <th valign="top">
+ <table cellpadding="0" cellspacing="0" border="0" width="600" style="width:600px;margin:0 auto" role="presentation" class="email-content" align="center">
+ 
+ <tr>
+ <th valign="top">
+ <div pik-mail-block="blocks-container" style="margin:0;padding:0;background-color:#FFFFFF;">
+ 
+ 
+
+ %%[if((@orderChannel == 'CEF') OR (@orderChannel == 'DIRECTRETAIL')) then]%%
+
+   
+
+ %%[else]%% 
+  
+   
+ %%[endif]%%
+   
+   
+ 
+ 
+  %%[
+/* build the html of the summary table, using Ampscript concats and loops */
+var @sumTable, @sumTableRow, @sumTableBegin, @sumTableMid, @sumTableEnd
+set @sumTableBegin = '<tr align="center"><td style="width: 40%;" valign="top" align="left">&nbsp;</td><td style="width: 20%;padding: 1px; font-family: sans-serif; font-size: 14px; line-height: 22px; color: #414042; text-align: center;" valign="top" align="left"><p style="padding: 1px; margin: 0">'
+set @sumTableMid = '</p></td><td style="width: 40%;padding: 1px; font-family: sans-serif; font-size: 14px; line-height: 22px; color: #666666; text-align: right;" valign="top" align="right"><p style="padding: 1px; margin: 0">'
+set @sumTableEnd = '</p></td></tr>'
+set @sumTable = '<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">'
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, 'Descuento:', @sumTableMid, @totalDiscount_formattedValue, @sumTableEnd)
+if (not empty(@appliedOrderPromotionsNamesRowCount) AND @appliedOrderPromotionsNamesRowCount > 0) then
+set @tempo = 'YES'
+for @i = 1 to @appliedOrderPromotionsNamesRowCount do
+var @appliedOrderPromotionLine
+set @row = row(@appliedOrderPromotionsNames, @i) /* get row based on counter */
+set @appliedOrderPromotionLine = field(@row,1)
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, 'Promoción:', @sumTableMid, @appliedOrderPromotionLine, @sumTableEnd)
+next @i
+endif
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, 'IVA:', @sumTableMid, @totalTax_formattedValue, @sumTableEnd)
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, 'Envío:', @sumTableMid, @deliveryMode_deliveryCost_formattedValue, @sumTableEnd)
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, '<b>Total:</b>', @sumTableMid, '<b>', @totalPriceWithTax_formattedValue, '</b>', @sumTableEndRow)
+set @sumTable = CONCAT(@sumTable, @sumTableBegin, 'Pago:', @sumTableMid, @totalPriceWithTax_formattedValue, @sumTableEnd)
+set @sumTable = CONCAT(@sumTable, '</table>')
+]%%
+ 
+ <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr pik-mail-block="img">
+ <th valign="top" style="text-align:left;margin:0;padding:0;background-color:transparent;" class="image-container" align="left">
+ <img src="https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/ed5f80e6-cc28-4c42-bd34-068f00227aab.png" width="600" height="auto" align="absbottom" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0;padding:0;border:0;">
+ </th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:#34303d;">
+ <th valign="top" style="background-color:#34303d;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="70">&nbsp;</th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="greeting" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:center;font-size:28px;font-weight:300;line-height:34px;color:#333333" class="horizontal-gutter fallback-text" height="34">
+ <span class="fallback-text" style="font-family: 'Cabin', Gotham, Arial, sans-serif;">Hola, %%=v(@customer_name)=%%</span>
+ </th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr><tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="30">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="70%" style="min-width:70%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:18px;font-weight:300;line-height:30px;color:#333333; font-family: 'Cabin', Gotham, Arial, sans-serif;" class="fallback-text">
+ Encuentra los detalles de tu compra a través de <b><a href="https://www.iqos.com" alias="iqos.com" target="_blank" style="color: inherit;">iqos.com</a></b> a continuación.</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr><tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="30">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="70%" style="min-width:70%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:18px;font-weight:300;line-height:30px;color:#333333; font-family: 'Cabin', Gotham, Arial, sans-serif;" class="fallback-text">
+ <b>¡Buenas noticias!</b> Tu orden ha sido recibida por nuestro equipo. Nuestros repartidores entregarán personalmente tu dispositivo en breve, recuerda tener a la mano tu identificación oficial.</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr><tr pik-mail-block="pframed content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="20">
+ <table valign="middle" align="center" cellpadding="30" cellspacing="0" border="2" bordercolor="#faf7f4" width="80%" style="min-width:80%;background-color:#faf7f4; border: 2px #faf7f4 solid;" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:16px;font-weight:300;line-height:20px;color:#000000; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">
+ <b>Fecha de pedido:</b><br>%%=properCase(FormatDate(@date,"l","","es-MX"))=%%</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="pframed content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="20">
+ <table valign="middle" align="center" cellpadding="10" cellspacing="0" border="2" bordercolor="#faf7f4" width="80%" style="min-width:80%;background-color:#faf7f4; border: 2px #faf7f4 solid;" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:18px;font-weight:700;line-height:20px;color:#000000; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">
+ Lista de artículos:</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ <!-- BLOQUE PARA INFORMACION DE PRODUCTO COMPRADO (Thumbnail, Info de producto, precio). Repetir bloque para incluir mas productos -->
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+   
+  <script runat="server" language="JavaScript">
+   /* globals payload:false */
+   if (payload && payload['entries']) {
+    for (var i = 0; i < payload['entries'].length; i++) {
+     for (var el2 in payload['entries'][i]) {
+
+      if (el2 === 'renditions' && typeof payload['entries'][i]['renditions'] === 'object') {
+        var maxDim = 60;
+        var minImage = null;
+        // select the smallest image (developer decision)
+        for (var ri = 0; ri < payload['entries'][i]['renditions'].length; ri++) {
+           var image = payload['entries'][i]['renditions'][ri];
+           if (minImage === null) {
+              // kick off the selection with whatever comes first
+              minImage = image;
+           }
+           if (image.rendition) {
+              // gotta add a lot of encapsulated if-checks here or SFMC quirks out
+              var dimensions = image.rendition.split('x');
+              if (dimensions && dimensions.length === 2) {
+                image.w = dimensions[0] * 1;
+                image.h = dimensions[1] * 1;
+                if (image.w < minImage.w) {
+                  // replace prev selected image with current if its width is smaller
+                  minImage = image;
+                }
+            }
+           }
+        }
+        var factor;
+        if (minImage === null) {
+        minImage = {
+            link: 'nothing',
+            w: 0,
+            h: 0
+        };
+        } else {
+        //  // Variable.SetValue('@crossSelling_imageUrl', minImage.link);
+        if (minImage.w && minImage.w > maxDim) {
+            // image too big based on width - scale!
+            factor = maxDim / minImage.w;
+            minImage.w = maxDim;
+            minImage.h = factor * minImage.h;
+        }
+        if (minImage.h && minImage.h > maxDim) {
+            // image too big based on width - scale!
+            factor = maxDim / minImage.h;
+            minImage.h = maxDim;
+            minImage.w = factor * minImage.w;
+        }
+        }       
+        Variable.SetValue('@prod_imageUrl', minImage.link);
+        Variable.SetValue('@prod_imageW', minImage.w);
+        Variable.SetValue('@prod_imageH', minImage.h);
+        Variable.SetValue('@prod_rendition', minImage.rendition);
+        Variable.SetValue('@prod_factor', factor); 
+       } else {
+            // Write(i + '.' + el2 + ': ' + payload['entries'][i][el2] + '<br>');
+            var name = (el2.split('.').join('_'));
+            // publish proper SSJS variable for table (deactivate one or the other)
+            // Variable.SetValue(name, payload['entries'][i][el2]);
+            // publish proper AMPscript variable for table (deactivate one or the other)
+            Variable.SetValue('@prod_' + name, payload['entries'][i][el2]);
+       } 
+
+     }
+
+  </script>  
+   
+   
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="10%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <img src="%%=v(@prod_imageUrl)=%%" width="40" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:40px;">
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="50%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ <h1 style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#333333; display:block;margin-top:0; text-align:left; line-height:16px; font-size:16px; font-weight:700;" class="fallback-text">%%=v(@prod_product_name)=%%</h1>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:22px; font-size:14px; font-weight:300;" class="fallback-text">Código: %%=v(@prod_product_code)=%%<br>Cantidad: %%=v(@prod_quantity)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="24%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:16px; font-size:14px; font-weight:700;" class="fallback-text">$%%=Multiply(@prod_basePrice_value,@prod_quantity)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+   <script runat="server" language="JavaScript">
+ }
+ }
+
+</script> 
+   
+   
+ </table>
+ </th>
+ 
+ </tr> <!-- FIN DE BLOQUE CON INFO DE PRODUCTO COMPRADO -->
+ 
+ 
+ <tr pik-mail-block="pframed content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="1">
+ <table valign="middle" align="center" cellpadding="5" cellspacing="0" border="2" bordercolor="#faf7f4" width="80%" style="min-width:80%;background-color:#faf7f4; border: 2px #faf7f4 solid;" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:1px;font-weight:700;line-height:1px;color:#000000; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">
+ &nbsp;</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr><tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ 
+ 
+
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="22%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th><th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="40%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:18px; font-size:18px; font-weight:700;" class="fallback-text">Descuento</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:20px; font-size:14px; font-weight:300;" class="fallback-text">%%=v(@totalDiscount_formattedValue)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="22%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="40%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:18px; font-size:18px; font-weight:700;" class="fallback-text">IVA</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:20px; font-size:14px; font-weight:300;" class="fallback-text">%%=v(@totalTax_formattedValue)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="22%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="40%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:18px; font-size:18px; font-weight:700;" class="fallback-text">Costo de Envío</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:20px; font-size:14px; font-weight:300;" class="fallback-text">%%=v(@deliveryMode_deliveryCost_formattedValue)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="22%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="40%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:18px; font-size:18px; font-weight:700;" class="fallback-text">Total</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:20px; font-size:14px; font-weight:300;" class="fallback-text">%%=v(@totalPriceWithTax_formattedValue)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="80%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="22%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="40%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:18px; font-size:18px; font-weight:700;" class="fallback-text">Pago</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="3%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:right; line-height:20px; font-size:14px; font-weight:300;" class="fallback-text">%%=v(@totalPriceWithTax_formattedValue)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="image-container" align="center" width="5%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:10%" class="vertical-gutter" width="10%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="90%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#ffffff" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ <h1 style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#333333; display:block;margin-top:0; text-align:center; line-height:12px; font-size:12px; font-weight:700;" class="fallback-text">Dirección de Envío</h1>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:center; line-height:1px; font-size:1px; font-weight:700;" class="fallback-text"></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:transparent" class="image-container" align="center" width="8%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#ffffff" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ <h1 style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#333333; display:block;margin-top:0; text-align:center; line-height:12px; font-size:12px; font-weight:700;" class="fallback-text">Dirección de Facturación</h1>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:center; line-height:1px; font-size:1px; font-weight:700;" class="fallback-text"></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:transparent" class="image-container" align="center" width="8%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#ffffff" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ <h1 style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#333333; display:block;margin-top:0; text-align:center; line-height:14px; font-size:12px; font-weight:700;" class="fallback-text">Número de pedido</h1>
+ 
+ 
+ <div style="font-family: 'Cabin', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:center; line-height:1px; font-size:1px; font-weight:300;" class="fallback-text"></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:transparent" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="90%">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:12px; font-size:10px; font-weight:300;" class="fallback-text">%%=v(@deliveryAddress_line1)=%%<br>%%=v(@deliveryAddress_line2)=%%<br>%%=v(@deliveryAddress_postalCode)=%% %%=v(@deliveryAddress_town)=%%<br>%%=v(@deliveryAddress_country_name)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:transparent" class="image-container" align="center" width="8%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:left; line-height:12px; font-size:10px; font-weight:300;" class="fallback-text">%%=v(@billingAddress_line1)=%%<br>%%=v(@billingAddress_line2)=%%<br>%%=v(@billingAddress_postalCode)=%% %%=v(@billingAddress_town)=%% <br>%%=v(@billingAddress_country_name)=%%</div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:transparent" class="image-container" align="center" width="8%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#faf7f4" class="" align="center" width="28%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#111111; display:block; padding-right:10px; text-align:center; line-height:14px; font-size:12px; font-weight:300;" class="fallback-text"><a href="%%=RedirectTo(@myAccount)=%%" alias="Numero_de_pedido_code" style="text-decoration:underline;font-size:14px;font-weight:700;font-style:normal;font-stretch:normal;">%%=v(@code)=%%</a></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="50">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="22">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="70%" style="min-width:70%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:22px;font-weight:700;line-height:22px;color:#333333; font-family: 'Cabin', Gotham, Arial, sans-serif;" class="fallback-text">
+ Saludos</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="5">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="5">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="24">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="70%" style="min-width:70%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:24px;font-weight:700;line-height:24px;color:#333333; font-family: 'Cabin', Gotham, Arial, sans-serif;" class="fallback-text">
+ Equipo IQOS</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="26">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="70%" style="min-width:70%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:16px;font-weight:300;line-height:26px;color:#333333; font-family: 'Cabin', Gotham, Arial, sans-serif;" class="fallback-text">
+    <script runat="server" language="JavaScript">
+                               if (payload && (payload['orderChannel'] == 'CEF' || payload['orderChannel'] == 'DIRECTRETAIL') )
+{
+                              </script>
+ <b>Las promociones y los descuentos son aplicables a dispositivos y/o accesorios, no a productos de tabaco.</b>
+   <script runat="server" language="JavaScript">
+                                            }
+                              </script>
+   <br>
+   <br>
+   Para facturación electrónica, solicitarla máximo 72 horas posterior a tu compra al correo: <br><b><a href="mailto:FacturacionElectronica.IQOS@pmi.com?Subject=Solicitud%20de%20factura" alias="email_notice"><span style="text-decoration:underline;">FacturacionElectronica.IQOS@pmi.com</span></a></b><br><br>Conserve su ticket para devoluciones, reemplazos y para hacer válida la garantía.</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="pframed margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="pframed content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="11">
+ <table valign="middle" align="center" cellpadding="15" cellspacing="0" border="2" bordercolor="#000000" width="80%" style="min-width:80%;background-color:#FFFFFF; border: 2px #000000 solid;" role="presentation">
+ 
+ <tr>
+ <th style="text-align:justify;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:justify;font-size:11px;font-weight:300;line-height:11px;color:#333333; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">
+ <b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.</span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="pframed margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="disclaimer">
+ <th valign="top" style="text-align:justify;background-color:transparent;font-size:11px;line-height:13px" class="horizontal-gutter">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="600" style="min-width:600px" role="presentation">
+ 
+ <tr>
+ <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+ <th valign="middle" style="text-align:justify" align="justify">
+ <span style="color:#333333; font-size:11px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; text-align:justify;" class="fallback-text">Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href="https://www.pmiprivacy.com/es-la/consumer" alias="datospersonales" style="text-decoration:underline;" target="_blank">aquí</a>.</span>
+ </th>
+ <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:#34303e;">
+ <th valign="top" style="background-color:#34303e;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:#34303e" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:15%" class="vertical-gutter" width="15%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="70%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; padding-right:10px; text-align:center; line-height:14px; font-size:12px; font-weight:300;" class="fallback-text"><a href="https://www.iqos.com/mx/es/descubre/devices.html" alias="compraenlinea"><span style="color:#c7c7c7;">COMPRA<br>EN LÍNEA</span></a></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; padding-right:10px; text-align:center; line-height:14px; font-size:12px; font-weight:300;" class="fallback-text"><a href="https://www.iqos.com/mx/es/localizador-tiendas.html" alias="localizador"><span style="color:#c7c7c7;">LOCALIZA<br>UNA TIENDA</span></a></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; padding-right:10px; text-align:center; line-height:14px; font-size:12px; font-weight:300;" class="fallback-text"><a href="mailto:contact.mx@iqos.com" alias="Footer_email"><span style="color:#c7c7c7;">EMAIL</span></a></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ <th>
+ 
+ 
+ <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; padding-right:10px; text-align:center; line-height:14px; font-size:12px; font-weight:300;" class="fallback-text"><a href="tel:8001476769" alias="Footer_phone"><span style="color:#c7c7c7;">LLÁMANOS</span></a></div><br>
+ 
+ 
+ </th>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="vertical-gutter" width="2%">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="10">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:15%" class="vertical-gutter" width="15%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:#34303e;">
+ <th valign="top" style="background-color:#34303e;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="cols_m_A_B_m">
+ 
+ <th valign="middle" style="text-align:center;background-color:#34303e" class="horizontal-grid">
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th> 
+ <th valign="middle" style="text-align:center;" class="horizontal-grid" width="90%">
+ 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ 
+ <tr>
+ <th> 
+ <table valign="top" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="30%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <img src="https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/6e6851d0-117a-4992-ae06-38aecf890ec0.png" width="130" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:130px;">
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="50%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ <tr>
+ <th>
+ <span style="text-align:left;font-size:1px;line-height:1px">&nbsp;</span>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="10%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="6">&nbsp;</th>
+ </tr>
+ <tr>
+ <th>
+ <a href="https://www.facebook.com/iqosmx/" alias="Footer_facebook" target="_blank"><img src="https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/c4bbb362-606e-47bd-a98a-57938ef33c50.png" width="30" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:30px;"></a>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ 
+ <th valign="top" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="10%">
+ <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+ 
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="6">&nbsp;</th>
+ </tr>
+ <tr>
+ <th>
+ <a href="https://www.instagram.com/iqos_mx/" alias="Footer_instagram" target="_blank"><img src="https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/ffa1f625-112b-4970-bd54-ba725edb87d5.png" width="30" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:30px;"></a>
+ </th>
+ </tr>
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="1">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ 
+ </th>
+ <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </th>
+ 
+ 
+ 
+ </tr>
+ 
+ 
+ <tr pik-mail-block="spacer" style="background-color:#34303e;">
+ <th valign="top" style="background-color:#34303e;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="35">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ <tr pik-mail-block="p margin-top" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+ </tr>
+ <tr pik-mail-block="p content" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;" class="" height="11">
+ <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="90%" style="min-width:90%" role="presentation">
+ 
+ <tr>
+ <th style="text-align:center;">
+ <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-size:11px;font-weight:300;line-height:11px;color:#333333; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text">
+ &copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="darmedebaja"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a></span>
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ <tr pik-mail-block="p margin-bottom" style="background-color:transparent;">
+ <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="15">&nbsp;</th>
+ </tr>
+ 
+ 
+ 
+ </table>
+ </div>
+ 
+ <div>
+ <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+ 
+ <tr>
+ <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" bgcolor="transparent" height="15">&nbsp;</th>
+ </tr>
+ 
+ </table>
+ </div>
+ 
+ </th>
+ </tr>
+ 
+ </table>
+ </th>
+ </tr>
+ 
+ </table>
+
+   <custom name="usermatch" type="tracking">
+</custom></custom>
