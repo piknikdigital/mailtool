@@ -1,0 +1,461 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE.html",
+
+        "Subject"          :   "Refiere ahora y recibe hasta $1,500 MXN en beneficios al compartir el cambio con tus amigos fumadores adultos",
+        "Preheader"        :   "Ellos recibirán ¡20% de descuento! para su primer Kit IQOS",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20211109_MGM > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "MGM November",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2111/pmi-211109-mgm/pmi-211109-ID21.232-mgm-noviembre-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211109-ID21.232-mgm-noviembre-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f0a50d08-0e24-4c52-bfbb-b3ded2839b28.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.232-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/3be9329e-e12d-4bd4-ab5c-6eda40432d85.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.232-2"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "60",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Comparte los beneficios de IQOS con tus amigos<span style=\"font-size:14px;\"><sup>(1)</sup></span> y ambos podrán obtener grandes beneficios.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/6337a92e-fa4a-4cb1-956b-65a4d0fdc8b6.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.232-3"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/288865f2-db82-44c7-901c-fdea83dfb26f.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "40",
+                            "margin_bottom": "0",
+                            "imgWidth": "100",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.232-ico1"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Comparte tu código único.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "30",
+                            "margin_bottom": "30"
+                        },
+                        {
+                            "rowtype": "pframed",
+                            "color_bkg": "transparent",
+                            "p": "%%=v(@voucher_code)=%%",
+                            "p___": "MGMIQOS21NOV",
+                            "fontweight": "700",
+                            "fontsize": "30",
+                            "lineheight": "38",
+                            "align": "center",
+                            "width": "60%",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "color": "#FFFFFF",
+                            "framecolor": "#000000",
+                            "framebgcolor": "#000000",
+                            "framepadding": "15",
+                            "border": "1",
+                            "this": ""
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/49d319d5-1973-485e-90da-855c568c64b0.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+                            "url_ctaDECODED": "whatsapp://send?text=",
+                            "text2encode": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
+                            "imgulr1": "whatsapp://send?text=",
+                            "imgulr2": "https://wa.me/?text=",
+                            "imgulr3": "https://web.whatsapp.com/send?text=",
+                            "imgulr": "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
+                            "THISIMG": "cta-compartir WHATSAPP"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Te recomendamos hacerlo desde tu celular.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "14px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "15",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/7246f1ee-7af6-41b8-bed4-ba408194e6b0.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "100",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.232-ico2"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Por cada amigo que utilice tu código y registre<br> su Kit en iqos.com recibirás <b>$300 MXN en<br> beneficios</b>, teniendo la posibilidad de obtener<br> hasta <b>$1,500 MXN en beneficios.</b><span style=\"font-size:14px;font-weight:700;\"><sup>(2)</sup></span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/4c24a95d-1568-45f1-a955-d5764cfc3858.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "100",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.232-ico3"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Regala<br><b>20% de descuento</b><span style=\"font-size:14px;font-weight:700;\"><sup>(3)</sup></span><br>a tus amigos en la compra de su primer Kit IQOS.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "30",
+                            "margin_bottom": "50"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "TE DAMOS UN VISTAZO DE<br>ALGUNOS PRODUCTOS QUE PODRÁS<br> ADQUIRIR CON TUS <span style=\"color:#00d1d2;\">BENEFICIOS.</span>",
+                            "color_bkg": "#FFFFFF",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "30",
+                            "margin_bottom": "30"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/ccaaea7c-0c17-491c-bfd7-6729c0632f9e.gif",
+                            "color_bkg": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "540",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.232-4"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p___",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "IQOS <span style=\"color:#e4ab68;\">IQOS</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns___",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "40",
+                    "imgwidth": "240",
+                    "mtop": "0",
+                    "img": "21.232-x.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.232-x"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "5"
+                        },
+                        {
+                            "rowtype": "spacer",
+                            "height": "20px",
+                            "color_bkg": "transparent"
+                        },
+                        {
+                            "rowtype": "pframed",
+                            "color_bkg": "transparent",
+                            "p": "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "fontweight": "300",
+                            "fontsize": "9",
+                            "lineheight": "11",
+                            "align": "center",
+                            "width": "100%",
+                            "margin_top": "5",
+                            "margin_bottom": "5",
+                            "color": "#000000",
+                            "framecolor": "#000000",
+                            "framebgcolor": "transparent",
+                            "framepadding": "5",
+                            "border": "1",
+                            "this": ""
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "21.232-x.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "100",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "21.232-x"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1) Solo para fumadores adultos.<br>(2) Beneficios no canjeables por dinero en efectivo y redimible en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás 300 MXN en beneficios, teniendo la oportunidad de recibir hasta 1,500 MXN en beneficios. Limitado a los primeros 5 amigos referidos que compren y registren su primer dispositivo con tu código único.<br>(3) Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. Descuento no válido en productos de tabaco.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

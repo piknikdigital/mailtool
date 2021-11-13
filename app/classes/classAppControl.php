@@ -27,6 +27,7 @@ class AppControl
         // if ( !isset($request->project) )
         //     $f = ( !isset($request->subdir) )? $request->id : $request->subdir . "/". $request->id ;
         // else
+
         $f = $request->url;
 
         $this->model->loadjson($f);
@@ -55,6 +56,7 @@ class AppControl
             return  $app->twig->render($this->model->twigData['TwigTemplate'], $this->model->twigData );
         }
     }
+
     /**
      * 
      */

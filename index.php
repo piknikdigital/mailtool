@@ -50,7 +50,6 @@ $klein->respond('GET',  '/[:subdir]/[:id]'                  , [ $app, 'renderjso
 $klein->respond('GET',  '/[:project]/[:subdir]/[:id]'       , [ $app, 'renderjson'  ]);
 
 
-
 /** -----------------------------------------------------
  *  HTTP Error handling
  *  -----------------------------------------------------

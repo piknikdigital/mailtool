@@ -1,0 +1,601 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML.html",
+
+        "Subject"          :   "Este es un Buen momento para elegir IQOS, aprovecha su precio especial",
+        "Preheader"        :   "Elije el cambio",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2111/pmi-211111-buen-fin/pmi-211111-ID21.236-buen-fin-noviembre-3-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211111-ID21.236-buen-fin-noviembre-3-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#34303d",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.236-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.236-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.236-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.236-x"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "30",
+            "content"       : "La oportunidad que estabas esperando para cambiarte a una mejor alternativa está aquí.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.236-3.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.236-3"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "34",
+            "width"         : "50%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "framecolor"    : "#FFFFFF",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framepadding"  : "15",
+            "content"       : "%%=v(@voucher_code)=%%",
+            "this"          : ""
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.236-4.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.236-4"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-blanco-compra-ahora.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubre/comprar-dispositivos.html",
+            "this"          : "CTA cta-bw-blanco-compra-ahora"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "content"       : "¿Prefieres probarlo antes de comprarlo?",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.236-5.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.236-5"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "content"       : "Te prestamos un IQOS 3 DUO durante 14 días.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "ROUNDED TOP",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "76",
+                    "imgwidth"      : "456",
+                    "mtop"          : "0",
+                    "img"           : "21.235-4.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.235-4"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "40",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "STEPS 1/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "21.236-ico1.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.236-ico1"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Acepta El Reto",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "20px",
+                            "p_height"      : "28px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Regístrate y elige tu IQOS 3 DUO favorito para probarlo durante 14 días.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "50",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "STEPS 2/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "21.236-ico2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.236-ico2"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Conoce IQOS",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "20px",
+                            "p_height"      : "28px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Podrás conocer los beneficios de calentar el tabaco en lugar de quemarlo y la tecnología detrás.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "50",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "STEPS 3/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "21.236-ico3.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.236-ico3"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¡Lo quiero!",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "20px",
+                            "p_height"      : "28px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Cuando el prestamo concluya podrás decidir si comprarlo o devolverlo.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "30",
+            "margin_bottom"     : "30",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "CTA PROBAR AHORA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "76",
+                    "imgwidth"      : "150",
+                    "mtop"          : "0",
+                    "img"           : "cta-bw-probar-ahora.png",
+                    "imgulr"        : "https://www.probar-iqos.com/",
+                    "THISIMG"       : "IMG cta-bw-probar-ahora.png"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "ROUNDED BOTTOM",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "76",
+                    "imgwidth"      : "456",
+                    "mtop"          : "0",
+                    "img"           : "21.235-5.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.235-5"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "12",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#FFFFFF",
+            "fontsize"      : "11",
+            "txt"           : "(1) En la compra del primer Kit IQOS por usuario registrado. En este caso, los Códigos no serán redimibles en la compra de accesorios IQOS. El usuario no deberá tener previamente registrado en su cuenta un dispositivo IQOS.<br>(2) En la compra mínima de $799.00 M.N (Setecientos noventa y nueve pesos 00/100 M.N) que incluya un KIT IQOS (IQOS 2.4 Plus o IQOS 3 DUO) recibes 3 o 6 meses sin interés al momento del pago y sobre el total de tu compra con tarjetas de crédito de bancos participantes: Afirme, Banbajío, Banca Mifel, Banco ahorro Famsa, Banorte, IXE, Banjercito, Banregio, HSBC, Inbursa, Invex Banco, Itaucard, Santander, Liverpool, Scotiabank, Banamex, BBVA, American Express. Válido a partir del 1º de agosto de 2020 al 31 de diciembre del 2021. Aplicable en tiendas participantes: IQOS Shops, IQOS Corner Sanborns, a través de Expertos IQOS y compras realizadas en iqos.com<br>(3) A) Programa exclusivo para para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar el dispositivo o devolverlo. La participación en el Programa implica la aceptación expresa del Usuario de contar con, y proporcionar los datos de una tarjeta bancaria de la cual sea titular para el cobro de los cargos aplicables. Sujeto a disponibilidad de inventario. Consulta requisitos y Términos y Condiciones del Programa. (B) Color sujeto a disponibilidad de inventario en tienda. (C) Las unidades de tabaco para calentar, están disponibles dentro de la Ciudad de México y área metropolitana en Tiendas IQOS, City Market, Rappi, establecimientos seleccionados: Sanborns, OXXO, Circle K, Go Mart y 7-Eleven. Fuera de esta zona entra a www.iqos.com y encuentra tu tienda más cercana.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "transparent",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#FFFFFF",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#FFFFFF",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;color:#FFFFFF;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

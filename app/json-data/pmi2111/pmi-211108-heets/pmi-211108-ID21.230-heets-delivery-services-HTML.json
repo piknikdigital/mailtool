@@ -1,0 +1,413 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML.html",
+
+        "Subject"          :   "No te quedes sin tus unidades de tabaco para calentar",
+        "Preheader"        :   "Aquí te decimos dónde encontrarlas",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2111/pmi-211108-heets/pmi-211108-ID21.230-heets-delivery-services-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211108-ID21.230-heets-delivery-services-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.230-1.gif",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.230-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "70",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "32",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#34303d",
+            "margin_top"    : "60",
+            "margin_bottom" : "60",
+            "content"       : "Te recordamos dónde puedes <br>encontrar las <span style=\"color:#00d1d2;font-weight:700;\">unidades de tabaco <br>para calentar</span>:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "DONDE ENCONTRAR 1/4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "90",
+                    "mtop"          : "5",
+                    "img"           : "21.230-ico1.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.230-ico1"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "En Ciudad de México y área metropolitana, puedes <span style=\"color:#00d1d2;font-weight:700;\">ordenarlas en línea sin costo de envío</span><span style=\"font-size:12px;\"><sup>(1)</sup></span> y con entrega en 24 horas<span style=\"font-size:12px;\"><sup>(2)</sup></span>. También contamos con cobertura en zonas seleccionadas de Morelos, Puebla y Estado de México.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-ordenar-unidades.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "15",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "200",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.ordenar-unidades.com/?utm_source=crm&utm_medium=email&utm_campaign=launch",
+                            "THISIMG"        : "cta-ordenar-unidades"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "DONDE ENCONTRAR 2/4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "90",
+                    "mtop"          : "5",
+                    "img"           : "21.230-ico2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.230-ico2"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Visita nuestras <span style=\"color:#ffd040;font-weight:700;\">Tiendas IQOS</span> y encuentra la variante que más se identifica contigo.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "5",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-localizar-tienda.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "15",
+                            "margin_bottom"  : "60",
+                            "imgWidth"       : "200",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG"        : "cta-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "DONDE ENCONTRAR 3/4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "90",
+                    "mtop"          : "5",
+                    "img"           : "21.230-ico3.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.230-ico3"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Visita uno de los <span style=\"color:#e27d34;font-weight:700;\">3500 puntos de venta</span> de diferentes cadenas comerciales, tiendas de conveniencia y puntos de venta seleccionados.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-localizar-tienda.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "15",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "200",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.google.com/maps/d/u/0/viewer?mid=1EYuPNUZPkjlLN7QOK3pqwCg_IBGw-d6u&ll=23.380641649464128%2C-103.41271133492364&z=5",
+                            "THISIMG"        : "cta-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "DONDE ENCONTRAR 4/4",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "90",
+                    "mtop"          : "5",
+                    "img"           : "21.230-ico4.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 21.230-ico4"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "60",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Puedes pedir tus unidades de tabaco para calentar a través de <span style=\"color:#db3826;font-weight:700;\">Rappi</span> con entrega en <span style=\"color:#db3826;font-weight:700;\">¡menos de una hora!</span><span style=\"font-size:12px;\"><sup>(3)</sup></span>.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-ir-a-rappi.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "15",
+                            "margin_bottom"  : "70",
+                            "imgWidth"       : "200",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.rappi.com.mx/",
+                            "THISIMG"        : "cta-ir-a-rappi"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "(1) Entregas únicamente en Ciudad de México y área metropolitana y zonas seleccionadas de Estado de México, Morelos y Puebla.<br>(2) Los tiempos de entrega pueden variar. Sujeto a disponibilidad de inventario.<br>(3) Sujeto a disponibilidad de producto dependiendo de la zona de cobertura ofrecida por Rappi.​",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

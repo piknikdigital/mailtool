@@ -1,38 +1,34 @@
 <?php
 
-$p_id =  '203';
-$p_subject =  'Un Futuro Sin Humo es posible';
-$p_preheader =  'Sigue conociendo acerca de las alternativas';
+$p_id =  '234';
+$p_subject =  '¡Nunca había sido tan Buen momento para ponerle Fin al humo!';
+$p_preheader =  'Ellos el cambio con IQOS y aprovecha los súper precios';
 $p_yy =  '21';
 $p_mm =  '11';
-$p_dd =  '10';
-$p_name4folder =  'fsh';
-$p_name4json =  'fsh-newsletter-1';
-$p_name4folderDCE =  'FSH Newsletter';
-$p_mailname4DCE =  'FSH Newsletter 1';
-$p_customerkey_DCE =  'tbd';
-$p_name4folderFSH =  'FSH Newsletter';
-$p_mailname4FSH =  'FSH Newsletter 1';
+$p_dd =  '11';
+$p_name4folder =  'buen-fin';
+$p_name4json =  'buen-fin-noviembre-1';
+$p_name4folderDCE =  'Buen Fin 2021';
+$p_mailname4DCE =  'Buen Fin 2021 Leads 1';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'Buen Fin 2021';
+$p_mailname4FSH =  'Buen Fin 2021 Leads 1';
 $p_customerkey_FSH =  'tbd';
-$id_FSH_folder =  '132';
+$id_FSH_folder =  '133';
 
 
 //-----------------------------------------
 
-
-//$designStyle      =  "bw";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
-//$TwigTemplate     = "pmi-Brand-World-B01-600-v01.twig";
-
-
 $companyBrand     =  "pmi";
-$designStyle      =  "sa";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
+$designStyle      =  "bw";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
 
-$TwigTemplate     = "pmi-blocks-mod-B01-600-v03.twig";
+//$TwigTemplate     = "pmi-Brand-World-A02-600-v03.twig";
+$TwigTemplate     = "pmi-Brand-World-B01-600-v01.twig";
+
 $TwigFooterBlock  = "block-footer.twig";
 
 $footergrey       = "1";          // 1:grey  0:white ( "sa" designStyle)
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
-
+$bgColor          = "#34303d";    // Don't use "transparent"
 
 //-----------------------------------------
 
