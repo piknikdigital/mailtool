@@ -545,6 +545,23 @@ $libraryBlocks['legal_extra'] ='
             "txt"           : "LEGALES_TBD",
             "this"          : "LEGALES"
         },';
+$libraryBlocks['disclaimer_fsh'] ='
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        }';
 $libraryBlocks['disclaimer_iqos'] ='
         {
             "type"          : "pframed",
@@ -1419,6 +1436,86 @@ $libraryBlocks['FSH_Yellow_Share'] ='
             "url"           : "#",
             "this"          : "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
         },';
+$libraryBlocks['FSH_Yellow_Share_2'] ='
+        {
+            "type"              : "cols_m_A_B_m",
+            "margin_sides"      : "4",
+            "margin_topbottom"  : "25",
+            "color_bkg2"        : "#ffdd3a",
+            "color_bkg"         : "#ffffff",
+            "this"              : "SHARE FB TW WA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "59",
+                    "imgwidth"      : "318",
+                    "mtop"          : "0",
+                    "img"           : "yellow-share-1v1-txt.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG TXT COMPARTE ESTA INICIATIVA yellow-share-1v1-txt "
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "12",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-2-fb-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG"       : "IMG FACEBOOK yellow-share-2-fb-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "12",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-3-tw-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://ctt.ac/z13Mr",
+                    "THISIMG"       : "IMG TWITTER yellow-share-3-tw-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "12",
+                    "imgwidth"      : "45",
+                    "mtop"          : "15",
+                    "img"           : "yellow-share-4-wa-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG"       : "IMG WHATSAPP yellow-share-4-wa-share"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffdd3a",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "yellow-share-5-end.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
+        },';
 $libraryBlocks['FSH_Framed_Card'] ='
         {
             "type"              : "cols_m_A_B_m",
@@ -1655,6 +1752,11 @@ $libraryBlocks['footer_bw_v1'] =',
         {
             "type"          : "footer_bw_v1"
         }';
+$libraryBlocks['footer_fsh'] =',
+        {
+            "type"          : "footer_fsh"
+        }';
+
 $libraryBlocks['undefined'] ='
         {
         },';
@@ -1689,6 +1791,7 @@ $libraryBlocks['undefined'] ='
     "sinfuego_sinhumo_sinceniza_dorado_HTML",
     "legal_extra",
     "disclaimer_iqos",
+    "disclaimer_fsh",
     "pframed",
     "cols_33_33_33",
     "form",
@@ -1704,6 +1807,7 @@ $libraryBlocks['undefined'] ='
     "p300_BW",
     "p700_BW",
     "FSH_Yellow_Share",
+    "FSH_Yellow_Share_2",
     "FSH_Framed_Card",
     "columns",
     "greeting_v2",

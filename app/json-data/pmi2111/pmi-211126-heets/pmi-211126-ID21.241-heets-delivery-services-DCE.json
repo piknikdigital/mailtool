@@ -1,0 +1,472 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE.html",
+
+        "Subject"          :   "¿Ya sabes dónde encontrar las unidades de tabaco para calentar?",
+        "Preheader"        :   "Entonces esto es para ti",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20211126_Heets Diciembre > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Heets Delivery Services",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2111/pmi-211126-heets/pmi-211126-ID21.241-heets-delivery-services-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211126-ID21.241-heets-delivery-services-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/4739ed6b-0aa9-4cc2-82a9-64b4a3a856c3.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 21.241-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#db3826",
+            "this": "EN LINEA 1/2",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#db3826",
+                    "widthp100": "25",
+                    "imgwidth": "80",
+                    "mtop": "80",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/2396b3eb-d56c-4b9a-8d76-b73a3a2fe42b.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.241-ico1"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#db3826",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "En línea",
+                            "color_bkg": "#db3826",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "50",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Si vives en Ciudad de México y área metropolitana; y en zonas seleccionadas de Morelos, Puebla y Estado de México, puedes ordenarlas en línea<span style=\"font-size:12px;\"><sup>(1)</sup></span> <span style=\"font-size:22px;font-weight:700;\">sin costo de envío y entrega en 24 horas</span><span style=\"font-size:12px;\"><sup>(2)</sup></span>",
+                            "color_bkg": "#db3826",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/24851929-c72c-472f-8145-0d3837914006.png",
+                            "color_bkg": "#db3826",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "220",
+                            "align": "left",
+                            "imgulr": "https://www.ordenar-unidades.com/?utm_source=crm&utm_medium=email&utm_campaign=launch",
+                            "THISIMG": "cta-bw-blanco-ordenar-unidades"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Recuerda, tu orden se pagará al momento de la entrega.",
+                            "color_bkg": "#db3826",
+                            "p_fontweight": "300",
+                            "p_fontsize": "14px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#db3826",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#db3826",
+            "this": "EN LINEA 2/2",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#db3826",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "pframed",
+                            "color_bkg": "#db3826",
+                            "p": "¡Ahora también con cobertura en Monterrey, Guadalajara y Querétaro!",
+                            "fontweight": "700",
+                            "fontsize": "20",
+                            "lineheight": "28",
+                            "align": "center",
+                            "width": "80%",
+                            "margin_top": "25",
+                            "margin_bottom": "40",
+                            "color": "#FFFFFF",
+                            "framecolor": "#000000",
+                            "framebgcolor": "#000000",
+                            "framepadding": "5",
+                            "border": "1",
+                            "this": ""
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#e27d34",
+            "this": "PUNTOS DE VENTA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#e27d34",
+                    "widthp100": "25",
+                    "imgwidth": "80",
+                    "mtop": "80",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f1468a07-864d-4b3b-ab96-cd91717a3506.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.241-ico2"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#e27d34",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Puntos de venta",
+                            "color_bkg": "#e27d34",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "50",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Visita uno de los <span style=\"font-size:24px;font-weight:700;\">3500 puntos de venta</span> de las diferentes cadenas comerciales y tiendas de conveniencia seleccionadas en la República Mexicana.",
+                            "color_bkg": "#e27d34",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/9118b258-024a-488c-8718-09dda6705ee1.png",
+                            "color_bkg": "#e27d34",
+                            "margin_top": "10",
+                            "margin_bottom": "40",
+                            "imgWidth": "220",
+                            "align": "left",
+                            "imgulr": "https://www.google.com/maps/d/u/0/viewer?mid=1EYuPNUZPkjlLN7QOK3pqwCg_IBGw-d6u&ll=23.380641649464128%2C-103.41271133492364&z=5",
+                            "THISIMG": "cta-bw-blanco-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#e27d34",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#00d1d2",
+            "this": "TIENDAS IQOS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "25",
+                    "imgwidth": "80",
+                    "mtop": "80",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/67469cea-9bc8-4852-ad1c-51dce09aea29.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 21.241-ico3"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Tiendas IQOS",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "50",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Visíta nuestras <span style=\"font-size:24px;font-weight:700;\">Tiendas IQOS</span> y encuentra todas las variantes de unidades de tabaco para calentar.",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "15"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/9118b258-024a-488c-8718-09dda6705ee1.png",
+                            "color_bkg": "#00d1d2",
+                            "margin_top": "10",
+                            "margin_bottom": "40",
+                            "imgWidth": "220",
+                            "align": "left",
+                            "imgulr": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG": "cta-bw-blanco-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1) Entregas únicamente en Ciudad de México y área metropolitana y zonas seleccionadas de Guadalajara, Monterrey, Querétaro, Estado de México, Morelos y Puebla. Sólo para mayores de edad con identificación oficial. Este servicio es exclusivo para usuarios adultos de IQOS registrados en nuestra base de datos. El pago se realizará contra entrega del producto. <br>(2) Los tiempos de entrega pueden variar. Sujeto a disponibilidad de inventario.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

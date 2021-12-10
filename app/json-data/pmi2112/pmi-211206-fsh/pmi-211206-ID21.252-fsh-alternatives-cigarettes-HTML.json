@@ -1,0 +1,258 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML.html",
+
+        "Subject"          :   "¿Conoces las diferencias entre un cigarro y las alternativas libres de humo?",
+        "Preheader"        :   "Esta información te interesa",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2112/pmi-211206-fsh/pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-211206-ID21.252-fsh-alternatives-cigarettes-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "300",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.252-1.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.252-1"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "En los últimos años se han desarrollado nuevas alternativas para el consumo del tabaco que eliminan la combustión, pero ¿sabías que en México estas alternativas aún no están reguladas?<br><br>Queremos que conozcas las diferencias más importantes que hay entre las alternativas libres de humo y el cigarro.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.252-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.252-2"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "21.252-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 21.252-3"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "92%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#002263",
+            "framecolor"    : "#002263",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "framepadding"  : "30",
+            "content"       : "Comparte esta información con tus amigos fumadores<br>adultos y pídeles que firmen la petición para que el Congreso<br>sepa que más mexicanos buscan tener acceso a productos<br>regulados y a elegir una mejor alternativa al cigarro.<br><br>Sigamos levantando la voz para que esta iniciativa se<br>vuelva una realidad.",
+            "this"          : ""
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-fsh-compartir.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://futurosinhumo.com.mx/",
+            "this"          : "CTA cta-fsh-compartir"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "fsh-recuerda.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG fsh-recuerda"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "30",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "SHARE  SOCIAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "50",
+                    "mtop"          : "0",
+                    "img"           : "yellow-share-2-fb-share.png",
+                    "imgulr"        : "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG"       : "IMG yellow-share-2-fb-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "50",
+                    "mtop"          : "0",
+                    "img"           : "yellow-share-3-tw-share.png",
+                    "imgulr"        : "https://ctt.ac/z13Mr",
+                    "THISIMG"       : "IMG yellow-share-3-tw-share"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "33",
+                    "imgwidth"      : "50",
+                    "mtop"          : "0",
+                    "img"           : "yellow-share-4-wa-share.png",
+                    "imgulr"        : "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG"       : "IMG yellow-share-4-wa-share"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "fsh-pmm-logo.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG fsh-pmm-logo"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_fsh"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

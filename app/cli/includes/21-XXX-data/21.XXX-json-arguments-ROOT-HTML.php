@@ -44,6 +44,9 @@ $requiredBlocks = array(
     "cta1_v2",
     "spacer_v2",
 
+    "footer_bw_v1",
+    "footer_fsh",
+    "disclaimer_fsh",
 
     "greeting_negro",
     "greeting_dorado",
@@ -51,6 +54,7 @@ $requiredBlocks = array(
     "header_brand_world",
 
     "FSH_Yellow_Share",
+    "FSH_Yellow_Share_2",
     "FSH_Framed_Card",
 
 

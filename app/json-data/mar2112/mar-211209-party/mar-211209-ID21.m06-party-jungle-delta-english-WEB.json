@@ -1,0 +1,73 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB" } ,
+            { "urlS" : "https://paginum.com/email/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2112/mar-211209-party/mar-211209-ID21.m06-party-jungle-delta-english-WEB.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-A02-600-v03.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-211209-ID21.m06-party-jungle-delta-english-WEB",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/9180c389-c9b7-ee2c-c345-66bb2eb5e791.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "https://www.marriott.com/pvrde",
+            "this"          : "IMG en_party"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    
