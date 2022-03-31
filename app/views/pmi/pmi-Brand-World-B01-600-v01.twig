@@ -12,23 +12,20 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
     <title>{{PageTitle}}</title>
     <!-- {{Source}} -->
     <style type="text/css">{% if target is defined and target == "DCE" %}
-      {#
-          %%[
-          Set @key_v2 = URLEncode('79d6bb837848a629',1,1)
-          Set @aemBasePath= Lookup('Settings_local_organic', 'pref_center_url', 'selector', '1') 
-          Set @keyOrganic = [identity_identifier]
-          Set @homeCountry = [home_country]
-          Set @language = [preferred_language]
-          Set @jsonOrganic = Concat('{"identity_id":"',@keyOrganic,'"}') 
-          Set @oneClickOptOut_v2 = Lookup('settings_preferenceCenter_organic', 'oneClickOptOut', 'country', @homeCountry) 
-          if @oneClickOptOut_v2 == 'True' then Set @mode_v2 = '1click' else Set @mode_v2 = 'form' endif 
-          Set @encodedOrganic = URLEncode(EncryptSymmetric(@jsonOrganic, 'AES', 'optout_organic_secret', @null, 'optout_organic_salt', @null, 'optout_organic_iv', @null),1,1) 
-          Set @urlOrganic = Concat(@aemBasePath,'/',Lowercase(@homeCountry),'/',Lowercase(@language), '/preference-center.html?data=', @encodedOrganic,'&key=', @key_v2, '&mode=',@mode_v2)
-          Set @email= [email_address]
-          ]%%
-      #}
-
-    {% endif %}
+        {#  %%[
+            Set @key_v2 = URLEncode('79d6bb837848a629',1,1)
+            Set @aemBasePath= Lookup('Settings_local_organic', 'pref_center_url', 'selector', '1') 
+            Set @keyOrganic = [identity_identifier]
+            Set @homeCountry = [home_country]
+            Set @language = [preferred_language]
+            Set @jsonOrganic = Concat('{"identity_id":"',@keyOrganic,'"}') 
+            Set @oneClickOptOut_v2 = Lookup('settings_preferenceCenter_organic', 'oneClickOptOut', 'country', @homeCountry) 
+            if @oneClickOptOut_v2 == 'True' then Set @mode_v2 = '1click' else Set @mode_v2 = 'form' endif 
+            Set @encodedOrganic = URLEncode(EncryptSymmetric(@jsonOrganic, 'AES', 'optout_organic_secret', @null, 'optout_organic_salt', @null, 'optout_organic_iv', @null),1,1) 
+            Set @urlOrganic = Concat(@aemBasePath,'/',Lowercase(@homeCountry),'/',Lowercase(@language), '/preference-center.html?data=', @encodedOrganic,'&key=', @key_v2, '&mode=',@mode_v2)
+            Set @email= [email_address]
+            ]%%  #}
+        {% endif %}
 
       #outlook a {
         padding: 0;
@@ -159,7 +156,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
     <![endif]-->
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    {# <link rel="preconnect" href="https://fonts.gstatic.com"> #}
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 
@@ -1502,6 +1499,18 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                               {{ block("footer_bw_fsh_v1", "blocks_v2/block-footer-bw-fsh-v1.twig") }}
 
                             {% endif %}
+
+                          {% elseif blocks[index].type == "footer_bw_oos" %}
+                            {% if target is defined and target == "DCE" %}
+                              {{ block("footer_bw_dce_oos", "blocks_v2/block-footer-bw-dce-oos.twig") }}
+                              
+                            {% elseif target is defined and target == "HTML" %}
+                              {{ block("footer_bw_dce_oos", "blocks_v2/block-footer-bw-dce-oos.twig") }}
+
+                            {% elseif target is defined and target == "FSH" %}
+                              {{ block("footer_bw_fsh_oos", "blocks_v2/block-footer-bw-fsh-oos.twig") }}
+                            {% endif %}
+
                           {% elseif blocks[index].type == "footer_fsh" %}
                             
                             {% if target is defined and target == "DCE" %}

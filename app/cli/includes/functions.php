@@ -148,21 +148,26 @@ function create_environment($mes, $folder, $filename, $target, $footergrey, $bgC
 
     // echo PHP_EOL.$a['DCEfootercolor'].PHP_EOL; die;
 
-    if ( $footergrey == "1")
-        $footer = $footer_blocks[$target];
+    if ($footer_blocks == NULL)
+        $footer = "";
     else
     {
-        switch ($target)
+        if ( $footergrey == "1")
+        $footer = $footer_blocks[$target];
+        else
         {
-            case "DCE":
-                $footer= $footer_blocks['HTMLWHITE'];
-            break;
-            case "FSH":
-                $footer= $footer_blocks['FSHWHITE'];
-            break;
-            case "HTML":
-                $footer= $footer_blocks['HTMLWHITE'];
-            break;
+            switch ($target)
+            {
+                case "DCE":
+                    $footer= $footer_blocks['HTMLWHITE'];
+                break;
+                case "FSH":
+                    $footer= $footer_blocks['FSHWHITE'];
+                break;
+                case "HTML":
+                    $footer= $footer_blocks['HTMLWHITE'];
+                break;
+            }
         }
     }
     $a['footer'] = $footer;

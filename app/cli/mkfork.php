@@ -39,7 +39,7 @@ if ($argc == 3){
         $target = $target2;
         $idMail = $argv[2];       
     }
-    $arguments = "_JSON/21-$idMail-data/21.$idMail-json-arguments-$target.php" ;
+    $arguments = "_JSON/22-$idMail-data/22.$idMail-json-arguments-$target.php" ;
 
 }
 else{

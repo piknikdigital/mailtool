@@ -21,7 +21,7 @@ $libraryBlocks['img_Logo_Header_HTML'] ='
 $libraryBlocks['img_Cover_HTML'] ='
         {
             "type"          : "img",
-            "img"           : "21.id-1.jpg",
+            "img"           : "22.id-1.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
@@ -32,12 +32,12 @@ $libraryBlocks['img'] ='
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "21.id-x.jpg",
+            "img"           : "22.id-x.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 21.id-x"
+            "this"          : "IMG 22.id-x"
         },';
 $libraryBlocks['greeting_negro'] ='
         {
@@ -234,12 +234,12 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "widthp100"     : "45",
                     "imgwidth"      : "100",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "THISIMG"       : "21.id-x"
+                    "THISIMG"       : "22.id-x"
                 }
             ]
         },';
@@ -259,12 +259,12 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "widthp100"     : "25",
                     "imgwidth"      : "100",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "THISIMG"       : "IMG 21.id-x"
+                    "THISIMG"       : "IMG 22.id-x"
                 },
                 {
                     "coltype"       : "spacer____",
@@ -318,12 +318,12 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                     "widthp100"     : "25",
                     "imgwidth"      : "100",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "THISIMG"       : "IMG 21.id-x"
+                    "THISIMG"       : "IMG 22.id-x"
                 },
                 {
                     "coltype"       : "spacer__",
@@ -337,12 +337,12 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                     "widthp100"     : "25",
                     "imgwidth"      : "100",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "THISIMG"       : "IMG 21.id-x"
+                    "THISIMG"       : "IMG 22.id-x"
                 }
             ]
         },';
@@ -586,7 +586,7 @@ $libraryBlocks['disclaimer_iqos'] ='
             "align"         : "justify",
             "color"         : "#333333",
             "fontsize"      : "11",
-            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
             "this"          : "PRIVACY NOTICE"
 
         },
@@ -804,9 +804,9 @@ $libraryBlocks['mgm_coupon_2cols'] ='
                     "color_bkg" : "#f7f7f7",
                     "widthp100" : "40",
                     "imgwidth"  : "200",
-                    "img"       : "21.id-x.jpg",
+                    "img"       : "22.id-x.jpg",
                     "imgulr"    : "#",
-                    "this"      : "IMG 21.id-x"
+                    "this"      : "IMG 22.id-x"
                 },
                 {
                     "coltype"            : "txt_pframed",
@@ -949,12 +949,12 @@ $libraryBlocks['shopping_list'] ='
                     "col_bgcolor"   : "#f6f6f6",
                     "widthp100"     : "30",
                     "imgwidth"      : "100",
-                    "img"           : "21.id-item-.jpg",
+                    "img"           : "22.id-item-.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "this"          : "IMG 21.id-item-"
+                    "this"          : "IMG 22.id-item-"
                 },
                 {
                     "coltype"       : "description_cta",
@@ -1304,7 +1304,7 @@ $libraryBlocks['footer_brand_world'] =',
             "color_bkg"     : "transparent",
             "margin_top"    : "25",
             "margin_bottom" : "15",
-            "content"       : "&copy; 2021 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
+            "content"       : "&copy; 2022 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México. <a href=\"https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja.</span></a>",
             "this"          : "COPYRIGHT"
         }';
 
@@ -1533,12 +1533,12 @@ $libraryBlocks['FSH_Framed_Card'] ='
                     "widthp100"     : "25",
                     "imgwidth"      : "190",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgHTML"       : "",
                     "imgFSH"        : "",
                     "imgDCE"        : "",
                     "imgulr"        : "#",
-                    "THISIMG"       : "IMG 21.id-x"
+                    "THISIMG"       : "IMG 22.id-x"
                 },
                 {
                     "coltype"       : "spacer",
@@ -1601,9 +1601,9 @@ $libraryBlocks['columns'] ='
                     "widthp100"     : "40",
                     "imgwidth"      : "240",
                     "mtop"          : "0",
-                    "img"           : "21.id-x.jpg",
+                    "img"           : "22.id-x.jpg",
                     "imgulr"        : "#",
-                    "THISIMG"       : "IMG 21.id-x"
+                    "THISIMG"       : "IMG 22.id-x"
                 },
                 {
                     "coltype"       : "spacer",
@@ -1656,14 +1656,14 @@ $libraryBlocks['columns'] ='
                         },
                         {
                             "rowtype"        : "img",
-                            "img"            : "21.id-x.png",
+                            "img"            : "22.id-x.png",
                             "color_bkg"      : "transparent",
                             "margin_top"     : "10",
                             "margin_bottom"  : "10",
                             "imgWidth"       : "100",
                             "align"          : "center",
                             "imgulr"         : "#",
-                            "THISIMG"        : "21.id-x"
+                            "THISIMG"        : "22.id-x"
                         }
                     ]
                 },
@@ -1755,6 +1755,10 @@ $libraryBlocks['footer_bw_v1'] =',
 $libraryBlocks['footer_fsh'] =',
         {
             "type"          : "footer_fsh"
+        }';
+$libraryBlocks['footer_bw_oos'] =',
+        {
+            "type"          : "footer_bw_oos"
         }';
 
 $libraryBlocks['undefined'] ='

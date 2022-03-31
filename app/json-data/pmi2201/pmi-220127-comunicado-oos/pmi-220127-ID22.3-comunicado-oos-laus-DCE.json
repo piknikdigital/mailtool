@@ -1,0 +1,322 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE.html",
+
+        "Subject"          :   "Conoce todos los servicios que tenemos disponibles para tu IQOS",
+        "Preheader"        :   "Estamos listos para brindarte el mejor servicio",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220127_Comunicado OoS > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Comunicado OoS LAUS",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2201/pmi-220127-comunicado-oos/pmi-220127-ID22.3-comunicado-oos-laus-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220127-ID22.3-comunicado-oos-laus-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/5d5144a2-66d2-4bb4-8ad3-fa350beb5822.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.3-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#00d1d2",
+            "this": "SERVICIOS / CTA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "80",
+                    "rows": [
+                        {
+                            "rowtype": "spacer",
+                            "height": "30px",
+                            "color_bkg": "#faf7f4"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Encuentra los siguientes servicios<br>en nuestras Tiendas IQOS:",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "30px",
+                            "p_align": "center",
+                            "p_color": "#333333",
+                            "margin_top": "50",
+                            "margin_bottom": "50"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/de1aa72d-6b48-44af-8460-15f956d8338d.png",
+                            "color_bkg": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "440",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.3-2"
+                        },
+                        {
+                            "rowtype": "spacer",
+                            "height": "50px",
+                            "color_bkg": "#00d1d2"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/d0cecedc-53c8-45fd-982b-541f0401a0f8.png",
+                            "color_bkg": "#faf7f4",
+                            "margin_top": "50",
+                            "margin_bottom": "50",
+                            "imgWidth": "250",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG": "cta-bw-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "TELEFONO *993",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "80",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/b5030252-96a0-4c24-8898-8b850d37b9c7.jpg",
+                            "color_bkg": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "480",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.3-3"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Te recordamos que puedes <br>contactarnos marcando al <span style=\"color:#00d1d2;font-weight:700;\">*993</span> desde <br>tu celular para hablar con un experto <br>IQOS en el momento que lo necesites.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "30",
+                            "margin_bottom": "30"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/02f70c31-c561-4b89-a860-9b1d149fa378.png",
+                            "color_bkg": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "50",
+                            "imgWidth": "100",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.3-4"
+                        },
+                        {
+                            "rowtype": "spacer",
+                            "height": "30px",
+                            "color_bkg": "#faf7f4"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "*Sujeto a disponibilidad de inventario, aplican <a href=\"https://www.iqos.com/mx/es/care-plus/terminos-condiciones-care-plus.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_oos"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

@@ -14,8 +14,8 @@
 // displays a json to be used as YY.XX-replacements.json
 
 
-// php /Users/armandoromero/Documents/devE1/HTMLmail.dev/app/cli/mklist.php > 20.129-replacements.json
-
+// php /Users/armandoromero/Documents/devF1/mailtool.lan/app/cli/mklist.php > 22.3-replacements.json
+       
 
 function getImagesList($dir)
 {

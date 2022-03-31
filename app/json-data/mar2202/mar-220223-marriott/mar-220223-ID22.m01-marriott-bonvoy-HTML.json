@@ -1,0 +1,486 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML" } ,
+            { "urlS" : "https://paginum.com/email/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2202/mar-220223-marriott/mar-220223-ID22.m01-marriott-bonvoy-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-220223-ID22.m01-marriott-bonvoy-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-01.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.1-01"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-02.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.1-02"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-03.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.1-03"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Reconnect with yourself at Tzicuri Spa, your mountain retreat. Our resort features 10 spa rooms and a full menu of nature-inspired treatments, including facials, couple's massages and body scrubs, providing everything you need for a day of indulgence.<br><br>Hours: Mon-Sun: 09:00 AM - 05:00 PM<br>Appointment is Required.<br><span style=\"color:#ff9662;\">Services, Treatments and Amenities</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "150",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "70",
+            "url_cta"       : "https://www.marriott.com/hotels/hotel-information/fitness-spa-services/pvrde-delta-hotels-riviera-nayarit-an-all-inclusive-resort/",
+            "this"          : "CTA 1 learn-more DELTA RIVERA NAYARIT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-04.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG UNLOCK MATCHLESS ROMANCE AT THE HOUSE BY ELEGANT HOTELS, BARBADOS 22.1-04"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "30",
+            "color_bkg"     : "#FFFFFF",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-05.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG ROOM AT THE HOUSE BY ELEGANT HOTELS 22.1-05"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "30",
+            "margin_bottom" : "50",
+            "content"       : "At The House by Elegant Hotels &ndash; All-Inclusive Adults-Only, planning the moment of a lifetime is simple.<br><br>Work with our Romance Concierge for a customized experience: engagement packages, sunrise picnics, in-room decorations and amenities, spa services, and private tours.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#fbf3f1",
+            "img"           : "22.1-06.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG PLAN THE IDEAL MOMENT IN FOUR STEPS 22.1-06"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "30",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "content"       : "<span style=\"color:#ff9662;\">1.</span> Meet our Romance Concierge Ambassador<br><span style=\"color:#ff9662;\">2.</span> Envision your ideal romantic event<br><span style=\"color:#ff9662;\">3.</span> Select the date and time<br><span style=\"color:#ff9662;\">4.</span> Leave the rest to us!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "150",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.marriott.com/hotels/travel/bgiah-the-house-by-elegant-hotels-all-inclusive-adults-only/",
+            "this"          : "CTA 2 THE HOUSE BY ELEGANT HOTELS cta-learn-more"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "#FFFFFF",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#FFFFFF",
+            "img"           : "22.1-07.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG ROMANTIC ADVENTURE AT THE WESTIN RESERVA CONCHAL, AN ALL-INCLUSIVE GOLF RESORT & SPA 22.1-07"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#FFFFFF",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "content"       : "Explore Costa Rica from this eco-friendly hotel on the pristine beaches of Playa Conchal. This hotel offers several stimulating activities.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "PT Serif",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#fbf3f1",
+            "this"              : "LAGOON-STYLE POOLS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "45",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Go for a swim in our lagoon-style <br>pools, enjoy a friendly round <br>of tennis or golf, indulge<br>in a refreshing spa treatment <br>or savor local flavors in one <br>of our restaurants.",
+                            "color_bkg"     : "#fbf3f1",
+                            "p_fontweight"  : "400",
+                            "p_fontsize"    : "14px",
+                            "p_height"      : "20px",
+                            "p_align"       : "left",
+                            "p_color"       : "#000000",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-learn-more.png",
+                            "color_bkg"      : "#fbf3f1",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "150",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.marriott.com/en-us/hotels/lirwi-the-westin-reserva-conchal-an-all-inclusive-golf-resort-and-spa/overview/",
+                            "THISIMG"        : "CTA 3 CONCHAL learn-more"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "50",
+                    "imgwidth"      : "300",
+                    "mtop"          : "0",
+                    "img"           : "22.1-08.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG COSTA RICA LAGOON-STYLE POOLS 22.1-08"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "#FFFFFF",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#FFFFFF",
+            "img"           : "22.1-09.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG PLAN YOUR HONEYMOON AT ROYALTON ANTIGUA 22.1-09"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "#FFFFFF",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-10.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG BAY @ ROYALTON ANTIGUA 22.1-10"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Experience an upscale adults-only retreat. Nestled on a stunning private beach with breathtaking clear waters, guests can relax in an upscale setting and explore everything this resort has to offer. Royalton Antigua is perfect for discerning travelers in search of the ultimate romantic getaway.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "150",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.marriott.com/hotels/travel/anuro-royalton-antigua-an-autograph-collection-all-inclusive-resort-and-casino/",
+            "this"          : "CTA 4 ROYALTON ANTIGUA cta-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#FFFFFF",
+            "img"           : "22.1-11.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG ALL-INCLUSIVE BANNER 22.1-11"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.1-12.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG ALL-INCLUSIVE COVER 22.1-12"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Interviewing Nansi Lopez<br><br><span style=\"color:#ff9662;\">What do you consider a perfect Wedding?</span><br><br>For me, it’s about creating all the details to make a beautiful and memorable wedding day exactly the way you imagined it.<br>It's about fulfilling your dreams.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#f5f4f0",
+            "img"           : "22.1-13.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG COUPLE 22.1-13"
+        },
+        {
+            "type"          : "p",
+            "font"          : "PT Serif",
+            "fontweight"    : "400",
+            "fontsize"      : "16",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "<span style=\"color:#ff9662;\">Do couples prefer to create their own concept or pre-arranged packages?</span><br><br>Both, we have couples that prefer a set-up menu and also, we have unique weddings that are not included in any of our packages: multicultural weddings, traditional ceremonies. But is not one size fits-all.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "150",
+            "color_bkg"     : "#FFFFFF",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://all-inclusive.marriott.com/weddings-honeymoons",
+            "this"          : "CTA 5 WEDDINGS cta-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#FFFFFF",
+            "img"           : "22.1-14.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG BANNER MARRIOTT BONVOY 22.1-14"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "#f5f4f0",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#f5f4f0",
+            "img"           : "22.1-15.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG FOOTER LOGOS 22.1-15"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "700",
+            "fontsize"      : "9",
+            "height"        : "9",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "20",
+            "margin_bottom" : "40",
+            "content"       : "&copy;2022 Marriott International, Inc.<br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page. <br>If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails. <br><br>You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this"          : "TXT"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

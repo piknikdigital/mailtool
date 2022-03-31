@@ -1,0 +1,297 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML.html",
+
+        "Subject"          :   "¿Qué está pasando con las unidades de tabaco para calentar?",
+        "Preheader"        :   "Tenemos un mensaje para ti",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2202/pmi-220225-oos-heets/pmi-220225-ID22.15-oos-heets-laus-no-video-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220225-ID22.15-oos-heets-laus-no-video-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#34303d",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "24",
+            "height"        : "32", 
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "margin_sides"  : "5",
+            "margin_color"  : "#FFFFFF",
+            "content"       : "Actualmente enfrentamos un <span style=\"color:#00d1d2;font-weight:700;\">desabasto</span> de muchas de nuestras variantes de unidades de tabaco para calentar <span style=\"color:#00d1d2;font-weight:700;\">por razones fuera de nuestro control.</span>",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "28",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#00d1d2",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "A pesar de los obstáculos, hemos hecho todo lo posible por reestablecer la distribución.<br><br>En las <b>próximas semanas</b> podrás encontrar nuevamente <b>toda la selección de variantes</b> en los puntos de venta habituales.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "margin_sides"  : "5",
+            "margin_color"  : "#FFFFFF",
+            "content"       : "Sabemos las molestias que esto puede ocasionarte, por lo que agradecemos tu paciencia en el<br> <span style=\"color:#00d1d2;font-weight:700;\">camino a una vida sin humo.</span>",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#FFFFFF",
+            "color_bkg"     : "#34303d",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "Seguimos avanzando porque <br><span style=\"color:#00d1d2;font-weight:700;\">un futuro libre de humo, es posible.</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "30", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "40",
+            "margin_bottom" : "20",
+            "margin_sides"  : "5",
+            "margin_color"  : "#FFFFFF",
+            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">Estamos a tus órdenes</span> en nuestros canales de comunicación para escucharte y resolver cualquiera de tus dudas:",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "COMMUNICATION CHANNELS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "120",
+                    "mtop"          : "0",
+                    "img"           : "22.14-ico1.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG"       : "IMG CHAT ENVIVO 22.14-ico1"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "imgwidth"      : "120",
+                    "mtop"          : "0",
+                    "img"           : "22.14-ico2.png",
+                    "imgulr"        : "https://facebook.com/iqosmx",
+                    "THISIMG"       : "IMG FACEBOOK 22.14-ico2"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "22",
+                    "imgwidth"      : "120",
+                    "mtop"          : "0",
+                    "img"           : "22.14-ico3.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG TELEFONO 22.14-ico3"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "23",
+                    "imgwidth"      : "120",
+                    "mtop"          : "0",
+                    "img"           : "22.14-ico4.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                    "THISIMG"       : "IMG TIENDAS IQOS 22.14-ico4"
+                },
+
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "35",
+            "content"       : "Tu Equipo IQOS",
+            "this"          : "Tu Equipo IQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_oos"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

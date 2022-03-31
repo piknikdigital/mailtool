@@ -10,7 +10,7 @@
                                 <tbody>
                                 <tr>
                                   <th valign="top" style="text-align:center" class="image-container" align="center">
-                                    <a href="{{blocks[index].url_cta}}" target="_blank"><img src="{{BaseURLimg}}{{blocks[index].button}}" width="{{blocks[index].widthbutton}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton}}px;"></a>
+                                    {% if blocks[index].url_cta|length >0 %}<a href="{{blocks[index].url_cta}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].button}}" width="{{blocks[index].widthbutton}}" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:{{blocks[index].widthbutton}}px;">{% if blocks[index].url_cta|length > 0 %}</a>{% endif %}
                                   </th>
                                 </tr>
                                 </tbody>

@@ -17,10 +17,10 @@ include_once("includes/predefined_blocks.php");
 // -----  arguments  -------
 
 if ($argc == 2){
-    $arguments= "_JSON/21-$argv[1]-data/21.$argv[1]-json-arguments-ROOT-HTML.php";
+    $arguments= "_JSON/22-$argv[1]-data/22.$argv[1]-json-arguments-ROOT-HTML.php";
 }
 else{
-    $arguments= "_JSON/21-XXX-data/21.XXX-json-arguments-ROOT-HTML.php";
+    $arguments= "_JSON/22-XXX-data/22.XXX-json-arguments-ROOT-HTML.php";
 }
 
 // echo $arguments.PHP_EOL; die;

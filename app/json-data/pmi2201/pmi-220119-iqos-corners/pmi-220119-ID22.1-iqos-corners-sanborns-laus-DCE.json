@@ -1,0 +1,399 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE.html",
+
+        "Subject"          :   "El mejor servicio para tu IQOS lo encuentras en nuestros IQOS Corners en Sanborns",
+        "Preheader"        :   "¡Encuentra el más cercano a ti!",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220119_IQOS Corners > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "IQOS Corners Sanborns LAUS",
+                "CustomerKey" : "tbd"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2201/pmi-220119-iqos-corners/pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220119-ID22.1-iqos-corners-sanborns-laus-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/4ed85b1f-61ee-4e4d-afae-0317eeab48a3.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.1-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/99fbf867-3291-4837-9c72-943d0e1a4726.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.1-2"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Te esperamos en nuestros IQOS Corners en Sanborns seleccionados para brindarte la mejor atención, acércate a nuestros expertos y encuentra los siguientes servicios:",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/bc574d46-0d64-4cfd-948e-1e4dacf21b84.gif",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.1-3"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "pframed",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "20",
+            "height": "28",
+            "width": "90%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#faf7f4",
+            "framecolor": "#faf7f4",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "framepadding": "10",
+            "content": "<br>Además, los IQOS Corners en Sanborns también<br> cuentan con servicios de:",
+            "this": ""
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "5",
+            "color_bkg": "#faf7f4",
+            "this": "SERVICIOS 1-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "25",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "22",
+                    "mtop": "3",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/04732c66-2baf-4442-916d-4be0d72da3c2.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG bullet"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Mixed Bundle",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "5",
+            "color_bkg": "#faf7f4",
+            "this": "SERVICIOS 2-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "25",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "22",
+                    "mtop": "3",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/04732c66-2baf-4442-916d-4be0d72da3c2.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG bullet"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Redención de códigos",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "40",
+            "color_bkg": "#faf7f4",
+            "this": "SERVICIOS 3-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "25",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "22",
+                    "mtop": "3",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/04732c66-2baf-4442-916d-4be0d72da3c2.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG bullet"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Registro de dispositivos",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "320",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/5/f91a54d7-3663-4d6b-afd0-fba84b8f5d35.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this": "CTA cta-bw-localizar-iqos-corner"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "*Sujeto a disponibilidad de inventario.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

@@ -1,0 +1,398 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE.html",
+
+        "Subject"          :   "Todas las unidades de tabaco para calentar en tu punto de venta más cercano",
+        "Preheader"        :   "Da click y encuentra el tuyo",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220325_Heets April > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Heets PDV Rappi CDMX",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2203/pmi-220325-heets/pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220325-ID22.32-heets-pdv-rappi-cdmx-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/a09e6b85-4cd6-475f-8feb-a8c3afe08c85.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.32-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "CARD 1-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "25",
+                    "imgwidth": "90",
+                    "mtop": "100",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/af69d8c0-1c3e-4d2d-a9b3-7fd671d3a8f2.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.32-ico1"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Tiendas IQOS",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "34px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Visita nuestras <span style=\"font-size:24px;font-weight:700;\">Tiendas IQOS</span> y encuentra todas las variantes de unidades de tabaco para calentar.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/ca00f2bd-97eb-4f30-a0c2-17e772e04846.png",
+                            "color_bkg": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "30",
+                            "imgWidth": "230",
+                            "align": "left",
+                            "imgulr": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG": "cta-bw-blanco-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "CARD 2-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "25",
+                    "imgwidth": "90",
+                    "mtop": "100",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/f5ff92f9-b1bf-49f2-a571-3a4ae14c8a67.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.32-ico2"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Puntos de venta",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "34px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Visita uno de los <span style=\"font-size:24px;font-weight:700;\">3500 puntos de venta</span> de las diferentes cadenas comerciales y tiendas de conveniencia seleccionadas en la República Mexicana.",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/0d6a6fbf-6d60-42a4-86a1-f2e96916ee6c.png",
+                            "color_bkg": "#faf7f4",
+                            "margin_top": "30",
+                            "margin_bottom": "30",
+                            "imgWidth": "230",
+                            "align": "left",
+                            "imgulr": "https://www.google.com/maps/d/u/0/viewer?mid=1EYuPNUZPkjlLN7QOK3pqwCg_IBGw-d6u&ll=23.380641649464163%2C-103.41271133492364&z=5",
+                            "THISIMG": "cta-bw-localizar-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#e3813b",
+            "this": "CARD 3-3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "25",
+                    "imgwidth": "90",
+                    "mtop": "100",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/236a942e-4d27-4ad2-a1a0-64fbbc919183.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.32-ico3"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Rappi",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "34px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Pide tus unidades de tabaco para calentar con Rappi, ordena en el botón <span style=\"font-size:28px;font-weight:700;\">Turbo Fresh</span> con <span style=\"font-size:24px;font-weight:700;\">entrega en 10 minutos</span><span style=\"font-size:2opx;font-weight:700;\"><sup>(1)</sup></span> si vives en Ciudad de México, Guadalajara y Monterrey.",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/db99150e-c9ee-4c13-9c7d-90be15b2f4c0.png",
+                            "color_bkg": "#e3813b",
+                            "margin_top": "30",
+                            "margin_bottom": "30",
+                            "imgWidth": "230",
+                            "align": "left",
+                            "imgulr": "https://www.rappi.com.mx/",
+                            "THISIMG": "cta-bw-blanco-ordenar-unidades"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1) Sujeto a disponibilidad de producto dependiente de la zona de cobertura ofrecida por Rappi. Aplican restricciones y condiciones de los servicios de Rappi.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
