@@ -1,8 +1,12 @@
 <?php
 
-define("WK_SOURCE_DIR"   , "includes/22-XXX-data/");
+include_once("includes/functions.php"); 
+
+$year = getYear();
+
+define("WK_SOURCE_DIR"   , "includes/$year-XXX-data/");
 define("WK_TARGET_DIR"   , "_JSON/");
-define("MK_DIR_TEMPLATE" , "22-XXX-data/");
+define("MK_DIR_TEMPLATE" , "$year-XXX-data/");
 
 if ($argc == 2)
 {

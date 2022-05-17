@@ -1,0 +1,516 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220412_ > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE" } ,
+            { "urlS" : "https://paginum.com/email/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2204/mar-220412-marriott/mar-220412-ID22.m02-marriott-bonvoy-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-220412-ID22.m02-marriott-bonvoy-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/817712a9-090b-35da-1d8f-f88d59cf2364.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-01"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/98cab95c-23ce-f70d-dd29-a65b23554884.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-02"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "#fbf3f1",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#fbf3f1",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/168f2a99-4830-4931-129d-7137dd843426.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-03"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Starting from 10 rooms you'll have a star worthy stay, <br>with A-List attentions**:<br><span style=\"color:#ff9662;\">1.</span> Complimentary welcome drink.<br><span style=\"color:#ff9662;\">2.</span> Private group registration.<br><span style=\"color:#ff9662;\">3.</span> Group's coordinator.<br><span style=\"color:#ff9662;\">4.</span> 20% discount on spa treatments.<br><span style=\"color:#ff9662;\">5.</span> Complimentary meeting and function space.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#fbf3f1",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/544b267a-bdf2-1d71-25a6-6f9462ca7762.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-04"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "80%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Special conditions:<br><span style=\"color:#ff9662;\">•</span> Up to 2 kids free (3 to 12 years old) per room based on the season.<br><span style=\"color:#ff9662;\">•</span> Star Kids Club (4 to 12 years old)<br><span style=\"color:#ff9662;\">•</span> 1 complimentary room for every 15 paid daily.<br><span style=\"color:#ff9662;\">•</span> 1 upgrade to Star Class for the group's VIP.<br><span style=\"color:#ff9662;\">•</span> Check-in from 12:00<br><span style=\"color:#ff9662;\">•</span> Lunch included for check-in and check-out dates<br><span style=\"color:#ff9662;\">•</span> 1 complimentary daily coffee break for corporate groups<br><br>** Valid for new reservations confirmed between February 22 to April 30, 2022; for travel dates between February 22, 2022 to December 23, 2023. (blackout dates apply).<br><br>Contact:<br><span style=\"color:#ff9662;\">Tel: +506 8858-3609 , email:<br> sales1pcr-lir@planethollywoodhotels.com</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "#fbf3f1",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/b00c12e0-61d9-6121-09a2-940494f13ae0.png",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "url_cta": "https://all-inclusive.marriott.com/planet-hollywood-costa-rica",
+            "this": "CTA 1 - PLANET HOLLYWOOD cta-mar-learn-more"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#FFFFFF",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/effb8c1b-c833-3a25-9448-0b5254f3577c.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-05"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fbf3f1",
+            "this": "WESTIN RESERVA CONCHAL",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/f85e0f37-05f1-ca32-0879-e0241bc78e18.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG WESTIN RESERVA CONCHAL 22.m02-06"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "The Westin Reserva Conchal, <br>an All-Inclusive Golf Resort & <br>Spa offers a unique concept, <br>the &quot;Family Concierge Club <br>Service.&quot; Starting upon <br>arrival, families will enjoy a <br>private check-in area, specially <br>appointed suites and <br>assistance of a Family <br>Concierge who will coordinate <br>needs and entertainment for <br>the family's vacation.",
+                            "color_bkg": "#fbf3f1",
+                            "p_fontweight": "400",
+                            "p_fontsize": "14px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#000000",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "#FFFFFF",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#FFFFFF",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/38a27411-74b4-f821-66a7-70f72612144e.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-07"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "80%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "30",
+            "content": "<span style=\"color:#ff9662;\">1.</span> Private family check-in area<br><span style=\"color:#ff9662;\">2.</span> Westin Kids Beach-kit with logo hat, puzzle, coloring book and coloring pencils.<br><span style=\"color:#ff9662;\">3.</span> Specially appointed Family Club Suites<br><span style=\"color:#ff9662;\">4.</span> All day assistance of a Family Concierge<br><span style=\"color:#ff9662;\">5.</span> Exclusive family activities and sports<br><span style=\"color:#ff9662;\">6.</span> Personalized mini-bar contents for kids & adults<br><span style=\"color:#ff9662;\">7.</span> Children's mini bathrobes and slippers<br><span style=\"color:#ff9662;\">8.</span> Children's bathroom amenities kit<br><span style=\"color:#ff9662;\">9.</span> Children's beach towels and pillows<br><span style=\"color:#ff9662;\">10.</span> Adult bathrobes and slippers<br><span style=\"color:#ff9662;\">11.</span> Luxury Heavenly® Bath amenities<br><span style=\"color:#ff9662;\">12.</span> Complimentary internet access in the Lounge and guest rooms",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "transparent",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/b00c12e0-61d9-6121-09a2-940494f13ae0.png",
+            "margin_top": "0",
+            "margin_bottom": "20",
+            "url_cta": "https://www.marriott.com/setSCtracking.mi?scid=e464e64a-32da-4c0d-af0e-d5d9b4853691&mid=/en-us/hotels/lirwi-the-westin-reserva-conchal-an-all-inclusive-golf-resort-and-spa/rooms/",
+            "this": "CTA 2 WESTIN RESERVA CONCHAL - cta-mar-learn-more"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/2b898c7e-ea66-0cc2-199f-2a767abcc2db.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-08"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/ed2b08a0-9847-6749-05cd-ec1775172f01.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-09"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "30",
+            "content": "At Delta Hotels Riviera Nayarit, An All-Inclusive Resort families  experience a relaxing secluded stay in the town of La Cruz de Huanacaxtle.<br><br>Relax in one of our two resort swimming pools while kids splash and enjoy entertainment options.<br>Enjoy a variety of on-site dining options ranging from teppanyaki to casual beach fare.<br><br><span style=\"color:#ff9662;\">Kids under 12 years old stay for free!</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "transparent",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/fe80f8a3-c117-fedb-a0de-70dceeb4d1a9.png",
+            "margin_top": "0",
+            "margin_bottom": "70",
+            "url_cta": "https://www.marriott.com/setSCtracking.mi?scid=f49dbf3f-368c-4748-b5cf-73b1157a0c9b&mid=/hotels/travel/pvrde-delta-hotels-riviera-nayarit-an-all-inclusive-resort/",
+            "this": "CTA 3 DELTA RIVIERA NAYARIT cta-mar-explore-more"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/7facf286-1573-fe5b-f192-16400837e53c.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-x"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Fun for All at Turtle Beach by Elegant Hotels - All-Inclusive",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fbf3f1",
+            "this": "TURTLE BEACH BY ELEGANT HOTELS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Enjoy a lively atmosphere with <br>gracious hospitality, spacious <br>accommodations, complimentary <br>non-motorised watersports and <br>the interactive Flying Fish Kids <br>Club. Take a gastronomical <br>journey or relax on a scenic <br>island tour. All complimentary <br>bespoke activities make for the <br>best holiday memories!",
+                            "color_bkg": "#fbf3f1",
+                            "p_fontweight": "400",
+                            "p_fontsize": "14px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#000000",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/b00c12e0-61d9-6121-09a2-940494f13ae0.png",
+                            "color_bkg": "#fbf3f1",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "150",
+                            "align": "left",
+                            "imgulr": "https://www.marriott.com/setSCtracking.mi?scid=8b02a3aa-68d4-4f9b-aac8-b49cc72fd60c&mid=/hotels/travel/bgiau-turtle-beach-by-elegant-hotels-all-inclusive/",
+                            "THISIMG": "CTA 4 - TURTLE BEACH BY ELEGANT HOTELS learn-more"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/28c63e7f-ee32-f6fe-480f-610861e1cbf8.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG COSTA RICA LAGOON-STYLE POOLS 22.1-08"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/2be9ab2f-4422-bac7-5786-5aa8db7726a8.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-12"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Check out these eight summer travel ideas and get ready for <br>a memory-making trip you and your whole crew will love.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/7387347a-e1df-b493-0334-a8ef8069c22b.png",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "url_cta": "https://traveler.marriott.com/kid-friendly/best-summer-family-vacations/",
+            "this": "CTA 5 - BEST FAMILY VACATIONS cta-mar-continue-reading"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#fbf3f1",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/82ec6ce7-0edd-73bc-46d5-60c6daf4e0ea.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-13"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#fbf3f1",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/504c8b02-6bfa-fb18-646d-190254ee7956.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-14"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "80%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "20",
+            "content": "Gayle Talma, Multi-Property General Manager Elegant Hotels",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "<span style=\"color:#ff9662;\">In your perspective, what is the impact of a woman in a leadership role?</span>  In Elegant Hotels, women make up 70+% of the workforce which is one of the highest percentages.  Women are gaining more leadership roles within the hotels.<br><br><span style=\"color:#ff9662;\">How do you balance work and personal life?</span>  It is always great to be passionate about your job (any job).  However, you have to find a balance with family, time for yourself, and a hobby.  I like to go to the gym before I start my day, at least three times a week.  I love to enjoy the beach and a great restaurant (which can be a local shop) on my day off.<br><br><span style=\"color:#ff9662;\">What is your advice for other women wanting to pursue business leadership roles?</span>  Never stop learning.  Set yourself goals that you want to achieve.  Always find a mentor that continues to give you good advice on your career (besides your immediate supervisor).  Ensure to create a balance between work and family.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/6695f8ed-740b-9ae2-50bb-5cd38ed747b6.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-15"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "700",
+            "fontsize": "14",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#f5f4f0",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/16ce27fc-f4e9-f9d3-0782-b3abdd94380e.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m02-16"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "300",
+            "fontsize": "12",
+            "height": "16",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "©2022 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

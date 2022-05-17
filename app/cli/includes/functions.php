@@ -1,5 +1,11 @@
 <?php
 
+
+function getYear()
+{
+    return "22";
+}
+
 function blockreplace($replacementsfile, $inputfile, $source, $target)
 {    
 

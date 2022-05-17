@@ -1,0 +1,658 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML.html",
+
+        "Subject"          :   "¿Qué hacemos con tus unidades de tabaco para calentar usadas?",
+        "Preheader"        :   "¡Reciclarlas! Conoce más del Programa de Reciclaje IQOS",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.70-sustentabilidad-2-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220524-ID22.70-sustentabilidad-2-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.70-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.70-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.70-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.70-2"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "En alianza con <span style=\"color:#00d1d2;font-weight:700;\">Ecofilter</span>, convertimos los residuos de las unidades de tabaco para calentar en pulpa de celulosa la cual transformamos en objetos como papel, cuadernos, lápices o macetas.",
+            "this"          : "TXT"
+        },
+
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#faf7f4",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "STEP 1/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.70-ico1.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.70-ico1"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "12px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<span style=\"color:#00d1d2;font-weight:700;font-size:20px;\">1.</span> Recibimos tus unidades de tabaco para calentar usadas.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "STEP 2/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.70-ico2.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.70-ico2"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "12px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<span style=\"color:#00d1d2;font-size:20px;font-weight:700;\">2.</span> Se degradan gracias a un hongo que logra convertirlas en pulpa de celulosa.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "cols_m_A_B_m",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_topbottom"  : "15",
+            "color_bkg"         : "#faf7f4",
+            "THIS"              : "STEP 3/3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "28",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.70-ico3.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.70-ico3"
+                },
+                {
+                    "coltype"       : "txt_cta",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "55",
+
+                    "h1"            : "&nbsp;",
+                    "h1_fontweight" : "700",
+                    "h1_fontsize"   : "12px",
+                    "h1_height"     : "12px",
+                    "h1_align"      : "left",
+                    "h1_color"      : "#333333",
+                    
+                    "p"             : "<span style=\"color:#00d1d2;font-size:20px;font-weight:700;\">3.</span> El residuo se utiliza para crear papel, cuadernos, lápices y macetas.",
+                    "p_fontweight"  : "300",
+                    "p_fontsize"    : "16px",
+                    "p_height"      : "24px",
+                    "p_align"       : "left",
+                    "p_color"       : "#111111",
+
+                    "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
+                    "buttonurl"     : "#",
+                    "widthbutton"   : "235",
+                    "button_topm"   : "30",
+                    "buttonalign"   : "center",
+                    "THISIMG"       : ""
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "#faf7f4",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.70-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.70-3"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "0",
+            "content"       : "Avancemos juntos hacia un <br><span style=\"color:#00d1d2;font-weight:700;\">futuro sustentable.</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "10",
+            "margin_bottom" : "30",
+            "content"       : "¡Este es solo el primer paso!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-quiero-reciclar.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "url_cta"       : "#LINK1",
+            "this"          : "CTA cta-bw-quiero-reciclar"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "20",
+            "margin_bottom"     : "10",
+            "color_bkg"         : "#00d1d3",
+            "this"              : "3-R",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d3",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d3",
+                    "widthp100"     : "30",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "<span style=\"color:#000000;\">Re</span>colecta",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Recolecta tus<br> unidades de tabaco<br> para calentar<br> usadas.",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "3R-ico1.png",
+                            "color_bkg"      : "#00d1d3",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "80",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "3R-ico1"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d3",
+                    "widthp100"     : "30",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "<span style=\"color:#000000;\">Re</span>duce",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Utiliza botellas<br> PET o recoge tu <br>bolsa reciclable en<br> Tiendas IQOS.",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "3R-ico2.png",
+                            "color_bkg"      : "#00d1d3",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "80",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "3R-ico2"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d3",
+                    "widthp100"     : "30",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "<span style=\"color:#000000;\">Re</span>cicla",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Lleva tu botella o tu<br> bolsa a Tiendas<br> IQOS o centros de<br> acopio autorizados.",
+                            "color_bkg"     : "#00d1d3",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "3R-ico3.png",
+                            "color_bkg"      : "#00d1d3",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "80",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "3R-ico3"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d3",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "32",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Sabías que...",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "content"       : "El <span style=\"color:#00d1d2;font-weight:700;font-size:24px;\">97%</span> de los adultos usuarios de IQOS se preocupan de que los residuos de sus unidades de tabaco para calentar usadas terminen en las calles.*",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "30",
+            "content"       : "* Fuente: Encuesta en línea realizada en Japón, Rusia y Alemania con 718 adultos usuarios IQOS en Abril del 2021.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conocer-mas.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "url_cta"       : "#LINK2",
+            "this"          : "CTA cta-bw-conocer-mas"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "32",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "content"       : "Juntos tenemos el poder de lograrlo.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "35",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

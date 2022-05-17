@@ -15,10 +15,12 @@ include_once("includes/functions.php");
 
 // $root = dirname(dirname(getcwd()));
 
+$year = getYear();
+
 
 // CHECK ARGUMENTS  ---------------------------------------
 if ($argc == 2)
-    $arguments= "_JSON/22-$argv[1]-data/22.$argv[1]-json-arguments-ROOT-HTML.php";
+    $arguments= "_JSON/$year-$argv[1]-data/$year.$argv[1]-json-arguments-ROOT-HTML.php";
     // $arguments= "_JSON/21-$argv[1]-data/21.$argv[1]-json-arguments-ROOT-HTML.php";
 else
     abort( PHP_EOL."ERROR: No se proporcionó ID" . PHP_EOL . PHP_EOL );

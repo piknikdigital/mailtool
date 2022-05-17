@@ -1,0 +1,337 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE.html",
+
+        "Subject"          :   "Historias que inspiran al cambio",
+        "Preheader"        :   "Queremos conocer la tuya",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220421_Early Conversion > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Early Conversion & Baseline Audience UGC+MGM",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220421-ID22.50-early-conversion-ugc-mgm-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/a46e7308-3690-450d-a795-11ee59dc0603.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/90853d8c-13f9-4f38-a0e0-af2e01cafb95.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.50-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "     0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Así como tú, miles de mexicanos decidieron usar una mejor opción al consumo de tabaco y ya experimentan los beneficios junto a sus seres queridos.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/5b605d88-a867-4bad-8c8b-f394e63b42ff.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.50-2"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "280",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/a270ea03-564a-468d-b7d2-151382094ebb.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir.html",
+            "this": "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Conoce las historias de otros usuarios IQOS como Fernanda y Ricardo.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/ad5ca9e1-b7d4-42da-aad7-45fbb8ad6ed7.gif",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.50-3a"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "280",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/4b3bc7aa-1e00-41e2-bedd-310b6f44cf29.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.youtube.com/watch?v=gnzKC03IQA8&list=PL5WyN03ndC5EJfZhJcMjcpZDr3jH-jpet",
+            "this": "CTA cta-bw-conoce-sus-historias"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "No olvides que nuestros canales de comunicación están disponibles para resolver cualquier de tus dudas en el momento que lo necesites:",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#FFFFFF",
+            "this": "CONTACT OUR EXPERTS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "16",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/5258e564-5f5d-4721-bada-fb3cc5d5ac7c.png",
+                    "imgulr": "tel:8001476769",
+                    "THISIMG": "IMG ico-c1-telefono"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/b5abb294-e076-4ffa-bd50-879e2327caea.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/contacto.html",
+                    "THISIMG": "IMG ico-c2-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/23c5d182-4580-49e6-a158-d36c01ff2a81.png",
+                    "imgulr": "mailto:contact.mx@iqos.com",
+                    "THISIMG": "IMG ico-c3-mail"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/35de11dc-102e-4356-9fdb-11e5e21ea412.png",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG ico-c4-ig"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "16",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/df248666-e99a-4857-ae04-401540627dba.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.50-4"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#e27d34",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "Información importante: IQOS no afecta negativamente la calidad del aire interior en ambientes con ventilación adecuada.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "*Fuente: ISBN: 978-0-12-820490-0 <br><br><a href=\"http://dx.doi.org/10.1016/j.yrtph.2016.06.005\" style=\"text-decoration:underline;\" target=\"_blank\">http://dx.doi.org/10.1016/j.yrtph.2016.06.005</a> (Mitova 2016)<br><a href=\"https://doi.org/10.1007/s11869-019-00697-6\" style=\"text-decoration:underline;\" target=\"_blank\">https://doi.org/10.1007/s11869-019-00697-6TO</a> (Mitova 2019)<br><a href=\"https://doi.org/10.3390/atmos12080989\" style=\"text-decoration:underline;\" target=\"_blank\">https://doi.org/10.3390/atmos12080989</a> (Mitova 2021)",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

@@ -1,0 +1,528 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML" } ,
+            { "urlS" : "https://paginum.com/email/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2205/mar-220517-marriott/mar-220517-ID22.m03-marriott-bonvoy-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-220517-ID22.m03-marriott-bonvoy-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-01.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m03-01"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-02.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m03-02"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "#fbf3f1",
+            "img"           : "22.m03-03.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "ROYALTON GRENADA IMG 22.m03-03"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "0",
+            "margin_bottom" : "30",
+            "content"       : "Host your special events in the midst of stunning white beaches and turquoise waters at Royalton Grenada, An Autograph Collection All-Inclusive Resort and receive 10% commission, complimentary room nights, kids free for social groups, and much more! Our breathtaking location offers exclusive event venues and world-class service.<br><br>Whether you want to host an incentive meeting, a business presentation, a conference or a private party, our event planners will take care of all the planning for you. Contact us to plan a memorable event at our All-Inclusive by Marriott resort.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "160",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://www.marriott.com/en-us/hotels/gndro-royalton-grenada-an-autograph-collection-all-inclusive-resort/experiences/",
+            "this"          : "CTA1 ROYALTON GRENADA cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-04.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "PORTO DE GALINHAS TITLE IMG 22.m03-04"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-05.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "PORTO DE GALINHAS GYM IMG 22.m03-05"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "30",
+            "content"       : "Keep up your health and fitness even on holiday. Our state-of-the-art gym and other sports facilities ensure you don't miss your regular workouts.<br><br><span style=\"color:#ff9662;\">Begin your days with an energetic workout</span><br>in our fully-equipped gym. Our hotel also offers a beach volleyball court, beach tennis court and other exciting fitness activities like aquarobics, aqua yoga and running.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-06.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "WHATS INCLUDED - TITLE IMG 22.m03-06"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "22",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "40",
+            "content"       : "<span style=\"color:#ff9662;\">•</span> Fitness Center<br><span style=\"color:#ff9662;\">•</span> Beach Volleyball Court<br><span style=\"color:#ff9662;\">•</span> Beach Tennis Court<br><span style=\"color:#ff9662;\">•</span> Aquarobics<br><span style=\"color:#ff9662;\">•</span> Aqua Yoga<br><span style=\"color:#ff9662;\">•</span> Running Activity at the Beach",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "160",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://all-inclusive.marriott.com/westin-porto-de-galinhas/inclusions/fitness-wellness",
+            "this"          : "CTA2 WESTIN PORTO DE GALINHAS cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-07.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "WESTIN RESERVA CONCHAL TITLE IMG 22.m03-07"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "PT Serif",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#fbf3f1", 
+            "this"              : "CARD WESTIN RESERVA CONCHAL",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "40",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Allow your body to reset at Westin Playa Conchal. Eliminate toxins with a Jojoba Body Polish and your choice of hydrotherapy followed by a holistic, toxin and cellulite-clearing Green Coffee Wrap and a purifying Lymphatic Drain Massage.<br><br>Leave feeling deeply cleansed, re-balanced and renewed. All this and more at the Heavenly Spa by Westin.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "15px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "60",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-mar-explore-more.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "160",
+                            "align"          : "left",
+                            "imgulr"         : "https://all-inclusive.marriott.com/the-westin-reserva-conchal-an-all-inclusive-golf-resort-spa/spa-wellness/heavenly-spa-by-westin",
+                            "THISIMG"        : "CTA3 WESTIN RESERVA CONCHAL cta-mar-explore-more"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#fbf3f1",
+                    "widthp100"     : "50",
+                    "imgwidth"      : "300",
+                    "mtop"          : "0",
+                    "img"           : "22.m03-08.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "SPA IMG 22.m03-08"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "40",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-09.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "WAVES HOTEL -  TITLE IMG 22.m03-09"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "40",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-10.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "WAVES HOTEL water activities IMG 22.m03-10"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "The Waves Hotel & Spa is located on the Platinum West Coast of Barbados, making it an ideal spot to indulge in water activities. Our luxury hotel offers a wide range of motorized and non-motorized water sports that you can try.<br><br>Whether you love adventure on the water or are new to the world of water sports, you are sure to enjoy the host of activities designed to give you a memorable experience. Our Aqua school instructors will always be there to help you and instruct you if this is your first time.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "160",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-discover-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://all-inclusive.marriott.com/waves-hotel-spa-by-elegant-hotels/things-to-do/on-water",
+            "this"          : "CTA4 WAVES HOTEL cta-mar-discover-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-11.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "RIVIERA NAYARIT TITLE IMG 22.m03-11"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-12.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "RIVIERA NAYARIT YOGA IMG 22.m03-12"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "30",
+            "content"       : "Immerse yourself on a weekend of yoga and meditation to renew your energy in an oasis of relaxation and nature. <br><br>From relaxation to meditation and yoga, allow yourself to disconnect and reset at Delta Riviera Nayarit.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "160",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://hotel-deals.marriott.com/es-XM/retiro-renewal-riviera-nayarit/",
+            "this"          : "CTA5 RIVIERA NAYARIT cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-13.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "INCLUSIVE TEAM - TITLE IMG 22.m03-13"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-14.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "INCLUSIVE TEAM - PHOTO IMG 22.m03-14"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<b>Yazna Collao</b> <br>(The Westin Reserva Conchal, An All-Inclusive Golf Resort & Spa Manager)",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">1. <span style=\"color:#000000;\">What does wellness mean to you?</span></span><br><br>Wellness is a decision that we make every day to find our bet and feel good from the inside out. <span style=\"color:#ff9662;\">It is taking deep breath and being present to ourselves,</span> giving ourselves the opportunity to better understand what we need and what we want and finding that balance that  gives us peace of mind and satisfaction.",
+            "this"          : "TXT Q1"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">2. <span style=\"color:#000000;\">How did you initiate in the wellness/spa industry?</span></span><br><br>Well, it's an interesting question since it was an unexpected growth opportunity, <span style=\"color:#ff9662;\">I wanted to make a change</span>, get out of the comfort zone and offer refreshing experiences.",
+            "this"          : "TXT Q2"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">3. <span style=\"color:#000000;\">How do you balance your wellbeing with your career?</span></span><br><br>Balance is my daily task!<br><br>I believe that being aware that in order to give my best and be present for my family, my associates and my clients I need to be well physically, mentally and emotionally.<span style=\"color:#ff9662;\">I organize my recovery and refocus times</span> according to how I see the week ahead and if something unexpected slips into the week, I just try to rearrange, modify the time or frequency. I've learned that I don't need a lot of time to reconnect with myself, sometimes all I need is just 5 minutes to breath, breathwork is a return to our body’s most instinctive stress-reducing response and I start from that basic exercise.",
+            "this"          : "TXT Q3"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">4. <span style=\"color:#000000;\">How long have you been with Westin Playa Conchal?</span></span><br><br>It has been a <span style=\"color:#ff9662;\">15-year journey</span> surrounded by wonderful people and amazing experiences.",
+            "this"          : "TXT Q4"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "15",
+            "height"        : "20",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1" ,
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">5. <span style=\"color:#000000;\">Why is it important for people to mediate or unwind?</span></span><br><br>Because we are always very busy... connected, rushed, stressed and we deserve more.<br><br>Taking time and care about our well-being, it is a need of which we are not always aware and sometimes we are not even able to understand the messages of our body, until we are already sore or in a very bad mood and we are much better than that, listen to our breath, be gentle with our body and recharge. <span style=\"color:#ff9662;\">It will help us achieve a better state of emotional well-being</span> that will help us to better deal with any situation.",
+            "this"          : "TXT Q5"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-15.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "MARRIOTT BONVOY LOGO IMG 22.m03-15"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "700",
+            "fontsize"      : "11",
+            "height"        : "18",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m03-16.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "FOOTER LOGOS IMG 22.m03-16"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "©2022 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this"          : "TXT"
+        }
+
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

@@ -1,0 +1,470 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML.html",
+
+        "Subject"          :   "¡Bienvenido a la Comunidad IQOS! 😉",
+        "Preheader"        :   "Gracias por ser parte del cambio",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2204/pmi-220421-early-conversion/pmi-220421-ID22.46-early-conversion-welcome-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220421-ID22.46-early-conversion-welcome-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.46-1a.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.46-1a"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.46-2a.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.46-2a"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Hoy decidiste dar un giro a tu vida, decidiste decirle adiós al humo de cigarro con IQOS.<br><br><span style=\"color:#e27d34;font-weight:700;\">¡Felicidades, ya eres parte de la Comunidad que optó por una mejor alternativa al consumo de tabaco!</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir.html",
+            "this"          : "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "18",
+            "height"        : "26", 
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "margin_sides"  : "10",
+            "margin_color"  : "#faf7f4",
+            "content"       : "¿Ya conoces los beneficios que puedes experimentar con IQOS?",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_top"        : "0",
+            "margin_bottom"     : "20",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "BENEFIT 1-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "60",
+                    "mtop"          : "0",
+                    "img"           : "22.46-ico1.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.46-ico1"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "78",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Recibes el sabor del tabaco real, sin humo.",
+                            "color_bkg"     : "#faf7f4",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "BENEFIT 2-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#e27d34",
+                    "widthp100"     : "15",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#e27d34",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Se generan menos sustancias<br>tóxicas comparado con el cigarro.",
+                            "color_bkg"     : "#e27d34",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "30"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#e27d34",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "80",
+                    "mtop"          : "15",
+                    "img"           : "22.46-ico2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.46-ico2"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#e27d34",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "10",
+            "margin_top"        : "15",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "BENEFIT 3-3",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "60",
+                    "mtop"          : "15",
+                    "img"           : "22.46-ico3.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.46-ico3"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "78",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "No deja olor a humo de cigarro en tus<br> manos, cabello o ropa.",
+                            "color_bkg"     : "#faf7f4",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "left",
+                            "p_color"       : "#333333",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "CONTACT OUR EXPERTS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c1-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-c1-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c2-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG"       : "IMG ico-c2-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c3-mail.png",
+                    "imgulr"        : "mailto:contact.mx@iqos.com",
+                    "THISIMG"       : "IMG ico-c3-mail"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c4-ig.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG ico-c4-ig"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.46-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.46-3"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir.html",
+            "this"          : "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "35",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

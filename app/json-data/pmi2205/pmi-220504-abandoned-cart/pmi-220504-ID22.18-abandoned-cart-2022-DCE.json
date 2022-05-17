@@ -1,0 +1,421 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE.html",
+
+        "Subject"          :   "(Nombre) ¿Olvidaste algo en el carrito? 👀",
+        "Preheader"        :   "¡No lo dejes ir! El cambio te está esperando",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220504_Abandoned Cart > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Abandoned Cart 2022",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2205/pmi-220504-abandoned-cart/pmi-220504-ID22.18-abandoned-cart-2022-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220504-ID22.18-abandoned-cart-2022-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "#00d2d1",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/e19af2d2-750c-4813-8a52-27d0baf5b21d.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.18-1"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "34",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "<span style=\"color:#00d1d2;\">¡Pst-pst!</span><br>Parece que dejaste<br>algo en el carrito.",
+            "this": "TXT"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "#faf7f4",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#faf7f4",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "content": "<span style=\"color:#00d1d2;font-weight:700;\">¡Tus artículos te están esperando!</span><br>Regresa, inicia sesión en iqos.com <br>y completa tu compra.",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "font": "Cabin",
+            "margin_sides": "10",
+            "margin_topbottom": "25",
+            "color_bkg": "transparent",
+            "this": "ITEM IN CART",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/267009f2-c533-42bc-9d9b-6c14696ba201.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.18-item"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "transparent",
+                    "widthp100": "55",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "<b>Kit IQOS 2.4 Plus Navy</b><br>Código: G00000218<br>Cantidad:1",
+                    "p_fontweight": "300",
+                    "p_fontsize": "18px",
+                    "p_height": "26px",
+                    "p_align": "left",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                },
+                {
+                    "coltype": "txt_cta",
+                    "color_bkg": "transparent",
+                    "widthp100": "20",
+                    "h1": "",
+                    "h1_fontweight": "700",
+                    "h1_fontsize": "18px",
+                    "h1_height": "20px",
+                    "h1_align": "left",
+                    "h1_color": "#333333",
+                    "p": "$799",
+                    "p_fontweight": "700",
+                    "p_fontsize": "18px",
+                    "p_height": "20px",
+                    "p_align": "center",
+                    "p_color": "#111111",
+                    "button": "",
+                    "buttonHTML": "",
+                    "buttonFSH": "",
+                    "buttonDCE": "",
+                    "buttonurl": "#",
+                    "widthbutton": "235",
+                    "button_topm": "30",
+                    "buttonalign": "center",
+                    "THISIMG": ""
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/9cdd344d-a54b-44a1-a4de-6b1486002d4b.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "GRAYLINE TOP IMG 22.18-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "ENVIO - TOTAL - PAGO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "15",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Costo de Envío:<br>Total:<br>Pago:",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "20"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "20",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "$0.00<br>$799.00<br>$799.00",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "20"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "15",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/9cdd344d-a54b-44a1-a4de-6b1486002d4b.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "GRAYLINE BOTTOM IMG 22.18-2"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "260",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/ac21fc6f-7a3f-42c6-80f9-ac1854496cdd.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/shopping-bag.html",
+            "this": "CTA cta-bw-finalizar-compra"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Si tienes dificultades para completar tu compra, comunícate al <br><b>800 1 476769 o *993 desde tu celular.</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Saludos",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "34",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Solicita tu factura máximo 72 horas posterior<br> a tu compra al correo:<br><b>FacturacionElectronica.IQOS@pmi.com</b><br>Conserva tu ticket para devoluciones, reemplazos y<br> para hacer válida la garantía.",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

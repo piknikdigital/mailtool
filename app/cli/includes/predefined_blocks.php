@@ -1329,7 +1329,7 @@ $libraryBlocks['p300_BW'] ='
             "font"          : "Cabin",
             "fontweight"    : "300",
             "fontsize"      : "18",
-            "height"        : "30",
+            "height"        : "26",
             "width"         : "70%",
             "align"         : "center",
             "color"         : "#333333",
@@ -1345,7 +1345,7 @@ $libraryBlocks['p700_BW'] ='
             "font"          : "Cabin",
             "fontweight"    : "700",
             "fontsize"      : "20",
-            "height"        : "30",
+            "height"        : "28",
             "width"         : "70%",
             "align"         : "center",
             "color"         : "#333333",
@@ -1679,7 +1679,7 @@ $libraryBlocks['columns'] ='
 $libraryBlocks['greeting_v2'] ='
         {
             "type"          : "greeting_v2",
-            "fontweight"    : "300",
+            "fontweight"    : "700",
             "color_greeting": "#333333",
             "color_bkg"     : "transparent",
             "margin_top"    : "70",
@@ -1751,6 +1751,10 @@ $libraryBlocks['ElijoIQOS'] ='
 $libraryBlocks['footer_bw_v1'] =',
         {
             "type"          : "footer_bw_v1"
+        }';
+$libraryBlocks['footer_bw_v1_lowercase'] =',
+        {
+            "type"          : "footer_bw_v1_lowercase"
         }';
 $libraryBlocks['footer_fsh'] =',
         {

@@ -27,7 +27,7 @@ $requiredBlocks = array(
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
-    "footer_bw_v1"
+    "footer_bw_v1_lowercase"
 );
 
 

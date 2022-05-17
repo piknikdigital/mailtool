@@ -1,0 +1,265 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH.html",
+
+        "Subject"          :   "¡Te damos la bienvenida!",
+        "Preheader"        :   "Un futuro sin humo es posible",
+
+        "PATH"             :   "Content Builder > 146_FsH 07 04 2022 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "FsH Welcome With Petition",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2204/pmi-220407-fsh/pmi-220407-ID22.39-fsh-welcome-with-petition-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220407-ID22.39-fsh-welcome-with-petition-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "greeting_v2",
+            "fontweight": "300",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "30",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Gracias por registrarte, estamos muy contentos de que ya<br>formes parte de <span style=\"color:#FFFFFF;background-color:#f4d949;font-weight:700;\">&nbsp;FUTURO SIN HUMO.&nbsp;</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/605c1a79-86e2-4687-82a9-6541d4a583d2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.39-1"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/ed69f7bf-e46a-4b0a-b7a6-f3d572f36693.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.39-2b"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "280",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/22fb12db-c643-45f8-bc8a-9ec9ef741aad.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://futurosinhumo.com.mx/",
+            "this": "CTA cta-fsh-firma-la-peticion"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/fe8c35a7-ee75-4491-b7b1-e1eaa34eb9c8.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG fsh-recuerda"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "cols_m_A_B_m",
+            "margin_sides": "4",
+            "margin_topbottom": "25",
+            "color_bkg2": "#ffdd3a",
+            "color_bkg": "#ffffff",
+            "this": "SHARE FB TW WA",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "59",
+                    "imgwidth": "318",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/71313b6e-9b8e-49cb-a5fc-d8b57d69d4d4.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "#",
+                    "THISIMG": "IMG TXT COMPARTE ESTA INICIATIVA yellow-share-1var1-txt "
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "12",
+                    "imgwidth": "45",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/00b38372-9cfe-419f-a1bd-31b97178ec7d.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG": "IMG FACEBOOK yellow-share-2-fb-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "12",
+                    "imgwidth": "45",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/8a9c96c3-4585-4230-bf30-a17885f66356.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://ctt.ac/z13Mr",
+                    "THISIMG": "IMG TWITTER yellow-share-3-tw-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "12",
+                    "imgwidth": "45",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/26df5813-8678-46c6-8351-7d5c0cbbe7ef.png",
+                    "imgHTML": "",
+                    "imgFSH": "",
+                    "imgDCE": "",
+                    "imgulr": "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG": "IMG WHATSAPP yellow-share-4-wa-share"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/ac8df6b2-9cfc-4d53-bdd3-ba6f569cadf8.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/3dde0b29-b6a3-491b-b781-762d957b83c5.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG fsh-logo-pmm"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_fsh"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
