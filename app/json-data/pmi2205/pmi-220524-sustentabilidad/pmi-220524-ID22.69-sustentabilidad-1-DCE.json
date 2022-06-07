@@ -1,0 +1,455 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE.html",
+
+        "Subject"          :   "Recolecta. Reduce. Recicla.",
+        "Preheader"        :   "¡Conoce el Programa de Reciclaje IQOS! Juntos podemos lograrlo",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220524_Sustainability > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Sustainability 1",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2205/pmi-220524-sustentabilidad/pmi-220524-ID22.69-sustentabilidad-1-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220524-ID22.69-sustentabilidad-1-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/bc9e1e7c-d1e3-4d5f-8136-04ae91636d66.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.69-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/5f74431d-97ed-491d-9b23-71b3d1b5400b.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.69-2"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Ya eliminaste el humo y la ceniza, ahora es momento de dar el siguiente paso al cambio,",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "¡reducir tu huella ambiental en el planeta!",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/c45c2331-c0b8-473c-bf93-e96454e93a2e.png",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "url_cta": "https://www.iqos.com/mx/es/sustentabilidad.html",
+            "this": "CTA1 cta-bw-conoce-mas"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/f4f719e1-371c-4a08-a36f-43322ee6bf1e.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://pmi.23video.com/v.ihtml/player.html?token=294868da93059b5d87c99c76f19cdf7d&source=embed&photo_id=75860886",
+            "this": "VIDEO IMG 22.69-3a"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "32",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Sabías que...",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "El <span style=\"color:#00d1d2; font-size:24px;font-weight:700;\">88%</span> de los adultos usuarios de IQOS, les gustaría hacer más para reducir el impacto en el medio ambiente.*",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "16",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "content": "*Fuente: Encuesta en línea realizada en Japón, Rusia y Alemania con 718 adultos usuarios IQOS en Abril del 2021.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "10",
+            "color_bkg": "#00d1d3",
+            "this": "3-R",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>colecta",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Recolecta tus<br> unidades de tabaco<br> para calentar<br> usadas.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/9eed0a84-ab86-41fc-beff-225164345ee4.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "3R-ico1"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>duce",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Utiliza botellas<br> PET o recoge tu <br>bolsa reciclable en<br> Tiendas IQOS.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/a8848d90-54b6-45c0-b261-4c5f7e67775b.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "3R-ico2"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>cicla",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Lleva tu botella o tu<br> bolsa a Tiendas<br> IQOS o centros de<br> acopio.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/9839c85d-a1e5-4a62-ad22-cd1ed36f3602.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "3R-ico3"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "32",
+            "width": "90%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "¿Quieres hacer la diferencia en el planeta?",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "content": "Sé parte del cambio con IQOS.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/562622e3-1a8b-4c47-9ab8-4032036d0f2f.png",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "url_cta": "https://www.google.com/maps/d/u/0/viewer?mid=1lug8OYp1KxdUPcga4t2ff8DuKdhYJixJ&shorturl=1&ll=26.01148615744123%2C-108.31251332075666&z=3",
+            "this": "CTA2 cta-bw-quiero-reciclar"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "32",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Juntos tenemos el poder de lograrlo.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

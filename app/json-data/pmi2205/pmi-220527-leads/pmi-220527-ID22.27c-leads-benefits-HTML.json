@@ -1,0 +1,453 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML.html",
+
+        "Subject"          :   "Despídete de las molestias provocadas por el humo de cigarro",
+        "Preheader"        :   "El cambio empieza con IQOS",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2205/pmi-220527-leads/pmi-220527-ID22.27c-leads-benefits-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220527-ID22.27c-leads-benefits-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.10-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.10-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.10-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.10-2"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "70",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "20",
+            "content"       : "<b>IQOS al calentar tabaco real</b> en lugar de quemarlo emite <b>95% menos sustancias tóxicas*</b> comparado con los cigarros.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Fontin",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "15",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "content"       : "*Reducciones promedio en niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarrillo de referencia (3R4F).",
+            "this"          : "DISCLAIMER 1"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "10",
+            "height"        : "11",
+            "width"         : "90%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "10",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "5",
+            "content"       : "<b>Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.",
+            "this"          : "INFORMACIÓN IMPORTANTE 1"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.10-3.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.10-3"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.10-4.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.10-4"
+        },
+        {
+            "type"          : "cta1_v2_____",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "30",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir.html",
+            "this"          : "1st CTA cta-bw-conoce-mas"
+        },
+
+        {
+            "type"          : "spacer",
+            "height"        : "40",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "2nd CTA (#FFFFFF) CONOCE MAS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Aún no te decides?",
+                            "color_bkg"     : "#34303d",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "20"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Conoce todo sobre IQOS y  el calentamiento del <br>tabaco en una demostración de producto.",
+                            "color_bkg"     : "#34303d",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "24px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "20"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-blanco-solicitar-demostracion.png",
+                            "color_bkg"      : "#34303d",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "40",
+                            "imgWidth"       : "280",
+                            "align"          : "center",
+                            "imgulr_OLD"         : "https://www.iqos.com/mx/es/beneficios.html",
+                            "imgulr"         : "tel:*993",
+                            "THISIMG"        : "1st CTA cta-bw-blanco-solicitar-demostracion"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+
+
+
+
+
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.10-5.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.10-5"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#00d1d2",
+            "this"              : "2nd CTA (#FFFFFF) SOLICITAR DEMOSTRACION",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Sabías que la mayoría de los fumadores <br>que hacen el cambio completamente a IQOS <br>dejan de fumar cigarros?",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "20"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Así como Ricardo, existen 14 millones de usuarios <br>adultos* que ya eligieron una mejor alternativa <br>que continuar fumando.",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "24px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "20"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "22.10-6.png",
+                            "color_bkg"      : "#00d1d2",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "60",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "RED LINE 22.10-6"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-solicitar-demostracion.png",
+                            "color_bkg"      : "#00d1d2",
+                            "margin_top"     : "30",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "280",
+                            "align"          : "center",
+                            "imgulr_OLD"     : "https://www.iqos.com/mx/es/beneficios.html",
+                            "imgulr"         : "tel:*993",
+                            "THISIMG"        : "2nd CTA cta-bw-solicitar-demostracion"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer___",
+            "height"        : "30",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "*Fuente: Datos financieros y estimaciones internas, paneles de usuarios de IQOS y estudios de mercado. Estatus a septiembre de 2020. Usuarios exclusivos de tecnología de calentamiento de tabaco que utilizan unidades de tabaco para calentar durante más del 70% de su consumo de los últimos 7 días.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

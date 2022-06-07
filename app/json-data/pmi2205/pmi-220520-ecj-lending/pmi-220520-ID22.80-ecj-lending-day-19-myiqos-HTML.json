@@ -1,0 +1,424 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML.html",
+
+        "Subject"          :   "IQOS está aquí para ti",
+        "Preheader"        :   "Conoce los beneficios de ser parte de myIQOS",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2205/pmi-220520-ecj-lending/pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220520-ID22.80-ecj-lending-day-19-myiqos-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-4.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.80-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.80-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.80-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.80-2"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "¿Tu IQOS sufrió una caída? ¿La Lámina de Calentamiento se dañó? Olvídate de los posibles inconvenientes, con la <span style=\"color:#00d1d2;font-weight:700;\">Cobertura de Daños Accidentales</span> de myIQOS estás protegido.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "50",
+                    "imgwidth"      : "300",
+                    "mtop"          : "0",
+                    "img"           : "22.80-3.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.80-3"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "8",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "34",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p_NOPE"             : "Con la <span style=\"color:#000000;font-weight:700;\">Cobertura de Daños Accidentales</span> reemplazamos* tu dispositivo en caso de daño accidental o avería sin preguntas ni complicaciones.",
+                            "p"             : "Con la <span style=\"color:#000000;font-weight:700;\">Cobertura de Daños Accidentales</span> reemplazamos* tu dispositivo en caso de daño accidental o avería sin  complicaciones.",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "60",
+                            "margin_bottom" : "15"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-conoce-mas.png",
+                            "color_bkg"      : "#00d1d2",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "10",
+                            "imgWidth"       : "180",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.iqos.com/mx/es/ayuda.html",
+                            "THISIMG"        : "cta-bw-conoce-mas"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "8",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "30",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "50",
+            "margin_bottom" : "30",
+            "content"       : "No olvides que con <span style=\"color:#00d1d2;font-weight:700;\">myIQOS</span> tienes acceso a:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "ICONOS 5 SERVICIOS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.80-ico1.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html",
+                    "THISIMG"       : "EXPERTO IQOS IMG 22.80-ico1"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.80-ico2.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda.html",
+                    "THISIMG"       : "Herramienta de autodiágnostico IMG 22.80-ico2"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.80-ico3.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/asistencia-internacional-iqos.html",
+                    "THISIMG"       : "Asistencia Internacional IMG 22.80-ico3"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.80-ico4.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                    "THISIMG"       : "Actualización de tu IQOS IMG 22.80-ico4"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "22.80-ico5.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                    "THISIMG"       : "Limpieza Profesional de Dispositivo IMG 22.80-ico5"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "30",
+            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes alguna pregunta?</span><br><br>Contáctanos, estamos para ti en nuestros canales de comunicación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "CONTACT OUR EXPERTS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "23",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c1-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-c1-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c2-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html",
+                    "THISIMG"       : "IMG ico-c2-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "ico-c3-mail.png",
+                    "imgulr"        : "mailto:contact.mx@iqos.com",
+                    "THISIMG"       : "IMG ico-c3-mail"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "23",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.80-4.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.80-4"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "Tu Equipo myIQOS",
+            "this"          : "Tu Equipo myIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "*Aplican restricciones. Servicios disponibles al registrar el dispositivo. Aplican Términos y Condiciones del programa myIQOS en iqos.com",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    
