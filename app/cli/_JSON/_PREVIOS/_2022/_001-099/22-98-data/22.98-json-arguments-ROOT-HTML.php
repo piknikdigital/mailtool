@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.98-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,21 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
+
+    "p_v2",
+    
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+
     "p300_BW",
+    "columns",
 
 
-    "spacer",   
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -100,7 +109,29 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+--------------------
+--------------------
+--------------------
+Queremos brindarte la atención que mereces, recuerda que si tienes tu dispositivo IQOS registrado cuentas con <span style=\"color:#00d1d2;font-weight:700;\">myIQOS</span>, el cual te ofrece:
+--------------------
+--------------------
+Cobertura de Daños Accidentales
+--------------------
+Actualización de tu IQOS
+--------------------
+Limpieza Profesional de dispositivo
+--------------------
+Tu Experto IQOS
+--------------------
+Asistencia Internacional
+--------------------
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación.
+--------------------
+--------------------
+Tu Equipo myIQOS
+--------------------
+*Aplican Términos y Condiciones del programa myIQOS en iqos.com
 --------------------
 --------------------
 --------------------
@@ -110,31 +141,9 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +175,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +187,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

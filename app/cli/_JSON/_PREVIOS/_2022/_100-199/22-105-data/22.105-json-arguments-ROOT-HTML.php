@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.105-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,11 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+    "columns",
 
-    "spacer",   
+    "cta1_v2",
+
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -104,18 +107,28 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+Visita nuestros <span style=\"color:#00d1d2;font-weight:700;\">IQOS Corners</span> en puntos de venta seleccionados, donde encontrarás:
 --------------------
 --------------------
+00d1d2
+Servicio de limpieza gratuito.
+--------------------
+Experto IQOS.
+--------------------
+Actualización de tu IQOS.
+--------------------
+Reemplazos.*
 --------------------
 --------------------
+#ElijoIQOS
 --------------------
 --------------------
+*Sujeto a disponibilidad de inventario.
 --------------------
 --------------------
+*Sujeto a requisitos, <a href=\"https://www.iqos.com/mx/es/care-plus/terminos-condiciones-care-plus.html\" style=\"text-decoration:underline;\" target=\"_blank\">términos y condiciones</a> de myIQOS.
 --------------------
---------------------
---------------------
---------------------
+
 --------------------
 --------------------
 --------------------
@@ -133,8 +146,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

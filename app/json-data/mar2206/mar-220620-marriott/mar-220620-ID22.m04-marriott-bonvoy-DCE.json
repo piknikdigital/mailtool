@@ -1,0 +1,432 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220620_ > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE" } ,
+            { "urlS" : "https://paginum.com/email/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2206/mar-220620-marriott/mar-220620-ID22.m04-marriott-bonvoy-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-220620-ID22.m04-marriott-bonvoy-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/e328486a-b619-0228-1216-b83e78376226.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-01"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/db3a6527-fa84-46c4-300c-a1e2d50f3c72.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-02"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/2dc5da3f-4279-e91f-1f1c-db8d91063079.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://www.royaltonresorts.com/resorts/punta-cana-resort-casino/special-occasions/groups",
+            "this": "CTA ROYALTON PUNTA CANA IMG 22.m04-03"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/0f0e9a9e-1b5e-6ef8-abed-2eaa160d3a33.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-04"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/367b2b08-98cf-9c27-8a1b-51f4cf99c065.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-05"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/52e1e4bd-4207-5588-1ef1-875b279cf372.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://all-inclusive.marriott.com/the-westin-reserva-conchal-an-all-inclusive-golf-resort-spa/groups",
+            "this": "CTA WESTIN RESERVA CONCHAL IMG 22.m04-06"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/50a355dd-3807-b537-597e-9b331a04d0e9.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-07"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/1f6ea057-5c11-ef59-368b-cbc6eebc91a4.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-08"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/e253ad46-8291-ce13-a37a-e3c48aca5e9b.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://all-inclusive.marriott.com/delta-by-marriott-all-inclusive-resort-riviera-nayarit/groups/",
+            "this": "CTA YEAR THREE - DELTA HOTELS RIVIERA NAYARIT IMG 22.m04-09"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/15c3edd5-5118-0a6e-1fc8-9fdcebba2f87.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-10"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/c923e077-d9fd-045c-2fc2-6501566b2e77.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-11"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/75de67d4-acc0-f621-580e-fd6e5ac8e5ff.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://all-inclusive.marriott.com/tamarind-by-elegant-hotels/groups",
+            "this": "CTA YEAR FOUR - ELEGANT HOTELS BARBADOS IMG 22.m04-12"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/01d8a43e-83f5-d5ef-f58a-62817c7c08f9.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-13"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/11ea87d6-7cab-8e55-9747-d10b7a792f8b.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-14"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/01952d43-3dee-38a3-654b-d67419bbca45.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://www.royaltonresorts.com/resorts/negril/special-occasions/groups",
+            "this": "CTA YEAR FIVE - ROYALTON NEGRIL, JAMAICA IMG 22.m04-15"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/358f282d-1f9f-0201-590c-7e60ad545019.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-16"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/045b7d34-a60a-a358-6d20-cdd1591f4396.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-17"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/e4a1dce1-ea09-b2c6-e1a7-12fac0682013.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://www.planethollywoodhotels.com/resorts/cancun/special-occasions/group-getaways",
+            "this": "CTA YEAR SIX - PLANET HOLLYWOOD CANCUN IMG 22.m04-18"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/ad0644db-b0d6-8c14-4da9-0f68cee8eb64.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-19"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fbf3f1",
+            "this": "GROUP BENEFITS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/3a868b2c-b2e3-cf00-55af-ff838c6a7c52.png",
+                            "color_bkg": "#fbf3f1",
+                            "margin_top": "50",
+                            "margin_bottom": "0",
+                            "imgWidth": "150",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.m04-20"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#ff9662;\">•</span> Complimentary welcome drink.<br><span style=\"color:#ff9662;\">•</span> Private group registration.<br><span style=\"color:#ff9662;\">•</span> Group's coordinator.<br><span style=\"color:#ff9662;\">•</span> 20% discount on spa treatments.<br><span style=\"color:#ff9662;\">•</span> Complimentary meeting and function space.<br>Special commission 10% <span style=\"color:#ff9662;\">**</span>",
+                            "color_bkg": "#fbf3f1",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "34px",
+                            "p_align": "center",
+                            "p_color": "#000000",
+                            "margin_top": "25",
+                            "margin_bottom": "50"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#f7b29d",
+            "this": "SPECIAL CONDITIONS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#f7b29d",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/b5d625d3-5c2b-a7bc-611a-3eb298413fa8.png",
+                            "color_bkg": "#f7b29d",
+                            "margin_top": "50",
+                            "margin_bottom": "0",
+                            "imgWidth": "190",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.m04-20"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#FFFFFF;\">•</span> 1 complimentary room for every 15 paid daily.<br><span style=\"color:#FFFFFF;\">•</span> 1 upgrade to Star Class for the group's VIP.<br><span style=\"color:#FFFFFF;\">•</span> Check in from 12:00<br><span style=\"color:#FFFFFF;\">•</span> Lunch included for check in and check out dates<br><span style=\"color:#FFFFFF;\">•</span> 1 complimentary daily coffee break for corporate groups",
+                            "color_bkg": "#f7b29d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "34px",
+                            "p_align": "center",
+                            "p_color": "#000000",
+                            "margin_top": "25",
+                            "margin_bottom": "50"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/97f3f023-de59-2434-31f1-bc4628e57752.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m04-22"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/2327f1ca-f7c1-a8e8-bb4c-25708c5cea20.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "MARRIOTT BONVOY LOGO IMG 22.m04-23"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "700",
+            "fontsize": "11",
+            "height": "18",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#f5f4f0",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/9fa10cd7-7a0a-9f46-896b-8199e5b3de24.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "FOOTER LOGOS IMG 22.m04-24"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "300",
+            "fontsize": "12",
+            "height": "16",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "©2022 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

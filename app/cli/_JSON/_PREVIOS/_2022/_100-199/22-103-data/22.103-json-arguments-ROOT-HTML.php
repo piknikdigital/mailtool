@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.103-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -20,12 +20,17 @@ $requiredBlocks = array(
     "img",
     "img",
     "greeting_v2",
-    "p300_BW",
 
 
+    "columns",
     "spacer",   
+    "columns",
+    "spacer",   
+    "columns",
+
+    "cta1_v2",
+
     "ElijoIQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -103,10 +108,14 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+Mejora tu<br>experiencia
+Aprende todos los tips para tener una mejor experiencia con tu dispositivo.
 --------------------
+Programa de <br>Reciclaje IQOS
+<span style=\"font-size:20px;font-weight:700;\">Re</span>colecta. <br><span style=\"font-size:20px;font-weight:700;\">Re</span>duce. <br><span style=\"font-size:20px;font-weight:700;\">Re</span>cicla.
 --------------------
---------------------
---------------------
+#ElijoIQOS
+Estas son la historias de cambio de los usuarios IQOS tú como ellos, elige cambiar.
 --------------------
 --------------------
 --------------------
@@ -133,8 +142,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

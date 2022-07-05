@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.112-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,19 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+    "img",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
 
-    "spacer",   
+
+    "p300_BW",
+    "columns",
+
+    "columns",
+
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -103,9 +114,29 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+¡Llegaste al final, lo lograste! Tus 14 días de prueba han terminado, <span style=\"color:#00d1d2;font-weight:700;\">¿qué sigue? </span>
 --------------------
 --------------------
+¡Quiero comprar mi IQOS! 
+
+Localiza tu Tienda IQOS más cercana<span style=\"font-size:12px;\"><sup>(1)</sup></span> y agenda una cita para comprar o devolver tu IQOS.<br><br>¡No esperes más! <span style=\"color:#00d1d2;font-weight:700;\">Obtén hasta 6 MSI<span style=\"font-size:12px;\"><sup>(2)</sup></span></span> en la compra de tu primer Kit IQOS o si tienes un código de promoción, es momento de utilizarlo.
 --------------------
+--------------------
+<b>¿14 días no fueron suficientes? Sigue leyendo.<b><br>Sabemos que cambiar <br>puede ser un reto.  <br>Extiende tu préstamo <br>7 días más. 
+--------------------
+--------------------
+<b>¿IQOS no es para ti? Entendemos</b>
+--------------------
+Regresa tu IQOS en préstamo sin preocupaciones. Agenda una cita para poder regresar el dispositivo.
+--------------------
+--------------------
+Si todavía no tomas una decisión o tienes dudas, <b>¡Contáctanos!</b>
+--------------------
+--------------------
+Tu Equipo myIQOS
+--------------------
+--------------------
+(1) Programa disponible en Tiendas IQOS Antara, Perisur, Santa Fe y IQOS Corners en Sanborns seleccionados: Masaryk, Interlomas, Galerías Insurgentes, Parque Delta, Universidad, Pedregal, Galerías Coapa, Atizapán, Reforma 222, Satélite, entre otros. El listado de tiendas podrá cambiar sin previo aviso.<br><br>(2) En la compra mínima de $799 MXN (setecientos noventa y nueve pesos 00/100 M.N) que incluya un Kit IQOS (IQOS 2.4 Plus o IQOS 3 DUO) recibes 3 o 6 meses sin intereses al momento del pago sobre el total de tu compra con tarjetas de crédito de bancos participantes. Bancos participantes: Afirme, Banbajío, Banca Mifel, Banorte, IXE, Banjercito, HSBC, Inbursa, Invex Banco, Itaucard, Santander, Liverpool, Scotiabank, Banamex, BBVA, American Express. Válido a partir del 1 de agosto del 2020 al 31 de diciembre del 2022. Aplicable en tiendas participantes: Tiendas IQOS, IQOS Corner Sanborns y compras realizadas en iqos.com
 --------------------
 --------------------
 --------------------
@@ -133,8 +164,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

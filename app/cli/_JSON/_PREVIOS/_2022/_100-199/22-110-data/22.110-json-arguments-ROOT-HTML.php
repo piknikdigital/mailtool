@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.110-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,36 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "img",
+
+    "p300_BW",
+
+    "columns",
+    "columns",
+
+    "p700_BW",
+
+    "columns",
+    "spacer",   
+
+    "p300_BW",
 
     "spacer",   
+    "img",
+    "columns",
+
+
+    "p300_BW",
+    "columns",
+
     "ElijoIQOS",
-    "legal_extra",
+    "columns",
+
+
+
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -103,21 +125,42 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+Seguro te has preguntado,<br><span style=\"color:#00d1d2;font-weight:700;\">“¿Por qué IQOS entrega un sabor diferente?”</span> <br>¡Fácil! IQOS usa tabaco real, no líquido con nicotina.
+--------------------
+--------------------
+Ahora que estás viviendo el cambio con IQOS <b>recuerda por qué diste el primer paso</b>, fue por ti y por los que te rodean.
+--------------------
+--------------------
+IQOS no produce humo ni ceniza.
+--------------------
+Manteniendo tus espacios más limpios. Olvídate de la ceniza y los ceniceros. 
+--------------------
+--------------------
+IQOS no deja olor a humo de cigarro.
+--------------------
+Adiós al olor a humo de cigarro en tus manos, cabello, ropa y muebles. Hola a los espacios más limpios.
+--------------------
+--------------------
+Pst, pst, esto te interesa
+--------------------
+--------------------
+Las unidades de tabaco para calentar tienen una <b>duración de 6 minutos o 14 inhalaciones</b> en promedio.
+--------------------
+¿Quieres una experiencia consistente de sabor? Te recomendamos <b>limpiar tu IQOS cada 20 usos.</b>
+--------------------
+--------------------
+Te recomendamos que:<br><b>durante estos 14 días uses solo IQOS</b><br>para vivir plenamente de sus beneficios.
+--------------------
+--------------------
+¿Te quedaste sin unidades de tabaco para calentar?<br><br><b>¡Contáctanos!</b>
 --------------------
 --------------------
 --------------------
+¿Tienes dudas? 
+Contáctanos en cualquiera de nuestros canales de comunicación 
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 <span style=\"font-size:12px;\"><sup>(1)</sup></span>
@@ -133,8 +176,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

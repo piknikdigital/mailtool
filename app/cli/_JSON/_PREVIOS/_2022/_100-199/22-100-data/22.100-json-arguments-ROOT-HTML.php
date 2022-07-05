@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.100-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -20,10 +20,12 @@ $requiredBlocks = array(
     "img",
     "img",
     "greeting_v2",
-    "p300_BW",
+    
+    "columns",
+    "columns",
+    "columns",
 
 
-    "spacer",   
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -100,7 +102,26 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+--------------------
+--------------------
+--------------------
+Usa solo IQOS
+00d1d2
+faf7f4
+--------------------
+¿La mejor forma para percibir los beneficios de IQOS? ¡Sencillo! No alternes el uso entre IQOS y los cigarros, de esa forma podrás tener una mejor experiencia.
+--------------------
+Limpieza
+Primero... ¡Deja que se enfríe tu IQOS!<br>Así evitarás que se dañe la Lámina de Calentamiento. Recuerda limpiar tu IQOS cada 20 usos para mantener el sabor consistente del tabaco real.
+--------------------
+Cargar por la noche
+--------------------
+Te recomendámos cargar tu dispositivo durante la noche, de esta forma evitarás quedarte sin batería durante el día. 
+--------------------
+--------------------
+Tu Equipo myIQOS
+--------------------
+*Aplican restricciones. Consulta Términos y Condiciones de myIQOS.
 --------------------
 --------------------
 --------------------
@@ -112,29 +133,9 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +167,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +179,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

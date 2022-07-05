@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.95-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,12 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "p300_BW",
+    "form",
 
-    "spacer",   
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -100,41 +100,71 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+--------------------
+--------------------
+<b>¡Queremos conocer tu experiencia con IQOS!</b><br><br>Selecciona la opción con la que más te identificas y recibe $200MXN* al compartirnos tu experiencia.
 --------------------
 --------------------
 --------------------
+Selecciona la opción con la que más te identificas:
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
+1
+El sabor no es completamente de mi agrado.
+El_sabor_no_es_completamente_de_mi_agrado
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
+
+2
+No encuentro unidades de tabaco para calentar cerca de mi.
+No_encuentro_unidades_de_tabaco_para_calentar_cerca_de_mi
+
+
+3
+No puedo insertar o retirar las unidades de tabaco para calentar.
+No_puedo_insertar_o_retirar_las_unidades_de_tabaco_para_calentar
+
+
+4
+Tengo dudas con el uso del dispositivo.
+Tengo_dudas_con_el_uso_del_dispositivo
+
+
+5
+Mi dispositivo funciona de forma incorrecta.
+Mi_dispositivo_funciona_de_forma_incorrecta
+
+
+6
+Tengo otros inconvenientes con mi IQOS.
+Tengo_otros_inconvenientes_con_mi_IQOS
+
+
+7
+No recibí apoyo con el uso de mi dispositivo.
+No_recibí_apoyo_con_el_uso_de_mi_dispositivo
+--------------------
+--------------------
+--------------------
+--------------------
+Tu Equipo myIQOS
+--------------------
+--------------------
+--------------------
+*Esta recompensa equivale a $200 MXN en dinero electrónico, no canjeable por dinero en efectivo. Sujeto a Términos y Condiciones de www.sodexo.com. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Para recibir esta recompensa debes contestar una pregunta y llamar al *993. Exclusivo para usuarios IQOS. Recompensa válida hasta el 31 de diciembre del 2022.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+NUEVO LEGAL:
+* La recompensa equivale a $200 MXN en dinero electrónico. Para recibir esta recompensa debes contestar la pregunta de este correo, con esto recibirás un código que podrás redimir en iqos.com, Tiendas IQOS, IQOS Corners, Call Center IQOS y en Sanborns seleccionados o llamar al *993 para intercambiarla por una tarjeta Sodexo(1). No canjeable por dinero en efectivo. Redimible solo una vez por usuario registrado con cuenta creada en www.iqos.com. La recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>. Recompensa válida hasta el 31 de diciembre del 2022. No es acumulable con otras promociones.<br>(1) Sujeto a <a href=\"https://www.sodexo.com/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> en www.sodexo.com. 
+
+--------------------
+--------------------
+--------------------
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +196,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +208,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

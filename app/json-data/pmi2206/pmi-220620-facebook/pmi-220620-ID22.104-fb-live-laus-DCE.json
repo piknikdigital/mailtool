@@ -1,0 +1,236 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE.html",
+
+        "Subject"          :   "%%=ProperCase(first_name)=%%, ¿quieres ganarte un IQOS 3 DUO?",
+        "Preheader"        :   "Acompáñanos en nuestro Facebook Live y entérate cómo",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20220620_Facebook Live > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Facebook Live LAUS",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2206/pmi-220620-facebook/pmi-220620-ID22.104-fb-live-laus-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220620-ID22.104-fb-live-laus-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "header-iqos-bw-2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.id-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Te invitamos a nuestro próximo FB Live donde hablaremos sobre los <span style=\"color:#00d1d2;font-weight:700;\">mitos y realidades detrás de IQOS.</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Para ser consideradx ganador de un<br> <span style=\"color:#00d1d2;font-weight:700;\">IQOS 3 DUO</span> deberás: <br><br>1. Seguir la cuenta oficial de<br> <span style=\"color:#00d1d2;font-weight:700;\">IQOS México</span> en <span style=\"color:#00d1d2;font-weight:700;\">Facebook.</span><br><br>2. Conectarte a nuestro FB Live el<br> <span style=\"color:#00d1d2;font-weight:700;\">22 de Junio</span> a las <span style=\"color:#00d1d2;font-weight:700;\">8 pm.</span><br><br>3. Ser el primero en responder<BR> correctamente las preguntas de<br> nuestro experto IQOS.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "",
+                            "color_bkg": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "240",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "logo-fb-iqos-mexico"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "",
+                            "color_bkg": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "150",
+                            "align": "center",
+                            "imgulr": "https://www.facebook.com/iqosmx/",
+                            "THISIMG": "cta-bw-blanco-siguenos"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "",
+                            "color_bkg": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "540",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "22.104-2"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

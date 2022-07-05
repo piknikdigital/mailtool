@@ -1,0 +1,281 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML.html",
+
+        "Subject"          :   "¡Te extrañamos, queremos escucharte!",
+        "Preheader"        :   "Cuéntanos tu experiencia y déjanos consentirte con una recompensa",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2206/pmi-220614-dormant/pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-220614-ID22.95-dormant-day-100-pp-diagnosis-offer-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.95-1.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.95-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "<b>¡Queremos conocer tu experiencia con IQOS!</b><br><br>Al responder y compartirnos tu experiencia, recibirás una recompensa de $200 MXN<span style=\"font-size:12px;\"><sup>(1)</sup></span> que podrás utilizar en dispositivos IQOS, accesorios, y mucho más.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "content"       : "Selecciona la opción con la que más te identificas:",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "form",
+            "ID"            : "form1",
+            "method"        : "get",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "align"         : "left",
+            "color_greeting": "#000000",
+            "color_bkg"     : "#faf7f4",
+            "width"         : "80%",
+            "form_bgcolor"  : "#faf7f4",
+            "this"          : "",
+            "imgBullet"     : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/23150b58-1b62-4576-9a23-8052512bca74.png",
+
+            "formurl"       : "#",
+            "formurl_HTML"  : "http://mailtool.lan:8888/form.php",
+            "formurl_DCE"   : "#",
+
+            "button"        : "enviar.png",
+            "buttonwidth"   : "160",
+
+            "list" :  
+            [
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_1",
+                    "txt"       : "El sabor no es completamente de mi agrado."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_2",
+                    "txt"       : "No encuentro unidades de tabaco para calentar cerca de mi."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_3",
+                    "txt"       : "No puedo insertar o retirar las unidades de tabaco para calentar."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_4",
+                    "txt"       : "Tengo dudas con el uso del dispositivo."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_5",
+                    "txt"       : "Mi dispositivo funciona de forma incorrecta."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_6",
+                    "txt"       : "Tengo otros inconvenientes con mi IQOS."
+                },
+                {
+                    "name"      : "onboarding_conversion_check_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_7",
+                    "txt"       : "No recibí apoyo con el uso de mi dispositivo."
+                }
+            ]
+        },
+        {
+            "type"          : "rawHTML_______ACTIVATE_THIS_FOR_DCE_OR_LOCAL",
+            "th_valign"     : "",
+            "th_style"      : "",
+            "th_align"      : "",
+            "html"          : "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "th_valign_NOPE"     : "top",
+            "th_style_NOPE"      : "text-align:center;margin:0;padding:0;",
+            "th_align_NOPE"      : "center",
+            "html_NOPE"          : "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
+            "this"          : "HTML RAW"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Tu Equipo myIQOS",
+            "this"          : "Tu Equipo myIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "(1) La recompensa equivale a $200 MXN en dinero electrónico. Para recibir esta recompensa debes contestar la pregunta de este correo, con esto recibirás un código que podrás redimir en iqos.com, Tiendas IQOS, IQOS Corners, Call Center IQOS y en Sanborns seleccionados o llamar al *993 para intercambiarla por una tarjeta Sodexo<span style=\"font-size:10px;\"><sup>(2)</sup></span>. No canjeable por dinero en efectivo. Redimible solo una vez por usuario registrado con cuenta creada en www.iqos.com. La recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>. Recompensa válida hasta el 31 de diciembre del 2022. No es acumulable con otras promociones.<br>(2) Sujeto a <a href=\"https://www.sodexo.com/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> en www.sodexo.com.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

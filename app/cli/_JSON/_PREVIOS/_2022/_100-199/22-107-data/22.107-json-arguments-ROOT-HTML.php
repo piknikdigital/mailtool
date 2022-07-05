@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.107-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,27 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "p_v2",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
 
-    "spacer",   
+    "columns",
+
+    "p700_BW",
+    "p300_BW",
+
+    "img",
+
+    "cta1_v2",
+
+    "p300_BW",
+    "columns",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -103,10 +118,35 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+¡Vive la experiencia IQOS por solo $189 MXN! Pruébalo por 14 días y descubre una experiencia de sabor nueva.
 --------------------
 --------------------
+¡Quiero probarlo! ¿Qué tengo que hacer?
+--------------------
+Llama al <span style=\"color:#00d1d2;font-weight:700;\">*993</span> desde tu celular<br> para agendar una cita.
+--------------------
+Recoge tu <span style=\"color:#00d1d2;font-weight:700;\">Kit IQOS en préstamo</span><br> en tu Tienda IQOS.*
+--------------------
+¡Listo! <span style=\"color:#00d1d2;font-weight:700;\">Comienza la experiencia.</span>
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">Además recibe...</span>
+--------------------
+Acompañamiento personalizado de un <span style=\"color:#00d1d2;font-weight:700;\">Experto IQOS</span> durante la prueba. Al final, podrás decidir si comprarlo o devolverlo sin ningún compromiso.
+--------------------
+--------------------
+¿Sabías qué IQOS no es un vapeador? 
+--------------------
+A diferencia de los vapeadores, <span style=\"color:#00d1d2;font-weight:700;\">IQOS calienta tabaco real</span> (no líquido con nicotina), entregando el sabor del tabaco, sin humo.
+--------------------
+--------------------
+¿Tienes dudas? 
+Contáctanos en cualquiera de nuestros canales de comunicación 
+--------------------
+Tu Equipo myIQOS
+--------------------
+--------------------
+*Programa disponible en Tiendas IQOS Antara, Perisur, Santa Fe y IQOS Corners en Sanborns seleccionados: Masaryk, Interlomas, Galerías Insurgentes, Parque Delta, Universidad, Pedregal, Galerías Coapa, Atizapán, Reforma 222 y Satélite. El listado de tiendas podrá cambiar sin previo aviso.<br><br>Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar el dispositivo o devolverlo. Sujeto a disponibilidad de inventario. Consulta requisitos y Términos y Condiciones del Programa. Color sujeto a disponibilidad de inventario en tienda. Las unidades de tabaco para calentar, están disponibles dentro de la Ciudad de México y área metropolitana en Tiendas IQOS, City Market, Rappi, establecimientos seleccionados: Sanborns, OXXO, Circle K, Go Mart y 7-Eleven. Fuera de esta zona entra a www.iqos.com y encuentra tu tienda más cercana.
 --------------------
 --------------------
 --------------------
@@ -133,8 +173,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

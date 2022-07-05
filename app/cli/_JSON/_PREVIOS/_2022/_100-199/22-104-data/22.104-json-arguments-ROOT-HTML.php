@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.104-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,11 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
+    "columns",
 
-
-    "spacer",   
     "ElijoIQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -104,10 +101,13 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+Te invitamos a nuestro próximo FB Live donde hablaremos sobre los <span style=\"color:#00d1d2;font-weight:700;\">mitos y realidades detrás de IQOS.</span>
 --------------------
 --------------------
+Para ser consideradx ganador de un <span style=\"color:#00d1d2;font-weight:700;\">IQOS 3 DUO</span> deberás: <br><br>1. Seguir la cuenta oficial de <span style=\"color:#00d1d2;font-weight:700;\">IQOS México</span> en <span style=\"color:#00d1d2;font-weight:700;\">Facebook.</span><br><br>2. Conectarte a nuestro FB Live el <span style=\"color:#00d1d2;font-weight:700;\">22 de Junio</span> a las <span style=\"color:#00d1d2;font-weight:700;\">8 pm.</span><br><br>3. Ser el primero en responder correctamente las preguntas de nuestro experto IQOS.
 --------------------
 --------------------
+#ElijoIQOS
 --------------------
 --------------------
 --------------------
@@ -133,8 +133,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

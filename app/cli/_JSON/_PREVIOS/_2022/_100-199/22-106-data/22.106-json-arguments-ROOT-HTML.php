@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.106-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -19,12 +19,21 @@ $requiredBlocks = array(
     "header_brand_world",
     "img",
     "img",
-    "greeting_v2",
-    "p300_BW",
 
+    
+    "greeting_v2",
+    "columns",
+    "columns",
+    "columns",
+    "columns",
+    
+    "p_v2",
+    "columns",
+    "columns",
 
     "spacer",   
-    "ElijoIQOS",
+    "img",
+
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -103,16 +112,24 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+Como cualquier dispositivo electrónico, <span style=\"color:#00d1d2;font-weight:700;\">IQOS</span> también necesita actualizar su <b>sistema operativo</b> para poder ofrecerte la mejor experiencia posible.<br><br>Las ventajas de actualizar el <span style=\"color:#00d1d2;font-weight:700;\">firmware</span> de tu dispositivo son:
+--------------------
+--------------------
+Mejora su rendimiento.
+--------------------
+Reduce el tiempo de carga.
+--------------------
+Extiende la vida útil de tu IQOS.
 --------------------
 --------------------
 --------------------
+¿Cómo actualizar el firmware?
 --------------------
+Actualiza tu dispositivo sin la<br>necesidad de salir de tu hogar.
 --------------------
+<b>O contáctanos desde tu celular.</b><br>Llámanos al *993
 --------------------
---------------------
---------------------
---------------------
---------------------
+*Este correo electrónico es de carácter informativo para usuarios con dispositivo IQOS 3 DUO registrado.
 --------------------
 --------------------
 --------------------
@@ -133,8 +150,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

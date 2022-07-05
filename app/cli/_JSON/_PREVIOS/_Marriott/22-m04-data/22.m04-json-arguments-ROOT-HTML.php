@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.m04-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -16,18 +16,57 @@ switch ($target)
 }
 
 $requiredBlocks = array(
-    "header_brand_world",
-    "img",
-    "img",
-    "greeting_v2",
-    "p300_BW",
+    "img",    // 1
+    "img",    // 2
 
+    // BLOCK - MULTIYEAR 1: ROYALTON PUNTA CANA
+    "img",    // 3
 
+    // BLOCK - MULTIYEAR 2: WESTIN RESERVA CONCHAL
+    "img",    // 4
+    "img",    // 5
+    "img",    // 6
+
+    // BLOCK - MULTIYEAR 3: DELTA HOTELS RIVIERA NAYARIT
+    "img",    // 7
+    "img",    // 8
+    "img",    // 9
+
+    // BLOCK - MULTIYEAR 4: ELEGANT HOTEL BARBADOS
+    "img",    // 10
+    "img",    // 11
+    "img",    // 12
+
+    // BLOCK - MULTIYEAR 5: ROYALTON NEGRIL JAMAICA
+    "img",    // 13
+    "img",    // 14
+    "img",    // 15
+
+    // BLOCK - MULTIYEAR 6: PLANET HOLLYWOOD CANCUN
+    "img",    // 16
+    "img",    // 17
+    "img",    // 18
+
+    // BLOCK - CREDIT
+    "img",    // 19
+
+    // BLOCK - GROUP BENEFITS
+    "columns",
     "spacer",   
-    "ElijoIQOS",
-    "legal_extra",
-    "disclaimer_iqos",
-    "footer_bw_v1_lowercase"
+
+    // BLOCK - SPECIAL CONDITIONS
+    "columns",
+    "spacer",   
+
+    // BLOCK - MORE INFO
+    "img",    // 22
+
+    
+    // BLOCK - END
+    "img",                  // Logo Bonvoy
+    "p700_BW",              // Unsubscribe
+    "img",                  // Logos All-Inclusive
+    "p300_BW"               // copyrights
 );
 
 
@@ -106,11 +145,21 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+fbf3f1
+--------------------
+Group Benefits:
+--------------------
+<span style=\"color:#ff9662;\">•</span> Complimentary welcome drink.<br><span style=\"color:#ff9662;\">•</span> Private group registration.<br><span style=\"color:#ff9662;\">•</span> Group's coordinator.<br><span style=\"color:#ff9662;\">•</span> 20% discount on spa treatments.<br><span style=\"color:#ff9662;\">•</span> Complimentary meeting and function space.<br>Special commission 10% <span style=\"color:#ff9662;\">**</span>
+
 --------------------
 --------------------
 --------------------
+f7b29d
 --------------------
+Special conditions:
 --------------------
+<span style=\"color:#FFFFFF;\">•</span> 1 complimentary room for every 15 paid daily.<br><span style=\"color:#FFFFFF;\">•</span> 1 upgrade to Star Class for the group's VIP.<br><span style=\"color:#FFFFFF;\">•</span> Check in from 12:00<br><span style=\"color:#FFFFFF;\">•</span> Lunch included for check in and check out dates<br><span style=\"color:#FFFFFF;\">•</span> 1 complimentary daily coffee break for corporate groups
+
 --------------------
 --------------------
 --------------------
@@ -133,8 +182,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

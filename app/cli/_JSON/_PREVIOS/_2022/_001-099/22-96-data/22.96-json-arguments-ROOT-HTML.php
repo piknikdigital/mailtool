@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.96-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,27 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
-
+    "columns",
     "spacer",   
+
+    "img",
+    "p300_BW",
+    "cta1_v2",
+    "spacer",   
+
+    "columns",
+
+
+    "p300_BW",
+    "columns",
+
+
+
+
     "ElijoIQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -100,41 +113,35 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+--------------------
+--------------------
+IQOS es una experiencia de sabor nueva, por eso tenemos un par de consejos para ti:
+--------------------
+--------------------
+Te recomendamos limpiar tu IQOS cada 20 usos. Esto dará un sabor consistente y una mejor experiencia. <b>¡Es muy fácil!</b>
+--------------------
+--------------------
+¡No te preocupes, lo entendemos! <br><br>Visita una de nuestras Tiendas IQOS o llámanos desde tu celular al *993 para mostrarte todas las variantes que tenemos disponibles para ti. 
+--------------------
+--------------------
+¿No sabes dónde encontrar las unidades <br>de tabaco para calentar?<br><br>Encuentra tu tienda más cercana en <br>puntos de venta seleccionados.
+--------------------
+El inventario y disponibilidad de producto es responsabilidad de cada cadena.
+--------------------
+--------------------
+¿Tienes dudas?
+--------------------
+--------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +173,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +185,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

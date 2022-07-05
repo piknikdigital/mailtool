@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.97-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,18 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+    "columns",
+    "columns",
+    "columns",
 
     "spacer",   
+
+    "p300_BW",
+    "img",
+
+    "p300_BW",
+    "columns",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -104,37 +114,40 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+¿Se te cayó tu dispositivo? <br>¿La Lámina de Calentamiento sufrió un daño?<br>¡No te preocupes! con <span style=\"color:#00d1d2;font-weight:700;\">myIQOS</span> te <br>tenemos protegido.
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">Cobertura de daños accidentales</span><br>Reemplazamos gratis tu dispositivo en caso de que sufra un daño.*
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">Actualización de tu IQOS</span><br>Actualiza el Firmware de tu dispositivo para el funcionamiento óptimo de la batería de tu dispositivo
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Cómo usar tu IQOS?</span><br>¡Es fácil! Aprende como utilizar, limpiar y cargar tu IQOS. Encuentra consejos rápidos.
 --------------------
 --------------------
+No olvides que con <span style=\"color:#FFFFFF;font-weight:700;\">myIQOS</span> tienes acceso a:
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación.
+--------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
+*Servicios disponibles al tener una cuenta creada y registrar el dispositivo en www.iqos.com Aplican Términos y Condiciones de myIQOS.
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +179,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +191,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

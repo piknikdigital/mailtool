@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.102-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -23,9 +23,25 @@ $requiredBlocks = array(
     "p300_BW",
 
 
+    "img",
+    "columns",
+    "columns",
+    "columns",
+    "cta1_v2",
+
     "spacer",   
-    "ElijoIQOS",
+    "img",
+    "spacer",   
+
     "legal_extra",
+    "disclaimer_iqos",
+
+    "img",
+
+    "cta1_v2",
+
+
+    "ElijoIQOS",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -103,11 +119,27 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+IQOS es un dispositivo de calentamiento de tabaco que entrega el sabor del tabaco real.<br><span style=\"color:#00d1d2;font-weight:700;\">¿Conoces las diferencias entre calentar tabaco y usar un vapeador?</span>
+--------------------
+--------------------
+Utiliza nicotina líquida.
+--------------------
+Calienta tabaco real.
+--------------------
+La nicotina proviene<br>de otras fuentes.
+--------------------
+La nicotina está naturalmente<br>en el tabaco.
+--------------------
+No usa tabaco.
+--------------------
+Usa tabaco real.
 --------------------
 --------------------
 --------------------
+*"95% menos" representa las reducciones promedio en los niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarro de referencia (3R4F).
 --------------------
---------------------
+<b>Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.
+
 --------------------
 --------------------
 --------------------
@@ -133,8 +165,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

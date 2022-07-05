@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.101-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,15 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "p300_BW",
+    "form",
 
-    "spacer",   
+    "p300_BW",
+    "columns",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -100,41 +103,55 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
 --------------------
 --------------------
 --------------------
+Sabemos que llegar aquí no ha sido facil, pero ¡lo lograste!<br><br><b>Dejaste atrás el humo de cigarro.</b>
+--------------------
+Por favor elige la opción con la que te identificas:
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
+1
+Solo uso IQOS.
+Solo_uso_IQOS
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
+2
+Uso IQOS y fumo cigarros, IQOS con más frecuencia.
+Uso_IQOS_y_fumo_cigarros_IQOS_con_mas_frecuencia.
+
+3
+Uso IQOS tanto como fumo cigarros, ambos casi con la misma frecuencia.
+Uso_IQOS_tanto_como_fumo_cigarros_ambos_casi_con_la_misma_frecuencia
+
+4
+Uso IQOS tanto como cigarros pero fumo más cigarros con mayor frecuencia.
+Uso_IQOS_tanto_como_cigarros_pero_fumo_más_cigarros_con_mayor_frecuencia
+
+5
+Solo fumo cigarros.
+Solo_fumo_cigarros
+
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación. Estamos aquí para apoyarte.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+Tu Equipo myIQOS
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +183,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +195,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

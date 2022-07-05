@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.115-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -20,12 +20,15 @@ $requiredBlocks = array(
     "img",
     "img",
     "greeting_v2",
+
+    "p300_BW",
+    "p700_BW",
     "p300_BW",
 
+    "cta1_v2",
 
-    "spacer",   
+
     "ElijoIQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -104,11 +107,15 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+Cuéntanos sobre tu experiencia con el
+--------------------
+Programa de Préstamo IQOS 
+--------------------
+contestando la siguiente encuesta.
 --------------------
 --------------------
 --------------------
---------------------
---------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------
@@ -125,7 +132,7 @@ BAD CHR : "", "	"
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
+
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

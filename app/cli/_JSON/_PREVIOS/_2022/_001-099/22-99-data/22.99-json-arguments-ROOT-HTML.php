@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.99-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,17 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+    "columns",
 
     "spacer",   
+
+    "img",
+
+    "p300_BW",
+    "columns",
+
+
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -100,41 +109,38 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
 --------------------
 --------------------
+Tu ya le dijiste adiós al humo de cigarro, ahora es tu turno de ayudar a tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> a decirle adiós a las molestias y empezar una vida libre de humo.
 --------------------
 --------------------
+Comparte tu Código Único y regala 
+--------------------
+20% de descuento<span style=\"font-size:14px;\"><sup>(2)</sup></span>
+--------------------
+a tus amigos en la compra de su primer Kit IQOS.
 --------------------
 --------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
+Por cada amigo que utilice tu código único y <br>registre su Kit IQOS en iqos.com, tu obtienes 
+--------------------
+$300 MXN en beneficios<span style=\"font-size:12px;\"><sup>(3)</sup></span>.
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación.
 --------------------
 --------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
+(1) Solo para fumadores adultos.<br>(2) Recompensa no canjeable por dinero en efectivo y redimible en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. No canjeable por productos de tabaco. Limitado a los primeros 5 amigos referidos que compren y registren su primer dispositivo con tu código único.<br>(3) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y iqos.com. Descuento no válido en productos de tabaco.
 --------------------
 --------------------
---------------------
---------------------
---------------------
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
@@ -166,11 +172,6 @@ LEGAL FSH  - Brand World
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -183,7 +184,11 @@ LEGAL FSH  - Brand World
 <b></b>
 <b></b>
 
-
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 
 <span style=\"color:#00d1d2;font-weight:700;\"></span>

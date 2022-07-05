@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.111-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,37 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "p_v2",
+    "p_v2",
 
     "spacer",   
+
+    "columns", // GIF
+
+    "p700_BW",
+
+    "columns",
+    "spacer",   
+    "columns",
+    "spacer",   
+
+    "img",
+    "p_v2",
+
+    "columns",
+
+    "p300_BW",
+
+    "columns",
+
+
     "ElijoIQOS",
-    "legal_extra",
+
+    "columns",
+
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -103,7 +126,35 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+Dicen que un cambio de hábito se logra en 21 días, tu ya vas a la mitad, <b>¡lo lograste!</b> Ahora no te rindas.<br><br>Como tú, otros fumadores han experimentado los beneficios de IQOS.
 --------------------
+--------------------
+Descubre por qué más de 14 millones de fumadores adultos <span style=\"color:#00d1d2;font-weight:700;\">han cambiado a IQOS*</span>
+--------------------
+*Datos financieros y estimaciones internas, paneles de usuarios de IQOS y estudios de mercado. Estatus a septiembre de 2020. Usuarios exclusivos de tecnología de calentamiento de tabaco que utilizan unidades de tabaco para calentar durante más del 70% de su consumo de los últimos 7 días.
+--------------------
+--------------------
+Aún te quedan algunos días con tu <span style=\"color:#00d1d2;font-weight:700;\">IQOS en préstamo</span>, aquí algunos consejos:
+--------------------
+--------------------
+Limpia tu IQOS
+--------------------
+Cada 20 usos para<br> mantener consistencia en el<br> sabor del tabaco real. 
+--------------------
+Cárgalo por la noche
+--------------------
+Carga el dispositivo por la noche, así tendrás batería durante el día.
+--------------------
+--------------------
+No te quedes sin unidades de tabaco para calentar
+--------------------
+Encuéntralas en 
+--------------------
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación
+--------------------
+--------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------
@@ -133,8 +184,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

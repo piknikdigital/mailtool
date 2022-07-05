@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.113-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,33 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "columns",
+
+    "p700_BW",
+
+    "columns",
+
+    "img",
 
     "spacer",   
+
+    "img",
+    "p_v2",
+
+    "columns",
+
+
+    "p300_BW",
+    "columns",
+
+    "columns",
+
+
+
     "ElijoIQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -104,10 +123,26 @@ BAD CHR : "", "	"
 --------------------
 --------------------
 --------------------
+Sabemos que los cambios llevan tiempo, pero ¡no te preocupes! estás muy cerca de lograrlo.
 --------------------
 --------------------
+¡No te preocupes, lo entendemos!<br><br>Visita una de nuestras Tiendas IQOS o llámanos desde tu celular al *993 para mostrarte todas las variantes que tenemos disponibles para ti.
 --------------------
 --------------------
+¿Necesitas un poco de ayuda?<br>Te tenemos cubierto.
+--------------------
+Recuerda que cuentas con el apoyo de un <b>Experto IQOS</b> para brindarte ayuda personalizada en todo momento.
+--------------------
+--------------------
+No te quedes sin unidades de tabaco para calentar
+--------------------
+Encuéntralas en 
+--------------------
+--------------------
+Recuerda que nuestros canales de comunicación están disponibles para resolver todas tus dudas.
+--------------------
+--------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------

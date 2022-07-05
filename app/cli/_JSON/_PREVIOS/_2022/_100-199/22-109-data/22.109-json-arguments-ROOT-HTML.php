@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.109-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,32 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
+    "p700_BW",
     "p300_BW",
 
+    "img",
+    "spacer",   
+
+    "p_v2",
+    "spacer",   
+
+    "p_v2",
+    "img",
+    "p300_BW",
+    "spacer",   
+
+    "img",
+
+    "p300_BW",
+    "columns",
 
     "spacer",   
+    "columns",
+
+
     "ElijoIQOS",
-    "legal_extra",
+
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -102,19 +120,26 @@ $requiredBlocks = array(
 BAD CHR : "", "	"
 " ",
 --------------------
+Cambiar es un reto, pero siempre viene con grandes recompensas y beneficios.
+--------------------
+Además, ¡no estás solo! Un Experto IQOS te acompañará durante este tiempo para resolver cualquier duda.
+--------------------
+--------------------
+Lograr un cambio también se trata de compromiso y voluntad. Podrá parecer retador, pero <span style=\"color:#000000;font-weight:700;\">¡ya diste el primer paso!</span> <br><br>Te recomendamos que <span style=\"color:#000000;font-weight:700;\">durante estos 14 días uses solo IQOS</span> para vivir plenamente de sus beneficios.
+--------------------
+--------------------
+¿Cuáles son los principales beneficios de IQOS?
+--------------------
+*Comparado con los cigarros
 --------------------
 --------------------
 --------------------
+¿Tienes dudas? 
+Contáctanos en cualquiera de nuestros canales de comunicación 
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------
@@ -133,8 +158,6 @@ BAD CHR : "", "	"
 --------------------
 COLOR AQUA Brand World
 00d1d2
-COLOR TEAL Brand World
-34303d
 --------------------
 --------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
