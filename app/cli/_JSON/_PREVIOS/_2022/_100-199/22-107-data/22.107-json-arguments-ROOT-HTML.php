@@ -151,6 +151,8 @@ Tu Equipo myIQOS
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos-demo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+
 --------------------
 --------------------
 --------------------
