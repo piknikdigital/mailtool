@@ -1525,6 +1525,29 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                               {{ block("footer_bw_fsh_oos", "blocks_v2/block-footer-bw-fsh-oos.twig") }}
                             {% endif %}
 
+
+
+
+                          {% elseif blocks[index].type == "footer_bw_oos_lowercase" %}
+                            {% if target is defined and target == "DCE" %}
+                              {{ block("footer_bw_dce_oos_lowercase", "blocks_v2/block-footer-bw-dce-oos-lowercase.twig") }}
+                              
+                            {% elseif target is defined and target == "HTML" %}
+                              {{ block("footer_bw_dce_oos_lowercase", "blocks_v2/block-footer-bw-dce-oos-lowercase.twig") }}
+
+                            {% elseif target is defined and target == "FSH" %}
+                              {{ block("footer_bw_fsh_oos_lowercase", "blocks_v2/block-footer-bw-fsh-oos-lowercase.twig") }}
+                            {% endif %}
+
+
+
+
+
+
+
+
+
+
                           {% elseif blocks[index].type == "footer_fsh" %}
                             
                             {% if target is defined and target == "DCE" %}

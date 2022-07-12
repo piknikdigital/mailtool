@@ -1764,6 +1764,10 @@ $libraryBlocks['footer_bw_oos'] =',
         {
             "type"          : "footer_bw_oos"
         }';
+$libraryBlocks['footer_bw_oos_lowercase'] =',
+{
+    "type"          : "footer_bw_oos_lowercase"
+}';
 
 $libraryBlocks['undefined'] ='
         {
