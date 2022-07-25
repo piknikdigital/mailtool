@@ -103,6 +103,19 @@ BAD CHR : "", "	"
 " ",
 --------------------
 --------------------
+COLOR TURQUESA Brand World
+00d1d2
+COLOR SLATE  Brand World
+34303d
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\"></span>
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------
@@ -131,9 +144,9 @@ BAD CHR : "", "	"
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
-COLOR AQUA Brand World
+COLOR TURQUESA Brand World
 00d1d2
-COLOR TEAL Brand World
+COLOR SLATE  Brand World
 34303d
 --------------------
 --------------------
