@@ -250,7 +250,32 @@ function get_emptyblocks()
     return $empty_blocks;
 }
 
-function createBlocks($requiredBlocks, $libraryBlocks)
+/**
+ *   $requiredBlocks : YY.id-json-arguments-ROOT-HTML.php; 
+ *   $libraryBlocks  : predefined_blocks.php 
+ *   $id             : YY.id
+ */
+function createBlocks($requiredBlocks, $libraryBlocks, $id)
+{
+
+    if ($requiredBlocks == NULL)
+        return get_emptyblocks();
+
+    $res = "";
+
+    foreach ($requiredBlocks as $req) {
+        $str1 = str_replace("22.id", $id, $libraryBlocks[$req]);
+        $res .= $str1;
+    }
+
+    $blocks='
+    "blocks" : 
+    [' .$res .'
+    ],
+    ';
+    return $blocks;
+}
+function createBlocks_ver1($requiredBlocks, $libraryBlocks)
 {
 
     if ($requiredBlocks == NULL)

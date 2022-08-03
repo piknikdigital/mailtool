@@ -1,0 +1,493 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML" } ,
+            { "urlS" : "https://paginum.com/email/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2207/mar-220729-marriott/mar-220729-ID22.m05-marriott-bonvoy-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-220729-ID22.m05-marriott-bonvoy-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-01.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m05-01"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-02.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m05-02"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-03.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - THE HOUSE, BARBADOS IMG 22.m05-03"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-04.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - THE HOUSE, BARBADOS IMG 22.m05-04"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Looking for that special way to celebrate your love? <strong>At The House there&rsquo;s something for everyone.</strong> The House offers a gateaway that epitomizes romance with a twist, providing an array of experiences and unique offerings that are beyond the ordinary.<br><br>From complimentary champagne, to candlelit dinners on the beach, to our beach ambassadors, <strong>we will help you create memories that will last a lifetime.</strong> With only 34 rooms in this adult&rsquo;s only haven, the intimate, romantic atmosphere of <strong>The House can be felt from the moment you arrive,</strong> setting the scene for the romantic experience of a lifetime.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://hotel-deals.marriott.com/bgiah-romance-concierge/",
+            "this"          : "CTA 1 cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-05.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON NEGRIL IMG 22.m05-05"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-06.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON NEGRIL IMG 22.m05-06"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "The ultimate premium all-inclusive experience <strong>is a dream honeymoon at Hideaway at Royalton Negril.</strong> This resort thought for couples and romance offers a host of luxury facilities and services to ensure your first few days as a newly married couple are truly memorable.<br><br><strong>We have for you our Luxury Honeymoon package</strong> starting from complimentary* or $299 USD, designed for the bride and groom who have been married within the last six months and are <strong>looking for some peaceful romance.</strong>",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON NEGRIL TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "30",
+            "margin_bottom" : "50",
+            "content"       : "<span style=\"color:#ff9662;\">•</span> VIP welcome<br><span style=\"color:#ff9662;\">•</span> Newlywed room upgrade (based on availability at the time of check in - not guaranteed)<br><span style=\"color:#ff9662;\">•</span> Ocean View Suite with a king size bed<br><span style=\"color:#ff9662;\">•</span> Sparkling wine and fruit tray<br><span style=\"color:#ff9662;\">•</span> 10% discount in spa treatments<br><span style=\"color:#ff9662;\">•</span> Romantic private dinner setting for two on the beach<br><br><span style=\"color:#ff9662;\">*</span> Based on a minimum four-night stay at the hotel for the bride and groom. Copy of marriage certificate required at the time of booking.",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON NEGRIL TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.royaltonresorts.com/resorts/hideaway-negril/special-occasions/weddings",
+            "this"          : "CTA 2 BLOCK - HIDEAWAY AT ROYALTON NEGRIL cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-07.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON SAINT LUCIA IMG 22.m05-07"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-08.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON SAINT LUCIA IMG 22.m05-08"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Saint Lucia was named the <strong>&ldquo;Caribbean&rsquo;s Leading Honeymoon Destination&rdquo;</strong> at the World Travel Awards for the eighth consecutive year and the 12th in its history.<br><br>This island is a magical place where <strong>turquoise waters crash onto breathtaking white-sand beaches,</strong> lush tropical jungles are home to exotic wildlife and stunning waterfalls, and the majestic Pitons overlook the island&rsquo;s beauty in its entirety.<br><br>Whether you&rsquo;re celebrating the start of your happily ever after or rekindling the bonds that brought you together, <strong>you can bask in Saint Lucia&rsquo;s magic together when you stay at Hideaway at Royalton Saint Lucia,</strong> An Autograph Collection All-Inclusive Resort - Adults Only.<br><br>At this luxurious adults-only resort, you can spend your days hand-in-hand <strong>exploring a world of opportunities for romance,</strong> the perfect backdrop for an unforgettable romantic escape.",
+            "this"          : "BLOCK - HIDEAWAY AT ROYALTON SAINT LUCIA TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-explore-more.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.royaltonresorts.com/resorts/hideaway-st-lucia/special-occasions/weddings",
+            "this"          : "CTA 3 BLOCK - HIDEAWAY AT ROYALTON SAINT LUCIA cta-mar-explore-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-09.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - CRYSTAL COVE IMG 22.m05-09"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-10.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - CRYSTAL COVE IMG 22.m05-10"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Crystal Cove&#39;s pristine white sand beach and lush gardens <strong>create the perfect tropical setting for a romantic celebration.</strong> Begin your forever in paradise with a romantic experience. Swim with the turtles, <strong>enjoy a romantic candlelit dinner</strong> or a leisurely sail on a luxury catamaran.<br><br><strong>From birthday wishes to proposals or wedding announcements,</strong> our guests love the unique message rock pool at Crystal Cove. It&rsquo;s a great way to surprise your significant other with a lovely sentiment upon arrival or after the wedding ceremony.",
+            "this"          : "BLOCK - CRYSTAL COVE TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-mar-discover-more.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://all-inclusive.marriott.com/crystal-cove-by-elegant-hotels",
+            "this"          : "CTA 4 BLOCK - CRYSTAL COVE cta-mar-discover-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-11.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - PORTO DE GALINHAS IMG 22.m05-11"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-12.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - PORTO DE GALINHAS IMG 22.m05-12"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Celebrate your love and happiness, and <strong>make your dream destination wedding a reality at our beachfront resort.</strong> With stunning locations, elegant decor, and other planning services, our resort offers precisely what you need for your big day.<br><br>We&#39;ll do our best to <strong>ensure you get a beautiful and memorable wedding day.</strong>",
+            "this"          : "BLOCK - PORTO DE GALINHAS TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://all-inclusive.marriott.com/westin-porto-de-galinhas/weddings",
+            "this"          : "CTA 5 BLOCK - PORTO DE GALINHAS cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-13.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB IMG 22.m05-13"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-14.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB IMG 22.m05-14"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "The Rum Vault is <strong>the first Barbados bar of its kind and features 150 rums from around the globe.</strong> Today we talk to Hein Broek, Vault Chef, about what makes the Rum Vault the ideal venue for an intimate experience.",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB INTRO TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">1) Why is the Rum Vault perfect for a romantic experience?</span><br><br>The Rum Vault is perfect for a romantic experience mainly because of <strong>the private setting of the room.</strong>",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB Q1"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">2) What kind of celebrations are usually held at The Rum Vault/Do you have a favorite?</span><br><br>The Rum Vault is very popular for birthdays.<br> <b>Birthdays are my favorite because RUM is a PRESERVATIVE.</b>",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB Q2"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">3) Who can book The Rum Vault and how?</span><br><br>The Rum Vault <b>is an adult private food and beverage dining experience fully focused on rum.</b> It can be reserved by calling Colony Club Hotel at (246) 422-2335.",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB Q3"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">4) What kind of menu is offered by The Rum Vault?</span><br><br><b>A mixture of international and local cuisine</b> with rum pairing.",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB Q4"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#ff9662;font-weight:700;\">5) Any additional tips for an unforgettable romantic experience in Barbados</span><br><br>The Rum Vault <b>is the only one of its kind in Barbados.</b> The ultimate private setting of the Rum Vault <b>is ideal for an unforgettable romantic experience.</b>",
+            "this"          : "BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB Q5"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-mar-learn-more.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.marriott.com/en-us/hotels/bgilc-colony-club-by-elegant-hotels/dining/",
+            "this"          : "CTA 6 BLOCK - INTERVIEW: THE RUM VAULT @ COLONY CLUB cta-mar-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-15.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m05-15"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "700",
+            "fontsize"      : "11",
+            "height"        : "18",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.m05-16.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.m05-16"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "content"       : "©2022 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this"          : "TXT"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

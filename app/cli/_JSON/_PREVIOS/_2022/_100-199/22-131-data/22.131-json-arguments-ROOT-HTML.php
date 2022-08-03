@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.131-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,13 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "cta1_v2",
 
-    "spacer",   
     "ElijoIQOS",
-    "legal_extra",
+
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -107,16 +106,20 @@ COLOR TURQUESA Brand World
 00d1d2
 COLOR SLATE  Brand World
 34303d
-Naranja
-e3813b
 --------------------
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
---------------------
+<span style=\"color:#00d1d2;font-weight:700;\">
+</span>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+Hoy cumples <span style=\"color:#00d1d2;font-weight:700;\">6 meses</span> de haberle dicho adiós al humo y queremos que nos cuentes sobre <span style=\"color:#00d1d2;font-weight:700;\">tu experiencia</span> contestando la siguiente encuesta.<br><br>Ayúdanos a mejorar.
 --------------------
 --------------------
 --------------------

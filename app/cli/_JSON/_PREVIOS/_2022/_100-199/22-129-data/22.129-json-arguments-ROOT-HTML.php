@@ -1,6 +1,6 @@
 <?php
 
-require_once("22.XXX-common.php");
+require_once("22.129-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,14 +18,13 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
+    "cta1_v2",
 
-    "spacer",   
     "ElijoIQOS",
-    "legal_extra",
+
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -107,8 +106,6 @@ COLOR TURQUESA Brand World
 00d1d2
 COLOR SLATE  Brand World
 34303d
-Naranja
-e3813b
 --------------------
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 --------------------
@@ -119,7 +116,7 @@ e3813b
 --------------------
 --------------------
 --------------------
---------------------
+Cuéntanos sobre tu experiencia<br>con el <span style=\"color:#00d1d2;font-weight:700;\">Servicio de Envío IQOS</span><br> contestando la siguiente encuesta.<br><br>Ayúdanos a mejorar.
 --------------------
 --------------------
 --------------------
