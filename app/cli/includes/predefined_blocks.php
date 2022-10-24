@@ -43,7 +43,7 @@ $libraryBlocks['greeting_negro'] ='
         {
             "type"          : "greeting",
             "fontweight"    : "300",
-            "color_greeting": "#333333",
+            "color_greeting": "#34303d",
             "color_bkg"     : "transparent",
             "greeting"      : "Hola, %%first_name%%",
             "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
@@ -72,7 +72,7 @@ $libraryBlocks['p300'] ='
             "height"        : "24",
             "width"         : "70%",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
@@ -127,7 +127,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
@@ -162,7 +162,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
@@ -203,7 +203,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
@@ -282,7 +282,7 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
 
                     "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
@@ -385,7 +385,7 @@ $libraryBlocks['one_rs'] ='
             "height"        : "24",
             "widthpx"       : "150",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "30",
             "margin_bottom" : "50",
@@ -427,7 +427,7 @@ $libraryBlocks['two_rs'] ='
             "fontsize1"      : "18",
             "fontweight1"    : "300",
             "height1"        : "24",
-            "color1"         : "#333333",
+            "color1"         : "#34303d",
             "txt_decoration1": "none",
             "txt1"           : "@iqosmx",
             
@@ -442,7 +442,7 @@ $libraryBlocks['two_rs'] ='
             "fontsize2"      : "18",
             "fontweight2"    : "300",
             "height2"        : "24",
-            "color2"         : "#333333",
+            "color2"         : "#34303d",
             "txt_decoration2": "none",
             "txt2"           : "@iqos_mx"
         },';
@@ -466,7 +466,7 @@ $libraryBlocks['three_rs'] ='
             "fontsize1"      : "14",
             "fontweight1"    : "300",
             "height1"        : "18",
-            "color1"         : "#333333",
+            "color1"         : "#34303d",
             "txt_decoration1": "none",
             "txt1"           : "@iqosmx",
             
@@ -481,7 +481,7 @@ $libraryBlocks['three_rs'] ='
             "fontsize2"      : "14",
             "fontweight2"    : "300",
             "height2"        : "18",
-            "color2"         : "#333333",
+            "color2"         : "#34303d",
             "txt_decoration2": "none",
             "txt2"           : "IQOS México",
 
@@ -496,7 +496,7 @@ $libraryBlocks['three_rs'] ='
             "fontsize3"      : "14",
             "fontweight3"    : "300",
             "height3"        : "18",
-            "color3"         : "#333333",
+            "color3"         : "#34303d",
             "txt_decoration3": "none",
             "txt3"           : "@iqos_mx"
         },';
@@ -540,7 +540,7 @@ $libraryBlocks['legal_extra'] ='
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "fontsize"      : "11",
             "txt"           : "LEGALES_TBD",
             "this"          : "LEGALES"
@@ -550,7 +550,7 @@ $libraryBlocks['disclaimer_fsh'] ='
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "fontsize"      : "11",
             "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
             "this"          : "PRIVACY NOTICE"
@@ -570,7 +570,7 @@ $libraryBlocks['disclaimer_iqos'] ='
             "height"        : "11",
             "width"         : "80%",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "color_boxbkg"  : "#FFFFFF",
             "margin_top"    : "15",
@@ -584,7 +584,7 @@ $libraryBlocks['disclaimer_iqos'] ='
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "fontsize"      : "11",
             "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
             "this"          : "PRIVACY NOTICE"
@@ -873,7 +873,7 @@ $libraryBlocks['rgm_coupon_2cols'] = '
                     "pframed_widthpx"    : "250",
                     "pframed_heightpx"   : "50",
                     "border"             : "3",
-                    "border_color"       : "#333333",
+                    "border_color"       : "#34303d",
                     "frame_bkg"          : "#f6f6f6"
                 },
                 {
@@ -886,7 +886,7 @@ $libraryBlocks['rgm_coupon_2cols'] = '
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "Recibe<br><span style=' . "'color: #e2aa68;font-size:40px;line-height:40px;;font-weight:700;'>$300.00<sup style='font-size:14px;'> 2</sup></span><br>de descuento en la <br>compra de tu<br>primer <span style='color: #e2aa68; font-weight: 700;'>Kit IQOS.</span>".'",
                     "p_fontweight"  : "300",
@@ -966,7 +966,7 @@ $libraryBlocks['shopping_list'] ='
                     "h1_fontsize"   : "20px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
 
                     "p"             : "TAPA IQOS 3 DUO DORADO",
                     "p_fontweight"  : "300",
@@ -991,7 +991,7 @@ $libraryBlocks['shopping_list'] ='
                     "h1_fontsize"   : "20px",
                     "h1_height"     : "20px",
                     "h1_align"      : "center",
-                    "h1_color"      : "#333333"
+                    "h1_color"      : "#34303d"
                 }
             ]
         },';
@@ -1116,7 +1116,7 @@ $libraryBlocks['footer_brand_world'] =',
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<a href=\"https://www.iqos.com/mx/es/descubre/devices.html\"><span style=\"color:#c7c7c7;\">COMPRA<br>EN LÍNEA</span></a>",
                     "p_fontweight"  : "300",
@@ -1145,7 +1145,7 @@ $libraryBlocks['footer_brand_world'] =',
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<a href=\"https://www.iqos.com/mx/es/localizador-tiendas.html\"><span style=\"color:#c7c7c7;\">LOCALIZA<br>UNA TIENDA</span></a>",
                     "p_fontweight"  : "300",
@@ -1174,7 +1174,7 @@ $libraryBlocks['footer_brand_world'] =',
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<a href=\"mailto:contact.mx@iqos.com\"><span style=\"color:#c7c7c7;\">EMAIL</span></a>",
                     "p_fontweight"  : "300",
@@ -1203,7 +1203,7 @@ $libraryBlocks['footer_brand_world'] =',
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "20px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<a href=\"tel:8001476769\"><span style=\"color:#c7c7c7;\">LLÁMANOS</span></a>",
                     "p_fontweight"  : "300",
@@ -1300,7 +1300,7 @@ $libraryBlocks['footer_brand_world'] =',
             "height"        : "11",
             "width"         : "90%",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "25",
             "margin_bottom" : "15",
@@ -1332,7 +1332,7 @@ $libraryBlocks['p300_BW'] ='
             "height"        : "26",
             "width"         : "70%",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
@@ -1348,7 +1348,7 @@ $libraryBlocks['p700_BW'] ='
             "height"        : "28",
             "width"         : "70%",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
@@ -1556,7 +1556,7 @@ $libraryBlocks['FSH_Framed_Card'] ='
                     "h1_fontsize"   : "18px",
                     "h1_height"     : "24px",
                     "h1_align"      : "left",
-                    "h1_color"      : "#333333",
+                    "h1_color"      : "#34303d",
                     
                     "p"             : "<br>Hoy en día existen muchos fumadores adultos que no tienen acceso a productos de menor riesgo, por esta razón, es necesario hacerle saber al <b>Congreso</b> que estas alternativas deben ser reguladas y no prohibidas.",
                     "p_fontweight"  : "300",
@@ -1625,7 +1625,7 @@ $libraryBlocks['columns'] ='
                             "p_fontsize"    : "18px",
                             "p_height"      : "22px",
                             "p_align"       : "center",
-                            "p_color"       : "#333333",
+                            "p_color"       : "#34303d",
                             "margin_top"    : "20",
                             "margin_bottom" : "5"
                         },
@@ -1680,7 +1680,7 @@ $libraryBlocks['greeting_v2'] ='
         {
             "type"          : "greeting_v2",
             "fontweight"    : "700",
-            "color_greeting": "#333333",
+            "color_greeting": "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "70",
             "margin_bottom" : "70",

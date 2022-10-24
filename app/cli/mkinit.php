@@ -3,6 +3,7 @@
 include_once("includes/functions.php"); 
 
 $year = getYear();
+// $year = "21";
 
 define("WK_SOURCE_DIR"   , "includes/$year-XXX-data/");
 define("WK_TARGET_DIR"   , "_JSON/");

@@ -1,0 +1,236 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH.html",
+
+        "Subject"          :   "Visita tu IQOS Corner más cercano, tu Kit IQOS te espera",
+        "Preheader"        :   "¿La mejor parte? ¡Con un 10% de descuento!",
+
+        "PATH"             :   "Content Builder > 162_LEADS Reactivación 10 10 2022 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS Reactivación MTY-GDL-Mérida",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2210/pmi-221010-leads-reactivacion/pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-221010-ID22.166-leads-reactivacion-mty-gdl-merida-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/958050cd-c60b-46d5-a0e5-498d30f71575.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/8b4b2864-47be-4d3a-8f5c-7533948a5291.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.166-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/5fe9f307-23ce-4fc6-a7ed-9af1bf27e7fb.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.166-x"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "#faf7f4",
+            "margin_top": "70",
+            "margin_bottom": "0",
+            "greeting": "<span style=\"color:#e3813b;\">Hola,</span> %%first_name%%",
+            "greetingBW": "<span style=\"color:#e3813b;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#faf7f4",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Una mejor alternativa al consumo de tabaco te está esperando.<br><br>Visita nuestros IQOS Corners en Sanborns seleccionados y adquiere hoy  tu primer kit IQOS usando el siguiente código y obtén",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "36",
+            "height": "36",
+            "width": "90%",
+            "align": "center",
+            "color": "#e3813b",
+            "color_bkg": "#faf7f4",
+            "margin_top": "10",
+            "margin_bottom": "0",
+            "content": "10% de descuento<span style=\"font-size:24px;\"><sup>(1)</sup></span>.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "imgwidth": "210",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/8577410b-281a-4332-b58f-ff0655210da9.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG menosolor2021_b"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "210",
+            "color_bkg": "#faf7f4",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/959d26c5-989a-469c-881e-a6891d51d423.png",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "url_cta": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this": "CTA cta-bw-localiza-tu-iqos-corner"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/e1fd708b-ab89-4b82-aab2-d23f96838cb6.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.166-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Promoción vigente del 1 de octubre al 31 de diciembre del 2022. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de octubre al 31 de diciembre del 2022. Aplicable en compras realizadas en Sanborns seleccionados. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

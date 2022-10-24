@@ -102,56 +102,63 @@ $requiredBlocks = array(
 BAD CHR : "", "	"
 " ",
 --------------------
+++---------------------------------++
+||   COLOR TURQUESA Brand World    ||
+||   00d1d2                        ||
+||   COLOR SLATE  Brand World      ||
+||   34303d                        ||
+||   Naranja                       ||
+||   e3813b                        ||
+++---------------------------------++
 --------------------
-COLOR TURQUESA Brand World
-00d1d2
-COLOR SLATE  Brand World
-34303d
-Naranja
-e3813b
---------------------
+===================================================================
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+===================================================================
+<span style=\"color:#00d1d2;font-weight:700;font-size:24px;\"></span>
+===================================================================
+<span style=\"font-size:24px;font-weight:700;\"></span>
+===================================================================
+<a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
+===================================================================
 <span style=\"font-size:12px;\"><sup>(1)</sup></span>
 <span style=\"font-size:12px;\"><sup>(2)</sup></span>
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
+===================================================================
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+===================================================================
 
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
---------------------
-COLOR TURQUESA Brand World
-00d1d2
-COLOR SLATE  Brand World
-34303d
---------------------
---------------------
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
 "url_ctaDECODED"     : "whatsapp://send?text=",
 "text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
@@ -159,15 +166,16 @@ COLOR SLATE  Brand World
 "imgulr2"            : "https://wa.me/?text=",
 "imgulr3"            : "https://web.whatsapp.com/send?text=",
 "imgulr"             : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
---------------------
---------------------
---------------------
+
+===================================================================
+
 LEGAL FSH  - Brand World
 &copy; 2021 %%Member_Busname%% Todos los derechos reservados.<br>%%Member_Addr%%,<br>%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%%<br><a href=\"%%unsub_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Darme de baja</span></a> | <a href=\"%%profile_center_url%%\"><span style=\"text-decoration:underline;color:blue;\">Actualizar perfil</span></a>
+
+===================================================================
 --------------------
 --------------------
 --------------------
-<a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
 --------------------
 --------------------
 
@@ -176,16 +184,6 @@ LEGAL FSH  - Brand World
 <b></b>
 
 
-<span style=\"font-size:12px;\"><sup>(1)</sup></span>
-<span style=\"font-size:12px;\"><sup>(2)</sup></span>
-<span style=\"font-size:12px;\"><sup>(3)</sup></span>
-<span style=\"font-size:12px;\"><sup>(4)</sup></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
 
 <b>IQOS</b>
 <b>Kit IQOS</b>
@@ -194,57 +192,6 @@ LEGAL FSH  - Brand World
 <b>iqos.com</b>
 
 
-<b></b>
-<b></b>
-<b></b>
-
-
-
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\">IQOS</span>
-<span style=\"color:#00d1d2;font-weight:700;\">Kit IQOS</span>
-<span style=\"color:#00d1d2;font-weight:700;\">Tiendas IQOS</span>
-<span style=\"color:#00d1d2;font-weight:700;\">Experto IQOS</span>
-
-
-<span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO</span>
-<span style=\"color:#00d1d2;font-weight:700;\">IQOS EL RETO<sup>(1)</sup></span>
-<span style=\"color:#00d1d2;font-weight:700;\">KIT IQOS</span>
-<span style=\"color:#00d1d2;font-weight:700;\">IQOS</span>
-<span style=\"color:#00d1d2;font-weight:700;\">iqos.com</span>
-<span style=\"color:#00d1d2;font-weight:700;\">350&deg;C</span>
-<span style=\"color:#00d1d2;font-weight:700;\">¡$300 MXN de descuento!</span>
-<span style=\"color:#00d1d2;font-weight:700;\">$300 MXN de descuento</span>
-<span style=\"color:#00d1d2;font-weight:700;\">$300 MXN</span>
-<span style=\"color:#00d1d2;font-weight:700;\">HeatControl&trade; Technology</span>
-<span style=\"color:#00d1d2;font-weight:700;\">¿Aún no te has convencido?</span>
-<span style=\"color:#00d1d2;font-weight:700;\">¿Todavía lo estás pensando?</span>
-<span style=\"color:#00d1d2;font-weight:700;\">gratis</span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
-
-<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
-<span style=\"color:#00d1d2;font-size:24px;font-weight:700;\"></span>
-
-<span style=\"font-size:24px;font-weight:700;\"></span>
-<span style=\"font-size:24px;font-weight:700;\"></span>
-<span style=\"font-size:24px;font-weight:700;\">35% de descuento</span>
-<span style=\"font-size:24px;font-weight:700;\">IQOS 2.4 PLUS</span>
 
 
 

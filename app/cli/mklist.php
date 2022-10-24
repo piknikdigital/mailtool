@@ -16,7 +16,7 @@
 
 // php /Users/armandoromero/Documents/devF1/mailtool.lan/app/cli/mklist.php > 22.3-replacements.json
        
-
+// echo getcwd(); echo PHP_EOL; die;
 function getImagesList($dir)
 {
     $r = array();
@@ -35,6 +35,9 @@ function getImagesList($dir)
 }
 
 $images = getImagesList( getcwd() );
+
+
+
 $f1='{
     "replacements" : 
     [';

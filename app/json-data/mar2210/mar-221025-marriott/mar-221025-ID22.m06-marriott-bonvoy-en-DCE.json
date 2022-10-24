@@ -1,0 +1,606 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20221025_ > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE" } ,
+            { "urlS" : "https://paginum.com/email/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2210/mar-221025-marriott/mar-221025-ID22.m06-marriott-bonvoy-en-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-221025-ID22.m06-marriott-bonvoy-en-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/7435767e-e344-d9c0-692b-3f1770d3e4b4.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-01"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/3eb2dd66-ac32-f752-a7e8-f3fe02e86908.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-02"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/667fcc90-2593-3967-903a-495c8674fd16.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-03"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/cef94921-150a-73c4-df38-3ae5a7181948.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-04"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<b>Your dining experience at Tapestry is taken to another level.</b><br><br>Enjoy delicious culinary offerings during your stay at Tapestry restaurant. Indulge in an innovative à la carte lunch to tickle your taste buds. Savor seasonally inspired dinner menus featuring signature epicurean experiences each night.",
+            "this": "TXT TAPESTRY RESTAURANT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "#fbf3f1",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/126b9050-2d8d-7965-7607-1c45699aee67.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://all-inclusive.marriott.com/treasure-beach-by-elegant-hotels/dining/tapestry-restaurant",
+            "this": "CTA1 cta-mar-learn-more LEARN MORE TAPESTRY RESTAURANT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/f01c97da-ff86-b355-db0a-d67d0ad7617b.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-05 TITLE DELTA HOTELS RIVIERA NAYARIT"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fbf3f1",
+            "this": "TXT DELTA HOTELS RIVIERA NAYARIT",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<b>Huichol Cocina Artesanal</b><br><br>Let all your sensations explode while enjoying your meal with the fusion of locally grown ingredients. Weekly hours of operation will be available upon arrival.<br><br><b>Komorebi Teppanyaki</b><br><br>Join us at Komorebi Teppanyaki and enjoy authentic Japanese cuisine cooked fresh in front of the diners, with Asian dishes available as well. Weekly hours of operation will be available upon arrival. Reservation required.",
+                            "color_bkg": "#fbf3f1",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/5f40c363-a3a8-2832-48e7-54895f9ae9f0.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.m06-06"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "PT Serif",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "35",
+            "margin_bottom": "0",
+            "content": "<b>Visit Our New Tonati Beach Club</b><br><br>Our new beach club Tonati gives our guests the opportunity to enjoy a touch of the indigenous story of the La Cruz de Huanacaxtle. The venue features a modern, vibrant and unique atmosphere, where an extended traditional delights menu and signature cocktails will enhance the guest experience.",
+            "this": "TXT2 DELTA HOTELS RIVIERA NAYARIT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "#fbf3f1",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/126b9050-2d8d-7965-7607-1c45699aee67.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://www.marriott.com/en-us/hotels/pvrde-delta-hotels-riviera-nayarit-an-all-inclusive-resort/dining/",
+            "this": "CTA2 cta-mar-learn-more  DELTA HOTELS RIVIERA NAYARIT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/7adc4ab6-9512-9dcd-bd6c-d522ac0b6408.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG TITLE 22.m06-07 THE BLUE DIAMOND RESORTS WORLD-CLASS RESTAURANTS"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/db8d84e4-b533-4faa-9050-fd1e23c0ed53.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG COVER 22.m06-08  THE BLUE DIAMOND RESORTS WORLD-CLASS RESTAURANTS"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "The Blue Diamond Resorts' world-class restaurants Hunter Steakhouse and Sunset Strip Steakhouse & Grill in Mexico have been recognized by the specialized wine publication, Wine Spectator, with the 2022 Award of Excellence due to the exceptional dining experience as well as the wine list offered in such restaurants available at Royalton Riviera Cancun, Hideaway at Royalton Riviera Cancun, Royalton CHIC Cancun, Planet Hollywood Cancun Beach Resort and Planet Hollywood Cancun Adult Scene.<br><br> <span style=\"color:#ff9662;font-weight:700;\">The Award for Excellence is one of three types of awards given to an exclusive collection of the best restaurants in the world.</span><br><br>Since 1981, the Wine Spectator Restaurant Awards have guided wine lovers to establishments that offer an excellent menu and wine selection. This year's Excellence Awards recognized 3,169 restaurants in more than 70 countries, giving wine enthusiasts a diverse selection of the best restaurants to choose from.<br><br><span style=\"color:#ff9662;font-weight:700;\">\"It is an honor for Blue Diamond Resorts to know that the carefully selected menu offering of both restaurants has been recognized and acknowledged for the quality and variety of its wines\",</span> mentioned Mauricio Zarate Vice President of Operations of Blue Diamond Resorts. <span style=\"color:#ff9662;font-weight:700;\">\"Our focus is always on our customers and this recognition is just proof of it, to which we are really proud and thankful\"</span> he added.<br><br>Guests can savor a delicious variety of premium juicy meat cuts at the Hunter Steakhouse, chef's specialties, and the perfect glass of wine to pair each of the menu offerings, while at Sunset Strip Steakhouse & Grill, available at Planet Hollywood Cancun Beach Resort and Planet Hollywood Cancun Adult Scene, guests can surround themselves the glamor of the silver screen in an intimate themed steakhouse with an extensive wine list and a private wine cava.",
+            "this": "TXT THE BLUE DIAMOND RESORTS WORLD-CLASS RESTAURANTS"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "transparent",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/e7cc3e75-49c5-00ff-979e-1fee9174df1c.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://www.bluediamondresorts.com/media-room/news/blue-diamond-resorts-receive-the-2022-wine-spectator-excellence-award",
+            "this": "CTA3 cta-mar-explore-more THE BLUE DIAMOND RESORTS WORLD-CLASS RESTAURANTS"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/0118b702-e1ef-7e51-7802-b9b464cdadf2.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG TITLE 22.m06-09 PLANET HOLLYWOOD COSTA RICA"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/e76d71da-cd53-436f-c7c0-a4392e52914a.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG COVER 22.m06-10 PLANET HOLLYWOOD COSTA RICA"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Create an everlasting memory so unique under a canopy of stars with your loved one and enjoy the breathtaking view on the famed Pacific coast of Papagayo, Costa Rica. Discover the surprises we have for you!<br><br><b>Let love fill the air with a romantic dinner on the beach,</b> unlimited access to our hydrotherapy treatments, in-room chocolate-covered strawberries with sparkling wine and a decorated suite that let's your love take center stage. Must be booked between August 1, 2022 and November 30, 2022 for travel between August 16, 2022 and November 30, 2022.",
+            "this": "TXT PLANET HOLLYWOOD COSTA RICA"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "transparent",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/6b84d6c0-af66-eb61-659a-6c9cc89f110c.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://www.marriott.com/offers/rom-com-romance-package-off-54120?propertycode=lirph",
+            "this": "CTA4 cta-mar-discover-more PLANET HOLLYWOOD COSTA RICA"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/dd0b532d-e5db-2943-b33c-3bcee6af51a4.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG TITLE 22.m06-11 INTIMATE DINNING BY THE BEACH AT THE HOUSE BARBADOS"
+        },
+        {
+            "type": "columns",
+            "font": "PT Serif",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fbf3f1",
+            "this": "TXT INTIMATE DINNING BY THE BEACH AT THE HOUSE BARBADOS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "You will get to enjoy a private St. James Barbados dining experience when you stay at The House. Make special memories under a star-lit sky in a private setting on the beach.<br><br>With soft candlelight, lighted torches, and a personal waiter, you are sure to enjoy the intimacy of a private dinner.<br><br><b>Dinner is served from a seasonal menu featuring outstanding cuisine and paired with a pleasing variety of fine wines.</b><br><br> You can even enjoy your private dinner in the comfort of your suite. Romantic dining under the stars offers a four-course a la carte meal with a bottle of Prosecco.",
+                            "color_bkg": "#fbf3f1",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fbf3f1",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/ef56720b-8931-22ce-1bc7-bfcb0c3f6973.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.m06-12"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "#fbf3f1",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/126b9050-2d8d-7965-7607-1c45699aee67.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://all-inclusive.marriott.com/the-house-by-elegant-hotels/dining/private-dining",
+            "this": "CTA5 cta-mar-learn-more INTIMATE DINNING BY THE BEACH AT THE HOUSE BARBADOS"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/94d6982c-2efd-2304-48cc-e3088c923a01.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG TITLE 22.m06-13 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/b1dd1346-a31e-8ad2-69e0-fed58c512962.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG COVER 22.m06-14 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">1. </span>What makes the dinning experiences at Crystal Cove so unique?",
+            "this": "TXT Q1 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">Our dining experience is unique as it combines  beautiful food with brilliant service.</span> Our aim is to encourage diners to experience Barbados in totality.<br><br>There is always something for everyone, they are comfort foods, traditional foods and of course Barbados local foods. Our slogan is \"Meals and memories are made here\".",
+            "this": "TXT A1 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">2. </span>How do you get inspired to create a menu?",
+            "this": "TXT Q2 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "Creating menus are always exciting for me. <span style=\"color:#ff9662;font-weight:700;\">I am constantly doing research to see what ingredients are trendy, healthy, new to the market and sustainable.</span> It is very important to ensure they are local elements in the meals however I try to present in untraditional ways. I've always found some guests are willing to try local foods but it has to be interesting and appeal to all of the senses. <span style=\"color:#ff9662;font-weight:700;\">Pairing foods with liquor also enhances and adds a different element to the taste especially using Caribbean rums and liqueurs such as Mount Gay Rum, Banks Beer , Malibu and  Falernum.</span>",
+            "this": "TXT A2 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">3. </span>What is your favorite local ingredient to use? Do you have a favorite Bajan dish?",
+            "this": "TXT Q3 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "I would have to say I can't choose between salted codfish and breadfruit. <span style=\"color:#ff9662;font-weight:700;\">Breadfruit is a starchy fruit however it grows on a tree. I have used in in many applications such as creamy breadfruit soup, breadfruit gratin, breadfruit cou-cou the most popular would be the breadfruit and salt fish balls featured in the \"Taste\" cook book.</span> Salted cod can be found on many menu elements at Crystal from Frizzled saltfish at breakfast, salt fish spring rolls at Drifters , Bajan fish cakes, Buljol and Creole saltfish with plantain on our Sunday wide spread buffet.",
+            "this": "TXT A3 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">4. </span>What is the most popular dish served at Crystal Cove?",
+            "this": "TXT Q4 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "Bajan Fish cakes; the guests never gets tired of these spicy fish fritters.",
+            "this": "TXT A4 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#ff9662;font-weight:700;\">5. </span>How do you cater to guests from different locations and different dietary preferences and needs?",
+            "this": "TXT Q5 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#fbf3f1",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "At Crystal we pride ourselves on meeting everyone's dietary needs. Guests are met on arrival to discuss their dietary restrictions whether it is allergies, intolerance, religion or just personal choice. <span style=\"color:#ff9662;font-weight:700;\">We ensure we have their specific ingredients on hand and prepare all meals separately for the diner.</span> Special requests are treated as priority at Crystal. <span style=\"color:#ff9662;font-weight:700;\">We have also changed the preparations of food items to ensure allergens are highlighted on menus and continue to train our associates on allergens and cross contamination.</span>",
+            "this": "TXT A5 INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "160",
+            "color_bkg": "#fbf3f1",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/126b9050-2d8d-7965-7607-1c45699aee67.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://all-inclusive.marriott.com/crystal-cove-by-elegant-hotels/dining",
+            "this": "CTA6 cta-mar-learn-more INTERVIEW: CHEF SHONTEL @ CRYSTAL COVE"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/1b9c5161-8d45-b090-40f5-ec30249477dc.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-15"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "700",
+            "fontsize": "11",
+            "height": "18",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this": "TXT UNSUBSCRIBE"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/1670d6b7-77b6-9ce3-a133-cafef3f8d34d.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.m06-16 Logos All-Inclusive"
+        },
+        {
+            "type": "p",
+            "font": "Arial",
+            "fontweight": "300",
+            "fontsize": "12",
+            "height": "16",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "#f5f4f0",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "©2022 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this": "TXT copyrights"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

@@ -1,0 +1,37 @@
+
+
+
+
+Personalization Strings in Email Studio
+https://help.salesforce.com/s/articleView?id=sf.mc_es_available_personalization_strings.htm&type=5
+
+
+Data About the Recipient
+        NOTE Don’t include personally identifiable information, 
+            such as email address, in email links.
+PERSONALIZATION STRING               DESCRIPTION
+%%emailaddr%%                        Subscriber's email address
+%%fullname_%% or %%fullname%%        Value for the subscriber's full name as entered in the profile attribute Full Name.
+%%firstname_%% or %%firstname%%      Value for the subscriber's first name as entered in the profile attribute Full Name. This string pulls the value before the space.
+%%lastname_%% or %%lastname%%        Value for the subscriber's last named as entered in the profile attribute Full Name. This string pulls the value after the space.
+%%comment_%% or %%comment%%          Value of the user-defined profile attribute for this subscriber
+%%subscriberid%%                     Subscriber ID (the unique identifier for this subscriber)
+%%_subscriberkey%%                   The unique identifier for the subscriber, if you use the subscriber key feature
+%%listid%%                           List ID
+%%list_%%                            List ID followed by the type of email (HTML or text). For example: 11955_HTML
+%%listsubid%%                        The identification number associated with this subscriber's membership on this particular list (This data is rarely used)
+%%_messagetypepreference%%           The subscriber's text or HTML preference. Resolves to text or to HTML.
+%%mobile_number%%                    Mobile number of the subscriber used as part of an SMS Interaction
+%%short_code%%                       Short code associated with the response as part of an SMS Interaction
+%%_listname%%                        The name the user gives to the list.
+%%_emailid%%                         The email ID assigned by the system.
+%%_JobSubscriberBatchID%%            The BatchID for the Batch containing the Subscriber who received the send.
+%%_DataSourceName%%                  This value captures any audience object sent to. This covers lists, data extensions, groups, and filters.
+%%_ImpressionRegionID%%              Returns the active region ID or 0 if none is active.
+%%_ImpressionRegionName%%            Resolves to the currently active impression region or evaluates to an empty string if no impression region has been set.
+
+
+Introduction to Marketing Cloud Email Studio
+https://www.youtube.com/watch?v=nRhftldmmyc
+
+

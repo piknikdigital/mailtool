@@ -17,6 +17,7 @@ include_once("includes/predefined_blocks.php");
 // -----  arguments  -------
 
 $year = getYear();
+// $year = "21";
 
 if ($argc == 2){
     $arguments= "_JSON/$year-$argv[1]-data/$year.$argv[1]-json-arguments-ROOT-HTML.php";

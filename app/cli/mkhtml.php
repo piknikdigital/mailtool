@@ -16,6 +16,7 @@ include_once("includes/functions.php");
 // $root = dirname(dirname(getcwd()));
 
 $year = getYear();
+// $year = "21";
 
 
 // CHECK ARGUMENTS  ---------------------------------------
