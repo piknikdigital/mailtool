@@ -1,0 +1,406 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE.html",
+
+        "Subject"          :   "%%=ProperCase(first_name)=%%, en diciembre te esperan grandes cosas ¡y a tu IQOS también!",
+        "Preheader"        :   "Todo lo que debes saber está aquí",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20221122_Newsletter Diciembre > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Newsletter Diciembre",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2211/pmi-221122-newsletter/pmi-221122-ID22.176-newsletter-diciembre-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-221122-ID22.176-newsletter-diciembre-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/2df2ffdf-2e5a-4c83-ba2b-a85830714af0.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.176-1"
+        },
+        {
+            "type": "spacer",
+            "height": "40",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/af93eeb3-f2d1-474a-9535-d439a245fe2d.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "[1 Consejos - TITULO] 22.176-2"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "[1 Consejos - CTA]",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "En estas fechas decembrinas, olvídate de los inconvenientes por un mal mantenimiento, recuerda <b>limpiar tu IQOS cada 20 usos</b> y disfruta de tus reuniones sin preocuparte.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/51012ad9-ff94-4953-a017-c4074344089c.png",
+                            "color_bkg": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "180",
+                            "align": "center",
+                            "imgulr": "https://www.youtube.com/watch?v=qexwzjXjfrg&t=1s",
+                            "THISIMG": "CTA1 cta-bw-ver-el-video"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "40",
+                    "imgwidth": "240",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/ba596ec4-0acc-4e98-8038-50bb52f922ec.jpg",
+                    "imgulr": "https://www.youtube.com/watch?v=qexwzjXjfrg&t=1s",
+                    "THISIMG": "IMG 22.176-3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/f6aaf2d8-0de6-4ca6-903f-f09ed5edfcfa.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "[2 Te invitamos - TITULO ] IMG 22.176-4"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fdf4ea",
+            "this": "[2 Te invitamos - CONTENT ]",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fdf4ea",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fdf4ea",
+                    "widthp100": "15",
+                    "imgwidth": "90",
+                    "mtop": "40",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/ea5c306f-619c-4d16-81ba-5d821922ab60.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.176-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fdf4ea",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fdf4ea",
+                    "widthp100": "55",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Ten la mejor experiencia <br>actualizando el firmware* de <br>tu dispositivo, conoce cómo.<br>*Exclusivo para IQOS 3 DUO.",
+                            "color_bkg": "#fdf4ea",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#fdf4ea",
+            "this": "[2 Te invitamos - CTA ]",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/0d6f49cb-d6e9-482e-9b87-ee735787633a.png",
+                            "color_bkg": "#fdf4ea",
+                            "margin_top": "20",
+                            "margin_bottom": "30",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://iqos-firmware-upgrade-app.com/",
+                            "THISIMG": "CTA2 cta-bw-actualiza-aqui"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/8fdf5efe-c9b7-495a-a15b-d4a8c4d843ba.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "[3 LO QUE NECESITAS SABER - TITULO] IMG 22.176-5"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/b1a8c23e-6ac9-4d97-b908-3ab2e072f229.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "LOGO YOUTUBE IMG 22.176-6"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/5725cb30-9b5d-4a35-848e-4d96620e7ba5.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+            "this": "IMG 22.176-7"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/1e96387d-2c31-416f-9e63-b4fe6bbbdf75.png",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "url_cta": "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+            "this": "CTA cta-bw-ir-a-youtube"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
