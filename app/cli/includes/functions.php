@@ -3,7 +3,7 @@
 
 function getYear()
 {
-    return "22";
+    return "23";
 }
 
 function blockreplace($replacementsfile, $inputfile, $source, $target)

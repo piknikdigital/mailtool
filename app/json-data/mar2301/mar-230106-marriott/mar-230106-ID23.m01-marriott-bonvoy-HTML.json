@@ -1,0 +1,352 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML" } ,
+            { "urlS" : "https://paginum.com/email/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "mar2301/mar-230106-marriott/mar-230106-ID23.m01-marriott-bonvoy-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/marriot-blocks-mod-2022-02-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "mar-230106-ID23.m01-marriott-bonvoy-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-01.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.m01-01"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-02.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.m01-02"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-03.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.m01-03"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-04.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.m01-04"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "<b>Experience one of the first all-inclusive wellness boutique hotels in Barbados.</b> Wellness is at the core of Waves Hotel & Spa, All-Inclusive, which features tranquil surroundings and exceptional service, tranquil surroundings and exceptional service, a stunning backdrop for a tropical mind and body retreat.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "55",
+            "url_cta"       : "https://all-inclusive.marriott.com/waves-hotel-spa-by-elegant-hotels",
+            "this"          : "CTA1 WAVES HOTEL & SPA BARBADOS LEARN MORE  cta-learn-more"
+        },
+
+
+
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-05.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG TITLE RIVIERA NAYARIT 23.m01-05"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-06.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG COVER RIVIERA  NAYARIT 23.m01-06"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Reconnect with yourself at Tzicuri Spa, your mountain retreat in Mexico's Pacific Coast. <b>Our resort features 10 private cabanas and nature-inspired treatments,</b> including facials, couple's massages, and body scrubs, providing everything you need for a day of indulgence.",
+            "this"          : "TXT RIVIERA  NAYARIT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-book-now.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "55",
+            "url_cta"       : "https://www.marriott.com/en-us/hotels/pvrde-delta-hotels-riviera-nayarit-an-all-inclusive-resort/experiences/",
+            "this"          : "CTA2 RIVIERA  NAYARIT BOOK NOW cta-book-now"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-07.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG TITLE ROYALTON RIVIERA CANCUN 23.m01-07"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-08.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG COVER ROYALTON RIVIERA CANCUN 23.m01-x"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Our all-inclusive Riviera Cancun resort welcomes you to <b>discover a spectrum of revitalizing experiences</b> that stir the senses and energize the spirit.<br><br>With over 30 different services offered in this modern and luxurious wellness facility, <b>The Royal Spa at this resort has a recently renewed hydrotherapy area with different water temperatures</b> to sooth your skin while the over twenty massage and treatment private booths will hypnotize anyone into an ultimate relaxation experience.<br><br>Our certified wellness professionals will guarantee that your visit at <b>The Royal Spa will be exactly like nothing else.</b><br><br>The Royal Spa is a full-service health and wellness facility complete with a <b>comprehensive menu of treatments as well as hydrotherapy circuits</b> and spa packages to meet your needs, including:<br><br><span style=\"color:#ff9662;\">•</span> Body treatments<br><span style=\"color:#ff9662;\">•</span> Signature treatments<br><span style=\"color:#ff9662;\">•</span> Massages<br><span style=\"color:#ff9662;\">•</span> Facials<br><span style=\"color:#ff9662;\">•</span> Manicures and pedicures",
+            "this"          : "TXT ROYALTON RIVIERA CANCUN"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-explore-more.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "55",
+            "url_cta"       : "https://www.royaltonresorts.com/resorts/riviera-cancun/our-resort/wellness",
+            "this"          : "CTA3 ROYALTON RIVIERA CANCUN EXPLORE MORE cta-explore-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-09.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG TITLE ROYALTON CHIC PUNTA CANA 23.m01-09"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-10.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG COVER ROYALTON CHIC PUNTA CANA 23.m01-10"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Relax your way at Royalton CHIC Punta Cana, where our wellness facilities have been <b>built and designed for an ultimate relaxation experience.</b><br><br>The Royal Spa is an independent building from the whole resort, including a <b>hydrotherapy circuit in the shape of an arena</b> that is surrounded by private and luxurious massage booths that feature bathtubs, showers and independent music system and aromatherapy.<br><br>Each booth represents a different way to relax while in paradise. <b>Take time out for wellness with an energy-boosting workout on the beach or a relaxing spa day</b> during your Punta Cana getaway. Recharge in a revitalizing oasis. Unwind with our hydrotherapy circuit, let go of tensions with a massage, or get glam with a mani-pedi or blowout.<br><br><b>A full range of massage, face, and body treatments</b> featuring time-honored healing practices are available for your enjoyment.<br><br><span style=\"color:#ff9662;\">•</span> Body treatments<br><span style=\"color:#ff9662;\">•</span> Signature treatments<br><span style=\"color:#ff9662;\">•</span> Massages<br><span style=\"color:#ff9662;\">•</span> Facials<br><span style=\"color:#ff9662;\">•</span> Manicures and pedicures",
+            "this"          : "TXT ROYALTON CHIC PUNTA CANA"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "210",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-discover-more.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "55",
+            "url_cta"       : "https://www.royaltonresorts.com/resorts/chic-punta-cana-resort-spa/our-resort/wellness",
+            "this"          : "CTA4 ROYALTON CHIC PUNTA CANA DISCOVER MORE cta-discover-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-11.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG TITLE THE HOUSE BARBADOS 23.m01-11"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-12.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG COVER THE HOUSE BARBADOS  23.m01-12"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#fbf3f1",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "<b>Experience the ultimate relaxation</b> at our resort's on-site day spa. Featuring two treatment rooms, including a couple's massage room, The Spa at The House offers a <b>variety of healing and wellness services</b> in St. James, including a complimentary jet lag massage for guests based on length of stay <br><br><b>Rejuvenate your senses</b> with our bespoke spa scent, an essential oil blend of gardenia, neroli, petitgrain and sweet orange. <b>Our Barbados day spa focuses on restoring the balance of your body, mind and skin.</b> Trust our skilled therapists to guide you on this journey using the Five Elements theory: wood for rejuvenation, fire for energy, earth for balance, metal to detox and water to soothe. <b>Our solution-driven spa treatments work to minimize the effects of season, lifestyle and environmental change</b> by combining innovative technologies and natural botanicals to improve skin nutrition and the well-being of our guests in Barbados.<br><br><b>Our St. James spa uses award-winning Elemental Herbology products,</b> which are 100% natural, ensuring your skin is cared for inside and out.",
+            "this"          : "TXT THE HOUSE BARBADOS "
+        },
+
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "180",
+            "color_bkg"     : "#fbf3f1",
+            "button"        : "cta-learn-more.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "55",
+            "url_cta"       : "https://www.marriott.com/en-us/hotels/bgiah-the-house-by-elegant-hotels-all-inclusive-adults-only/overview/",
+            "this"          : "CTA5 THE HOUSE BARBADOS cta-learn-more"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.m01-13.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG Logo Bonvoy 23.m01-13"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "700",
+            "fontsize"      : "11",
+            "height"        : "18",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "<a href=\"mailto:xavier.pineda@marriott.com?subject=Unsubscribe from emails&body=Hello, I would like to stop receiving emails and newsletters from you. Thank you\" style=\"text-decoration:none;\" target=\"_blank\">UNSUBSCRIBE</a>",
+            "this"          : "TXT UNSUBSCRIBE"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Arial",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "#f5f4f0",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "content"       : "©2023 Marriott International, Inc. <br><br>To unsubscribe: Select Hotel & Destination specials on our unsubscribe page.<br> If you unsubscribe from Marriott promotional emails like this, we will continue to send only transactional messages such as reservation confirmation emails.<br><br> You can also unsubscribe by writing to: <br>Internet Customer Care - Unsubscribe<br>1818 North 90 Street Omaha, Nebraska 68114-1315 USA",
+            "this"          : "TXT copyrights"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

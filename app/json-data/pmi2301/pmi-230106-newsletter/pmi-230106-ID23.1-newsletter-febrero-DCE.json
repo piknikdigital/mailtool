@@ -1,0 +1,552 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE.html",
+
+        "Subject"          :   "%%=ProperCase(first_name)=%%, conoce todo lo que este mes tiene preparado para ti y tu IQOS",
+        "Preheader"        :   "Da clic y empieza febrero con el pie derecho",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230106_Newsletter > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Newsletter Febrero",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2301/pmi-230106-newsletter/pmi-230106-ID23.1-newsletter-febrero-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230106-ID23.1-newsletter-febrero-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/b1a0cf62-b49d-462b-b23f-9f1debffdc12.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.1-1"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/f0a93a73-a813-471d-af41-612adeeafce7.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "SECC1 IMG 23.1-2"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "CTA ENVIAR SMS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Envía un SMS* al",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "55 9225 3374",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "y te responderemos<br>¡cuanto antes!",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "*Disponible de 8:00 a 22:00 hrs. <br>Puede aplicar cargos de tu proveedor <br>de telefonía.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "10px",
+                            "p_height": "15px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "15",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/8713e127-1774-450a-a3e2-06d70bb7a394.png",
+                            "color_bkg": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "160",
+                            "align": "center",
+                            "imgulr": "sms://+525592253374",
+                            "THISIMG": "cta-bw-transp-enviar-sms"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "40",
+                    "imgwidth": "240",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/dc1e35c3-947d-47eb-9383-f3d5185a69e6.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.1-3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/a04e9e56-523b-4a6d-9697-9cdfd903ac61.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "SECC 2 IMG 23.1-4"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "20",
+            "color_bkg": "#e3813b",
+            "this": "CTA CONTACTANOS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "25",
+                    "imgwidth": "85",
+                    "mtop": "40",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/ec23f2b9-4892-4a32-a58b-1d1de07bee97.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.1-ico1"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#e3813b",
+                    "widthp100": "65",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿Sabías que con myIQOS tienes",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Cobertura de Daños <br>Accidentales?",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Reemplazamos tu dispositivo ¡gratis!**<br> en caso de que sufra algún daño. ",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "**Consulta Términos y Condiciones de myIQOS.",
+                            "color_bkg": "#e3813b",
+                            "p_fontweight": "300",
+                            "p_fontsize": "10px",
+                            "p_height": "16px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/41a0f88b-553e-40f7-be3b-d37615e0fb43.png",
+                            "color_bkg": "#e3813b",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "180",
+                            "align": "left",
+                            "imgulr": "tel:8001476769",
+                            "THISIMG": "cta-bw-blanco-contactanos"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/f4dd3ded-2497-4750-8dec-67ac942627cc.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "SECC 3 IMG 23.1-5"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "30",
+            "color_bkg": "#00d1d3",
+            "this": "3-R",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>colecta",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Recolecta tus <br>unidades de tabaco <br>para calentar <br>usadas.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/6125cd25-c6ca-4463-a641-cdc1a7317467.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.1-ico2"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>duce",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Utiliza botellas <br>PET o recoge tu <br>bolsa reciclable en <br>Tiendas IQOS.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/8c7943b0-058e-4acf-9421-a326a8d5425d.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.1-ico3"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "30",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#000000;\">Re</span>cicla",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Lleva tu botella o tu <br>bolsa a Tiendas <br>IQOS o centros de <br>acopio autorizados.",
+                            "color_bkg": "#00d1d3",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/435d3e71-78c1-417c-8c1f-d88c8e88e5e3.png",
+                            "color_bkg": "#00d1d3",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "80",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.1-ico4"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d3",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/7/7059f306-3277-43d6-b0b3-13f20627073b.png",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "url_cta": "https://www.iqos.com/mx/es/sustentabilidad/reciclar.html",
+            "this": "CTA cta-bw-quiero-reciclar"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

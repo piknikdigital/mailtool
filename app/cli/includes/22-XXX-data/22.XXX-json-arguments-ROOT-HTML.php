@@ -23,7 +23,7 @@ $requiredBlocks = array(
     "p300_BW",
 
 
-    "spacer",   
+    "spacer",
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
