@@ -1,25 +1,28 @@
 <?php
 
-$p_id =  '177';
-$p_subject =  '¡IQOS llegó a Plaza Satélite!';
-$p_preheader =  'Todos los dispositivos y servicios cada vez más cerca de ti';
-$p_yy =  '22';
-$p_mm =  '11';
-$p_dd =  '24';
-$p_name4folder =  'iqos-shop';
-$p_name4json =  'apertura-iqos-shop-satelite';
-$p_name4folderDCE =  'IQOS Shop';
-$p_mailname4DCE =  'Apertura IQOS Shop Satélite';
-$p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
-$p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$p_id              = "rb1";
+$p_subject         = "";
+$p_preheader       = "";
+
+$p_yy              = "23";
+$p_mm              = "01";
+$p_dd              = "13";
+$p_name4folder     = "rubbermaid";
+$p_name4json       = "rubbermaid";
+
+$p_name4folderDCE  = "";
+$p_mailname4DCE    = "";
+$p_customerkey_DCE = "";
+
+$p_name4folderFSH  = "";
+$p_mailname4FSH    = "";
+$p_customerkey_FSH = "";
+$id_FSH_folder     = "";
 
 
 //-----------------------------------------
 
-$companyBrand     =  "pmi";
+$companyBrand     =  "rb";
 $designStyle      =  "bw";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
 
 //$TwigTemplate     = "pmi-Brand-World-A02-600-v03.twig";

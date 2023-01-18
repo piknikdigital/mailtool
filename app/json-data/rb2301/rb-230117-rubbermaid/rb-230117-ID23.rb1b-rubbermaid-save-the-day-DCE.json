@@ -1,0 +1,242 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230117_ > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE" } ,
+            { "urlS" : "https://paginum.com/email/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "rb2301/rb-230117-rubbermaid/rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "rb-230117-ID23.rb1b-rubbermaid-save-the-day-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "28",
+            "width": "80%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#09090a",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Es tiempo de convertirnos en<br>los maestros de las ventas.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/579628e8-f6f2-cc39-6d1e-69333817989f.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.rb1c-1"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#080809",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "Es momento de un reencuentro y cambiar <br>las reglas de la industria.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "32",
+            "width": "80%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#080809",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "¡Hagámoslo juntos!",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#080809",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Es un nuevo año, con nuevos retos y <br>nuevas herramientas para ti.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#080809",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Te invitamos a ser parte de<br> esta gran experiencia junto a<br> Rubbermaid Commercial Products.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#000000",
+            "margin_top": "60",
+            "margin_bottom": "5",
+            "content": "27 ENERO 2023",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#000000",
+            "margin_top": "0",
+            "margin_bottom": "10",
+            "content": "18:30 hrs - 21:00 hrs",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "#000000",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/210a1d13-2e03-4f98-2395-b916241766fa.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.rb1b-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "24",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#000000",
+            "margin_top": "5",
+            "margin_bottom": "0",
+            "content": "Hotel Auténtico Monterrey",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "14",
+            "height": "18",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#000000",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "Av. Manuel Gómez Morín 285,<br> San Pedro Garza García.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "#000000",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/a0499690-df8f-205d-8a3b-14d61b19aa8a.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://forms.gle/1i8xmsxgwdnkStic6",
+            "this": "CTA cta-asistir"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "32",
+            "width": "70%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#000000",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "¡TE ESPERAMOS!",
+            "this": "TXT"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

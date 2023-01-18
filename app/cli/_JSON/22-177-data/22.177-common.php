@@ -1,20 +1,20 @@
 <?php
 
-$p_id =  '2';
-$p_subject =  '¿Tienes dudas? ¡Mándanos un SMS!';
-$p_preheader =  'Toda la atención que necesitas al alcance de un mensaje';
-$p_yy =  '23';
-$p_mm =  '01';
-$p_dd =  '06';
-$p_name4folder =  'sms';
-$p_name4json =  'sms-callback';
-$p_name4folderDCE =  'SMS Callback';
-$p_mailname4DCE =  'SMS Callback';
+$p_id =  '177';
+$p_subject =  '¡IQOS llegó a Plaza Satélite!';
+$p_preheader =  'Todos los dispositivos y servicios cada vez más cerca de ti';
+$p_yy =  '22';
+$p_mm =  '11';
+$p_dd =  '24';
+$p_name4folder =  'iqos-shop';
+$p_name4json =  'apertura-iqos-shop-satelite';
+$p_name4folderDCE =  'IQOS Shop';
+$p_mailname4DCE =  'Apertura IQOS Shop Satélite';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'SMS Callback';
-$p_mailname4FSH =  'SMS Callback';
+$p_name4folderFSH =  'IQOS Shop';
+$p_mailname4FSH =  'Apertura IQOS Shop Satélite';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '166';
+$id_FSH_folder =  '167';
 
 //-----------------------------------------
 

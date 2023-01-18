@@ -1,20 +1,20 @@
 <?php
 
-$p_id =  '2';
-$p_subject =  '¿Tienes dudas? ¡Mándanos un SMS!';
-$p_preheader =  'Toda la atención que necesitas al alcance de un mensaje';
+$p_id =  '3';
+$p_subject =  'Este mes, el amor está en el aire, que el olor a cigarro no te impida sentirlo';
+$p_preheader =  'Regala momentos inolvidables a tus seres queridos con IQOS';
 $p_yy =  '23';
 $p_mm =  '01';
-$p_dd =  '06';
-$p_name4folder =  'sms';
-$p_name4json =  'sms-callback';
-$p_name4folderDCE =  'SMS Callback';
-$p_mailname4DCE =  'SMS Callback';
+$p_dd =  '18';
+$p_name4folder =  'valentin';
+$p_name4json =  'valentine-laus-mgm-emotional';
+$p_name4folderDCE =  'St Valentin';
+$p_mailname4DCE =  'Valentine\'s LAUS MGM Emotional';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'SMS Callback';
-$p_mailname4FSH =  'SMS Callback';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '166';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 

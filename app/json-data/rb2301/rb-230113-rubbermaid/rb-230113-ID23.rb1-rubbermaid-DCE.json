@@ -1,0 +1,181 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230113_ > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE" } ,
+            { "urlS" : "https://paginum.com/email/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "rb2301/rb-230113-rubbermaid/rb-230113-ID23.rb1-rubbermaid-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "rb-230113-ID23.rb1-rubbermaid-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/8eda9b37-3c33-bfe5-60fe-b12a92c93518.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.rb1-1"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "24",
+            "width": "60%",
+            "align": "left",
+            "color": "#ffffff",
+            "color_bkg": "#be1332",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Es tiempo de convertirnos en los maestros de las ventas.<br>Es momento de un reencuentro y cambiar las reglas de la industria.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "32",
+            "width": "60%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#be1332",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "content": "¡Hagámoslo juntos!",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "60%",
+            "align": "left",
+            "color": "#ffffff",
+            "color_bkg": "#020407",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Es un nuevo año, con nuevos retos y nuevas herramientas para ti. Te invitamos a hacer parte de esta gran experiencia junto a Rubbermaid Commercial Products.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#020407",
+                    "widthp100": "8",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "84",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "27 de enero 2023<br>18:30 hrs - 21:00 hrs<br>Hotel Auténtico Monterrey",
+                            "color_bkg": "#ffffff",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "28px",
+                            "p_align": "center",
+                            "p_color": "#020407",
+                            "margin_top": "50",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Av. Manuel Gómez Morín 285, San Pedro Garza García.",
+                            "color_bkg": "#ffffff",
+                            "p_fontweight": "700",
+                            "p_fontsize": "12px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#020407",
+                            "margin_top": "0",
+                            "margin_bottom": "50"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#020407",
+                    "widthp100": "8",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "#020407",
+            "button": "https://mcusercontent.com/3c97fc677b1542efea97b45d9/images/9d6dfeb8-3821-d34a-045a-065a12a8052b.png",
+            "margin_top": "50",
+            "margin_bottom": "100",
+            "url_cta": "https://forms.gle/1i8xmsxgwdnkStic6",
+            "this": "CTA cta-rb-asistir"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

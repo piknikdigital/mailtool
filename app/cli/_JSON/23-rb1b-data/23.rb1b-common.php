@@ -1,24 +1,27 @@
 <?php
 
-$p_id =  '2';
-$p_subject =  '¿Tienes dudas? ¡Mándanos un SMS!';
-$p_preheader =  'Toda la atención que necesitas al alcance de un mensaje';
-$p_yy =  '23';
-$p_mm =  '01';
-$p_dd =  '06';
-$p_name4folder =  'sms';
-$p_name4json =  'sms-callback';
-$p_name4folderDCE =  'SMS Callback';
-$p_mailname4DCE =  'SMS Callback';
-$p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'SMS Callback';
-$p_mailname4FSH =  'SMS Callback';
-$p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '166';
+$p_id              = "rb1b";
+$p_subject         = "";
+$p_preheader       = "";
+
+$p_yy              = "23";
+$p_mm              = "01";
+$p_dd              = "17";
+$p_name4folder     = "rubbermaid";
+$p_name4json       = "rubbermaid-save-the-day";
+
+$p_name4folderDCE  = "";
+$p_mailname4DCE    = "";
+$p_customerkey_DCE = "";
+
+$p_name4folderFSH  = "";
+$p_mailname4FSH    = "";
+$p_customerkey_FSH = "";
+$id_FSH_folder     = "";
 
 //-----------------------------------------
 
-$companyBrand     =  "pmi";
+$companyBrand     =  "rb";
 $designStyle      =  "bw";    // "sa": Simple Amazing 2020 // "bw": Brand World 2021
 
 //$TwigTemplate     = "pmi-Brand-World-A02-600-v03.twig";
