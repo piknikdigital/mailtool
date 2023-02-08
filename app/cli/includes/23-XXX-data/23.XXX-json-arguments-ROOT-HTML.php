@@ -22,7 +22,7 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
-
+    "columns",
     "spacer",
     "ElijoIQOS",
     "legal_extra",
