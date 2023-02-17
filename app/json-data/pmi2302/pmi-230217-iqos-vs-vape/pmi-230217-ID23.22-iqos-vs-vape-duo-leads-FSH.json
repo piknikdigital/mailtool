@@ -1,0 +1,273 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH.html",
+
+        "Subject"          :   "Si IQOS no es un cigarro electrónico, ni un vapeador, entonces ¿qué es?",
+        "Preheader"        :   "Da clic y conoce las diferencias",
+
+        "PATH"             :   "Content Builder > 171_IQOS vs Vape 17 02 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "IQOS vs Vape - DUO LEADS",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2302/pmi-230217-iqos-vs-vape/pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230217-ID23.22-iqos-vs-vape-duo-leads-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/958050cd-c60b-46d5-a0e5-498d30f71575.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/8510b43e-24a6-4a24-8b10-7bf0322d9646.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.22-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "content": "<b>Esto es IQOS,</b> un dispositivo de<br>calentamiento de tabaco.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/e290f2f2-5118-4632-912f-09df792c4018.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.22-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "*Reducciones promedio en niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarrillo de referencia (3R4F).",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "9px",
+                            "p_height": "11px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "pframed",
+                            "color_bkg": "transparent",
+                            "p": "<b>*Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.",
+                            "fontweight": "300",
+                            "fontsize": "9",
+                            "lineheight": "9",
+                            "align": "left",
+                            "width": "100%",
+                            "margin_top": "5",
+                            "margin_bottom": "5",
+                            "color": "#000000",
+                            "framecolor": "#000000",
+                            "framebgcolor": "transparent",
+                            "framepadding": "3",
+                            "border": "1",
+                            "this": ""
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/a0df3d49-4f39-487e-b756-de2da9f0b71e.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.22-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#00d1d2;font-weight:700;\">IQOS calienta tabaco</span> y elimina la combustión,<br>haciéndolo una mejor opción que continuar fumando.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "260",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/6a0d5400-2929-4574-b384-5cf72e624349.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir.html",
+            "this": "CTA cta-bw-quiero-conocer-iqos"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
