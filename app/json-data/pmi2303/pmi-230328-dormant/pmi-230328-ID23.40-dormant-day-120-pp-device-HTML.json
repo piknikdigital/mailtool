@@ -1,0 +1,340 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML.html",
+
+        "Subject"          :   "¿Dificultades con el uso de tu dispositivo IQOS?",
+        "Preheader"        :   "Tenemos algunos consejos para ti",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2303/pmi-230328-dormant/pmi-230328-ID23.40-dormant-day-120-pp-device-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230328-ID23.40-dormant-day-120-pp-device-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.40 Dormant Day 120 Pain Point Device",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-4.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.97-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.97-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.97-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.97-2"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Olvídate de los inconvenientes,<br> con <span style=\"color:#00d1d2;font-weight:700;\">myIQOS<span style=\"font-size:12px;\"><sup>(1)</sup></span></span> te tenemos protegido. <br>Conoce nuestros servicios:",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "280",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas-de-myiqos.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "url_cta"       : "https://www.iqos.com/mx/es/myiqos.html",
+            "this"          : "CTA cta-bw-conoce-mas-de-myiqos"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#ffffff",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "90",
+                    "imgwidth"      : "540",
+                    "mtop"          : "0",
+                    "img"           : "23.40-3.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.40-3"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "380",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-actualiza-tu-dispositivo-iqos-3-duo-aqui.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/Noticias/actualizar-tu-iqos.html",
+            "this"          : "CTA cta-bw-actualiza-tu-dispositivo-iqos-3-duo-aqui"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "18",
+            "height"        : "22",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "¿Tienes dudas?",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "content"       : "Contáctanos en cualquiera de nuestros canales de comunicación. Estamos aquí para apoyarte.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "icon set vias de comunicacion",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "23.40-ico1-ig.png",
+                    "imgulr"        : "https://instagram.com/iqos_mx",
+                    "THISIMG"       : "IMG 23.40-ico1-ig"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "23.40-ico2-fb.png",
+                    "imgulr"        : "https://facebook.com/iqosmx",
+                    "THISIMG"       : "IMG 23.40-ico2-fb"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "23.40-ico3-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG 23.40-ico3-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "23.40-ico4-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html",
+                    "THISIMG"       : "IMG 23.40-ico4-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "18",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "23.40-ico5-mail.png",
+                    "imgulr"        : "mailto:contact.mx@iqos.com",
+                    "THISIMG"       : "IMG 23.40-ico5-mail"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Tu Equipo myIQOS",
+            "this"          : "Tu Equipo myIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "(1) Servicios disponibles al tener una cuenta creada y registrar el dispositivo en www.iqos.com Aplican Términos y Condiciones de myIQOS.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

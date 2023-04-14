@@ -1,0 +1,376 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE.html",
+
+        "Subject"          :   "Tenemos unos consejos para que sigas disfrutando tu experiencia con IQOS",
+        "Preheader"        :   "Da clic y conócelos",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230328_Dormant > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Dormant Day 160 Tips&Tricks",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2303/pmi-230328-dormant/pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230328-ID23.43-dormant-day-160-tips-tricks-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/a229b384-24e2-415a-81e5-eb1b892e5858.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.100-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/6/d928b117-7824-43aa-81b3-6e7cfc8979d4.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 22.100-2"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "color_bkg": "#fbf7f4",
+            "this": "CARD 1 - Usa solo IQOS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf7f4",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#fbf7f4",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Usa solo IQOS",
+                            "color_bkg": "#fbf7f4",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "60",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "No alternes el uso de <br>IQOS, de esta forma <br>tendrás una mejor <br>experiencia.",
+                            "color_bkg": "#fbf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#fbf7f4",
+                    "widthp100": "40",
+                    "imgwidth": "220",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/c6741545-7cae-4b6f-8531-ca7d6a740ef4.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.43-img-1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#fbf7f4",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "color_bkg": "#00d1d2",
+            "this": "CARD 2 - Limpieza",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "40",
+                    "imgwidth": "220",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/3d70d454-5e1f-4883-ab8a-b03278a48be1.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.43-img-2"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "35",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Limpieza",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "60",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Limpia tu IQOS cada <br>20 usos para mantener <br>consistencia en el <br>sabor del tabaco.",
+                            "color_bkg": "#00d1d2",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "color_bkg": "#322c3a",
+            "this": "CARD 3 - Cargar por la noche",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#322c3a",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#322c3a",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Cargar por la noche",
+                            "color_bkg": "#322c3a",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "32px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "50",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Carga tu dispositivo en <br>las noches y tendrás <br>batería ¡todo el día!*<br><br><span style=\"font-size:12px;\">*Dependiendo el uso.</span>",
+                            "color_bkg": "#322c3a",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#322c3a",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#322c3a",
+                    "widthp100": "40",
+                    "imgwidth": "220",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/4fa57e6b-9bef-4226-b56f-2f80b344f3d4.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.43-img-3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#322c3a",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/05796ce1-4b29-43c9-ace3-1363e47e54e6.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://www.youtube.com/@iqos_mx/featured",
+            "this": "CTA cta-bw-ir-a-youtube"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "35",
+            "content": "Tu Equipo myIQOS",
+            "this": "Tu Equipo myIQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

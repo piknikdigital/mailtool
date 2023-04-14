@@ -1,0 +1,319 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML.html",
+
+        "Subject"          :   "¡Gracias por registrarte en IQOS!",
+        "Preheader"        :   "El siguiente paso está muy cerca",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2304/pmi-230405-leads-welcome-oos/pmi-230405-ID23.46c-leads-welcome-oos-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230405-ID23.46c-leads-welcome-oos-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.46c Leads Welcome Out of Stock versión C",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "22.5-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 22.5-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "70",
+            "margin_bottom" : "70",
+
+            "greeting"      : "Hola, %%first_name%%",
+            "greetingFSH"   : "Hola, %%Lead:FirstName%%",
+
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH_old": "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "20",
+            "height"        : "28",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "content"       : "¡Gracias por registrarte en IQOS!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "25",
+            "margin_bottom" : "0",
+            "content"       : "Por el momento <span style=\"font-size:22px;font-weight:700;\">no contamos con disponibilidad de dispositivos IQOS</span> para venta por primera vez, pero <br><span style=\"font-size:22px;font-weight:700;\">¡no te preocupes!</span><br><br>Te informaremos cuando volvamos a tener en existencia, mientras tanto, conserva este código, podrás redimirlo cuando los dispositivos IQOS estén de regreso:",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2__",
+            "widthbutton"   : "280",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-blanco-menos-olor-2021.png",
+            "margin_top"    : "20",
+            "margin_bottom" : "50",
+            "url_cta"       : "",
+            "this"          : "CTA cta-bw-blanco-menos-olor-2021"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "700",
+            "fontsize"      : "28",
+            "height"        : "28",
+            "width"         : "60%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "#FFFFFF",
+            "color_boxbkg"  : "#FFFFFF",
+            "framecolor"    : "#000000",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "framepadding"  : "20",
+            "content"       : "SINFUEGO",
+            "content_Xert"  : "%%=v(@codigoDescuento)=%%",
+            "contentB"      : "MENOSOLOR",
+            "contentC"      : "SINFUEGO",
+            "this"          : ""
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "content"       : "Si tienes algún <b>código de referidos</b>, lo podrás utilizar y se respetará tu descuento original.",
+            "this"          : "TXT"
+        },
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#34303d",
+            "this"              : "10% de descuento",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "50",
+                    "imgwidth"      : "300",
+                    "mtop"          : "0",
+                    "img"           : "22.5-2.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.5-2"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#34303d",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Con este código podrás<br>adquirir tu primer<br>Kit IQOS y recibir",
+                            "color_bkg"     : "#34303d",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "10% de descuento<span style=\"font-size:16px;\"><sup>(1)</sup></span>",
+                            "color_bkg"     : "#34303d",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "32px",
+                            "p_align"       : "center",
+                            "p_color"       : "#00d1d2",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "en tu compra.",
+                            "color_bkg"     : "#34303d",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "26px",
+                            "p_align"       : "center",
+                            "p_color"       : "#FFFFFF",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer__",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir.html",
+            "this"          : "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "(1) Promoción vigente del 1 de enero al 31 de diciembre del 2023. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de diciembre del 2023. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#333333",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_oos_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    

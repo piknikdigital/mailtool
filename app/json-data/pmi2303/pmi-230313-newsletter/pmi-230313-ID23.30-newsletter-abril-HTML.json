@@ -1,0 +1,444 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML",
+        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML.html",
+
+        "Subject"          :   "%%=ProperCase(first_name)=%%, ¿estás listo para empezar un nuevo mes?",
+        "Preheader"        :   "La información que tu IQOS y tu esperaban está aquí",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2303/pmi-230313-newsletter/pmi-230313-ID23.30-newsletter-abril-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230313-ID23.30-newsletter-abril-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.30 Newsletter Abril",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.30-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.30-1"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.30-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.30-2"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#fab414",
+            "this"              : "CTA 1 ENVIAR SMS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#fab414",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Envía un SMS* al",
+                            "color_bkg"     : "#fab414",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "60",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "55 9225 3374",
+                            "color_bkg"     : "#fab414",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "y responderemos tus<br>dudas ¡cuanto antes!",
+                            "color_bkg"     : "#fab414",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "spacer_",
+                            "height"        : "20px",
+                            "color_bkg"     : "#fab414"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-enviar-sms.png",
+                            "color_bkg"      : "#fab414",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"           : "https://cutt.ly/59uY4Ga",
+                            "Shortlink points to:": "sms://+525592253374 SIEMPRE USAR SHORTLINK!!!",
+                            "THISIMG"        : "cta-bw-enviar-sms"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "*Disponible de 8:00 a 22:00 hrs.<br>Puede aplicar cargos de tu proveedor de telefonía.",
+                            "color_bkg"     : "#fab414",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "10px",
+                            "p_height"      : "12px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#fab414",
+                    "widthp100"     : "40",
+                    "imgwidth"      : "240",
+                    "mtop"          : "50",
+                    "img"           : "23.30-3.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.30-3"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.30-4.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.30-4"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#e3813b",
+            "this"              : "CTA 2 CONOCE MAS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#e3813b",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Ponte al día con las notas que hablan<br>sobre <span style=\"color:#34303d;font-weight:700;\">IQOS</span>, la alternativa que<br>revoluciona la forma en que se<br>consume tabaco.",
+                            "color_bkg"     : "#e3813b",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-blanco-conoce-mas.png",
+                            "color_bkg"      : "#e3813b",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.glamour.mx/preview/articles/63f3aef76e05818dde30b32b?status=draft&t=1676915085179",
+                            "THISIMG"        : "cta-bw-blanco-conoce-mas"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.30-5.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.30-5"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#00d1d2",
+            "this"              : "CTA 3 ENVIA TU HISTORIA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Queremos conocer tu experiencia con IQOS.",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "20px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "50",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Envíala para publicar en la sección de <br><span style=\"color:#34303d;font-weight:700;font-size:20px;\">Historias IQOS</span> en www.iqos.com <br>para que usuarios como tú la conozcan.",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "23.30-6.jpg",
+                            "color_bkg"      : "#00d1d2",
+                            "margin_top"     : "30",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "500",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "23.30-6"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Elijo <span style=\"font-weight:700;font-size:24px;\">IQOS</span><br>Porque...",
+                            "color_bkg"     : "#00d1d2",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "20px",
+                            "p_height"      : "24px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0"
+                        },
+
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-envia-tu-historia.png",
+                            "color_bkg"      : "#00d1d2",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "50",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.iqos.com/mx/es/historias-iqos.html",
+                            "THISIMG"        : "cta-bw-envia-tu-historia"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "40",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "Información importante"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+    }
+    
