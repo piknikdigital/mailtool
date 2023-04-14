@@ -3,7 +3,7 @@
 Esta aplicación permite crear correo HTML a partir de archivos TWIG que contienen la plantilla del correo a crear y archivos JSON con el contenido de cada correo.
 
 
-** Instalación
+**Instalación**
 ===
 
 1) En la carpeta de instalación:
@@ -24,11 +24,6 @@ $ composer install
 $ composer dump-autoload -o
 ```
 
-
-
-
-**Estructura de carpetas**
-===
 
 
 
