@@ -187,8 +187,10 @@ function fill_config( $a )
    
     "config_template" :
     {
-        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
-        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
         "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html",
 
         "Subject"          :   "'.$a['subject'].'",
