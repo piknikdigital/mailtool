@@ -23,3 +23,11 @@ El flujo general es el siguiente. Los detalles son explicados más adelante.
 Ocasionalmente, cliente solicita únicamente el HTML y assets para que otra agencia haga el envío del correo. En esos casos, el entregable es únicamente un archivo ZIP con los assets gráficos y el HTML producido para el link de preview.
 
 
+---
+
+Navegación:
+
+* [Regreso al índice](README.md)
+* [**Previo:** 3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP](3_1_Carpetas_de_trabajo.md)
+* [**Siguiente:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
+

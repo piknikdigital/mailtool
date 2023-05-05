@@ -172,3 +172,10 @@ Ir al navegador y visitar la direccion **http://localhost:8888/** para ver la pa
 
 
 
+___
+
+Navegación:
+
+* [Regreso al índice](README.md)
+* [**Previo:** 1. Lista de requisitos SW](1_Requisitos_SW.md)
+* [**Siguiente:** 3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP](3_1_Carpetas_de_trabajo.md)

@@ -1,26 +1,26 @@
 ## **3.4 Inicialización de proyecto de correo**
 ---
 
-La siguiente sección describe la creación de los archivos mencionados en la sección 3.2.2.
+La siguiente sección describe la creación de los archivos PHP mencionados en la sección 3.2.2.
 
 
 En el finder, buscar la carpeta CLI dentro de Mailtool:
 
 ![](https://i.imgur.com/1fd2vcP.png)
 
-Seleccionar la carpeta CLI con click izquierdo en "Nueva pestaña de terminal en la carpeta" para abrir una instancia de la terminal en esa carpeta y ejecutar con PHP el siguiente comando CLI:
+Seleccionar la carpeta CLI con click izquierdo en "**Nueva pestaña de terminal en la carpeta**" para abrir una instancia de la terminal en esa carpeta y ejecutar con PHP el siguiente comando CLI:
 
   ```bash
-  php mknit.php XX
+  php mkinit.php XX
   ```
 
-donde XX es el ID del correo a crear. Asumiremos como ejemplo en esta sección que vamos a crear el correo 23.39. El comando a usar sera:
+donde XX es el ID del correo a crear. Asumiremos como ejemplo que vamos a crear el correo 23.39. El comando a usar sera:
 
   ```bash
-  php mknit.php 39
+  php mkinit.php 39
   ```
 
-Nótese que se omite el año, solo se usa el consecutivo. Este comando crea la carpeta "23-39-data" con los siguientes archivos:
+Nótese que se omite el año, solo se usa el consecutivo. Este comando crea la carpeta "23-39-data" con los siguientes archivos PHP y JSON:
 
     /
     ├---app/
@@ -29,7 +29,7 @@ Nótese que se omite el año, solo se usa el consecutivo. Este comando crea la c
     |   |   ├---_JSON/  
     |   |   |    └---23-39-data/ 
     |   |   |        ├---23.39-common.php
-    |   |   |        ├---23.39-json-arguments-DCE
+    |   |   |        ├---23.39-json-arguments-DCE.php
     |   |   |        ├---23.39-json-arguments-DCE2.php
     |   |   |        ├---23.39-json-arguments-FSH.php
     |   |   |        ├---23.39-json-arguments-ROOT-HTML.php
@@ -113,7 +113,7 @@ Las variables a las que necesitamos asignar un valor son todas desde $p_id hasta
 
 **23.39-json-arguments-ROOT-HTML**
 
-En este archivo hay una variable que nos permirte definir el outline general del correo que se va a crear. El siguiente es un fragmento del archivo con valores predefinidos:
+En este archivo hay una variable **$requiredBlocks** que nos permite definir el outline general del correo que se va a crear. El siguiente es un fragmento del archivo con valores predefinidos:
 
 
   ```code
@@ -253,4 +253,24 @@ La variable $requiredBlocks nos permite definir un listado de componentes previa
   
 
   Nótese que en esta variable solamente se mencionan los bloques que se van a usar, pero no se han configurado ni se les ha puesto ningún dato. Esto se hará más adelante. La descripción detallada de cada bloque está en la sección 3.5. Cada uno de estos bloques también requiere el uso de assets gráficos asociados, en la descripción de los bloques también vienen mencionadas las características de esos assets y sus requerimientos.
+
+
+
+
+---
+
+Navegación:
+
+* [Regreso al índice](README.md)
+* [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
+* [**Siguiente:** 3.5 Bloques de componentes de e-mail](3_5_componentes_email.md)
+
+
+
+
+___
+
+* [Regreso al índice](README.md)
+* [**Siguiente:** 3.5 Bloques de Componentes Email](3_5_componentes_email.md)
+* [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
 

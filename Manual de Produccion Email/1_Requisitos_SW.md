@@ -18,3 +18,9 @@
 - **MAMP:** requerido para montar un servidor web local en la computadora. Sirve para ejecutar aplicaciones o páginas web de manera local sin subirlas a un servidor en internet.
 
 
+___
+
+Navegación:
+
+* [Regreso al índice](README.md)
+* [**Siguiente:** Instalación de herramientas requeridas](2_Instalacion_SW.md)

@@ -1,6 +1,3 @@
-**3. Producción de correo HTML**
-==
-
 ## **3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP**
 ---
 
@@ -135,4 +132,12 @@ Cuenta para subir los correos HTML:
 
 [TBD]
 
+
+---
+
+Navegación:
+
+* [Regreso al índice](README.md)
+* [**Previo:** 2. Instalación de herramientas requeridas](2_Instalacion_SW.md)
+* [**Siguiente:** 3.2 Descripción general del flujo de trabajo](3_2_Flujo_de_trabajo.md)
 
