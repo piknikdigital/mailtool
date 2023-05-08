@@ -271,6 +271,6 @@ Navegación:
 ___
 
 * [Regreso al índice](README.md)
-* [**Siguiente:** 3.5 Bloques de Componentes Email](3_5_componentes_email.md)
+* [**Siguiente:** 3.5 Bloques de Componentes Email](3_5_Componentes_email.md)
 * [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
 

@@ -3,6 +3,9 @@
 
 El siguiente manual describe el uso de la aplicación MailTool para producir correos HTML.
 
+## **Tabla de Contenidos**
+---
+
 **[1 Lista de requisitos SW](1_Requisitos_SW.md)**
 ---
 Lista de herramientas SW requeridas con una introducción al uso de cada una de ellas.
@@ -34,6 +37,15 @@ Instalación y configuración de las herramientas necesarias.
 
 * **[3.4 Inicialización de proyecto de correo](3_4_Inicio_de_proyecto.md)** 
 
+    Descripción de la creación de archivos PHP de configuracion requeridos para vaciar la información básica  que describe a un correo HTML.
+
+* **[3.5 Bloques de componentes de e-mail](3_5_componentes_email.md)**
+  
+    Descripción y configuración de todos los componentes email disponibles para crear correos HTML.
+
+* **[3.6 Pre-Produción de HTML](3_6_preproducion_html.md)**
+
+    Creación y configuración de un archivo JSON que permite crea un correo HTML.
 
 ___
 

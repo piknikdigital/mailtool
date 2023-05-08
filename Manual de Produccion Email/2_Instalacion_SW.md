@@ -2,7 +2,7 @@
 ===
 
 ## **Visual Studio Code**
----
+
 
   Descargar el instalador en https://code.visualstudio.com/ y ejecutarlo.
   
