@@ -73,15 +73,13 @@ Al llenar de valores las filas previamente mencionadas, las fórmulas de los ren
 
 | Fila | DESCRIPCIÓN  |
 |------|--------------|
-| **Filas 18-21: INSTANCIA LOCAL** |
-Valores a usar para el release de un correo en la instancia local: 
-  * La ruta del CRM donde estan los correos HTML.
-  * la carpeta base donde se publica la campaña de correos.
-  * el nombre de cada correo.
-  * el link de preview de cada correo.|
+| **18-21: INSTANCIA LOCAL** | Valores a usar para el release de un correo en la instancia local: <br>  * La ruta del CRM donde estan los correos HTML. <br>  * la carpeta base donde se publica la campaña de correos. <br>  * el nombre de cada correo. <br>  * el link de preview de cada correo. |
+| **39-42: DCE** | Similar a lo previo, pero para DCE: <br>  * La ruta del CRM donde estan los correos HTML.<br>  * la carpeta base donde se publica la campaña de correos.<br>  * el nombre de cada correo.<br>  * el link de preview de cada correo. |
+| **23-39: Variables para PHP** | Conjunto de variables y su valor asociado. La [siguiente sección](3_4_Inicio_de_proyecto.md) explica cómo usar los valores que se generaron aquí. |
 
 
-sss 
+
+ 
 
 * **Filas 18-21: INSTANCIA LOCAL**: 
   Valores a usar para el release de un correo en la instancia local: 
