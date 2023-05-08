@@ -26,7 +26,7 @@ Para crear este archivo, tomamos como base el archivo vacío en
 
 (LOCALIZACION DE PLANTILLA)
 
-Llenado del archivo:
+## **Llenado del archivo:**
 
 A partir de la columna B, cada columna corresponde a un correo dentro de la campaña. La información de cada fila se llena de la siguiente manera:
 
@@ -44,8 +44,8 @@ A partir de la columna B, cada columna corresponde a un correo dentro de la camp
 | **12 y 15**| No usar. Dejar como valor **NA** |
 | **13: Nombre de carpeta en Instancia local** | Nombre de la carpeta en instancia local. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
 | **14: Nombre del correo en Instancia local** | Nombre del correo en instancia local. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
-| **16: ID folder instancia local** | Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175 ![](https://i.imgur.com/5tRAi5m.png)|
-
+| **16: ID folder instancia local** | Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175. ![](https://i.imgur.com/5tRAi5m.png)|
+| **17: Plataforma Destino** | Los valores posibles aquí son **DCE** o **LOCAL**. |
 
 
 <!--
@@ -62,17 +62,29 @@ A partir de la columna B, cada columna corresponde a un correo dentro de la camp
 * **Fila 13: Nombre de carpeta en Instancia local**: Nombre de la carpeta en instancia local. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica. 
 * **Fila 14: Nombre del correo en Instancia local**: Nombre del correo en instancia local. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica. 
 * **Fila 16: ID folder instancia local**: Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175
+![](https://i.imgur.com/5tRAi5m.png)
+* **Fila 17: Plataforma Destino**: Los valores posibles aquí son **DCE** o **LOCAL**.
 -->
 
-![](https://i.imgur.com/5tRAi5m.png)
-
-* **Fila 17: Plataforma Destino**: Los valores posibles aquí son **DCE** o **LOCAL**.
-
+## **Filas con Resultados**
 
 Al llenar de valores las filas previamente mencionadas, las fórmulas de los renglones inferiores generan información requerida para continuar con el proceso:
 
 
-* **Filas 18-21: INSTANCIA LOCAL**: Valores a usar para el release de un correo en la instancia local: 
+| Fila | DESCRIPCIÓN  |
+|------|--------------|
+| **Filas 18-21: INSTANCIA LOCAL** |
+Valores a usar para el release de un correo en la instancia local: 
+  * La ruta del CRM donde estan los correos HTML.
+  * la carpeta base donde se publica la campaña de correos.
+  * el nombre de cada correo.
+  * el link de preview de cada correo.|
+
+
+sss 
+
+* **Filas 18-21: INSTANCIA LOCAL**: 
+  Valores a usar para el release de un correo en la instancia local: 
   * La ruta del CRM donde estan los correos HTML.
   * la carpeta base donde se publica la campaña de correos.
   * el nombre de cada correo.
