@@ -1,20 +1,17 @@
-**Instalación de herramientas requeridas**
-===
+# **Instalación de herramientas requeridas**
+
 
 ## **Visual Studio Code**
 
-
-  Descargar el instalador en https://code.visualstudio.com/ y ejecutarlo.
+Descargar el instalador en https://code.visualstudio.com/ y ejecutarlo.
   
 
-
 ## **FileZilla**
----
-Ir a https://filezilla-project.org/ y descargar el instalador del cliente FileZilla.
+
+  Ir a https://filezilla-project.org/ y descargar el instalador del cliente FileZilla.
 
 
 ## **PHP 7.4**
----
 
   Para instalar PHP en la mac es necesario instalar primero **Homebrew**, un gestor de paquetes para Mac.
 
@@ -52,7 +49,7 @@ Ir a https://filezilla-project.org/ y descargar el instalador del cliente FileZi
   php -v
   ```
 
-Si la version en ejecución es 8.x.x, entonces cambiar a la versión 7.4 con los siguientes dos comandos
+  Si la version en ejecución es 8.x.x, entonces cambiar a la versión 7.4 con los siguientes dos comandos
 
   ```bash
   brew unlink php
@@ -64,7 +61,6 @@ Si la version en ejecución es 8.x.x, entonces cambiar a la versión 7.4 con los
 
 
 ## **Composer**
----
 
   Siguiendo las instrucciones descritas en https://getcomposer.org/download/ se debe realizar lo siguiente:
 
@@ -99,7 +95,6 @@ Si la version en ejecución es 8.x.x, entonces cambiar a la versión 7.4 con los
 
 
 ## **MailTool**
----
 
 MailTool es una aplicación desarrollada en PHP para la creación de código HTML. No tiene interfaz gráfica, consta de un conjunto de herramientas en la línea de comandos para generar archivos de datos JSON con los cuales podremos generar código HTML auxiliándonos en plantillas TWIG.
 
@@ -137,7 +132,7 @@ Con esto queda instalada la aplicación.
 
 
 ## **MAMP**
----
+
   Ir a https://www.mamp.info/en/downloads/ y descargar el instalador para la versión gratuita de MAMP. 
 
   Ejecutar el instalador de MAMP siguiendo las instrucciones en pantalla.
@@ -146,7 +141,7 @@ Con esto queda instalada la aplicación.
 
 
 ## **Creación de un servidor local para la aplicación MailTool**
----
+
 
 Ejecutar MAMP para crear un servidor local. La versión gratuita permite crear un solo servidor.
 
