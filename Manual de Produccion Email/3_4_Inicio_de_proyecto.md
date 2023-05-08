@@ -1,7 +1,6 @@
 # **3.4 Inicialización de proyecto de correo**
 
-La siguiente sección describe la creación de los archivos PHP mencionados en la sección 3.2.2.
-
+La siguiente sección describe la creación de los archivos PHP mencionados en la [sección 3.2.2](3_2_Flujo_de_trabajo.md).
 
 En el finder, buscar la carpeta CLI dentro de Mailtool:
 

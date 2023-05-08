@@ -30,6 +30,25 @@ Llenado del archivo:
 
 A partir de la columna B, cada columna corresponde a un correo dentro de la campaña. La información de cada fila se llena de la siguiente manera:
 
+| Fila | DESCRIPCIÓN  |
+|------|--------------|
+| **1: Nombre**  | Se usa el contenido de la fila **Name** del Excel fuente. |
+| **2: ID** | Es un número consecutivo para el correo a crear y debe ser congruente con el ID que se va a asignar en el catálogo de correos producidos descrito en la sección 3.1. No se indica el año, solamente el consecutivo del ID. |
+| **3: Subject** | Corresponde al subject del correo como se describe en el archivo Excel fuente. |
+| **4: Preheader** | Corresponde al preheader del correo como se describe en el archivo Excel fuente. |
+| **5 a 7: Año, mes, día** | Corresponde a números de dos dígitos (relleno con cero a la izquierda si es necesario) que identifican la fecha donde se espera subir a CRM el trabajo terminado. Si no hay fecha requerida de entrega, corresponde a la fecha en la que se espera terminar el trabajo. Debe ser de preferencia el mismo dato para todas las columnas. |
+| **8: Carpeta** | Nombre de la subcarpeta local donde se van a guardar los archivos JSON/HTML de cada correo. Debe tener solamente minusculas, con guiones medios en lugar de espacios en blanco. Debe ser el mismo valor para todas las columnas. |
+| **9: Nombre de archivo JSON** | Usar aquí el nombre del correo. Al igual que en el caso anterior, debe tener solamente minusculas, con guiones medios en lugar de espacios en blanco.  |
+| **10: Nombre de carpeta en DCE** | Nombre de la carpeta en DCE. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para DCE, usar simplemente **NA** para indicar que no aplica.  |
+| **11: Nombre del correo en DCE** | Nombre del correo en DCE. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para DCE, usar simplemente **NA** para indicar que no aplica.  |
+| **12 y 15**| No usar. Dejar como valor **NA** |
+| **13: Nombre de carpeta en Instancia local** | Nombre de la carpeta en instancia local. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
+| **14: Nombre del correo en Instancia local** | Nombre del correo en instancia local. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
+| **16: ID folder instancia local** | Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175 |
+
+
+
+<!--
 * **Fila 1: Nombre** Se usa el contenido de la fila **Name** del Excel fuente.
 * **Fila 2: ID** Es un número consecutivo para el correo a crear y debe ser congruente con el ID que se va a asignar en el catálogo de correos producidos descrito en la sección 3.1. No se indica el año, solamente el consecutivo del ID.
 * **Fila 3: Subject**: Corresponde al subject del correo como se describe en el archivo Excel fuente.
@@ -43,6 +62,7 @@ A partir de la columna B, cada columna corresponde a un correo dentro de la camp
 * **Fila 13: Nombre de carpeta en Instancia local**: Nombre de la carpeta en instancia local. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica. 
 * **Fila 14: Nombre del correo en Instancia local**: Nombre del correo en instancia local. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica. 
 * **Fila 16: ID folder instancia local**: Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175
+-->
 
 ![](https://i.imgur.com/5tRAi5m.png)
 
