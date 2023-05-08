@@ -256,20 +256,11 @@ La variable $requiredBlocks nos permite definir un listado de componentes previa
 
 
 
----
+___
 
 Navegación:
 
 * [Regreso al índice](README.md)
 * [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
 * [**Siguiente:** 3.5 Bloques de componentes de e-mail](3_5_componentes_email.md)
-
-
-
-
-___
-
-* [Regreso al índice](README.md)
-* [**Siguiente:** 3.5 Bloques de Componentes Email](3_5_Componentes_email.md)
-* [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
 
