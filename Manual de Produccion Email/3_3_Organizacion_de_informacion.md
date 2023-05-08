@@ -44,7 +44,7 @@ A partir de la columna B, cada columna corresponde a un correo dentro de la camp
 | **12 y 15**| No usar. Dejar como valor **NA** |
 | **13: Nombre de carpeta en Instancia local** | Nombre de la carpeta en instancia local. Usar un nombre corto capitalizado, es posible usar espacios en blanco. Debe ser el mismo valor para todas las columnas. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
 | **14: Nombre del correo en Instancia local** | Nombre del correo en instancia local. Dejar el texto capitalizado, es posible usar espacios en blanco. Si el correo destino no es para la instancia local, usar simplemente **NA** para indicar que no aplica.  |
-| **16: ID folder instancia local** | Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175 |
+| **16: ID folder instancia local** | Número del consecutivo de la carpeta dentro de la instancia local. Entrar al CRM antes de poner este valor para saber cuál es el número que sigue en la secuencia de correos publicados. En la imagen de abajo (Salesforce, instancia local), vemos que la última carpeta es la 174, el consecutivo a usar para la siguiente campaña seria el 175 ![](https://i.imgur.com/5tRAi5m.png)|
 
 
 
