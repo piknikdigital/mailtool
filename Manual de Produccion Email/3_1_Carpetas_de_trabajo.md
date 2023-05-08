@@ -1,5 +1,5 @@
 ## **3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP**
----
+___
 
 
 ### **3.1.1 Carpetas de trabajo local**
@@ -133,7 +133,7 @@ Cuenta para subir los correos HTML:
 [TBD]
 
 
----
+___
 
 Navegación:
 

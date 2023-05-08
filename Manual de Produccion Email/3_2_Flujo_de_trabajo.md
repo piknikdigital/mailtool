@@ -23,7 +23,7 @@ El flujo general es el siguiente. Los detalles son explicados más adelante.
 Ocasionalmente, cliente solicita únicamente el HTML y assets para que otra agencia haga el envío del correo. En esos casos, el entregable es únicamente un archivo ZIP con los assets gráficos y el HTML producido para el link de preview.
 
 
----
+___
 
 Navegación:
 
