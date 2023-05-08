@@ -1,5 +1,4 @@
-## **3.2 Descripción general del flujo de trabajo**
----
+# **3.2 Descripción general del flujo de trabajo**
 
 El flujo general es el siguiente. Los detalles son explicados más adelante.
 

@@ -1,5 +1,4 @@
-## **3.4 Inicialización de proyecto de correo**
----
+# **3.4 Inicialización de proyecto de correo**
 
 La siguiente sección describe la creación de los archivos PHP mencionados en la sección 3.2.2.
 
