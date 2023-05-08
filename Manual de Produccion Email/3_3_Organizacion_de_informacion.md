@@ -78,9 +78,8 @@ Al llenar de valores las filas previamente mencionadas, las fórmulas de los ren
 | **23-39: Variables para PHP** | Conjunto de variables y su valor asociado. La [siguiente sección](3_4_Inicio_de_proyecto.md) explica cómo usar los valores que se generaron aquí. |
 
 
-
+<!---
  
-
 * **Filas 18-21: INSTANCIA LOCAL**: 
   Valores a usar para el release de un correo en la instancia local: 
   * La ruta del CRM donde estan los correos HTML.
@@ -97,7 +96,7 @@ Al llenar de valores las filas previamente mencionadas, las fórmulas de los ren
 
 * **Filas 23-39: Variables para PHP**: Conjunto de variables y su valor asociado. La siguiente sección explica cómo usar los valores que se generaron aquí.
 
-
+-->
 
 
 ___
