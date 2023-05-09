@@ -28,5 +28,5 @@ Navegación:
 
 * [Regreso al índice](README.md)
 * [**Previo:** 3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP](3_1_Carpetas_de_trabajo.md)
-* [**Siguiente:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
+* [**Siguiente:** 3.3 Organización en Excel de la información de las piezas de correo](3_3_Organizacion_de_informacion.md)
 

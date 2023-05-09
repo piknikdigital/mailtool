@@ -1,4 +1,4 @@
-# **3.3 Organización de información de las piezas de correo en Excel**
+# **3.3 Organización en Excel de la información de las piezas de correo **
 
 Esta sección describe la creación del archivo Excel **XX BUILD CLI.xls** mencionado en los puntos 3.1.2 y 3.2.2 de la sección anterior.
 

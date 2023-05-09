@@ -31,7 +31,7 @@ Instalación y configuración de las herramientas necesarias.
     Descripción general de los pasos involucrados para la producción del correo HTML desde que se recibe la solicitud de trabajo hasta que se hace la entrega a cliente.
 
 
-* **[3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)** 
+* **[3.3 Organización en Excel de la información de las piezas de correo](3_3_Organizacion_de_informacion.md)** 
 
     Cómo organizar la información de entrada para comenzar la producción de correo HTML.
 
@@ -46,6 +46,11 @@ Instalación y configuración de las herramientas necesarias.
 * **[3.6 Pre-Produción de HTML](3_6_preproducion_html.md)**
 
     Creación y configuración de un archivo JSON que permite crea un correo HTML.
+
+* **[3.7 Creación de un correo HTML simple](3_7_Creacion_de_correo_simple.md)**
+
+
+* **[3.7 Creación de un correo HTML simple](3_7_Creacion_de_correo_simple.md)**
 
 ___
 

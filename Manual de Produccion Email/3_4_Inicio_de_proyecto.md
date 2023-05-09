@@ -38,9 +38,9 @@ Nótese que se omite el año, solo se usa el consecutivo. Este comando crea la c
     |   └---views/  
     └---vendor/
 
-Necesitamos llenar los datos de los archivos 23.39-common.php y 23.39-json-arguments-ROOT-HTML.php antes de crear el archivo JSON requerido para producir archivos HTML.
+Necesitamos llenar los datos de los archivos **23.39-common.php** y **23.39-json-arguments-ROOT-HTML.php** antes de crear el archivo JSON requerido para producir archivos HTML.
 
-**23.39-common.php**
+## **23.39-common.php**
 
 El siguiente es un fragmento del inicio del archivo:
 
@@ -109,9 +109,9 @@ Las variables a las que necesitamos asignar un valor son todas desde $p_id hasta
   ```
 
 
-**23.39-json-arguments-ROOT-HTML**
+## **23.39-json-arguments-ROOT-HTML**
 
-En este archivo hay una variable **$requiredBlocks** que nos permite definir el outline general del correo que se va a crear. El siguiente es un fragmento del archivo con valores predefinidos:
+En este archivo hay una variable **$requiredBlocks** que nos permite definir la disposición general de componentes del correo que se va a crear. El siguiente es un fragmento del archivo con valores predefinidos:
 
 
   ```code
@@ -225,7 +225,7 @@ Hay dos partes a destacar en este fragmento: la variable $requiredBlocks y la se
   ```
 
 
-La variable $requiredBlocks nos permite definir un listado de componentes previamente definidos que nos permiten crear un correo HTML. Cada uno de estos componentes cubre diferentes requerimientos de comunicación visual. El comentario que viene a continuación de esa variable es un listado de todos los bloques disponibles por el momento. De esa lista seleccionamos los que necesitamos para maquetar el correo solicitado y los ponemos en la variable $requiredBlocks. Para el caso específico del correo 23.39, los bloques requeridos quedan así:
+La variable **$requiredBlocks** nos permite definir un listado de componentes creados previamente que nos permiten crear un correo HTML. Cada uno de estos componentes cubre diferentes requerimientos de comunicación visual. El comentario que viene a continuación de esa variable es un listado de todos los bloques disponibles por el momento. De esa lista seleccionamos los que necesitamos para maquetar el correo solicitado y los ponemos en la variable $requiredBlocks. Para el caso específico del correo 23.39, los bloques requeridos quedan así:
 
 
   ```code
@@ -250,7 +250,7 @@ La variable $requiredBlocks nos permite definir un listado de componentes previa
   ```
   
 
-  Nótese que en esta variable solamente se mencionan los bloques que se van a usar, pero no se han configurado ni se les ha puesto ningún dato. Esto se hará más adelante. La descripción detallada de cada bloque está en la sección 3.5. Cada uno de estos bloques también requiere el uso de assets gráficos asociados, en la descripción de los bloques también vienen mencionadas las características de esos assets y sus requerimientos.
+  Nótese que en esta variable solamente se mencionan los bloques que se van a usar, pero no se han configurado ni se les ha puesto ningún dato. Esto se hará más adelante. La descripción detallada de cada bloque está en la [sección 3.5](3_5_Componentes_email.md). Cada uno de estos bloques también requiere el uso de assets gráficos asociados, en la descripción de los bloques también vienen mencionadas las características de esos assets y sus requerimientos.
 
 
 
@@ -260,6 +260,6 @@ ___
 Navegación:
 
 * [Regreso al índice](README.md)
-* [**Previo:** 3.3 Organización de información de las piezas de correo en Excel](3_3_Organizacion_de_informacion.md)
+* [**Previo:** 3.3 Organización en Excel de la información de las piezas de correo](3_3_Organizacion_de_informacion.md)
 * [**Siguiente:** 3.5 Bloques de componentes de e-mail](3_5_componentes_email.md)
 
