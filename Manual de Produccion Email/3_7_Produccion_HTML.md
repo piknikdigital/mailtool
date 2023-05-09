@@ -1,4 +1,4 @@
-# **3.7 Produción de HTML
+# **3.7 Produción de HTML**
 
 
 Una vez que el archivo JSON se encuentra en la carpeta correspondiente, este archivo *ya* puede producir un correo HTML, pero no contiene ni los textos, ni las imágenes, links o colores requeridos. Es necesario hacer esto manualmente con **Visual Studio Code** para editar su contenido.

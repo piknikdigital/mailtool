@@ -1,4 +1,4 @@
-# **3.6 Pre-Produción de HTML
+# **3.6 Pre-Produción de HTML**
 
 Esta sección describe la creación del archivo JSON requerido para crear un archivo HTML.
 
