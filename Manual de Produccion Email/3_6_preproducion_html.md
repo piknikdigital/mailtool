@@ -44,8 +44,7 @@ Una vez que el archivo JSON fue movido, su ruta debe ser la siguiente:
 
     /app/json-data/pmi2303/pmi-230328-dormant/pmi-230328-ID23.39-dormant-day-120-pp-heets-HTML.json
 
-
-Una vez que contamos con el archivo JSON en la ruta correcta, podemos comenzar la producción de correos HTML en la siguiente sección.
+Con el archivo JSON en la ruta correcta, podemos comenzar la producción de correos HTML en la siguiente sección.
 
 
 ___

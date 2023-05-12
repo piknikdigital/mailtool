@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.XXX-common.php");
+require_once("23.49-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,16 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
-    "columns",
+    "img",
     "spacer",
+
+    "img",
+
+    "cta1_v2",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -133,20 +137,16 @@ url para mandar SMS:
 Shortlink points to:
     sms://+525592253374
 --------------------
-PRECIO TACHADO:
-<span style=\"text-decoration:line-through;color:#00d1d2;\">
-   <span style=\"color:#34303d;\">
-   &nbsp;$1,399 MXN&nbsp;
-   </span>
-</span>
 --------------------
 --------------------
 --------------------
 --------------------
+Disfruta el tabaco calentado en su punto con IQOS y deja atrás el molesto olor a cigarro. 
+
 --------------------
 --------------------
 --------------------
---------------------
+(1) Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. Vigencia al 31 de diciembre del 2023. Aplicable solo en la compra de tu primer kit IQOS en www.iqos.com, Tiendas IQOS y Call Center IQOS. Sujeto a disponibilidad de inventarios. Consulta Términos y  Condiciones en iqos.com. Vigencia al 31 de diciembre del 2023.
 --------------------
 --------------------
 --------------------

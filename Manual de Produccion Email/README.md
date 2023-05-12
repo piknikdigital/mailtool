@@ -52,6 +52,9 @@ Instalación y configuración de las herramientas necesarias.
 
 * **[3.7 Creación de un correo HTML simple](3_7_Creacion_de_correo_simple.md)**
 
+* **[3.8 Carga de assets en CRM]**(3_8_Carga_assets_CRM.md)
+
+
 ___
 
 Navegación:

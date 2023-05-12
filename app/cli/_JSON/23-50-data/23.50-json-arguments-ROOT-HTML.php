@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.XXX-common.php");
+require_once("23.50-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -18,12 +18,16 @@ switch ($target)
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
 
-    "columns",
+    "img",
     "spacer",
+    "img",
+    "spacer",
+
+    "columns",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -133,42 +137,51 @@ url para mandar SMS:
 Shortlink points to:
     sms://+525592253374
 --------------------
-PRECIO TACHADO:
+--------------------
+--------------------
+--------------------
+--------------------
+Tú ya vives la experiencia del tabaco como debe ser,<b>calentado no quemado… <br>¿Qué tal si ahora compartes el cambio con tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span>?</b>
+--------------------
+--------------------
+--------------------
+Además tus amigos podrán<br> adquirir  su primer Kit 
+--------------------
+con su nuevo precio.
+--------------------
+Precio original
+--------------------
+$1,399 MXN
+
+<span style="text-decoration:line-through;color:#00d1d2"><span style="color:#34303d">$1,399 MXN</span></span>
+--------------------
+Nuevo precio<span style=\"font-size:12px;\"><sup>(3)</sup></span>
+--------------------
+$799 MXN<span style=\"font-size:12px;\"><sup>MXN</sup></span>
+--------------------
+Te recomendamos hacerlo desde tu celular.
+--------------------
+--------------------
+--------------------
+(1) Solo para fumadores adultos.<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco.<br>(3) Disponible en tiendas IQOS, www.compraiqos.com, y Call Center IQOS. No aplica en IQOS corners en Sanborns. Consulta nuestras áreas de cobertura para la entrega. Sujeto a disponibilidad de inventarios.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 <span style=\"text-decoration:line-through;color:#00d1d2;\">
    <span style=\"color:#34303d;\">
    &nbsp;$1,399 MXN&nbsp;
    </span>
 </span>
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 --------------------
 ===================================================================
 

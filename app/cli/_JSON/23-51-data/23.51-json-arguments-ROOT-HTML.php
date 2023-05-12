@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.XXX-common.php");
+require_once("23.51-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -24,6 +24,8 @@ $requiredBlocks = array(
 
     "columns",
     "spacer",
+    "columns",
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -133,36 +135,38 @@ url para mandar SMS:
 Shortlink points to:
     sms://+525592253374
 --------------------
-PRECIO TACHADO:
-<span style=\"text-decoration:line-through;color:#00d1d2;\">
-   <span style=\"color:#34303d;\">
-   &nbsp;$1,399 MXN&nbsp;
-   </span>
-</span>
+--------------------
+--------------------
+--------------------
+Ahora tu podrías ayudar a tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> a cambiar, contándoles que ¡IQOS 3 DUO ya se encuentra disponible!
+--------------------
+--------------------
+--------------------
+Al compartirles tu <br>Código Único les regalarás
+--------------------
+20% de descuento<span style=\"font-size:12px;\"><sup>(2)</sup></span>
+--------------------
+en la compra de su primer<br> Kit IQOS.
+--------------------
+--------------------
+Te recomendamos hacerlo desde tu celular.
+--------------------
+--------------------
+--------------------
+--------------------
+No olvides contarle a tus<br>amigos que podrán comprar su<br>primer Kit <b>IQOS 3 DUO</b> a un<br> nuevo precio.
+--------------------
+--------------------
+--------------------
+Nuevo precio(3)
+$799 MXN
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco.<br>(3) Disponible en tiendas IQOS, www.compraiqos.com, y Call Center IQOS. No aplica en IQOS corners en Sanborns. Consulta nuestras áreas de cobertura para la entrega. Sujeto a disponibilidad de inventarios.
 --------------------
 --------------------
 --------------------

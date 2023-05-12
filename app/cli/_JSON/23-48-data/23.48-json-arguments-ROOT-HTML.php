@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.XXX-common.php");
+require_once("23.48-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,15 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+    "img",
     "columns",
+    "img",
+
     "spacer",
+
+    "img",
+
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -133,31 +140,30 @@ url para mandar SMS:
 Shortlink points to:
     sms://+525592253374
 --------------------
-PRECIO TACHADO:
-<span style=\"text-decoration:line-through;color:#00d1d2;\">
-   <span style=\"color:#34303d;\">
-   &nbsp;$1,399 MXN&nbsp;
-   </span>
-</span>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+IQOS 3 DUO está nuevamente disponible, es momento de invitar a todos tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> a vivir la experiencia del tabaco calentado.
+--------------------
+--------------------
+--------------------
+Compárteles tu Código Único y régalales
+--------------------
+20% de descuento<span style=\"font-size:16px;\"><sup>(2)</sup></span>
+--------------------
+en la compra de su primer Kit IQOS.
+--------------------
+--------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco.
 --------------------
 --------------------
 --------------------

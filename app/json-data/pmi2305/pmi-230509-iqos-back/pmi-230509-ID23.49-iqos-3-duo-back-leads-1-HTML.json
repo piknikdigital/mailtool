@@ -3,13 +3,14 @@
    
     "config_template" :
     {
-        "RUN-THIS-ON-MAC"  :   "http://mailtool.lan:8888/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML",
-        "RUN-THIS-ON-PC"   :        "http://mailtool.lan/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML.html",
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML",
 
-        "Subject"          :   "Hay cosas que no deberían  de quemarse… El tabaco es una de ellas",
-        "Subject_old"      :   "¿Calentar o quemar tabaco?",
-        "Preheader"        :   "Conoce aquí las diferencias",
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML.html",
+
+        "Subject"          :   "¡Noticias de último minuto! IQOS 3 DUO está de vuelta",
+        "Preheader"        :   "Únete a la comunidad libre de humo de cigarro y compra tu dispositivo a un precio especial",
 
         "PATH"             :   "",
         "Name-CustomerKey" :   
@@ -21,9 +22,9 @@
         ],
         "test-url"         :   
         [
-            { "urlD" : "https://paginum.com/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML" } ,
-            { "urlS" : "https://paginum.com/email/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML.html"  },
-            { "urlS" : "http://mailtool.lan:8888/email/pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML.html"},
+            { "urlD" : "https://paginum.com/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML.html"},
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
 
         ]
@@ -33,7 +34,7 @@
     "BaseURLassets"    :   "",
     "BaseURLimg"       :   "",
     
-    "HTMLstaticfile"   :   "pmi2205/pmi-220527-science/pmi-220527-ID22.36b-science-3-HTML.html",
+    "HTMLstaticfile"   :   "pmi2305/pmi-230509-iqos-back/pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML.html",
 
     "trackmailopen"            :   "0",
     "trackmailaudience"        :   "0",    
@@ -45,11 +46,11 @@
 
     "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
     "TwigFooterBlock"  :   "block-footer.twig",
-    "Source"           :   "pmi-220527-ID22.36b-science-3-HTML",
+    "Source"           :   "pmi-230509-ID23.49-iqos-3-duo-back-leads-1-HTML",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
-    "PageTitle"        :   "",
+    "PageTitle"        :   "ID23.49 IQOS 3 Duo Back Leads 1",
     "PREHEADER"        :   "",
     "content_bgcolor"  :   "#FFFFFF",
     
@@ -69,29 +70,19 @@
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "22.36-1.jpg",
+            "img"           : "23.49-1.jpg",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 22.36-1"
-        },
-        {
-            "type"          : "img",
-            "bgcolor"       : "transparent",
-            "img"           : "22.36-2.png",
-            "imgHTML"       : "",
-            "imgFSH"        : "",
-            "imgDCE"        : "",
-            "url"           : "#",
-            "this"          : "IMG 22.36-2"
+            "this"          : "IMG 23.49-1"
         },
         {
             "type"          : "greeting_v2",
             "fontweight"    : "700",
-            "color_greeting": "#333333",
+            "color_greeting": "#34303d",
             "color_bkg"     : "transparent",
-            "margin_top"    : "50",
+            "margin_top"    : "70",
             "margin_bottom" : "0",
             "greeting"      : "Hola, %%first_name%%",
             "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
@@ -105,50 +96,52 @@
             "font"          : "Cabin",
             "fontweight"    : "300",
             "fontsize"      : "18",
-            "height"        : "30",
+            "height"        : "26",
             "width"         : "70%",
             "align"         : "center",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<b>IQOS</b> es un dispositivo de calentamiento de tabaco. <b>Elimina la combustión</b> por lo que no produce humo, ceniza ni olor a cigarro.",
+            "content"       : "Disfruta el tabaco calentado en su punto con IQOS y deja atrás el molesto olor a cigarro.",
             "this"          : "TXT"
         },
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "22.36-3.png",
+            "img"           : "23.49-2.png",
             "imgHTML"       : "",
             "imgFSH"        : "",
             "imgDCE"        : "",
             "url"           : "#",
-            "this"          : "IMG 22.36-3"
+            "this"          : "IMG 23.49-2"
         },
         {
-            "type"          : "p",
-            "font"          : "Cabin",
-            "fontweight"    : "700",
-            "fontsize"      : "20",
-            "height"        : "28",
-            "width"         : "70%",
-            "align"         : "center",
-            "color"         : "#333333",
+            "type"          : "spacer",
+            "height"        : "20",
             "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "0",
-            "content"       : "¿Quieres saber más?",
-            "this"          : "TXT"
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.49-3b.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
+            "url"           : "#",
+            "this"          : "IMG 23.49-3b"
         },
         {
             "type"          : "cta1_v2",
-            "widthbutton"   : "280",
+            "widthbutton"   : "200",
             "color_bkg"     : "transparent",
-            "button"        : "cta-bw-solicita-demostracion.png",
-            "margin_top"    : "40",
+            "button"        : "cta-bw-compra-ahora.png",
+            "margin_top"    : "30",
             "margin_bottom" : "0",
-            "url_cta"       : "tel:*993",
-            "this"          : "CTA cta-bw-solicita-demostracion"
+            "url_cta"       : "https://compraiqos.com.mx/",
+            "this"          : "CTA cta-bw-compra-ahora"
         },
         {
             "type"          : "p",
@@ -161,9 +154,18 @@
             "color"         : "#00d1d2",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
-            "margin_bottom" : "35",
+            "margin_bottom" : "50",
             "content"       : "#ElijoIQOS",
             "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "(1) Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. Vigencia al 31 de diciembre del 2023. Aplicable solo en la compra de tu primer kit IQOS en www.iqos.com, Tiendas IQOS y Call Center IQOS. Sujeto a disponibilidad de inventarios. Consulta Términos y  Condiciones en iqos.com. Vigencia al 31 de diciembre del 2023.",
+            "this"          : "LEGALES"
         },
         {
             "type"          : "pframed",
@@ -172,7 +174,7 @@
             "height"        : "11",
             "width"         : "80%",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "color_boxbkg"  : "#FFFFFF",
             "margin_top"    : "15",
@@ -186,7 +188,7 @@
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
-            "color"         : "#333333",
+            "color"         : "#34303d",
             "fontsize"      : "11",
             "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
             "this"          : "PRIVACY NOTICE"
