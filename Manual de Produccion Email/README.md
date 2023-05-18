@@ -4,7 +4,7 @@
 El siguiente manual describe el uso de la aplicación MailTool para producir correos HTML.
 
 ## **Tabla de Contenidos**
----
+
 
 **[1 Lista de requisitos SW](1_Requisitos_SW.md)**
 ---
