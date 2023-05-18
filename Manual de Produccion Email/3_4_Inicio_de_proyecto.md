@@ -260,6 +260,6 @@ ___
 Navegación:
 
 * [Regreso al índice](README.md)
-* [**Previo:** 3.3 Organización en Excel de la información de las piezas de correo](3_3_Organizacion_de_informacion.md)
+* [**Previo:** 3.3 Organización de la información de entrada](3_3_Organizacion_de_informacion.md)
 * [**Siguiente:** 3.5 Bloques de componentes de e-mail](3_5_componentes_email.md)
 

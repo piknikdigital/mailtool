@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.49-common.php");
+require_once("23.52-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -17,16 +17,19 @@ switch ($target)
 
 $requiredBlocks = array(
     "header_brand_world",
-    "img",
     "greeting_v2",
-    "p300_BW",
-
-    "img",
-    "spacer",
-
     "img",
 
     "cta1_v2",
+
+    "p300_BW",
+
+    "columns",
+    "img",
+    "columns",
+
+
+
 
     "ElijoIQOS",
     "legal_extra",
@@ -137,26 +140,33 @@ url para mandar SMS:
 Shortlink points to:
     sms://+525592253374
 --------------------
---------------------
---------------------
---------------------
---------------------
-Disfruta el tabaco calentado en su punto con IQOS y deja atrás el molesto olor a cigarro. 
-
---------------------
---------------------
---------------------
-(1) Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. Vigencia al 31 de diciembre del 2023. Aplicable solo en la compra de tu primer kit IQOS en www.iqos.com, Tiendas IQOS y Call Center IQOS. Sujeto a disponibilidad de inventarios. Consulta Términos y  Condiciones en iqos.com. Vigencia al 31 de diciembre del 2023.
---------------------
+PRECIO TACHADO:
+<span style=\"text-decoration:line-through;color:#00d1d2;\">
+   <span style=\"color:#34303d;\">
+   &nbsp;$1,399 MXN&nbsp;
+   </span>
+</span>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+<b>IQOS,</b> una experiencia de sabor que<br><b>calienta tabaco,</b> no lo quema.
 --------------------
 --------------------
 --------------------
-Disponible en tiendas IQOS, www.compraiqos.com, y Call Center IQOS. No aplica en IQOS corners en Sanborns. Consulta nuestras áreas de cobertura para la entrega. Sujeto a disponibilidad de inventarios.
+Nuevo precio<span style=\"font-size:12px;\"><sup>(1)</sup></span>
+--------------------
+$799 MXN<span style=\"font-size:12px;\"><sup>MXN</sup></span>
+--------------------
+--------------------
+(1) Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. Vigencia al 31 de diciembre del 2023. Aplicable en compras realizadas en compraiqos.com.mx, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones en Códigos de Descuento.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

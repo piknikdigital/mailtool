@@ -4,7 +4,7 @@ El flujo general es el siguiente. Los detalles son explicados más adelante.
 
 1. **Solicitud de trabajo**: Content Piknik envía un correo a Desarrollo Piknik con la solicitud de correo incluyendo los editables PSD y los detalles de cada correo en un archivo Excel.
 
-2. **Creación de archivos iniciales** A partir del Excel inicial se crea otro archivo Excel con formulas donde se condensa la información de todos los correos a crear y se crean nuevos datos a partir de estos ([Detalles en Sección 3.3](3_3_Organizacion_de_informacion.md)). Usando un comando CLI se crea un conjunto de archivos PHP para cada correo donde se almacenarán los datos del archivo excel mencionado y el layout general del correo a crear ([Detalles en Sección 3.4](3_4_Inicio_de_proyecto.md)).
+2. **Organización de la información**: A partir del archivo Excel de entrada se crea otro archivo Excel con fórmulas donde se condensa la información de todos los correos a crear y se crean nuevos datos a partir de estos ([Detalles en Sección 3.3](3_3_Organizacion_de_informacion.md)). Usando un comando CLI se crea un conjunto de archivos PHP para cada correo donde se almacenarán los datos del archivo excel mencionado y el layout general del correo a crear ([Detalles en Sección 3.4](3_4_Inicio_de_proyecto.md)).
 
 3. **Extracción de assets** Usando Photoshop se extraen los assets gráficos y el texto de cada correo HTML. Los assets gráficos se guardan en una carpeta para cada correo, y los textos del correo se guardan en los archivos PHP de datos del paso previo.
 
@@ -28,5 +28,5 @@ Navegación:
 
 * [Regreso al índice](README.md)
 * [**Previo:** 3.1 Carpetas de trabajo local, OneDrive - PIKNIK, Google Drive y FTP](3_1_Carpetas_de_trabajo.md)
-* [**Siguiente:** 3.3 Organización en Excel de la información de las piezas de correo](3_3_Organizacion_de_informacion.md)
+* [**Siguiente:** 3.3 Organización de la información de entrada](3_3_Organizacion_de_informacion.md)
 
