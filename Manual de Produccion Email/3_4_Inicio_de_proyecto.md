@@ -225,7 +225,9 @@ Hay dos partes a destacar en este fragmento: la variable $requiredBlocks y la se
   ```
 
 
-La variable **$requiredBlocks** nos permite definir un listado de componentes creados previamente que nos permiten crear un correo HTML. Cada uno de estos componentes cubre diferentes requerimientos de comunicación visual. El comentario que viene a continuación de esa variable es un listado de todos los bloques disponibles por el momento. De esa lista seleccionamos los que necesitamos para maquetar el correo solicitado y los ponemos en la variable $requiredBlocks. Para el caso específico del correo 23.39, los bloques requeridos quedan así:
+La variable **$requiredBlocks** nos permite definir un listado de componentes creados previamente que nos permiten crear un correo HTML. Cada uno de estos componentes cubre diferentes requerimientos de comunicación visual. Los componentes predefinidos son los valores más frecuentemente usados en los correos de Philip Morris. 
+
+El bloque de comentarios que viene a continuación de esa variable es un listado de todos los bloques disponibles por el momento. De esa lista seleccionamos los que necesitamos para maquetar el correo solicitado y los ponemos en la variable $requiredBlocks. Para el caso específico del correo 23.39, los bloques requeridos quedan así:
 
 
   ```code

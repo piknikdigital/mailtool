@@ -1,0 +1,374 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE.html",
+
+        "Subject"          :   "¿Qué tal suena un segundo dispositivo? Este Hot Sale es posible",
+        "Preheader"        :   "Obtén 20% de descuento sobre precios ya reducidos y estrena hoy",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230522_Hot Sale LAUS 2023 > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "HOT SALE LAUS SD-2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2305/pmi-230522-hot-sale-laus/pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+    "footer_template"          :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230522-ID23.58-hot-sale-laus-sd-2-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "40",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%=ProperCase(first_name)=%%",
+            "greetingDCE": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "COVER",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "90",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/7ca0a69f-4091-494e-b22b-a2be9c938623.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.58-1b"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "22",
+            "height": "28",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Aprovecha este Hot Sale para adquirir <br>tu segundo dispositivo IQOS <br>a un <span style=\"color:#e12133;font-weight:700;\">¡súper precio!</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#e12133",
+            "this": "CODE / CTA COMPRA AHORA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "3",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#e12133",
+                    "widthp100": "94",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Obtén",
+                            "color_bkg": "#e12133",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "50",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "20% de descuento<span style=\"font-size:12px;\"><sup>(1)</sup></span>",
+                            "color_bkg": "#e12133",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "5",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "sobre precios reducidos<span style=\"font-size:12px;\"><sup>(2)</sup></span><br>usando el siguiente código:",
+                            "color_bkg": "#e12133",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/9144c8bb-7697-44e6-b780-268fe1a123d8.png",
+                            "color_bkg": "#e12133",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "220",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "code-rojo-minuevoiqos20"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/52a34e70-e95d-45be-abe7-6e174e25928f.png",
+                            "color_bkg": "#e12133",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "220",
+                            "align": "center",
+                            "imgulr": "https://compraiqos.com.mx/",
+                            "THISIMG": "cta-bw-compra-ahora"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/6cf7050b-4af8-4395-8d55-ed81c4e4a15f.png",
+                            "color_bkg": "#e12133",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "190",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.58-2b"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "3",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/d87a46d8-fc20-4235-a9ac-c3d5934bd880.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "https://compraiqos.com.mx/",
+            "this": "cta 23.58-3"
+        },
+        {
+            "type": "columns____",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#e12133",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "3",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "10",
+                    "rows": [
+                        {
+                            "rowtype": "spacer",
+                            "height": "250px",
+                            "color_bkg": "#e12133"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "74",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/8/d87a46d8-fc20-4235-a9ac-c3d5934bd880.png",
+                            "color_bkg": "#faf7f4",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "PRECIOS 23.58-3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "cta-bw-compra-aqui.png",
+                            "color_bkg": "#faf7f4",
+                            "margin_top": "20",
+                            "margin_bottom": "50",
+                            "imgWidth": "220",
+                            "align": "center",
+                            "imgulr": "https://compraiqos.com.mx/",
+                            "THISIMG": "cta-bw-compra-aqui"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "10",
+                    "rows": [
+                        {
+                            "rowtype": "spacer",
+                            "height": "250px",
+                            "color_bkg": "#e12133"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "3",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#e12133",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Código \"MINUEVOIQOS20\" equivalente a un 20% de descuento sobre precio reducido, válido del 29 de mayo al 6 de junio del 2023 en la compra de un Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS y Call Center IQOS. No aplica en IQOS Corners en Sanborns. Limitado a un Kit IQOS 3 DUO por usuario registrado con un dispositivo IQOS 3DUO en iqos.com. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a><br>(2) Precio reducido de $699 vigente del 29 de mayo al 6 de junio del 2023. Aplicable en la compra de tu Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS y Call Center IQOS. No aplica en IQOS Corners en Sanborns. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    
