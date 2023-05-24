@@ -14,7 +14,7 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 
 **DESCRIPCIÓN**
 
-Muestra la imagen usada como header en todos los correos de Philip Morris de la campaña visual "Brand World". La imagen usa el 100% de ancho del contenedor del contenido (600 px) y consiste en el logotipo de IQOS del lado izquierdo y una frase del lado derecho.
+Muestra la imagen usada como header en todos los correos de Philip Morris de la línea gráfica "Brand World". La imagen usa el 100% de ancho del contenedor del contenido (600 px) y consiste en el logotipo de IQOS del lado izquierdo y una frase del lado derecho.
 
 Assets gráficos requeridos:
 
@@ -67,7 +67,7 @@ Assets de librería disponibles:
 
 **DESCRIPCIÓN**
 
-Muestra un saludo "Hola, [nombre]". Las variable dinámicas de Salesforce usadas para el nombre son **%%FirstName%%** para la instancia local de Salesforce, y **%%=ProperCase(first_name)=%%** para DCE.
+Muestra un saludo "Hola, [nombre]". Las variables dinámicas de Salesforce usadas para el nombre son **%%FirstName%%** para la instancia local de Salesforce, y **%%=ProperCase(first_name)=%%** para DCE.
 
 Assets gráficos requeridos:
 
@@ -493,9 +493,68 @@ Además del protocolo HTTP el url puede usar otros protocolos. Estos son los cas
 |--------------------|---------------|
 | __Llamada telefónica__ | Usar el protocolo "tel" con el número telefónico a 10 dígitos, sin espacios:<br>"tel:5555555555" |
 | __Mensaje de Whatsapp__ | Se usa la la API de Whatsapp mandando el mensaje codificado.<br>1.- Codificar el mensaje a mandar en https://www.urlencoder.org/<br>2.- El URL a usar sera "https://wa.me/?text=" seguido del mensaje codificado en el paso 1.
-| __Invocar el envío de un SMS__ | El protocolo SMS no está soportado en un email por restricciones en los clientes de correo, pero se puede usar un acortador de enlaces para que sea el acortador de mensajes el que use el protocolo SMS. <br>1.- Formar el URL del número a contactar incluyendo el código de país. Por ejemplo, para el número "5592253374" el URL debe ser: __sms://+525592253374__ Nótese que se tiene que incluir el código de país para que funcione (+52 para México)<br>2.- Usar https://cutt.ly/ y obtener un short link para el URL obtenido en el paso 1. El URL a usar en el correo debe ser el obtenido en cutt.ly |
+| __Invocar el envío de un SMS__ | El protocolo SMS no está soportado en un email por restricciones en los clientes de correo, pero se puede usar un acortador de enlaces para que sea el acortador de mensajes el que use el protocolo SMS. <br>1.- Formar el URL del número a contactar incluyendo el código de país. Por ejemplo, para el número "5592253374" el URL debe ser: __sms://+525592253374__ , donde +52 es el código de área para México.<br>2.- Usar https://cutt.ly/ y obtener un short link para el URL obtenido en el paso 1. El URL a usar en el correo debe ser el obtenido en cutt.ly |
 
 
+
+
+\
+\
+\
+\
+<a name="block-ElijoIQOS"></a>
+# ElijoIQOS
+
+**DESCRIPCIÓN**
+
+Muestra el hashtag #ElijoIQOS que se pone al final de todos los correos de Philip Morris. Dependiendo de la campaña, el hashtag puede cambiar de texto o de color. 
+
+Assets gráficos requeridos:
+
+* Ninguno.
+
+\
+**JSON** 
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+
+\
+**RESULTADO**
+
+![ElijoIQOS](https://i.imgur.com/g1GbjFP.png)
+
+\
+**VARIABLES**
+
+|  VARIABLE   |  DESCRIPCIÓN  |
+|-------------|---------------|
+| __type__    |  __No cambiar este valor__. Describe el tipo de bloque.  |
+| __font__          | __No cambiar este valor__. La plantilla TWIG usada para crear los correos de Philip Morris usa dos tipografías: "Cabin" para el texto normal y 'Noto Sans' para el footer. Si se necesita usar otra tipografía de google fonts, es necesario primero agregarla a la plantilla TWIG que se usa para hacer los correos. |
+| __fontweight__    | __No cambiar este valor__. "300" para texto normal o "700" para texto en negritas. El valor predefinido es "700".|
+| __fontsize__      | __No cambiar este valor__. Tamaño en pixeles de la tipografía. El valor predefinido es "26".|
+| __height__        | __No cambiar este valor__. Tamaño en pixeles de la línea. El valor predefinido es "30".|
+| __width__         | __No cambiar este valor__. El ancho en porcentaje del párrafo de texto. El default es "70%".|
+| __align__         | __No cambiar este valor__. La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify".|
+| __color__         | __Usualmente no se cambia__. Color del texto en formato hexadecimal. El valor predefinido es "#00d1d2".|
+| __color_bkg__     | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "#transparent".|
+| __margin_top__    | __Usualmente no se cambia__. El tamaño del margen superior en pixeles. El valor predefinido es "50". |
+| __margin_bottom__ | __Usualmente no se cambia__. El tamaño del margen inferior en pixeles. El valor predefinido es "50". |
+| __content__       | __Usualmente no se cambia__. El texto a mostrar. El valor predefnido es "#ElijoIQOS", pero puede modificarse dependiendo de la campaña.|
+| __this__          | __No usada por la plantilla__. Se usa para comentarios, puede dejarse en blanco. |
 
 
 
