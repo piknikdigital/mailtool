@@ -10,13 +10,13 @@ Una vez que los archivos PHP descritos en la sección 3.4 han sido configurados,
 Una vez abierta la terminal, ejecutar con PHP el siguiente comando CLI:
 
   ```bash
-  php mkroot.php XX
+  php mkjson.php XX
   ```
 
 donde XX es el ID del correo a crear. Asumiremos nuevamente como ejemplo que vamos a crear el correo 23.39. El comando a usar sera:
 
   ```bash
-  php mkroot.php 39
+  php mkjson.php 39
   ```
 
 Si los archivos PHP de datos fueron llenados correctamente, deberíamos recibir un mensaje como el siguiente:
@@ -38,7 +38,7 @@ Para evitar sobreescribir un archivo JSON preexistente con datos, el archivo fue
 
     /app/json-data/pmi2303/pmi-230328-dormant/
 
-Esta carpeta fue creada por el comando mkroot.php la primera vez que se ejecuta el comando con ese conjunto de datos. Diferentes datos crearán diferentes carpetas. Nótese que esta carpeta fue creada combinando los datos $p_yy (año), $p_mm (mes), $p_dd (día) y $p_name4folder (nombre de la carpeta)
+Esta carpeta fue creada por el comando mkjson.php la primera vez que se ejecuta el comando con ese conjunto de datos. Diferentes datos crearán diferentes carpetas. Nótese que esta carpeta fue creada combinando los datos $p_yy (año), $p_mm (mes), $p_dd (día) y $p_name4folder (nombre de la carpeta)
 
 Una vez que el archivo JSON fue movido, su ruta debe ser la siguiente:
 

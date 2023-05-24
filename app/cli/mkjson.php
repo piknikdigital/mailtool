@@ -3,9 +3,9 @@
 /**
  *  To run this script in the command line:
  *      1.- Add in the first line: #!/usr/bin/php
- *      2.- in command line run:    chmod +x makeroot.php
- *      3.- run the script as: ./makeroot.php  ID
- *          Example:  ./makeroot.php 208 
+ *      2.- in command line run:    chmod +x mkjson.php
+ *      3.- run the script as: ./mkjson.php  ID
+ *          Example:  ./mkjson.php 208 
  */
 
 

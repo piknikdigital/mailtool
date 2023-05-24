@@ -22,6 +22,9 @@ $libraryBlocks['img_Cover_HTML'] ='
         {
             "type"          : "img",
             "img"           : "22.id-1.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
             "url"           : "#",
             "this"          : "Cover"
         },';
@@ -30,6 +33,9 @@ $libraryBlocks['img'] ='
             "type"          : "img",
             "bgcolor"       : "transparent",
             "img"           : "22.id-x.jpg",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
             "url"           : "#",
             "this"          : "IMG 22.id-x"
         },';
@@ -70,7 +76,7 @@ $libraryBlocks['p300'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span>",
             "this"          : "TXT"
         },';
 $libraryBlocks['p700'] ='
@@ -85,7 +91,7 @@ $libraryBlocks['p700'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span>",
             "this"          : "TXT"
         },';
 $libraryBlocks['rawHTML'] ='
@@ -123,7 +129,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "h1_align"      : "left",
                     "h1_color"      : "#34303d",
                     
-                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
                     "p_fontsize"    : "18px",
                     "p_height"      : "20px",
@@ -131,6 +137,9 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "p_color"       : "#111111",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -155,7 +164,7 @@ $libraryBlocks['m_TXT_TXT_m'] ='
                     "h1_align"      : "left",
                     "h1_color"      : "#34303d",
                     
-                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
                     "p_fontsize"    : "18px",
                     "p_height"      : "20px",
@@ -196,7 +205,7 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "h1_align"      : "left",
                     "h1_color"      : "#34303d",
                     
-                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
                     "p_fontsize"    : "18px",
                     "p_height"      : "20px",
@@ -204,6 +213,9 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "p_color"       : "#111111",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -223,6 +235,9 @@ $libraryBlocks['m_TXT_IMG_m'] ='
                     "imgwidth"      : "100",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "22.id-x"
                 }
@@ -245,6 +260,9 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "imgwidth"      : "100",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 22.id-x"
                 },
@@ -266,7 +284,7 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "h1_align"      : "left",
                     "h1_color"      : "#34303d",
 
-                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+                    "p"             : "<span style=\"font-weight:700;color:#e3ae6f\">IQOS</span>",
                     "p_fontweight"  : "300",
                     "p_fontsize"    : "18px",
                     "p_height"      : "20px",
@@ -274,6 +292,9 @@ $libraryBlocks['m_IMG_TXT_m'] ='
                     "p_color"       : "#111111",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -298,6 +319,9 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                     "imgwidth"      : "100",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 22.id-x"
                 },
@@ -314,6 +338,9 @@ $libraryBlocks['m_IMG_IMG_m'] ='
                     "imgwidth"      : "100",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 22.id-x"
                 }
@@ -336,6 +363,9 @@ $libraryBlocks['cta1'] ='
             "widthbutton"   : "280",
             "color_bkg"     : "transparent",
             "button"        : "btn.png",
+            "buttonHTML"    : "",
+            "buttonFSH"     : "",
+            "buttonDCE"     : "",
             "url_cta"       : "#",
             "this"          : "CTA btn"
         },';
@@ -389,6 +419,9 @@ $libraryBlocks['two_rs'] ='
             "url1"           : "https://www.facebook.com/iqosmx",
             "img1"           : "facebook_icon.png",
             "imgwidthpx1"    : "50",
+            "imgHTML1"       : "",
+            "imgFSH1"        : "",
+            "imgDCE1"        : "",
             "this1"          : "RS FACEBOOK",
             
             "fontsize1"      : "18",
@@ -401,6 +434,9 @@ $libraryBlocks['two_rs'] ='
             "url2"           : "https://www.instagram.com/iqos_mx/",
             "img2"           : "instagram_icon.png",
             "imgwidthpx2"    : "50",
+            "imgHTML2"       : "",
+            "imgFSH2"        : "",
+            "imgDCE2"        : "",
             "this2"          : "RS INSTAGRAM",
             
             "fontsize2"      : "18",
@@ -422,6 +458,9 @@ $libraryBlocks['three_rs'] ='
             "url1"           : "https://www.facebook.com/iqosmx",
             "img1"           : "facebook.png",
             "imgwidthpx1"    : "40",
+            "imgHTML1"       : "",
+            "imgFSH1"        : "",
+            "imgDCE1"        : "",
             "this1"          : "RS FACEBOOK",
             
             "fontsize1"      : "14",
@@ -434,6 +473,9 @@ $libraryBlocks['three_rs'] ='
             "url2"           : "https://www.youtube.com/channel/UCQ0NR6SLSmgfrV5TicZXqaA",
             "img2"           : "youtube.png",
             "imgwidthpx2"    : "40",
+            "imgHTML2"       : "",
+            "imgFSH2"        : "",
+            "imgDCE2"        : "",
             "this2"          : "RS YOUTUBE",
             
             "fontsize2"      : "14",
@@ -446,6 +488,9 @@ $libraryBlocks['three_rs'] ='
             "url3"           : "https://www.instagram.com/iqos_mx/",
             "img3"           : "instagram.png",
             "imgwidthpx3"    : "40",
+            "imgHTML3"       : "",
+            "imgFSH3"        : "",
+            "imgDCE3"        : "",
             "this3"          : "RS INSTAGRAM",
             
             "fontsize3"      : "14",
@@ -509,6 +554,7 @@ $libraryBlocks['disclaimer_fsh'] ='
             "fontsize"      : "11",
             "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
             "this"          : "PRIVACY NOTICE"
+
         },
         {
             "type"          : "spacer",
@@ -532,7 +578,7 @@ $libraryBlocks['disclaimer_iqos'] ='
             "framecolor"    : "#000000",
             "framepadding"  : "15",
             "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
-            "this"          : "DTI - DUTY TO INFORM"
+            "this"          : "Información importante"
         },
         {
             "type"          : "disclaimer",
@@ -688,7 +734,7 @@ $libraryBlocks['form'] ='
             "list" :  
             [
                 {
-                    "name"      : "survey_reply",
+                    "name"      : "onboarding_conversion_check_reply",
                     "type"      : "radio",
                     "class"     : "container",
                     "checkedEJ" : "checked",
@@ -697,7 +743,7 @@ $libraryBlocks['form'] ='
                     "txt"       : "Solo uso IQOS."
                 },
                 {
-                    "name"      : "survey_reply",
+                    "name"      : "onboarding_conversion_check_reply",
                     "type"      : "radio",
                     "class"     : "container",
                     "checked"   : "",
@@ -705,7 +751,7 @@ $libraryBlocks['form'] ='
                     "txt"       : "Uso IQOS tanto como fumo cigarros pero fumo cigarros con mayor frecuencia."
                 },
                 {
-                    "name"      : "survey_reply",
+                    "name"      : "onboarding_conversion_check_reply",
                     "type"      : "radio",
                     "class"     : "container",
                     "checked"   : "",
@@ -1080,6 +1126,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "p_color"       : "#c7c7c7",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -1106,6 +1155,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "p_color"       : "#c7c7c7",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -1132,6 +1184,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "p_color"       : "#c7c7c7",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -1158,6 +1213,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "p_color"       : "#c7c7c7",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -1188,6 +1246,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "imgwidth"      : "130",
                     "mtop"          : "0",
                     "img"           : "footer-logo-iqos.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG footer-logo-iqos LOGO IQOS BRAND WORLD"
                 },
@@ -1204,6 +1265,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "imgwidth"      : "30",
                     "mtop"          : "6",
                     "img"           : "footer-logo-fb.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://www.facebook.com/iqosmx/",
                     "THISIMG"       : "IMG footer-logo-fb LOGO FB"
                 },
@@ -1214,6 +1278,9 @@ $libraryBlocks['footer_brand_world'] =',
                     "imgwidth"      : "30",
                     "mtop"          : "6",
                     "img"           : "footer-logo-ig.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://www.instagram.com/iqos_mx/",
                     "THISIMG"       : "IMG footer-logo-ig LOGO IG"
                 }
@@ -1250,6 +1317,9 @@ $libraryBlocks['header_brand_world'] ='
             "type"          : "img",
             "bgcolor"       : "transparent",
             "img"           : "header-iqos-bw-2.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
             "url"           : "#",
             "this"          : "IMG header IQOS Brand World"
         },';
@@ -1266,7 +1336,7 @@ $libraryBlocks['p300_BW'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "content"       : "IQOS <span style=\"color:#e4ab68;\">IQOS</span>",
             "this"          : "TXT"
         },';
 $libraryBlocks['p700_BW'] ='
@@ -1282,7 +1352,7 @@ $libraryBlocks['p700_BW'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Et harum quidem rerum facilis est et expedita distinctio.",
+            "content"       : "IQOS <span style=\"color:#e4ab68;\">IQOS</span>",
             "this"          : "TXT"
         },';
 
@@ -1291,7 +1361,7 @@ $libraryBlocks['FSH_Yellow_Share'] ='
             "type"              : "cols_m_A_B_m",
             "margin_sides"      : "4",
             "margin_topbottom"  : "25",
-            "color_bkg2"        : "#ffdd3a",
+            "color_bkg2"         : "#ffdd3a",
             "color_bkg"         : "#ffffff",
             "this"              : "SHARE FB TW WA",
             "columns"           :
@@ -1303,6 +1373,9 @@ $libraryBlocks['FSH_Yellow_Share'] ='
                     "imgwidth"      : "260",
                     "mtop"          : "0",
                     "img"           : "yellow-share-1-txt.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG yellow-share-1-txt  TXT COMPARTE ESTA INICIATIVA"
                 },
@@ -1313,6 +1386,9 @@ $libraryBlocks['FSH_Yellow_Share'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-2-fb-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
                     "THISIMG"       : "IMG yellow-share-2-fb-share"
                 },
@@ -1323,6 +1399,9 @@ $libraryBlocks['FSH_Yellow_Share'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-3-tw-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://ctt.ac/z13Mr",
                     "THISIMG"       : "IMG yellow-share-3-tw-share"
                 },
@@ -1333,6 +1412,9 @@ $libraryBlocks['FSH_Yellow_Share'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-4-wa-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
                     "THISIMG"       : "IMG yellow-share-4-wa-share"
                 },
@@ -1348,6 +1430,9 @@ $libraryBlocks['FSH_Yellow_Share'] ='
             "type"          : "img",
             "bgcolor"       : "transparent",
             "img"           : "yellow-share-5-end.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
             "url"           : "#",
             "this"          : "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
         },';
@@ -1368,6 +1453,9 @@ $libraryBlocks['FSH_Yellow_Share_2'] ='
                     "imgwidth"      : "318",
                     "mtop"          : "0",
                     "img"           : "yellow-share-1v1-txt.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG TXT COMPARTE ESTA INICIATIVA yellow-share-1v1-txt "
                 },
@@ -1378,6 +1466,9 @@ $libraryBlocks['FSH_Yellow_Share_2'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-2-fb-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
                     "THISIMG"       : "IMG FACEBOOK yellow-share-2-fb-share"
                 },
@@ -1388,6 +1479,9 @@ $libraryBlocks['FSH_Yellow_Share_2'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-3-tw-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://ctt.ac/z13Mr",
                     "THISIMG"       : "IMG TWITTER yellow-share-3-tw-share"
                 },
@@ -1398,6 +1492,9 @@ $libraryBlocks['FSH_Yellow_Share_2'] ='
                     "imgwidth"      : "45",
                     "mtop"          : "15",
                     "img"           : "yellow-share-4-wa-share.png",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
                     "THISIMG"       : "IMG WHATSAPP yellow-share-4-wa-share"
                 },
@@ -1413,6 +1510,9 @@ $libraryBlocks['FSH_Yellow_Share_2'] ='
             "type"          : "img",
             "bgcolor"       : "transparent",
             "img"           : "yellow-share-5-end.png",
+            "imgHTML"       : "",
+            "imgFSH"        : "",
+            "imgDCE"        : "",
             "url"           : "#",
             "this"          : "IMG yellow-share-5-end   triangulo de direccion de globo de dialogo"
         },';
@@ -1434,6 +1534,9 @@ $libraryBlocks['FSH_Framed_Card'] ='
                     "imgwidth"      : "190",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
+                    "imgHTML"       : "",
+                    "imgFSH"        : "",
+                    "imgDCE"        : "",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 22.id-x"
                 },
@@ -1463,6 +1566,9 @@ $libraryBlocks['FSH_Framed_Card'] ='
                     "p_color"       : "#111111",
 
                     "button"        : "",
+                    "buttonHTML"    : "",
+                    "buttonFSH"     : "",
+                    "buttonDCE"     : "",
                     "buttonurl"     : "#",
                     "widthbutton"   : "235",
                     "button_topm"   : "30",
@@ -1579,6 +1685,10 @@ $libraryBlocks['greeting_v2'] ='
             "margin_top"    : "70",
             "margin_bottom" : "70",
             "greeting"      : "Hola, %%first_name%%",
+            "greetingBW"    : "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH"   : "Hola, %%FirstName%%",
+            "greetingHTML"  : "Hola, %%first_name%%",
+            "greetingDCE"   : "Hola, %%first_name%%",
             "this"          : "Hola [nombre]"
         },';
 $libraryBlocks['cta1_v2'] ='
@@ -1617,9 +1727,10 @@ $libraryBlocks['p_v2'] ='
             "margin_bottom" : "0",
             "margin_sides"  : "10",
             "margin_color"  : "transparent",
-            "content"       : "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "content"       : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "readme"        : "height px, margin %" ,
             "this"          : ""
+
         },';
 $libraryBlocks['ElijoIQOS'] ='
         {
