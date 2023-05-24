@@ -558,6 +558,118 @@ Assets gráficos requeridos:
 
 
 
+\
+\
+\
+\
+<a name="block-legal_extra"></a>
+# legal_extra
+
+**DESCRIPCIÓN**
+
+Muestra el texto de los legales de la campaña.
+
+Assets gráficos requeridos:
+
+* Ninguno.
+
+\
+**JSON** 
+
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "(1) Código \"MENOSOLOR\" equivalente a un 20% de descuento sobre precio vigente, válido del 29 de mayo al 6 de junio del 2023 en la compra de tu primer Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS y Call Center IQOS. No aplica en IQOS Corners en Sanborns. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Consulta Términos y Condiciones. <br>(2) Precio reducido de $699 vigente del 29 de mayo al 6 de junio del 2023. Aplicable en la compra de tu Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS y Call Center IQOS. No aplica en IQOS Corners en Sanborns. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.",
+            "this"          : "LEGALES"
+        },
+
+\
+**RESULTADO**
+
+![legal_extra](https://i.imgur.com/UpRyPzL.png)
+
+\
+**VARIABLES**
+
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __type__     | __No cambiar este valor__. Describe el tipo de bloque.  |
+| __bgcolor__  | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "#transparent".|
+| __align__    | __No cambiar este valor__. La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify". El valor predefinido es "justify". |
+| __color__    | __Usualmente no se cambia__. Color del texto en formato hexadecimal. El valor predefinido es "#34303d". |
+| __fontsize__ | __No cambiar este valor__. Tamaño en pixeles de la tipografía. El valor predefinido es "11" |
+| __txt__      | El texto de los legales a mostrar. Puede ser texto plano o texto con HTML. |
+| __this__     | __No usado por la plantilla__. Se usa para comentarios, puede dejarse en blanco. |
+
+
+
+\
+\
+\
+\
+<a name="block-disclaimer_iqos"></a>
+# disclaimer_iqos
+
+**DESCRIPCIÓN**
+
+Muestra el texto del DTI (Duty To Inform) y el aviso de privacidad. Su formato es fijo, no es necesario modificar ninguno de los parámetros.
+
+Assets gráficos requeridos:
+
+* Ninguno.
+
+\
+**JSON** 
+
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        }';
+
+\
+**RESULTADO**
+
+![disclaimer_iqos](https://i.imgur.com/HnWYo8j.png)
+
+\
+**VARIABLES**
+
+Este componente usa tres bloques de variables JSON, pero se omite la explicación porque no es necesario hacer ningún cambio en las variables usadas.
+
+
+
 
 
 
