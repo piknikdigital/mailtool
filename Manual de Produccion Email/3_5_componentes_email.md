@@ -9,7 +9,7 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 \
 \
 \
-<a name="header_brand_world"></a>
+<a name="block-header_brand_world"></a>
 # header_brand_world
 
 **DESCRIPCIÓN**
@@ -34,7 +34,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![LOGO](https://i.imgur.com/ZNru2so.png)
+![header_brand_world](https://i.imgur.com/ZNru2so.png)
 
 
 \
@@ -55,7 +55,7 @@ Assets gráficos requeridos:
 \
 \
 \
-<a name="greeting_v2"></a>
+<a name="block-greeting_v2"></a>
 # greeting_v2
 
 **DESCRIPCIÓN**
@@ -132,7 +132,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![LOGO](https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e92a4c3b-ff6a-4516-8aed-2fadc6ee9541.png)
+![img](https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e92a4c3b-ff6a-4516-8aed-2fadc6ee9541.png)
 
 
 \
@@ -153,7 +153,7 @@ Assets gráficos requeridos:
 \
 \
 \
-<a name="p300_BW"></a>
+<a name="block-p300_BW"></a>
 # p300_BW
 
 **DESCRIPCIÓN**
@@ -186,7 +186,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![p](https://i.imgur.com/QzO7OyZ.png)
+![p300_BW](https://i.imgur.com/QzO7OyZ.png)
 
 
 \
@@ -215,7 +215,7 @@ Assets gráficos requeridos:
 \
 \
 \
-<a name="p700_BW"></a>
+<a name="block-p700_BW"></a>
 # p700_BW
 
 **DESCRIPCIÓN**
@@ -249,7 +249,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![p](https://i.imgur.com/RcQisVV.png)
+![p700_BW](https://i.imgur.com/RcQisVV.png)
 
 
 \
@@ -272,11 +272,82 @@ Assets gráficos requeridos:
 | __this__          |  ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
 
 
+
+
 \
 \
 \
 \
-<a name="spacer"></a>
+<a name="block-p_v2"></a>
+# p_v2
+
+**DESCRIPCIÓN**
+
+Crea una separación vertical de altura "height" entre elementos. Es posible declarar un margen lateral de diferente color a la parte central.
+
+Assets gráficos requeridos:
+
+* Ninguno.
+
+\
+**JSON** 
+
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "28", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "margin_sides"  : "5",
+            "margin_color"  : "#eeeeee",
+            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+
+
+\
+**RESULTADO**
+
+![p_v2](https://i.imgur.com/0gkJ8Rg.png)
+
+\
+**VARIABLES**
+
+|  VARIABLE   |  DESCRIPCIÓN  |
+|-------------|---------------|
+| __type__    |  __No cambiar este valor__. Describe el tipo de bloque.  |
+| __font__          | __No cambiar este valor__. La plantilla TWIG usada para crear los correos de Philip Morris usa dos tipografías: "Cabin" para el texto normal y 'Noto Sans' para el footer. Si se necesita usar otra tipografía de google fonts, es necesario primero agregarla a la plantilla TWIG que se usa para hacer los correos. |
+| __fontweight__    | "300" para texto normal o "700" para texto en negritas. El valor predefinido es "700".|
+| __fontsize__      | Tamaño en pixeles de la tipografía. El valor predefinido es "18".|
+| __height__        | Tamaño en pixeles de la línea. El valor predefinido es "28".|
+| __width__         | El ancho en porcentaje del párrafo de texto. El default es "80%".|
+| __align__         | La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify".|
+| __color__         | Color del texto en formato hexadecimal. El valor predefinido es "#34303d".|
+| __color_bkg__     | Color del background del párrafo en formato hexadecimal. El valor predefinido es "#faf7f4".|
+| __margin_top__    | El tamaño del margen superior en pixeles. El valor predefinido es "30".|
+| __margin_bottom__ | El tamaño del margen inferior en pixeles. El valor predefinido es "30".|
+| __margin_sides__  | Ancho de cada margen en porcentaje, donde el 100% es 600px. No usar un valor mayor a 49. El default es "5". |
+| __margin_color__  | Color del background de los márgenes en formato hexadecimal. El valor predefinido es "transparent". |
+| __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner supereíndices o cambiar el tamaño de alguna parte del texto. El valor predefinido muestra cómo agregar HTML.|
+| __readme__    | ___No usada por la plantilla___. Solo es un comentario para recordar las unidades a usar. |
+| __this__      | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
+
+
+
+
+
+\
+\
+\
+\
+<a name="block-spacer"></a>
 # spacer
 
 **DESCRIPCIÓN**
@@ -315,7 +386,7 @@ Assets gráficos requeridos:
 \
 \
 \
-<a name="spacer_v2"></a>
+<a name="block-spacer_v2"></a>
 # spacer_v2
 
 **DESCRIPCIÓN**
@@ -342,7 +413,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![cta1_v2](https://i.imgur.com/acTWMB4.png)
+![spacer_v2](https://i.imgur.com/acTWMB4.png)
 
 \
 **VARIABLES**
@@ -362,7 +433,7 @@ Assets gráficos requeridos:
 \
 \
 \
-<a name="cta1_v2"></a>
+<a name="block-cta1_v2"></a>
 # cta1_v2
 
 **DESCRIPCIÓN**
@@ -390,8 +461,7 @@ Assets gráficos requeridos:
 \
 **RESULTADO**
 
-![cta1_v2](https://i.imgur.com/fTETIhs.png)
-
+![cta1_v2](https://i.imgur.com/G14wdFA.png)
 
 \
 **VARIABLES**
