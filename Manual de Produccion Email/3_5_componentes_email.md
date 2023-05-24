@@ -3,7 +3,7 @@
 
 Esta sección presenta una referencia de los nombres de bloques de datos que pueden incluirse en la variable **$requiredBlocks** descrita en la [sección 3.4](3_4_Inicio_de_proyecto.md). Cuando se crea el archivo JSON descrito en la sección 3.6, estos nombres se expanden en una estructura de datos JSON donde pueden definirse los detalles de ese bloque: textos, colores, tamaños, etc. 
 
-Cada bloque se describe mostrando un ejemplo del código JSON que se genera con ese bloque, una imagen del resultado de usar ese código y una tabla describiendo cada una de las variables involucradas.
+Cada bloque se describe mostrando un ejemplo del código JSON que se genera con ese nombre de bloque, una imagen del resultado de usar ese código y una tabla describiendo cada una de las variables involucradas.
 
 \
 \
@@ -602,7 +602,7 @@ Assets gráficos requeridos:
 | __color__    | __Usualmente no se cambia__. Color del texto en formato hexadecimal. El valor predefinido es "#34303d". |
 | __fontsize__ | __No cambiar este valor__. Tamaño en pixeles de la tipografía. El valor predefinido es "11" |
 | __txt__      | El texto de los legales a mostrar. Puede ser texto plano o texto con HTML. |
-| __this__     | __No usado por la plantilla__. Se usa para comentarios, puede dejarse en blanco. |
+| __this__     | __No usada por la plantilla__. Se usa para comentarios, puede dejarse en blanco. |
 
 
 
@@ -656,7 +656,7 @@ Assets gráficos requeridos:
             "height"        : "25",
             "color_bkg"     : "transparent",
             "this"          : "spacer"
-        }';
+        },
 
 \
 **RESULTADO**
@@ -667,6 +667,43 @@ Assets gráficos requeridos:
 **VARIABLES**
 
 Este componente usa tres bloques de variables JSON, pero se omite la explicación porque no es necesario hacer ningún cambio en las variables usadas.
+
+
+\
+\
+\
+\
+<a name="block-footer_bw_v1_lowercase"></a>
+# footer_bw_v1_lowercase
+
+**DESCRIPCIÓN**
+
+Muestra el footer del correo de acuerdo a la línea gráfica "Brand World". No hay nada a configurar.
+
+Assets gráficos requeridos:
+
+* Logotipo IQOS: footer-logo-iqos.png
+* Logotipo Facebook: footer-logo-fb.png
+* Logotipo Instagram: footer-logo-ig.png
+
+\
+**JSON** 
+
+        {
+            "type"  : "footer_bw_v1_lowercase"
+        },
+
+\
+**RESULTADO**
+
+![footer_bw_v1_lowercase](https://i.imgur.com/lTYwRKD.png)
+
+\
+**VARIABLES**
+
+No hay ninguna variable a configurar. 
+
+
 
 
 
