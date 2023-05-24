@@ -97,7 +97,7 @@ Assets gráficos requeridos:
 | __color_bkg__      | Color del background en formato hexadecimal. El default es "transparent" |
 | __margin_top__     | El tamaño del margen superior en pixeles. El default es "70" |
 | __margin_bottom__  | El tamaño del margen inferior en pixeles. El default es "70" |
-| __greeting__       | __No cambiar este valor__ El texto del saludo. El default es "Hola, %%first_name%%", pero si se desea usar colores diferentes para el saludo y el nombre, se puede agregar HTML. Por ejemplo:<br> "\<span style=\"color:#e4ab68;\"\>Hola,\</span\> %%first_name%%" <br>Pone el color #e4ab68 para el saludo, mientras que el nombre tiene el color definido en "color_greeting".|
+| __greeting__       | __No cambiar este valor__. El texto del saludo. El default es "Hola, %%first_name%%", pero si se desea usar colores diferentes para el saludo y el nombre, se puede agregar HTML. Por ejemplo:<br> "\<span style=\"color:#e4ab68;\"\>Hola,\</span\> %%first_name%%" <br>Pone el color #e4ab68 para el saludo, mientras que el nombre tiene el color definido en "color_greeting".|
 | __this__           | ___No usada por la plantilla___. Area para comentarios, no es necesario modificar nada aquí. |
 
 
@@ -179,14 +179,14 @@ Assets gráficos requeridos:
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "this"          : "TXT"
         },
 
 \
 **RESULTADO**
 
-![p](https://i.imgur.com/CR2bDOI.png)
+![p](https://i.imgur.com/QzO7OyZ.png)
 
 
 \
@@ -198,14 +198,14 @@ Assets gráficos requeridos:
 | __font__          | __No cambiar este valor__. La plantilla TWIG usada para crear los correos de Philip Morris usa dos tipografías: "Cabin" para el texto normal y 'Noto Sans' para el footer. |
 | __fontweight__    | "300" para texto normal o "700" para texto en negritas. El valor predefinido es "300".|
 | __fontsize__      | Tamaño en pixeles de la tipografía. El valor predefinido es "18".|
-| __height__        | Tamaño en pixeles de la línea. El valor predefinido es "26".|
+| __height__        | Tamaño en pixeles de la altura de la línea. El valor predefinido es "26".|
 | __width__         | El ancho en porcentaje del párrafo de texto. El default es "70%".|
 | __align__         | La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify".|
 | __color__         | Color del texto en formato hexadecimal. El valor predefinido es "#34303d".|
 | __color_bkg__     | Color del background en formato hexadecimal. El valor predefinido es "transparent".|
 | __margin_top__    | El tamaño del margen superior en pixeles. El valor predefinido es "50".|
 | __margin_bottom__ | El tamaño del margen inferior en pixeles. El valor predefinido es "50".|
-| __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner supereíndices o cambiar el tamaño de alguna parte del texto. El valor predefinido muestra cómo agregar HTML.|
+| __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner superíndices o cambiar el tamaño de alguna parte del texto. El valor predefinido muestra cómo agregar HTML.|
 | __this__          |  ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
 
 

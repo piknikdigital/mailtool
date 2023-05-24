@@ -1266,7 +1266,7 @@ $libraryBlocks['p300_BW'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "this"          : "TXT"
         },';
 $libraryBlocks['p700_BW'] ='
