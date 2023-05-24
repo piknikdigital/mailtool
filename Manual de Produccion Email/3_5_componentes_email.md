@@ -1,10 +1,12 @@
 # **3.5 Bloques de componentes de e-mail**
 
 
-Esta sección presenta una referencia de los nombres de bloques de datos que pueden incluirse en la variable **$requiredBlocks** descrita en la [sección 3.4](3_4_Inicio_de_proyecto.md). Cuando se crea el archivo JSON descrito en la sección 3.6, estos nombres se expanden en una estructiura de datos JSON donde pueden definirse los detalles de ese bloque: textos, colores, tamaños, etc. 
+Esta sección presenta una referencia de los nombres de bloques de datos que pueden incluirse en la variable **$requiredBlocks** descrita en la [sección 3.4](3_4_Inicio_de_proyecto.md). Cuando se crea el archivo JSON descrito en la sección 3.6, estos nombres se expanden en una estructura de datos JSON donde pueden definirse los detalles de ese bloque: textos, colores, tamaños, etc. 
 
 Cada bloque se describe mostrando un ejemplo del código JSON que se genera con ese bloque, una imagen del resultado de usar ese código y una tabla describiendo cada una de las variables involucradas.
 
+\
+\
 \
 \
 <a name="header_brand_world"></a>
@@ -19,7 +21,6 @@ Assets gráficos requeridos:
 * Una imagen PNG de 800 x 150px.
 
 \
-\
 **JSON** 
 
         {
@@ -31,13 +32,11 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![LOGO](https://i.imgur.com/ZNru2so.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -48,10 +47,12 @@ Assets gráficos requeridos:
 | __img__     |  nombre del archivo a usar. Los posibles valores son:<br>* **header-iqos-bw-2.png**: Texto a la derecha "Elijo IQOS"<br>* **header-iqos-bw-3.png**: Texto a la derecha "Refiere a un amigo /  myIQOS" <br>* **header-iqos-bw-4.png**: Texto a la derecha "myIQOS" |
 | __url__     |  Si se requiere que la imagen a mostrar tenga un link, se pone aquí la ULR de dicho link. Si la imagen no requiere hipervínculo, se pone únicamente el símbolo \#.  |
 | __this__    |  ___No usada por la plantilla___. Se usa para comentarios, típicamente, para describir el uso de esta imagen. Es útil dejar un comentario aquí para mayor claridad al momento de hacer cambios en el mail, pero se puede dejar en blanco.  |
-|||
 
 
 
+
+\
+\
 \
 \
 <a name="greeting_v2"></a>
@@ -65,7 +66,6 @@ Assets gráficos requeridos:
 
 * Ninguno
 
-\
 \
 **JSON** 
 
@@ -81,13 +81,11 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![greeting_v2](https://i.imgur.com/j9QmtaQ.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -101,15 +99,10 @@ Assets gráficos requeridos:
 | __margin_bottom__  | El tamaño del margen inferior en pixeles. El default es "70" |
 | __greeting__       | __No cambiar este valor__ El texto del saludo. El default es "Hola, %%first_name%%", pero si se desea usar colores diferentes para el saludo y el nombre, se puede agregar HTML. Por ejemplo:<br> "\<span style=\"color:#e4ab68;\"\>Hola,\</span\> %%first_name%%" <br>Pone el color #e4ab68 para el saludo, mientras que el nombre tiene el color definido en "color_greeting".|
 | __this__           | ___No usada por la plantilla___. Area para comentarios, no es necesario modificar nada aquí. |
-|||
 
 
 
 
-
-
-\
-\
 \
 \
 \
@@ -126,7 +119,6 @@ Assets gráficos requeridos:
 * Una imagen JPG, PNG o GIF de 800px de ancho.
 
 \
-\
 **JSON** 
 
         {
@@ -138,13 +130,11 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![LOGO](https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e92a4c3b-ff6a-4516-8aed-2fadc6ee9541.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -155,13 +145,10 @@ Assets gráficos requeridos:
 | __img__     |  nombre del archivo a usar, puede ser un JPG, PNG o GIF. Se recomienda que la imagen tenga un ancho de 800px. |
 | __url__     |  Si se requiere que la imagen a mostrar tenga un link, se pone aquí la ULR de dicho link. Si la imagen no requiere hipervínculo, se pone únicamente el símbolo \#.  |
 | __this__    |  ___No usada por la plantilla___. Se usa para comentarios, típicamente, para describir el uso de esta imagen. Es útil dejar un comentario aquí para mayor claridad al momento de hacer cambios en el mail, pero se puede dejar en blanco.  |
-|||
 
 
 
 
-\
-\
 \
 \
 \
@@ -177,7 +164,6 @@ Assets gráficos requeridos:
 
 * Ninguno.
 
-\
 \
 **JSON** 
 
@@ -198,13 +184,11 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![p](https://i.imgur.com/CR2bDOI.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -223,12 +207,10 @@ Assets gráficos requeridos:
 | __margin_bottom__ | El tamaño del margen inferior en pixeles. El valor predefinido es "50".|
 | __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner supereíndices o cambiar el tamaño de alguna parte del texto. El valor predefinido muestra cómo agregar HTML.|
 | __this__          |  ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
-|||
 
 
 
-\
-\
+
 \
 \
 \
@@ -244,7 +226,6 @@ Assets gráficos requeridos:
 
 * Ninguno.
 
-\
 \
 **JSON** 
 
@@ -264,14 +245,13 @@ Assets gráficos requeridos:
             "this"          : "TXT"
         },
 
-\
+
 \
 **RESULTADO**
 
 ![p](https://i.imgur.com/RcQisVV.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -290,11 +270,8 @@ Assets gráficos requeridos:
 | __margin_bottom__ | El tamaño del margen inferior en pixeles. El valor predefinido es "50".|
 | __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner supereíndices o cambiar el tamaño de alguna parte del texto. El valor predefinido muestra cómo agregar HTML.|
 | __this__          |  ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
-|||
 
 
-\
-\
 \
 \
 \
@@ -311,7 +288,6 @@ Assets gráficos requeridos:
 * Ninguno.
 
 \
-\
 **JSON** 
 
         {
@@ -322,8 +298,6 @@ Assets gráficos requeridos:
             "this"          : "spacer"
         },
 
-
-\
 \
 **VARIABLES**
 
@@ -334,11 +308,9 @@ Assets gráficos requeridos:
 | __color_bkg__ | Color del background en formato hexadecimal. El valor predefinido es "transparent". |
 | __readme__    | ___No usada por la plantilla___. Solo es un comentario para recordar las unidades a usar. |
 | __this__      | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
-|||
 
 
-\
-\
+
 \
 \
 \
@@ -355,7 +327,6 @@ Assets gráficos requeridos:
 * Ninguno.
 
 \
-\
 **JSON** 
 
         {
@@ -369,12 +340,10 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![cta1_v2](https://i.imgur.com/acTWMB4.png)
 
-\
 \
 **VARIABLES**
 
@@ -387,13 +356,8 @@ Assets gráficos requeridos:
 | __margin_color__ | Color del background de los márgenes en formato hexadecimal. El valor predefinido es "transparent". |
 | __readme__  | ___No usada por la plantilla___. Solo es un comentario para recordar las unidades a usar. |
 | __this__    | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
-|||
 
 
-
-
-\
-\
 \
 \
 \
@@ -410,7 +374,6 @@ Assets gráficos requeridos:
 * Imagen PNG de fondo transparente con el CTA a mostrar. Es preferible que el ancho real de la imagen sea mayor al tamaño que se pretenda mostrar el CTA.
 
 \
-\
 **JSON** 
 
         {
@@ -425,13 +388,11 @@ Assets gráficos requeridos:
         },
 
 \
-\
 **RESULTADO**
 
 ![cta1_v2](https://i.imgur.com/fTETIhs.png)
 
 
-\
 \
 **VARIABLES**
 
@@ -445,33 +406,25 @@ Assets gráficos requeridos:
 | __margin_bottom__ | Margen inferior en pixeles. El valor predefinido es "50" |
 | __url_cta__       | URL al que debe apuntar el CTA. Ver notas sobre el URL abajo. |
 | __this__          | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
-|||
 
 
-## **Notas sobre el URL**
+# **Notas sobre el URL**
 
-**Cómo insertar un número telefónico**: 
+Además del protocolo HTTP el url puede usar otros protocolos. Estos son los casos más comunes:
 
-Usar el protocolo "tel":
-
-    "tel:numero-telefonico-sin-espacios"
-
-**Cómo insertar un mensaje de whatsapp**: 
-
-    1.- Codificar el mensaje a mandar en https://www.urlencoder.org/
-    2.- El URL a usar sera "https://wa.me/?text=" + Mensaje codificado en el paso 1.
-
-**Cómo invocar el envío de un SMS**:
-
-El protocolo SMS no está soportado en un email, pero se puede usar un acortador de enlaces para que sea el acortador de mensajes el que use el protocolo SMS. 
-
-    1.- Formar el URL del numero a contactar incluyendo el código de país. Por ejemplo, para el número "5592253374" el URL debe ser: sms://+525592253374 Nótese que se tiene que incluir el código de país para que funcione (+52 para México)
-    2.- Usar https://cutt.ly/ y obtener un short link para el URL obtenido en el paso 1. El URL a usar en el correo debe ser el obtenido en cutt.ly
+|  Caso              | URL a usar  |
+|--------------------|---------------|
+| __Llamada telefónica__ | Usar el protocolo "tel" con el número telefónico a 10 dígitos, sin espacios:<br>"tel:5555555555" |
+| __Mensaje de Whatsapp__ | Se usa la la API de Whatsapp mandando el mensaje codificado.<br>1.- Codificar el mensaje a mandar en https://www.urlencoder.org/<br>2.- El URL a usar sera "https://wa.me/?text=" seguido del mensaje codificado en el paso 1.
+| __Invocar el envío de un SMS__ | El protocolo SMS no está soportado en un email por restricciones en los clientes de correo, pero se puede usar un acortador de enlaces para que sea el acortador de mensajes el que use el protocolo SMS. <br>1.- Formar el URL del número a contactar incluyendo el código de país. Por ejemplo, para el número "5592253374" el URL debe ser: __sms://+525592253374__ Nótese que se tiene que incluir el código de país para que funcione (+52 para México)<br>2.- Usar https://cutt.ly/ y obtener un short link para el URL obtenido en el paso 1. El URL a usar en el correo debe ser el obtenido en cutt.ly |
 
 
 
 
-\
+
+
+
+
 \
 \
 
