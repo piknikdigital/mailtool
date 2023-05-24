@@ -14,11 +14,18 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 
 **DESCRIPCIÓN**
 
-Muestra una imagen usando el 100% de ancho del contenedor del contenido (600 px). Esta imagen se usa en todos los correos de Philip Morris y consiste en el logotipo de IQOS del lado izquierdo y una frase del lado derecho.
+Muestra la imagen usada como header en todos los correos de Philip Morris de la campaña visual "Brand World". La imagen usa el 100% de ancho del contenedor del contenido (600 px) y consiste en el logotipo de IQOS del lado izquierdo y una frase del lado derecho.
 
 Assets gráficos requeridos:
 
 * Una imagen PNG de 800 x 150px.
+
+Assets de librería disponibles:
+
+* header-iqos-bw-2.png
+* header-iqos-bw-3.png
+* header-iqos-bw-4.png
+* header-iqos-bw-5.png
 
 \
 **JSON** 
