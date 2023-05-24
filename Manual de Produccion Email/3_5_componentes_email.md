@@ -283,7 +283,7 @@ Assets gráficos requeridos:
 
 **DESCRIPCIÓN**
 
-Crea una separación vertical de altura "height" entre elementos. Es posible declarar un margen lateral de diferente color a la parte central.
+Muestra un bloque de texto "content" de un ancho "width" delimitado por margenes de ancho "margin_sides" con color "margin_color". Puede ponerse texto plano, o decorado con HTML.
 
 Assets gráficos requeridos:
 
