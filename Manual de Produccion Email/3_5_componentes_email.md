@@ -354,6 +354,74 @@ Assets gráficos requeridos:
 \
 \
 \
+<a name="block-pframed"></a>
+# pframed
+
+**DESCRIPCIÓN**
+
+Muestra un párrafo de texto "content" enmarcado por un borde de color "framecolor" y fondo de color "color_boxbkg".
+
+Assets gráficos requeridos:
+
+* Ninguno
+
+\
+**JSON** 
+
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "#00d1d2",
+            "color_boxbkg"  : "#faf7f4",
+            "framecolor"    : "#34303d",
+            "margin_top"    : "20",
+            "margin_bottom" : "20",
+            "framepadding"  : "30",
+            "content"       : "<strong>Quis</strong><sup>(2)</sup> autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "this"          : "Framed Text"
+        },
+
+
+\
+**RESULTADO**
+
+![pframed](https://i.imgur.com/8mU3t24.png)
+
+\
+**VARIABLES**
+
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __type__     | __No cambiar este valor__. Describe el tipo de bloque.  |
+| __fontweight__    | "300" para texto normal o "700" para texto en negritas. El valor predefinido es "300" |
+| __fontsize__      | Tamaño en pixeles de la tipografía. El valor predefinido es "16" |
+| __height__        | Tamaño en pixeles de la altura de línea. El valor predefinido es "20" |
+| __width__         | El ancho en porcentaje del recuadro de texto. El valor predefinido es "80%" |
+| __align__         | La alineación del texto dentro del recuadro. Los posibles valores son "center", "right", "left" y "justify". |
+| __color__         | Color del texto en formato hexadecimal. El valor predefinido es "#34303d" |
+| __color_bkg__     | Color del background en formato hexadecimal. El valor predefinido es "transparent" |
+| __color_boxbkg__  | Color del background del interior del recuadro en formato hexadecimal. El valor predefinido es "#faf7f4" |
+| __framecolor__    | Color del recuadro en formato hexadecimal. El valor predefinido es "#34303d" |
+| __margin_top__    | El tamaño del margen superior en pixeles. El valor predefinido es "0" |
+| __margin_bottom__ | El tamaño del margen inferior en pixeles. El valor predefinido es "0" |
+| __framepadding__  | El espacio de relleno a los 4 lados entre el texto y el borde del recuadro. El valor predefinido es "20" |
+| __content__       | El texto a mostrar. De ser necesario, puede incluirse HTML para cambiar los colores, poner superíndices o cambiar el tamaño de alguna parte del texto.|
+| __this__          |  ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
+
+
+
+
+
+
+\
+\
+\
+\
 <a name="block-spacer"></a>
 # spacer
 

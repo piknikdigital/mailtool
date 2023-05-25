@@ -562,8 +562,8 @@ $libraryBlocks['pframed'] ='
             "color_bkg"     : "transparent",
             "color_boxbkg"  : "#faf7f4",
             "framecolor"    : "#faf7f4",
-            "margin_top"    : "0",
-            "margin_bottom" : "0",
+            "margin_top"    : "20",
+            "margin_bottom" : "20",
             "framepadding"  : "30",
             "content"       : "<strong>IQOS</strong><sup>(2)</sup>",
             "this"          : ""
