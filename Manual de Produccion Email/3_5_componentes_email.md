@@ -18,14 +18,6 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 \
 \
 &nbsp;
-
-www
-
-\
-\
-\
-\
-
 # header_brand_world
 
 **DESCRIPCIÓN**
