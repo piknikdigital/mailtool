@@ -5,6 +5,13 @@ Esta sección presenta una referencia de los nombres de bloques de datos que pue
 
 Cada bloque se describe mostrando un ejemplo del código JSON que se genera con ese nombre de bloque, una imagen del resultado de usar ese código y una tabla describiendo cada una de las variables involucradas.
 
+Índice
+
+* [header_brand_world](3_5_Componentes_email.md#block-header_brand_world)
+* [greeting_v2](3_5_Componentes_email.md#block-greeting_v2)
+
+
+
 \
 \
 \
