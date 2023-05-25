@@ -550,7 +550,7 @@ Assets gráficos requeridos:
 | __width__         | __No cambiar este valor__. El ancho en porcentaje del párrafo de texto. El default es "70%".|
 | __align__         | __No cambiar este valor__. La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify".|
 | __color__         | __Usualmente no se cambia__. Color del texto en formato hexadecimal. El valor predefinido es "#00d1d2".|
-| __color_bkg__     | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "#transparent".|
+| __color_bkg__     | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "transparent".|
 | __margin_top__    | __Usualmente no se cambia__. El tamaño del margen superior en pixeles. El valor predefinido es "50". |
 | __margin_bottom__ | __Usualmente no se cambia__. El tamaño del margen inferior en pixeles. El valor predefinido es "50". |
 | __content__       | __Usualmente no se cambia__. El texto a mostrar. El valor predefnido es "#ElijoIQOS", pero puede modificarse dependiendo de la campaña.|
@@ -597,7 +597,7 @@ Assets gráficos requeridos:
 |  VARIABLE    |  DESCRIPCIÓN  |
 |--------------|---------------|
 | __type__     | __No cambiar este valor__. Describe el tipo de bloque.  |
-| __bgcolor__  | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "#transparent".|
+| __bgcolor__  | __Usualmente no se cambia__. Color del background del párrafo en formato hexadecimal. El valor predefinido es "transparent".|
 | __align__    | __No cambiar este valor__. La alineación del texto dentro del párrafo. Los posibles valores son "center", "right", "left" y "justify". El valor predefinido es "justify". |
 | __color__    | __Usualmente no se cambia__. Color del texto en formato hexadecimal. El valor predefinido es "#34303d". |
 | __fontsize__ | __No cambiar este valor__. Tamaño en pixeles de la tipografía. El valor predefinido es "11" |
@@ -706,6 +706,144 @@ No hay ninguna variable a configurar.
 
 
 
+
+
+\
+\
+\
+\
+<a name="block-form"></a>
+# form
+
+**DESCRIPCIÓN**
+
+Muestra un formulario. Este es un caso especial que tiene que configurarse de dos maneras diferentes dependiendo del destino del HTML a generar. El texto JSON que se muestra a continuación es para el HTML usado en el link de preview.
+
+Assets gráficos requeridos:
+
+* Una imagen PNG con fondo transparente para el CTA "Enviar".
+
+\
+**JSON (HTML para link de preview)** 
+
+        {
+            "type"          : "form",
+            "ID"            : "form1",
+            "method"        : "get",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "align"         : "left",
+            "color_greeting": "#000000",
+            "color_bkg"     : "transparent",
+            "width"         : "80%",
+            "form_bgcolor"  : "#edeeed",
+            "this"          : "",
+            "imgBullet"     : "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/23150b58-1b62-4576-9a23-8052512bca74.png",
+            "formurl"       : "#",
+            "button"        : "enviar.png",
+            "buttonwidth"   : "180",
+
+            "list" :  
+            [
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_1",
+                    "txt"       : "Solo uso IQOS."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_2",
+                    "txt"       : "Uso IQOS y fumo cigarros, IQOS con más frecuencia."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_3",
+                    "txt"       : "Uso IQOS tanto como fumo cigarros, ambos casi con la misma frecuencia."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_4",
+                    "txt"       : "Uso IQOS tanto como cigarros pero fumo más cigarros con mayor frecuencia."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_5",
+                    "txt"       : "Solo fumo cigarros."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_6",
+                    "txt"       : "Ya no fumo ni consumo IQOS."
+                }
+            ]
+        },
+        {
+            "type"          : "rawHTML_______ACTIVATE_THIS_FOR_DCE_OR_LOCAL",
+            "th_valign"     : "",
+            "th_style"      : "",
+            "th_align"      : "",
+            "html"          : "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "this"          : "HTML RAW"
+        },
+
+
+\
+**RESULTADO**
+
+![form](https://i.imgur.com/SYifkDi.png)
+
+
+\
+**VARIABLES**
+
+Se listan solamente las variables más comunes de configurar.
+
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __type__     | __No cambiar este valor__. Describe el tipo de bloque.  |
+| __form_bgcolor__  | Color del background del formulario en formato hexadecimal. El valor predefinido es "#edeeed".|
+| __button__        | Nombre del archivo PNG para el CTA "Enviar".  |
+| __buttonwidth__   | Ancho en pixeles del botón del CTA. Idealmente, debe ser un tamaño menor al ancho de la imagen usada. |
+| __txt__           | El texto de cada una de las opciones del formulario. Debe haber uno de estos elementos para cada opción del formulario. |
+
+# **Formulario en Salesforce**
+
+Para salesforce el JSON previo tiene que modificarse de la siguiente manera:
+
+* En el bloque "form", cambiarlo a:
+   
+  >  "type": "form_DEACTIVATED"
+
+* En el bloque "rawHTML_______ACTIVATE_THIS_FOR_DCE_OR_LOCAL", cambiarlo a:
+   
+  >  "type": "rawHTML"
+
+
+Al cambiar el primer bloque lo ocultamos al producir el código HTML. Al cambiar el segundo bloque permitimos que se genere un código HTML especial que Salesforce reconoce como punto de inserción para crear contenido con su herramienta visual en el Content Builder.
 
 
 
