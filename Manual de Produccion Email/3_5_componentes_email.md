@@ -16,8 +16,7 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 \
 \
 \
-&nbsp;
-
+<a></a>
 # header_brand_world
 
 **DESCRIPCIÓN**
