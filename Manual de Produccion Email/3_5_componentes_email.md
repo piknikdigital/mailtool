@@ -7,10 +7,9 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 
 Índice
 
-* [header_brand_world](3_5_Componentes_email.md#header_brand_world)
-* [greeting_v2](3_5_Componentes_email.md#greeting_v2)
-* [img](3_5_Componentes_email.md#img)
-
+* [header_brand_world](3_5_componentes_email.md#header_brand_world)
+* [greeting_v2](3_5_componentes_email.md#greeting_v2)
+* [img](3_5_componentes_email.md#img)
 
 
 \
@@ -18,6 +17,7 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 \
 \
 &nbsp;
+
 # header_brand_world
 
 **DESCRIPCIÓN**
