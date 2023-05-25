@@ -10,7 +10,25 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
 * [header_brand_world](3_5_componentes_email.md#block-header_brand_world)
 * [greeting_v2](3_5_componentes_email.md#block-greeting_v2)
 * [img](3_5_componentes_email.md#block-img)
+* [p300_BW](3_5_componentes_email.md#block-p300_BW)
+* [p700_BW](3_5_componentes_email.md#block-p700_BW)
+* [p_v2](3_5_componentes_email.md#block-p_v2)
+* [pframed](3_5_componentes_email.md#block-pframed)
+* [spacer](3_5_componentes_email.md#block-spacer)
+* [spacer_v2](3_5_componentes_email.md#block-spacer_v2)
+* [cta1_v2](3_5_componentes_email.md#block-cta1_v2)
+* [ElijoIQOS](3_5_componentes_email.md#block-ElijoIQOS)
+* [legal_extra](3_5_componentes_email.md#block-legal_extra)
+* [disclaimer_iqos](3_5_componentes_email.md#block-disclaimer_iqos)
+* [footer_bw_v1_lowercase](3_5_componentes_email.md#block-footer_bw_v1_lowercase)
+* [form](3_5_componentes_email.md#block-form)
+* [columns](3_5_componentes_email.md#block-columns)
+  
 
+
+
+
+p300_BW
 
 \
 \
