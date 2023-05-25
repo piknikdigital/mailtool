@@ -845,6 +845,8 @@ Para salesforce el JSON previo tiene que modificarse de la siguiente manera:
 
 Al cambiar el primer bloque lo ocultamos al producir el código HTML. Al cambiar el segundo bloque permitimos que se genere un código HTML especial que Salesforce reconoce como punto de inserción para crear contenido con su herramienta visual en el Content Builder.
 
+El formulario completo se tiene que crear dentro de Salesforce.
+
 
 
 
