@@ -26,10 +26,6 @@ Cada bloque se describe mostrando un ejemplo del código JSON que se genera con 
   
 
 
-
-
-p300_BW
-
 \
 \
 \
@@ -925,7 +921,7 @@ Se listan solamente las variables más comunes de configurar.
 
 # **Formulario en Salesforce**
 
-Para salesforce el JSON previo tiene que modificarse de la siguiente manera:
+Para producir el HTML que se va a usar en Salesforce, el JSON previo tiene que modificarse de la siguiente manera:
 
 * En el bloque "form", cambiarlo a:
    
