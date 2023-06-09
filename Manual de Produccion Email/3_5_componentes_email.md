@@ -963,6 +963,7 @@ Assets gráficos requeridos:
 
 \
 **JSON** 
+
         {
             "type"              : "columns",
             "font"              : "Cabin",
