@@ -1,0 +1,266 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH.html",
+
+        "Subject"          :   "¿Quieren que los mexicanos dejen de fumar, o no?",
+        "Preheader"        :   "Hablemos de la importancia de regular las alternativas al consumo de tabaco",
+
+        "PATH"             :   "Content Builder > 179_FSH 2023 02 06 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "FSH 3 Mitos",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2306/pmi-230602-fsh/pmi-230602-ID23.67-fsh-3-mitos-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+    "footer_template__"          :   "",
+    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "TwigFooterBlock"  :   "block-footer.twig",
+    "Source"           :   "pmi-230602-ID23.67-fsh-3-mitos-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+      "blocks" : 
+    [
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "70",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/cffa03e7-d251-46b7-b2ad-5732f98d4285.png",
+            "url": "#",
+            "this": "IMG 23.67-1"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/059f8f64-dc24-4e1d-864a-97546c535500.png",
+            "url": "#",
+            "this": "IMG 23.67-2"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "240",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/4b1774fd-2a47-4876-beea-d27d16fe0eb7.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://futurosinhumo.com.mx/mitos-y-verdades-sobre-las-alternativas-al-cigarro/",
+            "this": "CTA cta-fsh-conoce-mas"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/8ea9420d-167c-409c-9384-6968015231a8.png",
+            "url": "#",
+            "this": "IMG 23.67-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "La regulación de los productos libres de humo puede ser una buena opción para combatir la desinformación y ayudar a disminuir el consumo de cigarro.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/edfb14c1-c50a-4b8a-adb2-11b5baf707f2.png",
+            "url": "https://futurosinhumo.com.mx/por-que-se-deben-regular-las-alternativas-sin-humo/",
+            "this": "CTA mas beneficios aqui IMG 23.67-4"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/eb18f4b2-f1e5-4cc4-99e0-f5033a5b5088.png",
+            "url": "#",
+            "this": "IMG 23.67-5"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "DALE VOZ... FB TW WA",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "imgwidth": "60",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/bc024818-a29a-4e42-8069-17e286a6963c.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.67-6"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "40",
+                    "imgwidth": "240",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/6f45efc7-791b-4190-a878-c8bea04ec893.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.67-7"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "14",
+                    "imgwidth": "40",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/00b38372-9cfe-419f-a1bd-31b97178ec7d.png",
+                    "imgulr": "http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.",
+                    "THISIMG": "IMG FB yellow-share-2-fb-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "13",
+                    "imgwidth": "40",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/8a9c96c3-4585-4230-bf30-a17885f66356.png",
+                    "imgulr_old": "https://ctt.ac/z13Mr",
+                    "imgulr": "https://twitter.com/intent/tweet?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG": "IMG TW yellow-share-3-tw-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "13",
+                    "imgwidth": "40",
+                    "mtop": "30",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/26df5813-8678-46c6-8351-7d5c0cbbe7ef.png",
+                    "imgulr": "https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx",
+                    "THISIMG": "IMG IG yellow-share-4-wa-share"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ffdd3a",
+                    "widthp100": "10",
+                    "imgwidth": "60",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/5f6f33d8-27f6-467f-a7cd-02e57136fc1e.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.67-8"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/645a3969-1511-4e89-8dae-56e85c63acac.png",
+            "url": "#",
+            "this": "IMG 23.67-9"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/3/ce52522c-da51-4c5a-a632-335eae5a6f12.jpg",
+            "url": "#",
+            "this": "IMG 23.67-10"
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_fsh"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+    }
+    

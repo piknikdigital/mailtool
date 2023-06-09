@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.63-common.php");
+require_once("23.76-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -16,24 +16,29 @@ switch ($target)
 }
 
 $requiredBlocks = array(
+    "header_brand_world",
+    "img",
+
     "greeting_v2",
+    "p300_BW",
 
-    "img",
-    "spacer",
-
-    "img",
-    "img",
-    "spacer",
-
-    "img",
     "columns",
-    "img",
     "spacer",
+    
+    "columns",
+    "spacer",
+    
+    "columns",
+    "spacer",
+    
+    "columns",
 
-    "img",
-    "disclaimer_fsh",
-    "footer_fsh",
+    "cta1_v2",
 
+    "ElijoIQOS",
+    "legal_extra",
+    "disclaimer_iqos",
+    "footer_bw_v1_lowercase"
 );
 
 
@@ -51,8 +56,18 @@ $requiredBlocks = array(
     "spacer_v2",
 
     "footer_bw_v1",
-    "footer_fsh",
-    "disclaimer_fsh",
+
+        PARA FUTURO SIN HUMO USAR:
+            "disclaimer_fsh",
+            "footer_fsh"
+
+        PARA IQOS USAR
+            "ElijoIQOS",
+            "legal_extra",
+            "disclaimer_iqos",
+            "footer_bw_v1_lowercase"
+
+
 
     "greeting_negro",
     "greeting_dorado",
@@ -92,10 +107,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-
-
-
-    CODIGO PARA CUPON X X X X X X X X :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 7676XX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -149,33 +161,57 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+<b>IQOS</b> es un dispositivo de <span style=\"color:#00d1d2;font-weight:700;\">calentamiento de tabaco</span> que:
+--------------------
+--------------------
+--------------------
+Adquiere tu primer <b>Kit IQOS</b><br>usando el código:
+--------------------
+--------------------
+--------------------
+y obtén 
+--------------------
+20% de <br>descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>
+--------------------
+--------------------
+--------------------
+Tu IQOS te está<br> esperando 
+--------------------
+Visita tu <span style=\"color:#00d1d2;font-weight:700;\">Tienda IQOS</span> o <br><span style=\"color:#00d1d2;font-weight:700;\">IQOS Corner Sanborns</span><br>seleccionados, más<br>cercanos y únete al cambio.
+--------------------
+--------------------
+--------------------
+(1) Código \"MENOSOLOR\" equivalente a un 20% de descuento sobre precio vigente, válido del 1 de enero al 30 de junio del 2023 en la compra de tu primer Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS, Call Center IQOS y IQOS Corners en Sanborns. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+===================================================================
+SHARE MSG FSH:
+
+fb
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.
+
+tw
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+https://twitter.com/intent/tweet?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx
+ya no es necesario: https://ctt.ac/z13Mr
+
+wa
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx
+
 ===================================================================
 
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

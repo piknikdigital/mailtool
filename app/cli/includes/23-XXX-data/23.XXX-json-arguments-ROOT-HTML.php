@@ -24,6 +24,7 @@ $requiredBlocks = array(
 
     "columns",
     "spacer",
+    "cta1_v2",
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -45,8 +46,18 @@ $requiredBlocks = array(
     "spacer_v2",
 
     "footer_bw_v1",
-    "footer_fsh",
-    "disclaimer_fsh",
+
+        PARA FUTURO SIN HUMO USAR:
+            "disclaimer_fsh",
+            "footer_fsh"
+
+        PARA IQOS USAR
+            "ElijoIQOS",
+            "legal_extra",
+            "disclaimer_iqos",
+            "footer_bw_v1_lowercase"
+
+
 
     "greeting_negro",
     "greeting_dorado",
@@ -86,10 +97,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-
-
-
-    CODIGO PARA CUPON X X X X X X X X :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -168,8 +176,24 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+
 --------------------
---------------------
+===================================================================
+SHARE MSG FSH:
+
+fb
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+http://www.facebook.com/share.php?u=https://futurosinhumo.com.mx&quote=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.
+
+tw
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+https://twitter.com/intent/tweet?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx
+ya no es necesario: https://ctt.ac/z13Mr
+
+wa
+Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativas para los que fuman. Únete al movimiento. https://futurosinhumo.com.mx 
+https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx
+
 ===================================================================
 
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",

@@ -1,6 +1,6 @@
 <?php
 
-require_once("23.64-common.php");
+require_once("23.36b-common.php");
 
 $target    = "HTML";       // "HTML", "DCE" o "FSH"
 
@@ -22,8 +22,20 @@ $requiredBlocks = array(
     "greeting_v2",
     "p300_BW",
 
+
     "columns",
     "spacer",
+
+    "columns",
+    "columns",
+    "columns",
+    "spacer",
+
+    "columns",
+
+    "cta1_v2",
+
+
     "ElijoIQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -109,12 +121,10 @@ BAD CHR : "", "	"
 ||   34303d                        ||
 ||   Naranja                       ||
 ||   e3813b                        ||
-||   GRIS CLARO                    ||
-||   faf7f4                        ||
 ++---------------------------------++
 --------------------
 ===================================================================
-<span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"color:#00d1d2;font-weight:700;font-size:22px;\"></span>
 ===================================================================
 <span style=\"color:#00d1d2;font-weight:700;font-size:24px;\"></span>
 ===================================================================
@@ -128,31 +138,28 @@ BAD CHR : "", "	"
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 ===================================================================
 --------------------
-url para mandar SMS:
-    https://cutt.ly/59uY4Ga
-Shortlink points to:
-    sms://+525592253374
 --------------------
-PRECIO TACHADO:
-<span style=\"text-decoration:line-through;color:#00d1d2;\">
-   <span style=\"color:#34303d;\">
-   &nbsp;$1,399 MXN&nbsp;
-   </span>
-</span>
+--------------------
+Este es tu <span style=\"font-size:24px;font-weight:700;\">Código Único</span>
+--------------------
+Compártelo y podrás obtener <span style=\"color:#00d1d2;font-weight:700;font-size:22px;\">$300 MXN<span style=\"font-size:16px;\"><sup>(1)</sup></span></span><br>por cada conocido<span style=\"font-size:12px;\"><sup>(2)</sup></span> que lo utilice. 
 --------------------
 --------------------
 --------------------
 --------------------
+Durante el <span style=\"color:#00d1d2;font-weight:700;font-size:22px;\">mes de mayo</span><br>tus conocidos obtienen
 --------------------
+30% de descuento<span style=\"font-size:16px;\"><sup>(3)</sup></span>
+--------------------
+en la compra de su <br>primer Kit IQOS.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+(1) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.<br>(2) Solo para fumadores adultos.<br>(3) 30% de descuento vigente del XX al XX de XX de 2023. Aplicable en la compra de un kit IQOS en compraiqos.com.mx, Tiendas IQOS y Call Center IQOS. Sujeto a disponibilidad de inventario. Vigencia del código hasta el XX de XX de 2023. Consulta Términos y Condiciones en Códigos de Descuento
+
+
 --------------------
 --------------------
 --------------------

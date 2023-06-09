@@ -941,6 +941,253 @@ El formulario completo se tiene que crear dentro de Salesforce.
 
 \
 \
+\
+\
+<a name="block-columns"></a>
+# columns
+
+**DESCRIPCIÓN**
+
+Muestra "n" columnas con diferente tipo de contenido. Este módulo es altamente configurable y puede resolver muchos casos de maquetacion. Existen tres tipos de columna:
+
+| Tipo de columna |  DESCRIPCIÓN  |
+|-----------------|---------------|
+| __img__         | El único contenido en la columna es una imagen.|
+| __spacer__      | El único contenido en la columna es un espacio vacío. Se usa principalmente para separar columnas con contenido.|
+| __multirows__   | Columna con tipos múltiples de contenido:<br>* Texto: Texto plano o con formato HTML.<br>* Espaciamiento: Separadores verticales de elementos.<br>* Recuadro de texto: Texto delimitado con un borde.<br>* Imagen: Imágenes con o sin link.|
+
+
+Assets gráficos requeridos:
+
+* Imagenes en formato PNG o JPG. Para el caso de iconos, se recomienda imágenes PNG de 128x128 px
+
+\
+**JSON** 
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "20",
+            "margin_bottom"     : "20",
+            "color_bkg"         : "coral",
+            "this"              : "3500 PUNTOS DE VENTA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#f7f7f7",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#dddddd",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#dddddd",
+                    "widthp100"     : "40",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Encuéntralas en uno de los",
+                            "color_bkg"     : "#dddddd",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "3500 puntos<br>de venta",
+                            "color_bkg"     : "#dddddd",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "30px",
+                            "p_align"       : "left",
+                            "p_color"       : "#00d1d2",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "de diferentes cadenas comerciales.",
+                            "color_bkg"     : "#dddddd",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-turquesa-localiza-tu-tienda.png",
+                            "color_bkg"      : "#dddddd",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "200",
+                            "align"          : "left",
+                            "imgulr"         : "https://www.google.com/maps/d/u/0/viewer?mid=1EYuPNUZPkjlLN7QOK3pqwCg_IBGw-d6u&ll=23.38064164946414%2C-103.41271133492364&z=5",
+                            "THISIMG"        : "cta-bw-turquesa-localiza-tu-tienda"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "El inventario y disponibilidad del<br>producto es responsabilidad<br>de cada cadena.",
+                            "color_bkg"     : "#dddddd",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "12px",
+                            "p_height"      : "18px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#dddddd",
+                    "widthp100"     : "45",
+                    "imgwidth"      : "290",
+                    "mtop"          : "0",
+                    "img"           : "23.18-4.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.18-4"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#f7f7f7",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+
+            ]
+        },
+
+
+\
+**RESULTADO**
+
+![columns](https://i.imgur.com/VnhRttu.png)
+
+En este ejemplo se usaron 5 columnas: la primera y la quinta son columnas "spacer" vacías de color #f7f7f7, la segunda columna es de tipo "spacer", pero de color #dddddd para servir como margen de la siguiente columna. La tercera es una columna "multirows" de fondo color #dddddd en donde vienen 4 componentes de texto y una imagen para el CTA, mientras que la cuarta es una columna "img" de fondo color #dddddd con una imagen.
+
+
+\
+**VARIABLES DE CONTROL GENERAL**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __type__     | __No cambiar este valor__. Describe el tipo de bloque.  |
+| __font__          | __No cambiar este valor__. La plantilla TWIG usada para crear los correos de Philip Morris usa dos tipografías: "Cabin" para el texto normal y 'Noto Sans' para el footer. |
+| __margin_sides__  | Ancho de cada margen lateral en porcentaje, donde el 100% es 600px. No usar un valor mayor a 49. El default es "0". Para maquetaciones complejas es mejor dejar este valor como "0" y controlar en cada columna el porcentaje de su ancho. |
+| __margin_top__    | Margen superior en pixeles. El valor predefinido es "0" |
+| __margin_bottom__ | Margen inferior en pixeles. El valor predefinido es "0" |
+| __color_bkg__     | Color del background en formato hexadecimal. El valor predefinido es "transparent". |
+| __this__          | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco. |
+| __columns__       | Estructura que contiene "n" columnas. Se pueden poner tantas columnas como sea necesario, pero la suma de todos los anchos debe ser siempre 100%. |
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "img"**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __coltype__   | "img" declara el tipo de columna como contenedora de una imagen.  |
+| __color_bkg__ | Color del background en formato hexadecimal de la columna. El valor predefinido es "transparent" |
+| __widthp100__ | Porcentaje del ancho de la columna. La suma de los anchos de todas las columnas debe ser siempre 100. |
+| __imgwidth__  | Tamaño en pixeles de la imagen. Si se desea que la imagen abarque la totalidad de la columna, se debe declarar su valor correspondiente al porcentaje de la columna. Considerando que 100% es igual a 600px, para una columna de 50% la imagen que cubre el ancho total de esta columna sería 300 px, para una columna de 40%, el ancho de la imagen sería 240 px. |
+| __mtop__      | Margen por encima de la imagen en pixeles. |
+| __img__       | Nombre del archivo de la imagen. |
+| __imgulr__    | URL al que apunta la imagen, si no se desea incrustar ningún link dejar el valor "#" |
+| __THISIMG__   | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco, pero para maquetaciones complejas se recomienda indicar el uso de la imagen o al menos el nombre de archivo. |
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "spacer"**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __coltype__   | "spacer" declara el tipo de columna como espaciadora. |
+| __color_bkg__ | Color del background en formato hexadecimal de la columna. El valor predefinido es "transparent" |
+| __widthp100__ | Porcentaje del ancho de la columna. La suma de los anchos de todas las columnas debe ser siempre 100. |
+| __mtop__      | Margen superior, puede usarse para forzar una altura mínima de la columna. |
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "multirows"**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __coltype__   | "multirows"  declara el tipo de columna como multielementos. |
+| __color_bkg__ | Color del background en formato hexadecimal de la columna. El valor predefinido es "transparent" |
+| __widthp100__ | Porcentaje del ancho de la columna. La suma de los anchos de todas las columnas debe ser siempre 100. |
+| __rows__      | Bloques que definen diferentes tipos de elementos: imagen, espaciador, texto, o texto en recuadro. |
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "multirows", renglon con texto**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __rowtype__       |  "p" declara el tipo de renglón como párrafo de texto. |
+| __p__             |  El texto a mostrar. Puede tener etiquetas HTML. |
+| __color_bkg__     |  Color del background en formato hexadecimal de la columna. El valor predefinido es "transparent".|
+| __p_fontweight__  |  "300" para texto normal o "700" para texto en negritas. El valor predefinido es "300" |
+| __p_fontsize__    |  Tamaño en pixeles de la tipografía. El valor predefinido es "18". |
+| __p_height__      |  Tamaño en pixeles de la altura de línea. El valor predefinido es "22px". |
+| __p_align__       |  La alineación del texto. Los posibles valores son "center", "right", "left" y "justify". |
+| __p_color__       |  Color del texto en formato hexadecimal. El valor predefinido es "#34303d". |
+| __margin_top__    | El tamaño del margen superior en pixeles.|
+| __margin_bottom__ | El tamaño del margen inferior en pixeles.|
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "multirows", renglon espaciador**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __rowtype__    |  "spacer" declara el tipo de renglón como espaciador. |
+| __height__     |  Tamaño en pixeles de la altura de línea. El valor predefinido es "20". |
+| __color_bkg__  |  Color del fondo en formato hexadecimal. El valor predefinido es "transparent" |
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "multirows", renglon con texto en recuadro**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __rowtype__       | "pframed" declara el renglon como texto en recuadro. |
+| __color_bkg__     | Color del fondo en formato hexadecimal. El valor predefinido es "transparent" |
+| __p__             | "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit", |
+| __fontweight__    | "300" para texto normal o "700" para texto en negritas. El valor predefinido es "300" |
+| __fontsize__      | Tamaño en pixeles de la tipografía. El valor predefinido es "9". |
+| __lineheight__    | Tamaño en pixeles de la altura de línea. El valor predefinido es "11". |
+| __align__         | La alineación del texto. Los posibles valores son "center", "right", "left" y "justify". |
+| __width__         | Porcentaje del ancho del recuadro de texto respecto al ancho total de la columna. |
+| __margin_top__    | El tamaño del margen superior en pixeles.|
+| __margin_bottom__ | El tamaño del margen inferior en pixeles.|
+| __color__         | Color del texto en formato hexadecimal. |
+| __framecolor__    | Color del recuadro en formato hexadecimal.|
+| __framebgcolor__  | Color del fondo denrro del recuadro de texto en formato hexadecimal. |
+| __framepadding__  | Margen en pixeles desde el texto hasta el recuadro que lo delimita. |
+| __border__        | Ancho en pixeles del recuadro que rodea al texto. El valor predefinido es "1", |
+| __this__          | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco |
+
+
+\
+**VARIABLES PARA EL TIPO DE COLUMNA "multirows", renglon con imagen**
+|  VARIABLE    |  DESCRIPCIÓN  |
+|--------------|---------------|
+| __rowtype__       | "img" declara el renglón como imagen. |
+| __img__           | Nombre de archivo de la imagen a usar. |
+| __color_bkg__     | Color del fondo en formato hexadecimal. El valor predefinido es "transparent" |
+| __margin_top__    | El tamaño del margen superior en pixeles.|
+| __margin_bottom__ | El tamaño del margen inferior en pixeles.|
+| __imgWidth__      | Ancho en pixeles de la imagen.|
+| __align__         | La alineación de la imagen. Los posibles valores son "center", "right", "left" y "justify". |
+| __imgulr__        | URL del link a incrustar en la imagen. Si no se desea poner un link, dejar el valor predefinido "#", |
+| __THISIMG__       | ___No usada por la plantilla___. Se usa para comentarios, puede dejarse en blanco |
+
+
+
+
+
 
 ___
 
