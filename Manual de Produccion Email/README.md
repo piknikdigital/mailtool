@@ -51,7 +51,7 @@ Instalación y configuración de las herramientas necesarias.
 
     Configuración y compilación de un archivo JSON para generar un preview HTML del correo.
 
-* **[3.8 Carga de assets en CRM]**(3_8_Carga_assets_CRM.md)
+* **[3.8 Carga de assets en CRM](3_8_Carga_assets_CRM.md)**
 
     Carga de assets en Salesforce.
 
