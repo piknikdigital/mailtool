@@ -45,14 +45,19 @@ Instalación y configuración de las herramientas necesarias.
 
 * **[3.6 Pre-Produción de HTML](3_6_preproducion_html.md)**
 
-    Creación y configuración de un archivo JSON que permite crea un correo HTML.
+    Creación de un archivo JSON que permite crea un correo HTML.
 
-* **[3.7 Creación de un correo HTML simple](3_7_Creacion_de_correo_simple.md)**
+* **[3.7 Producción de HTML para link de preview](3_7_Produccion_HTML.md)**
 
-
-* **[3.7 Creación de un correo HTML simple](3_7_Creacion_de_correo_simple.md)**
+    Configuración y compilación de un archivo JSON para generar un preview HTML del correo.
 
 * **[3.8 Carga de assets en CRM]**(3_8_Carga_assets_CRM.md)
+
+    Carga de assets en Salesforce.
+
+* **[3.9 Producción de HTML para CRM](3_9_Produccion_html_crm.md)**
+
+    Creación del correo HTML para cargar en Salesforce.
 
 
 ___
