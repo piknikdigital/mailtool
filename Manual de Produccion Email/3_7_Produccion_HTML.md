@@ -11,10 +11,12 @@ Antes de empezar, hay que preparar la carpeta destino copiando en ella los asset
 
 Para este ejemplo, la carpeta destino será:
 
-/email/pmi2303/pmi-230328-dormant
+  ```bash
+  /email/pmi2303/pmi-230328-dormant
+  ```
+
 
 Esta carpeta fue creada por el comando mkroot.php basandose en los datos de fecha y nombre de carpeta. Una vez que los assets gráficos han sido copiados a esa carpeta, regresamos a la sesión de la terminal donde ejecutamos mkroot.php y ahora ejecutamos este comando CLI:
-
 
   ```bash
   php mkhtml.php 39
@@ -34,7 +36,9 @@ Si no hay errores de sintaxis en el archivo JSON después de que lo editamos (el
     └──────────────────────────────────────────────────────────────────────────────────────────────┘
   ```
 
-Este archivo HTML sólo contiene la estructura requerida, pero como fue creado con valores predefinidos, no
+Este archivo HTML sólo contiene la estructura requerida, pero como fue creado con los valores predefinidos de los componentes, no corresponde al correo que queremos maquetar. Tomando como referencia la descripción de componentes de la sección 3.5, editamos el archivo JSON con visual Studio Code para que cada componente corresponda en textos, colores e imagenes al correo que queremos maquetar. Una vez que terminamos de editar el archivo JSON, podemos nuevamente ejecutar el comando mkhtml para crear el archivo HTML final.
+
+El archivo generado, así como los assets gráficos correspondientes, se pueden subir a un servidor para poder presentar a cliente como links de preview.
 
 
 

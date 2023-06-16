@@ -39,6 +39,10 @@ if( file_exists( $arguments )  ){
     die;
 }
 $vars = create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, $path, $nameincrm, $customerkey);
+
+// var_dump($vars);
+// echo PHP_EOL; die;
+
 $config_sections = fill_config( $vars );
 $blocks_section = createBlocks($requiredBlocks, $libraryBlocks, $year.".".$argv[1]);
 $ending = get_ending();

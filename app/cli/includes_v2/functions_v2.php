@@ -109,9 +109,66 @@ function getOriginalBlocks($f)
     return $c;
 }
 
-function create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, $path, $nameincrm, $customerkey)
+
+function createEnvironment2($arguments, $target)
 {
-    include_once("footer_vars.php"); 
+    include($arguments);
+
+    $a = array();
+
+    $a['mes']             = $companyBrand . $p_yy . $p_mm;     // Ej: pmi2306
+    $a['folder']          = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; // Ej: pmi-230609-leads-junio
+    $a['filename']        = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;  // Ej: pmi-230609-ID23.76-leads-junio-2-HTML
+    
+    $a['target']          = $target;         // Ej: HTML
+    $a['bgColor']         = $bgColor;        // Ej: #FFFFFF
+    $a['TwigTemplate']    = $TwigTemplate;   // Ej: pmi-Brand-World-B01-600-v01.twig
+    
+    $a['subject']         = trim($p_subject);
+    $a['preheader']       = trim($p_preheader);
+
+    $path_DCE         = "Content Builder > Mexico > Commercial > MX_20" .$p_yy.$p_mm.$p_dd.  "_" . $p_name4folderDCE ." > 01_HTML";
+    $name_in_DCE      = $p_mailname4DCE;
+    $customerkey_DCE  = $p_customerkey_DCE;
+
+    
+    //$path_FSH       = "Content Builder > YY_NAME4CRM DD MES 2020 > 02_HTML";
+    $path_FSH         = "Content Builder > ". $id_FSH_folder .  "_" .$p_name4folderFSH. " " . $p_dd . " " .$p_mm. " 20" .$p_yy. " > 02_HTML";
+    $name_in_FSH      = $p_mailname4FSH;
+    $customerkey_FSH  = $p_customerkey_FSH;
+    
+    switch ($target)
+    {
+        case "DCE":      $path = $path_DCE;        $nameincrm = $name_in_DCE;       $customerkey=$customerkey_DCE;   $mailname = $p_mailname4DCE; break;
+        case "FSH":      $path = $path_FSH;        $nameincrm = $name_in_FSH;       $customerkey=$customerkey_FSH;   $mailname = $p_mailname4FSH; break;
+        default:         $path = "";               $nameincrm = "";                 $customerkey="" ;
+                         $a1 = ( $p_mailname4DCE == "" || $p_mailname4DCE == "NA" )? NULL : $p_mailname4DCE;
+                         $b1 = ( $p_mailname4FSH == "" || $p_mailname4FSH == "NA" )? NULL : $p_mailname4FSH;
+                         $mailname = $a1 ?? $b1;
+                         break;
+    }
+
+    $a['path']            = $path;
+    $a['nameincrm']       = $nameincrm;
+    $a['customerkey']     = $customerkey;
+
+    $a['htmltitle']       = "ID" . $p_yy . "." . $p_id . " " . $mailname;
+
+    $a['trackmailopen']     = ( $target == "HTML")?  "0" : "1";    
+    $a['trackmailaudience'] = ( $target == "DCE" )?  "1" : "0";
+
+    // $a['footergrey']      = $footergrey;        // aun se requiere?
+    // $a['TwigFooterBlock'] = $TwigFooterBlock;   // aun se requiere?
+
+    return $a;
+
+}
+
+function create_environment($mes, $folder, $filename, $target, $footergrey, 
+        $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, 
+        $path, $nameincrm, $customerkey)
+{
+    // include_once("footer_vars.php"); 
 
     $a = array();
 
@@ -155,29 +212,29 @@ function create_environment($mes, $folder, $filename, $target, $footergrey, $bgC
 
     // echo PHP_EOL.$a['DCEfootercolor'].PHP_EOL; die;
 
-    if ($footer_blocks == NULL)
-        $footer = "";
-    else
-    {
-        if ( $footergrey == "1")
-        $footer = $footer_blocks[$target];
-        else
-        {
-            switch ($target)
-            {
-                case "DCE":
-                    $footer= $footer_blocks['HTMLWHITE'];
-                break;
-                case "FSH":
-                    $footer= $footer_blocks['FSHWHITE'];
-                break;
-                case "HTML":
-                    $footer= $footer_blocks['HTMLWHITE'];
-                break;
-            }
-        }
-    }
-    $a['footer'] = $footer;
+    // if ($footer_blocks == NULL)
+    //     $footer = "";
+    // else
+    // {
+    //     if ( $footergrey == "1")
+    //     $footer = $footer_blocks[$target];
+    //     else
+    //     {
+    //         switch ($target)
+    //         {
+    //             case "DCE":
+    //                 $footer= $footer_blocks['HTMLWHITE'];
+    //             break;
+    //             case "FSH":
+    //                 $footer= $footer_blocks['FSHWHITE'];
+    //             break;
+    //             case "HTML":
+    //                 $footer= $footer_blocks['HTMLWHITE'];
+    //             break;
+    //         }
+    //     }
+    // }
+    // $a['footer'] = $footer;
     return $a;
 }
 
@@ -211,7 +268,6 @@ function fill_config( $a )
             { "urlS" : "https://paginum.com/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html"  },
             { "urlS" : "http://mailtool.lan:8888/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html"},
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
-
         ]
     },
 
@@ -225,22 +281,39 @@ function fill_config( $a )
     "trackmailaudience"        :   "'.$a['trackmailaudience'].'",    
 
     "target"                   :   "'.$a['target'].'",
-    "'.$a['footer_template'].'"          :   "'.  $a['DCEfooter'] .  '",
-    "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
-    "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
 
     "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
-    "TwigFooterBlock"  :   "' .$a['TwigFooterBlock'].  '",
     "Source"           :   "' .$a['filename'].  '",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
-    "PageTitle"        :   "",
+    "PageTitle"        :   "'. $a['htmltitle'] .'",
     "PREHEADER"        :   "",
     "content_bgcolor"  :   "'. $a['bgColor'].'",
-    '. $a['footer'] . '
     ';
     return $config_template;
+    
+    // '. $a['footer'] . '
+   
+    // "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    // "BaseURLassets"    :   "",
+    // "BaseURLimg"       :   "",
+    
+    // "HTMLstaticfile"   :   "'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html",
+
+    // "trackmailopen"            :   "'.$a['trackmailopen'].'",
+    // "trackmailaudience"        :   "'.$a['trackmailaudience'].'",    
+
+    // "target"                   :   "'.$a['target'].'",
+    // "'.$a['footer_template'].'"          :   "'.  $a['DCEfooter'] .  '",
+    // "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
+    // "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
+
+    // "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
+    // "TwigFooterBlock"  :   "' .$a['TwigFooterBlock'].  '",
+    // "Source"           :   "' .$a['filename'].  '",
+    // "isWebVer"         :   " ",
+
 }
 
 function get_emptyblocks()
@@ -252,6 +325,33 @@ function get_emptyblocks()
     ';
     return $empty_blocks;
 }
+
+
+
+function createBlocks_v2($arguments, $libraryBlocks, $id)
+{
+    include($arguments);
+
+    // echo $arguments. PHP_EOL; die;
+
+    if ($requiredBlocks == NULL)
+        return get_emptyblocks();
+
+    $res = "";
+
+    foreach ($requiredBlocks as $req) {
+        $str1 = str_replace("22.id", $id, $libraryBlocks[$req]);
+        $res .= $str1;
+    }
+
+    $blocks='
+    "blocks" : 
+    [' .$res .'
+    ],
+    ';
+    return $blocks;
+}
+
 
 /**
  *   $requiredBlocks : YY.id-json-arguments-ROOT-HTML.php; 
@@ -301,10 +401,8 @@ function createBlocks_ver1($requiredBlocks, $libraryBlocks)
 function get_ending()
 {
     $ending= '
-    "END"            :   "#######################"
+    "END"            :   "#######################"' . "\n\n" . "}";
 
-    }
-    ';
     return $ending;
 }
 
