@@ -1,48 +1,33 @@
 <?php
 
-$p_id =  '76b';
-$p_subject =  'Despídete del olor a cigarro y mejor dile hola a IQOS';
-$p_preheader =  'Aprovecha nuestro 20% de descuento en la compra de tu primer Kit IQOS';
-$p_yy =  '23';
-$p_mm =  '06';
-$p_dd =  '09';
-$p_name4folder =  'leads-junio';
-$p_name4json =  'leads-junio-2';
-$p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'NA';
-$p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'LEADS junio';
-$p_mailname4FSH =  'LEADS junio 2';
-$p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '181';
+require_once("23.81-common.php");
 
-//-----------------------------------------
+$target    = "HTML";       // "HTML", "DCE" o "FSH"
 
-$companyBrand     =  "pmi";
-$TwigTemplate     = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+$filename  = $filename_base . $target;
+$subject   = $subject_base;
+$preheader = $preheader_base;
 
-//-----------------------------------------
+switch ($target)
+{
+    case "DCE":  $path = $path_DCE; $nameincrm = $name_in_DCE; $customerkey=$customerkey_DCE; break;
+    case "FSH":  $path = $path_FSH; $nameincrm = $name_in_FSH; $customerkey=$customerkey_FSH; break;
+    default:     $path = "";        $nameincrm = "";           $customerkey="" ; break;
+}
 
 $requiredBlocks = array(
     "header_brand_world",
+    "greeting_v2",
+    "img",
+    "p300_BW",
     "img",
 
-    "greeting_v2",
-    "p300_BW",
+    "disclaimer_iqos",
 
     "columns",
-    "spacer",
-    
     "columns",
-    "spacer",
-    
-    "columns",
-    "spacer",
-    
     "columns",
 
-    "cta1_v2",
 
     "ElijoIQOS",
     "legal_extra",
@@ -116,7 +101,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 7676XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 8181XX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -170,24 +155,32 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+IQOS, al calentar tabaco y no quemarlo, <br>es una mejor alternativa que continuar fumando pero<br><span style=\"color:#00d1d2;font-weight:700;\">¿sabes por qué?</span>
+--------------------
+--------------------
+--------------------
+*Reducciones promedio en niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarrillo de referencia (3R4F).
+--------------------
+--------------------
+<b>Información importante:</b> No necesariamente equivale a una reducción del riesgo del 95%. IQOS no está libre de riesgos.
+--------------------
+--------------------
+Únete al cambio y adquiere tu<br>primer Kit IQOS con un 
+--------------------
+¡10% de descuento!<span style=\"font-size:18px;\"><sup>(1)</sup></span>
+--------------------
+usando el código:
+--------------------
+--------------------
+--------------------
+--------------------
+(1) Solo fumadores adultos.<br>(2) Código \"MENOSOLOR\" equivalente a un 10% de descuento sobre precio vigente, válido del 1de enero al 31 de diciembre del 2023 en la compra de tu primer Kit IQOS 3 DUO en www.iqos.com, Tiendas IQOS, Call Center IQOS y IQOS Corners en Sanborns. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
 --------------------
 --------------------
 --------------------
