@@ -66,7 +66,7 @@ if( file_exists( $arguments )  ){
 }
 
 $vars            = create_environment($mes, $folder, $filename, $target, $footergrey, $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, $path, $nameincrm, $customerkey);
-$config_sections = fill_config( $vars );
+$config_sections = fill_config( $vars );  // var_dump(array( "filename" => $filename, "filename1" => $filename1, "source" => $source, "target" => $target, "vars" => $vars));die;
 $blocks_section  = blockreplace_v2($filename, $filename1, $source, $target, $vars);
 $ending          = get_ending();
 
@@ -75,9 +75,9 @@ $boilerplate_ = $config_sections
                 .$ending;
 
 file_put_contents($filename.".json" , $boilerplate_);
-msgDone($filename);
-mk_path( "../json-data/"           , $mes , $folder);
-mk_path( "../../email/" , $mes , $folder);
+msgDone($filename.".json");
+mk_path( "../json-data/"  , $mes , $folder);
+mk_path( "../../email/"   , $mes , $folder);
 
 // -----  done -------
 

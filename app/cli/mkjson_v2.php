@@ -62,7 +62,7 @@ $boilerplate_ = $config_sections
                 .$ending;
 
 file_put_contents($vars['filename'].".json" , $boilerplate_);
-msgDone($vars['filename']);
+msgDone($vars['filename'].".json");
 mk_path( "../json-data/"   , $vars['mes'] , $vars['folder'] );
 mk_path( "../../email/"    , $vars['mes'] , $vars['folder'] );
 

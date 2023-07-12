@@ -13,11 +13,12 @@ require_once '../../vendor/autoload.php';
 include_once("includes_v2/functions_v2.php"); 
 
 
+define("ERR_BAD_ARGS", PHP_EOL."------> ERROR: sintaxis o número de argumentos inválidos.".PHP_EOL."        uso: php mkhtml_v2.php [TARGET] IDmail".PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL);
+
+
 // $root = dirname(dirname(getcwd()));
 
 $year = getYear();
-
-
 
 
 
@@ -36,14 +37,11 @@ if ($argc == 3){
         $target = $target2;
         $idMail = $argv[2];       
     }
-    $arguments = "_JSON/$year-$idMail-data/$year.$idMail-json-arguments-$target.php" ;
 }else if ($argc == 2){
     $strTry = strtoupper($argv[1]);
     if ( $strTry === "DCE" || $strTry === "FSH" || $strTry === "HTML")
     {
-        echo PHP_EOL."------> ERROR: numero de argumentos erroneo";
-        echo PHP_EOL."        uso: php mkhtml_v2.php [TARGET] IDmail";
-        echo PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL;
+        echo ERR_BAD_ARGS;
         die;    
     }
     else
@@ -52,17 +50,16 @@ if ($argc == 3){
         $idMail = $argv[1];
     }
 }else{
-    echo PHP_EOL."------> ERROR: numero de argumentos erroneo";
-    echo PHP_EOL."        uso: php mkhtml_v2.php [TARGET] IDmail";
-    echo PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL;
+    echo ERR_BAD_ARGS;
     die;
 }
 
+$arguments = "_JSON_v2/$year-$idMail-data-v2/$year.$idMail-config.php";
+
 // var_dump(  array("TARGET" => $target,  "ID-mail" => $idMail) );
 // echo PHP_EOL; die;
-
-$arguments= "_JSON_v2/$year-$argv[1]-data-v2/$year.$argv[1]-config.php";
-
+// echo $arguments . PHP_EOL;
+// die;
 
 // LOAD CONFIG DATA FILE -----------------------------------------
 if( file_exists( $arguments )  )
@@ -92,12 +89,14 @@ $output = $twig->render($TwigTemplate, $twigData );
 
 // RENDER TWIG TEMPLATE TO FILE ------------------------------------------
 $htmlfile = '../../email/'. $twigData['HTMLstaticfile'];
+// echo $htmlfile.PHP_EOL; die;
 file_put_contents($htmlfile, $output);
 msgDone($htmlfile);
 
 // RENDER MINIFIED VERSION TO FILE FOR CRM
 if ($target != "HTML")
 {
+    echo "Construyendo versión minificada..." . PHP_EOL;
     $fnmin = strtolower($twigData['HTMLstaticfile']);
     if ( strstr($fnmin, 'dce.html')  || strstr($fnmin, 'fsh.html') ) 
     {

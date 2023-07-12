@@ -77,6 +77,53 @@ function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
     return $data1; 
 }
 
+function blockreplace_v3($target, $vars )
+{    
+    $value_old = array();
+    $value_new = array();
+
+    $source  = "HTML"; 
+
+    $dataA  = file_get_contents("includes/library-replacements.json");
+    $a1     = json_decode($dataA, true);
+    if (!$a1) abort("ERROR: library-replacements.json no entrega datos. Revisar sintaxis.");
+    // echo var_export($a1,true); die;
+
+    $dataB  = file_get_contents($vars['replacementsfile']);
+    $a2     = json_decode($dataB, true);
+    if (!$a2) abort("ERROR: ". $vars['replacementsfile'] . " no entrega datos. Revisar sintaxis.");
+    // echo var_export($a2,true); die;
+
+    $a = array_merge($a2['replacements'], $a1['replacements']);
+    // echo var_export($a2,true); die;
+
+    foreach ($a as $b) {
+        $value_old[] = $b[$source];
+        $value_new[] = $b[$target];
+    }
+    // echo var_export($value_new,true); die;
+    // echo var_export($value_old,true); die;
+
+    $inputfile = getInputFileName($vars['filename'] , $source);
+    $f         = './../json-data/' . $vars['mes']. '/' .$vars['folder']. '/' . $inputfile . '.json';
+
+    if ( $source == "DCE" || $source == "FSH")
+    {
+        $rawdata  = file_get_contents($f);
+        $rawdata1 = str_replace( $value_old, $value_new, $rawdata);    
+        $a0       = json_decode($rawdata1, true);
+        // echo var_export($a0 ,true); die;
+        $b0       = json_encode($a0['blocks'], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+        $data1    = "
+    \"blocks\" : \n    ".str_replace("\n" , "\n    ", $b0) . ",\n";
+    }
+    else{
+        $data      = getOriginalBlocks($f);
+        $data1     = str_replace( $value_old, $value_new, $data);    
+    }
+    // echo var_export($data1,true); die;
+    return $data1; 
+}
 /** 
  * Given a 'filename' (with no extension) like :
  *      "pmi-200525-20.94-Lending-AB-test-try-benefits-2-DCE"
@@ -119,7 +166,8 @@ function createEnvironment2($arguments, $target)
     $a['mes']             = $companyBrand . $p_yy . $p_mm;     // Ej: pmi2306
     $a['folder']          = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; // Ej: pmi-230609-leads-junio
     $a['filename']        = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;  // Ej: pmi-230609-ID23.76-leads-junio-2-HTML
-    
+    $a['replacementsfile']  = "_JSON_v2/" . $p_yy . "-" . $p_id . "-data-v2/" . $p_yy . "." . $p_id . "-replacements.json";
+
     $a['target']          = $target;         // Ej: HTML
     $a['bgColor']         = $bgColor;        // Ej: #FFFFFF
     $a['TwigTemplate']    = $TwigTemplate;   // Ej: pmi-Brand-World-B01-600-v01.twig
@@ -131,8 +179,6 @@ function createEnvironment2($arguments, $target)
     $name_in_DCE      = $p_mailname4DCE;
     $customerkey_DCE  = $p_customerkey_DCE;
 
-    
-    //$path_FSH       = "Content Builder > YY_NAME4CRM DD MES 2020 > 02_HTML";
     $path_FSH         = "Content Builder > ". $id_FSH_folder .  "_" .$p_name4folderFSH. " " . $p_dd . " " .$p_mm. " 20" .$p_yy. " > 02_HTML";
     $name_in_FSH      = $p_mailname4FSH;
     $customerkey_FSH  = $p_customerkey_FSH;
@@ -291,28 +337,8 @@ function fill_config( $a )
     "PREHEADER"        :   "",
     "content_bgcolor"  :   "'. $a['bgColor'].'",
     ';
+
     return $config_template;
-    
-    // '. $a['footer'] . '
-   
-    // "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
-    // "BaseURLassets"    :   "",
-    // "BaseURLimg"       :   "",
-    
-    // "HTMLstaticfile"   :   "'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html",
-
-    // "trackmailopen"            :   "'.$a['trackmailopen'].'",
-    // "trackmailaudience"        :   "'.$a['trackmailaudience'].'",    
-
-    // "target"                   :   "'.$a['target'].'",
-    // "'.$a['footer_template'].'"          :   "'.  $a['DCEfooter'] .  '",
-    // "footer_templateDCEGREY"   :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%",
-    // "footer_templateDCEWHITE"  :   "%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%",
-
-    // "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
-    // "TwigFooterBlock"  :   "' .$a['TwigFooterBlock'].  '",
-    // "Source"           :   "' .$a['filename'].  '",
-    // "isWebVer"         :   " ",
 
 }
 
@@ -414,16 +440,16 @@ function abort( $e=NULL ){
 
 function msgDone($f)
 {
-    define("L1",     "┌─────────────────────");
-    define("L2",     "│ El archivo:         ");
-    define("L3L5",   "├─────────────────────");
-    define("L6",     "│ ha sido creado.     "); 
-    define("L7",     "└─────────────────────");
-    define("BVR",    "│");
-    define("BHZ",    "─");
-    define("L1F",    "┐");
-    define("L3L5F",  "┤");
-    define("L7F",    "┘");
+    if (!defined('L1'))    define("L1",     "┌─────────────────────");
+    if (!defined('L2'))    define("L2",     "│ El archivo:         ");
+    if (!defined('L3L5'))  define("L3L5",   "├─────────────────────");
+    if (!defined('L6'))    define("L6",     "│ ha sido creado.     "); 
+    if (!defined('L7'))    define("L7",     "└─────────────────────");
+    if (!defined('BVR'))   define("BVR",    "│");
+    if (!defined('BHZ'))   define("BHZ",    "─");
+    if (!defined('L1F'))   define("L1F",    "┐");
+    if (!defined('L3L5F')) define("L3L5F",  "┤");
+    if (!defined('L7F'))   define("L7F",    "┘");
 
 
     $lenmax = 4 + strlen($f);
@@ -447,8 +473,6 @@ function msgDone($f)
     // echo "lenmax"      . $lenmax    .PHP_EOL;
     // echo "strlen $f: " . strlen($f) .PHP_EOL;
     // echo "strlen L1: " . strlen(L1) .PHP_EOL;
-
-
 }
 
 function mk_path( $base, $mes , $folder)
