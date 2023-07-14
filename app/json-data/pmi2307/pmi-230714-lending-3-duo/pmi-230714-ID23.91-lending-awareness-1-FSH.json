@@ -1,0 +1,584 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH.html",
+
+        "Subject"          :   "¡Prueba IQOS hoy! 14 días de prueba solo para ti",
+        "Preheader"        :   "Probar IQOS antes de comprarlo, es posible.",
+
+        "PATH"             :   "Content Builder > 183_Lending 3 DUO 14 07 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LENDING Awareness 1",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.91-lending-awareness-1-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230714-ID23.91-lending-awareness-1-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.91 LENDING Awareness 1",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/470c8aae-ddf3-4405-9c30-1e4fd5581f1d.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/042e1276-2bfb-4bb6-b112-bc4a5ce36339.png",
+            "url": "#",
+            "this": "IMG 23.091-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "¡Vive la experiencia por solo <b>$204 <span style=\"font-size:12px;\"><sup>MXN</sup></span>!</b><br>Prueba <b>IQOS 3 DUO</b> por 14 días y descubre la<br> diferencia entre quemar y calentar el tabaco.",
+            "this": "TXT"
+        },
+        {
+            "type": "p_v2",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "#faf7f4",
+            "margin_top": "40",
+            "margin_bottom": "20",
+            "margin_sides": "4",
+            "margin_color": "transparent",
+            "content": "¡Quiero probarlo! ¿Qué tengo que hacer?",
+            "readme": "height px, margin %",
+            "this": ""
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "10",
+            "margin_bottom": "10",
+            "color_bkg": "transparent",
+            "this": "¡Quiero probarlo! ICO 1/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "11",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "50",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/8ca844c9-8ec3-45b1-b83b-1e15113ead4c.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.091-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "69",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Da clic en el botón para <b>registrarte.</b>",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "10",
+            "margin_bottom": "10",
+            "color_bkg": "transparent",
+            "this": "¡Quiero probarlo! ICO 2/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "11",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "50",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/66c9b41f-05bd-4e17-a5ed-b91ebdb9caa5.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.091-ico2"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "69",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Para completar el registro, <b>recibirás una<br> llamada del Call Center IQOS.</b>",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "2",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "10",
+            "margin_bottom": "10",
+            "color_bkg": "transparent",
+            "this": "¡Quiero probarlo! ICO 3/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "11",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "10",
+                    "imgwidth": "50",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6212636a-7e9b-4d4c-b24b-601f411b978b.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.091-ico3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "69",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¡Listo! <b>Comienza a vivir la experiencia.</b>",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "color_bkg": "transparent",
+            "this": "¡Quiero probarlo!  CTA Aceptas el reto",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "92",
+                    "imgwidth": "190",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/535ab033-ad2c-43c5-b5c4-6d6a9c624427.png",
+                    "imgulr": "https://conoce-iqos.com/",
+                    "THISIMG": "CTA IMG cta-bw-aceptas-el-reto"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0eb78173-55e7-460c-ba9b-f97d7c966455.jpg",
+            "url": "#",
+            "this": "IMG 23.091-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "ADEMAS RECIBE...",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "11",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "70",
+                    "mtop": "45",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/3433b9b3-057b-41f9-a2fe-87b02e2243b9.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.091-ico4"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "3",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Además recibe...",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Acompañamiento personalizado de <br>un <span style=\"color:#00d1d2;font-weight:700;\">Experto IQOS</span> durante la prueba. <br>Al final, podrás decidir si comprarlo o <br>devolverlo sin ningún compromiso.",
+                            "color_bkg": "#34303d",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "20",
+                            "margin_bottom": "30"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "32",
+            "width": "90%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "¿Sabías que IQOS no es un vapeador?",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "A diferencia de los vapeadores,<br> <span style=\"color:#00d1d2;font-weight:700;\">IQOS calienta tabaco</span> (no líquido con nicotina) <br>entregando el sabor del tabaco, sin humo.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2e31b47f-8454-4454-9623-e1d37a6ed03e.jpg",
+            "url": "#",
+            "this": "IMG 23.091-3"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/84fead68-b3a4-475d-888d-40b3f10b26f7.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "https://conoce-iqos.com/",
+            "this": "CTA cta-bw-lo-quiero"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "20",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "¿Tienes dudas?",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "60%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "content": "Contáctanos en cualquiera de nuestros canales de comunicación",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "20",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "color_bkg": "transparent",
+            "this": "CANALES DE COMUNICACION",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "33",
+                    "imgwidth": "70",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/392e4800-9cc1-490f-be8f-16d340e8ac4e.png",
+                    "imgulr": "tel:*993",
+                    "THISIMG": "IMG 23.091-ico5-celular"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "34",
+                    "imgwidth": "70",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/026be34c-80c3-4d35-a470-ba46b2c976bb.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html#openchat",
+                    "THISIMG": "IMG 23.091-ico6-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "33",
+                    "imgwidth": "70",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/fe4a2e2f-984c-4146-8bdc-f21070cfc1dc.png",
+                    "imgulr": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                    "THISIMG": "IMG 23.091-ico7-tiendas"
+                }
+            ]
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "*El Programa de Préstamo IQOS Demo está disponible en Tiendas IQOS Antara, Perisur, Santa Fe y IQOS Corners en Sanborns seleccionados: Masaryk, Interlomas, Galerías Insurgentes, Parque Delta, Universidad, Pedregal, Galerías Coapa, Atizapán, Reforma 222 y Satélite. El listado de tiendas podrá cambiar sin previo aviso.<br><br>El Programa de Préstamo IQOS Nuevo está disponible únicamente en Call Center IQOS llamando al 800 1 476769 o al *993 desde tu celular.<br><br>Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar el dispositivo o devolverlo. Sujeto a disponibilidad de inventario. Consulta requisitos y Términos y Condiciones del Programa. Color sujeto a disponibilidad de inventario en tienda y Call Center IQOS.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

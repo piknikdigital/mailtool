@@ -1,0 +1,567 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE.html",
+
+        "Subject"          :   "IQOS El Reto ha llegado a su fin, ¡lo lograste!",
+        "Preheader"        :   "Es momento de tomar una decisión",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230714_Lending 3 DUO > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LENDING Hypercare Day 14",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.96-lending-hypercare-day-14-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230714-ID23.96-lending-hypercare-day-14-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.96 LENDING Hypercare Day 14",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8b1a66d1-b96d-4c28-8fca-f2ff89c95b6b.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2c0e2f8c-e5d9-40a4-8f58-c2ccbd8aecc7.jpg",
+            "url": "#",
+            "this": "IMG 23.096-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "<b>IQOS El Reto ha terminado</b>, pero no tiene por qué ser el final de tu camino al cambio.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/36dd3076-6838-4747-b46a-5882774bdb2d.jpg",
+            "url": "#",
+            "this": "IMG 23.096-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "CTA1 COMPRAR AHORA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "92",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Si quieres comprar tu IQOS,<br>realiza el pago ahora",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ea27f137-3adb-4c71-9d55-173afd9620c5.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "30",
+                            "imgWidth": "180",
+                            "align": "center",
+                            "imgulr": "https://compraiqos.com.mx/",
+                            "THISIMG": "cta-bw-blanco-comprar-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "CODE / CTA2 COMPRAR AHORA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "92",
+                    "rows": [
+                        {
+                            "rowtype": "spacer",
+                            "height": "20px",
+                            "color_bkg": "#faf7f4"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "<b>Aprovecha que El Reto tiene un descuento</b><br> exclusivo para ti.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Obtén 15% de descuento*",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "32px",
+                            "p_align": "center",
+                            "p_color": "#FFFFFF",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "en la compra de tu IQOS con el código:",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8a61a2c5-bd73-450b-9a93-3766661023c8.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "180",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "code-turquesa-probariqos"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4ee07dff-d68e-4c6f-8a24-abe97db12776.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "260",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "IQOS 3 DUO 23.096-3"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "O si cuentas con un código de referido,<br>también puedes utilizarlo.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "*Los códigos de descuento no son acumulables",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "11px",
+                            "p_height": "16px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a8eb3700-380a-4da9-847c-9532db8c3f9f.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "30",
+                            "imgWidth": "180",
+                            "align": "center",
+                            "imgulr": "https://compraiqos.com.mx/",
+                            "THISIMG": "IQOS 3 DUO cta-bw-comprar-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "50",
+            "margin_bottom": "20",
+            "color_bkg": "#faf7f4",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "30",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0f5c3d40-c027-4352-bcf0-0e065a4f76a8.png",
+                    "imgulr": "#",
+                    "THISIMG": "ICO IQOS  IMG 23.096-ico"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "60",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿IQOS no es para ti?<br>Entendemos",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Da click en el botón para<br> agendar la recolección de tu<br> dispositivo en préstamo",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "#faf7f4",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a532177c-b325-4046-ab37-9b8d8f5330e7.png",
+            "margin_top": "10",
+            "margin_bottom": "40",
+            "url_cta": "tel:8001476769",
+            "this": "CTA cta-bw-llamar-ahora"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "CARGO AUTOMATICO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "92",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "<span style=\"color:#34303d;font-weight:700;\">Si al día 15 del préstamo NO confirmas algunas de las dos <br>opciones,comprar o devolver,</span> se realizará de manera <br>automática el cargo del dispositivo en la tarjeta de <br>crédito que ingresaste al Programa de Préstamo IQOS.",
+                            "color_bkg": "#ff6c00",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "20",
+                            "margin_bottom": "20"
+                        },
+                        {
+                            "rowtype": "spacer",
+                            "height": "40px",
+                            "color_bkg": "#faf7f4"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "¿Aún no te decides?<br>Llámanos desde tu celular al *993",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "20",
+            "color_bkg": "transparent",
+            "this": "CANALES DE COMUNICACION",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "23",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "18",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9931c3ca-acf3-499b-82ab-db858c233ebd.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html#openchat",
+                    "THISIMG": "IMG 23.093-ico1-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "18",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/cab3ab41-38f9-4dc0-9ce6-0fb6b9c82eaa.png",
+                    "imgulr": "https://www.facebook.com/iqosmx",
+                    "THISIMG": "IMG 23.093-ico2-fb"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "18",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a83c27e9-d0fd-475b-92e1-5d24a4ae1143.png",
+                    "imgulr": "tel:*993",
+                    "THISIMG": "IMG 23.091-ico5-celular"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "23",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "40",
+            "color_bkg": "transparent",
+            "this": "REDES SOCIALES",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "35",
+                    "imgwidth": "180",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c0daa0b0-8e26-45e8-a4ba-e078c5881fbb.png",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG cta-bw-ig"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "35",
+                    "imgwidth": "180",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2fbd25ec-63fb-4a36-8fe5-0480b3d0401c.png",
+                    "imgulr": "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+                    "THISIMG": "IMG cta-bw-yt"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "*Cupón de descuento vigente del 01 de agosto al 31 de diciembre de 2023. Válido en la compra de tu primer Kit IQOS como parte del Programa de Préstamo IQOS en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS<br><br>El Programa de Préstamo IQOS Demo está disponible en Tiendas IQOS Antara, Perisur, Santa Fe y IQOS Corners en Sanborns seleccionados: Masaryk, Interlomas, Galerías Insurgentes, Parque Delta, Universidad, Pedregal, Galerías Coapa, Atizapán, Reforma 222 y Satélite. El listado de tiendas podrá cambiar sin previo aviso.<br><br>El Programa de Préstamo IQOS Nuevo está disponible únicamente en Call Center IQOS llamando al 800 1 476769 o al *993 desde tu celular.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -1,0 +1,259 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE.html",
+
+        "Subject"          :   "¿Cómo te fue con el Programa de Préstamo IQOS?",
+        "Preheader"        :   "Ayúdanos a seguir mejorando",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20230714_Lending 3 DUO > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LENDING Churn Survey",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2307/pmi-230714-lending-3-duo/pmi-230714-ID23.100-lending-churn-survey-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230714-ID23.100-lending-churn-survey-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.100 LENDING Churn Survey",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8b1a66d1-b96d-4c28-8fca-f2ff89c95b6b.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/61cd8a81-ee17-4be9-b147-cdb827e6d3c2.png",
+            "url": "#",
+            "this": "IMG 23.100-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "85%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#faf7f4",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "Queremos conocer más acerca de tu<br>experiencia durante los últimos 14 días.<br><br><b>¿Cómo te fue con el dispositivo IQOS?</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "p___",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "20",
+            "content": "Selecciona la opción con la que más te identificas:",
+            "this": "TXT"
+        },
+        {
+            "type": "form____",
+            "ID": "form1",
+            "method": "get",
+            "fontweight": "300",
+            "fontsize": "16",
+            "align": "left",
+            "color_greeting": "#000000",
+            "color_bkg": "transparent",
+            "width": "80%",
+            "form_bgcolor": "#ffffff",
+            "this": "",
+            "imgBullet": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/23150b58-1b62-4576-9a23-8052512bca74.png",
+            "formurl": "#",
+            "formurl_HTML": "http://mailtool.lan:8888/form.php",
+            "formurl_DCE": "#",
+            "button": "btn-bw-transp-enviar.png",
+            "buttonwidth": "180",
+            "list": [
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checkedEJ": "checked",
+                    "checked": "",
+                    "value": "Survey_1",
+                    "txt": "No me gustó el sabor"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_2",
+                    "txt": "El olor no me agradó"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_3",
+                    "txt": "Las unidades de tabaco para calentar tienen una duración diferente a los cigarros"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_4",
+                    "txt": "Tuve dificultades con el uso del dispositivo"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_5",
+                    "txt": "La experiencia con el servicio no fue satisfactoria"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_6",
+                    "txt": "La limpieza del dispositivo fue complicada"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_7",
+                    "txt": "El precio no es accesible"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_8",
+                    "txt": "Debería haber más opciones de pago"
+                }
+            ]
+        },
+        {
+            "type": "rawHTML",
+            "th_valign": "",
+            "th_style": "",
+            "th_align": "",
+            "html": "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "th_valign_NOPE": "top",
+            "th_style_NOPE": "text-align:center;margin:0;padding:0;",
+            "th_align_NOPE": "center",
+            "html_NOPE": "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
+            "this": "HTML RAW"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "#IQOSElReto",
+            "this": "#IQOSElReto"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}
