@@ -122,6 +122,21 @@ $requiredBlocks = array(
 BAD CHR : "", "	"
 " ",
 --------------------
+--------------------
+url para mandar SMS:
+    https://cutt.ly/59uY4Ga
+Shortlink points to:
+    sms://+525592253374
+--------------------
+PRECIO TACHADO:
+<span style=\"text-decoration:line-through;color:#00d1d2;\">
+   <span style=\"color:#34303d;\">
+   &nbsp;$1,399 MXN&nbsp;
+   </span>
+</span>
+********************************************************************
+********************************************************************
+
 ++---------------------------------++
 ||   COLOR TURQUESA Brand World    ||
 ||   00d1d2                        ||
@@ -146,21 +161,8 @@ BAD CHR : "", "	"
 <span style=\"font-size:12px;\"><sup>(2)</sup></span>
 <span style=\"font-size:12px;\"><sup>(3)</sup></span>
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
+<span style=\"font-size:12px;\"><sup>MXN</sup></span>
 ===================================================================
---------------------
-url para mandar SMS:
-    https://cutt.ly/59uY4Ga
-Shortlink points to:
-    sms://+525592253374
---------------------
-PRECIO TACHADO:
-<span style=\"text-decoration:line-through;color:#00d1d2;\">
-   <span style=\"color:#34303d;\">
-   &nbsp;$1,399 MXN&nbsp;
-   </span>
-</span>
-********************************************************************
-********************************************************************
 --------------------
 --------------------
 --------------------

@@ -1576,8 +1576,8 @@ $libraryBlocks['greeting_v2'] ='
             "fontweight"    : "700",
             "color_greeting": "#34303d",
             "color_bkg"     : "transparent",
-            "margin_top"    : "70",
-            "margin_bottom" : "70",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
             "greeting"      : "Hola, %%first_name%%",
             "this"          : "Hola [nombre]"
         },';
@@ -1588,7 +1588,7 @@ $libraryBlocks['cta1_v2'] ='
             "color_bkg"     : "transparent",
             "button"        : "btn.png",
             "margin_top"    : "50",
-            "margin_bottom" : "50",
+            "margin_bottom" : "0",
             "url_cta"       : "#",
             "this"          : "CTA btn"
         },';
