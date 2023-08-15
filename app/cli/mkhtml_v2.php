@@ -16,10 +16,7 @@ include_once("includes_v2/functions_v2.php");
 define("ERR_BAD_ARGS", PHP_EOL."------> ERROR: sintaxis o número de argumentos inválidos.".PHP_EOL."        uso: php mkhtml_v2.php [TARGET] IDmail".PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL);
 
 
-// $root = dirname(dirname(getcwd()));
-
 $year = getYear();
-
 
 
 // ::::::: check arguments ::::::::: //
@@ -56,6 +53,8 @@ if ($argc == 3){
 
 $arguments = "_JSON_v2/$year-$idMail-data-v2/$year.$idMail-config.php";
 
+
+
 // var_dump(  array("TARGET" => $target,  "ID-mail" => $idMail) );
 // echo PHP_EOL; die;
 // echo $arguments . PHP_EOL;
@@ -75,8 +74,14 @@ $folder   = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; 
 $filename = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;  // Ej: pmi-230609-ID23.76-leads-junio-2-HTML
 
 // LOAD JSON DATA FILE FOR TWIG TEMPLATE ---------------------------------
-$f = $mes. "/" . $folder. "/" . $filename;
-$twigData = loadjson($f);
+$f = $mes. "/" . $folder. "/" . $filename;    
+$f1 = dirname(__DIR__) . "/json-data/" . $mes. "/" . $folder. "/" . $filename;
+
+// /Users/armandoromero/Documents/devF1/mailtool.lan/app/json-data/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.155-lending-awareness-2-HTML.json
+// /Users/armandoromero/Documents/devF1/mailtool.lan/app/json-data/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.155-lending-awareness-2-HTML
+
+
+$twigData = loadjson($f1);
 $twigData['isWebVer'] = 0;     // HTML version for mail
 
 // LOAD TWIG TEMPLATE ----------------------------------------------------
@@ -88,7 +93,22 @@ $template = $twig->load($TwigTemplate);
 $output = $twig->render($TwigTemplate, $twigData );
 
 // RENDER TWIG TEMPLATE TO FILE ------------------------------------------
+
+// $vars = createEnvironment2($arguments, $target);
+// mk_path( "../../email/"    , $vars['mes'] , $vars['folder'] );
+
+
 $htmlfile = '../../email/'. $twigData['HTMLstaticfile'];
+
+// echo dirname(dirname(__DIR__)) . PHP_EOL;
+// echo dirname(dirname(__DIR__)) . "/email/". $twigData['HTMLstaticfile'] . PHP_EOL;  
+// die;
+
+// OK:
+// /Users/armandoromero/Documents/devF1/
+// mailtool.lan/email/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.155-lending-awareness-2-HTML.html
+
+
 // echo $htmlfile.PHP_EOL; die;
 file_put_contents($htmlfile, $output);
 msgDone($htmlfile);
@@ -108,21 +128,29 @@ if ($target != "HTML")
 
 
 
-
 // -----  done -------
 
 
 function loadjson( $f )
-{
-    $filename = "../json-data/". $f. ".json";
+{  
+    $filename =  $f. ".json";
 
     if ( !file_exists ($filename) ){
         abort("No encuentro el archivo JSON $filename");
     }else{
         $data = file_get_contents($filename);
+        if (strlen( $data ) < 50 )
+        {
+            echo "El archivo: \n $filename \nEs demasiado corto (< 50 bytes).";
+        }
         // echo var_export($filename, true); die;            
         // echo var_export($data, true); die;
         $twigData = json_decode($data, true);
+        if ($twigData == NULL)
+        {
+            echo "ERROR:\n" .$filename . "\nNo se puede decodificar. Verificar sintaxis del archivo.\nEl error usualmente es por una coma faltante o sobrante." .PHP_EOL;
+            die;
+        }
         // echo var_export($twigData);die;
         return $twigData;
     }

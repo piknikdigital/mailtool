@@ -549,7 +549,7 @@ $libraryBlocks['disclaimer_iqos'] ='
             "height"        : "25",
             "color_bkg"     : "transparent",
             "this"          : "spacer"
-        }';
+        },';
 $libraryBlocks['pframed'] ='
         {
             "type"          : "pframed",
@@ -1637,23 +1637,24 @@ $libraryBlocks['ElijoIQOS'] ='
             "content"       : "#ElijoIQOS",
             "this"          : "#ElijoIQOS"
         },';
-$libraryBlocks['footer_bw_v1'] =',
+        
+$libraryBlocks['footer_bw_v1'] ='
         {
             "type"          : "footer_bw_v1"
         }';
-$libraryBlocks['footer_bw_v1_lowercase'] =',
+$libraryBlocks['footer_bw_v1_lowercase'] ='
         {
             "type"          : "footer_bw_v1_lowercase"
         }';
-$libraryBlocks['footer_fsh'] =',
+$libraryBlocks['footer_fsh'] ='
         {
             "type"          : "footer_fsh"
         }';
-$libraryBlocks['footer_bw_oos'] =',
+$libraryBlocks['footer_bw_oos'] ='
         {
             "type"          : "footer_bw_oos"
         }';
-$libraryBlocks['footer_bw_oos_lowercase'] =',
+$libraryBlocks['footer_bw_oos_lowercase'] ='
         {
             "type"          : "footer_bw_oos_lowercase"
         }';

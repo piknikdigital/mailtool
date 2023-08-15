@@ -1,0 +1,310 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML.html",
+
+        "Subject"          :   "¡No logramos realizar el pago de tu dispositivo IQOS! ¿Necesitas ayuda?",
+        "Preheader"        :   "Queremos apoyarte en el proceso",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230814-ID23.162-lending-pre-dunning-mail-3-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.162 LENDING Pre-Dunning Mail 3",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-7.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "50",
+            "height"        : "60",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "30",
+            "content"       : "Es momento de seguir<br><span style=\"color:#00d1d2;font-weight:700;\">viviendo el cambio</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "20",
+            "height"        : "26",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Muchas gracias por formar parte de",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "90",
+                    "imgwidth"      : "300",
+                    "mtop"          : "0",
+                    "img"           : "logo-iqos-reto.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "logo-iqos-reto"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "50",
+            "margin_bottom" : "20",
+            "content"       : "Intentamos hacer el cargo de tu dispositivo <br><b>SIN ÉXITO.</b>",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#faf7f4",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "90",
+                    "imgwidth"      : "80",
+                    "mtop"          : "0",
+                    "img"           : "ico-info.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "ico-info"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Por favor ayúdanos a realizar tu pago lo<br> más pronto posible o actualizar tus datos<br> de facturación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "26",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Si lo necesitas, llámanos al<br> <b>800-1-476769 o al <br>*993 desde tu celular.</b>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "280",
+            "color_bkg"     : "#faf7f4",
+            "button"        : "cta-llamar-a-servicio-a-cliente.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "url_cta"       : "tel:8001476769",
+            "this"          : "cta-llamar-a-servicio-a-cliente"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.162-1.jpg",
+            "url"           : "#",
+            "this"          : "23.162-1"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "28",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "Estamos disponibles para ti <br>todos los días de 8 a 22 hrs.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#IQOSElReto",
+            "this"          : "#IQOSElReto"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS El Reto es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho periodo, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario en tienda y Call Center IQOS.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}
