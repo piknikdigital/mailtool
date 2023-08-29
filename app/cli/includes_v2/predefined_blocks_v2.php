@@ -64,7 +64,7 @@ $libraryBlocks['p300'] ='
             "fontweight"    : "300",
             "fontsize"      : "18",
             "height"        : "24",
-            "width"         : "70%",
+            "width"         : "80%",
             "align"         : "center",
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
