@@ -1,23 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-
+$p_id              = "173b";
+$p_subject         = "Gracias por adoptar un fumador, ¡ahora es momento de consentirte! 🙂➡️";
+$p_preheader       = "¡Tu recompensa te está esperando!";
 $p_yy              = "23";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_mm              = "08";
+$p_dd              = "14";
+$p_name4folder     = "mgm-reminder-reward";
+$p_name4json       = "mgm-reminder-reward-dynamic-code";
+$p_name4folderDCE  = "MGM Reminder Reward";
+$p_mailname4DCE    = "MGM Reminder Reward";
+$p_customerkey_DCE = "NA";
+$p_name4folderFSH  = "NA";
+$p_mailname4FSH    = "NA";
+$p_customerkey_FSH = "NA";
+$id_FSH_folder     = "NA";
 
 //-----------------------------------------
 
@@ -30,15 +27,13 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "img",
     "greeting_v2",
     "p300_BW",
-
-    "columns",
-    "spacer",
     "cta1_v2",
+    "p700_BW",
+    "img",
+    "columns",
     "ElijoIQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -46,9 +41,6 @@ $requiredBlocks = array(
 
 
 /* 
-    "header_mgm_tu_codigo_unico",
-    "get_iqos_wallet_app",
-
     "img",
     "spacer",
     "pframed",
@@ -61,7 +53,6 @@ $requiredBlocks = array(
     "cta1_v2",
     "spacer_v2",
 
-    "Solo_con_IQOS",
     "footer_bw_v1",
 
         PARA FUTURO SIN HUMO USAR:
@@ -114,8 +105,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 173173XX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -172,14 +162,19 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+<b>Ahora es momento de disfrutar de las recompensas.</b><br><br>Disfruta de <b>$300 MXN*</b> redimibles en <br><b>Tiendas IQOS</b> o en <b>iqos.com</b> y empieza a <br>personalizar tu dispositivo como más te guste.<br><br>Encontrarás en este correo un cupón el cual será canjeable por recompensas. Asegúrate de tenerlo a la mano.<br><br><b>Redime ahora tu cupón en la Tienda en Línea.</b>
+--------------------
+Redime tu cupón en una de nuestras Tiendas.
+--------------------
+--------------------
+--------------------
+Este es tu cupón, recuerda tenerlo a la mano.
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+*Recompensa no canjeable por dinero en efectivo y redimible en Tiendas IQOS, iqos.com, IQOS Corners en Sanborns seleccionados y/o a través de un Experto IQOS. Aplican restricciones. No canjeable por productos de tabaco. Limitado a los primeros 10 amigos referidos que compren y registren su primer Kit IQOS con tu Código Único.
+
 --------------------
 --------------------
 --------------------

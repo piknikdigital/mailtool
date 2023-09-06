@@ -1,23 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-
-$p_yy              = "23";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '213';
+$p_subject =  'Comparte el cambio y sigue ganando con IQOS';
+$p_preheader =  'Podrías llevarte hasta $3,000 MXN en beneficios';
+$p_yy =  '23';
+$p_mm =  '09';
+$p_dd =  '05';
+$p_name4folder =  'mgm-septiembre';
+$p_name4json =  'mgm-laus-3';
+$p_name4folderDCE =  'MGM Septiembre';
+$p_mailname4DCE =  'MGM LAUS 3';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -28,16 +25,18 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "header_brand_world",
-    "img",
+    "header_mgm_tu_codigo_unico",
     "img",
     "greeting_v2",
+    "get_iqos_wallet_app",
     "p300_BW",
-
+    "p700_BW",
+    "p300_BW",
+    "cta1_v2",
+    "p300_BW",
     "columns",
     "spacer",
-    "cta1_v2",
-    "ElijoIQOS",
+    "columns",
     "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -46,9 +45,6 @@ $requiredBlocks = array(
 
 
 /* 
-    "header_mgm_tu_codigo_unico",
-    "get_iqos_wallet_app",
-
     "img",
     "spacer",
     "pframed",
@@ -61,7 +57,6 @@ $requiredBlocks = array(
     "cta1_v2",
     "spacer_v2",
 
-    "Solo_con_IQOS",
     "footer_bw_v1",
 
         PARA FUTURO SIN HUMO USAR:
@@ -114,8 +109,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 213213XX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -171,23 +165,36 @@ PRECIO TACHADO:
 ===================================================================
 --------------------
 --------------------
+Ten siempre a la mano tu Código Único,
+lleva el control de tus referidos y beneficios 
+con IQOS Wallet.
+Disponible para IOS y Android.
 --------------------
 --------------------
 --------------------
 --------------------
+Invita hasta <span style=\"color:#00d1d2;font-weight:700;\">10 de  tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span></span><br>a dejar el cigarro atrás y obtén  
+--------------------
+$300<span style=\"font-size:18px;\"><sup>MXN</sup></span> en beneficios<span style=\"font-size:12px;\"><sup>(8)</sup></span>
+--------------------
+por cada amigo que use tu Código Único<br>y registre su Kit IQOS en iqos.com
+--------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
 --------------------
+Además, tus  amigos recibirán
+--------------------
+20% de descuento<span style=\"font-size:12px;\"><sup>(3)</sup></span>
+--------------------
+en la compra de su primer Kit IQOS.
+--------------------
+--------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.<br>(2) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.<br>(3) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco. Vigencia hasta el 31 de diciembre del 2023.
 --------------------
 --------------------
 --------------------

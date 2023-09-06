@@ -8,6 +8,137 @@
 
 $libraryBlocks = array();
 
+$libraryBlocks['header_mgm_tu_codigo_unico'] ='
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "34",
+            "margin_bottom"     : "34",
+            "color_bkg"         : "#fffcfa",
+            "this"              : "HEADER MGM CODIGO UNICO",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "20",
+                    "imgwidth"      : "116",
+                    "mtop"          : "4",
+                    "img"           : "logo-header-iqos.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG logo-header-iqos"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "66",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Tu Código Único:",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "20px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "<span style=\"padding:0 5px;background-color:#00d1d2;\">%%referral_code%%</span>",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "9",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+$libraryBlocks['get_iqos_wallet_app'] ='
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#f9f7f4",
+            "margin_top"    : "40",
+            "margin_bottom" : "20",
+            "margin_sides"  : "2",
+            "margin_color"  : "transparent",
+            "content"       : "Ten siempre a la mano tu Código Único,<br>lleva el control de tus referidos y beneficios <br>con <span style=\"color:#00d1d2;font-weight:700;\">IQOS Wallet.</span><br>Disponible para <b>IOS y Android.</b>",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "30",
+            "color_bkg"         : "transparent",
+            "this"              : "LINKS APP - ITUNES / PLAY STORE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f9f7f4",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "173",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-apple-wallet.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-apple-wallet"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f9f7f4",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "202",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-google-play.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-google-play"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+
 $libraryBlocks['img_Logo_Header_HTML'] ='
         {
             "type"          : "img",
@@ -1260,7 +1391,7 @@ $libraryBlocks['p300_BW'] ='
             "fontweight"    : "300",
             "fontsize"      : "18",
             "height"        : "24",
-            "width"         : "70%",
+            "width"         : "80%",
             "align"         : "center",
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
@@ -1276,7 +1407,7 @@ $libraryBlocks['p700_BW'] ='
             "fontweight"    : "700",
             "fontsize"      : "20",
             "height"        : "26",
-            "width"         : "70%",
+            "width"         : "80%",
             "align"         : "center",
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
@@ -1628,7 +1759,7 @@ $libraryBlocks['ElijoIQOS'] ='
             "fontweight"    : "700",
             "fontsize"      : "26",
             "height"        : "30",
-            "width"         : "70%",
+            "width"         : "80%",
             "align"         : "center",
             "color"         : "#00d1d2",
             "color_bkg"     : "transparent",
@@ -1637,7 +1768,25 @@ $libraryBlocks['ElijoIQOS'] ='
             "content"       : "#ElijoIQOS",
             "this"          : "#ElijoIQOS"
         },';
+$libraryBlocks['Solo_con_IQOS'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Solo con IQOS",
+            "this"          : "Solo con IQOS"
+        },';
+
         
+
 $libraryBlocks['footer_bw_v1'] ='
         {
             "type"          : "footer_bw_v1"
@@ -1671,6 +1820,10 @@ $libraryBlocks['undefined'] ='
 // print_r(array_keys($libraryBlocks));
 
 /*
+    "header_mgm_tu_codigo_unico",
+    "get_iqos_wallet_app",
+    "Solo_con_IQOS",
+
     "img_Logo_Header_HTML",
     "img_Cover_HTML",
     "img",

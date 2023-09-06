@@ -1,23 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-
-$p_yy              = "23";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '209';
+$p_subject =  'El camino al cambio está más cerca de ti con IQOS ORIGINALS 🤩';
+$p_preheader =  'Elige tu favorito y dile adiós al olor a humo de cigarro';
+$p_yy =  '23';
+$p_mm =  '09';
+$p_dd =  '06';
+$p_name4folder =  'hard-sale-originals';
+$p_name4json =  'leads-originals-2';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'NA';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'Hard Sale Originals';
+$p_mailname4FSH =  'LEADS Originals 2';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  '190';
 
 //-----------------------------------------
 
@@ -29,16 +26,20 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "img",
-    "img",
+    "columns",
     "greeting_v2",
     "p300_BW",
-
-    "columns",
-    "spacer",
+    "p700_BW",
+    "p300_BW",
     "cta1_v2",
+    "img",
+    "p300_BW",
+    "p700_BW",
+    "cta1_v2",
+    "img",
+    "columns",
+
     "ElijoIQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -46,9 +47,6 @@ $requiredBlocks = array(
 
 
 /* 
-    "header_mgm_tu_codigo_unico",
-    "get_iqos_wallet_app",
-
     "img",
     "spacer",
     "pframed",
@@ -61,7 +59,6 @@ $requiredBlocks = array(
     "cta1_v2",
     "spacer_v2",
 
-    "Solo_con_IQOS",
     "footer_bw_v1",
 
         PARA FUTURO SIN HUMO USAR:
@@ -114,8 +111,7 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 209209XX :   %%=v(@voucher_code)=%% 
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -171,33 +167,46 @@ PRECIO TACHADO:
 ===================================================================
 --------------------
 --------------------
+Recibe un
+--------------------
+10% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>
+--------------------
+en la compra de tu primer Kit IQOS<br>usando el siguiente código:
 --------------------
 --------------------
 --------------------
 --------------------
+Nuestro IQOS 3 DUO ahora es
+--------------------
+IQOS ORIGINALS DUO.
 --------------------
 --------------------
 --------------------
 --------------------
+Conoce el nuevo 
+--------------------
+IQOS ORIGINALS ONE.
+--------------------
+<b>IQOS ORIGINALS ONE</b> es el nuevo <br>dispositivo todo en uno, con un diseño <br>compacto y portátil; y hasta 20 usos<br>consecutivos con una sola carga*. 
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+*20 usos consecutivos no significan más usos sino menos tiempo de espera entre usos.<br>(1) Promoción vigente del 1 de enero de 2023 al 31 de diciembre de 2023. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código hasta el 31 de diciembre de 2023. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta Términos y Condiciones.</a>
 
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta Términos y Condiciones.</a>
+--------------------
+--------------------
 --------------------
 ===================================================================
 SHARE MSG FSH:
