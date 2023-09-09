@@ -139,6 +139,69 @@ $libraryBlocks['get_iqos_wallet_app'] ='
             ]
         },';
 
+$libraryBlocks['get_iqos_wallet_app_slate'] ='
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "color_bkg"     : "#373340",
+            "margin_top"    : "40",
+            "margin_bottom" : "20",
+            "margin_sides"  : "2",
+            "margin_color"  : "transparent",
+            "content"       : "Ten siempre a la mano tu Código Único,<br>lleva el control de tus referidos y beneficios <br>con <span style=\"color:#00d1d2;font-weight:700;\">IQOS Wallet.</span><br>Disponible para <b>IOS y Android.</b>",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "30",
+            "color_bkg"         : "transparent",
+            "this"              : "LINKS APP - ITUNES / PLAY STORE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#373340",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "173",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-apple-wallet.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-apple-wallet"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#373340",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "202",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-google-play.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-google-play"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
 $libraryBlocks['img_Logo_Header_HTML'] ='
         {
             "type"          : "img",
@@ -1822,6 +1885,7 @@ $libraryBlocks['undefined'] ='
 /*
     "header_mgm_tu_codigo_unico",
     "get_iqos_wallet_app",
+    "get_iqos_wallet_app_slate",
     "Solo_con_IQOS",
 
     "img_Logo_Header_HTML",
