@@ -1,0 +1,271 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML.html",
+
+        "Subject"          :   "No esperes más y estrena hoy un IQOS ORIGINALS ✨",
+        "Preheader"        :   "El calentamiento de tabaco tiene una nueva imagen",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2309/pmi-230919-hard-sale-originals/pmi-230919-ID23.218-hard-sale-originals-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230919-ID23.218-hard-sale-originals-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.218 Hard Sale Originals",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-8.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "5",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "STAGE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "540",
+                    "mtop"          : "0",
+                    "img"           : "23.218-1.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.218-1"
+                }
+            ]
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Conoce los nuevos <span style=\"color:#00d1d2;font-weight:700;\">IQOS ORIGINALS,</span><br>y dile adiós a las molestias provocadas por <br>el olor a humo de cigarro.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "IQOS ORIGINALS DUO $989",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f8f7f3",
+                    "widthp100"     : "60",
+                    "imgwidth"      : "360",
+                    "mtop"          : "70",
+                    "img"           : "23.218-2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.218-2"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f8f7f3",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "180",
+                    "mtop"          : "0",
+                    "img"           : "23.218-3.gif",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.218-3"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-compra-ahora.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this"          : "CTA cta-bw-compra-ahora"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "IQOS ORIGINALS ONE $539",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f8f7f3",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "180",
+                    "mtop"          : "0",
+                    "img"           : "23.218-4.gif",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.218-4"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f8f7f3",
+                    "widthp100"     : "60",
+                    "imgwidth"      : "360",
+                    "mtop"          : "70",
+                    "img"           : "23.218-5.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.218-5"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-compra-ahora.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this"          : "CTA cta-bw-compra-ahora"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "25",
+            "content"       : "Solo con IQOS",
+            "this"          : "Solo con IQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}
