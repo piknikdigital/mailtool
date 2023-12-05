@@ -24,6 +24,9 @@
                                                 {% if blocks[index].columns[idx].rows[idxrow].rowtype == "img" %}
                                                   {{ block("multirows_img", "blocks_v2/block-columns-column-multirows-img.twig") }}
                                                 {% endif %}
+                                                {% if blocks[index].columns[idx].rows[idxrow].rowtype == "cta1_cta2" %}
+                                                  {{ block("multirows_cta1cta2", "blocks_v2/block-columns-column-multirows-cta1cta2.twig") }}
+                                                {% endif %}
                                                 {% if blocks[index].columns[idx].rows[idxrow].rowtype == "cta1" %}
                                                   {{ block("multirows_cta1", "blocks_v2/block-columns-column-multirows-cta1.twig") }}
                                                 {% endif %}

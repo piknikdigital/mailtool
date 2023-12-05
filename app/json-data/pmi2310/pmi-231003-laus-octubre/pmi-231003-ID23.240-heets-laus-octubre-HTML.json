@@ -1,0 +1,263 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML.html",
+
+        "Subject"          :   "Encuentra las unidades de tabaco para calentar cerca de ti",
+        "Preheader"        :   "Descubre una nueva experiencia de sabor en tu punto de venta más cercano",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231003-laus-octubre/pmi-231003-ID23.240-heets-laus-octubre-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231003-ID23.240-heets-laus-octubre-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.240 HEETS LAUS Octubre",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-8.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.240-1.gif",
+            "url"           : "#",
+            "this"          : "IMG 23.240-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "Visita tu <span style=\"color:#00d1d2;font-weight:700;\">Tienda IQOS</span> y solicita una prueba para <br>conocer la variante que más se adecue a tus gustos",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-solicitar-prueba.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "30",
+            "url_cta"       : "tel:8001476769",
+            "this"          : "CTA cta-bw-solicitar-prueba"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.240-2.jpg",
+            "url"           : "#",
+            "this"          : "IMG 23.240-2"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "20",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.240-3.jpg",
+            "url"           : "#",
+            "this"          : "IMG 23.240-3"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#e27d34",
+            "this"              : "CTA Localiza una tienda",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "4",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#f8f6f3",
+                    "widthp100"     : "86",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Recuerda que las unidades de tabaco para calentar<br> las puedes encontrar en:",
+                            "color_bkg"     : "#e27d34",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "30"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "23.240-4.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "20",
+                            "imgWidth"       : "460",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "23.2240-4"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-localiza-una tienda.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "20",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG"        : "cta-bw-localiza-una tienda"
+                        },
+                        {
+                            "rowtype"       : "spacer",
+                            "height"        : "20px",
+                            "color_bkg"     : "#e27d34"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "4",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "35",
+            "content"       : "Solo con IQOS",
+            "this"          : "Solo con IQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

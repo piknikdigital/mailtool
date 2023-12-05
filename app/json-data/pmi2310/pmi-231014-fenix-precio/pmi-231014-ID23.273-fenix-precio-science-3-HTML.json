@@ -1,0 +1,684 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML.html",
+
+        "Subject"          :   "¿Cuál es el principal problema del cigarro? 🤔",
+        "Preheader"        :   "Descubre porque el calentamiento de tabaco es la solución al principal problema de consumo",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231014-fenix-precio/pmi-231014-ID23.273-fenix-precio-science-3-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231014-ID23.273-fenix-precio-science-3-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.273 Fénix Precio Science 3 ",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+   
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-8.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#00d1d2",
+            "this"              : "HEADER",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "35",
+                    "imgwidth"      : "210",
+                    "mtop"          : "0",
+                    "img"           : "23.273-1.gif",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.273-1"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "65",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¿Sabías que el <br>principal problema <br>de fumar es <br><span style=\"color:#34303d;\">la combustión?</span>",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "34px",
+                            "p_height"      : "36px",
+                            "p_align"       : "center",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "70",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "30",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "65",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Al quemarse el tabaco, emite <br>sustancias químicas nocivas, además <br>deja olor y sabor a humo de cigarro.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "23.198-ico1.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.198-ico1"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "24",
+            "height"        : "28",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "#34303d",
+            "margin_top"    : "20",
+            "margin_bottom" : "20",
+            "content"       : "IQOS al calentar tabaco en <br>lugar de quemarlo ",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "30",
+            "margin_bottom"     : "10",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "100",
+                    "mtop"          : "0",
+                    "img"           : "23.198-ico2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.198-ico2"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "65",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Produce 95% menos sustancias <br>tóxicas en comparación con <br>los cigarros.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "9",
+            "txt"           : "*95% menos representa las reducciones promedio en los niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarro de referencia (3R4F)",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "10",
+            "margin_bottom" : "10",
+            "framecolor"    : "#000000",
+            "framepadding"  : "5",
+            "content"       : "<b>Información importante:</b> No necesariamente equivale a un 95% de reducción en riesgo. IQOS no es libre de riesgo.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "30",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/ciencia.html",
+            "this"          : "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "20",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "Eliminar la combustión permite que IQOS <br>ofrezca <span style=\"color:#00d1d2;font-weight:700;\">grandes beneficios</span> cómo:",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "BENEFICIOS 1/2",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "288",
+                    "mtop"          : "0",
+                    "img"           : "23.273-2.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.273-2"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "6",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "46",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "No deja olor a humo <br>de cigarro ni ceniza.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Olvídate de comprar <br>aromatizantes para disfrazar <br>el olor y dile adiós a las <br>manchas de ceniza en ropa, <br>cortinas y muebles.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "15",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "25",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "BENEFICIOS 2/2",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "46",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Elimina <br>completamente <br>el fuego.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "22px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Dile adiós a las quemaduras, <br>empieza a comprar ropa y <br>muebles nuevos por gusto.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "15",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "6",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "288",
+                    "mtop"          : "0",
+                    "img"           : "23.273-3.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.273-3"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "28",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "¿Aún no te convence <span style=\"color:#00d1d2;font-weight:700;\">IQOS?</span>",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "40",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "#f8f7f3",
+            "this"              : "LOCALIZA TIENDA",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "17",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "25",
+                    "imgwidth"      : "90",
+                    "mtop"          : "5",
+                    "img"           : "23.273-ico3.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 23.273-ico3"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "58",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Visítanos en cualquier <br><b>Tienda IQOS</b> para solicitar <br>una demostración de producto ",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¡gratis!",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "28px",
+                            "p_align"       : "left",
+                            "p_color"       : "#00d1d2",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "#f8f7f3",
+            "button"        : "cta-bw-localiza-una-tienda.png",
+            "margin_top"    : "30",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this"          : "CTA cta-bw-localiza-una-tienda"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "5",
+            "margin_bottom"     : "10",
+            "color_bkg"         : "transparent",
+            "this"              : "codigo / cta compra ahora",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "43",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "pframed__",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "lineheight"    : "11",
+                            "align"         : "center",
+                            "width"         : "100%",
+                            "margin_top"    : "5",
+                            "margin_bottom" : "5",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "codigo-menosolor-blanco.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "30",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "codigo-menosolor-blanco"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-compra-ahora.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "200",
+                            "align"          : "center",
+                            "imgulr"         : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+                            "THISIMG"        : "cta-bw-compra-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "48",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Recuerda utilizar tu código de",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "¡10% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>!",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#ffffff",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Válido en la compra de <br>tu primer kit IQOS.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "16px",
+                            "p_height"      : "22px",
+                            "p_align"       : "right",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "23.197-4.jpg",
+            "url"           : "#",
+            "this"          : "IMG 23.197-4"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "content"       : "Solo con IQOS",
+            "this"          : "Solo con IQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "(1) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+
+
+
+
+    "END"            :   "#######################"
+
+}

@@ -3,21 +3,19 @@
 $p_id              = "000";
 $p_subject         = "xxx";
 $p_preheader       = "xxx";
-
 $p_yy              = "23";
 $p_mm              = "00";
 $p_dd              = "00";
 $p_name4folder     = "serverfolder";
 $p_name4json       = "jsonname";
-
 $p_name4folderDCE  = "folderdce";
 $p_mailname4DCE    = "NAME4CRM";
 $p_customerkey_DCE = "custkeyDCE";
-
 $p_name4folderFSH  = "folderfsh";
 $p_mailname4FSH    = "NAME4CRM";
 $p_customerkey_FSH = "custkeyFSH";
 $id_FSH_folder     = "999";
+
 
 //-----------------------------------------
 
@@ -29,11 +27,13 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
+
+
+
     "img",
     "img",
     "greeting_v2",
     "p300_BW",
-
     "columns",
     "spacer",
     "cta1_v2",
@@ -216,6 +216,17 @@ Hablemos para que 15 millones de fumadores puedan elegir. Hablemos de alternativ
 https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20puedan%20elegir.%20Hablemos%20de%20alternativas%20para%20los%20que%20fuman.%20%C3%9Anete%20al%20movimiento.%20https%3A%2F%2Ffuturosinhumo.com.mx
 
 ===================================================================
+
+"donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+"url_ctaDECODED"     : "whatsapp://send?text=",
+"text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
+"imgulr1"            : "whatsapp://send?text=",
+"imgulr2"            : "https://wa.me/?text=",
+"imgulr3"            : "https://web.whatsapp.com/send?text=",
+"imgulr"             : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
+
+===================================================================
+
 
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
 "url_ctaDECODED"     : "whatsapp://send?text=",

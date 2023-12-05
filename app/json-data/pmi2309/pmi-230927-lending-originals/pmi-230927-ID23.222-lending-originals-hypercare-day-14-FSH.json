@@ -1,0 +1,526 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH.html",
+
+        "Subject"          :   "Gracias por ser parte de IQOS El Reto, ¡lo lograste!",
+        "Preheader"        :   "14 días se fueron volando",
+
+        "PATH"             :   "Content Builder > 192_Lending Originals Hypercare Day 0 27 09 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Lending Originals Hypercare Day 14",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230927-ID23.222-lending-originals-hypercare-day-14-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.222 Lending Originals Hypercare Day 14",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/11dea3fd-bf28-49c7-9cdb-9404e9af0447.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/10c756eb-9312-40ea-a82b-d39ad7c15293.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.222-1"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/8793025f-e278-4574-9de7-ac3b860a552d.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.222-2"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "¡Llegaste al final, lo lograste! Tus 14 días de prueba han terminado, <span style=\"color:#00d1d2;font-weight:700;\">¿qué sigue? </span>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/840ff64e-ec7a-4860-a72a-a920d984a7bb.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.222-3"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "¡Quiero comprar mi IQOS!",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¡Quiero comprar mi IQOS!",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "28px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p_OLD": "Localiza tu Tienda IQOS más cercana<span style=\"font-size:12px;\"><sup>(1)</sup></span> y agenda<br> una cita para comprar o devolver tu IQOS.<br><br>¡No esperes más! <span style=\"color:#34303d;font-weight:700;\">Obtén hasta 6 MSI<span style=\"font-size:12px;\"><sup>(2)</sup></span></span> en la<br> compra de tu primer Kit IQOS o si tienes un<br> código de promoción, es momento de utilizarlo.",
+                            "p": "Localiza tu Tienda IQOS más cercana<span style=\"font-size:12px;\"><sup>(1)</sup></span> y agenda<br> una cita para comprar o devolver tu IQOS.<br><br>¡No esperes más!",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "20",
+                            "margin_bottom": "25"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b5d1b503-3678-4ebc-9d5f-7ff245dc0aa5.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "30",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+                            "THISIMG": "CTA1 cta-bw-gris-localiza-una-tienda"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#db3826",
+            "this": "EXTENSION PLAZO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#ff7e2a",
+                    "widthp100": "35",
+                    "imgwidth": "210",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ddf4d840-5dac-42c3-9b5e-d268aa77d7e7.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.222-4"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ff7e2a",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#ff7e2a",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿14 días no fueron<br> suficientes? Sigue leyendo.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "40",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Sabemos que cambiar <br>puede ser un reto.  <br><b>Extiende tu préstamo <br>7 días más.</b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "20",
+                            "margin_bottom": "5"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/dfcd6e68-c005-4f2b-b114-67a7fbfb9ac4.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "160",
+                            "align": "left",
+                            "imgulr_OLD": "tel:*933",
+                            "imgulr": "tel:8001476769",
+                            "THISIMG": "cta-bw-llamanos"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "color_bkg": "#faf7f4",
+            "this": "¿IQOS NO ES PARA TI? - DEVOLUCION",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "40",
+                    "imgwidth": "120",
+                    "mtop": "40",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/7d2ac39c-b7bc-473a-8a90-d87df2f9ae7f.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.222-5"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿IQOS no es para ti?<br>Entendemos.",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "700",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "5"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Regresa tu IQOS en préstamo<br> sin preocupaciones. Agenda <br>una cita para poder regresar el <br>dispositivo.",
+                            "color_bkg": "#faf7f4",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "15",
+                            "margin_bottom": "5"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "20",
+            "margin_bottom": "30",
+            "color_bkg": "#faf7f4",
+            "this": "CTA - AGENDA CITA DEVOLUCION",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "90",
+                    "imgwidth": "180",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2c260e8b-890a-4b81-85ca-e8301c399f74.png",
+                    "imgulr": "tel:8001476769",
+                    "THISIMG": "IMG cta-bw-agenda-una-cita"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ffffff",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "30",
+            "content": "Si todavía no tomas una decisión o tienes dudas, <b>¡Contáctanos!</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#FFFFFF",
+            "this": "CONTACT OUR EXPERTS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "23",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/20a67922-2a5f-4d40-a36a-b9f2d21ecfce.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html#openchat",
+                    "THISIMG": "IMG ico-lending-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c9403f0a-a1c1-4644-8c3a-f95fce2304c7.png",
+                    "imgulr": "https://www.facebook.com/iqosmx",
+                    "THISIMG": "IMG ico-lending-fb"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/377f4dbd-3708-43ff-a53f-3dffbc90192a.png",
+                    "imgulr": "tel:*993",
+                    "THISIMG": "IMG ico-lending-celular"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "23",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "color_bkg": "transparent",
+            "this": "REDES SOCIALES",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "200",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f5f13774-844b-444c-b0ea-f9cde31a1792.png",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG cta-bw-ig-iqos-mx"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "200",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/555f7ad1-bd40-4985-b08c-2c100e475bdc.png",
+                    "imgulr": "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+                    "THISIMG": "IMG cta-bw-yt-iqos-mexico"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "(1) El Programa de Préstamo IQOS Demo está disponible en Tiendas IQOS Antara, Perisur, Satélite, Santa Fe, Mítikah y IQOS Corners en Sanborns seleccionados: Pabellón Bosques, Palmas, San Antonio, Metrópoli, Nuevo Tlalnepantla, Del Valle, Villa Coapa, Plaza Inbursa, Toluca Centro, Loreto, Barranca del Muerto, Parque Lindavista, Altavista, Hospitales, Lomas Verdes, San Mateo, Parque El Toreo, Ticomán, Gran Sur, Ecatepec, Plaza Insurgentes, Echegaray, San Marcos, Aeropuerto, Madero, Buenavista Fórum, Plaza Carso, Satélite, Atizapán, Interlomas, Perisur, Pedregal, Reforma 222, Metepec, Santa Fe, Masaryk, Parque Delta, Galerias Coapa, Universidad, Galerías Insurgentes y Tacubaya. El listado de tiendas podrá cambiar sin previo aviso.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

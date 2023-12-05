@@ -1,0 +1,538 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH.html",
+
+        "Subject"          :   "¿Cuál es el principal problema del cigarro? 🤔",
+        "Preheader"        :   "Descubre porque el calentamiento de tabaco es la solución al principal problema de consumo",
+
+        "PATH"             :   "Content Builder > 198_Fénix Sabor 17 10 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Fénix Sabor SCIENCE 3",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231017-fenix-sabor/pmi-231017-ID23.282-fenix-sabor-science-3-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231017-ID23.282-fenix-sabor-science-3-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.282 Fénix Sabor SCIENCE 3",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/784530f6-9c85-4ecc-99a3-39f6a215d663.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#00d1d2",
+            "this": "HEADER",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "35",
+                    "imgwidth": "210",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9c35c45a-0cef-4ca5-a110-7906350afb34.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.282-1"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "65",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿Sabías que el <br>principal problema <br>de fumar es <br><span style=\"color:#34303d;\">la combustión?</span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "34px",
+                            "p_height": "36px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "70",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "65",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Al quemarse el tabaco, emite <br>sustancias químicas nocivas, además <br>deja olor y sabor a humo de cigarro.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "right",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "5"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e63957d7-9899-4e54-9d7d-3860d550a14a.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.198-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "28",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "#34303d",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "content": "IQOS al calentar tabaco en <br>lugar de quemarlo ",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "10",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "30",
+                    "imgwidth": "100",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ee7962cf-5b08-4e20-8873-2f89366105ce.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.198-ico2"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "65",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Produce 95% menos sustancias <br>tóxicas en comparación con <br>los cigarros.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "9",
+            "txt": "*95% menos representa las reducciones promedio en los niveles de una variedad de sustancias químicas nocivas (excluyendo la nicotina) en comparación con el humo de un cigarro de referencia (3R4F)",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "10",
+            "margin_bottom": "10",
+            "framecolor": "#000000",
+            "framepadding": "5",
+            "content": "<b>Información importante:</b> No necesariamente equivale a un 95% de reducción en riesgo. IQOS no es libre de riesgo.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/98e8aaed-63d0-40fd-9426-b9d4dd924a2c.png",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "url_cta": "https://www.iqos.com/mx/es/ciencia.html",
+            "this": "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b350d27c-949d-4425-ba06-05d539271569.jpg",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this": "IMG 23.282-2 CTA conoce-mas."
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "28",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "¿Aún no te convence <span style=\"color:#00d1d2;font-weight:700;\">IQOS?</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "color_bkg": "#34303d",
+            "this": "LOCALIZA TIENDA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "17",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "25",
+                    "imgwidth": "90",
+                    "mtop": "5",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bc9aab10-9c3b-4e2f-aad5-b764122cfb47.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.277-ico3"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Visítanos en cualquier <br><b>Tienda IQOS</b> para solicitar <br>una demostración de producto ",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "¡gratis!",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "28px",
+                            "p_align": "left",
+                            "p_color": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "#34303d",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/3682c8cb-ee22-45b2-8e83-431eab1e4686.png",
+            "margin_top": "30",
+            "margin_bottom": "40",
+            "url_cta": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this": "CTA cta-bw-transparente-localiza-una-tienda"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "10",
+            "color_bkg": "transparent",
+            "this": "codigo / cta compra ahora",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "43",
+                    "rows": [
+                        {
+                            "rowtype": "pframed__",
+                            "color_bkg": "transparent",
+                            "p": "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "fontweight": "300",
+                            "fontsize": "9",
+                            "lineheight": "11",
+                            "align": "center",
+                            "width": "100%",
+                            "margin_top": "5",
+                            "margin_bottom": "5",
+                            "color": "#000000",
+                            "framecolor": "#000000",
+                            "framebgcolor": "transparent",
+                            "framepadding": "5",
+                            "border": "1",
+                            "this": ""
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/53e2ffab-3bac-403f-ac81-9a3b53442c97.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "codigo-menosolor-blanco"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bace6fd4-8dd7-42e0-a108-cc154f0e44cf.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+                            "THISIMG": "cta-bw-compra-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "48",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Recuerda utilizar tu código de",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "22px",
+                            "p_align": "right",
+                            "p_color": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "¡10% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>!",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "22px",
+                            "p_align": "right",
+                            "p_color": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Válido en la compra de <br>tu primer kit IQOS.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "22px",
+                            "p_align": "right",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "2",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/1734d660-de74-415b-9bb9-c3203f174666.jpg",
+            "url": "#",
+            "this": "IMG 23.197-4"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "70%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "50",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

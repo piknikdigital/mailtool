@@ -11,10 +11,11 @@ $p_name4json =  'lending-awareness-2';
 $p_name4folderDCE =  'Lending Originals';
 $p_mailname4DCE =  'LENDING Awareness 2';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
+$p_name4folderFSH =  'Lending Originals';
+$p_mailname4FSH =  'LENDING Awareness 2';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$id_FSH_folder =  '193';
+
 
 //-----------------------------------------
 

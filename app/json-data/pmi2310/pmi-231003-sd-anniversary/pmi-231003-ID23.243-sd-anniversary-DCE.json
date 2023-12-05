@@ -1,0 +1,402 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE.html",
+
+        "Subject"          :   "¡Cumplimos 4 años en México! Celébralo estrenando un segundo dispositivo 🎉",
+        "Preheader"        :   "Adquiere un nuevo IQOS ORIGINALS a un súper precio",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20231003_SD + Anniversary > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "SD + Anniversary",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231003-sd-anniversary/pmi-231003-ID23.243-sd-anniversary-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231003-ID23.243-sd-anniversary-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.243 SD + Anniversary",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/412854ae-3aa1-4c6e-91f3-1916fe5130ce.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/778ee209-0915-4fe1-8b94-8274cea5f67c.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.243-1"
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "IQOS cumple <span style=\"color:#00d1d2;font-weight:700;\">4 años en México</span><br>y la mejor manera de celebrar es <br>estrenando un <span style=\"color:#00d1d2;font-weight:700;\">segundo dispositivo.</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/043777a2-518b-4d53-8b3a-69d65ce921b8.jpg",
+            "url": "#",
+            "this": "IMG 23.243-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#f5f1ed",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Recibe",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "25",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "30% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "28px",
+                            "p_align": "center",
+                            "p_color": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "usando el siguiente código al adquirir tu<br>segundo dispositivo <b>IQOS ORIGINALS.</b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6d6f1736-3cbd-44d6-8996-6fef9cb56c2c.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "codigo-recompraiqos"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/295b92c4-5d6e-4c87-8590-27c6b5170c68.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "30",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+                            "THISIMG": "cta-bw-turquesa-compra-ahora"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b854125d-f335-47bc-bf2e-3c72ab1ff656.jpg",
+            "url": "#",
+            "this": "IMG 23.243-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "28",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "¿Recuerdas por qué decidiste<br> cambiarte a IQOS?",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "IQOS [1/2] - no produce humo ni ceniza",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "270",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/40814ba1-f644-4e4d-ad46-fc0e6233d168.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.243-4"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no produce<br> humo ni ceniza.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Eliminar la combustión te<br> ha permitido disminuir las<br> molestias a los demás.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "IQOS [2/2] - no deja olor a humo de cigarro.",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no deja olor a<br> humo de cigarro.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Gracias a IQOS le dijiste adiós<br> al olor a humo de cigarro en<br> tus manos, cabello, ropa<br> y muebles.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "270",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6a8009eb-3723-4281-b49a-97bd1a51640a.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.243-5"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Código \"RECOMPRAIQOS\" equivalente a un 30% de descuento, válido hasta el 31 de diciembre de 2023 en la compra de un Kit IQOS ORIGINALS en www.iqos.com, Tiendas IQOS, Call Center IQOS y IQOS Corners en Sanborns. Limitado a un Kit IQOS ORIGINALS por usuario registrado con un dispositivo IQOS 3 DUO o IQOS ORIGINALS en iqos.com. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Consulta Términos y Condiciones.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

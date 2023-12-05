@@ -1,0 +1,619 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH.html",
+
+        "Subject"          :   "Encuentra tu Tienda IQOS más cercana 🔍",
+        "Preheader"        :   "Descubre todos los servicios y beneficios que tenemos para ti",
+
+        "PATH"             :   "Content Builder > 199_Tiendas Noviembre 24 10 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Tiendas Noviembre",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.293-tiendas-noviembre-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231024-ID23.293-tiendas-noviembre-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.293 Tiendas Noviembre",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/784530f6-9c85-4ecc-99a3-39f6a215d663.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/43df33ba-51a4-4680-b945-247ff1f4f1ee.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-1"
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "26",
+            "width": "90%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "¡Vive la experiencia IQOS <br>en nuestras Tiendas!",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "content": "Visítanos y recibe la atención que<br>tú y tu IQOS se merecen, además podrás <br>encontrar los <span style=\"font-weight:700;font-size:20px;\">siguientes servicios:</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "5",
+            "color_bkg": "transparent",
+            "this": "ICO 1/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f5ed167d-1ff9-4b31-b80b-171fb4e3ea0c.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Venta de accesorios IQOS.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "5",
+            "color_bkg": "transparent",
+            "this": "ICO 2/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/53edaebc-fe46-4c75-a96e-fb800fc0ac07.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico2"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Venta de unidades de<br> tabaco para calentar.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "15",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "5",
+            "color_bkg": "transparent",
+            "this": "ICO 3/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f4fe6f69-8a18-4648-a471-b9d837551636.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Servicio de limpieza gratuito.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "5",
+            "color_bkg": "transparent",
+            "this": "ICO 4/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/5d952e90-0d3e-4396-b234-999d00075383.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico4"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Actualización de firmware.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "5",
+            "color_bkg": "transparent",
+            "this": "ICO 5/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c677ebbd-f56d-427a-87c1-c9457e3873c1.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico5"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Asesoría y revisión.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "5",
+            "margin_bottom": "30",
+            "color_bkg": "transparent",
+            "this": "ICO 6/6",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#34303d",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/777ca196-c7bb-4c2d-8bbc-360b1faa374c.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.293-ico6"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#34303d",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#34303d",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Reemplazos.*",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "GIF DIRECCIONES TIENDAS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f506540f-e926-44bd-8136-60b7c774f043.gif",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "380",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.293-2b"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/eb180ee8-5809-45b9-9739-e0d62892c63c.png",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "url_cta": "tel:8001476769",
+            "this": "CTA cta-bw-agenda-tu-cita"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "*Sujeto a disponibilidad de inventario.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

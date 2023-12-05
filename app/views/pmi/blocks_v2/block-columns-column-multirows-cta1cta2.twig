@@ -1,0 +1,23 @@
+{% block multirows_cta1cta2 %}
+
+                                                  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                  <tbody>
+
+                                                  {% if blocks[index].columns[idx].rows[idxrow].margin_top != 0 %}<tr>
+                                                    <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].margin_top}}">&nbsp;</th>
+                                                  </tr> {% endif %}
+
+                                                  <tr>
+                                                    <th style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};">
+                                                    {% if blocks[index].columns[idx].rows[idxrow].url_cta1 is defined and blocks[index].columns[idx].rows[idxrow].url_cta1 != "#" %}<a href="{{blocks[index].columns[idx].rows[idxrow].url_cta1}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].columns[idx].rows[idxrow].button1}}" width="{{blocks[index].columns[idx].rows[idxrow].widthbutton1}}" height="auto" align="{{blocks[index].columns[idx].rows[idxrow].align1}}" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; {% if blocks[index].columns[idx].rows[idxrow].align1 == "center" %}margin-left:auto;margin-right:auto;{% endif %} width:{{blocks[index].columns[idx].rows[idxrow].widthbutton1}}px;">{% if blocks[index].columns[idx].rows[idxrow].url_cta1 is defined and blocks[index].columns[idx].rows[idxrow].url_cta1 != "#" %}</a>{% endif %}</th>
+                                                    <th style="background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};">
+                                                    {% if blocks[index].columns[idx].rows[idxrow].url_cta2 is defined and blocks[index].columns[idx].rows[idxrow].url_cta2 != "#" %}<a href="{{blocks[index].columns[idx].rows[idxrow].url_cta2}}" target="_blank"> {% endif %} <img src="{{BaseURLimg}}{{blocks[index].columns[idx].rows[idxrow].button2}}" width="{{blocks[index].columns[idx].rows[idxrow].widthbutton2}}" height="auto" align="{{blocks[index].columns[idx].rows[idxrow].align2}}" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; {% if blocks[index].columns[idx].rows[idxrow].align2 == "center" %}margin-left:auto;margin-right:auto;{% endif %}  width:{{blocks[index].columns[idx].rows[idxrow].widthbutton2}}px;">{% if blocks[index].columns[idx].rows[idxrow].url_cta2 is defined and blocks[index].columns[idx].rows[idxrow].url_cta2 != "#" %}</a>{% endif %}</th>
+                                                  </tr>
+
+                                                  {% if blocks[index].columns[idx].rows[idxrow].margin_bottom != 0 %}<tr>
+                                                    <th colspan="2" valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:{{blocks[index].columns[idx].rows[idxrow].color_bkg}};" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].margin_bottom}}">&nbsp;</th>
+                                                  </tr> {% endif %}
+
+                                                  </tbody>
+                                                  </table>
+{% endblock %}

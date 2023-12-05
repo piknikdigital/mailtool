@@ -1,0 +1,429 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE.html",
+
+        "Subject"          :   "Comenzamos noviembre con el pie derecho 🎉",
+        "Preheader"        :   "Vive una gran experiencia con tu IQOS, esto te interesa",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20231024_LAUS Noviembre > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Newsletter 2023 Noviembre ",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2310/pmi-231024-laus-noviembre/pmi-231024-ID23.285-newsletter-2023-noviembre-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231024-ID23.285-newsletter-2023-noviembre-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.285 Newsletter 2023 Noviembre ",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/412854ae-3aa1-4c6e-91f3-1916fe5130ce.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0fb0af61-7a63-439e-a82f-70e1d2529bd6.jpg",
+            "url": "#",
+            "this": "IMG 23.285-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p_v2",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "30",
+            "width": "90%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#00d1d2",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "margin_sides": "5",
+            "margin_color": "transparent",
+            "content": "Así vivimos el <br>4to aniversario de IQOS",
+            "readme": "height px, margin %",
+            "this": ""
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "CARD 1",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/7138aea1-5caf-48bc-b025-ae2ecc4e81da.jpg",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "540",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.285-2b"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS cumplió <span style=\"color:#34303d;font-weight:700;\">4 años en México</span> y lo celebramos <br>en grande. Aquí te presentamos un poquito <br>de lo que se vivió en nuestra celebración.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "30"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "p_v2",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "30",
+            "width": "90%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#ff7e2a",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "margin_sides": "5",
+            "margin_color": "transparent",
+            "content": "¡Ya abrimos Mítikah!<br>Visita tu Tienda IQOS más cercana.",
+            "readme": "height px, margin %",
+            "this": ""
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "DIRECCIONES TIENDAS IQOS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "35",
+                    "imgwidth": "210",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/aee8144b-10f7-4721-a36d-123b8e5741d5.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.285-3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#ff7f1b",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#ff7f1b",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "img___",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e9418af1-434f-49c0-a9b3-b73b7aa46fe5.gif",
+                            "color_bkg": "transparent",
+                            "margin_top": "10",
+                            "margin_bottom": "10",
+                            "imgWidth": "300",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "23.285-4b"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Tienda IQOS<br>Mítikah",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "34px",
+                            "p_height": "38px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Av. Río Churubusco 601,<br>Xoco, Benito Juárez,<br>CDMX,03330<br><br>Planta baja.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "25",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d2d325cc-8ea5-4656-85bd-aacd0e64bed2.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://www.iqos.com/mx/es/localizador-tiendas.html",
+            "this": "CTA cta-bw-localiza-tu-tienda"
+        },
+        {
+            "type": "p_v2",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "32",
+            "height": "36",
+            "width": "90%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#040308",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "margin_sides": "5",
+            "margin_color": "transparent",
+            "content": "Este fin es ORIGINAL.",
+            "readme": "height px, margin %",
+            "this": ""
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "CANALES RS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#040308",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#040308",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Mantente atento a nuestros <br>canales de comunicación <br>muy pronto podrás<br>recibir un <span style=\"color:#00d1d2;font-weight:700;\">gran precio.</span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "60",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "cta1_cta2",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "widthbutton1": "125",
+                            "button1": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/44bb424e-3d07-49a0-9873-be605d98a56b.png",
+                            "url_cta1": "https://instagram.com/iqos_mx",
+                            "align1": "left",
+                            "widthbutton2": "125",
+                            "button2": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b9272b0e-c900-4089-8dd0-72d817f3a70d.png",
+                            "url_cta2": "https://facebook.com/iqosmx",
+                            "align2": "left",
+                            "this": "CTA IG/FB"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "40",
+                    "imgwidth": "240",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e906f616-c7cf-4da6-bed4-93cc2076df1d.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.285-5"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

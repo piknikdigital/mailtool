@@ -37,7 +37,7 @@ class AppControl
             $msg = "El archivo JSON para esta ruta no existe."; 
             return  $app->twig->render("error.html", array( 'errMsg' => $msg ) );
         }
-        else{
+        else{       var_dump($this->model->twigData); die;
             $f= $_SERVER['DOCUMENT_ROOT'] . "/app/views/" . $this->model->twigData['TwigTemplate'];
             if ( !file_exists ($f) ){
                 // Template not found!

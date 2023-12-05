@@ -1443,7 +1443,7 @@ $libraryBlocks['header_brand_world'] ='
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "header-iqos-bw-2.png",
+            "img"           : "header-iqos-bw-8.png",
             "url"           : "#",
             "this"          : "IMG header IQOS Brand World"
         },';
@@ -1741,6 +1741,24 @@ $libraryBlocks['columns'] ='
                             "border"        : "1",
                             
                             "this"          : ""
+                        },
+                        {
+                            "rowtype"       : "cta1_cta2",
+                            "color_bkg"     : "transparent",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0",
+
+                            "widthbutton1"   : "130",
+                            "button1"        : "btn.png",
+                            "url_cta1"       : "#",
+                            "align1"         : "left",
+
+                            "widthbutton2"   : "130",
+                            "button2"        : "btn.png",
+                            "url_cta2"       : "#",
+                            "align2"         : "left",
+
+                            "this"          : "CTA1 /CTA2"
                         },
                         {
                             "rowtype"        : "img",

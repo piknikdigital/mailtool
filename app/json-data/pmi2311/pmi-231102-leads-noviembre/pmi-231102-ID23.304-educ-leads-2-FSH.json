@@ -1,0 +1,532 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH.html",
+
+        "Subject"          :   "IQOS es un dispositivo de calentamiento de tabaco pero ¿qué beneficios ofrece?",
+        "Preheader"        :   "Conócelos aquí",
+
+        "PATH"             :   "Content Builder > 200_Leads Noviembre 02 11 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Educ LEADS 2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2311/pmi-231102-leads-noviembre/pmi-231102-ID23.304-educ-leads-2-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231102-ID23.304-educ-leads-2-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.304 Educ LEADS 2",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/784530f6-9c85-4ecc-99a3-39f6a215d663.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "Cover IMG",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/5d73551a-1a4c-43c0-b8fd-4a44b105cb07.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.304-1"
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "IQOS <span style=\"color:#00d1d2;font-weight:700;\">calienta tabaco,</span><br>entregando el sabor del tabaco <span style=\"color:#00d1d2;font-weight:700;\">sin humo.</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "50",
+            "margin_bottom": "15",
+            "color_bkg": "transparent",
+            "this": "ICO 1/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/821c76a6-75e7-4add-af9c-d80f64b796a9.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.304-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Menos olor que un cigarro",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no deja olor a humo de cigarro <br>en tus manos, cabello ni ropa.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "5",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "color_bkg": "transparent",
+            "this": "ICO 2/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b62c34dd-515c-4c74-ac65-4ed2adfe46b7.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.304-ico2"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Sin  ceniza",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS elimina la ceniza <br>manteniendo tus espacios más limpios.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "5",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "color_bkg": "transparent",
+            "this": "ICO 3/3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "20",
+                    "imgwidth": "80",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9bfe71b4-ff7a-46d9-b9de-9f32bcd9f559.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.304-ico3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "2",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "No afecta la calidad del aire",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no produce humo de segunda <br>mano, disminuyendo las molestias <br>para los que te rodean.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "16px",
+                            "p_height": "20px",
+                            "p_align": "left",
+                            "p_color": "#ffffff",
+                            "margin_top": "5",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "35",
+            "margin_bottom": "30",
+            "color_bkg": "transparent",
+            "this": "CTA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#00d1d2",
+                    "widthp100": "90",
+                    "imgwidth": "220",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e5142110-b9d4-4c12-a74a-9e88f724a47b.png",
+                    "imgulr": "https://www.iqos.com/mx/es/descubrir.html",
+                    "THISIMG": "IMG cta-bw-gris-conoce-mas"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/99ad19e4-268e-49cd-87c0-a16c7d875875.jpg",
+            "url": "#",
+            "this": "IMG 23.304-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "TXT-DISCOUNT - CODE - CTA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#f5f1ed",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Recibe",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "10% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "26px",
+                            "p_height": "28px",
+                            "p_align": "center",
+                            "p_color": "#00d1d2",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "usando el siguiente código al adquirir <br>tu primer <span style=\"color:#00d1d2;font-weight:700;\">Kit IQOS.</span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2c0559e4-7b5d-450a-b478-a73b36c14349.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "codigo-menosolor3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ae680521-7713-48f9-b4ad-c4ef30bef3e1.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "15",
+                            "margin_bottom": "20",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+                            "THISIMG": "cta-bw-turquesa-compra-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d0ed1431-1874-4ddc-bac4-ef38cf724878.jpg",
+            "url": "#",
+            "this": "IMG 23.304-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -1,0 +1,564 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH.html",
+
+        "Subject"          :   "¿IQOS es diferente? ¡Sí! IQOS usa tabaco",
+        "Preheader"        :   "Déjanos contarte ¡TODO!",
+
+        "PATH"             :   "Content Builder > 192_Lending Originals Hypercare Day 0 27 09 2023 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Lending Originals Hypercare Day 5",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2309/pmi-230927-lending-originals/pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-230927-ID23.220-lending-originals-hypercare-day-5-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.220 Lending Originals Hypercare Day 5",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/11dea3fd-bf28-49c7-9cdb-9404e9af0447.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0642be92-8a0c-4c25-ac19-9ba2a04c00ad.png",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.220-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "70",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "greetingBW": "<span style=\"color:#e4ab68;\">Hola,</span> %%first_name%%",
+            "greetingFSH": "Hola, %%FirstName%%",
+            "greetingHTML": "Hola, %%FirstName%%",
+            "greetingDCE": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "28",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Seguro te has preguntado,<br><span style=\"color:#00d1d2;font-size:22px;font-weight:700;\">“¿Por qué IQOS entrega un sabor diferente?”</span> <br>¡Fácil! IQOS usa tabaco, no líquido con nicotina.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/55974321-4475-432b-a72e-f21ee761bdf3.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.220-2b"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "Ahora que estás viviendo el cambio con IQOS <b>recuerda por qué diste el primer paso</b>, fue por ti y por los que te rodean.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "IQOS [1/2] - no produce humo ni ceniza",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "270",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9c54c688-d498-48ee-93d9-f1d898c024bd.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.220-3"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "40",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no produce<br> humo ni ceniza.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Manteniendo tus espacios<br> más limpios. Olvídate de la<br> ceniza y los ceniceros.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "IQOS [2/2] - no deja olor a humo de cigarro.",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "IQOS no deja olor a<br> humo de cigarro.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "22px",
+                            "p_height": "26px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "10",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Adiós al olor a humo de<br> cigarro en tus manos, cabello,<br> ropa y muebles. Hola a los<br> espacios más limpios.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#333333",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "270",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2bc88aef-74de-41b6-a38e-8d951a96dec3.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.220-4"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "28",
+            "width": "90%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Pst, pst, esto te interesa",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "25",
+            "margin_bottom": "20",
+            "color_bkg": "#faf7f4",
+            "this": "CONSEJO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "18",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "20",
+                    "imgwidth": "115",
+                    "mtop": "25",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/35bdf6a9-4a31-4da9-b3fe-43f673f3fdf1.png",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.220-ico1"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "4",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "58",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿Quieres una experiencia <br>consistente de sabor?<br><br>Te recomendamos <b>limpiar <br>tu IQOS cada 20 usos.</b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "20px",
+                            "p_height": "24px",
+                            "p_align": "left",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "5",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "24",
+            "height": "30",
+            "width": "90%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#00d1d2",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Te recomendamos que:<br><span style=\"color:#000000;font-weight:700;\">Durante estos 14 días uses solo IQOS</span><br>para vivir plenamente sus beneficios.",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6aa83b37-75de-417d-8ff7-6c1d9b21b6ba.jpg",
+            "imgHTML": "",
+            "imgFSH": "",
+            "imgDCE": "",
+            "url": "#",
+            "this": "IMG 23.220-5"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#ff7e2a",
+            "this": "CTA LLAMA AHORA",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "90",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¿Te quedaste sin unidades de tabaco<br> para calentar?<br><br><b>¡Contáctanos!</b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "26px",
+                            "p_height": "30px",
+                            "p_align": "center",
+                            "p_color": "#ffffff",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d23bcb03-934d-4179-913c-a280102bf180.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "40",
+                            "imgWidth": "160",
+                            "align": "center",
+                            "imgulr": "tel:8001476769",
+                            "THISIMG": "cta-bw-llama-ahora"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "26",
+            "width": "70%",
+            "align": "center",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "30",
+            "content": "<span style=\"color:#00d1d2;font-weight:700;\">¿Tienes dudas?</span><br><br>Contáctanos en cualquiera de nuestros canales de comunicación",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "#FFFFFF",
+            "this": "CONTACT OUR EXPERTS",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "23",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/20a67922-2a5f-4d40-a36a-b9f2d21ecfce.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html#openchat",
+                    "THISIMG": "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c9403f0a-a1c1-4644-8c3a-f95fce2304c7.png",
+                    "imgulr": "https://www.facebook.com/iqosmx",
+                    "THISIMG": "IMG ico-cancom-fb"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "18",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/377f4dbd-3708-43ff-a53f-3dffbc90192a.png",
+                    "imgulr": "tel:*993",
+                    "THISIMG": "IMG ico-cancom-celular"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "23",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "40",
+            "margin_bottom": "50",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "200",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f5f13774-844b-444c-b0ea-f9cde31a1792.png",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG cta-bw-ig-iqos-mx"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "45",
+                    "imgwidth": "200",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/555f7ad1-bd40-4985-b08c-2c100e475bdc.png",
+                    "imgulr": "https://www.youtube.com/channel/UCeoIAQxfAJo7gEw0ST2EI2A",
+                    "THISIMG": "IMG cta-bw-yt-iqos-mexico"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#333333",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "Información importante"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#333333",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}
