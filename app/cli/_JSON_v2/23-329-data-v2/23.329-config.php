@@ -1,20 +1,20 @@
 <?php
 
-$p_id =  '326';
-$p_subject =  'Una Tienda IQOS más cerca de ti';
-$p_preheader =  'El servicio y atención que mereces te está esperando';
+$p_id =  '329';
+$p_subject =  'Cambiále la vida a alguien y empieza el año compartiendo el cambio';
+$p_preheader =  '¡Último mes para regalar 30% de descuento a tus referidos!';
 $p_yy =  '23';
 $p_mm =  '12';
-$p_dd =  '05';
-$p_name4folder =  'leads-nyr-2024';
-$p_name4json =  'nyr-2024-leads-tienda';
-$p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'NA';
+$p_dd =  '07';
+$p_name4folder =  'laus-nyr-2024';
+$p_name4json =  'nyr-2024-laus-2';
+$p_name4folderDCE =  'LAUS NYR 2024';
+$p_mailname4DCE =  'NYR 2024 LAUS 2';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'LEADS NYR 2024';
-$p_mailname4FSH =  'NYR 2024 LEADS Tienda';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '202';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,30 +27,17 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
+
+
+
     "img",
-    "p700_BW",
+    "img",
     "greeting_v2",
     "p300_BW",
-
-    "img",
     "columns",
-    "columns",
-    "columns",
-    "columns",
-    "columns",
-    "columns",
-
-    "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-    "columns",
-
+    "spacer",
+    "cta1_v2",
+    "ElijoIQOS",
     "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -127,8 +114,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 325325XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 325325XX :   %%referral_code%%
+    CODIGO PARA CUPON 329329XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 329329XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -185,54 +172,23 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Encuentra una <br>Tienda IQOS cerca de ti.
---------------------
---------------------
---------------------
-Visita tu Tienda IQOS más cercana y <br>disfruta de la <span style=\"color:#00d1d2;font-weight:700;font-size:20px;\">mejor atención y servicios</span><br>que tenemos disponibles para ti.
---------------------
---------------------
---------------------
---------------------
-Venta de dispositivos y accesorios IQOS.
---------------------
-Venta de unidades de tabaco para calentar.
---------------------
-Servicio de limpieza gratuito.
---------------------
-Actualización de firmare.
---------------------
-Asesoría y revisión.
---------------------
-Reemplazos.*
---------------------
---------------------
---------------------
---------------------
-Visita tu Tienda IQOS más cercana:
---------------------
-Tienda IQOS Mitikah
---------------------
-Tienda IQOS Antara
---------------------
-Tienda IQOS Perisur
---------------------
-Tienda IQOS Paseo Acoxpa
---------------------
-Tienda IQOS Plaza Satélite
---------------------
-Tienda IQOS Santa Fe
---------------------
-Tienda IQOS Samara
---------------------
-Tienda IQOS Portal San Ángel
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
-*Sujeto a disponibilidad de inventario.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

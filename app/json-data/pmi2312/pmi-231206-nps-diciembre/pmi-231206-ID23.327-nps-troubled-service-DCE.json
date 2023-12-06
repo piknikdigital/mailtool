@@ -1,0 +1,170 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE.html",
+
+        "Subject"          :   "Cuéntanos tu opinión sobre nuestra última interacción",
+        "Preheader"        :   "Queremos conocer tu experiencia",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20231206_NPS > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "NPS Troubled Service",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2312/pmi-231206-nps-diciembre/pmi-231206-ID23.327-nps-troubled-service-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231206-ID23.327-nps-troubled-service-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.327 NPS Troubled Service",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/412854ae-3aa1-4c6e-91f3-1916fe5130ce.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fcf0e0a1-dfea-431c-bee8-781b2fee9d13.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 23.327-1"
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "20",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Sabemos que tuviste un problema <br>con nosotros y que tu experiencia no <br>fue la deseada. Déjanos saber tu <br>opinión luego de nuestra <br><span style=\"color:#00d1d2;font-weight:700;\">última interacción.</span><br><br>Ayúdanos a mejorar.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "260",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/648f9210-1c40-4eb1-9426-9259a7936e88.png",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "url_cta": "#LINK",
+            "this": "CTA cta-bw-contesta-la-encuesta"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "25",
+            "content": "Solo con IQOS",
+            "this": "Solo con IQOS"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

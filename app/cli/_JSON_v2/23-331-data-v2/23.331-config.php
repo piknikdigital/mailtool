@@ -1,20 +1,20 @@
 <?php
 
-$p_id =  '326';
-$p_subject =  'Una Tienda IQOS más cerca de ti';
-$p_preheader =  'El servicio y atención que mereces te está esperando';
+$p_id =  '331';
+$p_subject =  'Comparte el cambio con tus amigos y ayúdalos a cumplir sus propósitos este 2024';
+$p_preheader =  '¡Últimos días de 30% de descuento sobre precios reducidos!';
 $p_yy =  '23';
 $p_mm =  '12';
-$p_dd =  '05';
-$p_name4folder =  'leads-nyr-2024';
-$p_name4json =  'nyr-2024-leads-tienda';
-$p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'NA';
+$p_dd =  '07';
+$p_name4folder =  'laus-nyr-2024';
+$p_name4json =  'nyr-2024-laus-4';
+$p_name4folderDCE =  'LAUS NYR 2024';
+$p_mailname4DCE =  'NYR 2024 LAUS 4';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'LEADS NYR 2024';
-$p_mailname4FSH =  'NYR 2024 LEADS Tienda';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '202';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,30 +27,15 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
+    "greeting_v2",
     "img",
     "p700_BW",
-    "greeting_v2",
-    "p300_BW",
-
-    "img",
+    "p700_BW",
+    "p700_BW",
     "columns",
     "columns",
-    "columns",
-    "columns",
-    "columns",
-    "columns",
-
-    "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-    "columns",
-
+    "spacer",
+    "get_iqos_wallet_app",
     "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -127,8 +112,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 325325XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 325325XX :   %%referral_code%%
+    CODIGO PARA CUPON 331331XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 331331XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -184,64 +169,57 @@ PRECIO TACHADO:
 ===================================================================
 --------------------
 --------------------
---------------------
-Encuentra una <br>Tienda IQOS cerca de ti.
---------------------
---------------------
---------------------
-Visita tu Tienda IQOS más cercana y <br>disfruta de la <span style=\"color:#00d1d2;font-weight:700;font-size:20px;\">mejor atención y servicios</span><br>que tenemos disponibles para ti.
---------------------
---------------------
---------------------
---------------------
-Venta de dispositivos y accesorios IQOS.
---------------------
-Venta de unidades de tabaco para calentar.
---------------------
-Servicio de limpieza gratuito.
---------------------
-Actualización de firmare.
---------------------
-Asesoría y revisión.
---------------------
-Reemplazos.*
---------------------
---------------------
---------------------
---------------------
-Visita tu Tienda IQOS más cercana:
---------------------
-Tienda IQOS Mitikah
---------------------
-Tienda IQOS Antara
---------------------
-Tienda IQOS Perisur
---------------------
-Tienda IQOS Paseo Acoxpa
---------------------
-Tienda IQOS Plaza Satélite
---------------------
-Tienda IQOS Santa Fe
---------------------
-Tienda IQOS Samara
---------------------
-Tienda IQOS Portal San Ángel
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-*Sujeto a disponibilidad de inventario.
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
+--------------------
+--------------------
+¡Últimos días para regalar 
+--------------------
+30% de descuento
+--------------------
+sobre precios reducidos a tus amigos!
+--------------------
+--------------------
+--------------------
+Esta es la última oportunidad <br>que tienes para ayudar a tu amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> a<br>decirle adiós al olor a humo <br>de cigarro en este inicio de año, regalándoles 
+--------------------
+30% de descuento<span style=\"font-size:18px;\"><sup>(2)</sup></span>
+--------------------
+sobre precios reducidos, en lugar del<br>20% habitual.
+--------------------
+--------------------
+Te recomendamos hacerlo desde tu celular.
+--------------------
+--------------------
+--------------------
+Recuerda que al compartir el cambio con <br>tus seres queridos, podrás obtener hasta
+--------------------
+$3,000 MXN en beneficios<span style=\"font-size:12px;\"><sup>(3)</sup></span>
+--------------------
+para canjear por kits de limpieza.
+--------------------
+--------------------
+--------------------
+--------------------
+Ten siempre a la mano tu Código Único,
+lleva el control de tus referidos y beneficios 
+con IQOS Wallet.
+Disponible para IOS y Android.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+* Precio reducido aplicable solo para IQOS 3 Duo y IQOS ORIGINALS Duo, válido del 12 al 27 de enero de 2024 en www.iqos.com, Tiendas IQOS, Call Center IQOS y Sanborns seleccionados. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.<br>(1) Adultos fumadores.<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco. Vigencia hasta el 31 de diciembre del 2023.<br>(3) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 ===================================================================
 SHARE MSG FSH:

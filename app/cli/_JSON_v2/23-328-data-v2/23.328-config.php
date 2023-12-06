@@ -1,20 +1,20 @@
 <?php
 
-$p_id =  '326';
-$p_subject =  'Una Tienda IQOS más cerca de ti';
-$p_preheader =  'El servicio y atención que mereces te está esperando';
+$p_id =  '328';
+$p_subject =  'Dile hola al 2024, tu mejor año';
+$p_preheader =  'Empieza el año compartiendo una mejor alternativa al consumo de tabaco';
 $p_yy =  '23';
 $p_mm =  '12';
-$p_dd =  '05';
-$p_name4folder =  'leads-nyr-2024';
-$p_name4json =  'nyr-2024-leads-tienda';
-$p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'NA';
+$p_dd =  '07';
+$p_name4folder =  'laus-nyr-2024';
+$p_name4json =  'nyr-2024-laus-1';
+$p_name4folderDCE =  'LAUS NYR 2024';
+$p_mailname4DCE =  'NYR 2024 LAUS 1';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'LEADS NYR 2024';
-$p_mailname4FSH =  'NYR 2024 LEADS Tienda';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '202';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -28,31 +28,11 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 $requiredBlocks = array(
     "header_brand_world",
     "img",
-    "p700_BW",
     "greeting_v2",
-    "p300_BW",
-
-    "img",
     "columns",
     "columns",
     "columns",
-    "columns",
-    "columns",
-    "columns",
-
-    "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-        "columns",
-    "columns",
-
     "Solo_con_IQOS",
-    "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
@@ -127,8 +107,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 325325XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 325325XX :   %%referral_code%%
+    CODIGO PARA CUPON 328328XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 328328XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -185,54 +165,27 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Encuentra una <br>Tienda IQOS cerca de ti.
+Empieza tu mejor año<br>junto a IQOS.
+--------------------
+Dale la bienvenida<br>a este <span style=\"color:#00d1d2;font-weight:700;\">2024</span> en compañía<br>de los que más amas y IQOS.
 --------------------
 --------------------
+Vive inolvidables momentos <br>libres de olor a humo de cigarro <br>y disfruta los beneficios que el<br>calentamiento de tabaco ofrece.<br><br>Esperamos que continúes el <br>camino del cambio y nos permitas <br>acompañarte en este nuevo año <br>que comienza, <b>tu mejor año.</b>
 --------------------
-Visita tu Tienda IQOS más cercana y <br>disfruta de la <span style=\"color:#00d1d2;font-weight:700;font-size:20px;\">mejor atención y servicios</span><br>que tenemos disponibles para ti.
---------------------
---------------------
---------------------
---------------------
-Venta de dispositivos y accesorios IQOS.
---------------------
-Venta de unidades de tabaco para calentar.
---------------------
-Servicio de limpieza gratuito.
---------------------
-Actualización de firmare.
---------------------
-Asesoría y revisión.
---------------------
-Reemplazos.*
---------------------
---------------------
---------------------
---------------------
-Visita tu Tienda IQOS más cercana:
---------------------
-Tienda IQOS Mitikah
---------------------
-Tienda IQOS Antara
---------------------
-Tienda IQOS Perisur
---------------------
-Tienda IQOS Paseo Acoxpa
---------------------
-Tienda IQOS Plaza Satélite
---------------------
-Tienda IQOS Santa Fe
---------------------
-Tienda IQOS Samara
---------------------
-Tienda IQOS Portal San Ángel
+Este 2024, empiézalo con IQOS.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
-*Sujeto a disponibilidad de inventario.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

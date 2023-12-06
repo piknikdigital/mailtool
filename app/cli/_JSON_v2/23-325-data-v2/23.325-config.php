@@ -27,17 +27,16 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-
-
-
-    "img",
-    "img",
-    "greeting_v2",
-    "p300_BW",
     "columns",
-    "spacer",
-    "cta1_v2",
-    "ElijoIQOS",
+
+    "columns",
+
+    "img",
+    "img",
+    "img",
+
+    "columns",
+
     "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -173,18 +172,25 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Aprovecha los
+--------------------
+últimos días 
+--------------------
+con descuentos<span style=\"font-size:18px;\"><sup>(1)</sup></span> sobre <br>precios reducidos*.
+--------------------
+--------------------
+--------------------
+Empieza tu mejor año con IQOS.<br>No dejes pasar la oportunidad de <br>adquirir tu primer Kit IQOS con
+--------------------
+10% de descuento<span style=\"font-size:18px;\"><sup>(1)</sup></span>
+--------------------
+sobre precios reducidos utilizando <br>el siguiente código:
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+(1) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.<br>(2) Precio reducido aplicable solo para IQOS 3 Duo y IQOS ORIGINALS Duo, válido del 12 al 27 de enero de 2024 en www.iqos.com, Tiendas IQOS, Call Center IQOS y Sanborns seleccionados. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.
 --------------------
 --------------------
 --------------------

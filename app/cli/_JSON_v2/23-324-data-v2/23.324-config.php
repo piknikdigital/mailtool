@@ -27,17 +27,21 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-
-
-
-    "img",
-    "img",
     "greeting_v2",
+    "p700_BW",
+    "p700_BW",
+    "img",
+    "img",
     "p300_BW",
+
+    "img",
     "columns",
-    "spacer",
-    "cta1_v2",
-    "ElijoIQOS",
+    "img",
+
+    "columns",
+
+    "columns",
+
     "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
@@ -174,6 +178,35 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+2024 tu mejor año.
+--------------------
+Empiézalo con IQOS.
+--------------------
+--------------------
+--------------------
+Dale la bienvenida al nuevo año <br>libre de olor a humo de cigarro con IQOS,<br>una mejor alternativa al consumo de tabaco.
+--------------------
+--------------------
+--------------------
+--------------------
+¡Prueba IQOS durante 14 días!
+--------------------
+Si aún no estás seguro de adquirir IQOS, <br>puedes solicitar un IQOS en préstamo con el
+--------------------
+Programa de Préstamo IQOS<span style=\"font-size:18px;\"><sup>(1)</sup></span>
+--------------------
+y experimentar los beneficios del calentamiento<br>de tabaco antes de tomar una decisión.
+--------------------
+--------------------
+--------------------
+--------------------
+¿Estás listo para el cambio?
+--------------------
+Adquiere tu Kit IQOS con
+--------------------
+10% de descuento<span style=\"font-size:18px;\"><sup>(2)</sup></span>
+--------------------
+sobre precios reducidos<span style=\"font-size:12px;\"><sup>(3)</sup></span> usando el <br>siguiente código.
 --------------------
 --------------------
 --------------------
@@ -181,10 +214,26 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+(1) El Programa de Préstamo IQOS Demo está disponible en Tiendas IQOS Antara, Perisur, Santa Fe, Mítikah y IQOS Corners en Sanborns seleccionados: Pabellón Bosques, Palmas, San Antonio, Metrópoli, Nuevo Tlalnepantla, Del Valle, Villa Coapa, Plaza Inbursa, Toluca Centro, Centenario, Loreto, Barranca del Muerto, Parque Lindavista, Altavista, Hospitales, Lomas Verdes, San Mateo, Parque el Toreo, Ticomán, Tacubaya, Gran Sur, Ecatepec, Plaza Insurgentes, Echegaray, San Marcos, Aeropuerto, Madero y Buenavista Fórum. El listado de tiendas podrá cambiar sin previo aviso. El Programa de Préstamo IQOS Nuevo está disponible únicamente a través del Call Center IQOS llamando al 800 1 476769 o al *993 desde tu celular. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS El Reto es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho periodo, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario en tienda y Call Center IQOS.<br>(2) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.<br>(3) Precio reducido aplicable solo para IQOS 3 Duo y IQOS ORIGINALS Duo, válido del 12 al 27 de enero de 2024 en www.iqos.com, Tiendas IQOS, Call Center IQOS y Sanborns seleccionados. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.
 --------------------
 --------------------
 --------------------
 --------------------
+------------------VERSION2-------------------
+Dale la bienvenida al nuevo año <br>libre de olor a humo de cigarro.
+--------------------
+--------------------
+Adquiere tu Kit IQOS con
+--------------------
+10% de descuento<span style=\"font-size:18px;\"><sup>(2)</sup></span>
+--------------------
+sobre precios reducidos<span style=\"font-size:12px;\"><sup>(3)</sup></span> usando el <br>siguiente código.
+
+--------------------
+--------------------
+--------------------
+(1) El Programa de Préstamo IQOS Demo está disponible en Tiendas IQOS Antara, Perisur, Santa Fe, Mítikah y IQOS Corners en Sanborns seleccionados: Pabellón Bosques, Palmas, San Antonio, Metrópoli, Nuevo Tlalnepantla, Del Valle, Villa Coapa, Plaza Inbursa, Toluca Centro, Centenario, Loreto, Barranca del Muerto, Parque Lindavista, Altavista, Hospitales, Lomas Verdes, San Mateo, Parque el Toreo, Ticomán, Tacubaya, Gran Sur, Ecatepec, Plaza Insurgentes, Echegaray, San Marcos, Aeropuerto, Madero y Buenavista Fórum. El listado de tiendas podrá cambiar sin previo aviso. <br>El Programa de Préstamo IQOS Nuevo está disponible únicamente a través del Call Center IQOS llamando al 800 1 476769 o al *993 desde tu celular.<br>Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS El Reto es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho periodo, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario en tienda y Call Center IQOS.<br>(2) Promoción vigente del 1 de enero al 31 de marzo del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Vigencia del código del 1 de enero al 31 de marzo del 2024. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.<br>(3) Precio reducido aplicable solo para IQOS 3 Duo y IQOS ORIGINALS Duo, válido del 12 al 27 de enero de 2024 en www.iqos.com, Tiendas IQOS, Call Center IQOS y Sanborns seleccionados. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones.
+
 --------------------
 --------------------
 --------------------

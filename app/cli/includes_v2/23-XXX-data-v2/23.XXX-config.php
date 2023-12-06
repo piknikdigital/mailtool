@@ -46,8 +46,16 @@ $requiredBlocks = array(
 
 
 /* 
-    "header_mgm_tu_codigo_unico",
+
+FONDO GRIS CLARO:
     "get_iqos_wallet_app",
+FONDO TURQUESA:
+    "get_iqos_wallet_app_turquoise",
+FONDO SLATE
+    "get_iqos_wallet_app_slate",
+
+    
+    "header_mgm_tu_codigo_unico",
 
     "img",
     "spacer",
