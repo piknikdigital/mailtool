@@ -1,0 +1,222 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML.html",
+
+        "Subject"          :   "¡IQOS te sorprende! 👏🏻",
+        "Preheader"        :   "Prueba la mejor experiencia en tabaco calentado 👍​",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2401/pmi-240126-valentines/pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240126-ID24.13-valetines-venta-iqos-originals-duo-2-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.13 Valentine's - Venta IQOS Originals 2",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "504",
+                    "mtop"          : "0",
+                    "img"           : "24.13-1b.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.13-1"
+                }
+            ]
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "30",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "IQOS te entiende.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "70%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "30",
+            "content"       : "Convéncete tú mismo. Prueba IQOS durante 14 días <b>por solo $220 MXN.</b>",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.13-2.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.13-2"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-probar-iqos.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "url_cta"       : "https://www.iqos.com/mx/es/prueba-iqos.html",
+            "this"          : "CTA cta-bw-probar-iqos"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.13-3.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.13-3"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-conoce-mas.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir.html",
+            "this"          : "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "*Programa de Préstamo IQOS disponible en Tiendas IQOS Antara, Perisur, Santa Fe, Mítikah, Call Center IQOS y IQOS Corners en Sanborns seleccionados: Pabellón Bosques, Palmas, San Antonio, Metrópoli, Nuevo Tlalnepantla, Del Valle, Villa Coapa, Plaza Inbursa, Toluca Centro, Centenario, Loreto, Barranca del Muerto, Parque Lindavista, Altavista, Hospitales, Lomas Verdes, San Mateo, Parque el Toreo, Ticomán, Tacubaya, Gran Sur, Ecatepec, Plaza Insurgentes, Echegaray, San Marcos, Aeropuerto, Madero y Buenavista Fórum. El listado de tiendas podrá cambiar sin previo aviso.​",
+            "this"          : "LEGALES"
+        },
+
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

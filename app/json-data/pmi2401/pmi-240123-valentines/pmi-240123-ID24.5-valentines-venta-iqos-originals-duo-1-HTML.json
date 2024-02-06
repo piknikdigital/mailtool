@@ -1,0 +1,250 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML.html",
+
+        "Subject"          :   "¿Sin olor a cigarro? Se puede con IQOS 😉​",
+        "Preheader"        :   "IQOS ORIGINALS DUO llegó para salvarte 👌🏻​",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2401/pmi-240123-valentines/pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240123-ID24.5-valentines-venta-iqos-originals-duo-1-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.5 Valentine's - Venta IQOS Original 1",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-2.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.5-1.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.5-1"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "28",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "¡IQOS ORIGINALS DUO",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "50",
+            "content"       : "te da la bienvenida!",
+            "this"          : "TXT"
+        },
+
+
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "USOS CONSECUTIVOS",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "10",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "30",
+                    "imgwidth"      : "120",
+                    "mtop"          : "0",
+                    "img"           : "24.5-2.png",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.5-2"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "55",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "<b>Obtén 2 usos consecutivos*<br>sin recargar</b> con nuestro <br>dispositivo más elegante.​",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "20px",
+                            "p_height"      : "20px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "80",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "*2 usos consecutivos no significa más usos <br>sino menos tiempo de espera entre usos.​",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "14px",
+                            "p_height"      : "16px",
+                            "p_align"       : "left",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "15",
+                            "margin_bottom" : "0"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.5-3.gif",
+            "url"           : "#",
+            "this"          : "IMG 24.5-3"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "220",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-comprar-ahora.png",
+            "margin_top"    : "0",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this"          : "CTA cta-bw-comprar-ahora"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "35",
+            "content"       : "#ElijoIQOS",
+            "this"          : "#ElijoIQOS"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+
+    
+    "END"            :   "#######################"
+
+}

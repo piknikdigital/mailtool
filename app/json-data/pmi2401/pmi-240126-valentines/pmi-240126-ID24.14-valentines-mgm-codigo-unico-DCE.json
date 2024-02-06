@@ -1,0 +1,347 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE.html",
+
+        "Subject"          :   "¡Te bonificamos $300 MXN! 👏🏻",
+        "Preheader"        :   "Buenas noticias para ti 😎",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240126_Valentines > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Valentine's - MGM Código Único",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2401/pmi-240126-valentines/pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240126-ID24.14-valentines-mgm-codigo-unico-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.14 Valentine's - MGM Código Único",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/24d735a2-d1d9-4b9c-b73b-e8aa9e1edced.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "9",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "492",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3e26ddc7-5b84-4a2c-9c45-a401b7d79c34.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.14-1"
+                }
+            ]
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "content": "Tu amigo ha canjeado su código, y",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "te hemos bonificado $300 MXN<span style=\"font-size:18px;\"><sup>(1)</sup></span>",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "en tu monedero electrónico.",
+            "this": "TXT"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "26",
+            "width": "50%",
+            "align": "center",
+            "color": "#000000",
+            "color_bkg": "transparent",
+            "color_boxbkg": "transparent",
+            "framecolor": "#34303d",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "framepadding": "8",
+            "content": "XXXXXX",
+            "this": ""
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ccafbc66-ae8b-4397-bc01-782be5b56f19.png",
+            "margin_top": "30",
+            "margin_bottom": "50",
+            "url_cta": "http://www.recompensasiqos.plandereconocimientos.com/",
+            "this": "CTA cta-bw-recompensas-iqos"
+        },
+        {
+            "type": "columns____",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "9",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#f8f6f3",
+                    "widthp100": "82",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Este es tu Código Único:",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "30",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "pframed",
+                            "color_bkg": "transparent",
+                            "p": "XXXXXXX",
+                            "fontweight": "700",
+                            "fontsize": "26",
+                            "lineheight": "26",
+                            "align": "center",
+                            "width": "50%",
+                            "margin_top": "20",
+                            "margin_bottom": "30",
+                            "color": "#FFFFFF",
+                            "framecolor": "#34303d",
+                            "framebgcolor": "#34303d",
+                            "framepadding": "8",
+                            "border": "1",
+                            "this": ""
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "9",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "40",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6a196705-7bc0-4ade-b88f-b6b85bf7d726.jpg",
+            "url": "#",
+            "this": "IMG 24.14-2"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/dfec541f-41bb-48b3-aeba-b81a23c3e51d.jpg",
+            "url": "http://www.recompensasiqos.plandereconocimientos.com/",
+            "this": "IMG 24.14-3c"
+        },
+        {
+            "type": "pframed__",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "26",
+            "width": "50%",
+            "align": "center",
+            "color": "#FFFFFF",
+            "color_bkg": "#fd822f",
+            "color_boxbkg": "#34303d",
+            "framecolor": "#34303d",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "framepadding": "8",
+            "content": "%%referral_code%%",
+            "this": ""
+        },
+        {
+            "type": "cta1_v2___",
+            "widthbutton": "280",
+            "color_bkg": "#fd822f",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e6316338-ea6b-42c9-876f-32c080961bfe.png",
+            "margin_top": "20",
+            "margin_bottom": "50",
+            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+            "url_ctaDECODED": "whatsapp://send?text=",
+            "text2encode": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "imgulr1": "whatsapp://send?text=",
+            "imgulr2": "https://wa.me/?text=",
+            "imgulr3": "https://web.whatsapp.com/send?text=",
+            "url_cta": "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "this": "CTA cta-bw-verde-comparte-tu-codigo-unico-2"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "#ElijoIQOS",
+            "this": "#ElijoIQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Cada recompensa equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en <a href=\"http://www.recompensasiqos.plandereconocimientos.com/\">www.recompensasiqos.plandereconocimientos.com.</a> Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

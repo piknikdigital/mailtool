@@ -477,10 +477,19 @@ function msgDone($f)
 
 function mk_path( $base, $mes , $folder)
 {    
-    $currentpath = getcwd();    
+
+    // $varDebug = sprintf ("base, mes, folder = [%s][%s][%s]", $base, $mes , $folder) ;
+    // echo $varDebug . PHP_EOL; 
+    
+    $currentpath = getcwd();
+            // echo "currentpath: "  . $currentpath . PHP_EOL;
     $newdir = chdir($base);
+            // echo "newdir: "  . $newdir . PHP_EOL;
     if ( !mk_dir( $mes ) )
+    {
         $ret= false;
+        // echo "Error, no se pudo crear carpeta. mk_dir(". $mes . ") falló. Abortando mk_path" . PHP_EOL;
+    }
     else
     {
         $newdir = chdir( getcwd()  . "/". $mes);

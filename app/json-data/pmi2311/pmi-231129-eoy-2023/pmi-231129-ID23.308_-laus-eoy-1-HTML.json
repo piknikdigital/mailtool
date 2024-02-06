@@ -1,0 +1,421 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML.html",
+
+        "Subject"          :   "Esta temporada, comparte el regalo del cambio 🎁",
+        "Preheader"        :   "Regala a tus amigos 30% de de descuento",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2311/pmi-231129-eoy-2023/pmi-231129-ID23.308_-laus-eoy-1-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-231129-ID23.308_-laus-eoy-1-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID23.308_ LAUS EOY 1",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw-8.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "mg_web.jpg",
+            "url"           : "#",
+            "this"          : "IMG mg_web"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "20",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "Esta temporada regala momentos sin humo.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "40",
+            "content"       : "Ofrece a tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> esta temporada, una mejor alternativa que continuar fumando.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#faf7f4",
+                    "widthp100"     : "94",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Regala",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "40",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "30% de descuento<span style=\"font-size:18px;\"><sup>(2)</sup></span>",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "28px",
+                            "p_align"       : "center",
+                            "p_color"       : "#e3bf85",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "a tus amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> en la compra de su primer <br>Kit IQOS en lugar del 20% habitual.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "26",
+                            "lineheight"    : "26",
+                            "align"         : "center",
+                            "width"         : "50%",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0",
+
+                            "color"         : "#FFFFFF",
+                            "framecolor"    : "#34303d",
+                            "framebgcolor"  : "#34303d",
+                            "framepadding"  : "8",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-verde-comparte-tu-codigo-unico-2.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "15",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "260",
+                            "align"          : "center",
+                            
+                            "imgulr"         : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "cta-bw-verde-comparte-tu-codigo-unico-2"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Te recomendamos hacerlo desde tu celular",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "12px",
+                            "p_height"      : "14px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "23.308-3.gif",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "40",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "560",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "23.308-3"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Por cada amigo que utilice tu código y registre <br>su Kit IQOS en iqos.com, recibirás",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "10",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "$300 MXN en beneficios<span style=\"font-size:18px;\"><sup>(3)</sup></span>",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "700",
+                            "p_fontsize"    : "26px",
+                            "p_height"      : "28px",
+                            "p_align"       : "center",
+                            "p_color"       : "#e3bf85",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0"
+                        },
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "para canjear por diferentes productos, <br>disponibles en Tiendas IQOS y Tienda en línea.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "40"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#ffffff",
+                    "widthp100"     : "3",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#00d1d2",
+            "margin_top"    : "40",
+            "margin_bottom" : "20",
+            "margin_sides"  : "2",
+            "margin_color"  : "transparent",
+            "content"       : "Ten siempre a la mano tu Código Único,<br>lleva el control de tus referidos y beneficios <br>con <span style=\"color:#ffffff;font-weight:700;\">IQOS Wallet.</span><br>Disponible para <b>IOS y Android.</b>",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "30",
+            "color_bkg"         : "transparent",
+            "this"              : "LINKS APP - ITUNES / PLAY STORE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "173",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-apple-wallet.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-apple-wallet"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "48",
+                    "imgwidth"      : "202",
+                    "mtop"          : "0",
+                    "img"           : "cta-store-google-play.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-google-play"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "2",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "260",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-bw-verde-comparte-tu-codigo-unico-2.png",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            
+            "url_cta"         : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "this"          : "CTA cta-bw-verde-comparte-tu-codigo-unico-2"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "14",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "10",
+            "margin_bottom" : "0",
+            "content"       : "Te recomendamos hacerlo desde tu celular",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "content"       : "Solo con IQOS",
+            "this"          : "Solo con IQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "(1) Adultos fumadores. <br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y www.iqos.com. Descuento no válido en productos de tabaco. Vigencia hasta el 31 de diciembre del 2023.<br>(3) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.",
+            "this"          : "LEGALES"
+        },
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "11",
+            "height"        : "11",
+            "width"         : "80%",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#FFFFFF",
+            "margin_top"    : "15",
+            "margin_bottom" : "15",
+            "framecolor"    : "#000000",
+            "framepadding"  : "15",
+            "content"       : "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this"          : "DTI - DUTY TO INFORM"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "PRIVACY NOTICE"
+
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

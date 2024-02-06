@@ -181,7 +181,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                             {% endif %} 
                             <tr pik-mail-block="img">
                               <th valign="top" style="text-align:left;margin:0;padding:0;background-color:{{bgclr}};" class="image-container" align="left">
-                                {% if blocks[index].url is defined and blocks[index].url != "#" %}<a href="{{blocks[index].url}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].img}}" width="600" height="auto" align="absbottom" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0;padding:0;border:0;">{% if blocks[index].url is defined and blocks[index].url != "#" %}</a>{% endif %}
+                                {% if blocks[index].url is defined and blocks[index].url != "#" %}<a href="{{blocks[index].url}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].img}}" width="600" height="auto" align="absbottom" alt="" style="line-height:0;font-size:0;outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0;padding:0;border:0;">{% if blocks[index].url is defined and blocks[index].url != "#" %}</a>{% endif %}
 
                               </th>
                             </tr>

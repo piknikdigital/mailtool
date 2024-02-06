@@ -42,6 +42,9 @@ if( !file_exists( $arguments )  ){
     die;
 }
 
+// var_dump($arguments);
+// echo PHP_EOL; die;
+
 $vars = createEnvironment2($arguments, "HTML");
 
 // var_dump($vars);
