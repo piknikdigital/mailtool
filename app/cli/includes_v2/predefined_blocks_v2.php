@@ -1823,6 +1823,38 @@ $libraryBlocks['columns'] ='
 
                             "this"          : "CTA1 /CTA2"
                         },
+
+                        {
+                            "README"         : "TO BE IMPLEMENTED",
+                            "rowtype"        : "ico_txt",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+
+                            "ico_area_width" : "150",
+                            "ico_img_width"  : "80",
+                            "ico_img"        : "ico.png",
+                            "ico_url"        : "#",
+                            "align"          : "left",
+                            "margin_top1"    : "20",
+                            "margin_bottom1" : "0",
+
+                            "p"              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "p_color_bkg"    : "transparent",
+                            "p_fontweight"   : "300",
+                            "p_fontsize"     : "18px",
+                            "p_height"       : "22px",
+                            "p_align"        : "center",
+                            "p_color"        : "#34303d",
+                            "margin_top2"    : "20",
+                            "margin_bottom2" : "0",
+
+                            "this"           : "IMG - TXT"
+                        },
+
+
+
+
                         {
                             "rowtype"        : "img",
                             "img"            : "22.id-x.png",
@@ -1844,6 +1876,32 @@ $libraryBlocks['columns'] ='
                 }
             ]
         },';
+
+$libraryBlocks['stageIMG'] ='
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "8",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "504",
+                    "mtop"          : "0",
+                    "img"           : "22.id-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.id-x"
+                }
+            ]
+        },';
+
+
 
 $libraryBlocks['greeting_v2'] ='
         {
@@ -1896,6 +1954,102 @@ $libraryBlocks['p_v2'] ='
             "readme"        : "height px, margin %" ,
             "this"          : ""
         },';
+
+$libraryBlocks['canales_de_comunicacion'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "¿Tienes dudas?",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "30",
+            "content"       : "Contáctanos en cualquiera de nuestros canales<br>de comunicación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "Canales de comunicación",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-cancom-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG"       : "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-sms.png",
+                    "imgulr"        : "https://cutt.ly/59uY4Ga",
+                    "THISIMG"       : "IMG ico-cancom-sms"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-ig.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG ico-cancom-ig"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
 $libraryBlocks['ElijoIQOS'] ='
         {
             "type"          : "p",
@@ -1928,8 +2082,24 @@ $libraryBlocks['Solo_con_IQOS'] ='
             "content"       : "Solo con IQOS",
             "this"          : "Solo con IQOS"
         },';
+$libraryBlocks['Tu_equipo_IQOS'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "50",
+            "content"       : "Tu equipo IQOS",
+            "this"          : "Tu equipo IQOS"
+        },';
 
-        
+
 
 $libraryBlocks['footer_bw_v1'] ='
         {
@@ -1967,7 +2137,10 @@ $libraryBlocks['undefined'] ='
     "header_mgm_tu_codigo_unico",
     "get_iqos_wallet_app",
     "get_iqos_wallet_app_slate",
+    "canales_de_comunicacion",
     "Solo_con_IQOS",
+    "Tu_equipo_IQOS",
+    "stageIMG",
 
     "img_Logo_Header_HTML",
     "img_Cover_HTML",

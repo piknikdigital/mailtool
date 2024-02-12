@@ -1,20 +1,21 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '22';
+$p_subject =  'Una experiencia de tabaco mejorada te espera';
+$p_preheader =  'Conoce los increíbles beneficios de IQOS';
+$p_yy =  '24';
+$p_mm =  '02';
+$p_dd =  '08';
+$p_name4folder =  'conversion-starter';
+$p_name4json =  'iluma-conversion-starter-day16';
+$p_name4folderDCE =  'Conversion High Priority Starter';
+$p_mailname4DCE =  'IQOS_ILUMA_2024_JOURNEY_CONVERSION_STARTER_DAY16';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 
 //-----------------------------------------
@@ -27,21 +28,22 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
+    "img",
+    "img",
     "img",
     "img",
     "greeting_v2",
-    "p300_BW",
+    "p700_BW",
+    "cta1_v2",
     "columns",
     "spacer",
+    "img",
+    "img",
     "cta1_v2",
-    "canales_de_comunicacion",
+    "p300_BW",
+    "columns",
+    "img",
     "ElijoIQOS",
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -60,7 +62,6 @@ $requiredBlocks = array(
     
     "header_mgm_tu_codigo_unico",
 
-    "stageIMG",
     "img",
     "spacer",
     "pframed",
@@ -72,11 +73,7 @@ $requiredBlocks = array(
     "columns",
     "cta1_v2",
     "spacer_v2",
-    "canales_de_comunicacion",
 
-
-    "ElijoIQOS",
-    "Tu_equipo_IQOS",
     "Solo_con_IQOS",
     "footer_bw_v1",
 
@@ -130,8 +127,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 2222XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 2222XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -188,18 +185,33 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+¡Estás evolucionando al siguiente nivel!<br><br><span style=\"color:#00d1d2;font-weight:700;\">¿Sabías que si cambias completamente a IQOS podrías no regresar a fumar cigarros*?</span>
+
+--------------------
+Estamos aquí para apoyarte, recuerda que nuestros canales de comunicación están disponibles para ti.
+
+--------------------
+--------------------
+Tu equipo IQOS
+--------------------
+--------------------
+--------------------
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.<br>* Datos financieros y estimaciones internas, paneles de usuarios de IQOS y estudios de mercado. Estatus a septiembre de 2020. Usuarios exclusivos de tecnología de calentamiento de tabaco que utilizan unidades de tabaco para calentar durante más del 70% de su consumo de los últimos 7 días.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+Conoce más
+https://www.iqos.com/mx/es/historias-iqos.html
+
+Ver más
+https://www.iqos.com/mx/es/beneficios.html
+
+Quiero saber más
+https://www.iqos.com/mx/es/beneficios.html
+
 --------------------
 --------------------
 --------------------

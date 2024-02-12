@@ -1,0 +1,21 @@
+El equivalente a los “archivos por lotes” en macOS son los “Shell Scripts”. 
+Estos se escriben de forma muy parecida, como un archivo de texto con una 
+lista de comandos a ejecutar. 
+
+Para lograr una funcionalidad similar a un archivo .bat en Windows, 
+puedes crear un archivo bash en macOS. Aquí tienes los pasos:
+
+1. Crea un archivo de texto con extensión .sh.
+2. Escribe tus comandos en el archivo .sh. 
+   Asegúrate de usar las rutas correctas y cambiar 
+   las barras invertidas (\) por barras normales 
+   (/). Por ejemplo:
+        #!/bin/bash
+        java -cp ".;./supportlibraries/Framework_Core.jar;./supportlibraries/Framework_DataTable.jar;./supportlibraries/Framework_Reporting.jar;./supportlibraries/Framework_Utilities.jar;./supportlibraries/poi-3.8-20120326.jar;PATH_TO_YOUR_SELENIUM_SERVER_FOLDER/selenium-server-standalone-2.19.0.jar" allocator.testTrack
+3. Guarda el archivo con el nombre que desees y la extensión .sh.
+4. Abre la terminal y navega hasta la carpeta donde guardaste el archivo .sh.
+5. Cambia los permisos del archivo para que sea ejecutable:
+        chmod +x nombre_del_archivo.sh
+6. Ahora puedes ejecutar el script como cualquier otro archivo regular:
+        ./nombre_del_archivo.sh
+...

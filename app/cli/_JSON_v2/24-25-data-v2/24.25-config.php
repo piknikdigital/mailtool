@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '25';
+$p_subject =  '¿Tus amigos ya son TEAM IQOS? 👀';
+$p_preheader =  'Aún estás a tiempo de invitarlos al programa IQOS 😉​';
+$p_yy =  '24';
+$p_mm =  '02';
+$p_dd =  '08';
+$p_name4folder =  'conversion-starter';
+$p_name4json =  'iluma-conversion-starter-day27';
+$p_name4folderDCE =  'Conversion High Priority Starter';
+$p_mailname4DCE =  'IQOS_ILUMA_2024_JOURNEY_CONVERSION_STARTER_DAY27';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,21 +27,17 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
     "img",
     "greeting_v2",
     "p300_BW",
     "columns",
-    "spacer",
+    "img",
     "cta1_v2",
+    "columns",
+    "spacer",
+    "get_iqos_wallet_app",
     "canales_de_comunicacion",
-    "ElijoIQOS",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -72,11 +68,7 @@ $requiredBlocks = array(
     "columns",
     "cta1_v2",
     "spacer_v2",
-    "canales_de_comunicacion",
 
-
-    "ElijoIQOS",
-    "Tu_equipo_IQOS",
     "Solo_con_IQOS",
     "footer_bw_v1",
 
@@ -130,8 +122,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 2525XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 2525XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -187,27 +179,40 @@ PRECIO TACHADO:
 ===================================================================
 --------------------
 --------------------
+Entre amigos<span style=\"font-size:12px;\"><sup>(1)</sup></span> nos entendemos, por eso entre amigos hay códigos. 
+--------------------
+--------------------
+--------------------
+Invítalos a unirse al programa <br>de préstamo IQOS
+--------------------
+donde podrán disfrutar los beneficios <br>del calentamiento de tabaco<br>durante 14 días. <br><br>Lo único que tienes que hacer es invitarlos<br>mándandoles un mensaje.
 --------------------
 --------------------
 --------------------
 --------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
 --------------------
+Canjea tus recompensas dentro de un<br>catálogo con más de
+--------------------
+40 opciones. ​
 --------------------
 --------------------
 --------------------
+Ten siempre a la mano tu Código Único,
+lleva el control de tus referidos y beneficios 
+con IQOS Wallet.
+Disponible para IOS y Android.
 --------------------
 --------------------
+Recuerda que nuestros canales de comunicación están disponibles para resolver todas tus dudas.
 --------------------
 --------------------
+Tu equipo IQOS
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.<br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco.<br>(3) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.<br>IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
 --------------------
 --------------------
 --------------------

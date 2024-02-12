@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '19';
+$p_subject =  '¡Felicidades! Hace una semana le dijiste adiós al humo de cigarro. ';
+$p_preheader =  '¡El siguiente nivel te espera! 🙌🏻';
+$p_yy =  '24';
+$p_mm =  '02';
+$p_dd =  '08';
+$p_name4folder =  'conversion-starter';
+$p_name4json =  'iluma-conversion-starter-day7';
+$p_name4folderDCE =  'Conversion High Priority Starter';
+$p_mailname4DCE =  'IQOS_ILUMA_2024_JOURNEY_CONVERSION_STARTER_DAY7';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,21 +27,14 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
-    "img",
+    "columns",
     "greeting_v2",
+    "columns",
+    "p700_BW",
     "p300_BW",
     "columns",
-    "spacer",
-    "cta1_v2",
-    "canales_de_comunicacion",
+    "img",
     "ElijoIQOS",
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -60,7 +53,6 @@ $requiredBlocks = array(
     
     "header_mgm_tu_codigo_unico",
 
-    "stageIMG",
     "img",
     "spacer",
     "pframed",
@@ -72,11 +64,7 @@ $requiredBlocks = array(
     "columns",
     "cta1_v2",
     "spacer_v2",
-    "canales_de_comunicacion",
 
-
-    "ElijoIQOS",
-    "Tu_equipo_IQOS",
     "Solo_con_IQOS",
     "footer_bw_v1",
 
@@ -130,8 +118,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 1919XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 1919XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -190,13 +178,24 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+El cambio apenas comienza.
+
+
+--------------------
+¿Tienes dudas?
+ 
+Contáctanos en cualquiera de nuestros canales
+de comunicación.
+
+--------------------
+--------------------
+Tu equipo IQOS
+--------------------
+
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
 --------------------
 --------------------
 --------------------

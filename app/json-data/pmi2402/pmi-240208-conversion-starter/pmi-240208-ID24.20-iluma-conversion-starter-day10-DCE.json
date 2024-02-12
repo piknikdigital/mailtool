@@ -1,0 +1,390 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE.html",
+
+        "Subject"          :   "¡Llegó el momento de notar la diferencia con IQOS!",
+        "Preheader"        :   "Experimenta los beneficios de dejar atrás el cigarro😉",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240208_Conversion High Priority Starter > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "IQOS_ILUMA_2024_JOURNEY_CONVERSION_STARTER_DAY10",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2402/pmi-240208-conversion-starter/pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240208-ID24.20-iluma-conversion-starter-day10-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.20 IQOS_ILUMA_2024_JOURNEY_CONVERSION_STARTER_DAY10",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d9be4626-b3e4-4afc-91af-e3b58f4f151e.jpg",
+            "url": "#",
+            "this": "IMG 24.20-1"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f8ceb887-0d99-44d5-a164-77fffd0f54f0.png",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir.html",
+            "this": "CTA cta-bw-conocer-mas"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "22",
+            "width": "70%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "40",
+            "content": "Tú, al igual que los <span style=\"color:#00d1d2;font-weight:700;\">más de 17.5 millones de usuarios adultos de IQOS en todo el mundo*,</span> has dado el siguiente paso.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f864d145-ca83-4b42-a231-e45dc236cbdb.jpg",
+            "url": "#",
+            "this": "IMG 24.20-2"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "3",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "QUIERO SABER MAS",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "Vas a notar la diferencia.",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "24px",
+                            "p_height": "24px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1d150b1a-1a6d-41a4-b491-4b37a9b9835c.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "0",
+                            "imgWidth": "500",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "BENEFICIOS 24.20-3b"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6d61a5da-8749-4e4a-bc06-9540cd436ff8.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "30",
+                            "margin_bottom": "40",
+                            "imgWidth": "220",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/beneficios.html",
+                            "THISIMG": "cta-bw-quiero-saber-mas"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "5",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "24",
+            "width": "100%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "#00d1d2",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "Recuerda <span style=\"color:#34303d;font-weight:700;\">no alternar su uso con <br>cigarros o productos con nicotina</span> para <br>poder experimentar plenamente <br>los <span style=\"color:#34303d;font-weight:700;\">beneficios de IQOS.</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "spacer",
+            "height": "30",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "UGC",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "540",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fd0df7b5-a0f1-41f4-a130-757a84681d8c.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.20-4"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "220",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/87341fd3-880c-4a04-8288-88d17ca81eda.png",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/historias-iqos.html",
+            "this": "CTA cta-bw-ver-mas"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "content": "¿Tienes dudas?",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "30",
+            "content": "Contáctanos en cualquiera de nuestros canales<br>de comunicación.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "40",
+            "color_bkg": "#FFFFFF",
+            "this": "Canales de comunicación",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "16",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/232f3a5c-b5d9-4717-bfd4-28674d084d43.png",
+                    "imgulr": "tel:8001476769",
+                    "THISIMG": "IMG ico-cancom-telefono"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/7786fe90-89c5-4486-819b-6e08486aefe8.png",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG": "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c43aeed7-7363-49f9-b95f-af673adc6886.png",
+                    "imgulr": "https://cutt.ly/59uY4Ga",
+                    "THISIMG": "IMG ico-cancom-sms"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "17",
+                    "imgwidth": "90",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8e78a75a-6c7b-465b-8b8a-0db60f86dbab.png",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG ico-cancom-ig"
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "#FFFFFF",
+                    "widthp100": "16",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ba8f2d41-4768-4502-ab18-c005c76e49ab.jpg",
+            "url": "#",
+            "this": "IMG 24.20-5"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Tu equipo IQOS",
+            "this": "Tu equipo IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

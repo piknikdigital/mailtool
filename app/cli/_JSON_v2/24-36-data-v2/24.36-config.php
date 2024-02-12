@@ -1,20 +1,21 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '36';
+$p_subject =  'Dejar de fumar cigarro es posible con IQOS👌🏻';
+$p_preheader =  '¡Regístrate! Y pronto descubrirás algo nuevo🤩';
+$p_yy =  '24';
+$p_mm =  '02';
+$p_dd =  '10';
+$p_name4folder =  'iluma-teaser';
+$p_name4json =  'leads-iluma-teaser-waiting-list-2';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'NA';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'Iluma Teaser';
+$p_mailname4FSH =  'LEADS_2024_MAR_DCE_TEASER WAITINGLIST2_ILUMA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  '205';
+
 
 
 //-----------------------------------------
@@ -130,8 +131,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 3636XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 3636XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
