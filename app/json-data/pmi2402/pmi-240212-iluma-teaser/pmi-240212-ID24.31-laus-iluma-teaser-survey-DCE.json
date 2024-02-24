@@ -1,0 +1,299 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE.html",
+
+        "Subject"          :   "IQOS te escucha 📢",
+        "Preheader"        :   "Contesta la encuesta y lleva tu experiencia a otro nivel 😉",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240212_Iluma Teaser > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_2024_MAR_DCE_TEASER SURVEY_ILUMA",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2402/pmi-240212-iluma-teaser/pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240212-ID24.31-laus-iluma-teaser-survey-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.31 LAUS_2024_MAR_DCE_TEASER SURVEY_ILUMA",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3a84b3f1-be91-4eda-b2d9-a0f3d90bb899.gif",
+            "url": "#",
+            "this": "IMG 24.31-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "Tu opinión nos importa",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#faf7f4",
+                    "widthp100": "80",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "p": "¡Tu opinión nos importa!",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "30px",
+                            "p_height": "32px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Si tuvieras la oportunidad de llevar <br>a <b>otro nivel tu experiencia <br>con IQOS...</b>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "30"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "10",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "p_v2___",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "28",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "#faf7f4",
+            "margin_top": "20",
+            "margin_bottom": "20",
+            "margin_sides": "10",
+            "margin_color": "transparent",
+            "content": "¿Qué desearías?",
+            "readme": "height px, margin %",
+            "this": ""
+        },
+        {
+            "type": "form___",
+            "ID": "form1",
+            "method": "get",
+            "fontweight": "300",
+            "fontsize": "16",
+            "align": "left",
+            "color_greeting": "#000000",
+            "color_bkg": "transparent",
+            "width": "80%",
+            "form_bgcolor": "#faf7f4",
+            "this": "",
+            "imgBullet": "http://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/23150b58-1b62-4576-9a23-8052512bca74.png",
+            "formurl": "#",
+            "formurl_HTML": "http://mailtool.lan:8888/form.php",
+            "formurl_DCE": "#",
+            "button": "",
+            "buttonwidth": "200",
+            "list": [
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checkedEJ": "checked",
+                    "checked": "",
+                    "value": "Survey_1",
+                    "txt": "Menos olor"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_2",
+                    "txt": "Mejor experiencia de sabor"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_3",
+                    "txt": "Dejar de limpiar mi dispositivo"
+                },
+                {
+                    "name": "survey_reply",
+                    "type": "radio",
+                    "class": "container",
+                    "checked": "",
+                    "value": "Survey_4",
+                    "txt": "Todas las anteriores"
+                }
+            ]
+        },
+        {
+            "type": "rawHTML",
+            "th_valign": "",
+            "th_style": "",
+            "th_align": "",
+            "html": "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "th_valign_NOPE": "top",
+            "th_style_NOPE": "text-align:center;margin:0;padding:0;",
+            "th_align_NOPE": "center",
+            "html_NOPE": "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
+            "this": "HTML RAW"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "IQOS te escucha.",
+            "this": "IQOS te escucha."
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "10",
+            "margin_bottom": "35",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "disclaimer_____",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.",
+            "this": "LEGALES"
+        },
+        {
+            "type": "pframed",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "11",
+            "width": "80%",
+            "align": "justify",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "color_boxbkg": "#FFFFFF",
+            "margin_top": "15",
+            "margin_bottom": "15",
+            "framecolor": "#000000",
+            "framepadding": "15",
+            "content": "<b>Información importante:</b> IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+            "this": "DTI - DUTY TO INFORM"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "PRIVACY NOTICE"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -217,6 +217,14 @@ Tu equipo IQOS
 --------------------
 --------------------
 --------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. <br>(2) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y compraiqos.com.mx. Descuento no válido en productos de tabaco. <br>(3) Cada recompensa equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en recompensasiqos.plandereconocimientos.com. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa. <br>*Programa de Préstamo IQOS disponible en Tiendas IQOS Antara, Perisur, Santa Fe, Mítikah, Call Center IQOS y IQOS Corners en Sanborns seleccionados: Pabellón Bosques, Palmas, San Antonio, Metrópoli, Nuevo Tlalnepantla, Del Valle, Villa Coapa, Plaza Inbursa, Toluca Centro, Centenario, Loreto, Barranca del Muerto, Parque Lindavista, Altavista, Hospitales, Lomas Verdes, San Mateo, Parque el Toreo, Ticomán, Tacubaya, Gran Sur, Ecatepec, Plaza Insurgentes, Echegaray, San Marcos, Aeropuerto, Madero y Buenavista Fórum. El listado de tiendas podrá cambiar sin previo aviso. <br>IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 
 --------------------

@@ -5,11 +5,11 @@ $p_subject =  'IQOS te escucha 📢';
 $p_preheader =  'Contesta la encuesta y lleva tu experiencia a otro nivel 😉';
 $p_yy =  '24';
 $p_mm =  '02';
-$p_dd =  '10';
+$p_dd =  '12';
 $p_name4folder =  'iluma-teaser';
 $p_name4json =  'laus-iluma-teaser-survey';
 $p_name4folderDCE =  'Iluma Teaser';
-$p_mailname4DCE =  'LAUS_2024_MAR_DCE_TEASER_SURVEY_ILUMA';
+$p_mailname4DCE =  'LAUS_2024_MAR_DCE_TEASER SURVEY_ILUMA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -27,21 +27,14 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
     "img",
     "greeting_v2",
+    "p_v2",
+
     "p300_BW",
-    "columns",
-    "spacer",
-    "cta1_v2",
-    "canales_de_comunicacion",
+    "form",
+
     "ElijoIQOS",
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -142,7 +135,7 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+" ",
 --------------------
 --------------------
 url para mandar SMS:
@@ -192,14 +185,42 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+¡Tu opinión nos importa!​
+--------------------
+Si tuvieras la oportunidad de llevar ​<br>a <b>otro nivel tu experiencia ​<br>con IQOS...​</b>
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+​¿Qué desearías?
+--------------------
+Menos olor
+Mejor experiencia de sabor
+Dejar de limpiar mi dispositivo
+Todas las anteriores
 --------------------
 --------------------
 --------------------
+--------------------
+Menos olor
+Mejor experiencia de sabor
+Dejar de limpiar mi dispositivo
+Todas las anteriores
+--------------------
+Menos_olor
+Mejor_experiencia_de_sabor
+Dejar_de_limpiar_mi_dispositivo
+Todas_las_anteriores
+--------------------
+--------------------
+--------------------
+--------------------
+IQOS te escucha.
+--------------------
+--------------------
+--------------------
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
 --------------------
 --------------------
 --------------------

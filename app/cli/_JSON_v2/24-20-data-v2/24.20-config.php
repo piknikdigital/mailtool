@@ -218,6 +218,9 @@ IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona co
 
 --------------------
 --------------------
+Agregar  disclaimer:  
+*Datos financieros y estimaciones internas (excluyendo Rusia y Ucrania), paneles de usuarios de IQOS y estudios de mercado. Estatus al 31 de diciembre de 2022. Usuarios exclusivos de tecnología de calentamiento de tabaco que utilizan unidades de tabaco para calentar durante más del 70% de su consumo de los últimos 7 días.
+
 --------------------
 --------------------
 Conocer más	

@@ -5,7 +5,7 @@ $p_subject =  'Evoluciona con IQOS 🙌🏻';
 $p_preheader =  'Entérate antes que nadie...🤫';
 $p_yy =  '24';
 $p_mm =  '02';
-$p_dd =  '10';
+$p_dd =  '12';
 $p_name4folder =  'iluma-teaser';
 $p_name4json =  'laus-iluma-teaser-waiting-list';
 $p_name4folderDCE =  'Iluma Teaser';
@@ -15,6 +15,7 @@ $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
+
 
 
 
@@ -28,21 +29,12 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
     "img",
     "greeting_v2",
     "p300_BW",
     "columns",
-    "spacer",
     "cta1_v2",
-    "canales_de_comunicacion",
-    "ElijoIQOS",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -199,6 +191,12 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Una <b>experiencia de tabaco<br> mejorada</b> está por llegar.​
+--------------------
+--------------------
+--------------------
+--------------------
+<b>Regístrate</b> y sé de los primeros en <br>evolucionar al <b>siguiente nivel ​<br>con IQOS.</b>
 --------------------
 --------------------
 --------------------
@@ -206,10 +204,7 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade;  la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
 --------------------
 --------------------
 --------------------

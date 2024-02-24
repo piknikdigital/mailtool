@@ -208,6 +208,16 @@ Tu equipo IQOS
 --------------------
 --------------------
 --------------------
+
+--------------------
+Ajustar por el núm 3: 
+
+(3) Cada recompensa equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en <a href=\"http://www.recompensasiqos.plandereconocimientos.com/\">www.recompensasiqos.plandereconocimientos.com.</a>. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa.
+
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

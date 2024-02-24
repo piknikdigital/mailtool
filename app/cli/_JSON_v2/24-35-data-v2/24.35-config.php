@@ -5,14 +5,14 @@ $p_subject =  'La nueva experiencia de tabaco mejorada👌🏻';
 $p_preheader =  '¡Regístrate! Algo nuevo está llegando☝🏻';
 $p_yy =  '24';
 $p_mm =  '02';
-$p_dd =  '10';
+$p_dd =  '12';
 $p_name4folder =  'iluma-teaser';
 $p_name4json =  'leads-iluma-teaser-waiting-list';
 $p_name4folderDCE =  'NA';
 $p_mailname4DCE =  'NA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'Iluma Teaser';
-$p_mailname4FSH =  'LEADS_2024_MAR_DCE_TEASER WAITINGLIST_ILUMA';
+$p_mailname4FSH =  'LEADS_2024_MAR_LOCAL_TEASER WAITINGLIST_ILUMA';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  '205';
 
@@ -27,21 +27,12 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
     "img",
     "greeting_v2",
     "p300_BW",
     "columns",
-    "spacer",
     "cta1_v2",
-    "canales_de_comunicacion",
-    "ElijoIQOS",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "disclaimer_iqos",
     "footer_bw_v1_lowercase"
@@ -142,7 +133,7 @@ $requiredBlocks = array(
 
 /*
 BAD CHR : "", "	"
-" ",
+" ",
 --------------------
 --------------------
 url para mandar SMS:
@@ -192,6 +183,14 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Una <b>nueva experiencia de tabaco diseñada</b> para ti está <b>a punto de llegar.​</b>
+--------------------
+--------------------
+--------------------
+--------------------
+<b>Regístrate</b> para <br>conocer antes que nadie una
+--------------------
+mejor opción que <br>continuar fumando
 --------------------
 --------------------
 --------------------
@@ -199,11 +198,7 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
 --------------------
 --------------------
 --------------------
