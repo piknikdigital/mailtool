@@ -205,10 +205,14 @@ IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona co
 --------------------
 --------------------
 --------------------
+https://www.iqos.com/mx/es/home.html
+https://www.iqos.com/
 --------------------
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+
 --------------------
 --------------------
 --------------------

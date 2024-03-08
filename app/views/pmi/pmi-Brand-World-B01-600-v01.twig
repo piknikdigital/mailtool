@@ -155,9 +155,15 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
     </xml>
     <![endif]-->
 
+    {# <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@100;300;400;700&family=Noto+Sans:wght@100;300;400;700&display=swap" rel="stylesheet"> #}
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
 
   </head>
   <body style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0; font-family: 'Cabin', Gotham, Arial, sans-serif; font-size: 14px; line-height: 18px; color: #000000; width: 100%;" class="md-r">
@@ -1418,7 +1424,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                               {% set boxbkg = "transparent" %}
                             {% endif %}
                             {% if blocks[index].font is not defined %}
-                              {% set fontFamily = "Noto Sans" %}
+                              {% set fontFamily = "'Noto Sans', Gotham, Arial, sans-serif" %}
                             {% else %}
                               {% set fontFamily =  blocks[index].font %}
                             {% endif %}
@@ -1434,7 +1440,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                                 <tbody>
                                 <tr>
                                   <th style="text-align:{{blocks[index].align}};">
-                                    <span style="width:100%;text-align:center;margin:0 auto;text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}; font-family: '{{fontFamily}}', Gotham, Arial, sans-serif;" class="fallback-text">
+                                    <span style="width:100%;text-align:center;margin:0 auto;text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}; font-family: {{fontFamily}};" class="fallback-text">
                                     {{blocks[index].content|raw}}</span>
                                   </th>
                                 </tr>
@@ -1913,6 +1919,11 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                             </tr>
 
                           {% elseif blocks[index].type == "disclaimer" %}
+                            {% if blocks[index].font is defined %}
+                              {% set fontfamily = blocks[index].font %}
+                            {% else %}
+                              {% set fontfamily = "'Noto Sans', Gotham, Arial, sans-serif" %}
+                            {% endif %}
                             {% if blocks[index].align is defined %}
                               {% set textalign = blocks[index].align %}
                             {% else %}
@@ -1920,17 +1931,17 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                             {% endif %}
                             {% set bgclr = "transparent" %}
                             {% if blocks[index].bgcolor is defined %}
-                            {% set bgclr = blocks[index].bgcolor  %}
+                              {% set bgclr = blocks[index].bgcolor  %}
                             {% endif %} 
 
                             <tr pik-mail-block="disclaimer">
-                              <th valign="top" style="text-align:{{textalign}};background-color:{{bgclr}};font-size:11px;line-height:{{blocks[index].fontsize + 2}}px" class="horizontal-gutter">
+                              <th valign="top" style="text-align:{{textalign}};background-color:{{bgclr}};font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.2}}px" class="horizontal-gutter">
                                 <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="600" style="min-width:600px" role="presentation">
                                   <tbody>
                                   <tr>
                                     <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
                                     <th valign="middle" style="text-align:{{textalign}}" align="{{textalign}}">
-                                    <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family:gotham,arial; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{textalign}};" class="fallback-text">{{blocks[index].txt|raw}}</span>
+                                    <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family: {{fontfamily}}; line-height:{{blocks[index].fontsize * 1.2}}px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{textalign}};" class="fallback-text">{{blocks[index].txt|raw}}</span>
                                     </th>
                                     <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
                                   </tr>

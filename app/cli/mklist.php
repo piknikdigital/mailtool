@@ -75,7 +75,7 @@ $f2_commonfiles =',
             },
             {
                 "HTML"       : "header-iqos-bw.png",
-                "FSH"        : "",
+                "FSH"        : "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/89c57784-534b-4f64-9875-cc351b680dcb.png",
                 "DCE"        : "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
                 "THIS"       : "LOGO VACIO, SIN TEXTO A LA DERECHA"
             },

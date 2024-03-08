@@ -33,22 +33,39 @@ $requiredBlocks = array(
 
     "img",
     "img",
+    "img",
+    "img",
     "greeting_v2",
     "p300_BW",
+    "p300_BW",
+    "p300_BW",
+    "p300_BW",
+    "p300_BW",
+    "p700_BW",
+    "p700_BW",
+    "p700_BW",
+    "p700_BW",
     "columns",
     "spacer",
+    "cta1_v2",
+    "cta1_v2",
+    "cta1_v2",
     "cta1_v2",
     "canales_de_comunicacion",
     "ElijoIQOS",
     "Tu_equipo_IQOS",
     "Solo_con_IQOS",
     "legal_extra",
-    "disclaimer_iqos",
+    "legales-iluma",
     "footer_bw_v1_lowercase"
 );
 
 
 /* 
+
+    FONDO GRIS CLARO - Iluma, borde redondo
+        "IQOS-Wallet-Iluma-Gray",
+
 
     FONDO GRIS CLARO:
         "get_iqos_wallet_app",
@@ -74,6 +91,7 @@ $requiredBlocks = array(
     "spacer_v2",
     "canales_de_comunicacion",
 
+    "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
 
     "ElijoIQOS",
     "Tu_equipo_IQOS",

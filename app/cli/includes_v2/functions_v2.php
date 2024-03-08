@@ -1,6 +1,6 @@
 <?php
 
-
+// Usado por : mk_fork.php
 function getYear()
 {
     // return "23";
@@ -13,7 +13,7 @@ function blockreplace($replacementsfile, $inputfile, $source, $target)
     $value_old = array();
     $value_new = array();
 
-    $dataA  = file_get_contents("library-replacements.json");
+    $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
     $a1     = json_decode($dataA, true);
 
     $dataB  = file_get_contents($replacementsfile);
@@ -36,9 +36,9 @@ function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
     $value_new = array();
 
 
-    $dataA  = file_get_contents("includes/library-replacements.json");
+    $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
     $a1     = json_decode($dataA, true);
-    if (!$a1) abort("ERROR: library-replacements.json no entrega datos. Revisar sintaxis.");
+    if (!$a1) abort("ERROR: includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
     // echo var_export($a1,true); die;
 
     $dataB  = file_get_contents($replacementsfile);
@@ -77,6 +77,7 @@ function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
     return $data1; 
 }
 
+// Usado por : mk_fork.php
 function blockreplace_v3($target, $vars )
 {    
     $value_old = array();
@@ -84,9 +85,9 @@ function blockreplace_v3($target, $vars )
 
     $source  = "HTML"; 
 
-    $dataA  = file_get_contents("includes/library-replacements.json");
+    $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
     $a1     = json_decode($dataA, true);
-    if (!$a1) abort("ERROR: library-replacements.json no entrega datos. Revisar sintaxis.");
+    if (!$a1) abort("ERROR: includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
     // echo var_export($a1,true); die;
 
     $dataB  = file_get_contents($vars['replacementsfile']);
@@ -98,8 +99,8 @@ function blockreplace_v3($target, $vars )
     // echo var_export($a2,true); die;
 
     foreach ($a as $b) {
-        $value_old[] = $b[$source];
-        $value_new[] = $b[$target];
+        $value_old[] = $b[$source];     // ERROR: Undefined index: HTML in /Users/armandoromero/Documents/devF1/mailtool.lan/app/cli/includes_v2/functions_v2.php on line 101
+        $value_new[] = $b[$target];     // ERROR: Undefined index: FSH in /Users/armandoromero/Documents/devF1/mailtool.lan/app/cli/includes_v2/functions_v2.php on line 102
     }
     // echo var_export($value_new,true); die;
     // echo var_export($value_old,true); die;
@@ -156,7 +157,7 @@ function getOriginalBlocks($f)
     return $c;
 }
 
-
+// Usado por : mk_fork.php
 function createEnvironment2($arguments, $target)
 {
     include($arguments);
@@ -284,6 +285,7 @@ function create_environment($mes, $folder, $filename, $target, $footergrey,
     return $a;
 }
 
+// Usado por : mk_fork.php
 function fill_config( $a )
 {
     $config_template='{
@@ -424,6 +426,7 @@ function createBlocks_ver1($requiredBlocks, $libraryBlocks)
     return $blocks;
 }
 
+// Usado por : mk_fork.php
 function get_ending()
 {
     $ending= '
@@ -438,6 +441,7 @@ function abort( $e=NULL ){
     die;
 }
 
+// Usado por : mk_fork.php
 function msgDone($f)
 {
     if (!defined('L1'))    define("L1",     "┌─────────────────────");
@@ -475,6 +479,7 @@ function msgDone($f)
     // echo "strlen L1: " . strlen(L1) .PHP_EOL;
 }
 
+// Usado por : mk_fork.php
 function mk_path( $base, $mes , $folder)
 {    
 

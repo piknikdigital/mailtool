@@ -14,7 +14,7 @@ $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'Iluma Teaser';
 $p_mailname4FSH =  'LEADS_2024_MAR_LOCAL_TEASER WAITINGLIST2_ILUMA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '205';
+$id_FSH_folder =  '206';
 
 
 

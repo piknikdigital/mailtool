@@ -8,6 +8,29 @@
 
 $libraryBlocks = array();
 
+
+$libraryBlocks['legales-iluma'] ='
+        {
+            "type"          : "spacer",
+            "height"        : "16",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "LEGALES ILUMA"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },';
 $libraryBlocks['header_mgm_tu_codigo_unico'] ='
         {
             "type"              : "columns",
@@ -137,6 +160,66 @@ $libraryBlocks['get_iqos_wallet_app'] ='
                     "mtop"          : "0"
                 }
             ]
+        },';
+$libraryBlocks['IQOS-Wallet-Iluma-Gray'] =   '
+        {   "SECCION"       : "IQOS WALLET - fondo gris"  },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "iqos-wallet-gris-top.jpg",
+            "url"           : "#",
+            "this"          : "IMG iqos-wallet-gris-top"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "LINKS APP - ITUNES / PLAY STORE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f9f7f4",
+                    "widthp100"     : "43",
+                    "imgwidth"      : "180",
+                    "mtop"          : "0",
+                    "img"           : "cta-get-from-app-store.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-apple-wallet"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#f9f7f4",
+                    "widthp100"     : "43",
+                    "imgwidth"      : "180",
+                    "mtop"          : "0",
+                    "img"           : "cta-get-from-google-play.png",
+                    "imgulr"        : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG"       : "IMG cta-store-google-play"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "7",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "iqos-wallet-gris-bottom.jpg",
+            "url"           : "#",
+            "this"          : "IMG iqos-wallet-gris-bottom"
         },';
 
 $libraryBlocks['get_iqos_wallet_app_turquoise'] ='
@@ -590,7 +673,7 @@ $libraryBlocks['btn_sa_comprar_HTML'] ='
 $libraryBlocks['cta1'] ='
         {
             "type"          : "cta1",
-            "widthbutton"   : "280",
+            "widthbutton"   : "200",
             "color_bkg"     : "transparent",
             "button"        : "btn.png",
             "url_cta"       : "#",
@@ -755,7 +838,7 @@ $libraryBlocks['legal_extra'] ='
             "color"         : "#34303d",
             "fontsize"      : "11",
             "txt"           : "LEGALES_TBD",
-            "this"          : "LEGALES"
+            "this"          : "LEGALES DE ESTE CORREO"
         },';
 $libraryBlocks['disclaimer_fsh'] ='
         {
@@ -1506,7 +1589,7 @@ $libraryBlocks['header_brand_world'] ='
         {
             "type"          : "img",
             "bgcolor"       : "transparent",
-            "img"           : "header-iqos-bw-8.png",
+            "img"           : "header-iqos-bw.png",
             "url"           : "#",
             "this"          : "IMG header IQOS Brand World"
         },';
@@ -1522,7 +1605,7 @@ $libraryBlocks['p300_BW'] ='
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
-            "margin_bottom" : "50",
+            "margin_bottom" : "0",
             "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "this"          : "TXT"
         },';
@@ -1538,7 +1621,7 @@ $libraryBlocks['p700_BW'] ='
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
-            "margin_bottom" : "50",
+            "margin_bottom" : "0",
             "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Et harum quidem rerum facilis est et expedita distinctio.",
             "this"          : "TXT"
         },';
@@ -1917,7 +2000,7 @@ $libraryBlocks['greeting_v2'] ='
 $libraryBlocks['cta1_v2'] ='
         {
             "type"          : "cta1_v2",
-            "widthbutton"   : "280",
+            "widthbutton"   : "200",
             "color_bkg"     : "transparent",
             "button"        : "btn.png",
             "margin_top"    : "50",
@@ -2134,6 +2217,8 @@ $libraryBlocks['undefined'] ='
 // print_r(array_keys($libraryBlocks));
 
 /*
+    "IQOS-Wallet-Iluma-Gray",
+
     "header_mgm_tu_codigo_unico",
     "get_iqos_wallet_app",
     "get_iqos_wallet_app_slate",
