@@ -13,7 +13,7 @@ require_once '../../vendor/autoload.php';
 include_once("includes_v2/functions_v2.php"); 
 
 
-define("ERR_BAD_ARGS", PHP_EOL."------> ERROR: sintaxis o número de argumentos inválidos.".PHP_EOL."        uso: php mkhtml_v2.php [TARGET] IDmail".PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL);
+define("ERR_BAD_ARGS", PHP_EOL."\033[1;37;41m ERROR: \033[0m Sintaxis o número de argumentos inválidos.".PHP_EOL."        uso: php mk_html.php [TARGET] IDmail".PHP_EOL."             donde TARGET= DCE, FSH o HTML" . PHP_EOL. PHP_EOL);
 
 
 $year = getYear();
@@ -64,21 +64,25 @@ $arguments = "_JSON_v2/$year-$idMail-data-v2/$year.$idMail-config.php";
 if( file_exists( $arguments )  )
     include_once($arguments);
 else
-    abort(PHP_EOL."ERROR: No existe " . $arguments . PHP_EOL . PHP_EOL);
+    abort(PHP_EOL."\033[1;37;41m ERROR: \033[0m No existe " . $arguments . PHP_EOL . PHP_EOL);
 
 
 // ****************************************************************************************
 
-$mes      = $companyBrand . $p_yy . $p_mm;     // Ej: pmi2306
-$folder   = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; // Ej: pmi-230609-leads-junio
-$filename = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;  // Ej: pmi-230609-ID23.76-leads-junio-2-HTML
+$mes      = $companyBrand . $p_yy . $p_mm;
+$folder   = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder;
+$filename = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;
+
+// var_dump($mes);       // ej: string(7)  "pmi2409"  
+// var_dump($folder);    // ej: string(22) "pmi-240912-test-folder"      
+// var_dump($filename);  // ej: string(34) "pmi-240912-ID24.1111-test-json-DCE"          
 
 // LOAD JSON DATA FILE FOR TWIG TEMPLATE ---------------------------------
 $f = $mes. "/" . $folder. "/" . $filename;    
 $f1 = dirname(__DIR__) . "/json-data/" . $mes. "/" . $folder. "/" . $filename;
 
-// /Users/armandoromero/Documents/devF1/mailtool.lan/app/json-data/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.155-lending-awareness-2-HTML.json
-// /Users/armandoromero/Documents/devF1/mailtool.lan/app/json-data/pmi2308/pmi-230814-lending-originals/pmi-230814-ID23.155-lending-awareness-2-HTML
+// var_dump($f);  // ej: string(65)  "pmi2409/pmi-240912-test-folder/pmi-240912-ID24.1111-test-json-DCE"  
+// var_dump($f1); // ej: string(129) "/Users/armandoromero/Documents/devF1/mailtool.lan/app/json-data/pmi2409/pmi-240912-test-folder/pmi-240912-ID24.1111-test-json-DCE"   
 
 
 $twigData = loadjson($f1);
@@ -136,7 +140,7 @@ function loadjson( $f )
     $filename =  $f. ".json";
 
     if ( !file_exists ($filename) ){
-        abort("No encuentro el archivo JSON $filename");
+        abort("\n\033[1;37;41m ERROR: \033[0m No encuentro el archivo JSON $filename" . PHP_EOL);
     }else{
         $data = file_get_contents($filename);
         if (strlen( $data ) < 50 )
@@ -148,7 +152,7 @@ function loadjson( $f )
         $twigData = json_decode($data, true);
         if ($twigData == NULL)
         {
-            echo "ERROR:\n" .$filename . "\nNo se puede decodificar. Verificar sintaxis del archivo.\nEl error usualmente es por una coma faltante o sobrante." .PHP_EOL;
+            echo "\n\033[1;37;41m ERROR: \033[0m\n" .$filename . "\n\033[1;33m   No se puede decodificar.\033[0m Verificar sintaxis del archivo.\n   El error usualmente es por una coma faltante o sobrante." .PHP_EOL.PHP_EOL;
             die;
         }
         // echo var_export($twigData);die;

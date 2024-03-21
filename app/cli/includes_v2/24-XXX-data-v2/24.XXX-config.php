@@ -52,6 +52,9 @@ $requiredBlocks = array(
     "cta1_v2",
     "cta1_v2",
     "canales_de_comunicacion",
+
+    "IQOS-Wallet-Iluma-Gray",  // 24.50
+    
     "ElijoIQOS",
     "Tu_equipo_IQOS",
     "Solo_con_IQOS",
@@ -251,6 +254,8 @@ https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20pue
 
 ===================================================================
 
+NO ILUMA - NO ILUMA - NO ILUMA
+
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
 "url_ctaDECODED"     : "whatsapp://send?text=",
 "text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
@@ -261,14 +266,15 @@ https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20pue
 
 ===================================================================
 
+ESTO ES PARA ILUMA, 20% de descuento
 
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
-"url_ctaDECODED"     : "whatsapp://send?text=",
-"text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
-"imgulr1"            : "whatsapp://send?text=",
-"imgulr2"            : "https://wa.me/?text=",
-"imgulr3"            : "https://web.whatsapp.com/send?text=",
-"imgulr"             : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
+"url_ctaDECODED"       : "whatsapp://send?text=",
+"txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+"ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+"ulr_OK"               : "https://wa.me/?text=",
+"imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
 
 ===================================================================
 

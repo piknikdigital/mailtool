@@ -220,6 +220,10 @@ RENUEVAILUMA
 Compra ahora
 https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 
+
+Conoce más	
+https://www.iqos.com/mx/es/descubrir.html
+
 Compra ahora
 https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 

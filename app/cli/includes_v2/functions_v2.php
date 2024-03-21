@@ -1,5 +1,8 @@
 <?php
 
+define("WK_ROOT"   , dirname(dirname(dirname(dirname(__FILE__))))   );
+
+
 // Usado por : mk_fork.php
 function getYear()
 {
@@ -38,12 +41,12 @@ function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
 
     $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
     $a1     = json_decode($dataA, true);
-    if (!$a1) abort("ERROR: includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
+    if (!$a1) abort("\033[1;37;41m ERROR: \033[0m includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
     // echo var_export($a1,true); die;
 
     $dataB  = file_get_contents($replacementsfile);
     $a2     = json_decode($dataB, true);
-    if (!$a2) abort("ERROR: $replacementsfile no entrega datos. Revisar sintaxis.");
+    if (!$a2) abort("\033[1;37;41m ERROR: \033[0m $replacementsfile no entrega datos. Revisar sintaxis.");
     // echo var_export($a2,true); die;
 
     $a = array_merge($a2['replacements'], $a1['replacements']);
@@ -87,13 +90,34 @@ function blockreplace_v3($target, $vars )
 
     $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
     $a1     = json_decode($dataA, true);
-    if (!$a1) abort("ERROR: includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
+    if (!$a1) abort("\033[1;37;41m ERROR: \033[0m includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
     // echo var_export($a1,true); die;
 
     $dataB  = file_get_contents($vars['replacementsfile']);
     $a2     = json_decode($dataB, true);
-    if (!$a2) abort("ERROR: ". $vars['replacementsfile'] . " no entrega datos. Revisar sintaxis.");
-    // echo var_export($a2,true); die;
+    if (!$a2) abort("\033[1;37;41m ERROR: \033[0m". $vars['replacementsfile'] . " no entrega datos. Revisar sintaxis.");
+    // echo var_export($a2,true); 
+
+
+    
+    if ( isset($a2['replacements']) )
+    {
+        $num_replacements = sizeof( $a2['replacements'] );
+        if ($num_replacements < 2 )
+        {
+            echo PHP_EOL
+                 . "\033[1;37;41m ADVERTENCIA: \033[0m"  
+                 . "\033[1;m El archivo de reemplazos :\033[0m\n\033[31m██████████████\033[0m " 
+                 . $vars['replacementsfile'] 
+                 . "\n\033[31m██████████████\033[0m parece estar vacío\n\033[31m██████████████\033[0m " ;
+            $msg = "(C) para continuar, otra tecla para abortar.  -> " ;
+            $userinput = readline($msg);
+            if ($userinput !== "C" and $userinput !== "c"){
+                echo "\033[31m██████████████\033[0m Proceso abortado.". PHP_EOL . PHP_EOL;
+                die;
+            }
+        }
+    }
 
     $a = array_merge($a2['replacements'], $a1['replacements']);
     // echo var_export($a2,true); die;
@@ -106,7 +130,16 @@ function blockreplace_v3($target, $vars )
     // echo var_export($value_old,true); die;
 
     $inputfile = getInputFileName($vars['filename'] , $source);
-    $f         = './../json-data/' . $vars['mes']. '/' .$vars['folder']. '/' . $inputfile . '.json';
+    // $f         = './../json-data/' . $vars['mes']. '/' .$vars['folder']. '/' . $inputfile . '.json';
+    $f         = dirname(dirname( dirname(__FILE__) )) . "/json-data/" 
+                 . $vars['mes']. '/' .$vars['folder']. '/' . $inputfile . '.json';
+    if ( !file_exists( $f )){
+        echo "\n\033[1;37;41m ERROR: \033[0m"  
+        ."\033[1;m EL ARCHIVO \n\033[31m████████\033[0m " . $f . "\n\033[31m████████\033[0m NO EXISTE "
+        . "\n\033[31m████████\033[0m Abortando proceso."
+        . PHP_EOL .PHP_EOL;
+        die;
+    }
 
     if ( $source == "DCE" || $source == "FSH")
     {
@@ -164,6 +197,7 @@ function createEnvironment2($arguments, $target)
 
     $a = array();
 
+    $a['id']              = $p_id;
     $a['mes']             = $companyBrand . $p_yy . $p_mm;     // Ej: pmi2306
     $a['folder']          = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; // Ej: pmi-230609-leads-junio
     $a['filename']        = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-ID" . $p_yy . "." . $p_id . "-" . $p_name4json . "-" . $target;  // Ej: pmi-230609-ID23.76-leads-junio-2-HTML
@@ -442,6 +476,8 @@ function abort( $e=NULL ){
 }
 
 // Usado por : mk_fork.php
+// Usado por : mk_html.php
+// Usado por : mk_json.php
 function msgDone($f)
 {
     if (!defined('L1'))    define("L1",     "┌─────────────────────");
@@ -462,7 +498,7 @@ function msgDone($f)
     $str= $str2= "";
     for($i=0; $i<$fillersize ; $i++)
     {
-        $str .= BHZ;
+        $str  .= BHZ;
         $str2 .= " ";
     }
     
@@ -473,41 +509,127 @@ function msgDone($f)
     echo L3L5 .  $str . L3L5F .PHP_EOL ;
     echo L6   . $str2 . BVR    .PHP_EOL ;
     echo L7   . $str . L7F   .PHP_EOL.PHP_EOL ;
+    
     // echo "fillersize: " . $fillersize .PHP_EOL;
     // echo "lenmax"      . $lenmax    .PHP_EOL;
     // echo "strlen $f: " . strlen($f) .PHP_EOL;
     // echo "strlen L1: " . strlen(L1) .PHP_EOL;
 }
 
+function msgDone2($f)
+{
+    if (!defined('ML1'))    define("ML1",     "\033[1;37;44m El archivo :   \033[0m ");
+    if (!defined('ML2'))    define("ML2",     "\033[1;37;44m ha sido creado.\033[0m "); 
+    
+    echo ML1 . $f .PHP_EOL ;
+    echo ML2 .PHP_EOL ;
+
+}
+
+function msgDone3($f)
+{
+    if (!defined('L1'))    define("L1",     "┌─────────────────────");
+    if (!defined('L2'))    define("L2",     "│ El archivo:         ");
+    if (!defined('L3L5'))  define("L3L5",   "├─────────────────────");
+    if (!defined('L6'))    define("L6",     "│ ha sido creado.     "); 
+    if (!defined('L7'))    define("L7",     "└─────────────────────");
+    if (!defined('BVR'))   define("BVR",    "│");
+    if (!defined('BHZ'))   define("BHZ",    "─");
+    if (!defined('L1F'))   define("L1F",    "┐");
+    if (!defined('L3L5F')) define("L3L5F",  "┤");
+    if (!defined('L7F'))   define("L7F",    "┘");
+
+    if (!defined('MSGSTR1'))   define("MSGSTR1",    "El archivo :");
+    if (!defined('MSGSTR2'))   define("MSGSTR2",    "ha sido creado");
+
+    $strings = [
+        MSGSTR1,
+        $f,
+        MSGSTR2
+    ];
+    $max_len = max(array_map('strlen', $strings)); // Longitud del string mas largo en el array
+    // var_dump($max_len) ; echo PHP_EOL;
+    // $strings2 =  array_map('str_pad', $strings , [$max_len]);
+    $strings2 = [
+        str_pad(MSGSTR1, $max_len),
+        str_pad($f, $max_len),
+        str_pad(MSGSTR2, $max_len),
+    ];
+
+    // mb_chr(9472, 'UTF-8') === "\u{2500}" === "─"
+    $line = str_pad( "" , $max_len *3 , "─" );  // strlen("─") = 3
+
+    // echo PHP_EOL;
+    // echo "\033[1;37;44m $strings2[0] \033[0m" . PHP_EOL;
+    // echo "\033[1;37;44m " . $line . " \033[0m" . PHP_EOL;
+    // echo "\033[1;37;44m $strings2[1] \033[0m" . PHP_EOL;
+    // echo "\033[1;37;44m " . $line . " \033[0m" . PHP_EOL;  
+    // echo "\033[1;37;44m $strings2[2] \033[0m" . PHP_EOL;
+    // echo PHP_EOL;
+
+
+    echo PHP_EOL;  
+    echo " " . $strings2[0] . " " . PHP_EOL;
+    echo " " . $line        . " " . PHP_EOL;
+    echo " " . $strings2[1] . " " . PHP_EOL;
+    echo " " . $line        . " " . PHP_EOL;
+    echo " " . $strings2[2] . " " . PHP_EOL;
+    echo PHP_EOL;
+
+
+    
+
+}
+
+
+
+
 // Usado por : mk_fork.php
 function mk_path( $base, $mes , $folder)
 {    
 
+    $currentpath = getcwd();
+    chdir($base);
+        //echo "TEMP DIR: " . getcwd() . PHP_EOL; 
+    $newdir = $mes . "/". $folder;
+        //echo "NUEVO DIR: "  . $newdir . PHP_EOL; die;
+    $ret = (mk_dir($newdir)) ? 1 : 0;
+    chdir($currentpath);
+    return $ret; 
+
+    // ORIGINAL ABAJO
     // $varDebug = sprintf ("base, mes, folder = [%s][%s][%s]", $base, $mes , $folder) ;
+    // $varDebug = sprintf ("base, mes, folder = %s%s%s", $base, $mes , $folder) ;
     // echo $varDebug . PHP_EOL; 
     
-    $currentpath = getcwd();
-            // echo "currentpath: "  . $currentpath . PHP_EOL;
-    $newdir = chdir($base);
-            // echo "newdir: "  . $newdir . PHP_EOL;
-    if ( !mk_dir( $mes ) )
-    {
-        $ret= false;
-        // echo "Error, no se pudo crear carpeta. mk_dir(". $mes . ") falló. Abortando mk_path" . PHP_EOL;
-    }
-    else
-    {
-        $newdir = chdir( getcwd()  . "/". $mes);
-        $ret= (mk_dir($folder)) ? 1 : 0;
-    }
-    chdir($currentpath);
-    return $ret;
+    // $currentpath = getcwd();
+    //         // echo "currentpath: "  . $currentpath . PHP_EOL;
+    
+    // // $newdir = chdir($base);
+    // //         echo "newdir: "  . $newdir . PHP_EOL;
+    
+    // if ( !mk_dir( $mes ) )
+    // {
+    //     $ret= false;  // echo "Error, no se pudo crear carpeta. mk_dir(". $mes . ") falló. Abortando mk_path" . PHP_EOL;
+    // }
+    // else
+    // {
+    //     $newdir = chdir( getcwd()  . "/". $mes);
+    //     $ret= (mk_dir($folder)) ? 1 : 0;
+    // }
+    // $newFolder =  getcwd();
+
+    // chdir($currentpath);
+    // return [  
+    //     'status'    => $ret ,
+    //     'newFolder' => $newFolder
+    // ];
 }
 
 function mk_dir( $dirname )
 {
     if (!is_dir( $dirname  )) {
-        if (mkdir( $dirname, 0777, true))
+        if (mkdir( $dirname, 0755, true))
             $ret = 1; // OK, directory created
         else
             $ret= 0;  // NOK: directory couldn't be created
@@ -515,4 +637,89 @@ function mk_dir( $dirname )
         $ret = 2;     // OK, directory already exists
     }
     return $ret;
+}
+
+function outputMessage($str, $type = 'i') {
+    switch ($type) {
+        case 'e': // error
+            // echo "\033[31m$str \033[0m\n";
+            echo "\033[1;33;;41m$str\033[0m\n" ;
+            break;
+        case 's': // success
+            // echo "\033[32m$str \033[0m\n" ;
+            echo "\033[1;33;;42m$str\033[0m\n" ;
+            break;
+        case 'w': // warning
+            // echo "\033[33m$str \033[0m\n" ;
+            echo "\033[1;93;;103m$str\033[0m\n" ;
+            break;
+        case 'i': // info
+            echo "\033[36m$str \033[0m\n" ;
+            break;        
+
+        default:
+            // Handle other cases if needed
+            break;
+    }
+}
+function sConsoleMessage($str, $type = 'i') {
+    $msg = "";
+    switch ($type) {
+        case 'e': // error
+            // echo "\033[31m$str \033[0m\n";
+            $msg =  "\033[1;33;;41m$str\033[0m" ;
+            break;
+        case 's': // success
+            // echo "\033[32m$str \033[0m\n" ;
+            $msg =  "\033[1;33;;42m$str\033[0m" ;
+            break;
+        case 'w': // warning
+            // echo "\033[33m$str \033[0m\n" ;
+            $msg =  "\033[1;93;;103m$str\033[0m" ;
+            break;
+        case 'i': // info
+            $msg =  "\033[36m$str \033[0m" ;
+            break;        
+
+        default:
+            // Handle other cases if needed
+            break;
+    }
+    return $msg;
+}
+
+
+// Return:  true  - Proceder con la operacion actual y sobreescribir archivo existente 
+//          false - Abortar operacion actual
+//
+function askUserforFileOverwriteConfirmation($file , $abort = 1)
+{
+    $proceed = false;
+    $rp       = realpath($file);     // path completo del archivo
+    $pi       = pathinfo($rp);       // info de la ruta
+    $pp       = str_replace( WK_ROOT."/" , "", $pi['dirname']);  // ruta parcial respecto a la base de la app
+    $basename = $pi['basename'];     // nombre del archivo 
+
+    echo PHP_EOL 
+         ."\033[1;37;41m ADVERTENCIA  \033[0m  " . WK_ROOT . "/" . PHP_EOL 
+         ."\033[0;37;41m Este archivo \033[0m  " . $pp     . "/" . PHP_EOL  
+         ."\033[0;37;41m ya existe    \033[0m  " . $basename     . PHP_EOL  
+         . PHP_EOL;
+    $msg = "(S) para continuar, otra tecla para abortar.  -> " ;
+    $userinput = readline($msg);
+    if ($userinput == "S" or $userinput == "s")
+    {
+        // echo "\033[33m►►►►► El archivo será sobreescrito. ◄◄◄◄◄\033[0m\n" ;
+        echo "\033[1;32;43m El archivo será sobreescrito.\033[0m\n" ;
+        $msg2 = "(S) para confirmar, otra tecla para abortar.  -> " ;
+        $userinput2 = readline($msg2);
+        if ($userinput2 == "S" or $userinput2 == "s")
+            $proceed = true;
+    }else{
+        echo 'Proceso abortado.'. PHP_EOL . PHP_EOL;
+        if ($abort == 1)
+            die;    
+    }
+    echo PHP_EOL;
+    return $proceed;
 }

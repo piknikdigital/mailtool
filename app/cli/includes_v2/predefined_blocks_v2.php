@@ -1906,7 +1906,6 @@ $libraryBlocks['columns'] ='
 
                             "this"          : "CTA1 /CTA2"
                         },
-
                         {
                             "README"         : "TO BE IMPLEMENTED",
                             "rowtype"        : "ico_txt",
@@ -1934,10 +1933,47 @@ $libraryBlocks['columns'] ='
 
                             "this"           : "IMG - TXT"
                         },
+                        {
+                            "README"         : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "26",
+                            "lineheight"    : "26",
+                            "align"         : "center",
+                            "width"         : "50%",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0",
 
+                            "color"         : "#34303d",
+                            "framecolor"    : "#34303d",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "8",
+                            "border"        : "2",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-turquesa-comparte-tu-codigo-unico.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "260",
+                            "align"          : "center",
 
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "ulr_OK"               : "https://wa.me/?text=",
+                            "imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
 
-
+                            "THISIMG"        : "cta-bw-turquesa-comparte-tu-codigo-unico"
+                        },
                         {
                             "rowtype"        : "img",
                             "img"            : "22.id-x.png",
@@ -1964,7 +2000,7 @@ $libraryBlocks['stageIMG'] ='
         {
             "type"              : "columns",
             "font"              : "Cabin",
-            "margin_sides"      : "8",
+            "margin_sides"      : "0",
             "margin_top"        : "0",
             "margin_bottom"     : "0",
             "color_bkg"         : "transparent",
@@ -2178,8 +2214,8 @@ $libraryBlocks['Tu_equipo_IQOS'] ='
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "50",
-            "content"       : "Tu equipo IQOS",
-            "this"          : "Tu equipo IQOS"
+            "content"       : "Tu Equipo IQOS",
+            "this"          : "Tu Equipo IQOS"
         },';
 
 

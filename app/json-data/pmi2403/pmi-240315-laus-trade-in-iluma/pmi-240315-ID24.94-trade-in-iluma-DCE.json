@@ -1,0 +1,344 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE.html",
+
+        "Subject"          :   "Súper descuento en tienda en línea🤩",
+        "Preheader"        :   "Tienes 50% de descuento, corre a la tienda.🛒",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240315_Trade In Iluma > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2403/pmi-240315-laus-trade-in-iluma/pmi-240315-ID24.94-trade-in-iluma-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240315-ID24.94-trade-in-iluma-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.94 ",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2893eca5-08d3-430d-8815-ed0ebf95b13e.jpg",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this": "CTA IR A LA TIENDA IMG 24.94-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "40",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ef88e8b9-0ee5-4d11-9765-8563790b8af7.jpg",
+            "url": "#",
+            "this": "IMG 24.94-2b"
+        },
+        {
+            "type": "spacer",
+            "height": "40",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "CODIGO DE DESCUENTO",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "7",
+                    "mtop": "0"
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "#f8f6f3",
+                    "widthp100": "86",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/27f0988c-6c59-4518-9d27-63d6fcc8fe02.png",
+                            "color_bkg": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "516",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "barra-gris-sup"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "Código de descuento",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "700",
+                            "p_fontsize": "20px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "0",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6aa81658-f0d4-4a6c-a4c5-08cd5b7fd927.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "300",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "codigo-renuevaiqos"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/35cf3660-9d02-4cb3-81f5-180abea17750.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "20",
+                            "margin_bottom": "0",
+                            "imgWidth": "300",
+                            "align": "center",
+                            "imgulr": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+                            "THISIMG": "cta-bw-comprar-ahora"
+                        },
+                        {
+                            "rowtype": "p",
+                            "p": "<b>Para canjear tu código deberás: </b> <br>Ingresar a tu cuenta en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>  y <br>usar el código RENUEVAIQOS.  <br><span style=\"color:#00d1d2;font-weight:700;\">Si no inicias sesión, no podrás canjearlo.</span>",
+                            "color_bkg": "transparent",
+                            "p_fontweight": "300",
+                            "p_fontsize": "18px",
+                            "p_height": "22px",
+                            "p_align": "center",
+                            "p_color": "#34303d",
+                            "margin_top": "20",
+                            "margin_bottom": "0"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/88c78188-dc2d-4894-bc98-2543801af8c8.png",
+                            "color_bkg": "#ffffff",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "516",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "barra-gris-inf"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "color_bkg": "transparent",
+                    "widthp100": "7",
+                    "mtop": "0"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "20",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1ba931fe-a8e4-4014-8a68-1c4b30674275.gif",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "600",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "24.94-3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/127b164b-e04e-411e-a68b-4376789700d3.jpg",
+            "url": "#",
+            "this": "IMG powered-by"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eb941977-47b0-43fb-91ba-fa8ba154acfb.png",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir.html",
+            "this": "CTA cta-bw-ver-mas"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c68966e0-bd7e-4166-9880-f244901caded.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "80",
+                            "margin_bottom": "0",
+                            "imgWidth": "400",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "24.94-4"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5a022d5d-f1ca-4281-8327-69bac25c24a1.gif",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "600",
+                            "align": "center",
+                            "imgulr": "#",
+                            "THISIMG": "24.94-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "180",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fd786e0f-cae0-45ac-b0b2-435b6ea5436f.png",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this": "CTA cta-bw-comprar-ahora-2"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Tu equipo IQOS",
+            "this": "Tu equipo IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Descuento válido del 7 de abril al 30 de junio de 2024, únicamente para usuarios IQOS con dispositivos IQOS ORIGINALS, IQOS 2.4 PLUS y IQOS 3 DUO registrados en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a> en la compra de su primer kit IQOS ILUMA. Aplica solo una vez por usuario registrado. Sujeto a disponibilidad de inventario. Consulta Términos y Condiciones del programa Trade in.",
+            "this": "LEGALES DE ESTE CORREO"
+        },
+        {
+            "type": "spacer",
+            "height": "16",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "LEGALES ILUMA"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -85,13 +85,43 @@
             "greeting"      : "Hola, %%first_name%%",
             "this"          : "Hola [nombre]"
         },
+
         {
-            "type"          : "img",
-            "bgcolor"       : "transparent",
-            "img"           : "24.71-2.jpg",
-            "url"           : "#",
-            "this"          : "IMG 24.71-2"
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "SOLO IMAGEN",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "24.71-2b.gif",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "560",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "24.71-2b"
+                        }
+                    ]
+                }
+            ]
         },
+
+
+
+
+
         {
             "type"          : "p",
             "font"          : "Cabin",

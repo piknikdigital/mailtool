@@ -1,0 +1,56 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240914_DCE Folder 2 > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "DCE_MAIL_NAME_2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2409/pmi-240914-test-folder-2/pmi-240914-ID24.1112-test-json-2-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240914-ID24.1112-test-json-2-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.1112 DCE_MAIL_NAME_2",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    null,
+
+    "END"            :   "#######################"
+
+}
