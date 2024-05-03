@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '106';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '03';
+$p_dd =  '27';
+$p_name4folder =  'laus-iluma-hesitator';
+$p_name4json =  'laus-iluma-hesitator-day-35';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'LAUS_2024_Abril_DAY-35_Hesitator';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,38 +27,20 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
     "img",
-    "img",
-    "img",
-    "img",
+    "cta1_v2",
     "greeting_v2",
     "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
+    "img",
     "spacer",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
+    "img",
+    "spacer",
+    "img",
+    "p700_BW",
+    "p300_BW",
     "cta1_v2",
     "canales_de_comunicacion",
-
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    
-    "ElijoIQOS",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
-    "legal_extra",
     "legales-iluma",
     "footer_bw_v1_lowercase"
 );
@@ -217,15 +199,26 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+00d1d2
+--------------------
+¿Necesitas ayuda para elegir la variante<br> adecuada a tu gusto? 
+Contáctanos al *933 o agenda una visita en tu<br> Tienda IQOS para conocerlas.​
+--------------------
+--------------------
+--------------------
+Nuestros Expertos IQOS están listos para<br> resolver tus dudas.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+Localizar tiendas	https://www.iqos.com/mx/es/localizador-tiendas.html
+Localizar tiendas	https://www.iqos.com/mx/es/localizador-tiendas.html
+Localizar tiendas	https://www.iqos.com/mx/es/localizador-tiendas.html
+Llámanos	800 1 476769
+Compra en línea	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda	https://www.iqos.com/mx/es/localizador-tiendas.html
+
 --------------------
 --------------------
 --------------------

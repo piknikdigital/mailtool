@@ -11,12 +11,6 @@ $libraryBlocks = array();
 
 $libraryBlocks['legales-iluma'] ='
         {
-            "type"          : "spacer",
-            "height"        : "16",
-            "color_bkg"     : "transparent",
-            "this"          : "spacer"
-        },
-        {
             "type"          : "disclaimer",
             "bgcolor"       : "transparent",
             "align"         : "justify",
@@ -839,7 +833,14 @@ $libraryBlocks['legal_extra'] ='
             "fontsize"      : "11",
             "txt"           : "LEGALES_TBD",
             "this"          : "LEGALES DE ESTE CORREO"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "16",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
         },';
+        
 $libraryBlocks['disclaimer_fsh'] ='
         {
             "type"          : "disclaimer",

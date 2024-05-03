@@ -36,6 +36,10 @@ $requiredBlocks = array(
     "img",
     "img",
     "greeting_v2",
+    "cta1_v2",
+    "cta1_v2",
+    "cta1_v2",
+    "cta1_v2",
     "p300_BW",
     "p300_BW",
     "p300_BW",
@@ -47,17 +51,12 @@ $requiredBlocks = array(
     "p700_BW",
     "columns",
     "spacer",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
     "canales_de_comunicacion",
-
     "IQOS-Wallet-Iluma-Gray",  // 24.50
-    
     "ElijoIQOS",
-    "Tu_equipo_IQOS",
     "Solo_con_IQOS",
+
+    "Tu_equipo_IQOS",
     "legal_extra",
     "legales-iluma",
     "footer_bw_v1_lowercase"
@@ -229,6 +228,8 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+
 --------------------
 --------------------
 --------------------

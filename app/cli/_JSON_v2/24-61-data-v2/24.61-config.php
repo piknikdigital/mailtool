@@ -220,6 +220,8 @@ Programa de Préstamo IQOS disponible en Tiendas IQOS Antara, Perisur, Santa Fe,
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+
 --------------------
 --------------------
 --------------------

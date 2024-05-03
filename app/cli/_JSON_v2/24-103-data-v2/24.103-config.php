@@ -4,9 +4,9 @@ $p_id =  '103';
 $p_subject =  'Un nuevo comienzo 🙌🏼';
 $p_preheader =  'La espera ha terminado';
 $p_yy =  '24';
-$p_mm =  '03';
-$p_dd =  '14';
-$p_name4folder =  'launch-evento-std';
+$p_mm =  '04';
+$p_dd =  '08';
+$p_name4folder =  'launch-evento';
 $p_name4json =  'laus-launch-evento-reminder-1dia-iluma';
 $p_name4folderDCE =  'LAUNCH EVENTO STD';
 $p_mailname4DCE =  'LAUS_2024_MAR_LAUNCH_EVENTO_REMINDER_-1DIA_ILUMA';
@@ -31,12 +31,10 @@ $requiredBlocks = array(
     "greeting_v2",
     "img",
     "img",
-    "img",
+    "p700",
     "cta1_v2",
     "Tu_equipo_IQOS",
-    "legal_extra",
     "legales-iluma",
-    "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
 

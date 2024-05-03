@@ -1440,7 +1440,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                                 <tbody>
                                 <tr>
                                   <th style="text-align:{{blocks[index].align}};">
-                                    <span style="width:100%;text-align:center;margin:0 auto;text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}; font-family: {{fontFamily}};" class="fallback-text">
+                                    <span style="width:100%;text-align:center;margin:0 auto;text-align:{{blocks[index].align}};font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}; font-family: {{fontFamily |raw}};" class="fallback-text">
                                     {{blocks[index].content|raw}}</span>
                                   </th>
                                 </tr>
@@ -1941,7 +1941,7 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                                   <tr>
                                     <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
                                     <th valign="middle" style="text-align:{{textalign}}" align="{{textalign}}">
-                                    <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family: {{fontfamily}}; line-height:{{blocks[index].fontsize * 1.2}}px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{textalign}};" class="fallback-text">{{blocks[index].txt|raw}}</span>
+                                    <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family: {{fontfamily|raw}}; line-height:{{blocks[index].fontsize * 1.2}}px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{textalign}};" class="fallback-text">{{blocks[index].txt|raw}}</span>
                                     </th>
                                     <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
                                   </tr>

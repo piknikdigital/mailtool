@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '112';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '03';
+$p_dd =  '27';
+$p_name4folder =  'laus-iluma-hesitator';
+$p_name4json =  'laus-iluma-hesitator-day-90';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'LAUS_2024_Abril_DAY-90_Hesitator';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -28,37 +28,23 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 $requiredBlocks = array(
     "header_brand_world",
     "stageIMG",
-
-
-
-    "img",
-    "img",
-    "img",
-    "img",
+    "cta1_v2",
     "greeting_v2",
     "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
+    "p700_BW",
     "p300_BW",
     "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
+    "img",
     "cta1_v2",
+    "img",
     "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
+    "p300_BW",
+    "img",
+
+
     "canales_de_comunicacion",
 
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    
-    "ElijoIQOS",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
-    "legal_extra",
     "legales-iluma",
     "footer_bw_v1_lowercase"
 );
@@ -211,21 +197,29 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+¡Qué rápido pasó el tiempo!​
+--------------------
+Ya cumpliste 3 meses
+00d1d2
+--------------------
+de unirte al cambio con IQOS.​
+--------------------
+Cuéntanos ¿cómo ha sido tu experiencia?
+--------------------
+--------------------
+--------------------
+Gracias por tu respuesta.​<br><b>Sigamos juntos en el camino del cambio.</b>
+--------------------
+--------------------
+--------------------
+Recuerda que nuestros canales de <br>comunicación están listos para atenderte.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+Descubre más 	
+https://www.iqos.com/mx/es/descubrir.html
 --------------------
 --------------------
 --------------------

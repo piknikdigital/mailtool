@@ -1,0 +1,293 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE.html",
+
+        "Subject"          :   "Acercáte, IQOS te escucha📢",
+        "Preheader"        :   "Conecta con nuestros expertos en línea o por teléfono😉",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240319_90 Dias > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_2024_ABR_DCE_-90DIAS_SERVICIOS_ILUMA",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2403/pmi-240319-laus-90-dias/pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240319-ID24.90-laus-90-dias-servicios-iluma-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.90 LAUS_2024_ABR_DCE_-90DIAS_SERVICIOS_ILUMA",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ee87ff82-374b-4d07-a295-d4d7ead2c7bb.gif",
+            "url": "#",
+            "this": "IMG 24.90-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "30",
+            "width": "100%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Disfruta al máximo",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "content": "los beneficios que IQOS tiene para ti.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d6165cc0-2545-44e4-8093-c2d2152236db.jpg",
+            "url": "#",
+            "this": "IMG 24.90-2"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ab1a07ce-1a23-45ca-b64b-fb82f02d60ba.png",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/beneficios.html",
+            "this": "CTA cta-bw-ver-mas"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Conecta con nuestros<br> expertos IQOS.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "22",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "16",
+            "margin_bottom": "20",
+            "content": "y descubre cómo sacar <br>el máximo provecho de tu dispositivo.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8c2382ff-ce78-4d2e-89f6-e0ea8ef4b695.jpg",
+            "url": "#",
+            "this": "IMG 24.90-3b"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "22",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "Disponible lunes a domingo de",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "28",
+            "height": "28",
+            "width": "90%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "8 am a 10 pm.",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c289cf7c-9c63-4ece-b170-52712d934dce.png",
+            "margin_top": "30",
+            "margin_bottom": "20",
+            "url_cta": "https://www.iqos.com/mx/es/ayuda/consulta-expertos-iqos.html#contacto",
+            "this": "CTA cta-bw-habla-con-nosotros"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a8675eec-db5c-406b-80c7-3a6d5257170f.gif",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda.html",
+                    "THISIMG": "CTA DESCUBRE MAS IMG 24.90-4b"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d683833e-b0f5-4494-9699-ec11b9abff9c.gif",
+                    "imgulr": "https://www.iqos.com/mx/es/ayuda/contacto.html",
+                    "THISIMG": "CTA CONTACTANOS IMG 24.90-5b"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "spacer",
+            "height": "16",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "LEGALES ILUMA"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

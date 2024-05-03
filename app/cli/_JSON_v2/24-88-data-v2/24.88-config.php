@@ -234,7 +234,8 @@ Disfruta de los nuevos<br> <span style=\"color:#00d1d2;font-weight:700;\">Benefi
 
 --------------------
 --------------------
---------------------
+---LEGALESv3-----------------
+(1) Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. Descuento no válido en productos de tabaco.  <br>  <br> (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.  <br>  <br> (3) Cada recompensa equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en recompensasiqos.plandereconocimientos.com. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa. <br>  <br> (4) Durante abril, mayo y junio de 2024 por cada amigo que utilice tu Código recibirás 100 MXN adicionales en dinero electrónico, no canjeable por dinero en efectivo. Válido en <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa.
 --------------------
 --------------------
 --------------------

@@ -1,0 +1,57 @@
+
+
+
+
+-------------
+INPUT
+-------------
+
+NOMBRE DE CAMPAÑA
+LINK EXCEL
+RELEASE DATE YY/MM/DD 
+NOMBRE DE PIEZAS / SUBJECT / PREHEADER
+LISTA DE LINKS
+
+
+
+
+
+-------------
+OUTPUT
+-------------
+LINK DE PREVIEW
+HTML para CRM
+SUBJECT
+PREHEADER
+
+1 CREAR CAMPAÑA
+
++------------------+
+| tabla CAMPAIGN   |
++------------------+
+id_campaign 
+nombre 
+
++------------------+
+| tabla CORREO     |
++------------------+
+id_correo 
+id_campaign 
+id_json
+nombre
+mail_local_path
+preview_link
+
+
++--------------------+
+| tabla REPLACEMENTS |
++--------------------+
+id_img 
+img_alias
+dce
+fsh
+img_local_path
+
+
+
+

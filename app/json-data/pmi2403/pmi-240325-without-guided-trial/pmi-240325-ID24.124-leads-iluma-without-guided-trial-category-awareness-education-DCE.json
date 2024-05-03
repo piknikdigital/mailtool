@@ -1,0 +1,246 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE.html",
+
+        "Subject"          :   "Conoce IQOS ILUMA y dile adiós al cigarro 👋🏼",
+        "Preheader"        :   "Convéncete tú mismo",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240325_NA > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_2023_Abril_ILUMA_Category_Awareness_Education_Without_Guided_Trial",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2403/pmi-240325-without-guided-trial/pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240325-ID24.124-leads-iluma-without-guided-trial-category-awareness-education-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.124 LEADS_2023_Abril_ILUMA_Category_Awareness_Education_Without_Guided_Trial",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/36a7bc5e-6dc7-42a0-bffd-d47e6e1e286c.jpg",
+            "url": "#",
+            "this": "IMG 24.124-1"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "¿Ya sabes qué es <span style=\"color:#00d1d2;font-weight:700;\">IQOS ILUMA</span>?<br><span style=\"color:#00d1d2;font-weight:700;\">Es un dispositivo que usa tabaco y lo calienta.</span><br><br>A diferencia de los cigarros, <br><b>IQOS ILUMA</b> calienta el tabaco a una <br>temperatura controlada, <b>evitando la <br>combustión y el molesto humo.</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ab39397b-bcf1-4df9-9f34-7fc047ade386.gif",
+            "url": "#",
+            "this": "IMG 24.124-2"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/343f8e3b-30bb-4bca-ba0e-f051f07c638f.png",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir.html",
+            "this": "CTA cta-bw-conoce-mas"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fd03ff90-f716-441d-b352-317f43adc66a.jpg",
+            "url": "#",
+            "this": "IMG 24.124-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "24",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "Prueba",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e5f2cf72-d865-4b10-b3f4-62a7a719cbf4.jpg",
+            "url": "#",
+            "this": "IMG 24.124-4"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "18",
+            "height": "24",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "en cualquiera de nuestras tiendas y <br><span style=\"color:#00d1d2;font-weight:700;\">convéncete del cambio.​</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/cd141d59-d2fa-437e-aacf-21450ea3860a.png",
+            "margin_top": "30",
+            "margin_bottom": "60",
+            "url_cta": "https://www.iqos.com/mx/es/prueba-iqos.html",
+            "this": "CTA cta-bw-probar-iqos-en-tienda"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1cbf89fb-1855-4815-90aa-a936bd9d6b68.jpg",
+            "url": "#",
+            "this": "IMG 24.124-5"
+        },
+        {
+            "type": "spacer",
+            "height": "50",
+            "color_bkg": "transparent",
+            "readme": "height in px",
+            "this": "spacer"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/94c12257-de65-4055-a671-d0ec273423f3.jpg",
+            "url": "#",
+            "this": "CODIGO CONOCE ILUMA IMG 24.124-6"
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/725ad03e-aa1f-42f2-8442-46682addeb56.png",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "this": "CTA cta-bw-compra-ahora"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "(1) Promoción vigente del 8 de abril al 31 de diciembre del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this": "LEGALES DE ESTE CORREO"
+        },
+        {
+            "type": "spacer",
+            "height": "16",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this": "LEGALES ILUMA"
+        },
+        {
+            "type": "spacer",
+            "height": "25",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

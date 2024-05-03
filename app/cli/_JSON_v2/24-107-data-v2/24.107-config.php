@@ -1,20 +1,21 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '107';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '03';
+$p_dd =  '27';
+$p_name4folder =  'laus-iluma-hesitator';
+$p_name4json =  'laus-iluma-hesitator-day-45';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'LAUS_2024_Abril_DAY-45_Hesitator';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 
 //-----------------------------------------
@@ -27,37 +28,21 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
+    "img",
+    "cta1_v2",
+    "p300_BW",
     "stageIMG",
-
-
-
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
+    "pframed",
+    "cta1",
     "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
+    "stageIMG",
     "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "canales_de_comunicacion",
-
     "IQOS-Wallet-Iluma-Gray",  // 24.50
+    "spacer",
+
     
-    "ElijoIQOS",
+    "canales_de_comunicacion",
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
     "legales-iluma",
     "footer_bw_v1_lowercase"
@@ -218,17 +203,37 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Compartir tu Código Único con tus amigos te puede<br> hacer ganar increíbles beneficios<span style=\"font-size:12px;\"><sup>(2)</sup></span>,<br>¿ya sabes cómo hacerlo? 
+
+¡Es muy sencillo!
 --------------------
 --------------------
 --------------------
+Te recomendamos hacerlo desde tu celular.
 --------------------
 --------------------
+¿Necesitas ayuda?
+--------------------
+Nuestros canales de comunicación están listos<br> para resolver tus dudas.
 --------------------
 --------------------
+<a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
+<a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">TEXTO</a>
+
+--------------------
+Ver más             https://www.iqos.com/mx/es/refiere-a-un-amigo.html
+Conocer beneficios	https://www.iqos.com/mx/es/refiere-a-un-amigo.html
+Compra en línea	    https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 --------------------
 --------------------
+<a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
+--------------------
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com.mx</a>
+--------------------
+
 --------------------
 --------------------
+(1) Solo para fumadores adultos o usuarios. <br> <br>(2)Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com, y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com.mx</a>. Descuento no válido en productos de tabaco.  <br> <br>(3)  Cada recompensa equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta Términos y Condiciones del programa.
 --------------------
 --------------------
 --------------------
@@ -283,6 +288,10 @@ LEGAL FSH  - Brand World
 
 ===================================================================
 --------------------
+IQOS WALLET - iOS
+https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+IQOS WALLET - Android
+https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
 --------------------
 --------------------
 --------------------
