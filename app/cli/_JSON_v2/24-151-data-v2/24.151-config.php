@@ -196,10 +196,23 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-db3826
+ae1b27
 Aprovecha el Hot Sale&reg;
 --------------------
-¡Compra en línea o corre a tu Tienda IQOS <br> y disfruta de <span style=\"color:#db3826;font-weight:700;\">6 y 9 meses sin intereses</span> <br> con tarjetas participantes <br> a partir de <b>$800 MXN!​</b>
+¡Compra en línea o corre a tu Tienda IQOS <br> y disfruta de <span style=\"color:#ae1b27;font-weight:700;\">6 y 9 meses sin intereses</span> <br> con tarjetas participantes <br> a partir de <b>$800 MXN!​</b>
+--------------------
+Compra tu <b>IQOS ILUMA</b>​ y disfruta de una
+--------------------
+Tarjeta de Regalo<span style=\"font-size:12px;\"><sup>(1)</sup></span>,​
+--------------------
+además de 6 y 9 meses sin intereses<span style=\"font-size:12px;\"><sup>(2)</sup></span> con <br>tarjetas participantes a partir de $600MXN
+--------------------
+--------------------
+--------------------
+comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-azul.html
+comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-gris.html
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

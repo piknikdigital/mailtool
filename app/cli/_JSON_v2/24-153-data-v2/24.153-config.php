@@ -202,19 +202,23 @@ PRECIO TACHADO:
 Las gift cards no son canjeables por dinero en efectivo. Promoción válida dell 15 al 23 de mayo de 2024.
 --------------------
 --------------------
+comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-kits-iqos.html
 comprar ahora	https://www.iqos.com/mx/es/shop/set-iqos-iluma-one-y-funda-de-silicon.html
-comprar ahora	https://www.iqos.com/mx/es/shop/set-iqos-iluma-prime-cubierta-microfibral-y-set-de-aros.html
+www.iqos.com	https://www.iqos.com/mx/es/home.html
+terminos y condiciones	https://www.iqos.com/mx/es/codigos-de-descuento.html
 --------------------
 --------------------
 --------------------
 --------------------
+(1)  Descuento válido del 7 de abril al 30 de junio de 2024. Únicamente para usuarios IQOS con dispositivo IQOS ORIGINALS, IQOS 3 DUO registrado en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, en la compra de su primer Kit IQOS ILUMA. Este descuento aplica únicamente sobre el precio del dispositivo IQOS ILUMA, no aplica sobre el total del precio del KIT o accesorios. Sujeto a disponibilidad de inventario. Hasta agotar existencias. Consulta Términos y Condiciones del Programa Trade in​ en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.​ <br>  <br> (2) Promoción válida del 15 al 23 de mayo de 2024 en Tiendas IQOS y <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> solo con tarjetas bancarias participantes: Afirme, Banco Azteca, BanBajío, Banjercito, BanRegio, Banorte, Crediclub, Falabella, Hey, Caja Morelia Valladolid, HSBC, Inbursa, Invex, Konfío, Liverpool, Mifel, Banco Multiva, RappiCard, Santander, Scotiabank. Compra mínima de $600 MXN para 6 meses sin intereses y compra mínima de $900 MXN para 9 meses sin intereses. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.​ <br>  <br> (3) Precio válido únicamente en compra de kit de personalización IQOS ILUMA con el código de descuento del Programa Trade in. Este descuento aplica únicamente sobre el precio del dispositivo incluido en el kit de personalización IQOS ILUMA (IQOS ILUMA + Carcasa Lateral + Set de aros). No aplica sobre el precio total del KIT o accesorios. Promoción válida únicamente en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> del 15 al 23 de mayo de 2024. Sujeto a disponibilidad de inventario. Hasta agotar existencias.​ <br>  <br> (4) Precio válido únicamente en compra de kit de personalización IQOS ILUMA ONE con el código de descuento del Programa Trade in. Este descuento aplica únicamente sobre el precio del dispositivo incluido en el kit de personalización IQOS ILUMA ONE (IQOS ILUMA ONE + Funda de Silicón). No aplica sobre el precio total del KIT o para accesorios. Promoción válida únicamente en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> del 15 al 23 de mayo de 2024. Sujeto a disponibilidad de inventario. Hasta agotar existencias. 
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
-
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
 --------------------
 --------------------
 --------------------

@@ -192,18 +192,9 @@ PRECIO TACHADO:
 --------------------
 --------------------
 comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-magenta.html
 comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-verde.html
-comprar ahora	https://www.iqos.com/mx/es/shop/set-iqos-iluma-prime-cubierta-microfibral-y-set-de-aros.html
-comprar ahora	https://www.iqos.com/mx/es/shop/set-iqos-iluma-one-y-funda-de-silicon.html
---------------------
---------------------
---------------------
---------------------
-Al adquirir tu
---------------------
-db3826
-¡Llévate una Gift Card!
+comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-magenta.html
+terminos y condiciones	https://www.iqos.com/mx/es/codigos-de-descuento.html
 --------------------
 --------------------
 --------------------
@@ -213,14 +204,27 @@ db3826
 --------------------
 --------------------
 --------------------
+¡Llévate una
 --------------------
-(1) El 20% de descuento adicional solo se aplica al precio del dispositivo.<br><br>Las gift cards no son canjeables por dinero en efectivo. Promoción válida dell 15 al 23 de mayo de 2024.
+ae1b27
+Tarjeta de Regalo<span style=\"font-size:20px;\"><sup>(1)</sup></span>,​
+--------------------
+además de <span style=\"color:#ae1b27;font-weight:700;\">6 y 9 meses sin intereses<span style=\"font-size:12px;\"><sup>(2)</sup></span></span> <br> con tarjetas participantes a <br> partir de <b>$600 MXN!</b>
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+(1) Cada recompensa equivale a dinero electrónico, no canjeable por dinero en efectivo, válido solo en <a href=\"https://recompensasiqos.plandereconocimientos.com\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>. <br>  <br> (2) Promoción válida del 15 al 23 de mayo de 2024 en Tiendas IQOS y <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> solo con tarjetas bancarias participantes: Afirme, Banco Azteca, BanBajío, Banjercito, BanRegio,  Banorte, Crediclub, Falabella, Hey, Caja Morelia Valladolid, HSBC, Inbursa, Invex, Konfío, Liverpool, Mifel, Banco Multiva, RappiCard, Santander, Scotiabank. Compra mínima de $600 MXN para 6 meses sin intereses y compra mínima de $900 MXN para 9 meses sin intereses. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. <br>  <br> (3) Promoción válida del 15 al 23 de mayo de 2024. Aplica en la compra y registro del primer dispositivo IQOS ILUMA en Tiendas IQOS, Sanborns seleccionados y <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>. Solo para usuarios nuevos que no tengan ningún dispositivo IQOS registrado. Recibirás por correo electrónico la recompensa que equivale a $250MXN en dinero electrónico, no canjeable por dinero en efectivo, canje valido solo en <a href=\"https://recompensasiqos.plandereconocimientos.com\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>. <br>  <br> (4) Promoción válida del 15 al 23 de mayo de 2024. Aplica en la compra y registro del primer dispositivo IQOS ILUMA ONE en Tiendas IQOS, Sanborns seleccionados y  <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>. Solo para usuarios nuevos que no tengan ningún dispositivo IQOS registrado. Recibirás por correo electrónico la recompensa que equivale a $100MXN en dinero electrónico, no canjeable por dinero en efectivo, canje valido solo en  <a href=\"https://recompensasiqos.plandereconocimientos.com\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+<a href=\"https://recompensasiqos.plandereconocimientos.com\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
 
 --------------------
 --------------------

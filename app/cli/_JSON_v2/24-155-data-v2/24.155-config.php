@@ -206,6 +206,8 @@ Utiliza tu <b>Código de Recompensa </b>​<br>y sigue los pasos para canjear tu
 --------------------
 --------------------
 --------------------
+*Cada recompensa equivale a dinero electrónico, no canjeable por dinero en efectivo, válido solo en <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com.</a>
+
 --------------------
 --------------------
 --------------------
