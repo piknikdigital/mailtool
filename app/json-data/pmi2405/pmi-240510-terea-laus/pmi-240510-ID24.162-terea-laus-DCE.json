@@ -1,0 +1,316 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE.html",
+
+        "Subject"          :   "IQOS te escucha 📢",
+        "Preheader"        :   "Contesta la encuesta y lleva tu experiencia a otro nivel 😉",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240510_NA > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "PMM_TEREA_LAUS_TEREACDMX",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2405/pmi-240510-terea-laus/pmi-240510-ID24.162-terea-laus-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240510-ID24.162-terea-laus-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.162 PMM_TEREA_LAUS_TEREACDMX",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/77133eb6-fa99-40f1-a553-d5d0c0b8f776.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.162-1b"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/751314a1-76ca-4a55-999e-615cfe67e0f2.png",
+            "margin_top": "20",
+            "margin_bottom": "0",
+            "url_cta": "https://www.iqos.com/mx/es/home.html",
+            "this": "CTA cta-bw-ver-mas"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "30",
+            "height": "34",
+            "width": "100%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "content": "¡De nuevo disponible en",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "width": "100%",
+            "align": "center",
+            "color": "#ec6d02",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "nuestros puntos de venta!",
+            "this": "TXT"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "30",
+            "height": "34",
+            "width": "100%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "content": "Gracias por ir al siguiente nivel",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "width": "100%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "content": "con IQOS ILUMA.",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "22",
+            "height": "26",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "20",
+            "margin_bottom": "30",
+            "content": "Debido a la alta demanda, las unidades de<br> tabaco <b>TEREA</b> se agotaron rápidamente, pero<br> te tenemos <b>buenas noticias,</b> a partir del día<br> de hoy, <b>ya puedes encontrar todas<br> las variantes.</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/48df1c82-805e-4741-815c-07a0f36464a6.jpg",
+            "url": "#",
+            "this": "IMG 24.162-2"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/7f0aa510-1831-49dc-b486-323c3c04980b.jpg",
+            "url": "#",
+            "this": "IMG 24.162-3"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "24",
+            "height": "28",
+            "width": "100%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "content": "<span style=\"color:#e27d34;font-weight:700;\">Encuéntralas ahora mismo</span> en nuestras <br> Tiendas IQOS y Sanborns de toda <br> la República Mexicana.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns____",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "LOGOS",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "24.162-4.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.162-4"
+                }
+            ]
+        },
+        {
+            "type": "cta1_v2",
+            "widthbutton": "200",
+            "color_bkg": "transparent",
+            "button": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/444ce0a2-ca27-45b7-80ae-9e5223051b10.png",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "url_cta": "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+            "this": "CTA cta-bw-localizar-tienda"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a6a10ca9-09a0-48f5-8a34-95472910bfc1.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.162-5b"
+                }
+            ]
+        },
+        {
+            "type": "p____",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "20",
+            "height": "24",
+            "width": "100%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "30",
+            "content": "¡Ahora podrás conseguirlas más rápido que<br> nunca con <b>Rappi Turbo!</b>",
+            "this": "TXT"
+        },
+        {
+            "type": "img___",
+            "bgcolor": "transparent",
+            "img": "24.162-6.jpg",
+            "url": "#",
+            "this": "IMG 24.162-6"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#34303d",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "40",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "disclaimer",
+            "bgcolor": "transparent",
+            "align": "justify",
+            "color": "#34303d",
+            "fontsize": "11",
+            "txt": "¡Continuamos trabajando para que con IQOS siempre tengas una experiencia al siguiente nivel! Síguenos en Instagram <a href=\"https://www.instagram.com/iqos_mx/\" style=\"text-decoration:underline;\" target=\"_blank\">@iqos_mx</a> para enterarte de más información. <br>  <br> Información importante: IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco TEREA&trade;. No utilice IQOS ILUMA&trade; y las unidades de tabaco TEREA&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. <br>  <br> No ingiera ni desmonte las unidades de tabaco TEREA&trade;. Este producto contiene una pieza metálica afilada que puede causar lesiones graves si se ingiere. Mantener fuera del alcance de los niños. Más información en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>",
+            "this": "LEGALES DE ESTE CORREO"
+        },
+        {
+            "type": "spacer",
+            "height": "16",
+            "color_bkg": "transparent",
+            "this": "spacer"
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

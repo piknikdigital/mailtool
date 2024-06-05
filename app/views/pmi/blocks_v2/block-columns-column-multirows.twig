@@ -25,6 +25,7 @@
                                                   {{ block("multirows_img", "blocks_v2/block-columns-column-multirows-img.twig") }}
                                                 {% endif %}
                                                 {% if blocks[index].columns[idx].rows[idxrow].rowtype == "cta1_cta2" %}
+                                                  {% if blocks[index].columns[idx].rows[idxrow].margin_sides is not defined %} {% set marginsides = 0  %}  {% else %}  {% set marginsides = blocks[index].columns[idx].rows[idxrow].margin_sides %}  {% endif %}
                                                   {{ block("multirows_cta1cta2", "blocks_v2/block-columns-column-multirows-cta1cta2.twig") }}
                                                 {% endif %}
                                                 {% if blocks[index].columns[idx].rows[idxrow].rowtype == "cta1" %}

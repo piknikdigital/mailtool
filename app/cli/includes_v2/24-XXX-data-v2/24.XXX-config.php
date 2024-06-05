@@ -27,10 +27,11 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
+
+    
+    
+    
     "stageIMG",
-
-
-
     "img",
     "img",
     "img",
@@ -53,12 +54,16 @@ $requiredBlocks = array(
     "spacer",
     "canales_de_comunicacion",
     "IQOS-Wallet-Iluma-Gray",  // 24.50
+    "IQOS-Wallet-Iluma-Turquesa", // 24.165
     "ElijoIQOS",
     "Solo_con_IQOS",
 
     "Tu_equipo_IQOS",
+    "Tu_Equipo_IQOS",
+
     "legal_extra",
     "legales-iluma",
+    "legales-terea",
     "footer_bw_v1_lowercase"
 );
 
@@ -228,14 +233,26 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+https://conoce-iqos.com/wp-content/localizador-tiendas.html
+--------------------
+--------------------
+--------------------
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
-
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta términos y condiciones</a>
+<a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a>
+<a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
 --------------------
 --------------------
-
 --------------------
 ===================================================================
 SHARE MSG FSH:

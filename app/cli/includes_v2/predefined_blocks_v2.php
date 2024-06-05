@@ -9,22 +9,6 @@
 $libraryBlocks = array();
 
 
-$libraryBlocks['legales-iluma'] ='
-        {
-            "type"          : "disclaimer",
-            "bgcolor"       : "transparent",
-            "align"         : "justify",
-            "color"         : "#34303d",
-            "fontsize"      : "11",
-            "txt"           : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
-            "this"          : "LEGALES ILUMA"
-        },
-        {
-            "type"          : "spacer",
-            "height"        : "25",
-            "color_bkg"     : "transparent",
-            "this"          : "spacer"
-        },';
 $libraryBlocks['header_mgm_tu_codigo_unico'] ='
         {
             "type"              : "columns",
@@ -216,6 +200,84 @@ $libraryBlocks['IQOS-Wallet-Iluma-Gray'] =   '
             "this"          : "IMG iqos-wallet-gris-bottom"
         },';
 
+$libraryBlocks['IQOS-Wallet-Iluma-Turquesa'] ='
+        {   "SECCION"       : "IQOS WALLET - fondo turquesa"  },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "LINKS APP - ITUNES / PLAY STORE",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#00d1d2",
+                    "widthp100"     : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "iqos-wallet-turquesa-top.jpg",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "540",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "iqos-wallet-turquesa-top"
+                        },
+                        {
+                            "rowtype"       : "cta1_cta2",
+                            "color_bkg"     : "transparent",
+                            "margin_top"    : "0",
+                            "margin_bottom" : "0",
+                            "margin_sides"  : "25",
+
+                            "widthbutton1"   : "90",
+                            "button1"        : "cta-ico-google-play.png",
+                            "url_cta1"       : "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                            "align1"         : "center",
+
+                            "widthbutton2"   : "90",
+                            "button2"        : "cta-ico-apple-wallet.png",
+                            "url_cta2"       : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                            "align2"         : "center",
+
+                            "this"          : "CTA1 /CTA2"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "iqos-wallet-turquesa-bottom.jpg",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "540",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "iqos-wallet-turquesa-bottom"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+
+
+
 $libraryBlocks['get_iqos_wallet_app_turquoise'] ='
         {
             "type"          : "p_v2",
@@ -359,6 +421,76 @@ $libraryBlocks['img_Cover_HTML'] ='
             "url"           : "#",
             "this"          : "Cover"
         },';
+
+
+
+/**
+ * CRM 2024
+ * 
+ */
+
+$libraryBlocks['header_brand_world'] ='
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },';
+$libraryBlocks['greeting_v2'] ='
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },';
+$libraryBlocks['p300_BW'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "this"          : "TXT"
+        },';
+$libraryBlocks['p700_BW'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "20",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Et harum quidem rerum facilis est et expedita distinctio.",
+            "this"          : "TXT"
+        },';
+$libraryBlocks['cta1_v2'] ='
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "btn.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "url_cta"       : "#",
+            "this"          : "CTA btn"
+        },';
 $libraryBlocks['img'] ='
         {
             "type"          : "img",
@@ -367,6 +499,451 @@ $libraryBlocks['img'] ='
             "url"           : "#",
             "this"          : "IMG 22.id-x"
         },';
+$libraryBlocks['stageIMG'] ='
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "504",
+                    "mtop"          : "0",
+                    "img"           : "22.id-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.id-x"
+                }
+            ]
+        },';
+$libraryBlocks['legales-iluma'] ='
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "LEGALES ILUMA"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },';
+$libraryBlocks['legales-terea'] ='
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "IQOS ILUMA&trade;  está diseñado para usarse únicamente con unidades de tabaco TEREA&trade; . No utilice IQOS ILUMA&trade;  y las unidades de tabaco TEREA&trade;  con generaciones anteriores de IQOS&trade; , ya que esto puede causar daños a su dispositivo.    <br><br>No ingiera ni desmonte las unidades de tabaco TEREA&trade; . Este producto contiene una pieza metálica afilada que puede causar lesiones graves si se ingiere. Mantener fuera del alcance de los niños. Más información en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>  <br><br>Información importante: IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.  <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.  <br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+            "this"          : "LEGALES TEREA"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "25",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },';
+$libraryBlocks['spacer'] ='
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },';
+$libraryBlocks['columns'] ='
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "40",
+                    "imgwidth"      : "240",
+                    "mtop"          : "0",
+                    "img"           : "22.id-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "spacer",
+                            "height"        : "20px",
+                            "color_bkg"     : "transparent"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "lineheight"    : "11",
+                            "align"         : "center",
+                            "width"         : "100%",
+                            "margin_top"    : "5",
+                            "margin_bottom" : "5",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "rowtype"       : "cta1_cta2",
+                            "color_bkg"     : "transparent",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0",
+                            "margin_sides"  : "0",
+
+                            "widthbutton1"   : "130",
+                            "button1"        : "btn.png",
+                            "url_cta1"       : "#",
+                            "align1"         : "left",
+
+                            "widthbutton2"   : "130",
+                            "button2"        : "btn.png",
+                            "url_cta2"       : "#",
+                            "align2"         : "left",
+
+                            "this"          : "CTA1 /CTA2"
+                        },
+                        {
+                            "README"         : "TO BE IMPLEMENTED",
+                            "rowtype"        : "ico_txt",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+
+                            "ico_area_width" : "150",
+                            "ico_img_width"  : "80",
+                            "ico_img"        : "ico.png",
+                            "ico_url"        : "#",
+                            "align"          : "left",
+                            "margin_top1"    : "20",
+                            "margin_bottom1" : "0",
+
+                            "p"              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "p_color_bkg"    : "transparent",
+                            "p_fontweight"   : "300",
+                            "p_fontsize"     : "18px",
+                            "p_height"       : "22px",
+                            "p_align"        : "center",
+                            "p_color"        : "#34303d",
+                            "margin_top2"    : "20",
+                            "margin_bottom2" : "0",
+
+                            "this"           : "IMG - TXT"
+                        },
+                        {
+                            "README"         : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "26",
+                            "lineheight"    : "26",
+                            "align"         : "center",
+                            "width"         : "50%",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0",
+
+                            "color"         : "#34303d",
+                            "framecolor"    : "#34303d",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "8",
+                            "border"        : "2",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-turquesa-comparte-tu-codigo-unico.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "260",
+                            "align"          : "center",
+
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "ulr_OK"               : "https://wa.me/?text=",
+                            "imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "cta-bw-turquesa-comparte-tu-codigo-unico"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "22.id-x.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "10",
+                            "imgWidth"       : "100",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "22.id-x"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+$libraryBlocks['spacer_v2'] ='
+        {
+            "type"          : "spacer_v2",
+            "height"        : "30",
+            "color_bkg"     : "#faf7f4",
+            "margin_sides"  : "5",
+            "margin_color"  : "transparent",
+            "readme"        : "height px, margin %",
+            "this"          : "spacer" 
+        },';
+$libraryBlocks['p_v2'] ='
+        {
+            "type"          : "p_v2",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "28", 
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "#faf7f4",
+            "margin_top"    : "30",
+            "margin_bottom" : "30",
+            "margin_sides"  : "5",
+            "margin_color"  : "transparent",
+            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "readme"        : "height px, margin %" ,
+            "this"          : ""
+        },';
+$libraryBlocks['pframed'] ='
+        {
+            "type"          : "pframed",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "height"        : "20",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#000000",
+            "color_bkg"     : "transparent",
+            "color_boxbkg"  : "#faf7f4",
+            "framecolor"    : "#faf7f4",
+            "margin_top"    : "20",
+            "margin_bottom" : "20",
+            "framepadding"  : "30",
+            "content"       : "<strong>IQOS</strong><sup>(2)</sup>",
+            "this"          : ""
+        },';
+
+$libraryBlocks['canales_de_comunicacion'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "¿Tienes dudas?",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "width"         : "90%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "30",
+            "content"       : "Contáctanos en cualquiera de nuestros canales<br>de comunicación.",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "#FFFFFF",
+            "this"              : "Canales de comunicación",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-cancom-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG"       : "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-sms.png",
+                    "imgulr"        : "https://cutt.ly/59uY4Ga",
+                    "THISIMG"       : "IMG ico-cancom-sms"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-ig.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG ico-cancom-ig"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+$libraryBlocks['Tu_Equipo_IQOS'] ='
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "Tu Equipo IQOS",
+            "this"          : "Tu Equipo IQOS"
+        },';
+$libraryBlocks['footer_bw_v1_lowercase'] ='
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }';
+
+
+
+
+
+/**
+ * LEGACY BLOCKS
+ * 
+ */
+
+$libraryBlocks['p300'] ='
+ {
+     "type"          : "p",
+     "fontweight"    : "300",
+     "fontsize"      : "18",
+     "height"        : "24",
+     "width"         : "80%",
+     "align"         : "center",
+     "color"         : "#34303d",
+     "color_bkg"     : "transparent",
+     "margin_top"    : "50",
+     "margin_bottom" : "50",
+     "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+     "this"          : "TXT"
+ },';
+$libraryBlocks['p700'] ='
+ {
+     "type"          : "p",
+     "fontweight"    : "700",
+     "fontsize"      : "20",
+     "height"        : "24",
+     "width"         : "80%",
+     "align"         : "center",
+     "color"         : "#000000",
+     "color_bkg"     : "transparent",
+     "margin_top"    : "50",
+     "margin_bottom" : "50",
+     "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+     "this"          : "TXT"
+ },';
+
 $libraryBlocks['greeting_negro'] ='
         {
             "type"          : "greeting",
@@ -391,36 +968,6 @@ $libraryBlocks['greeting_dorado'] ='
             "greetingHTML"  : "Hola, %%first_name%%",
             "greetingDCE"   : "Hola, %%first_name%%",
             "this"          : "Hola [nombre]"
-        },';
-$libraryBlocks['p300'] ='
-        {
-            "type"          : "p",
-            "fontweight"    : "300",
-            "fontsize"      : "18",
-            "height"        : "24",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "50",
-            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-            "this"          : "TXT"
-        },';
-$libraryBlocks['p700'] ='
-        {
-            "type"          : "p",
-            "fontweight"    : "700",
-            "fontsize"      : "20",
-            "height"        : "24",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#000000",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "50",
-            "content"       : "<b>IQOS</b> <span style=\"color: #e4ab68; font-weight: 700;\">IQOS</span> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-            "this"          : "TXT"
         },';
 $libraryBlocks['rawHTML'] ='
         {
@@ -673,14 +1220,6 @@ $libraryBlocks['cta1'] ='
             "url_cta"       : "#",
             "this"          : "CTA btn"
         },';
-$libraryBlocks['spacer'] ='
-        {
-            "type"          : "spacer",
-            "height"        : "50",
-            "color_bkg"     : "transparent",
-            "readme"        : "height in px",
-            "this"          : "spacer"
-        },';
 $libraryBlocks['one_rs'] =' 
         {
             "type"          : "one_rs",
@@ -890,24 +1429,6 @@ $libraryBlocks['disclaimer_iqos'] ='
             "height"        : "25",
             "color_bkg"     : "transparent",
             "this"          : "spacer"
-        },';
-$libraryBlocks['pframed'] ='
-        {
-            "type"          : "pframed",
-            "fontweight"    : "300",
-            "fontsize"      : "16",
-            "height"        : "20",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#000000",
-            "color_bkg"     : "transparent",
-            "color_boxbkg"  : "#faf7f4",
-            "framecolor"    : "#faf7f4",
-            "margin_top"    : "20",
-            "margin_bottom" : "20",
-            "framepadding"  : "30",
-            "content"       : "<strong>IQOS</strong><sup>(2)</sup>",
-            "this"          : ""
         },';
 $libraryBlocks['cols_33_33_33'] ='
         {
@@ -1586,46 +2107,6 @@ $libraryBlocks['footer_brand_world'] =',
 
 
         
-$libraryBlocks['header_brand_world'] ='
-        {
-            "type"          : "img",
-            "bgcolor"       : "transparent",
-            "img"           : "header-iqos-bw.png",
-            "url"           : "#",
-            "this"          : "IMG header IQOS Brand World"
-        },';
-$libraryBlocks['p300_BW'] ='
-        {
-            "type"          : "p",
-            "font"          : "Cabin",
-            "fontweight"    : "300",
-            "fontsize"      : "18",
-            "height"        : "24",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "0",
-            "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-            "this"          : "TXT"
-        },';
-$libraryBlocks['p700_BW'] ='
-        {
-            "type"          : "p",
-            "font"          : "Cabin",
-            "fontweight"    : "700",
-            "fontsize"      : "20",
-            "height"        : "26",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "0",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Et harum quidem rerum facilis est et expedita distinctio.",
-            "this"          : "TXT"
-        },';
 
 $libraryBlocks['FSH_Yellow_Share'] ='
         {
@@ -1819,357 +2300,8 @@ $libraryBlocks['FSH_Framed_Card'] ='
             ]
         },';
 
-$libraryBlocks['columns'] ='
-        {
-            "type"              : "columns",
-            "font"              : "Cabin",
-            "margin_sides"      : "0",
-            "margin_top"        : "0",
-            "margin_bottom"     : "0",
-            "color_bkg"         : "transparent",
-            "this"              : "",
-            "columns"           :
-            [
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "transparent",
-                    "widthp100"     : "40",
-                    "imgwidth"      : "240",
-                    "mtop"          : "0",
-                    "img"           : "22.id-x.jpg",
-                    "imgulr"        : "#",
-                    "THISIMG"       : "IMG 22.id-x"
-                },
-                {
-                    "coltype"       : "spacer",
-                    "color_bkg"     : "transparent",
-                    "widthp100"     : "5",
-                    "mtop"          : "0"
-                },
-                {
-                    "coltype"       : "multirows",
-                    "color_bkg"     : "transparent",
-                    "widthp100"     : "50",
-                    "rows"          :
-                    [
-                        {
-                            "rowtype"       : "p",
-                            "p"             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                            "color_bkg"     : "transparent",
-                            "p_fontweight"  : "300",
-                            "p_fontsize"    : "18px",
-                            "p_height"      : "22px",
-                            "p_align"       : "center",
-                            "p_color"       : "#34303d",
-                            "margin_top"    : "20",
-                            "margin_bottom" : "5"
-                        },
-                        {
-                            "rowtype"       : "spacer",
-                            "height"        : "20px",
-                            "color_bkg"     : "transparent"
-                        },
-                        {
-                            "rowtype"       : "pframed",
-                            "color_bkg"     : "transparent",
-                            "p"             : "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                            "fontweight"    : "300",
-                            "fontsize"      : "9",
-                            "lineheight"    : "11",
-                            "align"         : "center",
-                            "width"         : "100%",
-                            "margin_top"    : "5",
-                            "margin_bottom" : "5",
-
-                            "color"         : "#000000",
-                            "framecolor"    : "#000000",
-                            "framebgcolor"  : "transparent",
-                            "framepadding"  : "5",
-                            "border"        : "1",
-                            
-                            "this"          : ""
-                        },
-                        {
-                            "rowtype"       : "cta1_cta2",
-                            "color_bkg"     : "transparent",
-                            "margin_top"    : "20",
-                            "margin_bottom" : "0",
-
-                            "widthbutton1"   : "130",
-                            "button1"        : "btn.png",
-                            "url_cta1"       : "#",
-                            "align1"         : "left",
-
-                            "widthbutton2"   : "130",
-                            "button2"        : "btn.png",
-                            "url_cta2"       : "#",
-                            "align2"         : "left",
-
-                            "this"          : "CTA1 /CTA2"
-                        },
-                        {
-                            "README"         : "TO BE IMPLEMENTED",
-                            "rowtype"        : "ico_txt",
-                            "color_bkg"      : "transparent",
-                            "margin_top"     : "20",
-                            "margin_bottom"  : "0",
-
-                            "ico_area_width" : "150",
-                            "ico_img_width"  : "80",
-                            "ico_img"        : "ico.png",
-                            "ico_url"        : "#",
-                            "align"          : "left",
-                            "margin_top1"    : "20",
-                            "margin_bottom1" : "0",
-
-                            "p"              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                            "p_color_bkg"    : "transparent",
-                            "p_fontweight"   : "300",
-                            "p_fontsize"     : "18px",
-                            "p_height"       : "22px",
-                            "p_align"        : "center",
-                            "p_color"        : "#34303d",
-                            "margin_top2"    : "20",
-                            "margin_bottom2" : "0",
-
-                            "this"           : "IMG - TXT"
-                        },
-                        {
-                            "README"         : "XXXXX (Referral_Code)",
-                            "rowtype"       : "pframed",
-                            "color_bkg"     : "transparent",
-                            "p"             : "%%referral_code%%",
-                            "fontweight"    : "700",
-                            "fontsize"      : "26",
-                            "lineheight"    : "26",
-                            "align"         : "center",
-                            "width"         : "50%",
-                            "margin_top"    : "30",
-                            "margin_bottom" : "0",
-
-                            "color"         : "#34303d",
-                            "framecolor"    : "#34303d",
-                            "framebgcolor"  : "transparent",
-                            "framepadding"  : "8",
-                            "border"        : "2",
-                            
-                            "this"          : ""
-                        },
-                        {
-                            "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
-                            "rowtype"        : "img",
-                            "img"            : "cta-bw-turquesa-comparte-tu-codigo-unico.png",
-                            "color_bkg"      : "transparent",
-                            "margin_top"     : "20",
-                            "margin_bottom"  : "0",
-                            "imgWidth"       : "260",
-                            "align"          : "center",
-
-                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
-                            "url_ctaDECODED"       : "whatsapp://send?text=",
-                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
-                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
-                            "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
-                            "ulr_OK"               : "https://wa.me/?text=",
-                            "imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
-
-                            "THISIMG"        : "cta-bw-turquesa-comparte-tu-codigo-unico"
-                        },
-                        {
-                            "rowtype"        : "img",
-                            "img"            : "22.id-x.png",
-                            "color_bkg"      : "transparent",
-                            "margin_top"     : "10",
-                            "margin_bottom"  : "10",
-                            "imgWidth"       : "100",
-                            "align"          : "center",
-                            "imgulr"         : "#",
-                            "THISIMG"        : "22.id-x"
-                        }
-                    ]
-                },
-                {
-                    "coltype"       : "spacer",
-                    "color_bkg"     : "transparent",
-                    "widthp100"     : "5",
-                    "mtop"          : "0"
-                }
-            ]
-        },';
-
-$libraryBlocks['stageIMG'] ='
-        {
-            "type"              : "columns",
-            "font"              : "Cabin",
-            "margin_sides"      : "0",
-            "margin_top"        : "0",
-            "margin_bottom"     : "0",
-            "color_bkg"         : "transparent",
-            "this"              : "",
-            "columns"           :
-            [
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "transparent",
-                    "widthp100"     : "100",
-                    "imgwidth"      : "504",
-                    "mtop"          : "0",
-                    "img"           : "22.id-x.jpg",
-                    "imgulr"        : "#",
-                    "THISIMG"       : "IMG 22.id-x"
-                }
-            ]
-        },';
 
 
-
-$libraryBlocks['greeting_v2'] ='
-        {
-            "type"          : "greeting_v2",
-            "fontweight"    : "700",
-            "color_greeting": "#34303d",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "50",
-            "margin_bottom" : "0",
-            "greeting"      : "Hola, %%first_name%%",
-            "this"          : "Hola [nombre]"
-        },';
-$libraryBlocks['cta1_v2'] ='
-        {
-            "type"          : "cta1_v2",
-            "widthbutton"   : "200",
-            "color_bkg"     : "transparent",
-            "button"        : "btn.png",
-            "margin_top"    : "50",
-            "margin_bottom" : "0",
-            "url_cta"       : "#",
-            "this"          : "CTA btn"
-        },';
-$libraryBlocks['spacer_v2'] ='
-        {
-            "type"          : "spacer_v2",
-            "height"        : "30",
-            "color_bkg"     : "#faf7f4",
-            "margin_sides"  : "5",
-            "margin_color"  : "transparent",
-            "readme"        : "height px, margin %",
-            "this"          : "spacer" 
-        },';
-$libraryBlocks['p_v2'] ='
-        {
-            "type"          : "p_v2",
-            "font"          : "Cabin",
-            "fontweight"    : "300",
-            "fontsize"      : "18",
-            "height"        : "28", 
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "color_bkg"     : "#faf7f4",
-            "margin_top"    : "30",
-            "margin_bottom" : "30",
-            "margin_sides"  : "5",
-            "margin_color"  : "transparent",
-            "content"       : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-            "readme"        : "height px, margin %" ,
-            "this"          : ""
-        },';
-
-$libraryBlocks['canales_de_comunicacion'] ='
-        {
-            "type"          : "p",
-            "font"          : "Cabin",
-            "fontweight"    : "700",
-            "fontsize"      : "22",
-            "height"        : "26",
-            "width"         : "80%",
-            "align"         : "center",
-            "color"         : "#00d1d2",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "40",
-            "margin_bottom" : "0",
-            "content"       : "¿Tienes dudas?",
-            "this"          : "TXT"
-        },
-        {
-            "type"          : "p",
-            "font"          : "Cabin",
-            "fontweight"    : "300",
-            "fontsize"      : "18",
-            "height"        : "24",
-            "width"         : "90%",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "color_bkg"     : "transparent",
-            "margin_top"    : "20",
-            "margin_bottom" : "30",
-            "content"       : "Contáctanos en cualquiera de nuestros canales<br>de comunicación.",
-            "this"          : "TXT"
-        },
-        {
-            "type"              : "columns",
-            "font"              : "Cabin",
-            "margin_sides"      : "0",
-            "margin_top"        : "0",
-            "margin_bottom"     : "40",
-            "color_bkg"         : "#FFFFFF",
-            "this"              : "Canales de comunicación",
-            "columns"           :
-            [
-                {
-                    "coltype"       : "spacer",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "16",
-                    "mtop"          : "0"
-                },
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
-                    "mtop"          : "0",
-                    "img"           : "ico-cancom-telefono.png",
-                    "imgulr"        : "tel:8001476769",
-                    "THISIMG"       : "IMG ico-cancom-telefono"
-                },
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
-                    "mtop"          : "0",
-                    "img"           : "ico-cancom-chat.png",
-                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
-                    "THISIMG"       : "IMG ico-cancom-chat"
-                },
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
-                    "mtop"          : "0",
-                    "img"           : "ico-cancom-sms.png",
-                    "imgulr"        : "https://cutt.ly/59uY4Ga",
-                    "THISIMG"       : "IMG ico-cancom-sms"
-                },
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
-                    "mtop"          : "0",
-                    "img"           : "ico-cancom-ig.png",
-                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
-                    "THISIMG"       : "IMG ico-cancom-ig"
-                },
-                {
-                    "coltype"       : "spacer",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "16",
-                    "mtop"          : "0"
-                }
-            ]
-        },';
 $libraryBlocks['ElijoIQOS'] ='
         {
             "type"          : "p",
@@ -2225,10 +2357,6 @@ $libraryBlocks['footer_bw_v1'] ='
         {
             "type"          : "footer_bw_v1"
         }';
-$libraryBlocks['footer_bw_v1_lowercase'] ='
-        {
-            "type"          : "footer_bw_v1_lowercase"
-        }';
 $libraryBlocks['footer_fsh'] ='
         {
             "type"          : "footer_fsh"
@@ -2255,7 +2383,7 @@ $libraryBlocks['undefined'] ='
 
 /*
     "IQOS-Wallet-Iluma-Gray",
-
+    "IQOS-Wallet-Iluma-Turquesa",
     "header_mgm_tu_codigo_unico",
     "get_iqos_wallet_app",
     "get_iqos_wallet_app_slate",
