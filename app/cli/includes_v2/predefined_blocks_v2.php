@@ -514,7 +514,7 @@ $libraryBlocks['stageIMG'] ='
                     "coltype"       : "img",
                     "color_bkg"     : "transparent",
                     "widthp100"     : "100",
-                    "imgwidth"      : "504",
+                    "imgwidth"      : "600",
                     "mtop"          : "0",
                     "img"           : "22.id-x.jpg",
                     "imgulr"        : "#",

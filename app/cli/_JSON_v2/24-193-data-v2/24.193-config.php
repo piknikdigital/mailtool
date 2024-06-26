@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "1111";
-$p_subject         = "";
-$p_preheader       = "";
-$p_yy              = "24";
-$p_mm              = "09";
-$p_dd              = "12";
-$p_name4folder     = "test-folder";
-$p_name4json       = "test-json";
-$p_name4folderDCE  = "DCE Folder";
-$p_mailname4DCE    = "DCE_MAIL_NAME";
-$p_customerkey_DCE = "NA";
-$p_name4folderFSH  = "FSH Folder";
-$p_mailname4FSH    = "FSH_MAIL_NAME";
-$p_customerkey_FSH = "NA";
-$id_FSH_folder     = "9999";
+$p_id =  '193';
+$p_subject =  'Unidades de tabaco calentadas para cada IQOS 👇🏼';
+$p_preheader =  'Conoce las diferencias 🧐';
+$p_yy =  '24';
+$p_mm =  '06';
+$p_dd =  '11';
+$p_name4folder =  'crm-ajustes';
+$p_name4json =  'iqos-terea-version-3';
+$p_name4folderDCE =  'Existing Users';
+$p_mailname4DCE =  'IQOS_2023_TEREA_VERSION3';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -27,45 +27,21 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
-    "img",
-    "img",
-    "img",
     "img",
     "greeting_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "canales_de_comunicacion",
-    "ElijoIQOS",
+
+    "img",
+    "img",
+    "img",
+
     "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
     "legal_extra",
-    "legales-iluma",
+    "disclaimer_iqos",
     "footer_bw_v1_lowercase"
 );
 
 
 /* 
-
-    FONDO GRIS CLARO - Iluma, borde redondo
-        "IQOS-Wallet-Iluma-Gray",
-
 
     FONDO GRIS CLARO:
         "get_iqos_wallet_app",
@@ -91,7 +67,6 @@ $requiredBlocks = array(
     "spacer_v2",
     "canales_de_comunicacion",
 
-    "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
 
     "ElijoIQOS",
     "Tu_equipo_IQOS",
@@ -148,8 +123,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 11111111XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 11111111XX :   %%referral_code%%
+    CODIGO PARA CUPON 4949XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 4949XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -188,6 +163,8 @@ PRECIO TACHADO:
 ||   faf7f4                        ||
 ++---------------------------------++
 --------------------
+<span style=\"color:#00d1d2;\">
+</span>
 ===================================================================
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
 ===================================================================
@@ -219,12 +196,33 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+
+IQOS ILUMA&trade; cuenta con la tecnología SMARTCORE&trade; la cual funciona con unidades de tabaco calentado exclusivamente diseñadas para su uso. Para evitar dañar el dispositivo, no deben utilizarse estas unidades de tabaco con otros dispositivos IQOS que no pertenezcan a la gama de productos ILUMA. IQOS ILUMA no es libre de riesgo ya que entrega nicotina, que es adictiva. Uso exclusivo para adultos.
+
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+--------------------
+https://conoce-iqos.com/wp-content/localizador-tiendas.html
+--------------------
+--------------------
+--------------------
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta términos y condiciones</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+<a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
+--------------------
+--------------------
+--------------------
+<a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a>
+<a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
+--------------------
+--------------------
+
 --------------------
 --------------------
 --------------------

@@ -7,9 +7,9 @@ $p_yy =  '24';
 $p_mm =  '06';
 $p_dd =  '06';
 $p_name4folder =  'laus-trade-in';
-$p_name4json =  'laus-trade-in-gamification-venta-2-jun';
+$p_name4json =  'laus-trade-in-gamification-venta-2-jul';
 $p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'LAUS_DCE_TRADEIN_GAMIFICATION_VENTA_2JUN';
+$p_mailname4DCE =  'LAUS_DCE_TRADEIN_GAMIFICATION_VENTA_2JUL';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -205,7 +205,7 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-(1) Disclaimer Dinámica
+(1) Válido del 01 al 31 de Julio o hasta agotar existencias. ​Consulta términos y condiciones de la dinámica <a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.
 --------------------
 --------------------
 --------------------
@@ -217,6 +217,7 @@ PRECIO TACHADO:
 https://conoce-iqos.com/wp-content/localizador-tiendas.html
 --------------------
 --------------------
+<a href=\"LINK\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
 --------------------
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>

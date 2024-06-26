@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "1112";
-$p_subject         = "";
-$p_preheader       = "";
-$p_yy              = "24";
-$p_mm              = "09";
-$p_dd              = "14";
-$p_name4folder     = "test-folder-2";
-$p_name4json       = "test-json-2";
-$p_name4folderDCE  = "DCE Folder 2";
-$p_mailname4DCE    = "DCE_MAIL_NAME_2";
-$p_customerkey_DCE = "NA";
-$p_name4folderFSH  = "FSH Folder 2";
-$p_mailname4FSH    = "FSH_MAIL_NAME_2";
-$p_customerkey_FSH = "NA";
-$id_FSH_folder     = "9999";
+$p_id =  '205';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '06';
+$p_dd =  '25';
+$p_name4folder =  'leads';
+$p_name4json =  'leads-lending-descuento10-25-jul';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'NA';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS';
+$p_mailname4FSH =  'LEADS_LOCAL_LENDING_DESCUENTO10_25JUL';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  '220';
 
 
 //-----------------------------------------
@@ -27,34 +27,19 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "header_brand_world",
-    "stageIMG",
-
-
-
     "img",
-    "img",
-    "img",
-    "img",
+    "cta1_v2",
     "greeting_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
     "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
+    "img",
+    "stageIMG",
+    "img",
+    "img",
     "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "canales_de_comunicacion",
-    "ElijoIQOS",
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
+    "img",
+
+    "Tu_Equipo_IQOS",
+
     "legal_extra",
     "legales-iluma",
     "footer_bw_v1_lowercase"
@@ -148,8 +133,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 11121112XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 11121112XX :   %%referral_code%%
+    CODIGO PARA CUPON 205205XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 205205XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -206,6 +191,22 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Probar ahora	https://www.iqos.com/mx/es/prueba-iqos.html
+Probar ahora	https://www.iqos.com/mx/es/prueba-iqos.html
+www.iqos.com	https://www.iqos.com/mx/es/home.html
+--------------------
+--------------------
+--------------------
+--------------------
+<span style=\"color:#00d1d2;\">¡Prueba la mejor alternativa ​</span><br>de tabaco calentado!<br>Por solo:
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+(1) Precio inicial del Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. Dispositivo y color sujeto a disponibilidad de inventario.
 --------------------
 --------------------
 --------------------
@@ -219,19 +220,22 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+https://conoce-iqos.com/wp-content/localizador-tiendas.html
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta términos y condiciones</a>
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+<a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a>
+<a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
-
 --------------------
 ===================================================================
 SHARE MSG FSH:
@@ -251,6 +255,8 @@ https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20pue
 
 ===================================================================
 
+NO ILUMA - NO ILUMA - NO ILUMA
+
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
 "url_ctaDECODED"     : "whatsapp://send?text=",
 "text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
@@ -261,14 +267,15 @@ https://wa.me/?text=Hablemos%20para%20que%2015%20millones%20de%20fumadores%20pue
 
 ===================================================================
 
+ESTO ES PARA ILUMA, 20% de descuento
 
 "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
-"url_ctaDECODED"     : "whatsapp://send?text=",
-"text2encode"        : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS. No olvides utilizar mi código %%=v(@voucher_code)=%% al comprar.",
-"imgulr1"            : "whatsapp://send?text=",
-"imgulr2"            : "https://wa.me/?text=",
-"imgulr3"            : "https://web.whatsapp.com/send?text=",
-"imgulr"             : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS.%0ANo%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25%3Dv%28%40voucher_code%29%3D%25%25%20al%20comprar.",
+"url_ctaDECODED"       : "whatsapp://send?text=",
+"txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+"ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+"ulr_OK"               : "https://wa.me/?text=",
+"imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
 
 ===================================================================
 

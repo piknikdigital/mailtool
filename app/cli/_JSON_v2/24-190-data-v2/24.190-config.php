@@ -7,9 +7,9 @@ $p_yy =  '24';
 $p_mm =  '06';
 $p_dd =  '06';
 $p_name4folder =  'laus-trade-in';
-$p_name4json =  'laus-trade-in-mgm-11-jun';
+$p_name4json =  'laus-trade-in-mgm-11-jul';
 $p_name4folderDCE =  'NA';
-$p_mailname4DCE =  'LAUS_DCE_TRADEIN_MGM_11JUN';
+$p_mailname4DCE =  'LAUS_DCE_TRADEIN_MGM_11JUL';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -192,6 +192,9 @@ PRECIO TACHADO:
 ===================================================================
 --------------------
 --------------------
+comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Lo quiero	    https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 --------------------
 --------------------
 --------------------
@@ -212,7 +215,9 @@ Comparte tu código:
 --------------------
 --------------------
 --------------------
-(1) Descuento válido del  1 al 31 de julio de 2024. Únicamente para usuarios IQOS con dispositivo IQOS ORIGINALS, IQOS 3 DUO registrado en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, en la compra de su primer Kit IQOS ILUMA. Este descuento aplica únicamente sobre el precio del dispositivo IQOS ILUMA, no aplica sobre el total del precio del KIT o accesorios. Sujeto a disponibilidad de inventario. Hasta agotar existencias. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del Programa Trade In en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.   <br><br> (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Descuento no válido en productos de tabaco.   <br><br> (3) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.
+
+(1) Descuento válido del  1 al 31 de julio de 2024. Únicamente para usuarios IQOS con dispositivo IQOS ORIGINALS, IQOS 3 DUO registrado en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, en la compra de su primer Kit IQOS ILUMA. Este descuento aplica únicamente sobre el precio del dispositivo IQOS ILUMA, no aplica sobre el total del precio del KIT o accesorios. Sujeto a disponibilidad de inventario. Hasta agotar existencias. Consulta Términos y Condiciones del Programa Trade In en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.    <br><br> (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina. Descuento no válido en productos de tabaco.    <br><br> (3) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>).  Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.    <br><br> (4) Del 26 de julio al 6 de agosto por cada amigo que utilice tu Código recibirás 100 MXN adicionales en dinero electrónico, no canjeable por dinero en efectivo. Válido en <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>. Limitada a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.
+
 --------------------
 --------------------
 --------------------
