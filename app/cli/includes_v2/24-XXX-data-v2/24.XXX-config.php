@@ -20,17 +20,45 @@ $id_FSH_folder     = "999";
 //-----------------------------------------
 
 $companyBrand     = "pmi";
-$TwigTemplate     = "pmi-Brand-World-B01-600-v01.twig";
+$TwigTemplate     = "iqos-2024-v1.twig";
+$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 //-----------------------------------------
 
+
+// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+
 $requiredBlocks = array(
+    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
+
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
+    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
+    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
+
+);
+
+// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
+$requiredBlocks2 = array(
     "header_brand_world",
 
-    
-    
-    
     "stageIMG",
     "img",
     "img",
@@ -61,32 +89,31 @@ $requiredBlocks = array(
     "Tu_equipo_IQOS",
     "Tu_Equipo_IQOS",
 
-    "legal_extra",
-    "legales-iluma",
-    "legales-terea",
-    "footer_bw_v1_lowercase"
+    "bloque_legales_iluma",
+    "footer_bw_v1_lowercase",
 );
 
 
 /* 
 
     FONDO GRIS CLARO - Iluma, borde redondo
-        "IQOS-Wallet-Iluma-Gray",
+    "IQOS-Wallet-Iluma-Gray",
 
 
     FONDO GRIS CLARO:
-        "get_iqos_wallet_app",
+    "get_iqos_wallet_app",
     FONDO TURQUESA:
-        "get_iqos_wallet_app_turquoise",
+    "get_iqos_wallet_app_turquoise",
     FONDO SLATE
-        "get_iqos_wallet_app_slate",
+    "get_iqos_wallet_app_slate",
 
-    
+
     "header_mgm_tu_codigo_unico",
 
     "stageIMG",
     "img",
     "spacer",
+
     "pframed",
     "cta1",
     "p_v2",
@@ -97,26 +124,30 @@ $requiredBlocks = array(
     "cta1_v2",
     "spacer_v2",
     "canales_de_comunicacion",
-
+    
     "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
-
+    
     "ElijoIQOS",
+    "legal_extra",
+    "legales-iluma",
+
     "Tu_equipo_IQOS",
     "Solo_con_IQOS",
     "footer_bw_v1",
-
-        PARA FUTURO SIN HUMO USAR:
-            "disclaimer_fsh",
-            "footer_fsh"
-
-        PARA IQOS USAR
-            "ElijoIQOS",
-            "legal_extra",
-            "disclaimer_iqos",
-            "footer_bw_v1_lowercase"
-
-
-
+    
+    PARA FUTURO SIN HUMO USAR:
+    "disclaimer_fsh",
+    "footer_fsh"
+    
+    PARA IQOS USAR
+    "ElijoIQOS",
+    "legal_extra",
+    "disclaimer_iqos",
+    "footer_bw_v1_lowercase"
+    
+    
+    
+    "legales-terea",
     "greeting_negro",
     "greeting_dorado",
     "footer_brand_world",
@@ -146,6 +177,7 @@ $requiredBlocks = array(
     "disclaimer_iqos",
     "cols_33_33_33",
     "form",
+    "form_v2",
     "mgm_coupon_1",
     "mgm_coupon_2cols",
     "rgm_coupon_2cols",
@@ -210,6 +242,12 @@ PRECIO TACHADO:
 <span style=\"font-size:12px;\"><sup>(4)</sup></span>
 <span style=\"font-size:12px;\"><sup>MXN</sup></span>
 ===================================================================
+<span style=\"font-size:12px;\"><sup class=\"sup_20\">(1)</sup></span>
+<span style=\"font-size:12px;\"><sup class=\"sup_20\">(2)</sup></span>
+<span style=\"font-size:12px;\"><sup class=\"sup_20\">(3)</sup></span>
+<span style=\"font-size:12px;\"><sup class=\"sup_20\">(4)</sup></span>
+<span style=\"font-size:12px;\"><sup class=\"sup_20\">MXN</sup></span>
+===================================================================
 --------------------
 --------------------
 --------------------
@@ -238,23 +276,81 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+#### [ WALLETS ] ###########################################
+IQOS wallet - android
+https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
+
+IQOS wallet - iOS
+https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+############################################################
+
+
+==== [LOCALIZADOR TIENDAS] =================================
 https://conoce-iqos.com/wp-content/localizador-tiendas.html
---------------------
---------------------
---------------------
-<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+============================================================
+
+==== [iqos.com] ============================================
 <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
-<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Consulta términos y condiciones</a>
+============================================================
+
+==== [ www.iqos.com ] ======================================
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+============================================================
+
+
+
+==== [TRADE IN] ============================================
+Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del Programa Trade in en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.
+============================================================
+
+==== [Términos y Condiciones (trade in)] ===================
 <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+============================================================
+
+==== [Términos y Condiciones (MGM)] ========================
+<a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+============================================================
+
+
+==== [Términos y Condiciones (MGM)] ========================
+<a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+============================================================
+
+==== [Términos y Condiciones (Programa de Prestamo)] =======
+<a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+============================================================
+
+
+
+
+
+==== [recompensasiqos.plandereconocimientos.com] ============
 <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
---------------------
---------------------
---------------------
+=============================================================
+
+==== [www.compraiqos.com.mx] ================================
+<a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>
+=============================================================
+
+
+
+
+
+==== [ información importante ] ==========
 <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a>
+==========================================
+
+==== [ aqui (privacy) ] ==================
 <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
---------------------
---------------------
---------------------
+==========================================
+
+
 ===================================================================
 SHARE MSG FSH:
 

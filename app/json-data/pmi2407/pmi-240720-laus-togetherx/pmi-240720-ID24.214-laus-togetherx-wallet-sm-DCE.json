@@ -1,0 +1,380 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20240720_NA > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_TOGETHERX_WALLET&SM_20AGOSTO",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240720-ID24.214-laus-togetherx-wallet-sm-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.214 LAUS_DCE_TOGETHERX_WALLET&SM_20AGOSTO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#000000",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d52a5fa1-0b51-443c-99a3-a21c3ba859c1.gif",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 24.214-1c"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/134fd3dd-76ba-4974-94c7-5baed78fca5d.jpg",
+            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+            "url_ctaDECODED": "whatsapp://send?text=",
+            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "ulr_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+            "ulr_OK": "https://wa.me/?text=",
+            "url": "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "this": "IMG 24.214-2c"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#ffffff",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "32",
+            "height": "36",
+            "width": "100%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "0",
+            "content": "Tus esfuerzos se notan...",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "28",
+            "height": "32",
+            "width": "100%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "40",
+            "content": "¡Descubre qué tan cerca estás de poder<br> ganar un viaje a Tokio!<span style=\"font-size:20px;\"><sup>(1)</sup></span>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8f15dcfe-aae9-41bd-8862-a3e3b22b6c9c.jpg",
+            "url": "#",
+            "this": "IMG 24.214-3c"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/87415a82-703b-4767-bcb6-7a622dda382d.jpg",
+            "url": "https://www.instagram.com/iqos_mx/",
+            "this": "IMG 24.214-4dd"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4a352c59-1153-4827-a9d7-215252f30f13.jpg",
+            "url": "#",
+            "this": "IMG 24.214-5c"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/574fc0b7-14e6-4cc1-a842-72283a53da76.gif",
+                    "imgulr": "https://www.iqos.com/mx/es/home.html",
+                    "THISIMG": "IMG 24.214-6dd"
+                }
+            ]
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "5",
+            "margin_top": "30",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "HORIZONTAL - REFERRAL_CODE  / SHARE CODE",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "README": "XXXXX (Referral_Code)",
+                            "rowtype": "pframed",
+                            "color_bkg": "transparent",
+                            "p": "%%referral_code%%",
+                            "fontweight": "700",
+                            "fontsize": "24",
+                            "lineheight": "24",
+                            "align": "center",
+                            "width": "40%",
+                            "margin_top": "2",
+                            "margin_bottom": "0",
+                            "color": "#ffffff",
+                            "framecolor": "#ffffff",
+                            "framebgcolor": "transparent",
+                            "framepadding": "8",
+                            "border": "2",
+                            "this": ""
+                        }
+                    ]
+                },
+                {
+                    "coltype": "multirows",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2e7a4d1e-65c8-4d13-b170-3da0b3c32285.png",
+                            "color_bkg": "transparent",
+                            "margin_top": "0",
+                            "margin_bottom": "0",
+                            "imgWidth": "200",
+                            "align": "center",
+                            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+                            "url_ctaDECODED": "whatsapp://send?text=",
+                            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "ulr_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "ulr_OK": "https://wa.me/?text=",
+                            "imgulr": "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "THISIMG": "cta-turquesa2-compartir-mi-codigo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "28",
+            "width": "100%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "30",
+            "margin_bottom": "30",
+            "content": "¡Conoce más<br>oportunidades de ganar!",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "100",
+                    "imgwidth": "600",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/65299ed2-efd0-4cb0-9803-74c5ab6ed74b.gif",
+                    "imgulr": "#LINK__SABER_MAS",
+                    "THISIMG": "IMG 24.214-7d"
+                }
+            ]
+        },
+        {
+            "SECCION": "IQOS WALLET - Together X"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "width": "100%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "0",
+            "content": "¿Dónde se guardan tus puntos?",
+            "this": "TXT"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "20",
+            "height": "24",
+            "width": "100%",
+            "align": "center",
+            "color": "#f8f6f3",
+            "color_bkg": "transparent",
+            "margin_top": "15",
+            "margin_bottom": "30",
+            "content": "Descarga IQOS Wallet y lleva <br> control total de ellos.",
+            "this": "TXT"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b368fa52-2ae8-49e5-9f5b-72da2720a215.jpg",
+                    "imgulr": "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "THISIMG": "ANDROID IMG wallet-android-togetherx-2"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "50",
+                    "imgwidth": "300",
+                    "mtop": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4dc3e286-f072-4275-b223-1bd2f4d4db35.jpg",
+                    "imgulr": "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "THISIMG": "IOS IMG wallet-ios-togetherx-2"
+                }
+            ]
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "width": "80%",
+            "align": "center",
+            "color": "#00d1d2",
+            "color_bkg": "transparent",
+            "margin_top": "50",
+            "margin_bottom": "50",
+            "content": "Tu Equipo IQOS",
+            "this": "Tu Equipo IQOS"
+        },
+        {
+            "type": "disclaimer_iluma_dark_and_light",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "(1) Aplican restricciones. Consulta <a href=\"http://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> de Together x Sensorium <a href=\"http://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">aquí.</a>          <br><br>    (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.          <br><br>    (3) Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y condiciones</a>. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>. Descuento no válido en productos de tabaco.          <br><br>    (4) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y condiciones</a> del programa. ",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

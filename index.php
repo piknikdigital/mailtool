@@ -13,6 +13,7 @@ $klein->respond(function ($request, $response, $service, $app) use ($klein) {
     $app->register("twig", function () {
         $loader = new Twig_Loader_Filesystem( array( __DIR__ ."/app/views", 
                                                      __DIR__ ."/app/views/ms/", 
+                                                     __DIR__ ."/app/views/iqos/", 
                                                      __DIR__ ."/app/views/pmi/", 
                                                      __DIR__ ."/app/views/system/" 
                                             ));

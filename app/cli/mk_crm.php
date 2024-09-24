@@ -1,12 +1,11 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
-
 /**
  *  To run this script in the command line:
- *      1.- Add in the first line: #!/usr/bin/php
- *      2.- in command line run:    chmod +x mkfork_v2.php
- *      3.- run the script as: ./mkfork_v2.php TARGET ID
- *          Example:  ./mkfork_v2.php DCE 208 
+ *      1.- Add the shebang in the first line: #!/usr/bin/env php
+ *      2.- set permissions: chmod +x mk_crm.php
+ *      3.- run the script as: ./mk_crm.php TARGET ID
+ *          Example:  ./mk_crm.php DCE 208 
  */
 
 
@@ -151,7 +150,16 @@ $twigData = loadjson($f1);
 $twigData['isWebVer'] = 0;     // HTML version for mail
 
 // LOAD TWIG TEMPLATE ----------------------------------------------------
-$loader = new \Twig\Loader\FilesystemLoader('../../app/views/pmi');
+// $loader = new \Twig\Loader\FilesystemLoader('../../app/views/pmi');
+$loader = new \Twig\Loader\FilesystemLoader(
+    array(   dirname(dirname(__DIR__)) ."/app/views/iqos/", 
+             dirname(dirname(__DIR__)) ."/app/views/iqos/templates/", 
+             dirname(dirname(__DIR__)) ."/app/views/iqos/blocks/", 
+             dirname(dirname(__DIR__)) ."/app/views/ms/", 
+             dirname(dirname(__DIR__)) ."/app/views/pmi/", 
+             dirname(dirname(__DIR__)) ."/app/views/system/" 
+    )
+);
 $twig = new \Twig\Environment($loader);
 $template = $twig->load($TwigTemplate);
 

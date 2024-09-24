@@ -1,9 +1,9 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 /**
  *  To run this script in the command line:
- *      1.- Add in the first line: #!/usr/bin/php
- *      2.- in command line run:    chmod +x mklist.php
+ *      1.- Add the shebang in the first line: #!/usr/bin/env php
+ *      2.- set permissions: chmod +x mklist.php
  *      3.- run the script as: ./mklist.php
  *          Example:  ./mklist.php
  */

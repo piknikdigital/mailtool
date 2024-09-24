@@ -1,0 +1,432 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2407/pmi-240720-laus-togetherx/pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240720-ID24.206-laus-togetherx-stores-15-agosto-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.206 LAUS_DCE_TOGETHERX_STORES_15AGOSTO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#000000",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "600",
+                    "mtop"          : "0",
+                    "img"           : "24.206-1b.gif",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.206-1b"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "600",
+                    "mtop"          : "0",
+                    "img"           : "24.206-2d.gif",
+                    "imgulr"        : "#LINK_CONOCE.MAS",
+                    "THISIMG"       : "IMG 24.206-2d"
+                }
+            ]
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#ffffff",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "36",
+            "height"        : "38",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "content"       : "¡Sigue sumando puntos!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "10",
+            "margin_bottom" : "30",
+            "content"       : "Cada vez que visitas una Tienda IQOS tienes<br>la oportunidad de acumular puntos para ganar<span style=\"font-size:20px;\"><sup>(1)</sup></span>.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.206-3b.gif",
+            "url"           : "#",
+            "this"          : "IMG 24.206-3b"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "30",
+            "height"        : "34",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "30",
+            "margin_bottom" : "0",
+            "content"       : "¡Refiere y Gana!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "content"       : "Ahora, al referir a tus amigos, también<br> acumulas puntos para la oportunidad de",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "36",
+            "height"        : "36",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "0",
+            "margin_bottom" : "20",
+            "content"       : "un viaje a Japón<span style=\"font-size:30px;\"><sup>(1)</sup></span>.",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.206-4d.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.206-4d"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.206-5e.jpg",
+            "url"           : "https://www.iqos.com/mx/es/home.html",
+            "this"          : "IMG 24.206-5e"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "54",
+                    "imgwidth"      : "324",
+                    "mtop"          : "0",
+                    "img"           : "24.206-6e.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.206-6e"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "46",
+                    "rows"          :
+                    [
+                        {
+                            "README"         : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "26",
+                            "lineheight"    : "26",
+                            "align"         : "center",
+                            "width"         : "35%",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0",
+
+                            "color"         : "#ffffff",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "8",
+                            "border"        : "2",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
+                            "rowtype"        : "img",
+                            "img"            : "cta-turquesa-compartir-mi-codigo.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "220",
+                            "align"          : "center",
+
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+                            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "ulr_OK"               : "https://wa.me/?text=",
+                            "imgulr"               : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "cta-turquesa-compartir-mi-codigo"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.206-7e.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.206-7e"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "cta-turquesa-ver-tiendas-iqos.png",
+            "margin_top"    : "20",
+            "margin_bottom" : "0",
+            "url_cta"       : "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+            "this"          : "CTA cta-turquesa-ver-tiendas-iqos"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "36",
+            "height"        : "38",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "10",
+            "content"       : "¡Rumbo a Japón!",
+            "this"          : "TXT"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.206-8.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.206-8"
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "width"         : "100%",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "10",
+            "margin_bottom" : "0",
+            "content"       : "Síguenos para saber qué tan cerca estás de<br> <b>viajar a Tokio.</b>",
+            "this"          : "TXT"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "10",
+            "margin_bottom"     : "40",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "600",
+                    "mtop"          : "0",
+                    "img"           : "24.206-11d.jpg",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG 24.206-11d"
+                }
+            ]
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "#f9f6f3",
+                    "widthp100"     : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "24.206-9b.jpg",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "600",
+                            "align"          : "center",
+                            "imgulr"         : "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                            "THISIMG"        : "WALLET ANDROID 24.206-8b"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "24.206-10b.jpg",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "0",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "600",
+                            "align"          : "center",
+                            "imgulr"         : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                            "THISIMG"        : "WALLET IOS 24.206-9b"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "disclaimer_iluma_dark_and_light",
+            "font"          : "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor"       : "#ffffff",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ILUMA",
+
+            "items" :
+            [
+                {
+                    "txt"   : "(1) Aplican restricciones. Consulta <a href=\"http://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> de Together x Sensorium <a href=\"http://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">aquí.</a>        <br><br>(2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.        <br><br>(3) Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>. Descuento no válido en productos de tabaco.        <br><br>(4) Cada beneficio equivale a $300 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $300 MXN en beneficios, teniendo la oportunidad de recibir hasta $3,000 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+
+    
+    "END"            :   "#######################"
+
+}

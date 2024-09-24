@@ -1,0 +1,30 @@
+{%- block iq24_p ~%}
+{%- set marginblock = 100 - 2* blocks[index].msides_pc ~%}
+                          <tr pik-mail-block="iq24-paragraph">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:{{blocks[index].mcolor}};" role="presentation">
+                                <tbody>{% if blocks[index].mtop != "0" ~%}
+                                  <tr pik-block-inner="paragraph-margin-top" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mtop}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                  <tr pik-block-inner="paragraph-txt">
+                                    <th valign="top" style="width:100%;" {#height="{{blocks[index].height}}"#} >
+                                      <table  valign="middle" align="center" cellpadding="0" cellspacing="0"  style="min-width:{{ marginblock }}%; background-color:{{blocks[index].bgcolor}};"  border="0" width="{{ marginblock }}%"  role="presentation">
+                                        <tbody>
+                                          <tr>
+                                            <th style="text-align:{{blocks[index].align}};  font-size:{{blocks[index].fontsize}}px;  line-height:{{blocks[index].height}}px;">
+                                              <div style="width:{{ blocks[index].width_pc }}%;  margin:0 auto;  text-align:{{blocks[index].align}};  font-weight:{{blocks[index].fontweight}};  color:{{blocks[index].color}};  font-family: '{{blocks[index].font}}', Gotham, Arial, sans-serif; "   class="fallback-text {{blocks[index].txtclass}}">
+                                              {{blocks[index].txt|raw}}</div>
+                                            </th>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>{% if blocks[index].mbottom != "0" ~%}
+                                  <tr pik-block-inner="paragraph-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>{% endblock -%}

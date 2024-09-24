@@ -1,0 +1,374 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2407/pmi-240709-togetherx/pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240709-ID24.215-laus-trade-in-mgm-sustainability-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.215 LAUS_DCE_TRADEIN_MGM&SUSTAINABILITY_22AGOSTO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "header-iqos-bw.png",
+            "url"           : "#",
+            "this"          : "IMG header IQOS Brand World"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "600",
+                    "mtop"          : "0",
+                    "img"           : "24.215-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.215-x"
+                }
+            ]
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.215-x.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.215-x"
+        },
+        {
+            "type"          : "greeting_v2",
+            "fontweight"    : "700",
+            "color_greeting": "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "0",
+            "greeting"      : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre]"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.215-x.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.215-x"
+        },
+        {
+            "type"          : "cta1_v2",
+            "widthbutton"   : "200",
+            "color_bkg"     : "transparent",
+            "button"        : "btn.png",
+            "margin_top"    : "50",
+            "margin_bottom" : "0",
+            "url_cta"       : "#",
+            "this"          : "CTA btn"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.215-x.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.215-x"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "40",
+                    "imgwidth"      : "240",
+                    "mtop"          : "0",
+                    "img"           : "24.215-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.215-x"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "p",
+                            "p"             : "Scourge of the seven seas scuttle cutlass league.",
+                            "color_bkg"     : "transparent",
+                            "p_fontweight"  : "300",
+                            "p_fontsize"    : "18px",
+                            "p_height"      : "22px",
+                            "p_align"       : "center",
+                            "p_color"       : "#34303d",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "5"
+                        },
+                        {
+                            "rowtype"       : "spacer",
+                            "height"        : "20px",
+                            "color_bkg"     : "transparent"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "<b>Información importante:</b> Gregor Samsa woke from troubled dreams.",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "lineheight"    : "11",
+                            "align"         : "center",
+                            "width"         : "100%",
+                            "margin_top"    : "5",
+                            "margin_bottom" : "5",
+
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "rowtype"       : "cta1_cta2",
+                            "color_bkg"     : "transparent",
+                            "margin_top"    : "20",
+                            "margin_bottom" : "0",
+                            "margin_sides"  : "0",
+
+                            "widthbutton1"   : "130",
+                            "button1"        : "btn.png",
+                            "url_cta1"       : "#",
+                            "align1"         : "left",
+
+                            "widthbutton2"   : "130",
+                            "button2"        : "btn.png",
+                            "url_cta2"       : "#",
+                            "align2"         : "left",
+
+                            "this"          : "CTA1 /CTA2"
+                        },
+                        {
+                            "README"         : "TO BE IMPLEMENTED",
+                            "rowtype"        : "ico_txt",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+
+                            "ico_area_width" : "150",
+                            "ico_img_width"  : "80",
+                            "ico_img"        : "ico.png",
+                            "ico_url"        : "#",
+                            "align"          : "left",
+                            "margin_top1"    : "20",
+                            "margin_bottom1" : "0",
+
+                            "p"              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "p_color_bkg"    : "transparent",
+                            "p_fontweight"   : "300",
+                            "p_fontsize"     : "18px",
+                            "p_height"       : "22px",
+                            "p_align"        : "center",
+                            "p_color"        : "#34303d",
+                            "margin_top2"    : "20",
+                            "margin_bottom2" : "0",
+
+                            "this"           : "IMG - TXT"
+                        },
+                        {
+                            "README"         : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "color_bkg"     : "transparent",
+                            "p"             : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "26",
+                            "lineheight"    : "26",
+                            "align"         : "center",
+                            "width"         : "50%",
+                            "margin_top"    : "30",
+                            "margin_bottom" : "0",
+
+                            "color"         : "#34303d",
+                            "framecolor"    : "#34303d",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "8",
+                            "border"        : "2",
+                            
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
+                            "rowtype"        : "img",
+                            "img"            : "cta-bw-turquesa-comparte-tu-codigo-unico.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "20",
+                            "margin_bottom"  : "0",
+                            "imgWidth"       : "260",
+                            "align"          : "center",
+
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "ulr_OK"               : "https://wa.me/?text=",
+                            "imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "cta-bw-turquesa-comparte-tu-codigo-unico"
+                        },
+                        {
+                            "rowtype"        : "img",
+                            "img"            : "24.215-x.png",
+                            "color_bkg"      : "transparent",
+                            "margin_top"     : "10",
+                            "margin_bottom"  : "10",
+                            "imgWidth"       : "100",
+                            "align"          : "center",
+                            "imgulr"         : "#",
+                            "THISIMG"        : "24.215-x"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "5",
+                    "mtop"          : "0"
+                }
+            ]
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "50",
+            "color_bkg"     : "transparent",
+            "readme"        : "height in px",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "img",
+            "bgcolor"       : "transparent",
+            "img"           : "24.215-x.jpg",
+            "url"           : "#",
+            "this"          : "IMG 24.215-x"
+        },
+        {
+            "type"              : "columns",
+            "font"              : "Cabin",
+            "margin_sides"      : "0",
+            "margin_top"        : "0",
+            "margin_bottom"     : "0",
+            "color_bkg"         : "transparent",
+            "this"              : "",
+            "columns"           :
+            [
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "transparent",
+                    "widthp100"     : "100",
+                    "imgwidth"      : "600",
+                    "mtop"          : "0",
+                    "img"           : "24.215-x.jpg",
+                    "imgulr"        : "#",
+                    "THISIMG"       : "IMG 24.215-x"
+                }
+            ]
+        },
+        {
+            "type"          : "p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "width"         : "80%",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "color_bkg"     : "transparent",
+            "margin_top"    : "40",
+            "margin_bottom" : "40",
+            "content"       : "Tu Equipo IQOS",
+            "this"          : "Tu Equipo IQOS"
+        },
+        {
+            "type"          : "disclaimer",
+            "bgcolor"       : "transparent",
+            "align"         : "justify",
+            "color"         : "#34303d",
+            "fontsize"      : "11",
+            "txt"           : "LEGALES_TBD",
+            "this"          : "LEGALES DE ESTE CORREO"
+        },
+        {
+            "type"          : "spacer",
+            "height"        : "16",
+            "color_bkg"     : "transparent",
+            "this"          : "spacer"
+        },
+        {
+            "type"          : "footer_bw_v1_lowercase"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

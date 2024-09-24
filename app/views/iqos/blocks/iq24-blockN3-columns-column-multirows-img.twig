@@ -1,0 +1,30 @@
+{#
+  N3-img
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ img
+
+#}
+{%- block iq24_multirows_img -%}
+                                                                <table pik-descriptor="column-{{idx}}-[multirows-row-{{idxrow}}-img]" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}}" role="presentation">
+                                                                  <tbody>{% if blocks[index].columns[idx].rows[idxrow].mtop != 0 ~%}
+                                                                    <tr pik-inner-element="column-multirow-img-margin-top">
+                                                                      <th valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:transparent;" height="{{blocks[index].columns[idx].rows[idxrow].mtop}}">&nbsp;</th>
+                                                                    </tr>{% endif ~%}
+                                                                    <tr pik-inner-element="column-multirow-img">
+                                                                      <th style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};width:100%;">
+                                                                        <div style=" {% if blocks[index].columns[idx].rows[idxrow].align == "center" ~%} margin: 0 auto; {% else ~%} margin: 0; float: {{blocks[index].columns[idx].rows[idxrow].align}}; {% endif ~%} padding:0; background-color:transparent; width:{{blocks[index].columns[idx].rows[idxrow].width_pc}}%; "> {% if blocks[index].columns[idx].rows[idxrow].url is defined and blocks[index].columns[idx].rows[idxrow].url != "#" ~%}
+                                                                          <a href="{{blocks[index].columns[idx].rows[idxrow].url}}" target="_blank">{% endif ~%}
+                                                                            <img src="{{BaseURLimg}}{{blocks[index].columns[idx].rows[idxrow].img}}" width="100%" height="auto" alt="" style="line-height:0;font-size:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border:none;display:block;width:100%;">{% if blocks[index].columns[idx].rows[idxrow].url is defined and blocks[index].columns[idx].rows[idxrow].url != "#" ~%}
+                                                                          </a>{% endif ~%}
+                                                                        </div>
+                                                                      </th>
+                                                                    </tr>{% if blocks[index].columns[idx].rows[idxrow].mbottom != 0 ~%}
+                                                                    <tr pik-inner-element="column-multirow-img-margin-bottom">
+                                                                      <th valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:transparent;" height="{{blocks[index].columns[idx].rows[idxrow].mbottom}}">&nbsp;</th>
+                                                                    </tr> {% endif ~%}
+                                                                  </tbody>
+                                                                </table>{% endblock ~%}

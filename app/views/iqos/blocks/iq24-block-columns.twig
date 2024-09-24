@@ -1,0 +1,49 @@
+{% block iq24_columns %}
+{% set columnsBlockWidth = 100 - 2*blocks[index].msides ~%}
+                          <tr pik-mail-block="iq24-columns">
+                            <th valign="middle" style="text-align:center;background-color:{{blocks[index].bgcolor}};" class="horizontal-grid">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%; background-color:{{blocks[index].bgcolor}};" role="presentation">
+                                <tbody>
+                                  <tr>{% if blocks[index].msides != 0 ~%}
+                                    <th pik-th-descriptor="columns-left-margin" valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{blocks[index].msides}}%" width="{{blocks[index].msides}}%">&nbsp;</th>{% endif ~%}
+                                    <th pik-th-descriptor="columns-content" valign="middle" style="text-align:center; width:{{ columnsBlockWidth }}%;" class="horizontal-grid" width="{{ columnsBlockWidth }}%" >
+                                      <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                        <tbody>{% if blocks[index].mtop != 0 ~%} 
+                                          <tr pik-inner-element="columns-margin-top" style="background-color:transparent;">
+                                            <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].mtop}}">&nbsp;</th>
+                                          </tr>{% endif ~%}
+                                          <tr pik-inner-element="columns-container">
+                                            <th>  
+                                              <table valign="top" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                <tbody>
+                                                  <tr pik-inner-element="columns-content"> {#- START ciclo for columnas -#}
+                                                    {%- for idx in blocks[index].columns|keys -%}
+                                                      {%- if blocks[index].columns[idx].coltype == "img" -%}                 {#~ OK COLUMNA img ~#}
+                                                        {{ block("iq24_column_img"      , "iq24-blockN2-columns-column-img.twig") -}}
+                                                      {%- elseif blocks[index].columns[idx].coltype == "spacer" -%}         {#~ OK: COLUMNA spacer ~#}
+                                                        {{ block("iq24_column_spacer"   , "iq24-blockN2-columns-column-spacer.twig") -}}
+                                                      {%- elseif blocks[index].columns[idx].coltype == "multirows" -%}      {#~ EN PROGRESO COLUMNA multirows ~#}
+                                                        {{ block("iq24_column_multirows", "iq24-blockN2-columns-column-multirows.twig") -}}
+                                                      {%- elseif blocks[index].columns[idx].coltype == "txt_cta" -%}        {#~ TBD:  COLUMNA txt-cta ~#}
+                                                        {{ block("column_img", "blocks_v2/block-columns-column-img.twig") -}}
+                                                      {%- elseif blocks[index].columns[idx].coltype == "txt_pframed" -%}    {#~ TBD: COLUMNA pframed ~#}
+                                                        {{ block("column_pframed", "blocks_v2/block-columns-column-pframed.twig") -}}
+                                                      {% endif -%}
+                                                    {% endfor ~%}
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </th>
+                                          </tr>{% if blocks[index].mbottom != 0 ~%}
+                                          <tr pik-inner-element="columns-margin-bottom"  style="background-color:transparent;">
+                                            <th valign="top" style="background-color:transparent; text-align:left; font-size:1px; line-height:1px" class="horizontal-gutter" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                                          </tr>{% endif ~%}
+                                        </tbody>
+                                      </table>
+                                    </th>{% if blocks[index].msides != 0 ~%}
+                                    <th pik-th-descriptor="columns-right-margin" valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{blocks[index].msides}}%" class="vertical-gutter" width="{{blocks[index].msides}}%">&nbsp;</th>{% endif ~%}
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>{% endblock ~%}

@@ -1,0 +1,86 @@
+{% block form_v2 %}
+                            
+                            <tr pik-mail-block="form">
+                              <th valign="middle" style="text-align:left;background-color:{{blocks[index].color_bkg}};" class="horizontal-grid">
+                                <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="{{blocks[index].width}}" style="min-width:{{blocks[index].width}};background-color:{{blocks[index].form_bgcolor}}" role="presentation">
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="3" valign="top" style="font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+                                        </tr>
+                                        <tr>
+                                        <th colspan="3" style="text-align:{{blocks[index].q_align}};">
+                                            <span style="width:100%; margin:0 auto; font-weight:{{blocks[index].q_fontweight}}; font-size:{{blocks[index].q_fontsize}}px; color:{{blocks[index].q_color}};  text-align:{{blocks[index].q_align}}; line-height:{{blocks[index].q_height}}px; font-family: '{{fontFamily}}', Gotham, Arial, sans-serif;" class="fallback-text">
+                                            {{blocks[index].question|raw}}</span>
+                                        </th>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3" valign="top" style="font-size:1px;line-height:1px" class="horizontal-gutter" height="20">&nbsp;</th>
+                                        </tr>
+
+                                        <tr>
+                                            <th style="text-align:{{blocks[index].align}};" width="5%">&nbsp;</th>
+                                            <th style="text-align:{{blocks[index].align}};" width="90%">
+                                                <form id="{{blocks[index].ID}}" action="{{blocks[index].formurl}}" method="post">
+                                                    <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;background-color:{{blocks[index].form_bgcolor}}" role="presentation">
+                                                        <tbody>
+                                                        {% for idx in blocks[index].list|keys %}
+                                                        {% if blocks[index].list[idx].type == "radio" %}
+
+                                                            <tr>
+                                                            <th valign="left" style="text-align:left;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.4}}px;padding-top:0px;" class="">
+                                                                <label class="containerradiobutton" style="display: block; padding-left: 20px; position: relative; margin-bottom: 5px; line-height:{{blocks[index].fontsize * 1.4}}px; font-size:{{blocks[index].fontsize}}px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+                                                                <input style="display: inline; padding-left: 0px; margin-left: -20px!important; position: relative; margin-bottom: 5px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" type="radio" {% if blocks[index].list[idx].checked != ""  %}checked="checked"{% endif %} name="{{blocks[index].list[idx].name}}" alias="{{blocks[index].list[idx].value}}"  value = "{{blocks[index].list[idx].value}}">
+                                                                <span class="checkmark"></span>
+                                                                <span style="font-weight:{{blocks[index].fontweight}};">
+                                                                    {{blocks[index].list[idx].txt|raw}}
+                                                                </span>
+                                                                </label> 
+                                                            </th>
+                                                            </tr>
+                                                        {% elseif blocks[index].list[idx].type == "textarea" %}
+
+                                                            <tr>
+                                                            <th valign="center" style="text-align:center;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.4}}px;padding-top:0px;" class="">
+                                                                <label class="containerradiobutton" style="display: block; padding-left:0px; position: relative; margin-bottom: 5px; line-height:{{blocks[index].fontsize * 1.4}}px; font-size:{{blocks[index].fontsize}}px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+                                                                <span >{{blocks[index].list[idx].txt}}</span>
+                                                                </label>
+                                                                <textarea style="text-align:left;display: block; padding: 5px; margin: auto; position: relative; margin-bottom: 5px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;" type="textarea" name="{{blocks[index].list[idx].name}}" cols="40" rows="6" value = "">
+                                                                </textarea>
+                                                            </th>
+                                                            </tr>
+                                                        {% endif %}
+
+                                                            <tr>
+                                                                <th colspan="3" valign="top" style="font-size:1px;line-height:1px;" class="horizontal-gutter" height="14">&nbsp;</th>
+                                                            </tr>
+
+                                                        {% endfor %}
+                                                        </tbody>
+                                                    </table>
+                                                </form>
+                                            </th>
+                                            <th style="text-align:{{blocks[index].align}};" width="5%">&nbsp;</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="{{blocks[index].width}}" style="min-width:{{blocks[index].width}};background-color:{{blocks[index].button_bgcolor}}" role="presentation">
+                                    <tbody>
+                                        <tr>
+                                            <th colspan="3" valign="top" style="font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].buttom_mtop}}">&nbsp;</th>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" valign="middle" style="text-align:center;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.4}}px;padding-top:10px; background-color:transparent;" class="">
+                                                <input type="image" name="submit" src="{{blocks[index].button}}" alt="Enviar" width="{{blocks[index].buttonwidth}}" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="3" valign="top" style="font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].buttom_mbottom}}">&nbsp;</th>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                              </th>
+                            </tr>
+
+
+{% endblock %}

@@ -1,10 +1,11 @@
-#!/usr/local/Cellar/php@7.4/7.4.33_1/bin/php
+#!/usr/bin/env php
 <?php
 /**
  *  To run this script in the command line:
- *      1.- Add in the first line the PHP full path: #!/usr/local/Cellar/php@7.4/7.4.33_1/bin/php
- *      2.- in command line run:    chmod +x mk_folders.php
+ *      1.- Add the shebang in the first line: #!/usr/bin/env php
+ *      2.- set permissions: chmod +x mk_folders.php
  *      3.- run the script as: ./mk_folders.php
+ * 
  */
 
 include_once("includes_v2/functions_v2.php");

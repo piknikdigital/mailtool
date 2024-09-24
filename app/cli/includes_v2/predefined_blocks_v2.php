@@ -9,6 +9,490 @@
 $libraryBlocks = array();
 
 
+/** ----------------------------------------------------
+ *    START CRM 2024-08    Plantilla iqos-2024-v1.twig
+ * 
+ *      variables comunes
+ *          bgcolor     color de fondo
+ *          url         anchor link <a>
+ *          mtop        margin top px
+ *          mbottom     margin bottom px
+ *          msides      margin sides %
+ *          txt         texto del elemento
+ *          font        font family
+ *          color       color font
+ *          fontsize    font size
+ *          fontweight  font weight
+ *          width       width px
+ *          width_pc    width %
+ *          
+ *          
+ *          
+ *  -----------------------------------------------------
+ */
+
+
+$libraryBlocks['iqos24-header-iqos'] ='
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-iqos-bw.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG header IQOS New Brand World",
+            "version"       : "iqos-2024-v1.twig"
+        },';
+$libraryBlocks['iqos24-center-img'] ='
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "22.id-x.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 22.id-x",
+            "version"       : "iqos-2024-v1.twig"
+        },';
+ 
+$libraryBlocks['iqos24-footer-iqos'] ='
+        {
+            "type"          : "iq24-footer-iqos",
+            "version"       : "iqos-2024-v1.twig"
+        }';
+$libraryBlocks['iqos24-legales-iluma'] ='
+        {
+            "type"          : "iq24-legales-iluma",
+            "font"          : "\'Noto Sans\', Gotham, Arial, sans-serif",
+            "bgcolor"       : "transparent",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ILUMA",
+
+            "items" :
+            [
+                {
+                    "txt"   : "LEGALES_TBD",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },';
+$libraryBlocks['iqos24-cta'] ='
+        {
+            "type"          : "iq24-cta",
+            "bgcolor"       : "transparent",
+            "img"           : "btn.png",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "20",
+            "mbottom"       : "0",
+            "width_pc"      : "34",
+            "this"          : "CTA btn"
+        },';
+$libraryBlocks['iqos24-greeting'] ='
+        {
+            "type"          : "iq24-greeting",
+            "fontweight"    : "700",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },';
+$libraryBlocks['iq24-greeting-over-img'] ='
+        {
+            "type"          : "iq24-greeting-over-img",
+            "fontweight"    : "700",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "toppositioning": "-130",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },';
+$libraryBlocks['iqos24-p700'] ='
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },';
+$libraryBlocks['iqos24-p300'] ='
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "txtclass"      : "txt_18",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },';
+$libraryBlocks['iqos24-columns'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "16",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "20",
+                            "mbottom"   : "5",
+                            "width_pc"  : "80",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "Scourge of the seven seas scuttle cutlass league.",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "18",
+                                    "height"      : "22",
+                                    "txtclass"    : "txt_18",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype"       : "spacer",
+                            "height"        : "20px",
+                            "bgcolor"       : "transparent"
+                        },
+                        {
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "<b>Información importante:</b> Gregor Samsa woke from troubled dreams.",
+                            "fontweight"    : "300",
+                            "fontsize"      : "9",
+                            "height"        : "11",
+                            "txtclass"      : "txt_9",
+                            "align"         : "center",
+                            "width_pc"      : "90",
+                            "mtop"          : "5",
+                            "mbottom"       : "5",
+                            "color"         : "#000000",
+                            "framecolor"    : "#000000",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "5",
+                            "border"        : "1",
+                            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                        },
+                        {
+                            "rowtype"  : "cta1_cta2",
+                            "bgcolor"  : "transparent",
+                            "mtop"     : "20",
+                            "mbottom"  : "0",
+                            "msides"   : "0",
+                            "cta"      : [
+                                {
+                                    "img"           : "btn.png",
+                                    "url"           : "#",
+                                    "img_width_pc"  : "80",
+                                    "align"         : "left"
+                                },
+                                {
+                                    "img"           : "btn.png",
+                                    "url"           : "#",
+                                    "img_width_pc"  : "80",
+                                    "align"         : "left"
+                                }
+                            ],
+
+                            "this"          : "CTA1 /CTA2"
+                        },
+                        {
+                            "README"       : "TO BE IMPLEMENTED",
+                            "rowtype"      : "ico_txt",
+                            "bgcolor"      : "transparent",
+                            "mtop"         : "20",
+                            "mbottom"      : "0",
+                            "ico"          : {
+                                    "width_pc"     : "150",
+                                    "img_width_pc" : "80",
+                                    "img"          : "ico.png",
+                                    "url"          : "#",
+                                    "align"        : "left",
+                                    "mtop"         : "20",
+                                    "mbottom"      : "0"
+                            },
+                            "text"         : {
+                                    "txt"        : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                                    "bgcolor"    : "transparent",
+                                    "fontweight" : "300",
+                                    "fontsize"   : "18px",
+                                    "height"     : "22px",
+                                    "align"      : "center",
+                                    "color"      : "#34303d",
+                                    "mtop"       : "20",
+                                    "mbottom"    : "0"
+                            },
+                            "this"       : "IMG - TXT"
+                        },
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "80",
+                            "mtop"          : "20",
+                            "mbottom"       : "0",
+                            "color"         : "#ffffff",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "COMPARTE TU CODIGO",
+                            "rowtype"       : "img",
+                            "img"           : "cta-compartir-codigo.png",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "15",
+                            "mbottom"       : "0",
+                            "width_pc"      : "80",
+                            "align"         : "center",
+
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK"        : "https://wa.me/?text=",
+                            "url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "cta-compartir-codigo"
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        }
+                    ]
+                }
+            ]
+        },';
+$libraryBlocks['iqos24-spacer'] ='
+        {
+            "type"        : "spacer",
+            "height"      : "50",
+            "bgcolor"     : "transparent"
+        },';
+$libraryBlocks['iqos24-canales-de-comunicacion'] ='
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "txtclass"      : "txt_22",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "¿Tienes dudas?",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "300",
+            "fontsize"      : "18",
+            "height"        : "24",
+            "txtclass"      : "txt_18",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "20",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Contáctanos en cualquiera de nuestros canales<br>de comunicación.",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#FFFFFF",
+            "this"      : "Canales de comunicación",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "#FFFFFF",
+                    "width_pc"      : "16",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-telefono.png",
+                    "imgulr"        : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-cancom-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-chat.png",
+                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "THISIMG"       : "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-sms.png",
+                    "imgulr"        : "https://cutt.ly/59uY4Ga",
+                    "THISIMG"       : "IMG ico-cancom-sms"
+                },
+                {
+                    "coltype"       : "img",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "17",
+                    "imgwidth"      : "90",
+                    "mtop"          : "0",
+                    "img"           : "ico-cancom-ig.png",
+                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
+                    "THISIMG"       : "IMG ico-cancom-ig"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "color_bkg"     : "#FFFFFF",
+                    "widthp100"     : "16",
+                    "mtop"          : "0"
+                }
+            ]
+        },';
+$libraryBlocks['iqos24-Tu-Equipo-IQOS'] ='
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Tu Equipo IQOS",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },';
+
+
+/** ----------------------------------------------------
+ *    END CRM 2024-08    Plantilla iqos-2024-v1.twig
+ *  -----------------------------------------------------
+ */
+
+
 $libraryBlocks['header_mgm_tu_codigo_unico'] ='
         {
             "type"              : "columns",
@@ -455,13 +939,13 @@ $libraryBlocks['p300_BW'] ='
             "fontweight"    : "300",
             "fontsize"      : "18",
             "height"        : "24",
-            "width"         : "80%",
+            "width"         : "100%",
             "align"         : "center",
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "0",
-            "content"       : "<span style=\"color:#00d1d2;\">IQOS</span> Quis autem<span style=\"font-size:12px;\"><sup>(1)</sup></span> vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Gummies dessert pastry chocolate cupcake.",
             "this"          : "TXT"
         },';
 $libraryBlocks['p700_BW'] ='
@@ -471,13 +955,13 @@ $libraryBlocks['p700_BW'] ='
             "fontweight"    : "700",
             "fontsize"      : "20",
             "height"        : "26",
-            "width"         : "80%",
+            "width"         : "100%",
             "align"         : "center",
             "color"         : "#34303d",
             "color_bkg"     : "transparent",
             "margin_top"    : "50",
             "margin_bottom" : "0",
-            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Et harum quidem rerum facilis est et expedita distinctio.",
+            "content"       : "<span style=\"color:#e4ab68;\">IQOS</span> Gummies dessert pastry chocolate cupcake.",
             "this"          : "TXT"
         },';
 $libraryBlocks['cta1_v2'] ='
@@ -519,6 +1003,30 @@ $libraryBlocks['stageIMG'] ='
                     "img"           : "22.id-x.jpg",
                     "imgulr"        : "#",
                     "THISIMG"       : "IMG 22.id-x"
+                }
+            ]
+        },';
+$libraryBlocks['bloque_legales_iluma'] ='
+        {
+            "type"          : "disclaimer_iluma_dark_and_light",
+            "font"          : "\'Noto Sans\', Gotham, Arial, sans-serif",
+            "bgcolor"       : "transparent",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ILUMA",
+
+            "items" :
+            [
+                {
+                    "txt"   : "LEGALES_TBD",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ILUMA - Duty To Inform}"
                 }
             ]
         },';
@@ -597,7 +1105,7 @@ $libraryBlocks['columns'] ='
                     [
                         {
                             "rowtype"       : "p",
-                            "p"             : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "p"             : "Scourge of the seven seas scuttle cutlass league.",
                             "color_bkg"     : "transparent",
                             "p_fontweight"  : "300",
                             "p_fontsize"    : "18px",
@@ -615,7 +1123,7 @@ $libraryBlocks['columns'] ='
                         {
                             "rowtype"       : "pframed",
                             "color_bkg"     : "transparent",
-                            "p"             : "<b>Información importante:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                            "p"             : "<b>Información importante:</b> Gregor Samsa woke from troubled dreams.",
                             "fontweight"    : "300",
                             "fontsize"      : "9",
                             "lineheight"    : "11",
@@ -697,7 +1205,7 @@ $libraryBlocks['columns'] ='
                             "framepadding"  : "8",
                             "border"        : "2",
                             
-                            "this"          : ""
+                            "this"          : "TXT Turquesa: #00d1d2 | Slate: #34303d"
                         },
                         {
                             "README"         : "TURQUESA COMPARTE TU CODIGO UNICO",
@@ -711,8 +1219,19 @@ $libraryBlocks['columns'] ='
 
                             "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
                             "url_ctaDECODED"       : "whatsapp://send?text=",
+
                             "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
                             "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
                             "ulr_NOK"              : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
                             "ulr_OK"               : "https://wa.me/?text=",
                             "imgulr"               : "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
@@ -1588,6 +2107,80 @@ $libraryBlocks['form'] ='
             "html_NOPE"          : "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
             "this"          : "HTML RAW"
         },';
+$libraryBlocks['form_v2'] ='
+        {
+            "type"          : "form_v2",
+            "ID"            : "form1",
+            "color_bkg"     : "transparent",
+            "fontweight"    : "300",
+            "fontsize"      : "16",
+            "align"         : "left",
+            "width"         : "80%",
+            "form_bgcolor"  : "#edeeed",
+
+            "question"      : "¿Scis quid si ne subito placuit ire in opus?",
+            "q_fontweight"  : "700",
+            "q_fontsize"    : "24",
+            "q_color"       : "#34303d",
+            "q_align"       : "center",
+            "q_height"      : "28",
+            
+            "formurl"       : "#",
+            "formurl_HTML"  : "http://mailtool.lan:8888/form.php",
+            "formurl_DCE"   : "#",
+            
+            "button"        : "enviar.png",
+            "button_bgcolor": "white",
+            "buttonwidth"   : "180",
+            "buttom_mtop"   : "0", 
+            "buttom_mbottom": "0",
+                
+            "this"          : "",
+
+            "list" :  
+            [
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checkedEJ" : "checked",
+                    "checked"   : "",
+                    "value"     : "Survey_1",
+                    "txt"       : "Solo uso IQOS."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_2",
+                    "txt"       : "Uso IQOS tanto como fumo cigarros pero fumo cigarros con mayor frecuencia."
+                },
+                {
+                    "name"      : "survey_reply",
+                    "type"      : "radio",
+                    "class"     : "container",
+                    "checked"   : "",
+                    "value"     : "Survey_3",
+                    "txt"       : "Solo fumo cigarros."
+                }
+            ]
+        },
+        {
+            "type"          : "rawHTML_______ACTIVATE_THIS_FOR_DCE_OR_LOCAL",
+            "th_valign"     : "",
+            "th_style"      : "",
+            "th_align"      : "",
+            "html"          : "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "th_valign_NOPE"     : "top",
+            "th_style_NOPE"      : "text-align:center;margin:0;padding:0;",
+            "th_align_NOPE"      : "center",
+            "html_NOPE"          : "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
+            "this"          : "HTML RAW"
+        },';
+
+
+
 $libraryBlocks['mgm_coupon_1'] ='
         {
             "type"          : "pframed",

@@ -1,11 +1,11 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 /**
  *  To run this script in the command line:
- *      1.- Add in the first line: #!/usr/bin/php
- *      2.- in command line run:    chmod +x mkjson.php
- *      3.- run the script as: ./mkjson.php  ID
- *          Example:  ./mkjson.php 208
+ *      1.- Add the shebang in the first line: #!/usr/bin/env php
+ *      2.- set permissions: chmod +x mk_json.php
+ *      3.- run the script as: ./mk_json.php  ID
+ *          Example:  ./mk_json.php 208
  */
 
 

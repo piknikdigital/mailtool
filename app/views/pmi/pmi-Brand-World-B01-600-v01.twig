@@ -1822,6 +1822,10 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                               </th>
                             </tr>
 
+                          {% elseif blocks[index].type == "form_v2" %}
+                            {{ block("form_v2", "blocks_v2/block-form-v2.twig") }}
+
+
                           {% elseif blocks[index].type == "codebutton1" %}
 
                             <tr pik-mail-block="codebutton1">
@@ -1935,6 +1939,10 @@ v1. version inicial. Derivada de pmi-Brand-World-A02-600-v03.twig
                                 </table>
                               </th>
                             </tr>
+
+                          {% elseif blocks[index].type == "disclaimer_iluma_dark_and_light" %}
+                            {{ block("disclaimer_iluma_dark_and_light", "blocks_v2/block-iluma-legal.twig") }}
+
 
                           {% elseif blocks[index].type == "logoprefooter"%}
 

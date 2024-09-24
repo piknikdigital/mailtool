@@ -1,0 +1,239 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > 222_NA 22 07 2024 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_LOCAL_VENTA_20%_TOGETHERX_13AGOSTO",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH.html"},
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2407/pmi-240722-leads-togetherx/pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "pmi/pmi-Brand-World-B01-600-v01.twig",
+    "Source"           :   "pmi-240722-ID24.220-leads-venta-20pc-togetherx-13-ago-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.220 LEADS_LOCAL_VENTA_20%_TOGETHERX_13AGOSTO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#000000",
+      "blocks" : 
+    [
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/89c57784-534b-4f64-9875-cc351b680dcb.png",
+            "url": "#",
+            "this": "IMG header IQOS Brand World"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6475848c-678a-4af4-9325-44b62697a4e1.jpg",
+            "url": "https://eventosiqos.com/",
+            "this": "CTA CONOCE MAS IMG 24.220-1b"
+        },
+        {
+            "type": "greeting_v2",
+            "fontweight": "700",
+            "color_greeting": "#ffffff",
+            "color_bkg": "transparent",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "greeting": "Hola, %%FirstName%%",
+            "this": "Hola [nombre]"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "22",
+            "height": "26",
+            "width": "100%",
+            "align": "center",
+            "color": "#FFFFFF",
+            "color_bkg": "transparent",
+            "margin_top": "40",
+            "margin_bottom": "20",
+            "content": "¡El siguiente nivel de tabaco calentado <br> <span style=\"color:#00d1d2;font-weight:700;\">está esperando por ti!</span>",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6f898f40-1421-4ed3-9645-1a69fec609a9.jpg",
+            "url": "#",
+            "this": "IMG 24.220-2"
+        },
+        {
+            "type": "p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "11",
+            "height": "15",
+            "width": "90%",
+            "align": "center",
+            "color": "#ffffff",
+            "color_bkg": "transparent",
+            "margin_top": "10",
+            "margin_bottom": "20",
+            "content": "Información importante: No necesariamente equivale a una reducción de riesgo del 95%. IQOS no es libre de riesgo. <br>* Fuente: Reducciones promedio de los niveles de una amplia gama de químicos dañinos (excluyendo la nicotina) en comparación con el humo de una referencia estándar del cigarrillo (3R4F). No necesariamente equivale a una reducción del riesgo del 95%.",
+            "this": "TXT"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/4d2eb8ce-4764-4568-9aaa-910dda5e0356.jpg",
+            "url": "#",
+            "this": "IMG 24.220-3b"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c15c5388-1a57-43bb-ae09-97ba95d2d852.jpg",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html",
+            "this": "CTA LO NECESITO - ILUMA PRIMEIMG 24.220-4c"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6104aa39-1e60-47a3-b842-d3dcfab73acc.jpg",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-verde.html",
+            "this": "CTA COMPRAR AHORA - ILUMA IMG 24.220-5c"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c2188920-fb37-4cc1-b81f-cb20e2a843dc.jpg",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-magenta.html",
+            "this": "CTA lo quiero - ILUMA ONE IMG 24.220-6c"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6b5dced2-33b5-47a9-aa7a-8f3385c10fa6.jpg",
+            "url": "https://eventosiqos.com/",
+            "this": "CTA CONOCE MAS IMG 24.220-7b"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/94780f40-4ccc-45d7-ac87-7d6486c0364a.jpg",
+            "url": "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+            "this": "CTA VER TIENDAS IQOS IMG 24.220-8b"
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bd065962-cbed-4821-adbd-a36f85d88998.jpg",
+            "url": "#",
+            "this": "IMG 24.220-9b"
+        },
+        {
+            "type": "columns",
+            "font": "Cabin",
+            "margin_sides": "0",
+            "margin_top": "0",
+            "margin_bottom": "0",
+            "color_bkg": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "51",
+                    "imgwidth": "306",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/13620e84-f97d-453f-8249-1eed6d2bb56c.jpg",
+                    "imgulr": "#",
+                    "THISIMG": "IMG 22.218-10b"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "16",
+                    "imgwidth": "96",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/1f999001-3d56-4b2d-abdf-e7588c686d5a.jpg",
+                    "imgulr": "https://www.instagram.com/iqos_mx/",
+                    "THISIMG": "IMG 22.218-11b"
+                },
+                {
+                    "coltype": "img",
+                    "color_bkg": "transparent",
+                    "widthp100": "33",
+                    "imgwidth": "198",
+                    "mtop": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c505df44-b124-4224-b11a-8d8e091865a1.jpg",
+                    "imgulr": "https://www.facebook.com/iqosmx/",
+                    "THISIMG": "IMG 22.218-12b"
+                }
+            ]
+        },
+        {
+            "type": "img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/daea5d47-94b2-441f-9bb4-fa59b3260c8f.jpg",
+            "url": "#",
+            "this": "IMG 24.220-13b"
+        },
+        {
+            "type": "disclaimer_iluma_dark_and_light",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "#FFFFFF",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "(1) Aplican restricciones. Consulta <a href=\"https://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> de Together x Sensorium <a href=\"https://eventosiqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">aquí.</a>        <br><br>    (2) Válido al 31 de agosto de 2024, aplicable en la compra de tu primer Kit IQOS ILUMA, en iqos.com, tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> Códigos de Descuento | IQOS México.        <br><br>    (3) Prueba Guiada disponible solo en Sanborns seleccionados. Consulta la lista en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> ",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "footer_bw_v1_lowercase"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

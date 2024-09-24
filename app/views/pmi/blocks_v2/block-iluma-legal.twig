@@ -1,0 +1,33 @@
+{% block disclaimer_iluma_dark_and_light %}
+
+                            <tr pik-mail-block="legal-iluma" style="background-color:{{blocks[index].bgcolor}};">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;background-color:{{blocks[index].bgcolor}}" role="presentation">
+                                <tbody>
+                                  <tr pik-mail-block="legal-iluma-spacer-top" style="background-color:transparent;">
+                                    <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mtop}}">&nbsp;</th>
+                                  </tr>  {% for idx in blocks[index].items|keys %}  {% if idx != 0 %} {% set block_spacertop = "<br>" %} {% else %}{% set block_spacertop = "" %}{% endif %} {% if blocks[index].items[0].txt == "" %}{% set block_spacertop = "" %}{% endif%}
+                                  
+                                  <tr pik-mail-block="legal-iluma-txt">
+                                    <th valign="top" style="text-align:{{blocks[index].align}};background-color:transparent;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.2}}px" class="horizontal-gutter">
+                                      <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="auto" {#style="width:600px"#} role="presentation">
+                                        <tbody>
+                                        <tr>
+                                          <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                          <th valign="middle" style="text-align:{{blocks[index].align}}" align="{{blocks[index].align}}">
+                                          <span style="color:{{blocks[index].color}}; font-size:{{blocks[index].fontsize}}px;font-weight:300;font-family: {{blocks[index].font|raw}}; line-height:{{blocks[index].fontsize * 1.2}}px; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{blocks[index].align}};" class="fallback-text">{{block_spacertop|raw}}{{blocks[index].items[idx].txt|raw}}</span>
+                                          </th>
+                                          <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="12%">&nbsp;</th>
+                                        </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr> {% endfor%}
+
+                                  <tr pik-mail-block="legal-iluma-spacer-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </tr>
+
+{% endblock %}

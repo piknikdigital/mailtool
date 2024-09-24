@@ -1,13 +1,14 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php
 /**
  *  To run this script in the command line:
- *      1.- Add in the first line: #!/usr/bin/php
- *      2.- in command line run:    chmod +x mkhtml.php
- *      3.- run the script as: ./mkhtml.php  ID
- *          Example:  ./mkhtml.php 208 
+ *      1.- Add the shebang in the first line: #!/usr/bin/env php
+ *      2.- set permissions: chmod +x mk_html.php
+ *      3.- run the script as: ./mk_html.php  ID
+ *          Example:  ./mk_html.php 208 
  */
 
+// echo dirname(dirname(__DIR__)) ;  echo PHP_EOL; die;
 
 require_once '../../vendor/autoload.php';
 include_once("includes_v2/functions_v2.php"); 
@@ -89,7 +90,16 @@ $twigData = loadjson($f1);
 $twigData['isWebVer'] = 0;     // HTML version for mail
 
 // LOAD TWIG TEMPLATE ----------------------------------------------------
-$loader = new \Twig\Loader\FilesystemLoader('../../app/views/pmi');
+// $loader = new \Twig\Loader\FilesystemLoader('../../app/views/pmi');
+$loader = new \Twig\Loader\FilesystemLoader(
+    array(   dirname(dirname(__DIR__)) ."/app/views/iqos/", 
+             dirname(dirname(__DIR__)) ."/app/views/iqos/templates/", 
+             dirname(dirname(__DIR__)) ."/app/views/iqos/blocks/", 
+             dirname(dirname(__DIR__)) ."/app/views/ms/", 
+             dirname(dirname(__DIR__)) ."/app/views/pmi/", 
+             dirname(dirname(__DIR__)) ."/app/views/system/" 
+    )
+);
 $twig = new \Twig\Environment($loader);
 $template = $twig->load($TwigTemplate);
 
@@ -150,6 +160,7 @@ function loadjson( $f )
         // echo var_export($filename, true); die;            
         // echo var_export($data, true); die;
         $twigData = json_decode($data, true);
+        // echo var_export($twigData, true); die;
         if ($twigData == NULL)
         {
             echo "\n\033[1;37;41m ERROR: \033[0m\n" .$filename . "\n\033[1;33m   No se puede decodificar.\033[0m Verificar sintaxis del archivo.\n   El error usualmente es por una coma faltante o sobrante." .PHP_EOL.PHP_EOL;

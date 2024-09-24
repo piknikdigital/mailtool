@@ -320,6 +320,7 @@ function create_environment($mes, $folder, $filename, $target, $footergrey,
 }
 
 // Usado por : mk_fork.php
+// ANTES: "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
 function fill_config( $a )
 {
     $config_template='{
@@ -331,7 +332,7 @@ function fill_config( $a )
         "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
 
         "MAMP-ON-MAC"      :   "http://localhost:8888/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/html/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html",
 
         "Subject"          :   "'.$a['subject'].'",
         "Preheader"        :   "'.$a['preheader'].'",
@@ -349,6 +350,7 @@ function fill_config( $a )
             { "urlD" : "https://paginum.com/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'" } ,
             { "urlS" : "https://paginum.com/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html"  },
             { "urlS" : "http://mailtool.lan:8888/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/'.$a['mes'].'/'.$a['folder'].'/'.$a['filename'].'.html" },
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
         ]
     },
@@ -364,7 +366,7 @@ function fill_config( $a )
 
     "target"                   :   "'.$a['target'].'",
 
-    "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
+    "TwigTemplate"     :   "' .$a['TwigTemplate'].'",
     "Source"           :   "' .$a['filename'].  '",
     "isWebVer"         :   " ",
     

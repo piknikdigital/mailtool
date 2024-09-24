@@ -5,6 +5,8 @@ class AppModel
     /**
      * 
      */
+    public $twigData;
+
     function __construct()
     {
 	}
