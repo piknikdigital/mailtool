@@ -64,11 +64,9 @@ if( file_exists( $arguments )  ){
     die;
 }
 
+
 $vars            = createEnvironment2($arguments, $target );
-
-
-
-//var_export($vars); die;
+// var_export($vars); die;
 
 
 if ($vars['id'] == "000")

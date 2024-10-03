@@ -3,13 +3,27 @@
     "replacements" : 
     [
         {
-            "HTML"  : "%%first_name%%",
-            "FSH"   : "%%FirstName%%",
-            "DCE"   : "%%=ProperCase(first_name)=%%"
+            "brand"   : "pmi",
+            "this"    : "IQOS - strings de reemplazo",
+            "strings" : [
+                {
+                    "HTML"     : "%%first_name%%",
+                    "FSH"      : "%%FirstName%%",
+                    "DCE"      : "%%=ProperCase(first_name)=%%"
+                }
+            ]
+        },
+        {
+            "brand"   : "zyn",
+            "this"    : "ZYN - strings de reemplazo",
+            "strings" : [
+                {
+                    "HTML"     : "%%first_name%%",
+                    "FSH"      : "%%=Uppercase(FirstName)=%%",
+                    "DCE"      : "%%=Uppercase(first_name)=%%"
+                }
+            ]
         }
-
-
-
     ]
 }
 

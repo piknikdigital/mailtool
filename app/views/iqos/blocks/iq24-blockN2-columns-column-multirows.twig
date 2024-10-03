@@ -26,9 +26,14 @@
                                                                   {{ block("iq24_multirows_spacer"  , "iq24-blockN3-columns-column-multirows-spacer.twig") -}}
                                                                 {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "p" -%}                           {#~ multirow - row p ~#}
                                                                   {{ block("iq24_multirows_p"       , "iq24-blockN3-columns-column-multirows-p.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "salesforce_form" -%}                   {#~ multirow - raw HTML ~#}
+                                                                  {{ block("iq24_multirows_salesforce_form" , "iq24-blockN3-columns-column-multirows-salesforce-form.twig") -}}
+
+
+
+
                                                                 {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "cta1_cta2" -%}                   {#~ multirow - row cta1_cta2 TBD ~#}
                                                                   {{ block("iq24_multirows_cta1cta2", "iq24-blockN3-columns-column-multirows-cta1cta2.twig") -}}
-
                                                                 {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "cta1" -%}                        {#~ multirow - row cta1 TBD ~#}
                                                                   {{ block("multirows_cta1", "blocks_v2/block-columns-column-multirows-cta1.twig") -}}
                                                                 {% endif ~%}

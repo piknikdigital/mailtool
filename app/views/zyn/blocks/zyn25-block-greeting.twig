@@ -1,0 +1,12 @@
+{% block zyn25_greeting ~%}
+                          {% if blocks[index].mtop != "0" ~%}<tr pik-mail-block="greeting_spacer_top" style="background-color:{{blocks[index].bgcolor}};">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].mtop}}">&nbsp;</th>
+                          </tr>{% endif ~%}
+                          <tr pik-mail-block="greeting" style="background-color:{{blocks[index].bgcolor}};">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};text-align:center;font-size:{{blocks[index].fontsize}}px;font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;color:{{blocks[index].color}}" class="horizontal-gutter fallback-text" height="{{blocks[index].height}}">
+                              <span class="fallback-text txt_greeting" style="font-family: 'Figtree', Gotham, Arial, sans-serif;">{{blocks[index].txt|raw}}</span>
+                            </th>
+                          </tr>{% if blocks[index].mbottom != "0" ~%}
+                          <tr pik-mail-block="greeting_spacer_bottom" style="background-color:{{blocks[index].bgcolor}};">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                          </tr>{% endif -%}{% endblock -%}

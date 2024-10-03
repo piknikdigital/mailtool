@@ -55,6 +55,19 @@ $requiredBlocks = array(
 
 );
 
+
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
+$requiredBlocks__ZYN = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
 // MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
 $requiredBlocks2 = array(
     "header_brand_world",
@@ -317,7 +330,6 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
 
-
 ==== [Términos y Condiciones (MGM)] ========================
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
@@ -325,6 +337,13 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 ==== [Términos y Condiciones (Programa de Prestamo)] =======
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
+
+======= Códigos de Descuento | IQOS México. ​================
+<a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+============================================================
+
+
+
 
 
 

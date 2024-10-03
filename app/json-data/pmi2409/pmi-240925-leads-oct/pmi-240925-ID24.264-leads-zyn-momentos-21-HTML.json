@@ -1,0 +1,384 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2409/pmi-240925-leads-oct/pmi-240925-ID24.264-leads-zyn-momentos-21-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-240925-ID24.264-leads-zyn-momentos-21-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.264 LEADS_LOCAL_ZYN_MOMENTOS_21",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-iqos-bw.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG header IQOS New Brand World",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-1b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-1b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-greeting",
+            "fontweight"    : "700",
+            "color"         : "#003b5e",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "20",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d | ZYN: 003b5e"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-2b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-2b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-3.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-3",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-4b.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.zyn.com/mx/es/descubre-zyn/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "CTA DESCUBRE MAS  IMG 24.264-4b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-5b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-5b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-6b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-6b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-7b.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.zyn.com/mx/es/descubre-zyn/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : " CTA QUIERO PROBARLAS IMG 24.264-7b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-8.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-8",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-9b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "CTA VER MAS IMG 24.264-9b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-10b.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.zyn.com/mx/es/descubre-zyn/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "CTA PRUEBA ZYN IMG 24.264-10b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-11b.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.instagram.com/zyn_mxoficial/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-11b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-12b.jpg",
+            "alt"           :  "",
+            "url"           :  "%%unsub_center_url%%",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-12b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-13b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-13b",
+            "version"       : "iqos-2024-v1.twig"
+        },
+
+
+        {
+            "type"      : "iq24-columns____",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "LINKS FOOTER",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "33",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-15.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-15"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "26",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-16.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-16"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "13",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-17.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-17"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "28",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-18.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-18"
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns____",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "LOGOS, ICONS FOOTER",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "58",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-19.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.264-19"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "13",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-20.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-20"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "14",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-21.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-21"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "15",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.264-22.jpg",
+                    "url"           : "#LINK",
+                    "this"          : "IMG 24.264-22"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img___",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.264-23.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.264-23",
+            "version"       : "iqos-2024-v1.twig"
+        },
+
+        {
+            "type"          : "iq24-footer-iqos",
+            "version"       : "iqos-2024-v1.twig"
+        }
+
+    ],
+    
+    "END"            :   "#######################"
+
+}

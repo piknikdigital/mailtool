@@ -1,0 +1,66 @@
+{#
+  N3-p
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ salesforce_form
+
+#}
+{%- block iq24_multirows_salesforce_form -%}
+                            <table pik-descriptor="column-{{idx}}-[multirows-row-{{idxrow}}-salesforce-form]" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;" role="presentation">  
+                              <tbody>
+                                <tr pik-inner-element="multirow-column-salesforce-form" >
+                                  <th>                                 
+                                    <div data-type="slot" data-key="bspwz932ek9" data-label="Drop blocks or content here">
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+{% endblock ~%}
+
+
+
+
+
+
+
+{#
+
+
+
+
+
+                                                                      <th valign="top"  class="" >
+                                                                        <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0"  width="{{blocks[index].columns[idx].rows[idxrow].width_pc}}%" style="width:{{blocks[index].columns[idx].rows[idxrow].width_pc}}%; background-color:transparent;  margin:0 auto; " role="presentation">
+                                                                          <tbody>
+                                                                            {%- for i in blocks[index].columns[idx].rows[idxrow].texts | keys -%}
+                                                                            <tr>
+                                                                              <th style="text-align:  {{blocks[index].columns[idx].rows[idxrow].texts[i].align}};  line-height: {{blocks[index].columns[idx].rows[idxrow].texts[i].height}}px;  font-size :  {{blocks[index].columns[idx].rows[idxrow].texts[i].fontsize}}px; ">
+                                                                                <div style="width:100%;  {% if blocks[index].columns[idx].rows[idxrow].texts[i].align =="center" %}text-align:center; margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[idxrow].texts[i].align}};{% endif %}  font-weight:{{blocks[index].columns[idx].rows[idxrow].texts[i].fontweight}}; color:{{blocks[index].columns[idx].rows[idxrow].texts[i].color}}; font-family: '{{blocks[index].font}}', Gotham, Arial, sans-serif; "  class="fallback-text">
+                                                                                  <span class="{{blocks[index].columns[idx].rows[idxrow].texts[i].txtclass}}">{{blocks[index].columns[idx].rows[idxrow].texts[i].txt|raw}}
+                                                                                </div>
+                                                                              </th>
+                                                                            </tr>
+                                                                            {% endfor -%}
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </th>
+                                                                    </tr>
+                                                                    
+
+
+            "type"          : "rawHTML",
+            "th_valign"     : "",
+            "th_style"      : "",
+            "th_align"      : "",
+            "html"          : "<div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">",
+            "th_valign_NOPE"     : "top",
+            "th_style_NOPE"      : "text-align:center;margin:0;padding:0;",
+            "th_align_NOPE"      : "center",
+            "html_NOPE"          : "%%=ContentBlockbyKey(\"lending_form_mx\")=%%",
+            "this"          : "HTML RAW"
+
+
+#}

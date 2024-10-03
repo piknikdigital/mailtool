@@ -11,14 +11,18 @@ $app   = new AppControl;
 $klein->respond(function ($request, $response, $service, $app) use ($klein) {    
 
     $app->register("twig", function () {
-        $loader = new Twig_Loader_Filesystem( array( __DIR__ ."/app/views", 
+        // $loader = new Twig_Loader_Filesystem( 
+        $loader = new \Twig\Loader\FilesystemLoader(
+                                              array( __DIR__ ."/app/views", 
                                                      __DIR__ ."/app/views/ms/", 
                                                      __DIR__ ."/app/views/iqos/", 
+                                                     __DIR__ ."/app/views/zyn/", 
                                                      __DIR__ ."/app/views/pmi/", 
                                                      __DIR__ ."/app/views/system/" 
                                             ));
         // echo "<pre>". var_export($loader, true) . "</pre>"; // exit(0);
-        return new Twig_Environment($loader); 
+        // return new Twig_Environment($loader); 
+        return new \Twig\Environment($loader);
     });
 
     // set env for testing twig with strings
@@ -57,8 +61,11 @@ $klein->respond('GET',  '/[:project]/[:subdir]/[:id]'       , [ $app, 'renderjso
  */
 $klein->onHttpError(function ($code, $router, $app) {
 
-    $loader = new Twig_Loader_Filesystem( __DIR__ ."/app/views/system" );
-    $twig   = new Twig_Environment($loader);
+    // $loader = new Twig_Loader_Filesystem( __DIR__ ."/app/views/system" );
+    $loader = new \Twig\Loader\FilesystemLoader( __DIR__ ."/app/views/system" );
+    // $twig   = new Twig_Environment($loader);
+    $twig   = new \Twig\Environment($loader);
+
     $data   = new AppModel;
     $data->twigData['error'] = $code;
 

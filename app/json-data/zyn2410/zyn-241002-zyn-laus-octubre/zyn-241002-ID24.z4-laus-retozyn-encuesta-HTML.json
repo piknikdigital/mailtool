@@ -1,0 +1,304 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML" } ,
+            { "urlS" : "https://paginum.com/email/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2410/zyn-241002-zyn-laus-octubre/zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-241002-ID24.z4-laus-retozyn-encuesta-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.z4 LAUS_DCE_RETOZYN_ENCUESTA",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-zyn.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG header ZYN",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-1",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-2.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-2",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-3.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-3",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-p",
+            "font"          : "Figtree",
+            "fontweight"    : "700",
+            "fontsize"      : "34",
+            "height"        : "38",
+            "txtclass"      : "txt_34",
+            "width_pc"      : "94",
+            "align"         : "left",
+            "color"         : "#003b5e",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "HOLA, %%first_name%%",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-4.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-4",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "6",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.z4-5.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.z4-5"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "88",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "24.z4-survey.png",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "width_pc"      : "95",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "24.z4-survey"
+                        },
+                        {
+                            "rowtype"       : "salesforce_form____"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "6",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.z4-6.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.z4-6"
+                }
+
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-7.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-7",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-8.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-8",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-9.png",
+            "alt"           :  "",
+            "url"           :  "https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "cta localizar tiendas IMG 24.z4-9",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-10.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-10",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-11.png",
+            "alt"           :  "",
+            "url"           :  "https://www.instagram.com/zyn_mxoficial/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "cta siguenos instagram IMG 24.z4-11",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z4-12.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG 24.z4-12",
+            "version"       : "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "zyn25-legales",
+            "font"          : "'Figtree', Gotham, Arial, sans-serif",
+            "bgcolor"       : "#7a7a7a",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ZYN",
+
+            "items" :
+            [
+                {
+                    "txt"   : "",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type"          : "zyn25-footer",
+            "version"       : "zyn-2025-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

@@ -31,13 +31,12 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-
-
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -45,10 +44,9 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
@@ -261,17 +259,23 @@ www.iqos.com       https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/com
 --------------------
 --------------------
 --------------------
+¡Esta es tu oportunidad!​<br>Fuiste seleccionado como uno de los pocos <br>usuarios IQOS que podrán tener la <b>edición <br>limitada de aniversario, antes que nadie. </b>
+--------------------
+​El icónico DJ <b>Steve Aoki</b> se une<br>a nuestra celebración,​
+--------------------
+¡y tú también eres parte de este<br>momento especial!
+--------------------
+--------------------
+--------------------
+¿Estás listo?
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+
+¡No lo dejes pasar! Eres de los pocos usuarios IQOS<br>que tiene la oportunidad de ser de los primeros en<br>tener la edicion limitada de aniversario.
 --------------------
 --------------------
 --------------------

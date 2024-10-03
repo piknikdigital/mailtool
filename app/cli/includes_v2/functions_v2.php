@@ -10,6 +10,7 @@ function getYear()
     return date("y");   // "y": 2 digitos; "Y": 4 digitos
 }
 
+// no se usa ?
 function blockreplace($replacementsfile, $inputfile, $source, $target)
 {    
 
@@ -33,6 +34,7 @@ function blockreplace($replacementsfile, $inputfile, $source, $target)
     return $data1; 
 }
 
+// usado en versiones previas
 function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
 {    
     $value_old = array();
@@ -81,6 +83,7 @@ function blockreplace_v2($filename, $replacementsfile, $source, $target, $vars )
 }
 
 // Usado por : mk_fork.php
+//     update: 2024-10 : seleccion de strings de reemplazo dependiendo de la marca.
 function blockreplace_v3($target, $vars )
 {    
     $value_old = array();
@@ -89,16 +92,31 @@ function blockreplace_v3($target, $vars )
     $source  = "HTML"; 
 
     $dataA  = file_get_contents("includes_v2/library-replacements_v2.json");
-    $a1     = json_decode($dataA, true);
-    if (!$a1) abort("\033[1;37;41m ERROR: \033[0m includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
+    $a0     = json_decode($dataA, true);
+    if (!$a0) abort("\033[1;37;41m ERROR: \033[0m includes_v2/library-replacements_v2.json no entrega datos. Revisar sintaxis.");
     // echo var_export($a1,true); die;
+
+    $found = -1;
+    for( $i=0 ; $i < sizeof($a0['replacements'])  ; $i++ )
+    {
+        if ($a0['replacements'][$i]['brand'] ==  $vars['brand'])
+        {
+            $found = $i ;
+            break;
+        }
+    }
+    $index = ( $found == -1)? 0 : $found;  // Si no encuentra la marca, usa por default iqos
+    // echo var_export($vars,true); die;
+    // echo var_export($a0['replacements'][$i]['strings'] , true); die;
+    $a1 = $a0['replacements'][$i]['strings'];
+
 
     $dataB  = file_get_contents($vars['replacementsfile']);
     $a2     = json_decode($dataB, true);
     if (!$a2) abort("\033[1;37;41m ERROR: \033[0m". $vars['replacementsfile'] . " no entrega datos. Revisar sintaxis.");
-    // echo var_export($a2,true); 
 
-
+    // echo var_export($a1,true); die;
+    // echo var_export($a2,true);
     
     if ( isset($a2['replacements']) )
     {
@@ -119,8 +137,9 @@ function blockreplace_v3($target, $vars )
         }
     }
 
-    $a = array_merge($a2['replacements'], $a1['replacements']);
-    // echo var_export($a2,true); die;
+    $a = array_merge($a2['replacements'], $a1);
+    // echo var_export($a,true); die;
+
 
     foreach ($a as $b) {
         $value_old[] = $b[$source];     // ERROR: Undefined index: HTML in /Users/armandoromero/Documents/devF1/mailtool.lan/app/cli/includes_v2/functions_v2.php on line 101
@@ -190,13 +209,18 @@ function getOriginalBlocks($f)
     return $c;
 }
 
+
+// =========================================================================
 // Usado por : mk_fork.php
+// update 2024-10: agregar el brand al set de varibles para incorporar a ZYN
+// =========================================================================
 function createEnvironment2($arguments, $target)
 {
     include($arguments);
 
     $a = array();
 
+    $a['brand']           = $companyBrand;
     $a['id']              = $p_id;
     $a['mes']             = $companyBrand . $p_yy . $p_mm;     // Ej: pmi2306
     $a['folder']          = $companyBrand . "-" . $p_yy . $p_mm . $p_dd . "-" . $p_name4folder; // Ej: pmi-230609-leads-junio
@@ -209,6 +233,8 @@ function createEnvironment2($arguments, $target)
     
     $a['subject']         = trim($p_subject);
     $a['preheader']       = trim($p_preheader);
+
+
 
     $path_DCE         = "Content Builder > Mexico > Commercial > MX_20" .$p_yy.$p_mm.$p_dd.  "_" . $p_name4folderDCE ." > 01_HTML";
     $name_in_DCE      = $p_mailname4DCE;
@@ -245,6 +271,11 @@ function createEnvironment2($arguments, $target)
 
 }
 
+
+// =========================================================================
+// =========================================================================
+// =========================================================================
+// =========================================================================
 function create_environment($mes, $folder, $filename, $target, $footergrey, 
         $bgColor, $TwigTemplate, $TwigFooterBlock, $subject, $preheader, 
         $path, $nameincrm, $customerkey)
@@ -272,9 +303,9 @@ function create_environment($mes, $folder, $filename, $target, $footergrey,
                 '%%=ContentBlockbyKey(\"Commercial_MX_es_footer\")=%%'  : 
                 '%%=ContentBlockbyKey(\"Commercial_MX_es_footer_white\")=%%' ;
     $a['trackmailopen']     = ( $target == "HTML")? "0" : "1";    
-    $a['trackmailaudience'] = ( $target == "DCE")? "1" : "0";
-    $a['footer_template']   = ( $target == "DCE")? "footer_template" : "footer_template__";
-    $a['DCEfooter']         = ( $target == "DCE")? $a['DCEfootercolor'] : "";
+    $a['trackmailaudience'] = ( $target == "DCE" )? "1" : "0";
+    $a['footer_template']   = ( $target == "DCE" )? "footer_template"    : "footer_template__";
+    $a['DCEfooter']         = ( $target == "DCE" )? $a['DCEfootercolor'] : "";
    
 
     /*  trackmailopen:
@@ -319,10 +350,16 @@ function create_environment($mes, $folder, $filename, $target, $footergrey,
     return $a;
 }
 
+// =========================================================================
 // Usado por : mk_fork.php
 // ANTES: "TwigTemplate"     :   "pmi/'.$a['TwigTemplate'].'",
+//  update 2024-10: reemplazar "_" con " " en el titulo del correo
+// =========================================================================
 function fill_config( $a )
 {
+
+    $pageTitle = str_replace("_", " ", $a['htmltitle'] );
+
     $config_template='{
     "DESCRIPTION"      :   "########### PMI  ############",
    
@@ -371,9 +408,9 @@ function fill_config( $a )
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
-    "PageTitle"        :   "'. $a['htmltitle'] .'",
+    "PageTitle"        :   "'  .  $pageTitle   .'",
     "PREHEADER"        :   "",
-    "content_bgcolor"  :   "'. $a['bgColor'].'",
+    "content_bgcolor"  :   "'  . $a['bgColor']   .'",
     ';
 
     return $config_template;

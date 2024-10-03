@@ -32,6 +32,91 @@ $libraryBlocks = array();
  */
 
 
+
+/** ----------------------------------------------------
+ *    START CRM 2024-10    Plantilla zyn-2025-v1.twig
+ *  -----------------------------------------------------
+ */
+
+ $libraryBlocks['zyn25-header-zyn'] ='
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-zyn.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          : "IMG header ZYN",
+            "version"       : "iqos-2024-v1.twig"
+        },';
+ $libraryBlocks['zyn25-footer'] ='
+        {
+            "type"          : "zyn25-footer",
+            "version"       : "zyn-2025-v1.twig"
+        },';
+ $libraryBlocks['zyn25-greeting'] ='
+        {
+            "type"          : "iq24-p",
+            "font"          : "Figtree",
+            "fontweight"    : "700",
+            "fontsize"      : "34",
+            "height"        : "38",
+            "txtclass"      : "txt_34",
+            "width_pc"      : "94",
+            "align"         : "left",
+            "color"         : "#003b5e",
+            "bgcolor"       : "transparent",
+            "mtop"          : "0",
+            "mbottom"       : "20",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "HOLA, %%first_name%%",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },';
+ $libraryBlocks['zyn25-legales'] ='
+        {
+            "type"          : "zyn25-legales",
+            "font"          : "\'Figtree\', Gotham, Arial, sans-serif",
+            "bgcolor"       : "#7a7a7a",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ZYN",
+
+            "items" :
+            [
+                {
+                    "txt"   : "",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },';
+
+/** ----------------------------------------------------
+ *    END CRM 2024-10    Plantilla zyn-2025-v1.twig
+ *  -----------------------------------------------------
+ */
+
+
+
+
+
+/** ----------------------------------------------------
+ *    START CRM 2024-08    Plantilla iqos-2024-v1.twig
+ *  -----------------------------------------------------
+ */
+
+
+
 $libraryBlocks['iqos24-header-iqos'] ='
         {
             "type"          :  "iq24-center-img",
@@ -66,6 +151,7 @@ $libraryBlocks['iqos24-footer-iqos'] ='
             "type"          : "iq24-footer-iqos",
             "version"       : "iqos-2024-v1.twig"
         }';
+
 $libraryBlocks['iqos24-legales-iluma'] ='
         {
             "type"          : "iq24-legales-iluma",

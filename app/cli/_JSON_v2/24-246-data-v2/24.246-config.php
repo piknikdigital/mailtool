@@ -263,7 +263,7 @@ te invita ​a que nos cuentes cómo te<br>has sentido​ usando IQOS.​
 --------------------
 --------------------
 --------------------
-(1) Para ganar una Tarjeta de Regalo con $200 MXN deberás contestar completa la encuesta, misma que estará abierta para responder ​hasta el XX de XXXX de 2024.
+(1) Para ganar una Tarjeta de Regalo de $200 MXN, completa la encuesta  antes de su vigencia de terminación.
 --------------------
 --------------------
 --------------------
