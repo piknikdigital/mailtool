@@ -5,10 +5,10 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '02';
-$p_name4folder =  'zyn-laus-octubre';
+$p_dd =  '14';
+$p_name4folder =  'zyn-laus-noviembre';
 $p_name4json =  'laus-retozyn-bienvenida';
-$p_name4folderDCE =  'Zyn LAUS October';
+$p_name4folderDCE =  'Zyn LAUS November';
 $p_mailname4DCE =  'LAUS_DCE_RETOZYN_BIENVENIDA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
@@ -33,9 +33,9 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
+    "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -45,12 +45,27 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
 
-    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
-    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
+    "zyn25-legales",
+    "zyn25-footer"
 
 );
+
+
+$requiredBlocks__ZYN = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
 
 // MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
 $requiredBlocks2 = array(
@@ -249,12 +264,14 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Ver más                https://www.zyn.com/mx/es/home/
-Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
-Compra en línea        https://www.zyn.com/mx/es/home/ 
-Localiza una tienda    https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
-Email                  contacto.mx@zyn.com​
-Llámanos               800 0440 836 
+Conoce más              https://www.zyn.com/mx/es/home/
+Conoce más              https://www.zyn.com/mx/es/home/
+Descubre más            https://www.zyn.com/mx/es/home/
+Síguenos en Instagram   https://www.instagram.com/zyn_mxoficial/
+Compra en línea         https://www.zyn.com/mx/es/home/
+Localiza una tienda     https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
+Email                   contacto.mx@zyn.com​
+Llámanos	800 0440 836
 --------------------
 --------------------
 --------------------

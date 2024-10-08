@@ -56,7 +56,7 @@ $libraryBlocks = array();
         {
             "type"          : "zyn25-footer",
             "version"       : "zyn-2025-v1.twig"
-        },';
+        }';
  $libraryBlocks['zyn25-greeting'] ='
         {
             "type"          : "iq24-p",

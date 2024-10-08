@@ -5,11 +5,11 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '02';
-$p_name4folder =  'zyn-laus-octubre';
-$p_name4json =  'laus-retozyn-6dias';
-$p_name4folderDCE =  'Zyn LAUS October';
-$p_mailname4DCE =  'LAUS_DCE_RETOZYN_6DÍAS';
+$p_dd =  '14';
+$p_name4folder =  'zyn-laus-noviembre';
+$p_name4json =  'laus-retozyn-encuesta';
+$p_name4folderDCE =  'Zyn LAUS November';
+$p_mailname4DCE =  'LAUS_DCE_RETOZYN_ENCUESTA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -32,9 +32,6 @@ $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -268,6 +265,12 @@ Llámanos               800 0440 836
 --------------------
 --------------------
 --------------------
+Contestar Encuesta	
+Comprar ahora         https://www.zyn.com/mx/es/home/ 
+Síguenos en Instagram https://www.instagram.com/zyn_mxoficial/
+Localiza una tienda   https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
+Email                 contacto.mx@zyn.com​
+Llámanos              800 0440 836 
 --------------------
 --------------------
 --------------------
