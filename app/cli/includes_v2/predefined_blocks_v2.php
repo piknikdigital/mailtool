@@ -80,7 +80,7 @@ $libraryBlocks = array();
         {
             "type"          : "zyn25-legales",
             "font"          : "\'Figtree\', Gotham, Arial, sans-serif",
-            "bgcolor"       : "#7a7a7a",
+            "bgcolor"       : "#ffffff",
             "color"         : "#34303d",
             "align"         : "justify",
             "fontsize"      : "11",
@@ -95,7 +95,7 @@ $libraryBlocks = array();
                     "this"  : "{LEGALES DE ESTA PIEZA}"
                 },
                 {
-                    "txt"   : "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "txt"   : "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
                     "this"  : "{LEGALES ZYN - Duty To Inform}"
                 }
             ]

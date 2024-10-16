@@ -5,10 +5,10 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '02';
-$p_name4folder =  'zyn-laus-octubre';
-$p_name4json =  'laus-retozyn-encuesta';
-$p_name4folderDCE =  'Zyn LAUS October';
+$p_dd =  '17';
+$p_name4folder =  'zyn-laus-noviembre';
+$p_name4json =  'laus-zyn';
+$p_name4folderDCE =  'Zyn LAUS November';
 $p_mailname4DCE =  'LAUS_DCE_RETOZYN_ENCUESTA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
@@ -31,16 +31,16 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",    
     "zyn25-legales",
     "zyn25-footer"
@@ -288,8 +288,13 @@ Mala
 --------------------
 --------------------
 --------------------
+(1) Promoción válida únicamente al comprar 4 latas de ZYN, con el beneficio de recibir una lata adicional del sabor que elijas sin costo. Disponible exclusivamente en nuestra tienda en línea al realizar la compra en <a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>.
+
+
 --------------------
 --------------------
+<a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>
+
 --------------------
 --------------------
 --------------------

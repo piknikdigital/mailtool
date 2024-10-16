@@ -5,11 +5,11 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '14';
+$p_dd =  '17';
 $p_name4folder =  'zyn-laus-noviembre';
-$p_name4json =  'laus-retozyn-6dias';
+$p_name4json =  'laus-zyn';
 $p_name4folderDCE =  'Zyn LAUS November';
-$p_mailname4DCE =  'LAUS_DCE_RETOZYN_6DÍAS';
+$p_mailname4DCE =  'LAUS_DCE_RETOZYN_MARCA#1';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -260,13 +260,13 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Conoce más              https://www.zyn.com/mx/es/descubre-zyn/#question
 Comprar ahora           https://www.zyn.com/mx/es/home/ 
 Encuentra tu ZYN        https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
+Descubre ZYN            https://www.zyn.com/mx/es/descubre-zyn/
 Síguenos en Instagram   https://www.instagram.com/zyn_mxoficial/
 Localiza una tienda     https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
 Email                   contacto.mx@zyn.com​
-Llámanos                800 0440 836  
+
 --------------------
 --------------------
 --------------------
