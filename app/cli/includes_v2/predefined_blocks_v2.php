@@ -49,8 +49,8 @@ $libraryBlocks = array();
             "mtop"          :  "0",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          : "IMG header ZYN",
-            "version"       : "iqos-2024-v1.twig"
+            "this"          :  "IMG header ZYN",
+            "version"       :  "iqos-2024-v1.twig"
         },';
  $libraryBlocks['zyn25-footer'] ='
         {
@@ -128,8 +128,8 @@ $libraryBlocks['iqos24-header-iqos'] ='
             "mtop"          :  "0",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          : "IMG header IQOS New Brand World",
-            "version"       : "iqos-2024-v1.twig"
+            "this"          :  "IMG header IQOS New Brand World",
+            "version"       :  "iqos-2024-v1.twig"
         },';
 $libraryBlocks['iqos24-center-img'] ='
         {
@@ -142,37 +142,37 @@ $libraryBlocks['iqos24-center-img'] ='
             "mtop"          :  "0",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          : "IMG 22.id-x",
-            "version"       : "iqos-2024-v1.twig"
+            "this"          :  "IMG 22.id-x",
+            "version"       :  "iqos-2024-v1.twig"
         },';
  
 $libraryBlocks['iqos24-footer-iqos'] ='
         {
-            "type"          : "iq24-footer-iqos",
-            "version"       : "iqos-2024-v1.twig"
+            "type"          :  "iq24-footer-iqos",
+            "version"       :  "iqos-2024-v1.twig"
         }';
 
 $libraryBlocks['iqos24-legales-iluma'] ='
         {
-            "type"          : "iq24-legales-iluma",
-            "font"          : "\'Noto Sans\', Gotham, Arial, sans-serif",
-            "bgcolor"       : "transparent",
-            "color"         : "#34303d",
-            "align"         : "justify",
-            "fontsize"      : "11",
-            "mtop"          : "30",
-            "mbottom"       : "30",
-            "this"          : "BLOQUE DE LEGALES ILUMA",
+            "type"          :  "iq24-legales-iluma",
+            "font"          :  "\'Noto Sans\', Gotham, Arial, sans-serif",
+            "bgcolor"       :  "transparent",
+            "color"         :  "#34303d",
+            "align"         :  "justify",
+            "fontsize"      :  "11",
+            "mtop"          :  "30",
+            "mbottom"       :  "30",
+            "this"          :  "BLOQUE DE LEGALES ILUMA",
 
             "items" :
             [
                 {
-                    "txt"   : "LEGALES_TBD",
-                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                    "txt"   :  "LEGALES_TBD",
+                    "this"  :  "{LEGALES DE ESTA PIEZA}"
                 },
                 {
-                    "txt"   : "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
-                    "this"  : "{LEGALES ILUMA - Duty To Inform}"
+                    "txt"   :  "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  :  "{LEGALES ILUMA - Duty To Inform}"
                 }
             ]
         },';
