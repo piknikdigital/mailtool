@@ -1,0 +1,397 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20241028_LAUS NOVEMBER > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_NUEVOSPRECIOS_MGM_7",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241028-ID24.272-laus-nuevos-precios-mgm-7-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.272 LAUS DCE NUEVOSPRECIOS MGM 7",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fda85a5c-fe51-4182-8f62-86a0b0bee3ef.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/aa5bdb7a-2f9f-4dc8-a3e4-f47360f2c553.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1b80af9f-81dd-4fd5-8039-f46901748164.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "COMPARTE TU CODIGO",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "transparent",
+                    "width_pc": "100",
+                    "rows": [
+                        {
+                            "README": "XXXXX (Referral_Code)",
+                            "rowtype": "pframed",
+                            "bgcolor": "transparent",
+                            "txt": "%%referral_code%%",
+                            "fontweight": "700",
+                            "fontsize": "26",
+                            "height": "30",
+                            "txtclass": "txt_26",
+                            "align": "center",
+                            "width_pc": "50",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "color": "#00d1d2",
+                            "framecolor": "#000000",
+                            "framebgcolor": "transparent",
+                            "framepadding": "6",
+                            "border": "2",
+                            "this": ""
+                        },
+                        {
+                            "README": "COMPARTE TU CODIGO",
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c17560cd-9195-422c-97a5-f77c6bf58c27.png",
+                            "bgcolor": "transparent",
+                            "mtop": "20",
+                            "mbottom": "40",
+                            "width_pc": "45",
+                            "align": "center",
+                            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+                            "url_ctaDECODED": "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc": "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA25pc": "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc": "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA35pc": "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc": "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "url_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK": "https://wa.me/?text=",
+                            "url": "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "THISIMG": "cta-compartir-codigo"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f7e18738-8b6a-488c-9c55-902c83ef8333.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5aa71519-3429-4394-9f32-95a3a492a5d5.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6fd1c0cd-5f61-4f35-b0f4-53de406aa344.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "transparent",
+                    "width_pc": "50",
+                    "rows": [
+                        {
+                            "README": "COMPARTE TU CODIGO",
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2a86f356-9764-4613-b3a5-ad529b0e1eda.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "15",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+                            "url_ctaDECODED": "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc": "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA25pc": "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc": "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA35pc": "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc": "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "url_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK": "https://wa.me/?text=",
+                            "url": "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "THISIMG": "cta-compartir-codigo"
+                        },
+                        {
+                            "README": "XXXXX (Referral_Code)",
+                            "rowtype": "pframed",
+                            "bgcolor": "transparent",
+                            "txt": "%%referral_code%%",
+                            "fontweight": "700",
+                            "fontsize": "26",
+                            "height": "30",
+                            "txtclass": "txt_26",
+                            "align": "center",
+                            "width_pc": "50",
+                            "mtop": "20",
+                            "mbottom": "40",
+                            "color": "#00d1d2",
+                            "framecolor": "#000000",
+                            "framebgcolor": "transparent",
+                            "framepadding": "6",
+                            "border": "2",
+                            "this": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6dbe9bdc-5d48-40b6-9b8f-084d4563328d.jpg",
+            "alt": "",
+            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+            "url_ctaDECODED": "whatsapp://send?text=",
+            "txt2Encode_ILUMA20pc": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA20pc": "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA25pc": "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA25pc": "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA35pc": "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA35pc": "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "url_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+            "url_OK": "https://wa.me/?text=",
+            "url": "https://wa.me/?text=Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ce366140-9a9c-4cc6-a363-6590af1707e0.jpg",
+                    "url": "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "this": "WALLET ANDROID IMG 24.272-9"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6364c7a0-3a50-4eb0-8b77-d2c23e807949.jpg",
+                    "url": "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "this": "WALLET IOS IMG 24.272-10"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/139e3867-5af0-4b6e-a6d3-8fc1aab7ee18.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/iqos_mx/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.272-11",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "txtclass": "txt_26",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Tu Equipo IQOS",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-legales-iluma",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "transparent",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.  <br><br>   (2) Descuento del 20% vigente al 30 de noviembre del 2024. Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>  <br><br>   (3) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en iqos.com). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "iq24-footer-iqos",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

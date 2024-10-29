@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '282';
+$p_subject =  'Tu opinión nos importa 🙌🏼';
+$p_preheader =  '¿Nos ayudas a contestar una encuesta?';
+$p_yy =  '24';
+$p_mm =  '10';
+$p_dd =  '26';
+$p_name4folder =  'encuesta-iqos';
+$p_name4json =  'encuesta-sin-recompensa';
+$p_name4folderDCE =  'Encuesta IQOS';
+$p_mailname4DCE =  'LAUS_ENCUESTA_SINRECOMPENSA_V2';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -28,31 +28,25 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
+
 $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-
-    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-p300',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p700',          // REEMPLAZA A: "p300_BW",
+    'iqos24-p300',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p700',          // REEMPLAZA A: "p300_BW",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
+    'iqos24-p700',          // Tu_Equipo_IQOS
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
-
 );
+
 
 
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig
@@ -199,8 +193,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 282282XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 282282XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -264,7 +258,6 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Siguenos IG     https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
@@ -322,10 +315,12 @@ https://conoce-iqos.com/wp-content/localizador-tiendas.html
 Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del Programa Trade in en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.
 ============================================================
 
-
-
 ==== [Términos y Condiciones (trade in)] ===================
 <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
+============================================================
+
+==== [Términos y Condiciones (MGM)] ========================
+<a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
 
 ==== [Términos y Condiciones (MGM)] ========================
@@ -336,9 +331,12 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
 
-======= Códigos de Descuento | IQOS México. ================
+======= Códigos de Descuento | IQOS México. ​================
 <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 ============================================================
+
+
+
 
 
 

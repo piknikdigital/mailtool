@@ -1,0 +1,648 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2410/pmi-241028-laus-nov/pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241028-ID24.281-laus-buen-fin-last-day-mgm-28-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.281 LAUS DCE BUENFIN LASTDAY MGM 28",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#0d0c12",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-iqos-bw.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG header IQOS New Brand World",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-1b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-greeting",
+            "fontweight"    : "700",
+            "color"         : "#ffffff",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "20",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-2b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-2b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-3b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-3b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "15",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-4b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-4b"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "#031a20",
+                    "width_pc"      : "70",
+                    "rows"          :
+                    [
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "50",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "color"         : "#00d1d2",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "15",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-5b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-5b"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-6b.jpg",
+            "alt"           :  "",
+
+            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+            "url_ctaDECODED"       : "whatsapp://send?text=",
+
+            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+            "url_OK"        : "https://wa.me/?text=",
+            "url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "CTA COMPARTE TU CODIGO IMG 24.281-6b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-7c.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-7c",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-8b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-8b"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "50",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "color"         : "#00d1d2",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-9b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-9b"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "README"         : "COMPARTE TU CODIGO",
+                            "rowtype"       : "img",
+                            "img"           : "24.281-10b.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK"        : "https://wa.me/?text=",
+                            "url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                            "THISIMG"        : "24.281-10b.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-11d.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-11d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "50",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "color"         : "#00d1d2",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-12b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-12b"
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-13b.jpg",
+
+                    "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                    "url_ctaDECODED"       : "whatsapp://send?text=",
+
+                    "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                    "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                    "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                    "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                    "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                    "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                    "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                    "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+                    "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                    "url_OK"        : "https://wa.me/?text=",
+                    "url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+
+                    "this"          : "IMG 24.281-13b"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-14b.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 24.281-14b"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-15b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-15b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "35",
+                            "mtop"          : "10",
+                            "mbottom"       : "0",
+                            "color"         : "#00d1d2",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        },
+                        {
+                            "README"         : "COMPARTE TU CODIGO",
+                            "rowtype"       : "img",
+                            "img"           : "24.281-16b.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "15",
+                            "mbottom"       : "0",
+                            "width_pc"      : "80",
+                            "align"         : "center",
+    
+                            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+                            "url_ctaDECODED"       : "whatsapp://send?text=",
+        
+                            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+        
+                            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+        
+                            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+        
+                            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            
+                            "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK"        : "https://wa.me/?text=",
+                            "url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+    
+                            "THISIMG"        : "24.281-16b.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-17b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-17b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-18b.jpg",
+                    "url"           : "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "this"          : "IMG 24.281-18b"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "24.281-19b.jpg",
+                    "url"           : "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "this"          : "IMG 24.281-19b"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.281-20b.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.instagram.com/iqos_mx/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.281-20b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-p",
+            "font"          : "Cabin",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "20",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Tu Equipo IQOS",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type"          :  "iq24-legales-iluma",
+            "font"          :  "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor"       :  "transparent",
+            "color"         :  "#ffffff",
+            "align"         :  "justify",
+            "fontsize"      :  "11",
+            "mtop"          :  "30",
+            "mbottom"       :  "30",
+            "this"          :  "BLOQUE DE LEGALES ILUMA",
+
+            "items" :
+            [
+                {
+                    "txt"   :  "(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.   <br><br>  ​(2) Descuento del 30% vigente del 14 al 28 de noviembre de 2024 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS, sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>. Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.compraiqos.com.mx</a>   <br><br>  ​(3) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en iqos.com.) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> del programa.",
+                    "this"  :  "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   :  "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"color:white;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                    "this"  :  "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-footer-iqos",
+            "version"       :  "iqos-2024-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}
