@@ -1,14 +1,14 @@
 <?php
 
-$p_id =  'z4';
-$p_subject =  '';
+$p_id        =  'z4';
+$p_subject   =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '17';
-$p_name4folder =  'zyn-laus-noviembre';
-$p_name4json =  'laus-zyn';
-$p_name4folderDCE =  'Zyn LAUS November';
+$p_dd =  '30';
+$p_name4folder =  'zyn-laus-trial';
+$p_name4json =  'laus-zyn-encuesta';
+$p_name4folderDCE =  'Zyn LAUS Trial';
 $p_mailname4DCE =  'LAUS_DCE_RETOZYN_ENCUESTA';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
@@ -26,8 +26,7 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
-
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",

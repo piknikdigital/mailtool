@@ -1,0 +1,290 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20241029_LEADS NOVEMBER > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_DCE_REASONS_PRECIOS_5",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2410/pmi-241029-leads-nov/pmi-241029-ID24.283-leads-reasons-precios-5-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241029-ID24.283-leads-reasons-precios-5-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.283 LEADS DCE REASONS PRECIOS 5",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e13a1ae1-aa0f-4ef5-a010-7c44049c0f0d.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "0",
+            "mbottom": "0",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "22",
+            "height": "26",
+            "txtclass": "txt_22",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "30",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Sabemos que quieres <br><span style=\"color:#00d1d2;font-weight:700;\">dejar atrás el humo del cigarro</span> y<br>hoy es tu oportunidad.",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "40",
+            "height": "44",
+            "txtclass": "txt_40",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#00d1d2",
+            "bgcolor": "transparent",
+            "mtop": "25",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "¡Conoce nuestros<br>nuevos precios!",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/85ae3f5b-5654-406d-9d3f-77603afb3ff7.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-dorado.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1b58bff0-eafd-4a47-87d7-e37b3fe2be50.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-marquesina",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a7e8031d-71bf-4e80-b093-0d77e14795b6.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-dorado.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-4b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1b58bff0-eafd-4a47-87d7-e37b3fe2be50.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-marquesina",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/21a07129-0937-4d66-b91a-f5787b1ff87a.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-6b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1b58bff0-eafd-4a47-87d7-e37b3fe2be50.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-marquesina",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/72352b3e-7933-4351-a6af-ec522da536aa.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-8b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/7983e18f-0139-4885-a321-0137f9e4fba6.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-9b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/013edf3d-0f71-43e1-9b09-81779fb93455.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/iqos_mx/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.283-10b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "txtclass": "txt_26",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Tu Equipo IQOS",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-legales-iluma",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "transparent",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "(1)Nuevos precios de dispositivos, no aplican para la edición limitada de aniversario IQOS x Steve Aoki.<br><br>(2) Descuento del 10% vigente hasta el 30 de noviembre del 2024 aplicable en la compra de tu primer Kit IQOS ILUMA, en iqos.com, tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "iq24-footer-iqos",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

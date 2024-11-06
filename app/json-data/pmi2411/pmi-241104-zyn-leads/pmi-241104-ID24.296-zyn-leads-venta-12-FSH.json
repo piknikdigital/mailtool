@@ -1,0 +1,322 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_ZYN LEADS 04 11 2024 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_DCE_ZYN_VENTA_12",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2411/pmi-241104-zyn-leads/pmi-241104-ID24.296-zyn-leads-venta-12-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241104-ID24.296-zyn-leads-venta-12-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.296 LEADS DCE ZYN VENTA 12",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/89c57784-534b-4f64-9875-cc351b680dcb.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/3bac4d58-0312-425a-abc3-bf8722c9252b.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "34",
+            "height": "38",
+            "txtclass": "txt_34",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "HOLA, %%FirstName%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/4f5ff506-7ebc-44bc-b1bb-eaf3e68bfc39.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b145b03c-5a1d-4590-88e5-78051e868003.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ff38d151-dbc2-4b55-a3bc-ba8bb08fefe8.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn.html",
+            "alias": "",
+            "mtop": "50",
+            "mbottom": "50",
+            "width_pc": "100",
+            "this": "CTA VER MAS IMG 24.296-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9b584af2-86e5-4cc5-b4d2-445c4effdd45.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/6275ac42-c18a-440d-ac15-44f2ad8e3268.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ff38d151-dbc2-4b55-a3bc-ba8bb08fefe8.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/home.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA VER MAS IMG 24.296-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/124fd282-b94c-4f6c-a1d6-392e15685189.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9f6f167e-6108-45d9-b1b8-d1792809034e.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-8b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ec01ae1c-4514-468e-80ba-c777566f925f.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn.html",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "30",
+            "width_pc": "100",
+            "this": "CTA CONOCE MAS IMG 24.296-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/647ef94e-e568-49b5-8cc8-2ee9ebe90412.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-10",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e4c8eae5-9a2d-4fd1-9c0d-0cf562fc4f8a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-11",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c7dd9d4d-f260-47f5-bc3b-ebcba02607d3.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "30",
+            "width_pc": "100",
+            "this": "CTA PROBAR ZYN IMG 24.296-12",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b0e6d679-c8cb-44d9-8eaa-be69facbacbe.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA IG IMG 24.296-13",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/8099115c-7cf6-4140-97ef-3e7c14a383fa.jpg",
+            "alt": "",
+            "url": "%%unsub_center_url%%",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA UNSUBSCRIBE IMG 24.296-14",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/33a6695a-c51e-41a4-9e20-69375caf38f9.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.296-15",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-legales-iluma",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "transparent",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "(1) Estimación global  de PMI de las ventas totales en el mercado de bolsas de nicotina de enero a junio de 2023.",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "iq24-footer-iqos",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

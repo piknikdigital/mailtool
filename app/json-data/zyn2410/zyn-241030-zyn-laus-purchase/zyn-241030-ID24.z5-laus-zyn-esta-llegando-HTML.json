@@ -1,0 +1,260 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML" } ,
+            { "urlS" : "https://paginum.com/email/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2410/zyn-241030-zyn-laus-purchase/zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-241030-ID24.z5-laus-zyn-esta-llegando-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.z5 LAUS DCE ZYN ESTA LLEGANDO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-zyn.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG header ZYN",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-1d.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.z5-1d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-p",
+            "font"          : "Figtree",
+            "fontweight"    : "700",
+            "fontsize"      : "34",
+            "height"        : "38",
+            "txtclass"      : "txt_34",
+            "width_pc"      : "84",
+            "align"         : "left",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#04aee9",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-2d.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.z5-2d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.zyn-marquesina.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "50",
+            "mbottom"       :  "50",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.zyn-marquesina",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-3d.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.zyn.com/mx/es/descubre-zyn.html",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "CTA CONOCE MAS IMG 24.z5-3d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-4d.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.z5-4d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-5d.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.z5-5d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-6d.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.zyn.com/mx/es/home/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "CTA CUENTAME MAS IMG 24.z5-6d",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.z5-7dd.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.z5-7dd",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.zyn-marquesina.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "50",
+            "mbottom"       :  "50",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.zyn-marquesina",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.zyn-ig-2.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.instagram.com/zyn_mxoficial/",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.zyn-ig-2",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.zyn-encuentra-tu-zyn.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.zyn-encuentra-tu-zyn",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "zyn25-legales",
+            "font"          : "'Figtree', Gotham, Arial, sans-serif",
+            "bgcolor"       : "#ffffff",
+            "color"         : "#34303d",
+            "align"         : "justify",
+            "fontsize"      : "11",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "this"          : "BLOQUE DE LEGALES ZYN",
+
+            "items" :
+            [
+                {
+                    "txt"   : "",
+                    "this"  : "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt"   : "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this"  : "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type"          : "zyn25-footer",
+            "version"       : "zyn-2025-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

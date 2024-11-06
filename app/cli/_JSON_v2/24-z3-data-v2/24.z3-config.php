@@ -5,11 +5,11 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '24';
 $p_mm =  '10';
-$p_dd =  '17';
-$p_name4folder =  'zyn-laus-noviembre';
-$p_name4json =  'laus-zyn';
-$p_name4folderDCE =  'Zyn LAUS November';
-$p_mailname4DCE =  'LAUS_DCE_RETOZYN_SABORES';
+$p_dd =  '30';
+$p_name4folder =  'zyn-laus-trial';
+$p_name4json =  'laus-retozyn-marca-no1';
+$p_name4folderDCE =  'Zyn LAUS Trial';
+$p_mailname4DCE =  'LAUS_DCE_RETOZYN_MARCA#1';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -273,6 +273,7 @@ Email                  contacto.mx@zyn.com​
 --------------------
 --------------------
 --------------------
+(1) Estimación global de PMI de las ventas totales en el mercado de bolsas de nicotina de enero a junio de 2023.<br><br>(2) Promoción válida al comprar 5 latas de ZYN, paga solo por 4. Disponible exclusivamente en nuestra tienda en línea al realizar la compra en <a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a><br><br>(3) Solo en tiendas seleccionadas.
 --------------------
 --------------------
 --------------------

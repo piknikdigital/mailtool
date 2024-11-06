@@ -1,0 +1,72 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2410/pmi-241030-html-medios/pmi-241030-ID24.290-chris-600x500-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241030-ID24.290-chris-600x500-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.290 ",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "24.290-1.png",
+            "alt"           :  "",
+            "url"           :  "##",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 24.290-1",
+            "version"       :  "iqos-2024-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

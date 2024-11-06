@@ -23,6 +23,15 @@ $companyBrand     = "pmi";
 $TwigTemplate     = "iqos-2024-v1.twig";
 $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
+// $bgColor          = "#0d0c12";    // Dark mode IQOS
+
+
+// $companyBrand     = "zyn";
+// $TwigTemplate     = "zyn-2025-v1.twig";
+// $bgColor          = "#FFFFFF";    // Don't use "transparent"
+// // $bgColor          = "#0d0c12";    // Dark mode IQOS
+
+
 
 //-----------------------------------------
 

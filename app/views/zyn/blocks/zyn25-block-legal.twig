@@ -8,13 +8,13 @@
                                   </tr>  {% for idx in blocks[index].items|keys %}  {% if idx != 0 %} {% set block_spacertop = "<br>" %} {% else %}{% set block_spacertop = "" %}{% endif %} {% if blocks[index].items[0].txt == "" %}{% set block_spacertop = "" %}{% endif%}
                                   
                                   <tr pik-block-inner="legal-zyn-txt">
-                                    <th valign="top" style="text-align:{{blocks[index].align}};background-color:transparent;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.2}}px" class="horizontal-gutter">
+                                    <th valign="top" style="text-align:{{blocks[index].align}};background-color:transparent;font-size:{{blocks[index].fontsize}}px;line-height:{{blocks[index].fontsize * 1.4}}px" class="horizontal-gutter">
                                       <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" {#style="width:600px"#} role="presentation">
                                         <tbody>
                                         <tr>
                                           <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="5%">&nbsp;</th>
-                                          <th valign="middle" style="text-align:{{blocks[index].align}}; font-size:{{blocks[index].fontsize}}px; line-height:{{blocks[index].fontsize * 1.2}}px;" align="{{blocks[index].align}}">
-                                            <span style="color:{{blocks[index].color}}; font-weight:300; font-family: {{blocks[index].font|raw}}; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{blocks[index].align}};" class="fallback-text txt_legal">{{block_spacertop|raw}}{{blocks[index].items[idx].txt|raw}}</span>
+                                          <th valign="middle" style="text-align:{{blocks[index].align}}; font-size:{{blocks[index].fontsize}}px; line-height:{{blocks[index].fontsize * 1.4}}px;" align="{{blocks[index].align}}">
+                                            <span style="color:{{blocks[index].color}}; font-weight:300; font-size:{{blocks[index].fontsize}}px; line-height:{{blocks[index].fontsize * 1.4}}px; font-family: {{blocks[index].font|raw}}; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; border: none; {% if textalign=="center" %}margin: 0 auto;{% endif %} text-align:{{blocks[index].align}};" class="fallback-text txt_legal">{{block_spacertop|raw}}{{blocks[index].items[idx].txt|raw}}</span>
                                           </th>
                                           <th valign="top" style="font-size:1px;line-height:1px" class="vertical-gutter" width="5%">&nbsp;</th>
                                         </tr>
