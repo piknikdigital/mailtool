@@ -1,31 +1,15 @@
 <?php
 
-// $p_id =  '299';
-// $p_subject =  '';
-// $p_preheader =  '';
-// $p_yy =  '24';
-// $p_mm =  '11';
-// $p_dd =  '12';
-// $p_name4folder =  'laus-dic';
-// $p_name4json =  'laus-trade-in-aromaria-17';
-// $p_name4folderDCE =  'LAUS December';
-// $p_mailname4DCE =  'LAUS_DCE_TRADEIN_AROMARIA_#17';
-// $p_customerkey_DCE =  'NA';
-// $p_name4folderFSH =  'NA';
-// $p_mailname4FSH =  'NA';
-// $p_customerkey_FSH =  'NA';
-// $id_FSH_folder =  'NA';
-
-$p_id =  '299';
-$p_subject =  'Ilumina tus celebraciones con IQOS ILUMA🥳';
-$p_preheader =  'Dile adiós a limpiar tu dispositivo👋';
+$p_id =  '302';
+$p_subject =  'Es momento de avanzar al siguiente nivel⚡️';
+$p_preheader =  'Dale un giro a tu experiencia🔄';
 $p_yy =  '24';
 $p_mm =  '11';
 $p_dd =  '23';
 $p_name4folder =  'laus-dic';
-$p_name4json =  'laus-trade-in-mgm-3';
+$p_name4json =  'laus-trade-in-12';
 $p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_TRADEIN_MGM_#3';
+$p_mailname4DCE =  'LAUS_DCE_TRADEIN_#12';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -33,13 +17,12 @@ $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
 
-
 //-----------------------------------------
 
 $companyBrand     = "pmi";
 $TwigTemplate     = "iqos-2024-v1.twig";
 $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#000000";    // Don't use "transparent"
+$bgColor          = "#010101";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
@@ -52,38 +35,19 @@ $bgColor          = "#000000";    // Don't use "transparent"
 
 //-----------------------------------------
 
+
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting-with-bgimg",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
-
-    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
-    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
-
-);
-
-
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks_TEST = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
@@ -237,8 +201,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 299299XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 299299XX :   %%referral_code%%
+    CODIGO PARA CUPON 302302XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 302302XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -302,27 +266,14 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Siguenos IG     https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
-Renovar IQOS	https://www.iqos.com/mx/es/renovar-mi-iqos.html
-Renovar IQOS	https://www.iqos.com/mx/es/renovar-mi-iqos.html
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-Renovar ahora         https://www.iqos.com/mx/es/renovar-mi-iqos.html
-Compartir mi código   TBD
-Google play           https://play.google.com/store/apps/details?id=com.iqos.referral
-App store             
-Siguenos en instagram https://www.instagram.com/iqos_mx/
---------------------
---------------------
---------------------
---------------------
---------------------
-(1) Descuento válido hasta el 5 de diciembre de 2024. Únicamente para usuarios IQOS con dispositivo IQOS ORIGINALS, IQOS 3 DUO registrado en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>, en la compra de su primer Kit IQOS ILUMA. Este descuento aplica únicamente sobre el precio del dispositivo IQOS ILUMA, no aplica sobre el total del precio del KIT o accesorios. Sujeto a disponibilidad de inventario. Hasta agotar existencias. Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> del Programa Trade in en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>.    <br><br>    (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (3) Consulta Términos y Condiciones. Válido hasta el 5 de diciembre de 2024 en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en iqos.com y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>    <br><br>    (4) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco.  Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en iqos.com.) Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta Términos y Condiciones del programa.
+Renovar IQOS              https://www.iqos.com/mx/es/renovar-mi-iqos.html
+Compartir mi código       TBD
+Google play               https://play.google.com/store/apps/details?id=com.iqos.referral
+App Store                 
+Siguenos en instagram     https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
@@ -331,6 +282,18 @@ Siguenos en instagram https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+(1) Descuento del 20% válido hasta el 31 de diciembre de 2024. Únicamente para usuarios IQOS con dispositivo IQOS ORIGINALS, IQOS 3 DUO registrado en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>, en la compra de su primer Kit IQOS ILUMA. Este descuento aplica únicamente sobre el precio del dispositivo IQOS ILUMA, no aplica sobre el total del precio del KIT o accesorios. Sujeto a disponibilidad de inventario. Hasta agotar existencias. Consulta Términos y Condiciones del Programa Trade in en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>.    <br><br>    ​(2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (3) Descuento del 20% válido hasta el 31 de diciembre de 2024.Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.compraiqos.com.mx</a>    <br><br>    ​(4) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> del programa.
 --------------------
 --------------------
 --------------------

@@ -1,0 +1,206 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE.html",
+
+        "Subject"          :   "¡Felices fiestas de parte de IQOS!🎉",
+        "Preheader"        :   "Disfruta sin humo con tus seres queridos. 🫂",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20241123_LAUS December > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_NAVIDAD_#24",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2411/pmi-241123-laus-dic/pmi-241123-ID24.307-laus-navidad-24-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-241123-ID24.307-laus-navidad-24-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID24.307 LAUS DCE NAVIDAD #24",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#070601",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/aab960de-5a53-4acc-9c92-c0ce8d8b7c38.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting-with-bgimg",
+            "fontweight": "700",
+            "color": "#ffffff",
+            "bgcolor": "#070601",
+            "bgimg": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0d218109-ad02-42c7-917e-5ecc2262f2b0.jpg",
+            "bgimg_width": "800",
+            "bgimg_height": "98",
+            "vertical_align": "middle",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fedf1100-095a-4ad4-9636-cd939173e5c9.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img-with-bgimg",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/39326cb7-3d37-4c85-9157-6853ca318b54.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "bgimg": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f3c08d02-ef50-4f53-9b59-244d1da6c2da.jpg",
+            "bgimg_width": "800",
+            "bgimg_height": "638",
+            "vertical_align": "middle",
+            "width_pc": "100",
+            "this": "IMG 24.307-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/471b3f3d-82e9-46c6-8ff7-8850c82a0a9a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/227994b8-b35b-4b99-9b05-e77b15a781f1.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9652800e-1139-4b85-88a9-9a510d53f7db.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/iqos_mx/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/dae26d05-32b4-443b-a883-bbce9c96795d.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/home.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2fc221ba-7a91-44c9-bb80-41c23758e2d2.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/Noticias/informacion-importante.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d9d2c668-165a-4584-a307-3d2e4562c71f.jpg",
+            "alt": "",
+            "url": "https://www.pmiprivacy.com/es-la/consumer",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 24.307-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

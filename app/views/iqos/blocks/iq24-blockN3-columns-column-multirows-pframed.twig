@@ -11,24 +11,30 @@
 {%- block iq24_multirows_pframed -%}
                                                                 <table pik-descriptor="column-{{idx}}-[multirow-row-{{idxrow}}-pframed]"  align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:transparent" role="presentation">
                                                                   <tbody>{% if blocks[index].columns[idx].rows[idxrow].mtop  != "0" ~%}
-                                                                    <tr pik-inner-element="multirow-column-pframed-margin-top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};">
-                                                                      <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].mtop}}">&nbsp;</th>
+
+                                                                    <tr pik-inner-element="multirow-column-pframed-margin-top" style="background-color:{#{{blocks[index].columns[idx].rows[idxrow].bgcolor}}#}transparent;">
+                                                                      <th valign="top" style="background-color:{#{{blocks[index].columns[idx].rows[idxrow].bgcolor}}#}transparent;;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].mtop}}">&nbsp;</th>
                                                                     </tr>{% endif ~%}
-                                                                    <tr pik-inner-element="multirow-column-pframed-content" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};">
-                                                                      <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};" class="" >
+                                                                    
+                                                                    <tr pik-inner-element="multirow-column-pframed-content" style="background-color:{#{{blocks[index].columns[idx].rows[idxrow].bgcolor}}#}transparent;">
+                                                                      <th valign="top" style="background-color:{#{{blocks[index].columns[idx].rows[idxrow].bgcolor}}#}transparent;" class="" >
                                                                         <table valign="middle" align="center" cellpadding="{{blocks[index].columns[idx].rows[idxrow].framepadding}}" cellspacing="0" border="{{blocks[index].columns[idx].rows[idxrow].border}}" bordercolor="{{blocks[index].columns[idx].rows[idxrow].framecolor}}" width="{{blocks[index].columns[idx].rows[idxrow].width_pc}}%" style="min-width:{{blocks[index].columns[idx].rows[idxrow].width_pc}}%;background-color:{{blocks[index].columns[idx].rows[idxrow].framebgcolor}}; border: {{blocks[index].columns[idx].rows[idxrow].border}}px {{blocks[index].columns[idx].rows[idxrow].framecolor}} solid;" role="presentation">
                                                                           <tbody>
                                                                             <tr>
                                                                               <th style="text-align:{{blocks[index].columns[idx].rows[idxrow].align}}; font-size:{{blocks[index].columns[idx].rows[idxrow].fontsize}}px; line-height:{{blocks[index].columns[idx].rows[idxrow].height}}px;">
-                                                                                <span style="width:100%; {% if blocks[index].columns[idx].rows[idxrow].align =="center" %}text-align:center;margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[idxrow].align}};{% endif %} font-weight:{{blocks[index].columns[idx].rows[idxrow].fontweight}}; color:{{blocks[index].columns[idx].rows[idxrow].color}}; font-family: '{{blocks[index].font}}', Gotham, Arial, sans-serif;" class="fallback-text {{blocks[index].txtclass}}">{{blocks[index].columns[idx].rows[idxrow].txt|raw}}</span>
+                                                                                <span style="width:100%; {% if blocks[index].columns[idx].rows[idxrow].align =="center" %}text-align:center;margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[idxrow].align}};{% endif %} font-weight:{{blocks[index].columns[idx].rows[idxrow].fontweight}}; color:{{blocks[index].columns[idx].rows[idxrow].color}}; font-family: '{{blocks[index].font}}', Gotham, Arial, sans-serif;" class="fallback-text {{blocks[index].columns[idx].rows[idxrow].txtclass}}">{{blocks[index].columns[idx].rows[idxrow].txt|raw}}</span>
                                                                               </th>
                                                                             </tr>
                                                                           </tbody>
                                                                         </table>
                                                                       </th>
                                                                     </tr>{% if blocks[index].columns[idx].rows[idxrow].mbottom  != "0" ~%}
+
+
                                                                     <tr pik-inner-element="multirow-column-pframed-margin-bottom" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};">
                                                                       <th valign="top" style="background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].rows[idxrow].mbottom}}">&nbsp;</th>
                                                                     </tr>{% endif ~%}
+
+
                                                                   </tbody>
                                                                 </table>{% endblock ~%}

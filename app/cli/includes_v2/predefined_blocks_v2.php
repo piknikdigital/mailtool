@@ -145,7 +145,22 @@ $libraryBlocks['iqos24-center-img'] ='
             "this"          :  "IMG 22.id-x",
             "version"       :  "iqos-2024-v1.twig"
         },';
- 
+$libraryBlocks['iqos24-center-img-with-bgimg'] ='
+        {
+            "type"          :  "iq24-center-img-with-bgimg",
+            "bgcolor"       :  "#272a13",
+            "img"           :  "22.id-x.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "bgimg"         :  "22.id-bg-x.jpg",
+            "bgimg_width"   :  "800",
+            "bgimg_height"  :  "600",
+            "vertical_align":  "middle",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 22.id-bg-x",
+            "version"       :  "iqos-2024-v1.twig"
+        },';
 $libraryBlocks['iqos24-footer-iqos'] ='
         {
             "type"          :  "iq24-footer-iqos",
@@ -197,6 +212,20 @@ $libraryBlocks['iqos24-greeting'] ='
             "bgcolor"       : "transparent",
             "mtop"          : "40",
             "mbottom"       : "0",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },';
+
+$libraryBlocks['iqos24-greeting-with-bgimg'] ='
+        {
+            "type"          : "iq24-greeting-with-bgimg",
+            "fontweight"    : "700",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#4f593a",
+            "bgimg"         : "22.id-x.jpg",
+            "bgimg_width"   : "800",
+            "bgimg_height"  : "400",
+            "vertical_align": "middle",
             "txt"           : "Hola, %%first_name%%",
             "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
         },';
@@ -281,6 +310,8 @@ $libraryBlocks['iqos24-columns'] ='
                 {
                     "coltype"       : "multirows",
                     "bgcolor"       : "transparent",
+                    "vertical_align": "top|middle|bottom",
+                    "bgimg"         : "",
                     "width_pc"      : "50",
                     "rows"          :
                     [
@@ -3060,62 +3091,105 @@ $libraryBlocks['undefined'] ='
 // Get the keys of array
 // print_r(array_keys($libraryBlocks));
 
-/*
-    "IQOS-Wallet-Iluma-Gray",
-    "IQOS-Wallet-Iluma-Turquesa",
-    "header_mgm_tu_codigo_unico",
-    "get_iqos_wallet_app",
-    "get_iqos_wallet_app_slate",
-    "canales_de_comunicacion",
-    "Solo_con_IQOS",
-    "Tu_equipo_IQOS",
-    "stageIMG",
+/** ----------------------------------------------------
+ *    Plantilla zyn-2025-v1.twig
+ *  ----------------------------------------------------
+ * 
+ *       "zyn25-header-zyn",
+ *       "zyn25-footer",
+ *       "zyn25-greeting",
+ *       "zyn25-legales",
+ */
 
-    "img_Logo_Header_HTML",
-    "img_Cover_HTML",
-    "img",
-    "spacer",
-    "greeting_negro",
-    "greeting_dorado",
-    "p300",
-    "p700",
-    "rawHTML",
-    "m_TXT_TXT_m",
-    "m_TXT_IMG_m",
-    "m_IMG_TXT_m",
-    "m_IMG_IMG_m",
-    "btn_sa_comprar_HTML",
-    "cta1",
-    "one_rs",
-    "two_rs",
-    "three_rs",
-    "sinfuego_sinhumo_sinceniza_negro_HTML",
-    "sinfuego_sinhumo_sinceniza_dorado_HTML",
-    "legal_extra",
-    "disclaimer_iqos",
-    "disclaimer_fsh",
-    "pframed",
-    "cols_33_33_33",
-    "form",
-    "mgm_coupon_1",
-    "mgm_coupon_2cols",
-    "rgm_coupon_2cols",
-    "cta_share_WA_coupon",
-    "graylineframed",
-    "shopping_list",
-    "3cols_chat_fb_phone",
-    "footer_brand_world",
-    "header_brand_world",
-    "p300_BW",
-    "p700_BW",
-    "FSH_Yellow_Share",
-    "FSH_Yellow_Share_2",
-    "FSH_Framed_Card",
-    "columns",
-    "greeting_v2",
-    "cta1_v2",
-    "spacer_v2",
-    "p_v2",
-    "footer_bw_v1",
+/** ----------------------------------------------------
+ *    Plantilla iqos-2024-v1.twig
+ *  ----------------------------------------------------
+ * 
+ *       "iqos24-header-iqos",
+ *       "iqos24-center-img",
+ *       "iqos24-center-img-with-bgimg",
+ *       "iqos24-footer-iqos",
+ *       "iqos24-legales-iluma",
+ *       "iqos24-cta",
+ *       "iqos24-greeting",
+ *       "iqos24-greeting-with-bgimg",
+ *       "iq24-greeting-over-img",
+ *       "iqos24-p700",
+ *       "iqos24-p300",
+ *       "iqos24-columns",
+ *       "iqos24-spacer",
+ *       "iqos24-canales-de-comunicacion",
+ *       "iqos24-Tu-Equipo-IQOS",
+ * 
+ */
 
-*/
+/** ----------------------------------------------------
+ *    Plantilla previa
+ *  ----------------------------------------------------
+ *       "header_mgm_tu_codigo_unico",
+ *       "get_iqos_wallet_app",
+ *       "IQOS-Wallet-Iluma-Gray",
+ *       "IQOS-Wallet-Iluma-Turquesa",
+ *       "get_iqos_wallet_app_turquoise",
+ *       "get_iqos_wallet_app_slate",
+ *       "img_Logo_Header_HTML",
+ *       "img_Cover_HTML",
+ *       "header_brand_world",
+ *       "greeting_v2",
+ *       "p300_BW",
+ *       "p700_BW",
+ *       "cta1_v2",
+ *       "img",
+ *       "stageIMG",
+ *       "bloque_legales_iluma",
+ *       "legales-iluma",
+ *       "legales-terea",
+ *       "spacer",
+ *       "columns",
+ *       "spacer_v2",
+ *       "p_v2",
+ *       "pframed",
+ *       "canales_de_comunicacion",
+ *       "Tu_Equipo_IQOS",
+ *       "footer_bw_v1_lowercase",
+ *       "p300",
+ *       "p700",
+ *       "greeting_negro",
+ *       "greeting_dorado",
+ *       "rawHTML",
+ *       "m_TXT_TXT_m",
+ *       "m_TXT_IMG_m",
+ *       "m_IMG_TXT_m",
+ *       "m_IMG_IMG_m",
+ *       "btn_sa_comprar_HTML",
+ *       "cta1",
+ *       "one_rs",
+ *       "two_rs",
+ *       "three_rs",
+ *       "sinfuego_sinhumo_sinceniza_negro_HTML",
+ *       "sinfuego_sinhumo_sinceniza_dorado_HTML",
+ *       "legal_extra",
+ *       "disclaimer_fsh",
+ *       "disclaimer_iqos",
+ *       "cols_33_33_33",
+ *       "form",
+ *       "form_v2",
+ *       "mgm_coupon_1",
+ *       "mgm_coupon_2cols",
+ *       "rgm_coupon_2cols",
+ *       "cta_share_WA_coupon",
+ *       "graylineframed",
+ *       "shopping_list",
+ *       "3cols_chat_fb_phone",
+ *       "footer_brand_world",
+ *       "FSH_Yellow_Share",
+ *       "FSH_Yellow_Share_2",
+ *       "FSH_Framed_Card",
+ *       "ElijoIQOS",
+ *       "Solo_con_IQOS",
+ *       "Tu_equipo_IQOS",
+ *       "footer_bw_v1",
+ *       "footer_fsh",
+ *       "footer_bw_oos",
+ *       "footer_bw_oos_lowercase",
+ */
