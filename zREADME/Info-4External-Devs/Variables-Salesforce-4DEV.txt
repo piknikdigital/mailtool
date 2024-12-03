@@ -1,0 +1,108 @@
+
+Nomenclatura
+DCE (Instancia de Salesforce para clientes IQOS)
+LOCAL (Instancia de Salesforce para Leads)
+
+
+Para cada correo necesitamos una version para DCE y otra para LOCAL
+
+Te defino mas abajo las variables requeridas:
+
+
+###############################
+###############################
+###############################
+###############################
+
+INSTANCIA DCE
+
+Saludo para el usuario:
+Hola, %%=ProperCase(first_name)=%%
+
+Para el footer en la parte de la direccion del remitente, usa esto:
+
+&copy; 2024 Philip Morris Products S.A. Todos los derechos reservados.<br>
+Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada,<br> Miguel Hidalgo, 11529, CDMX, México.  <a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a>
+
+Etiquetas XML requerida antes del </body> del archivo html:
+
+<custom name="opencounter" type="tracking"/>
+<custom name="usermatch" type="tracking" />
+
+El dominio asociado a esta instancia donde el CDN de Salesforce sube los assets es iqos.com. Yo lo abrevio internamente como "DCE" para nombrar al HTML que se va a subir a esta instancia.
+Por ejemplo: leads-reasons-precios-5-DCE.html
+
+
+###############################
+###############################
+###############################
+###############################
+
+INSTANCIA LOCAL
+
+Saludo para el usuario:
+Hola, %%FirstName%%
+
+Para el footer en la parte de la direccion del remitente, usa esto:
+
+&copy; 2024 %%Member_Busname%% Todos los derechos reservados.<br>
+%%Member_Addr%%,<br> %%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%% <br> <a href="%%unsub_center_url%%"><span style="text-decoration:underline;color:blue;">Darme de baja</span></a>  | <a href="%%profile_center_url%%"><span style="text-decoration:underline;color:blue;">Actualizar perfil</span></a>
+
+
+El dominio asociado a esta instancia donde el CDN de Salesforce sube los assets es futurosinhumo.com. Yo lo abrevio internamente como "FSH" para nombrar al HTML que se va a subir a esta instancia.
+Por ejemplo: leads-reasons-precios-5-FSH.html
+
+Etiqueta XML requerida antes del </body> del archivo html:
+
+<custom name="opencounter" type="tracking"/>
+
+
+
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+----------
+
+
+Recompensas iqos                                https://recompensasiqos.plandereconocimientos.com/
+Comprar ahora	                                https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+IQOS wallet - Android                           https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
+IQOS wallet - iOS                               https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+Localiza tu tienda	                            https://www.iqos.com/mx/es/localizador-tiendas.html
+
+LINKS PARA LEGALES / DTI
+www.iqos.com	                                https://www.iqos.com/mx/es/home.html
+Información importante                          https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+Términos y condiciones Trade in:                https://www.iqos.com/mx/es/codigos-de-descuento.html
+Términos y condiciones MGM:                     https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
+Términos y condiciones Programa de préstamo:    https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
+Privacidad                                      https://www.pmiprivacy.com/es-la/consumer
+
+LINKS PARA EL FOOTER IQOS
+Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda     https://www.iqos.com/mx/es/localizador-tiendas.html
+Email                   contact.mx@iqos.com
+Llámanos                tel:8001476769
+Facebook                https://www.facebook.com/iqosmx/
+IG                      https://www.instagram.com/iqos_mx/
+
+LINKS PARA UNSUBSCRIBE
+
+
+-----------
+
+IQOS wallet - iOS
+Nota: Este URL marca error si se usa tal cual. La variable %%referral_code%% del URL se reemplaza por el codigo de referido del usuario al momento que Salesforce envía el correo. Es hasta entonces cuando el URL funciona de manera correcta
+
+
+Mensaje Whastapp para compartir código en MGM:
+Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.
+(El porcentaje cambia dependiendo de la campaña)
