@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '313';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '11';
+$p_dd =  '28';
+$p_name4folder =  'leads-dic';
+$p_name4json =  'leads-venta-booster-3';
+$p_name4folderDCE =  'LEADS DECEMBER';
+$p_mailname4DCE =  'LEADS_LOCAL_VENTA_BOOSTER_#3';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS DICIEMBRE';
+$p_mailname4FSH =  'LEADS_LOCAL_VENTA_BOOSTER_#3';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  '228';
 
 
 //-----------------------------------------
@@ -22,7 +22,7 @@ $id_FSH_folder     = "999";
 $companyBrand     = "pmi";
 $TwigTemplate     = "iqos-2024-v1.twig";
 $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+$bgColor          = "#060d11";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
@@ -41,29 +41,19 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-greeting-with-bgimg",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     
-    
-    
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img-with-bgimg",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
-    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
-    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
 
 );
@@ -213,8 +203,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 313313XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 313313XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -278,6 +268,15 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Siguenos IG     https://www.instagram.com/iqos_mx/
+--------------------
+--------------------
+Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html
+Comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-verde.html
+Síguenos en Instagram	https://www.instagram.com/iqos_mx/
+Compra en línea	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda	https://conoce-iqos.com/wp-content/localizador-tiendas.html
 --------------------
 --------------------
 --------------------
@@ -301,21 +300,12 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
---------------------
-Siguenos IG                 https://www.instagram.com/iqos_mx/
---------------------
---------------------
-IQOS wallet - android       https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
-IQOS wallet - iOS           https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
-TyC Trade In                https://www.iqos.com/mx/es/codigos-de-descuento.html
-TyC MGM                     https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
-TyC Programa de Prestamo    https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
 Códigos de Descuento        https://www.iqos.com/mx/es/codigos-de-descuento.html
 www.iqos.com                https://www.iqos.com/mx/es/home.html
 información importante      https://www.iqos.com/mx/es/Noticias/informacion-importante.html
 privacy - aqui              https://www.pmiprivacy.com/es-la/consumer
-
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------
@@ -360,11 +350,13 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
 
-
-
 ======= Códigos de Descuento | IQOS México. ================
 <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 ============================================================
+
+
+
+
 
 ==== [recompensasiqos.plandereconocimientos.com] ============
 <a href=\"https://recompensasiqos.plandereconocimientos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">recompensasiqos.plandereconocimientos.com</a>
@@ -374,6 +366,10 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 <a href=\"https://www.compraiqos.com.mx\" style=\"text-decoration:underline;\" target=\"_blank\">www.compraiqos.com.mx</a>
 =============================================================
 
+
+
+
+
 ==== [ información importante ] ==========
 <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a>
 ==========================================
@@ -381,14 +377,6 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 ==== [ aqui (privacy) ] ==================
 <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>
 ==========================================
-
-
-
-
-
-
-
-
 
 
 ===================================================================

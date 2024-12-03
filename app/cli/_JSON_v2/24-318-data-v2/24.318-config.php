@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "24";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '318';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '24';
+$p_mm =  '11';
+$p_dd =  '28';
+$p_name4folder =  'leads-dic';
+$p_name4json =  'leads-venta-lending-12';
+$p_name4folderDCE =  'LEADS DECEMBER';
+$p_mailname4DCE =  'LEADS_LOCAL_VENTA_LENDING_#12';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS DICIEMBRE';
+$p_mailname4FSH =  'LEADS_LOCAL_VENTA_LENDING_#12';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  '228';
 
 
 //-----------------------------------------
@@ -22,7 +22,7 @@ $id_FSH_folder     = "999";
 $companyBrand     = "pmi";
 $TwigTemplate     = "iqos-2024-v1.twig";
 $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+$bgColor          = "#010101";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
@@ -41,27 +41,14 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-greeting-with-bgimg",
-    
-    
-    
     
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img-with-bgimg",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
+    
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
@@ -213,8 +200,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 318318XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 318318XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -280,6 +267,10 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Probar Ahora 	https://www.iqos.com/mx/es/prueba-iqos.html
+Probar Ahora 	https://www.iqos.com/mx/es/prueba-iqos.html
+Localiza una tienda	https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Síguenos en Instagram	https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
@@ -295,6 +286,9 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+(1) Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>, al *993 desde tu celular. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho periodo, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> del programa. Dispositivo y color sujeto a disponibilidad de inventario.          <br><br>      (2) Descuento del 20% vigente al 31 de diciembre del 2024 aplicable en la compra de tu primer Kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y Call Center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>.
+
+
 --------------------
 --------------------
 --------------------
