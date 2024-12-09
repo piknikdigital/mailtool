@@ -478,7 +478,7 @@ $libraryBlocks['iqos24-columns'] ='
         },';
 $libraryBlocks['iqos24-spacer'] ='
         {
-            "type"        : "spacer",
+            "type"        : "iq24-spacer",
             "height"      : "50",
             "bgcolor"     : "transparent"
         },';

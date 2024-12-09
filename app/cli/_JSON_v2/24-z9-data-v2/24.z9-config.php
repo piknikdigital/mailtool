@@ -1,20 +1,37 @@
 <?php
 
 $p_id =  'z9';
-$p_subject =  '';
-$p_preheader =  '';
+$p_subject =  '¡Ya llegamos a todo México! 🚚🇲🇽';
+$p_preheader =  'DESCUBRE tu ZYN y pídelo en línea con promoción📱💻';
 $p_yy =  '24';
-$p_mm =  '10';
-$p_dd =  '23';
-$p_name4folder =  'zyn-leads';
-$p_name4json =  'zyn-leads';
-$p_name4folderDCE =  'ZYN LEADS';
-$p_mailname4DCE =  'LEADS_DCE_ZYN_VENTA_12';
+$p_mm =  '12';
+$p_dd =  '05';
+$p_name4folder =  'zyn-leads-dic';
+$p_name4json =  'leads-zyn-compra-en-linea-conversion';
+$p_name4folderDCE =  'ZYN LEADS DECEMBER';
+$p_mailname4DCE =  'LEADS_ZYN_COMPRAENLINEA_CONVERSION';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'ZYN LEADS';
-$p_mailname4FSH =  'LEADS_DCE_ZYN_VENTA_12';
+$p_name4folderFSH =  'ZYN LEADS DICIEMBRE';
+$p_mailname4FSH =  'LEADS_ZYN_COMPRAENLINEA_CONVERSION';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$id_FSH_folder =  '229';
+
+// La pieza original z9 se mando como IQOS -> 24.296
+// $p_id =  'z9';
+// $p_subject =  '';
+// $p_preheader =  '';
+// $p_yy =  '24';
+// $p_mm =  '10';
+// $p_dd =  '23';
+// $p_name4folder =  'zyn-leads';
+// $p_name4json =  'zyn-leads';
+// $p_name4folderDCE =  'ZYN LEADS';
+// $p_mailname4DCE =  'LEADS_DCE_ZYN_VENTA_12';
+// $p_customerkey_DCE =  'NA';
+// $p_name4folderFSH =  'ZYN LEADS';
+// $p_mailname4FSH =  'LEADS_DCE_ZYN_VENTA_12';
+// $p_customerkey_FSH =  'NA';
+// $id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -29,6 +46,34 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
+
+
+
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
+$requiredBlocks_prevZYN = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
@@ -303,14 +348,21 @@ Localiza una tienda     https://conoce-zyn.com/wp-content/localizador-tiendas.ht
 --------------------
 --------------------
 --------------------
+Ver más                  https://www.zyn.com/mx/es/descubre-zyn.html
+Comprar Ahora            https://www.zyn.com/mx/es/compra-zyn.html
+Síguenos en Instagram    https://www.instagram.com/zyn_mxoficial/
+Compra en línea          https://www.zyn.com/mx/es/compra-zyn.html
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+(1) Estimación global de PMI de las ventas totales en el mercado de bolsas de nicotina de enero a junio de 2023.<br><br>(2) Promoción válida únicamente al comprar 4 latas de ZYN, con el beneficio de recibir una lata adicional del sabor que elijas sin costo. Disponible exclusivamente en nuestra tienda en línea al realizar la compra en <a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>.
 --------------------
 --------------------
+<a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>
+
 --------------------
 --------------------
 --------------------

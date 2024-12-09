@@ -1,20 +1,37 @@
 <?php
 
 $p_id =  'z10';
-$p_subject =  '';
-$p_preheader =  '';
+$p_subject =  'Estamos más cerca de ti 🏪🛒';
+$p_preheader =  'Busca tu ZYN en tu tienda más cercana📍🗺️';
 $p_yy =  '24';
-$p_mm =  '10';
-$p_dd =  '23';
-$p_name4folder =  'zyn-leads';
-$p_name4json =  'zyn-leads';
-$p_name4folderDCE =  'ZYN LEADS';
-$p_mailname4DCE =  'LEADS_LOCAL_MCEXPERIMENT_EXPERIMENTZYN_28';
+$p_mm =  '12';
+$p_dd =  '05';
+$p_name4folder =  'zyn-leads-dic';
+$p_name4json =  'leads-zyn-localiza-tienda-awareness';
+$p_name4folderDCE =  'ZYN LEADS DECEMBER';
+$p_mailname4DCE =  'LEADS_ZYN_LOCALIZATIENDA_AWARENESS​';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'ZYN LEADS';
-$p_mailname4FSH =  'LEADS_LOCAL_MCEXPERIMENT_EXPERIMENTZYN_28';
+$p_name4folderFSH =  'ZYN LEADS DICIEMBRE';
+$p_mailname4FSH =  'LEADS_ZYN_LOCALIZATIENDA_AWARENESS​';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$id_FSH_folder =  '229';
+
+// La pieza original z10 se mando como IQOS -> 24.297
+// $p_id =  'z10';
+// $p_subject =  '';
+// $p_preheader =  '';
+// $p_yy =  '24';
+// $p_mm =  '10';
+// $p_dd =  '23';
+// $p_name4folder =  'zyn-leads';
+// $p_name4json =  'zyn-leads';
+// $p_name4folderDCE =  'ZYN LEADS';
+// $p_mailname4DCE =  'LEADS_LOCAL_MCEXPERIMENT_EXPERIMENTZYN_28';
+// $p_customerkey_DCE =  'NA';
+// $p_name4folderFSH =  'ZYN LEADS';
+// $p_mailname4FSH =  'LEADS_LOCAL_MCEXPERIMENT_EXPERIMENTZYN_28';
+// $p_customerkey_FSH =  'NA';
+// $id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -27,6 +44,36 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
+
+
+
+
+
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
+$requiredBlocks_prevZYN = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -303,6 +350,10 @@ Llámanos                800 0440 836
 --------------------
 --------------------
 --------------------
+Localizar Tienda         https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
+Conoce más               https://conoce-zyn.com/wp-content/localizador-tiendas.html?utm_source=iqos_web&utm_medium=banner&utm_campaign=zyn_expansion
+Síguenos en Instagram    https://www.instagram.com/zyn_mxoficial/
+Compra en línea          https://www.zyn.com/mx/es/compra-zyn.html
 --------------------
 --------------------
 --------------------
@@ -314,6 +365,8 @@ Llámanos                800 0440 836
 --------------------
 --------------------
 --------------------
+(1) Estimación global de PMI de las ventas totales en el mercado de bolsas de nicotina de enero a junio de 2023.
+​
 --------------------
 --------------------
 --------------------
