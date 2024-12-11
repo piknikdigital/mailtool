@@ -7,9 +7,9 @@ $p_yy =  '24';
 $p_mm =  '12';
 $p_dd =  '11';
 $p_name4folder =  'laus-ene';
-$p_name4json =  'laus-variante-trade-in-precios';
+$p_name4json =  'laus-variante-trade-in-precios-14';
 $p_name4folderDCE =  'LAUS JANUARY';
-$p_mailname4DCE =  'LAUS_DCE_VARIANTE_TRADEIN_PRECIOS#';
+$p_mailname4DCE =  'LAUS_DCE_VARIANTE_TRADEIN_PRECIOS#14';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -279,6 +279,7 @@ Compra en línea      https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/
 --------------------
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">¡Descubre el siguiente nivel en</span><br>tabaco calentado!
 --------------------
 --------------------
 --------------------
