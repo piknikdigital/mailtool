@@ -295,12 +295,14 @@ Encuentra tu <span style=\"color:#00d1d2;font-weight:700;font-size:32px;\">tiend
 --------------------
 Descubre <b>nuevos accesorios, adquiere tus<br>unidades de tabaco para calentar TEREA</b> favoritas<br>o resuelve cualquier duda.​
 --------------------
+Descubre <b>accesorios</b> para <b>personalizar tu dispositivo,</b><br>adquiere tus <b>unidades de tabaco</b> para calentar<br>o recibe asistencia personalizada.
+--------------------
+--------------------
+--------------------
 --------------------
 Ahora podrás visitarnos en <span style=\"color:#00d1d2;font-weight:700;\">Plaza Cumbres,</span> <br><span style=\"color:#34303d;font-weight:700;\">planta baja,  frente a Liverpool.​</span>
 --------------------
---------------------
---------------------
---------------------
+Ahora podrás visitarnos en<br><span style=\"color:#00d1d2;font-weight:700;\">Plaza Cumbres Monterrey,</span> ¡te esperamos!
 --------------------
 --------------------
 --------------------
