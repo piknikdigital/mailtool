@@ -35,11 +35,19 @@ if ($argc == 3){
     {
         $target = $target1;
         $idMail = $argv[1];
+        if ( strstr( $argv[1], ".") )
+        {
+            list($year, $idMail) = explode(".",  $argv[1]);
+        }
     }
     else if ( $target2 === "DCE" || $target2 === "FSH" || $target2 === "HTML")
     {
         $target = $target2;
-        $idMail = $argv[2];       
+        $idMail = $argv[2];
+        if ( strstr( $argv[2], ".") )
+        {
+            list($year, $idMail) = explode(".",  $argv[2]);
+        }
     }
 }
 else{

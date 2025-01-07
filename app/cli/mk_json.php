@@ -18,17 +18,26 @@ include_once("includes_v2/predefined_blocks_v2.php");
 
 $year = getYear();
 
-
 // echo $argc;
 // echo PHP_EOL; die;
 
 if ($argc == 2){
-    $arguments= "_JSON_v2/$year-$argv[1]-data-v2/$year.$argv[1]-config.php";
+    $id = $argv[1];
+    $arguments= "_JSON_v2/$year-$id-data-v2/$year.$id-config.php";
+
+    if ( strstr( $argv[1], ".") )
+    {
+        list($year, $id) = explode(".",  $argv[1]);
+        $arguments= "_JSON_v2/$year-$id-data-v2/$year.$id-config.php";
+    }
+
 }
 else{
     echo PHP_EOL."\033[1;37;41m ERROR: \033[0m No se especificó ID, o error en número de parámetros."  . PHP_EOL . PHP_EOL;
     die;
 }
+
+// echo "Year:" . $year . PHP_EOL  ."Id: " . $id . PHP_EOL; die;
 
 // echo $arguments.PHP_EOL; die;
 // $arguments= "_JSON/CINTILLO-MGM/CINTILLO-MGM-json-arguments-ROOT-HTML.php";
@@ -52,13 +61,13 @@ $vars = createEnvironment2($arguments, "HTML");
 if ($vars['id'] == "000")
 {
     // Default data in file? abort process
-    echo PHP_EOL."\033[1;37;41m ERROR: \033[0m NO hay datos en archivo $year.$argv[1]-config.php" . PHP_EOL . PHP_EOL;
+    echo PHP_EOL."\033[1;37;41m ERROR: \033[0m NO hay datos en archivo $year.$id-config.php" . PHP_EOL . PHP_EOL;
     die;
 }
 
 
 $config_sections = fill_config( $vars );
-$blocks_section  = createBlocks_v2( $arguments, $libraryBlocks, $year.".".$argv[1], );
+$blocks_section  = createBlocks_v2( $arguments, $libraryBlocks, $year.".".$id, );
 $ending          = get_ending();
 $boilerplate_    = $config_sections
                    .$blocks_section

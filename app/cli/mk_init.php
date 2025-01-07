@@ -17,6 +17,10 @@ define("MK_DIR_TEMPLATE" , "$year-XXX-data-v2/");
 if ($argc == 2)
 {
     $number = $argv[1];
+    if ( strstr( $argv[1], ".") )
+    {
+        list($year, $number) = explode(".",  $argv[1]);
+    }
 }
 else
 {
@@ -24,6 +28,7 @@ else
     echo PHP_EOL . "\033[30;43m ! \033[1;37;41m ERROR: \033[0m Argumento MAIL-ID requerido." . PHP_EOL. PHP_EOL  ;
     die;
 }
+// echo "year:" . $year . PHP_EOL  ."number" . $number . PHP_EOL; die;
 
 // $files:  Lista de archivos a contruir. Con cada template en la carpeta WK_SOURCE_DIR
 //          se construirá un archivo para el MAIL-ID solicitado
