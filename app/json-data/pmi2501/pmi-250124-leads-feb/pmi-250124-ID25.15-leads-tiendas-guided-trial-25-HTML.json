@@ -3,11 +3,11 @@
    
     "config_template" :
     {
-        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML",
-        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML",
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML",
 
-        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML",
-        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML.html",
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML.html",
 
         "Subject"          :   "",
         "Preheader"        :   "",
@@ -22,10 +22,10 @@
         ],
         "test-url"         :   
         [
-            { "urlD" : "https://paginum.com/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML" } ,
-            { "urlS" : "https://paginum.com/email/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML.html"  },
-            { "urlS" : "http://mailtool.lan:8888/email/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML.html"},
-            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML.html" },
+            { "urlD" : "https://paginum.com/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML.html" },
             { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
         ]
     },
@@ -34,7 +34,7 @@
     "BaseURLassets"    :   "",
     "BaseURLimg"       :   "",
     
-    "HTMLstaticfile"   :   "pmi2501/pmi-250103-leads-feb/pmi-250103-ID25.2-leads-venta-2-HTML.html",
+    "HTMLstaticfile"   :   "pmi2501/pmi-250124-leads-feb/pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML.html",
 
     "trackmailopen"            :   "0",
     "trackmailaudience"        :   "0",    
@@ -42,11 +42,11 @@
     "target"                   :   "HTML",
 
     "TwigTemplate"     :   "iqos-2024-v1.twig",
-    "Source"           :   "pmi-250103-ID25.2-leads-venta-2-HTML",
+    "Source"           :   "pmi-250124-ID25.15-leads-tiendas-guided-trial-25-HTML",
     "isWebVer"         :   " ",
     
     "SECTION_2"        :   "############ CONTENIDOS #####################################",
-    "PageTitle"        :   "ID25.2 LEADS DCE VENTA 2",
+    "PageTitle"        :   "ID25.15 LEADS DCE TIENDAS GUIDEDTRIAL 25",
     "PREHEADER"        :   "",
     "content_bgcolor"  :   "#FFFFFF",
     
@@ -68,14 +68,14 @@
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.2-1.jpg",
+            "img"           :  "25.15-1.jpg",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
             "mtop"          :  "0",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG 25.2-1",
+            "this"          :  "IMG 25.15-1",
             "version"       :  "iqos-2024-v1.twig"
         },
         {
@@ -83,182 +83,117 @@
             "fontweight"    : "700",
             "color"         : "#34303d",
             "bgcolor"       : "transparent",
-            "mtop"          : "50",
+            "mtop"          : "40",
             "mbottom"       : "0",
             "txt"           : "Hola, %%first_name%%",
             "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
         },
         {
-            "type"          : "iq24-p",
-            "font"          : "Cabin",
-            "fontweight"    : "300",
-            "fontsize"      : "22",
-            "height"        : "26",
-            "txtclass"      : "txt_22",
-            "width_pc"      : "100",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "bgcolor"       : "transparent",
-            "mtop"          : "40",
-            "mbottom"       : "0",
-            "msides"        : "0",
-            "mcolor"        : "transparent",
-            "txt"           : "Con <span style=\"color:#00d1d2;font-weight:700;\">IQOS</span>, da el paso hacia una<br><b>vida sin humo ni olor a cigarro,</b> y disfruta<br><b>más tiempo con los tuyos.</b>",
-            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.15-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.15-2",
+            "version"       :  "iqos-2024-v1.twig"
         },
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.2-2.jpg",
+            "img"           :  "25.15-3.gif",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
-            "mtop"          :  "70",
+            "mtop"          :  "20",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG 25.2-2",
+            "this"          :  "IMG 25.15-3",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.15-4.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.15-4",
             "version"       :  "iqos-2024-v1.twig"
         },
         {
             "type"          : "iq24-cta",
             "bgcolor"       : "transparent",
-            "img"           : "cta-comprar-ahora.png",
+            "img"           : "cta-localizar-tienda.png",
             "alt"           : "",
-            "url"           : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "url"           : "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
             "alias"         : "",
             "mtop"          : "30",
             "mbottom"       : "0",
             "width_pc"      : "34",
-            "this"          : "CTA cta-comprar-ahora"
+            "this"          : "CTA cta-localizar-tienda"
         },
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.2-3.jpg",
+            "img"           :  "25.15-5.jpg",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
-            "mtop"          :  "70",
+            "mtop"          :  "40",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG 25.2-3",
+            "this"          :  "IMG 25.15-5",
             "version"       :  "iqos-2024-v1.twig"
-        },
-        {
-            "type"          : "iq24-cta",
-            "bgcolor"       : "transparent",
-            "img"           : "cta-conoce-mas.png",
-            "alt"           : "",
-            "url"           : "https://www.iqos.com/mx/es/beneficios.html",
-            "alias"         : "",
-            "mtop"          : "30",
-            "mbottom"       : "0",
-            "width_pc"      : "34",
-            "this"          : "CTA cta-conoce-mas"
         },
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.2-4.jpg",
+            "img"           :  "25.15-6.gif",
+            "alt"           :  "",
+            "url"           :  "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "80",
+            "this"          :  "cta localizar tienda IMG 25.15-6",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.15-7.jpg",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
-            "mtop"          :  "70",
+            "mtop"          :  "40",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG 25.2-4",
+            "this"          :  "IMG 25.15-7",
             "version"       :  "iqos-2024-v1.twig"
         },
-        {
-            "type"      : "iq24-columns",
-            "font"      : "Cabin",
-            "msides"    : "0",
-            "mtop"      : "30",
-            "mbottom"   : "0",
-            "bgcolor"   : "transparent",
-            "this"      : "",
-            "columns"   :
-            [
-                {
-                    "coltype"       : "spacer",
-                    "bgcolor"       : "transparent",
-                    "width_pc"      : "6",
-                    "height"        : "auto"
-                },
-                {
-                    "coltype"       : "img",
-                    "bgcolor"       : "transparent",
-                    "width_pc"      : "40",
-                    "img_width_pc"  : "90",
-                    "mtop"          : "0",
-                    "mbottom"       : "0",
-                    "img"           : "cta-comprar-ahora.png",
-                    "url"           : "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html",
-                    "this"          : "IMG cta-comprar-ahora"
-                },
-                {
-                    "coltype"       : "spacer",
-                    "bgcolor"       : "transparent",
-                    "width_pc"      : "8",
-                    "height"        : "auto"
-                },
-                {
-                    "coltype"       : "img",
-                    "bgcolor"       : "transparent",
-                    "width_pc"      : "40",
-                    "img_width_pc"  : "90",
-                    "mtop"          : "0",
-                    "mbottom"       : "0",
-                    "img"           : "cta-comprar-ahora.png",
-                    "url"           : "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-verde.html",
-                    "this"          : "IMG cta-comprar-ahora"
-                },
-                {
-                    "coltype"       : "spacer",
-                    "bgcolor"       : "transparent",
-                    "width_pc"      : "6",
-                    "height"        : "auto"
-                }
-            ]
-        },
+
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.2-5.jpg",
-            "alt"           :  "",
-            "url"           :  "#",
-            "alias"         :  "",
-            "mtop"          :  "70",
-            "mbottom"       :  "0",
-            "width_pc"      :  "100",
-            "this"          :  "IMG 25.2-5",
-            "version"       :  "iqos-2024-v1.twig"
-        },
-        {
-            "type"          : "iq24-cta",
-            "bgcolor"       : "transparent",
-            "img"           : "cta-pedir-ahora.png",
-            "alt"           : "",
-            "url"           : "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
-            "alias"         : "",
-            "mtop"          : "0",
-            "mbottom"       : "0",
-            "width_pc"      : "34",
-            "this"          : "CTA cta-pedir-ahora"
-        },
-        {
-            "type"          :  "iq24-center-img",
-            "bgcolor"       :  "transparent",
-            "img"           :  "25.1-6.jpg",
+            "img"           :  "25.15-8.jpg",
             "alt"           :  "",
             "url"           :  "https://www.instagram.com/iqos_mx/",
             "alias"         :  "",
-            "mtop"          :  "80",
+            "mtop"          :  "40",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG 25.1-6",
+            "this"          :  "IMG 25.15-8",
             "version"       :  "iqos-2024-v1.twig"
         },
+
+
         {
             "type"          : "iq24-p",
             "font"          : "Cabin",
@@ -268,7 +203,7 @@
             "txtclass"      : "txt_26",
             "width_pc"      : "100",
             "align"         : "center",
-            "color"         : "#00d1d2",
+            "color"         : "#34303d",
             "bgcolor"       : "transparent",
             "mtop"          : "40",
             "mbottom"       : "0",
@@ -291,7 +226,7 @@
             "items" :
             [
                 {
-                    "txt"   :  "(1) Descuento del 10% vigente del 01 al 28 de febrero de  2025 aplicable en la compra de tu primer Kit IQOS ILUMA, en iqos.com, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>",
+                    "txt"   :  "",
                     "this"  :  "{LEGALES DE ESTA PIEZA}"
                 },
                 {

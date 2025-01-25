@@ -26,7 +26,7 @@ else{
 $r= askUserRange();
 for ($i= $r[0] ; $i<= $r[1]  ; $i++)
 {
-    $dirname = sprintf("24.%d%s" , $i, $arg);
+    $dirname = sprintf("25.%d%s" , $i, $arg);
     echo "Creando $dirname ".PHP_EOL;
     mk_dir( $dirname );
 }
