@@ -286,9 +286,12 @@ Localiza una tienda    https://www.iqos.com/mx/es/localizador-tiendas.html
 --------------------
 ​Sabemos que estás buscando una <b>alternativa<br> libre de humo,</b> por eso <b>IQOS</b> va a ti.
 --------------------
+​Sabemos que estás buscando una <b>alternativa<br> libre de humo,</b> por eso te decimos cómo puedes probar <b>IQOS:</b>
 --------------------
 --------------------
 --------------------
+
+<a href=\"https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 --------------------
 --------------------
 --------------------

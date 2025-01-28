@@ -1,15 +1,15 @@
 <?php
 
-$p_id =  'z9';
+$p_id =  'z10b';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '01';
 $p_dd =  '23';
 $p_name4folder =  'zyn';
-$p_name4json =  'leads-zyn-explosion-de-sabor-febrero';
+$p_name4json =  'leads-zyn-momentos-febrero';
 $p_name4folderDCE =  'ZYN';
-$p_mailname4DCE =  'Leads_ZYN_Explosión de sabor_febrero';
+$p_mailname4DCE =  'LEAD_ZYN_Momentos_febrero';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -46,6 +46,8 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     'iqos24-columns',       // REEMPLAZA A: "columns",
 
@@ -59,13 +61,8 @@ $requiredBlocks = array(
 
 
 
-
-
-
-
-
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks_iq2024 = array(
+$requiredBlocks_iqos24 = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -241,8 +238,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON z9z9XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON z9z9XX :   %%referral_code%%
+    CODIGO PARA CUPON z10z10XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON z10z10XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -305,44 +302,28 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
-Ver más                https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Compra en línea        https://www.zyn.com/mx/es/compra-zyn.html
+Conoce más             https://www.zyn.com/mx/es/descubre-zyn.html
 Chat en vivo           https://www.zyn.com/mx/es/home.html
 Celular                800 0440 836 
 Tienda IQOS            https://conoce-iqos.com/wp-content/localizador-tiendas.html
 Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
-Compra en línea        https://www.zyn.com/mx/es/compra-zyn.html
 --------------------
---------------------
---------------------
---------------------
-Agreguemos en cada imagen el link que corresponda a cada sabor.
-
-cool mint; https://www.zyn.com/mx/es/shop/zyn-cool-mint-intensidad-media-lata.html
-
-Black Cherry: https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html
-
-Espressino: https://www.zyn.com/mx/es/shop/zyn-espressino-intensidad-media-lata.html
-
-Citrus: https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html
-
-Spearmnt : TBD
-
-El botón de VER MAS tiene que redireccionar a los sabores, te paso el link:
-https://www.zyn.com/mx/es/compra-zyn.html
-
-
---------------------
---------------------
---------------------
---------------------
---------------------
-(1) Promoción válida únicamente al comprar 4 latas de ZYN, con el beneficio de recibir una lata adicional del sabor que elijas sin costo. Disponible exclusivamente en nuestra tienda en línea al realizar la compra en <a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>.
 --------------------
 --------------------
 --------------------
 --------------------
 <a href=\"https://www.zyn.com/mx/es/home/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home/</a>
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

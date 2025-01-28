@@ -301,6 +301,7 @@ Descuento del 10% vigente del 01 al 28 de enero de  2025  aplicable en la compra
 --------------------
 --------------------
 --------------------
+*Envío de 1 hora válido únicamente en Ciudad de México para las alcaldías Cuauhtémoc, Benito Juárez y Miguel Hidalgo. Haz tu pedido de 11 a 23 hrs. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>.
 --------------------
 --------------------
 --------------------
