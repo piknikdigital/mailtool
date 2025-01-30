@@ -325,8 +325,10 @@ Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
+<a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home.html</a>
 --------------------
 --------------------
+(1) Promoción 5x4: Compra 5 y paga solo 4. Válido únicamente en tienda en línea. <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home.html</a> Consulta términos y condiciones.​   <br><br>    (2) Estimación global de PMI de las ventas totales en el mercado de bolsas de nicotina de enero a junio de 2023.​
 --------------------
 --------------------
 --------------------
