@@ -1,15 +1,15 @@
 <?php
 
-$p_id =  'z8';
+$p_id =  'z15';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '01';
-$p_dd =  '23';
-$p_name4folder =  'zyn01';
-$p_name4json =  'leads-zyn-tiendas-enero';
-$p_name4folderDCE =  'ZYN';
-$p_mailname4DCE =  'Leads_ZYN_Tiendas_enero';
+$p_mm =  '02';
+$p_dd =  '16';
+$p_name4folder =  'zyn-marzo';
+$p_name4json =  'zyn-leads-momentos-marzo-11';
+$p_name4folderDCE =  'ZYN LAUS MARCH';
+$p_mailname4DCE =  'Zyn_momentos_leads_marzo11';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -19,17 +19,12 @@ $id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-// $companyBrand     = "pmi";
-// $TwigTemplate     = "iqos-2024-v1.twig";
-// $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
 $companyBrand     = "zyn";
 $TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
+// $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
 
@@ -42,7 +37,6 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
 
-
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -50,48 +44,14 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
 
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     "zyn25-legales",
     "zyn25-footer"
-);
-
-
-
-
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks_iqos24 = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-greeting-with-bgimg",
-    
-    
-    
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img-with-bgimg",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
-    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
-    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
-    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
-
 );
 
 
@@ -107,43 +67,6 @@ $requiredBlocks__ZYN = array(
 );
 
 
-// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
-$requiredBlocks2 = array(
-    "header_brand_world",
-
-    "stageIMG",
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "canales_de_comunicacion",
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    "IQOS-Wallet-Iluma-Turquesa", // 24.165
-    "ElijoIQOS",
-    "Solo_con_IQOS",
-
-    "Tu_equipo_IQOS",
-    "Tu_Equipo_IQOS",
-
-    "bloque_legales_iluma",
-    "footer_bw_v1_lowercase",
-);
 
 
 /* 
@@ -239,8 +162,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON z8z8XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON z8z8XX :   %%referral_code%%
+    CODIGO PARA CUPON z15z15XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON z15z15XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -303,11 +226,17 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Localízala aquí        https://conoce-zyn.com/wp-content/localizador-tiendas.html
+--------------------
+Pídelo aquí            https://www.zyn.com/mx/es/compra-zyn.html
+Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
 Chat en vivo           https://www.zyn.com/mx/es/home.html
-Celular                800 0440 836 
+Llámanos               800 0440 836 
 Tienda IQOS            https://conoce-iqos.com/wp-content/localizador-tiendas.html
 Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
+Compra en línea        https://www.zyn.com/mx/es/compra-zyn.html
+Localiza una tienda    https://conoce-zyn.com/wp-content/localizador-tiendas.html
+Email                  contacto.mx@zyn.com​
+Llámanos               800 0440 836 
 --------------------
 --------------------
 --------------------
@@ -318,15 +247,13 @@ Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
-(1) Precio sugerido​.<br><br>(2) Promoción 5x4: Compra 5 y paga solo 4. Válido únicamente en tienda en línea. <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home.html</a> Consulta términos y condiciones.​
+--------------------
+(1) Promoción 5x4: Compra 5 y paga solo 4. Válido únicamente en tienda en línea. <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home.html</a> Consulta términos y condiciones.    <br><br>    (2) Disponible exclusivamente en línea y tiendas IQOS​
 --------------------
 --------------------
 --------------------
 <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.zyn.com/mx/es/home.html</a>
---------------------
---------------------
---------------------
-https://conoce-zyn.com/wp-content/localizador-tiendas.html
+
 --------------------
 --------------------
 --------------------
