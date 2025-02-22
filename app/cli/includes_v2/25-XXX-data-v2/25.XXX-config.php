@@ -41,13 +41,10 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    
     "iqos24-greeting-with-bgimg",
-    
-    
-    
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img-with-bgimg",
+    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -56,12 +53,17 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
     'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
     'iqos24-columns',       // REEMPLAZA A: "columns",
     'iqos24-spacer',        // REEMPLAZA A: "spacer",
     "iqos24-canales-de-comunicacion",
+
+
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",

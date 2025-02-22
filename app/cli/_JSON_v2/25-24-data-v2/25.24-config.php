@@ -41,27 +41,26 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-greeting-with-bgimg",
-    
-    
-    
     
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img-with-bgimg",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+    'iqos24-columns',       // REEMPLAZA A: "columns",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
+    
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
@@ -277,12 +276,29 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Comparte tu código      Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.
+Comparte tu código      Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.
+Ver más                 https://www.iqos.com/mx/es/beneficios.html
+IQOS Wallet             https://play.google.com/store/apps/details?id=com.iqos.referral&hl=es_MX
+Síguenos en Instagram   https://www.instagram.com/iqos_mx/
+
+
+Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda     https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                   contact.mx@iqos.com
+Llámanos                8001 476769
+	
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (2) AirPods 4, Estuche de Carga (USB-C) inalámbrico, sin cancelación de ruido. Válido hasta agotar existencia del 1 al 31 de marzo de 2025. Solo para usuarios IQOS registrados (con cuenta en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>) y al menos 4 referidos con dispositivo registrado al término de marzo de 2025.    <br><br>    (3) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.
+
 --------------------
+
+(2) Válido hasta agotar existencia del 1 al 31 de marzo de 2025. Solo para usuarios IQOS registrados (con cuenta en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Limitado a los primeros 100 usuarios que logren llegar a 4 referidos. El modelo de los audífonos es AirPods 4, con Estuche de Carga (USB-C) inalámbrico, sin cancelación de ruido.
+
 --------------------
 --------------------
 --------------------

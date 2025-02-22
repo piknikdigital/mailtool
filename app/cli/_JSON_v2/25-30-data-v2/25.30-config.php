@@ -26,11 +26,6 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
 
 
 //-----------------------------------------
@@ -41,83 +36,25 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    "iqos24-greeting-with-bgimg",
     
-    
-    
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img-with-bgimg",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
-
 );
 
 
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-legales",
-    "zyn25-footer"
-);
-
-
-// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
-$requiredBlocks2 = array(
-    "header_brand_world",
-
-    "stageIMG",
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "canales_de_comunicacion",
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    "IQOS-Wallet-Iluma-Turquesa", // 24.165
-    "ElijoIQOS",
-    "Solo_con_IQOS",
-
-    "Tu_equipo_IQOS",
-    "Tu_Equipo_IQOS",
-
-    "bloque_legales_iluma",
-    "footer_bw_v1_lowercase",
-);
 
 
 /* 
@@ -277,6 +214,14 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Localiza tu tienda      https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Compartir  código       Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA. No olvides utilizar mi código %%referral_code%% al comprar.
+Comprar ahora           https://www.zyn.com/mx/es/shop/zyn-spearmint-intensidad-media-lata.html
+Síguenos en Instagram   https://www.instagram.com/iqos_mx/
+Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda     https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                   contact.mx@iqos.com
+Llámanos                8001 476769
 --------------------
 --------------------
 --------------------
@@ -284,7 +229,7 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
+(1) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo, válido solo en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y Call Center IQOS. No canjeable por productos de tabaco. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.​
 --------------------
 --------------------
 --------------------
