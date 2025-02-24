@@ -1,18 +1,18 @@
 <?php
 
-$p_id =  '34';
+$p_id =  '33b';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '02';
 $p_dd =  '24';
 $p_name4folder =  'leads-marzo';
-$p_name4json =  'leads-local-venta-qcommerce-11';
+$p_name4json =  'leads-local-scanpack-6';
 $p_name4folderDCE =  'LEADS MARCH';
-$p_mailname4DCE =  'LEADS_LOCAL_VENTA+QCOMMERCE_11';
+$p_mailname4DCE =  'LEADS_LOCAL_SCANPACK_6';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'LEADS MARZO';
-$p_mailname4FSH =  'LEADS_LOCAL_VENTA+QCOMMERCE_11';
+$p_mailname4FSH =  'LEADS_LOCAL_SCANPACK_6';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
@@ -37,35 +37,30 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
      
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-
-
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
     
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
 
 );
-
 
 
 
@@ -163,8 +158,8 @@ $requiredBlocks = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 3434XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 3434XX :   %%referral_code%%
+    CODIGO PARA CUPON 3333XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 3333XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -228,47 +223,44 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
-Comprar ahora         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-Conoce más            https://www.iqos.com/mx/es/beneficios.html
-Pedir ahora           https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-Síguenos en Instagram https://www.instagram.com/iqos_mx/
-Compra en línea       https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-Localiza una tienda   https://conoce-iqos.com/wp-content/localizador-tiendas.html
-Email                 contact.mx@iqos.com
-Llámanos              8001 476769
-	
---------------------
---------------------
---------------------
+Ver más                https://www.iqos.com/mx/es/descubrir.html
+Comprar ahora          https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-gris-lila.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-dorado.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+Síguenos en Instagram  https://www.instagram.com/iqos_mx/
+Compra en línea        https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda    https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                  contact.mx@iqos.com
+Llámanos               8001 476769
+	 
 --------------------
 --------------------
 --------------------
 --------------------
+Sabemos que buscas algo diferente,<br><b>una alternativa que se adapte a ti</b> sin perder lo<br> que realmente disfrutas.​
 --------------------
-Es tiempo de un cambio para ti.​
+--------------------
+--------------------
+--------------------
+--------------------
+Si vives en CDMX*​<br>IQOS llega a ti en <span style=\"color:#00d1d2;font-weight:700;\">tan solo una hora.​</span>
+--------------------
+​Haz tu pedido de 11:00 a 23:00 horas<br> y recíbelo en 60 minutos.
+--------------------
+*Valido únicamente en las alcaldías, Cuauhtémoc, Benito Juárez y Miguel Hidalgo.
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+El Programa de Asesor Personal IQOS está disponible exclusivamente en la Ciudad de México y su área metropolitana. Su disponibilidad puede estar sujeta a cambios y restricciones.    <br><br>    (1) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.<br>*Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.    <br><br>    ​(2) Descuento del 20% vigente del 01 al 31 de marzo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta Términos y Condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 
-Dile adiós al humo de cigarro y dale la bienvenida<br> al tabaco calentado.​
-
---------------------
-Usa el código:
-CONOCE-ILUMA
 --------------------
 --------------------
---------------------
-¡Adquiere tu IQOS<br>en 1 hora!​
---------------------​
-Si vives en CDMX* pide tu <br>IQOS ILUMA y recíbelo en la<br>puerta de tu casa en tan solo<br>una hora.​
---------------------
-*Valido únicamente en las alcaldías, Cuauhtémoc,<br> Benito Juárez y Miguel Hidalgo.<br>​Haz tu pedido de 11:00 a 23:00 hrs.
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-(1) Descuento del 10% vigente del 01 al 31 de marzo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta Términos y Condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>     <br><br>     *Envío de 1 hora válido únicamente en Ciudad de México para las alcaldías Cuauhtémoc, Benito Juárez y Miguel Hidalgo. Haz tu pedido de 11 a 23 hrs. Consulta Términos y Condiciones.
 --------------------
 --------------------
 --------------------

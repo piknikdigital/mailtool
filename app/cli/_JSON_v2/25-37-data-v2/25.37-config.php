@@ -40,21 +40,16 @@ $requiredBlocks = array(
       
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
 
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
@@ -224,6 +219,16 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Ver más                 https://www.iqos.com/mx/es/beneficios.html
+Comprar ahora           https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-verde-jade.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-magenta.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+Síguenos en Instagram   https://www.instagram.com/iqos_mx/
+Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda     https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                   contact.mx@iqos.com
+Llámanos                8001 476769
 --------------------
 --------------------
 --------------------
@@ -232,6 +237,9 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+
+​(1) Descuento del 10% vigente del 01 al 31 de marzo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta Términos y Condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+
 --------------------
 --------------------
 --------------------

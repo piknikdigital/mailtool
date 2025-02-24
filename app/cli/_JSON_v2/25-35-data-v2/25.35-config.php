@@ -41,20 +41,12 @@ $requiredBlocks = array(
       
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
@@ -224,6 +216,16 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+FALTA CLICK AQUI
+
+Contactar asesor       https://iqosmx.com/coaches/?utm_source=website&utm_medium=iqos&_gl=1*jlzw2d*_gcl_au*MTg0NDE2MzkzMC4xNzM0NDczNzg3*_ga*MTU0OTExNDM0OC4xNzE0NjgzMTMw*_ga_807WM9RT1H*MTczNjg5NzQ3MC4xNjUuMC4xNzM2ODk3NDc0LjAuMC4w
+Probar ahora           https://www.iqos.com/mx/es/prueba-iqos.html
+Síguenos en Instagram  https://www.instagram.com/iqos_mx/
+Compra en línea        https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda    https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                  contact.mx@iqos.com
+Llámanos               8001 476769
+
 --------------------
 --------------------
 --------------------
@@ -240,6 +242,7 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+El Programa de Asesor Personal IQOS está disponible exclusivamente en la Ciudad de México y su área metropolitana. Su disponibilidad puede estar sujeta a cambios y restricciones.    <br><br>    (1) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.<br>*Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.    <br><br>    ​(2) Descuento del 20% vigente del 01 al 31 de marzo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta Términos y Condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 --------------------
 --------------------
 --------------------

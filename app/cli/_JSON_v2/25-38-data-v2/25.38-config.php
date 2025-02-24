@@ -7,12 +7,12 @@ $p_yy =  '25';
 $p_mm =  '02';
 $p_dd =  '24';
 $p_name4folder =  'leads-marzo';
-$p_name4json =  'leads-local-scanpack-20​';
+$p_name4json =  'leads-local-scanpack-20';
 $p_name4folderDCE =  'LEADS MARCH';
-$p_mailname4DCE =  'LEADS_LOCAL_SCANPACK_20​';
+$p_mailname4DCE =  'LEADS_LOCAL_SCANPACK_20';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'LEADS MARZO';
-$p_mailname4FSH =  'LEADS_LOCAL_SCANPACK_20​';
+$p_mailname4FSH =  'LEADS_LOCAL_SCANPACK_20';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
@@ -27,8 +27,6 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 
 
-
-
 //-----------------------------------------
 
 
@@ -38,22 +36,21 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
@@ -226,23 +223,47 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Comprar ahora          https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Ver más                https://www.iqos.com/mx/es/beneficios.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-gris-lila.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-dorado.html
+Comprar ahora          https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+Síguenos en Instagram  https://www.instagram.com/iqos_mx/
+Compra en línea        https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda    https://conoce-iqos.com/wp-content/localizador-tiendas.html
+Email                  contact.mx@iqos.com
+Llámanos               8001 476769
+	
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
+<span style=\"color:#00d1d2;font-weight:700;\">Con IQOS,</span> cambia la forma, no el momento.​<br>Eleva tu experiencia de tabaco: ​<br><b>sin humo, sin ceniza y sin molestar a los demás.​</b>
+​
+
+--------------------
+--------------------
+40%
+--------------------
+de descuento<span style=\"font-size:12px;\"><sup class=\"sup_20\">(1)</sup></span>
+--------------------
+en tu primer Kit IQOS.
+--------------------
+--------------------
+--------------------
+Usa el código
+--------------------
+CONOCEILUMA-JS
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+​
+
+
+(1) Descuento del 40% vigente del 01 al 31 de marzo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+
 --------------------
 --------------------
 --------------------
