@@ -112,6 +112,9 @@ $loader = new \Twig\Loader\FilesystemLoader(
              dirname(dirname(__DIR__)) ."/app/views/zyn/", 
              dirname(dirname(__DIR__)) ."/app/views/zyn/templates/", 
              dirname(dirname(__DIR__)) ."/app/views/zyn/blocks/", 
+             dirname(dirname(__DIR__)) ."/app/views/cz/", 
+             dirname(dirname(__DIR__)) ."/app/views/cz/blocks/", 
+             dirname(dirname(__DIR__)) ."/app/views/cz/templates/", 
              dirname(dirname(__DIR__)) ."/app/views/system/" 
     )
 );

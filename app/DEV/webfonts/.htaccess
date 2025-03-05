@@ -1,0 +1,10 @@
+AddType text/css .css
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !/(admin|css|stylesheets|fonts|ico|include|js|static)/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?f=$1 [QSA,L]

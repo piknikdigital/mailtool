@@ -1,0 +1,18 @@
+{% block iq24_greeting_with_bgimg ~%}
+{%- set img_h = blocks[index].bgimg_height * 0.75 -%}
+{%- set img_w = blocks[index].bgimg_width  * 0.75 -%}
+                          <tr pik-mail-block="greeting_bgimg" style="background-color:{{blocks[index].bgcolor}};height:{{img_h}}px;width:{{img_w}}px;">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};{% if blocks[index].bgimg is defined and blocks[index].bgimg != "" %} background-image:url('{{blocks[index].bgimg}}'); background-size:{{img_w}}px {{img_h}}px;  {% endif %} {% if blocks[index].vertical_align is defined and blocks[index].vertical_align != "" %}vertical-align:{{blocks[index].vertical_align}};{% endif %} text-align:center;font-size:28px;font-weight:{{blocks[index].fontweight}};line-height:34px;color:{{blocks[index].color}}" class="horizontal-gutter fallback-text" height="34">
+                              <span class="fallback-text txt_greeting" style="font-family: 'Cabin', Gotham, Arial, sans-serif;">{{blocks[index].txt|raw}}</span>
+                            </th>
+                          </tr>{% endblock -%}
+
+
+                          {# {% if blocks[index].mtop != "0" ~%}<tr pik-mail-block="greeting_spacer_top" style="background-color:{{blocks[index].bgcolor}};">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].mtop}}">&nbsp;</th>
+                          </tr>{% endif ~%} #}
+
+                          {#       {% if blocks[index].mbottom != "0" ~%}
+                          <tr pik-mail-block="greeting_spacer_bottom" style="background-color:{{blocks[index].bgcolor}};">
+                            <th valign="top" style="background-color:{{blocks[index].bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                          </tr>{% endif -%} #}

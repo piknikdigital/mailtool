@@ -1,0 +1,590 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML" } ,
+            { "urlS" : "https://paginum.com/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+        
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "cz2503/cz-250302-transaccionales/cz-250302-ID25.52-cz-vencimiento-puntos-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "clubzero-2025-v1.twig",
+    "Source"           :   "cz-250302-ID25.52-cz-vencimiento-puntos-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.52 CZ Vencimiento puntos",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "iq24-center-img",
+            "bgcolor"       : "transparent",
+            "img"           : "cz-header-2.jpg",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "width_pc"      : "100",
+            "this"          : "IMG header CLUB ZERO",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.52-1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.52-1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "34",
+            "height"        : "38",
+            "txtclass"      : "txt_34",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Canjea tus puntos antes<br>de que expiren",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "¡Hola, %%USERNAME%%!",
+            "this"          : "GREETING | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#00d1d2",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Notamos que algunos de tus<br> puntos están por expirar.",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {   "this"          :  "ROUNDED BOX | BLACK | 3x3 | TXT + BORDERS IMG"  },
+
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.52-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "BOX BLACK - TOP  IMG 25.52-2",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#000000",
+            "bgcolor2"   : "#333333",
+            "this"      : "BOX BLACK - MIDDLE",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "12",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.52-3.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 25.52-3"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "bgcolor2"       : "red",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "76",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "¡No dejes que se escapen!",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "26",
+                                    "height"      : "30",
+                                    "txtclass"    : "txt_26",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                },
+                                {
+                                    "txt"         : "Tienes<br>%XXXXXX%% Puntos",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "24",
+                                    "height"      : "30",
+                                    "txtclass"    : "txt_24",
+                                    "align"       : "center",
+                                    "color"       : "#00d1d2",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                },
+                                {
+                                    "txt"         : "que podrías canjear por grandes <br>recompensas. Aquí algunas<br>recomendaciones:",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "12",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.52-4.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 25.52-4"
+                }
+
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.52-5.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "40",
+            "width_pc"      :  "100",
+            "this"          :  "BOX BLACK - BOTTOM  IMG 25.52-5",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+
+
+
+
+        {   "this"          :  "TABLA PREMIOS - PUNTOS"  },
+
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "transparent",
+            "bgcolor2"   : "cyan",
+            "this"      : "RENGLON TABLA PREMIOS - PUNTOS",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "bgcolor2"      : "coral",
+                    "width_pc"      : "35",
+                    "img_width_pc"  : "80",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "imagen-premio.png",
+                    "url"           : "#",
+                    "this"          : "IMG imagen-premio"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "55",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "90",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"color:#00d1d2;font-weight:700;\">%%NOMBRE DEL PREMIO%%</span><br><b>%%NUMERO DE PUNTOS%% Puntos</b>",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "transparent",
+            "bgcolor2"   : "cyan",
+            "this"      : "RENGLON TABLA PREMIOS - PUNTOS",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "bgcolor2"      : "coral",
+                    "width_pc"      : "35",
+                    "img_width_pc"  : "80",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "imagen-premio.png",
+                    "url"           : "#",
+                    "this"          : "IMG imagen-premio"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "55",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "90",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"color:#00d1d2;font-weight:700;\">%%NOMBRE DEL PREMIO%%</span><br><b>%%NUMERO DE PUNTOS%% Puntos</b>",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "transparent",
+            "bgcolor2"   : "cyan",
+            "this"      : "RENGLON TABLA PREMIOS - PUNTOS",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "bgcolor2"      : "coral",
+                    "width_pc"      : "35",
+                    "img_width_pc"  : "80",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "imagen-premio.png",
+                    "url"           : "#",
+                    "this"          : "IMG imagen-premio"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "55",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "90",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"color:#00d1d2;font-weight:700;\">%%NOMBRE DEL PREMIO%%</span><br><b>%%NUMERO DE PUNTOS%% Puntos</b>",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+
+
+
+
+
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.52-6.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.52-6",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+
+
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "czrs-instagram1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG czrs-instagram1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram2.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG czrs-instagram2"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram3.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG czrs-instagram3"
+                }
+            ]
+        },
+
+        {   "this"          :  "Club Zero - Footer"},
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "23",
+            "height"        : "27",
+            "txtclass"      : "txt_23",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Club Zero.</span> Libre de humo, más recompensas",
+            "this"          : "TXT Club Zero | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-privacy.jpg",
+            "alt"           :  "",
+            "url"           :  "#LINK_PRIVACY",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Consulta nuestro aviso de privacidad",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-footer-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Club Zero, zero humo, zero cenizas",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "txtclass"      : "txt_12",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México. <a href=\"#%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

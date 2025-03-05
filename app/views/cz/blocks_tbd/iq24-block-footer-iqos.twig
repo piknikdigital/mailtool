@@ -1,0 +1,148 @@
+{% block iq24_footer_iqos %}
+{% set URL_CompraEnLinea     = "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html" %}
+{% set URL_LocalizaUnaTienda = "https://www.iqos.com/mx/es/localizador-tiendas.html" %}
+{% set URL_Email             = "mailto:contact.mx@iqos.com" %}
+{% set URL_Llamanos          = "tel:8001476769" %}
+{% set footer_logo_iqos      = "footer-logo-iqos.png" %}
+{% set footer_logo_fb        = "footer-logo-fb.png" %}
+{% set footer_logo_ig        = "footer-logo-ig.png" %}
+{% set BizName               = "Philip Morris Products S.A." %}
+{% set BizAddress1           = "Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada," %}
+{% set BizAddress2           = "Miguel Hidalgo, 11529, CDMX, México. " %}
+{% set link_unsub  = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a></span>' %}
+{% set link_prefer = '' %}
+{% if target is defined and target == "DCE" %}
+	{% set footer_logo_iqos = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/3905730a-b8e5-4d82-bac7-bc792ec7da38.png" %}
+	{% set footer_logo_fb   = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/fca79aa7-a69a-4d8b-8d54-2734b3897b12.png" %}
+	{% set footer_logo_ig   = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/4/1e22d0f0-759b-4d1b-a43a-a7c7843ae742.png" %}
+    {% set BizName          = "Philip Morris Products S.A." %}
+    {% set BizAddress1      = "Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada," %}
+    {% set BizAddress2      = "Miguel Hidalgo, 11529, CDMX, México. " %}
+    {% set link_unsub   = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a>' %}
+    {% set link_prefer  = '' %}
+{% endif %}
+{% if target is defined and target == "FSH" %}
+	{% set footer_logo_iqos = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/880793b6-bff4-4ca7-a074-c7dcbd9650db.png" %}
+	{% set footer_logo_fb   = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/01db0fc4-2d19-4b2c-8da0-25294b1d71d9.png" %}
+	{% set footer_logo_ig   = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/2/ff0a0b9e-4605-410e-8aaa-7ded92ac68f7.png" %}
+    {% set BizName      = "%%Member_Busname%%" %}
+    {% set BizAddress1  = "%%Member_Addr%%," %}
+    {% set BizAddress2  = "%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%% <br>" %}
+    {% set link_unsub   = '<a href="%%unsub_center_url%%"><span style="text-decoration:underline;color:blue;">Darme de baja</span></a>' %}
+    {% set link_prefer  = ' | <a href="%%profile_center_url%%"><span style="text-decoration:underline;color:blue;">Actualizar perfil</span></a>' %}
+{% endif %}
+
+                            <tr pik-mail-block="footer-links" style="background-color:#34303e;">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%"  style="max-width:600px;background-color:#34303e;margin:0 auto;padding:0;" role="presentation">
+                                <tbody>
+                                    <tr pik-block-inner="footer-links-margin-top">
+                                        <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-links-txt" >
+                                        <th colspan="3" valign="middle" style="text-align:center;margin:0 auto;max-width:80%;" class="horizontal-grid" width="80%">
+                                            <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="80%" style="max-width:80%;" role="presentation">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>  
+                                                            <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+                                                                        <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; text-align:center; line-height:0.9rem; font-size:0.75rem; font-weight:300;" class="fallback-text">
+                                                                            <a href="{{URL_CompraEnLinea}}" target="_blank" alias="footer_compra_en_linea"><span class="txt_footer_links" style="color:#c7c7c7;">Compra<br>en línea</span></a>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+                                                                        <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; text-align:center; line-height:0.9rem; font-size:0.75rem; font-weight:300;" class="fallback-text">
+                                                                            <a href="{{URL_LocalizaUnaTienda}}" target="_blank" alias="footer_localiza_una_tienda"><span class="txt_footer_links" style="color:#c7c7c7;">Localiza<br>una tienda</span></a>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+                                                                        <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; text-align:center; line-height:0.9rem; font-size:0.75rem; font-weight:300;" class="fallback-text">
+                                                                            <a href="{{URL_Email}}" target="_blank" alias="footer_email"><span class="txt_footer_links" style="color:#c7c7c7;">Email</span></a>
+                                                                        </div>
+                                                                    </th>
+                                                                    <th valign="top" style="text-align:center;background-color:#34303e" class="" align="center" width="25%">
+                                                                        <div style="font-family: 'Noto Sans', Gotham, Arial, sans-serif; color:#c7c7c7; display:block; text-align:center; line-height:0.9rem; font-size:0.75rem; font-weight:300;" class="fallback-text">
+                                                                            <a href="{{URL_Llamanos}}" target="_blank" alias="footer_llamanos"><span class="txt_footer_links" style="color:#c7c7c7;">Llámanos</span></a>
+                                                                        </div>
+                                                                    </th>
+                                                                </tr>
+                                                            </tbody>
+                                                            </table>
+                                                        </th>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-links-margin-middle">
+                                        <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="38">&nbsp;</th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-links-icons" >
+                                        <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th> 
+                                        <th valign="middle" style="text-align:center;" class="horizontal-grid" width="90%">
+                                          <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                          <tbody>
+                                            <tr>
+                                              <th>  
+                                                <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                  <tbody>
+                                                  <tr>
+                                                    <th valign="middle" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="30%">
+                                                      <img src="{{BaseURLimg}}{{ footer_logo_iqos }}" width="130" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:130px;">
+                                                    </th>
+                                                    <th valign="middle" style="text-align:center;background-color:#34303e;font-size:1px;line-height:1px;min-width:40%" class="vertical-gutter" width="40%">
+                                                      &nbsp;
+                                                    </th>
+                                                    <th valign="middle" style="text-align:center;background-color:#34303e;" class="image-container" align="center" width="15%">
+                                                      <a href="https://www.facebook.com/iqosmx/" alias="footer_facebook" target="_blank"><img src="{{BaseURLimg}}{{ footer_logo_fb }}" width="30" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:30px;"></a>
+                                                    </th>
+                                                    <th valign="middle" style="text-align:center;background-color:#34303e" class="image-container" align="center" width="15%">
+                                                      <a href="https://www.instagram.com/iqos_mx/" alias="footer_instagram" target="_blank"><img src="{{BaseURLimg}}{{ footer_logo_ig }}" width="30" height="auto" align="center" alt="" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; margin-left:auto;margin-right:auto;width:30px;"></a>
+                                                    </th>
+                                                  </tr>
+                                                  </tbody>
+                                                </table>
+                                              </th>
+                                            </tr>
+                                          </tbody>
+                                          </table>
+                                        </th>
+                                        <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:5%" class="vertical-gutter" width="5%">&nbsp;</th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-links-margin-bottom" >
+                                        <th colspan="3" valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="37">&nbsp;</th>
+                                    </tr>
+                                </tbody>
+                              </table>
+                            </tr>
+
+                            <tr pik-mail-block="footer-info" style="background-color:white;">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px; background-color:white;margin:0 auto;padding:0;" role="presentation">
+                                <tbody>
+                                    <tr pik-block-inner="footer-info-margin-top">
+                                        <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-info-txt">
+                                        <th valign="top" class="" >
+                                            <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="text-align:center;font-size:10px;line-height:10px;">
+                                                        <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-weight:300;color:#333333; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text txt_footer_info">
+                                                        &copy; {{ 'now' | date('Y') }} {{ BizName }} Todos los derechos reservados.<br>
+                                                        {{ BizAddress1 | raw  }}<br> {{ BizAddress2 | raw  }} {{ link_unsub | raw }} {{ link_prefer | raw  }}
+                                                        </span>
+                                                    </th>
+                                                </tr>
+                                            </tbody>
+                                            </table>
+                                        </th>
+                                    </tr>
+                                    <tr pik-block-inner="footer-info-margin-bottom" style="background-color:white;">
+                                        <th valign="top" style="background-color:white;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="30">&nbsp;</th>
+                                    </tr>
+                                </tbody>
+                              </table>
+                            </tr>{% endblock %}

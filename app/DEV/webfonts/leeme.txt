@@ -1,0 +1,53 @@
+
+<style type="text/css">
+@font-face { font-family: ClubZero; font-weight: 100;  src: url('https://piknik.com.mx/customers/pmm/webfonts?f=zynsansrg'); }
+@font-face { font-family: ClubZero; font-weight: 300;  src: url('https://piknik.com.mx/customers/pmm/webfonts?f=zynsansrg'); }
+@font-face { font-family: ClubZero; font-weight: 600;  src: url('https://piknik.com.mx/customers/pmm/webfonts?f=zynsansbd'); }
+@font-face { font-family: ClubZero; font-weight: 700;  src: url('https://piknik.com.mx/customers/pmm/webfonts?f=zynsansbd'); }
+</style>
+
+
+https://piknik.com.mx/customers/pmm/webfonts?f=zynsansrg
+https://piknik.com.mx/customers/pmm/webfonts?f=zynsansbd
+
+
+
+<link href="
+https://fonts.googleapis.com/css2?
+family=Cabin:ital,wght@0,400..700;1,400..700&
+family=Noto+Sans:ital,wght@0,100..900;1,100..900&
+display=swap"
+rel="stylesheet">
+
+https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+rel="stylesheet">
+
+
+
+Path to your font file
+$fontPath = 'ttf/zynsans_rg.ttf';
+
+https://piknik.com.mx/customers/pmm/webfonts/zynsansrg
+https://piknik.com.mx/customers/pmm/webfonts/zynsansbd
+
+/var/www/vhosts/piknik.com.mx/httpdocs/customers/pmm/webfonts/ttf/zynsans_rg.ttf
+/var/www/vhosts/piknik.com.mx/httpdocs/customers/pmm/webfonts/ttf/zynsans_bd.ttf
+
+
+https://piknik.com.mx/customers/pmm/webfonts/zynsansbd.php
+https://piknik.com.mx/customers/pmm/webfonts/zynsansrg.php
+
+
+--------------------------------------------
+https://stackoverflow.com/questions/25080835/pretty-urls-with-htaccess
+
+AddType text/css .css
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !/(admin|css|stylesheets|fonts|ico|include|js|static)/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.+)$ index.php?f=$1 [QSA,L]

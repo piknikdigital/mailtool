@@ -1,0 +1,20 @@
+{% block iq24_center_img ~%}
+                          <tr pik-mail-block="iq24-center-img">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;background-color:{{blocks[index].bgcolor}};" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="{{blocks[index].width_pc}}%" style="max-width:{{blocks[index].width_pc}}%; width:{{blocks[index].width_pc}}%;margin:0 auto;" role="presentation">
+                                <tbody>{% if blocks[index].mtop != "0" ~%}
+                                  <tr pik-mail-block="img-top-horizontal-spacer" style="background-color:transparent;">
+                                    <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mtop}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                  <tr>
+                                    <th valign="top" style="text-align:center" align="center">
+                                      {% if blocks[index].url is defined and blocks[index].url != "#" %}<a href="{{blocks[index].url}}" alias="{{blocks[index].alias}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].img}}" alt="{{blocks[index].alt}}" width="100%"  height="auto"  align="absbottom" alt=""  style="line-height:0; font-size:0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0 auto; padding:0; border:0;" >{% if blocks[index].url is defined and blocks[index].url != "#" %}</a>{% endif ~%}
+                                    </th>
+                                  </tr>{% if blocks[index].mbottom != "0" ~%}
+                                  <tr pik-mail-block="img-bottom-horizontal-spacer" style="background-color:transparent;">
+                                    <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>{% endblock -%}

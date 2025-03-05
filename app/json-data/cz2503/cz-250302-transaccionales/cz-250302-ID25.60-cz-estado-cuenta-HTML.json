@@ -1,0 +1,450 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML" } ,
+            { "urlS" : "https://paginum.com/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "cz2503/cz-250302-transaccionales/cz-250302-ID25.60-cz-estado-cuenta-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "clubzero-2025-v1.twig",
+    "Source"           :   "cz-250302-ID25.60-cz-estado-cuenta-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.60 CZ Estadocuenta",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "iq24-center-img",
+            "bgcolor"       : "transparent",
+            "img"           : "cz-header-2.jpg",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "width_pc"      : "100",
+            "this"          : "IMG header CLUB ZERO",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.60-1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.60-1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#00d1d2",
+            "bgcolor2"   : "#ffd1d2",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "12",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.60-2.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 25.60-2"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "76",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"color:#FFFFFF;font-weight:700;\">¡Te compartimos<br>el desglose </span><br>de tu membresía!​",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "34",
+                                    "height"      : "38",
+                                    "txtclass"    : "txt_34",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "12",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.60-3.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 25.60-3"
+                }
+            ]
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.60-4.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.60-4",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+
+
+
+
+
+        {
+            "type"          : "cz25-p",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "10",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Hola, %%USERNAME%%",
+            "this"          : "GREETING | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+        {
+            "type"          : "cz25-p",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "txtclass"      : "txt_22",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<b>Ser parte de nuestro club</b> te ofrece seguridad <br>y comodidad, por eso te compartimos <br><span style=\"color:#00d1d2;font-weight:700;\">los detalles de tus puntos.</span>",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {
+            "type"      : "iq24-columns",
+            "font"      : "'ClubZero', Gotham, 'Gabarito', Gotham, 'Noto Sans'",
+            "msides"    : "0",
+            "mtop"      : "40",
+            "mbottom"   : "40",
+            "bgcolor"   : "#000000",
+            "this"      : "BLACK BOX - PUNTOS DISPONIBLES / REDENCIONES DEL MES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [
+                                {
+                                    "txt"         : "Tus puntos disponibles son: <br><span style=\"color:#00d1d2;font-weight:700;\">%%CANTIDAD DE PUNTOS DISPONIBLES%%</span><br><br>Este mes redimiste:<br><span style=\"color:#00d1d2;font-weight:700;\">%%CANTIDAD DE PUNTOS REDIMIDOS%%</span>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "25",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+
+
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "34",
+            "height"        : "38",
+            "txtclass"      : "txt_34",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Puntos próximos a vencer:",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {
+            "type"          : "cz25-table3",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "300",
+            "cellpadding"   : "10",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "txtclass"      : "txt_14",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "mcolor"        : "transparent",
+            "cellcolor"     : "transparent",
+            "width_pc"      : "80",
+            "this"          : "TABLE Style3",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.60-5.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.60-5",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "30",
+            "txtclass"      : "txt_22",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "¿Tienes dudas? <b>Contáctanos</b>",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "czrs-instagram1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG czrs-instagram1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram2.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG czrs-instagram2"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram3.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG czrs-instagram3"
+                }
+            ]
+        },
+
+        {   "this"          :  "Club Zero - Footer"},
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "23",
+            "height"        : "27",
+            "txtclass"      : "txt_23",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Club Zero.</span> Libre de humo, más recompensas",
+            "this"          : "TXT Club Zero | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-privacy.jpg",
+            "alt"           :  "",
+            "url"           :  "#LINK_PRIVACY",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Consulta nuestro aviso de privacidad",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-footer-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Club Zero, zero humo, zero cenizas",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "txtclass"      : "txt_12",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México. <a href=\"#%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

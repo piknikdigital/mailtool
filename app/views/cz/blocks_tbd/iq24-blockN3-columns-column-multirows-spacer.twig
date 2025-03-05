@@ -1,0 +1,14 @@
+{#
+  N3-spacer
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ spacer
+
+#}
+{%- block iq24_multirows_spacer -%}
+                                                                <div pik-descriptor="column-{{idx}}-[multirows-row-{{idxrow}}-spacer]" style="font-family: Arial, sans-serif; color:#000000; display:block; padding:0px; text-align:left; height:{{blocks[index].columns[idx].rows[idxrow].height}}; line-height:{{blocks[index].columns[idx].rows[idxrow].height}}; font-size:{{blocks[index].columns[idx].rows[idxrow].height}}; font-weight:300; background-color:{{ blocks[index].columns[idx].rows[idxrow].bgcolor}};" "class="fallback-text">
+                                                                    &nbsp;
+                                                                </div>{% endblock ~%}

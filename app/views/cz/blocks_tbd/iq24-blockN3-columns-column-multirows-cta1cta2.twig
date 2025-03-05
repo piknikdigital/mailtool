@@ -1,0 +1,84 @@
+{#
+  N3-cta1cta2
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ cta1cta2
+
+#}
+{%- block iq24_multirows_cta1cta2 -%}
+{%- set mcenter = 100 - 2 * blocks[index].columns[idx].rows[idxrow].msides  -%}
+
+<table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%; background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};" role="presentation">
+  <tbody>{% if blocks[index].columns[idx].rows[idxrow].mtop != 0 ~%}
+    <tr pik-inner-element="multirow-column-cta1-cta2-margin-top" >
+      <th valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:transparent;" height="{{blocks[index].columns[idx].rows[idxrow].mtop}}">&nbsp;</th>
+    </tr>{% endif ~%}
+  
+    <tr pik-inner-element="multirow-column-cta1-cta1-buttons" style="background-color:transparent;">
+      <th valign="top" style="background-color:transparent;width:100%;" >
+        <table valign="middle" align="center" cellpadding="0" cellspacing="0" 
+                border="0"  
+                width="{{mcenter}}%" 
+                style="width:{{mcenter}}%; background-color:transparent;  margin:0 auto; " role="presentation">
+          <tbody>
+            <tr>
+              <!-- -->
+
+              {# {% if blocks[index].columns[idx].rows[idxrow].msides != 0 %}
+                <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{ blocks[index].columns[idx].rows[idxrow].msides }}%" class="vertical-gutter" width="{{ blocks[index].columns[idx].rows[idxrow].msides }}%">&nbsp;</th>
+              {% endif %}  #}
+              
+              <th style="background-color:transparent;">
+                  {% if blocks[index].columns[idx].rows[idxrow].url_cta1 is defined and 
+                        blocks[index].columns[idx].rows[idxrow].url_cta1 != "#" %}
+                    <a href="{{blocks[index].columns[idx].rows[idxrow].url_cta1}}" target="_blank">
+                  {% endif %}
+                  <img src="{{BaseURLimg}}{{blocks[index].columns[idx].rows[idxrow].button1}}" 
+                      width="{{blocks[index].columns[idx].rows[idxrow].widthbutton1}}" 
+                      height="auto" 
+                      align="{{blocks[index].columns[idx].rows[idxrow].align1}}" 
+                      alt="" 
+                      style="line-height:0;
+                              font-size:0;
+                              outline: none;
+                              text-decoration: none;
+                              -ms-interpolation-mode: bicubic;
+                              border: none;
+                              display: block;
+                              {% if blocks[index].columns[idx].rows[idxrow].align1 == "center" %}
+                              margin-left:auto;
+                              margin-right:auto;
+                              {% endif %} 
+                              width:{{blocks[index].columns[idx].rows[idxrow].widthbutton1}}px;
+                              "
+                    >
+                    {% if blocks[index].columns[idx].rows[idxrow].url_cta1 is defined and 
+                      blocks[index].columns[idx].rows[idxrow].url_cta1 != "#" %}
+                    </a>
+                    {% endif %}
+              </th>
+
+              <th style="background-color:transparent;">
+                {% if blocks[index].columns[idx].rows[idxrow].url_cta2 is defined and blocks[index].columns[idx].rows[idxrow].url_cta2 != "#" %}<a href="{{blocks[index].columns[idx].rows[idxrow].url_cta2}}" target="_blank"> {% endif %} <img src="{{BaseURLimg}}{{blocks[index].columns[idx].rows[idxrow].button2}}" width="{{blocks[index].columns[idx].rows[idxrow].widthbutton2}}" height="auto" align="{{blocks[index].columns[idx].rows[idxrow].align2}}" alt="" style="line-height:0;font-size:0;outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none; display: block; {% if blocks[index].columns[idx].rows[idxrow].align2 == "center" %}margin-left:auto;margin-right:auto;{% endif %}  width:{{blocks[index].columns[idx].rows[idxrow].widthbutton2}}px;">{% if blocks[index].columns[idx].rows[idxrow].url_cta2 is defined and blocks[index].columns[idx].rows[idxrow].url_cta2 != "#" %}</a>{% endif %}
+              </th>
+
+              {# {% if blocks[index].columns[idx].rows[idxrow].msides != 0 %}
+              <th valign="middle" style="text-align:center;font-size:1px;line-height:1px;min-width:{{ blocks[index].columns[idx].rows[idxrow].msides }}%" class="vertical-gutter" width="{{ blocks[index].columns[idx].rows[idxrow].msides }}%">
+                &nbsp;
+              </th>{% endif %}  #}
+              <!-- -->
+            </tr>
+          </tbody>
+        </table>
+      </th>
+    </tr>  
+      
+    {% if blocks[index].columns[idx].rows[idxrow].mbottom != 0 -%}
+    <tr pik-inner-element="multirow-column-cta1-cta2-margin-bottom">
+      <th valign="top" style="text-align:left;font-size:1px;line-height:1px;background-color:transparent;" height="{{blocks[index].columns[idx].rows[idxrow].mbottom}}">&nbsp;</th>
+    </tr>{% endif ~%}
+  </tbody>
+</table>{% endblock ~%}

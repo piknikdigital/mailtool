@@ -1,0 +1,331 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML" } ,
+            { "urlS" : "https://paginum.com/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "cz2503/cz-250302-transaccionales/cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "clubzero-2025-v1.twig",
+    "Source"           :   "cz-250302-ID25.45-cz-recuperacion-contrasenia-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.45 CZ Recuperación contraseña",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+    
+    "blocks" : 
+    [
+        {
+            "type"          : "iq24-center-img",
+            "bgcolor"       : "transparent",
+            "img"           : "cz-header-2.jpg",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "width_pc"      : "100",
+            "this"          : "IMG header CLUB ZERO",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "60",
+            "height"        : "60",
+            "txtclass"      : "txt_60",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">¿Olvidaste</span><br>tu contraseña?",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",
+            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "28",
+            "height"        : "32",
+            "txtclass"      : "txt_28",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "15",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "¡Te ayudamos a recuperarla!",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+
+
+
+        {
+            "type"      : "iq24-columns",
+            "font"      : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "50",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "Hola, %%USERNAME%%",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "26",
+                                    "height"      : "30",
+                                    "txtclass"    : "txt_26",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "30",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "No te preocupes,<br> ¡será rápido!",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "42",
+                                    "height"      : "44",
+                                    "txtclass"    : "txt_42",
+                                    "align"       : "center",
+                                    "color"       : "#00d1d2",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "20",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "No eres la primera ni la última persona que<br> olvida su contraseña.<br><br>Crea una nueva con cero complicaciones.<br><b>Haz clic en el botón y sigue<br>las instrucciones.</b>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "cta-recuperar-contrasena.png",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "30",
+                            "mbottom"       : "40",
+                            "width_pc"      : "52",
+                            "align"         : "center",
+                            "url"           : "%%LINKRECUPERARCONTRASENA%%",
+                            "THISIMG"       : "cta-recuperar-contrasena"
+                        }
+                    ]
+                }
+            ]
+        },
+
+
+
+
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "czrs-instagram1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG czrs-instagram1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram2.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG czrs-instagram2"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram3.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG czrs-instagram3"
+                }
+            ]
+        },
+
+
+
+        {   "this"          :  "Club Zero - Footer"},
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'ClubZero', Gotham, 'Noto Sans'",
+            "fontweight"    : "700",
+            "fontsize"      : "23",
+            "height"        : "27",
+            "txtclass"      : "txt_23",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Club Zero. </span> Libre de humo, más recompensas",
+            "this"          : "TXT Club Zero | Azul: 19e6ee | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-privacy.jpg",
+            "alt"           :  "",
+            "url"           :  "#LINK_PRIVACY",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Consulta nuestro aviso de privacidad",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-footer-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Club Zero, zero humo, zero cenizas",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "'Noto Sans'",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "txtclass"      : "txt_12",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México. <a href=\"#%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

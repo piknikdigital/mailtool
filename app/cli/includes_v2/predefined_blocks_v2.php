@@ -33,6 +33,338 @@ $libraryBlocks = array();
 
 
 
+/** ------------------------------------------------------
+ *    START CRM 2025-02    Plantilla clubzero-2025-v1.twig
+ *  ------------------------------------------------------
+ */
+$libraryBlocks['cz25-header'] ='
+        {
+            "type"          : "iq24-center-img",
+            "bgcolor"       : "transparent",
+            "img"           : "cz-header-2.jpg",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "width_pc"      : "100",
+            "this"          : "IMG header CLUB ZERO",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-greeting'] ='
+        {
+            "type"          : "cz25-p",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "Hola, %%USERNAME%%",
+            "this"          : "GREETING | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-redes-sociales'] ='
+
+
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "czrs-instagram1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG czrs-instagram1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram2.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG czrs-instagram2"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "40",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "czrs-instagram3.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG czrs-instagram3"
+                }
+            ]
+        },';
+
+$libraryBlocks['cz25-footer'] ='
+
+        {   "this"          :  "Club Zero - Footer"},
+        {
+            "type"          : "cz25-p",            
+            "font"          : "\'ClubZero\', Gotham, \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "23",
+            "height"        : "27",
+            "txtclass"      : "txt_23",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Club Zero.</span> Libre de humo, más recompensas",
+            "this"          : "TXT Club Zero | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-privacy.jpg",
+            "alt"           :  "",
+            "url"           :  "#LINK_PRIVACY",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Consulta nuestro aviso de privacidad",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "cz-footer-2.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Club Zero, zero humo, zero cenizas",
+            "version"       :  "clubzero-2025-v1.twig"
+        },';
+
+$libraryBlocks['cz25-copyright'] ='
+        {
+            "type"          : "cz25-p",            
+            "font"          : "\'Noto Sans\'",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "txtclass"      : "txt_12",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "40",
+            "mbottom"       : "40",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México. <a href=\"#%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        }';
+
+$libraryBlocks['cz25-p300'] ='
+        {
+            "type"          : "cz25-p",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "300",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "txtclass"      : "txt_22",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-p700'] ='
+        {
+            "type"          : "cz25-p",            
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#00d1d2;font-weight:700;\">Ut enim ad minima veniam,</span> quis nostrum <a href=\"http://somelink\" style=\"text-decoration:underline;\" target=\"_blank\">LINK</a> exercitationem<span style=\"font-size:12px;\"><sup>(1)</sup></span> ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-table1'] ='
+        {
+            "type"          : "cz25-table1",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "300",
+            "cellpadding"   : "10",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "txtclass"      : "txt_14",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "mcolor"        : "transparent",
+            "cellcolor"     : "transparent",
+            "width_pc"      : "100",
+            "this"          : "TABLE Style1",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-table2'] ='
+        {
+            "type"          : "cz25-table2",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "300",
+            "cellpadding"   : "10",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "txtclass"      : "txt_14",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "mcolor"        : "transparent",
+            "cellcolor"     : "transparent",
+            "width_pc"      : "90",
+            "this"          : "TABLE Style2",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['cz25-table3'] ='
+        {
+            "type"          : "cz25-table3",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "300",
+            "cellpadding"   : "10",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "txtclass"      : "txt_14",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "mcolor"        : "transparent",
+            "cellcolor"     : "transparent",
+            "width_pc"      : "90",
+            "this"          : "TABLE Style3",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+
+
+$libraryBlocks['cz25-tableNN'] ='
+        {
+            "type"          : "cz25-table1",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "300",
+            "cellpadding"   : "10",
+            "fontsize"      : "14",
+            "height"        : "18",
+            "txtclass"      : "txt_14",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "mcolor"        : "transparent",
+            "cellcolor"     : "transparent",
+            "width_pc"      : "100",
+            "header"        : [
+                {
+                    "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+                    "fontweight"    : "300",
+                    "cellpadding"   : "10",
+                    "fontsize"      : "14",
+                    "height"        : "18",
+                    "txtclass"      : "txt_14",
+                    "txt"           : "Puntos",
+                    "color"         : "#ffffff",
+                    "bgcolor"       : "#00d1d2"
+                },
+                {
+                    "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+                    "fontweight"    : "300",
+                    "cellpadding"   : "10",
+                    "fontsize"      : "14",
+                    "height"        : "18",
+                    "txtclass"      : "txt_14",
+                    "txt"           : "Actividad",
+                    "color"         : "#ffffff",
+                    "bgcolor"       : "#00d1d2"
+                }
+            ],
+            data : [
+                {
+                    "txt1"      : "",
+                    "style1"    : "",
+                    "txt2"      : "",
+                    "style2"    : "",
+                },
+                {
+                    "txt1"      : "",
+                    "style1"    : "",
+                    "txt2"      : "",
+                    "style2"    : "",
+                },
+                {
+                    "txt1"      : "",
+                    "style1"    : "",
+                    "txt2"      : "",
+                    "style2"    : "",
+                },
+                {
+                    "txt1"      : "",
+                    "style1"    : "",
+                    "txt2"      : "",
+                    "style2"    : "",
+                },
+                {
+                    "txt1"      : "",
+                    "style1"    : "",
+                    "txt2"      : "",
+                    "style2"    : "",
+                }
+            ],
+            "this"          : "TABLE Style1",
+            "version"       : "clubzero-2025-v1.twig"
+        },';
+
+
+
+
+
 /** ----------------------------------------------------
  *    START CRM 2024-10    Plantilla zyn-2025-v1.twig
  *  -----------------------------------------------------
@@ -73,7 +405,7 @@ $libraryBlocks = array();
             "mbottom"       : "20",
             "msides"        : "0",
             "mcolor"        : "transparent",
-            "txt"           : "HOLA, %%first_name%%",
+            "txt"           : "Hola, %%first_name%%",
             "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
         },';
  $libraryBlocks['zyn25-legales'] ='
@@ -310,7 +642,8 @@ $libraryBlocks['iqos24-columns'] ='
                 {
                     "coltype"       : "multirows",
                     "bgcolor"       : "transparent",
-                    "vertical_align": "top|middle|bottom",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
                     "bgimg"         : "",
                     "width_pc"      : "50",
                     "rows"          :

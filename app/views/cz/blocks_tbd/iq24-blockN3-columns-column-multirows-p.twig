@@ -1,0 +1,38 @@
+{#
+  N3-p
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ p
+
+#}
+{%- block iq24_multirows_p -%}
+                                                                <table pik-descriptor="column-{{idx}}-[multirows-row-{{idxrow}}-p]"  align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:{{blocks[index].columns[idx].rows[idxrow].bgcolor}};" role="presentation">
+                                                                  <tbody>{% if blocks[index].columns[idx].rows[idxrow].mtop  != "0" ~%}
+                                                                    <tr pik-inner-element="multirow-column-p-margin-top" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].columns[idx].rows[idxrow].mtop}}">&nbsp;</th>
+                                                                    </tr>{% endif ~%}
+                                                                    <tr pik-inner-element="multirow-column-p-content" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;" class="" >
+                                                                        <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0"  width="{{blocks[index].columns[idx].rows[idxrow].width_pc}}%" style="width:{{blocks[index].columns[idx].rows[idxrow].width_pc}}%; background-color:transparent;  margin:0 auto; " role="presentation">
+                                                                          <tbody>
+                                                                            {%- for i in blocks[index].columns[idx].rows[idxrow].texts | keys -%}
+                                                                            <tr>
+                                                                              <th style="text-align:  {{blocks[index].columns[idx].rows[idxrow].texts[i].align}};  {#line-height: {{blocks[index].columns[idx].rows[idxrow].texts[i].height}}px;#}  font-size :  {{blocks[index].columns[idx].rows[idxrow].texts[i].fontsize}}px; ">
+                                                                                <div style="width:100%;  {% if blocks[index].columns[idx].rows[idxrow].texts[i].align =="center" %}text-align:center; margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[idxrow].texts[i].align}};{% endif %}  font-weight:{{blocks[index].columns[idx].rows[idxrow].texts[i].fontweight}}; color:{{blocks[index].columns[idx].rows[idxrow].texts[i].color}}; font-family: '{{blocks[index].font}}', Gotham, Arial, sans-serif; "  class="fallback-text">
+                                                                                  <span class="{{blocks[index].columns[idx].rows[idxrow].texts[i].txtclass}}">{{blocks[index].columns[idx].rows[idxrow].texts[i].txt|raw}}</span>
+                                                                                </div>
+                                                                              </th>
+                                                                            </tr>
+                                                                            {% endfor -%}
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </th>
+                                                                    </tr>{% if blocks[index].columns[idx].rows[idxrow].mbottom  != "0" ~%}
+                                                                    <tr pik-inner-element="multirow-column-p-margin-bottom" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].columns[idx].rows[idxrow].mbottom}}">&nbsp;</th>
+                                                                    </tr>{% endif ~%}
+                                                                  </tbody>
+                                                                </table>{% endblock ~%}

@@ -1,0 +1,16 @@
+{% block iq24_center_img_with_bgimg ~%}
+{%- set img_h = blocks[index].bgimg_height * 0.75 -%}
+{%- set img_w = blocks[index].bgimg_width  * 0.75 -%}
+                          <tr pik-mail-block="iq24-center-img-bgimg" style="background-color:{{blocks[index].bgcolor}};height:{{img_h}}px;width:{{img_w}}px;">
+                            <th valign="top" style="margin:0;padding:0;line-height:0px;font-size:0px;background-color:{{blocks[index].bgcolor}};background-image:url('{{blocks[index].bgimg}}'); background-size:{{img_w}}px {{img_h}}px;vertical-align:{{blocks[index].vertical_align}};" align="center">
+                              <table align=center cellpadding="0" cellspacing="0" border="0" width="{{blocks[index].width_pc}}%" style="max-width:{{blocks[index].width_pc}}%; width:{{blocks[index].width_pc}}%;margin:0 auto;" role="presentation">
+                                <tbody>
+                                  <tr>
+                                    <th valign="top" style="text-align:center" align="center">
+                                      {% if blocks[index].url is defined and blocks[index].url != "#" %}<a href="{{blocks[index].url}}" alias="{{blocks[index].alias}}" target="_blank">{% endif %}<img src="{{BaseURLimg}}{{blocks[index].img}}" alt="{{blocks[index].alt}}" width="100%"  height="auto"  align="absbottom" alt=""  style="line-height:0; font-size:0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0 auto; padding:0; border:0;" >{% if blocks[index].url is defined and blocks[index].url != "#" %}</a>{% endif ~%}
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>{% endblock -%}

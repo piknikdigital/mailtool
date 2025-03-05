@@ -18,6 +18,7 @@ $klein->respond(function ($request, $response, $service, $app) use ($klein) {
                                                      __DIR__ ."/app/views/iqos/", 
                                                      __DIR__ ."/app/views/zyn/", 
                                                      __DIR__ ."/app/views/pmi/", 
+                                                     __DIR__ ."/app/views/cz/", 
                                                      __DIR__ ."/app/views/system/" 
                                             ));
         // echo "<pre>". var_export($loader, true) . "</pre>"; // exit(0);

@@ -1,0 +1,47 @@
+{#
+  N2-multirows 
+
+  \ COLUMNS
+  |
+  +--\ multirows
+ 
+#}
+{% block iq24_column_multirows ~%}
+                                                      <!--N2multirow--> 
+                                                      <th pik-th-descriptor="column-{{idx}}-[multirows]"  {#valign="top"#} style="{% if blocks[index].columns[idx].vertical_align is defined and blocks[index].columns[idx].vertical_align != "" %}vertical-align:{{blocks[index].columns[idx].vertical_align}};{% endif %}text-align:center;background-color:{{blocks[index].columns[idx].bgcolor}};{% if blocks[index].columns[idx].bgimg is defined and blocks[index].columns[idx].bgimg != "" %}background-image:url('{{blocks[index].columns[idx].bgimg}}'); background-size:contain;{% endif %}" class="" align="center" width="{{blocks[index].columns[idx].width_pc}}%">
+                                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                          <tbody>{% if blocks[index].columns[idx].mtop != 0 ~%}
+                                                            <tr>
+                                                              <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].mtop}}">&nbsp;</th>
+                                                            </tr>{% endif ~%}
+                                                            {%- for idxrow in blocks[index].columns[idx].rows|keys ~%}
+                                                            <!-- N2multirow {{blocks[index].columns[idx].rows[idxrow].rowtype}}  -->
+                                                            <tr pik-inner-element="column-{{idx}}-[multirows-row-{{idxrow}}:{{blocks[index].columns[idx].rows[idxrow].rowtype}}]">
+                                                              <th>
+                                                                {%- if blocks[index].columns[idx].rows[idxrow].rowtype == "img" -%}                             {#~ multirow - row img  ~#}
+                                                                  {{ block("iq24_multirows_img"     , "iq24-blockN3-columns-column-multirows-img.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "pframed" -%}                     {#~ multirow - row pframed  ~#}
+                                                                  {{ block("iq24_multirows_pframed" , "iq24-blockN3-columns-column-multirows-pframed.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "spacer" -%}                      {#~ multirow - row spacer ~#}
+                                                                  {{ block("iq24_multirows_spacer"  , "iq24-blockN3-columns-column-multirows-spacer.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "p" -%}                           {#~ multirow - row p ~#}
+                                                                  {{ block("iq24_multirows_p"       , "iq24-blockN3-columns-column-multirows-p.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "salesforce_form" -%}                   {#~ multirow - raw HTML ~#}
+                                                                  {{ block("iq24_multirows_salesforce_form" , "iq24-blockN3-columns-column-multirows-salesforce-form.twig") -}}
+
+
+
+
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "cta1_cta2" -%}                   {#~ multirow - row cta1_cta2 TBD ~#}
+                                                                  {{ block("iq24_multirows_cta1cta2", "iq24-blockN3-columns-column-multirows-cta1cta2.twig") -}}
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "cta1" -%}                        {#~ multirow - row cta1 TBD ~#}
+                                                                  {{ block("multirows_cta1", "blocks_v2/block-columns-column-multirows-cta1.twig") -}}
+                                                                {% endif ~%}
+                                                              </th>
+                                                            </tr>{% endfor ~%}{% if blocks[index].columns[idx].mbottom != 0 ~%}
+                                                            <tr>
+                                                              <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="{{blocks[index].columns[idx].mbottom}}">&nbsp;</th>
+                                                            </tr>{% endif ~%}
+                                                          </tbody>
+                                                        </table>
+                                                      </th>{% endblock ~%}
