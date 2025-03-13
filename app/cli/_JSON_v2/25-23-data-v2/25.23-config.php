@@ -300,18 +300,71 @@ IQOS ILUMA tiene una opción que se adapta a tu bolsillo,<br>además al usar el 
 en la compra de tu primer Kit IQOS.
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 (1) Promoción vigente del 01 de marzo al 31 de diciembre de 2025. Código de 20% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>,  al *993 desde tu celular.  Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana.  El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. Dispositivo y color sujeto a disponibilidad de inventario.
+--------------------
+--------------------
+VERSION 2:
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+<span style=\"color:#00d1d2;font-weight:700;\">
+</span>
 
 --------------------
+¿Sabías que ahora <span style=\"color:#00d1d2;font-weight:700;\">puedes disfrutar de<br> tu cápsula de sabor favorita </span><br>sin olor a cigarro?​
 --------------------
+Con IQOS es posible.​
+--------------------
+--------------------
+Nada como probar
+--------------------
+en nuestras tiendas.<br>Visítanos y recibe asesoría personalizada
+--------------------
+usando el código:
+--------------------
+CONOCEILUMA-JS
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+--------------------
+--------------------
+--------------------
+--------------------
+Compra ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Compra ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-negro-obsidiana.html
+Compra ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-azul.html
+Compra ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-magenta.html
+Probar IQOS ahora	https://www.iqos.com/mx/es/prueba-iqos.html
+iqos.com	https://www.iqos.com/mx/es/home.html
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+El momento de decirle adiós al olor a humo de cigarro sin 
+perder todo el sabor que tanto te encanta, ha llegado.
+--------------------
+<span style=\"color:#6e0f35;font-weight:700;\">IQOS te ofrece una opción que se adapta a ti,</span><br>utiliza el código y recibe
+--------------------
+20% de descuento(1) 
+--------------------
+en la compra de tu primer Kit IQOS.
+--------------------
+--------------------
+--------------------
+<span style=\"color:#6e0f35;font-weight:700;\">
+</span>
 --------------------
 --------------------
 --------------------

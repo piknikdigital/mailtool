@@ -281,7 +281,6 @@ Comprar ahora	        https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/
 --------------------
 --------------------
 --------------------
-
 ¿Ya sabes qué es <span style=\"color:#00d1d2;font-weight:700;\">IQOS ILUMA?</span><br><b>No es un vapeador, <span style=\"color:#00d1d2;font-weight:700;\">es un dispositivo<br>que calienta tabaco.</span></b>
 --------------------
 Ahora puedes disfrutar de tu sabor favorito a través de<br> IQOS ILUMA evitando el humo y mal olor del cigarro.
@@ -290,19 +289,24 @@ Ahora puedes disfrutar de tu sabor favorito a través de<br> IQOS ILUMA evitando
 Prueba
 --------------------
 en cualquiera de nuestras tiendas y <br><span style=\"color:#00d1d2;font-weight:700;\">convéncete del cambio.​</span>
-
---------------------
---------------------
---------------------
---------------------
 --------------------
 (1) Promoción vigente del 01 de marzo al 31 de diciembre de 2025. Código de 20% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
+--------------------
+--------------------
+--------------------
+--------------------
 
 --------------------
+usando el código:
+CONOCEILUMA-JS
+--------------------
+<span style=\"letter-spacing: 5px;\">CONOCEILUMA-JS </span>
+--------------------
+* No aplica para Alcadías Tláhuac, Iztapalapa y Milpa Alta.
 --------------------
 --------------------
---------------------
---------------------
+(1) Promoción vigente del 01 de junio al 31 de diciembre de 2025. Código de 20% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en www.iqos.com. Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
+
 --------------------
 --------------------
 --------------------

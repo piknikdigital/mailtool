@@ -276,22 +276,18 @@ Localizar tiendas	https://www.iqos.com/mx/es/localizador-tiendas.html
 --------------------
 --------------------
 ¿Sabías que con <span style=\"color:#00d1d2;font-weight:700;\">IQOS</span> puedes tener el mismo <br>sabor en cápsula que ya conoces, pero con una <br><span style=\"color:#00d1d2;font-weight:700;\">experiencia libre de humo?</span>
-
 --------------------
-<span style=\"color:#00d1d2;font-weight:700;\">Prueba IQOS durante 14 días </span><br>y cónvencete del cambio. ​
+<span style=\"color:#00d1d2;font-weight:700;\">Prueba IQOS durante 14 días </span><br>y cónvencete del cambio. 
 --------------------
 --------------------
 Prueba IQOS donde<br> quieras y como quieras.
---------------------
 --------------------
 --------------------
 Prueba el sabor del mañana en cualquiera <br>de nuestras Tiendas IQOS o en tu<br>tienda Sanborns más cercana y 
 --------------------
 vive la experiencia IQOS.
 --------------------
---------------------
---------------------
-Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>,  al *993 desde tu celular.  Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana.  El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario.​
+Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>,  al *993 desde tu celular.  Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana.  El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario.
 --------------------
 --------------------
 --------------------
@@ -299,6 +295,52 @@ Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo 
 --------------------
 --------------------
 --------------------
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+Probar IQOS	https://www.iqos.com/mx/es/prueba-iqos.html
+Localizar tiendas	https://www.iqos.com/mx/es/localizador-tiendas.html
+iqos.com	https://www.iqos.com/mx/es/home.html
+--------------------
+--------------------
+--------------------
+¿Sabías que <b>con IQOS puedes disfrutar del <br>tabaco</b> y tener la misma <span style=\"color:#791e49;font-weight:700;\">cápsula de sabor que te<br>gusta</span> pero con una experiencia libre de humo?
+--------------------
+Prueba<span style=\"font-size:20px;\"><sup class=\"sup_20\">(1)</sup></span><br>IQOS durante 14 días 
+--------------------
+y si te convence, <b>recibe un descuento especial.</b>
+--------------------
+--------------------
+Descubre IQOS en persona.
+--------------------
+Vive la experiencia<br>de primera mano 
+--------------------
+con la guía de un experto.<br><br><b>Encuéntranos en tu tienda más cercana</b><br>o en Sanborns seleccionados.
+
+--------------------
+--------------------
+--------------------
+(1) El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través www.iqos.com, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. *Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.    <br><br>    (2) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través www.iqos.com, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. *Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+<span style=\"color:#791e49;font-weight:700;\">
+</span>
 --------------------
 --------------------
 --------------------
