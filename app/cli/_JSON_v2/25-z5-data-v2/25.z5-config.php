@@ -12,7 +12,7 @@ $p_name4folderDCE =  'ZYN';
 $p_mailname4DCE =  'Leads_ZYN_Momentos_enero';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
+$p_mailname4FSH =  'Leads_ZYN_Momentos_enero';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 

@@ -1,34 +1,34 @@
 <?php
 
-$p_id =  'z6';
+$p_id =  'z19';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '01';
-$p_dd =  '23';
-$p_name4folder =  'zyn01';
-$p_name4json =  'leads-zyn-kit-de-prueba-remarketing-enero';
-$p_name4folderDCE =  'ZYN';
-$p_mailname4DCE =  'Leads_ZYN_KitDePrueba_Remarketing_enero';
+$p_mm =  '03';
+$p_dd =  '14';
+$p_name4folder =  'zyn-abril';
+$p_name4json =  'zyn-laus-proximos-eventos-abril-22';
+$p_name4folderDCE =  'ZYN APRIL';
+$p_mailname4DCE =  'ZYN_PROXIMOS EVENTOS_LAUS_22DE ABRIL';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'Leads_ZYN_KitDePrueba_Remarketing_enero';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
 
-// $companyBrand     = "pmi";
-// $TwigTemplate     = "iqos-2024-v1.twig";
-// $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
+$companyBrand     = "pmi";
+$TwigTemplate     = "iqos-2024-v1.twig";
+$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+$bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
-$companyBrand     = "zyn";
-$TwigTemplate     = "zyn-2025-v1.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+// $companyBrand     = "zyn";
+// $TwigTemplate     = "zyn-2025-v1.twig";
+// $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
@@ -36,50 +36,15 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks = array(
-    "zyn25-header-zyn",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-
-
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "zyn25-legales",
-    "zyn25-footer"
-);
-
-
-
-
-
-
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocksiqos24 = array(
+$requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    
     "iqos24-greeting-with-bgimg",
-    
-    
-    
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img-with-bgimg",
+    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -88,12 +53,17 @@ $requiredBlocksiqos24 = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
     'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
     'iqos24-columns',       // REEMPLAZA A: "columns",
     'iqos24-spacer',        // REEMPLAZA A: "spacer",
     "iqos24-canales-de-comunicacion",
+
+
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
@@ -245,8 +215,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON z6z6XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON z6z6XX :   %%referral_code%%
+    CODIGO PARA CUPON z19z19XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON z19z19XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -309,18 +279,11 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Conoce más             https://www.zyn.com/mx/es/shop/zyn-kit-de-prueba-gratis.html
-Obtén tu kit           https://www.zyn.com/mx/es/shop/zyn-kit-de-prueba-gratis.html
-Chat en vivo           https://www.zyn.com/mx/es/home.html
-Celular                800 0440 836 
-Tienda IQOS            https://conoce-iqos.com/wp-content/localizador-tiendas.html
-Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
-(1) Válido solo en la primera compra dentro del sitio.
 --------------------
 --------------------
 --------------------
