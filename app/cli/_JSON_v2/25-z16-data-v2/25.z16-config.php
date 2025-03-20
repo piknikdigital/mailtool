@@ -5,7 +5,7 @@ $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '03';
-$p_dd =  '14';
+$p_dd =  '19';
 $p_name4folder =  'zyn-abril';
 $p_name4json =  'zyn-laus-zynlive-abril-3';
 $p_name4folderDCE =  'ZYN APRIL';
@@ -19,25 +19,43 @@ $id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+
+$companyBrand     = "zyn";
+$TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
 
 
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
+
+// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+$requiredBlocks_iq24 = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -280,6 +298,11 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Lo quiero 	https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html
+Me lo llevo 	https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html
+Consíguelo ahora	tbd
+Ordena ahora 	https://www.zyn.com/mx/es/compra-zyn.html
+Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
