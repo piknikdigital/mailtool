@@ -46,7 +46,6 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     "zyn25-legales",
     "zyn25-footer"
@@ -298,11 +297,8 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Lo quiero 	https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html
-Me lo llevo 	https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html
-Consíguelo ahora	tbd
-Ordena ahora 	https://www.zyn.com/mx/es/compra-zyn.html
 Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
+Consíguelo ahora	tbd
 --------------------
 --------------------
 --------------------
@@ -312,6 +308,8 @@ Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
+​(1) Al solicitar el KIT DE BIENVENIDA, el usuario adquiere los sabores Cool Mint, Black Cherry, Citrus y Espressino, y recibe sin costo adicional el sabor Spearmint, así como un Tote Bag de regalo, sujeto a disponibilidad. Envío gratuito válido únicamente dentro de México.    <br><br>    Disponible exclusivamente tienda en línea zyn.com/mx y tiendas IQOS. Aplican términos y condiciones.
+
 --------------------
 --------------------
 --------------------

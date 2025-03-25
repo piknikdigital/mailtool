@@ -38,13 +38,12 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
@@ -298,12 +297,12 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Lo quiero 	        https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html
-Me lo llevo 	    https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html
-Consíguelo ahora	tbd
-Ordena ahora 	    https://www.zyn.com/mx/es/compra-zyn.html
-Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
---------------------
+Lo quiero               https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html
+Me lo llevo             https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html
+Consíguelo ahora        tbd
+Ordena ahora            https://www.zyn.com/mx/es/compra-zyn.html
+Síguenos en Instagram   https://www.instagram.com/zyn_mxoficial/
+
 --------------------
 --------------------
 --------------------
