@@ -1,0 +1,296 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250319_ZYN APRIL > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_SABORES FRUTALES_LAUS_10 DE ABRIL",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE" } ,
+            { "urlS" : "https://paginum.com/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-250319-ID25.z17-zyn-laus-sabores-frutales-abril-10-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z17 ZYN SABORES FRUTALES LAUS 10 DE ABRIL",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/905a3057-e5e6-4fcb-8c46-6b0448c08c41.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0c9e3164-ebe2-4bcf-9b9e-35b32e6eda2c.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(first_name)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c459a7b4-db6f-4cae-98c4-41be66c5666e.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": " IMG 25.z17-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5bc0d088-01a8-4a8e-8fc3-6b308d48978c.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/shop/zyn-black-cherry-intensidad-media-lata.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA LO QUIERO IMG 25.z17-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/31fb702a-170a-4505-b3a7-21506d56ddb1.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/shop/zyn-citrus-intensidad-media-lata.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta me lo llevo IMG 25.z17-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4838e0f4-925d-4c73-8ff7-56a4e09a6f5d.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c7138c92-b663-48a0-ac31-a836f2b20a7e.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-6b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/303b90c1-1b89-4103-b81a-a002a7e25bd6.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-7b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0c7cf265-ba95-4354-b6c2-139b3c1701f9.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-8b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1f8d201e-ad2b-4222-9d6b-2a97b1bdef30.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-9b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2752f518-5379-486b-8b1a-6a0b443a80e9.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z17-10b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e33aa17b-810c-452e-8ae5-3e0a52a67ba3.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta comprar ahora IMG 25.z17-11b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a9614225-e709-4dfe-a4a2-7c4021169b89.gif",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta ordena ahora IMG 25.z17-12b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6daca1f4-e302-4ee2-b055-f148ba38061d.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "SOCIAL IG - IMG zyn-muy-cerca-de-ti-ig",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3e29f6fb-b431-4c86-96c9-fe8eb98e4700.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

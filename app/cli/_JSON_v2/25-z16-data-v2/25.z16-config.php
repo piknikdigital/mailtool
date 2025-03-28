@@ -309,7 +309,19 @@ Consíguelo ahora	tbd
 --------------------
 --------------------
 ​(1) Al solicitar el KIT DE BIENVENIDA, el usuario adquiere los sabores Cool Mint, Black Cherry, Citrus y Espressino, y recibe sin costo adicional el sabor Spearmint, así como un Tote Bag de regalo, sujeto a disponibilidad. Envío gratuito válido únicamente dentro de México.    <br><br>    Disponible exclusivamente tienda en línea zyn.com/mx y tiendas IQOS. Aplican términos y condiciones.
+--------------------
+--------------------
+--------------------
+=======================================
+=======================================
+VER2
+=======================================
+=======================================
+=======================================
 
+
+
+--------------------
 --------------------
 --------------------
 --------------------

@@ -1,0 +1,270 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250319_ZYN APRIL > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_ZYN LIVE_LAUS_3 DE ABRIL",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE" } ,
+            { "urlS" : "https://paginum.com/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2503/zyn-250319-zyn-abril/zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-250319-ID25.z16-zyn-laus-zynlive-abril-3-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z16 ZYN ZYN LIVE LAUS 3 DE ABRIL",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/905a3057-e5e6-4fcb-8c46-6b0448c08c41.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5d4ce80e-5bc5-4021-b412-4f4ea0018817.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(first_name)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c7bf5b1e-32be-49bd-bddc-2759980e4cbe.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f950d6ba-cfa4-4134-a900-72964bb13ce7.jpg",
+            "alt": "",
+            "url": "#LINK",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "cta descubrir IMG 25.z16-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/30751efa-fe24-45b2-b4a8-353c78a9588a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8011817e-7e65-4428-89b8-dc26847917f4.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/90f27bdc-fb77-4369-a437-b937fb19544e.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta siguenos IG IMG 25.z16-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d01e3c12-2487-4fdc-91ec-8cfe735b019a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c6f87682-bfa9-489a-8d8d-75b4b04649cc.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/76d3315c-be05-4ea3-a052-ff26dc65171f.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/95c49400-5dbb-4dfc-b2b3-459b59b218db.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z16-10b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/502abc9d-f2e3-4903-b820-2020e3e89186.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta comprar ahora IMG 25.z16-11b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3e29f6fb-b431-4c86-96c9-fe8eb98e4700.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

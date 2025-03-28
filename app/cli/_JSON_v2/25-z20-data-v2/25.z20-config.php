@@ -1,49 +1,38 @@
 <?php
 
-$p_id =  '75';
+$p_id =  'z20';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '03';
-$p_dd =  '26';
-$p_name4folder =  'leads-abril';
-$p_name4json =  'leads-flavors-29';
-$p_name4folderDCE =  'LEADS April';
-$p_mailname4DCE =  'LEADS_LOCAL_FLAVORS_29';
+$p_dd =  '29';
+$p_name4folder =  'zyn-clubzero';
+$p_name4json =  'laus-clubzero-teaser-15';
+$p_name4folderDCE =  'ZYN ClubZero April';
+$p_mailname4DCE =  'LAUS_DCE_CLUBZERO_TEASER_15';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'LEADS Abril';
-$p_mailname4FSH =  'LEADS_LOCAL_FLAVORS_29';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '234';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+$companyBrand     = "zyn";
+$TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
+    "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    
-    
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
@@ -56,11 +45,13 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
+    'iqos24-columns',       // REEMPLAZA A: "columns",
 
-    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
-    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
-    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
+    "zyn25-legales",
+    "zyn25-footer"
 );
 
 
@@ -208,8 +199,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 7575XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 7575XX :   %%referral_code%%
+    CODIGO PARA CUPON z20z20XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON z20z20XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -274,15 +265,13 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Conoce más              https://www.iqos.com/mx/es/localizador-tiendas.html
-Conoce más              https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html
-Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html
-Síguenos en instagram   https://www.instagram.com/iqos_mx/
+Quiero ganar 	        Tbd 
+Descarga tu wallet 	    https://play.google.com/store/apps/details?id=com.iqos.referral&hl=es_MX
+Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
 --------------------
-(1) Descuento del 10% vigente del 01 al 30 de abril de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, tiendas iqos, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 --------------------
 --------------------
 --------------------

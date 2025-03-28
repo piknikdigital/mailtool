@@ -284,6 +284,8 @@ Síguenos en instagram  https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
+(1) Descuento del 10% vigente del 01 al 30 de abril de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, tiendas iqos, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+
 --------------------
 --------------------
 --------------------
