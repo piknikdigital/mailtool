@@ -1,29 +1,28 @@
 <?php
 
-$p_id =  'z16';
+$p_id =  'z24';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '03';
-$p_dd =  '19';
+$p_dd =  '31';
 $p_name4folder =  'zyn-abril';
-$p_name4json =  'zyn-laus-zynlive-abril-3';
-$p_name4folderDCE =  'ZYN APRIL';
-$p_mailname4DCE =  'ZYN_ZYN LIVE_LAUS_3 DE ABRIL';
+$p_name4json =  'leads-awareness-24';
+$p_name4folderDCE =  'LEADS April';
+$p_mailname4DCE =  'LEADS_LOCAL_AWARENESS_24';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'ZYN Abril';
-$p_mailname4FSH =  'ZYN_ZYN LIVE_LAUS_3 DE ABRIL';
+$p_name4folderFSH =  'LEADS Abril';
+$p_mailname4FSH =  'LEADS_LOCAL_AWARENESS_24';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '235';
+$id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
-
 
 $companyBrand     = "zyn";
 $TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
 
 //-----------------------------------------
 
@@ -33,22 +32,12 @@ $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
     "zyn25-legales",
     "zyn25-footer"
 );
+
 
 
 
@@ -231,8 +220,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON z16z16XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON z16z16XX :   %%referral_code%%
+    CODIGO PARA CUPON z24z24XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON z24z24XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -296,8 +285,6 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
-Consíguelo ahora	tbd
 --------------------
 --------------------
 --------------------
@@ -306,20 +293,6 @@ Consíguelo ahora	tbd
 --------------------
 --------------------
 --------------------
---------------------
-​(1) Al solicitar el KIT DE BIENVENIDA, el usuario adquiere los sabores Cool Mint, Black Cherry, Citrus y Espressino, y recibe sin costo adicional el sabor Spearmint, así como un Tote Bag de regalo, sujeto a disponibilidad. Envío gratuito válido únicamente dentro de México.    <br><br>    Disponible exclusivamente tienda en línea zyn.com/mx y tiendas IQOS. Aplican términos y condiciones.
---------------------
---------------------
---------------------
-=======================================
-=======================================
-VER2
-=======================================
-=======================================
-=======================================
-
-
-
 --------------------
 --------------------
 --------------------

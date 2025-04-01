@@ -11,10 +11,10 @@ $p_name4json =  'zyn-laus-sabores-frutales-abril-10';
 $p_name4folderDCE =  'ZYN APRIL';
 $p_mailname4DCE =  'ZYN_SABORES FRUTALES_LAUS_10 DE ABRIL';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
+$p_name4folderFSH =  'ZYN Abril';
+$p_mailname4FSH =  'ZYN_SABORES FRUTALES_LAUS_10 DE ABRIL';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$id_FSH_folder =  '235';
 
 
 //-----------------------------------------

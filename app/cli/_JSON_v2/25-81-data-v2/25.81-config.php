@@ -1,83 +1,70 @@
 <?php
 
-$p_id =  'z16';
+$p_id =  '81';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '03';
-$p_dd =  '19';
-$p_name4folder =  'zyn-abril';
-$p_name4json =  'zyn-laus-zynlive-abril-3';
-$p_name4folderDCE =  'ZYN APRIL';
-$p_mailname4DCE =  'ZYN_ZYN LIVE_LAUS_3 DE ABRIL';
+$p_mm =  '04';
+$p_dd =  '01';
+$p_name4folder =  'iqos-clubzero';
+$p_name4json =  'laus-mgm-clubzero-10-29';
+$p_name4folderDCE =  'LAUS Club Zero';
+$p_mailname4DCE =  'LAUS_DCE/LOCAL_MGM_CLUBZERO+10_29';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'ZYN Abril';
-$p_mailname4FSH =  'ZYN_ZYN LIVE_LAUS_3 DE ABRIL';
+$p_name4folderFSH =  'LAUS Club Zero';
+$p_mailname4FSH =  'LAUS_DCE/LOCAL_MGM_CLUBZERO+10_29';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  '235';
+$id_FSH_folder =  '236';
+
 
 //-----------------------------------------
 
-
-$companyBrand     = "zyn";
-$TwigTemplate     = "zyn-2025-v1.twig";
+$companyBrand     = "pmi";
+$TwigTemplate     = "iqos-2024-v1.twig";
+$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
+// $companyBrand     = "zyn";
+// $TwigTemplate     = "zyn-2025-v1.twig";
+// $bgColor          = "#FFFFFF";    // Don't use "transparent"
+// // $bgColor          = "#0d0c12";    // Dark mode IQOS
+
+
+
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks = array(
-    "zyn25-header-zyn",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "zyn25-legales",
-    "zyn25-footer"
-);
-
-
-
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks_iq24 = array(
+$requiredBlocks = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     
-    "iqos24-greeting-with-bgimg",
-    "iqos24-center-img-with-bgimg",
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
     'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+
 
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
@@ -231,8 +218,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON z16z16XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON z16z16XX :   %%referral_code%%
+    CODIGO PARA CUPON 8181XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 8181XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -296,8 +283,11 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
-Consíguelo ahora	tbd
+Entrar a Club Zero     TBD
+Entrar a Club Zero     TBD
+Google play            https://play.google.com/store/apps/details?id=com.iqos.referral
+App store              https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+Siguenos en instagram  https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
@@ -305,21 +295,8 @@ Consíguelo ahora	tbd
 --------------------
 --------------------
 --------------------
+(1) Válido hasta agotar existencias. Solo para usuarios IQOS registrados (con cuenta en iqos.com). El modelo de los audífonos es AirPods 4, con Estuche de Carga (USB-C) inalámbrico, sin cancelación de ruido.
 --------------------
---------------------
-​(1) Al solicitar el KIT DE BIENVENIDA, el usuario adquiere los sabores Cool Mint, Black Cherry, Citrus y Espressino, y recibe sin costo adicional el sabor Spearmint, así como un Tote Bag de regalo, sujeto a disponibilidad. Envío gratuito válido únicamente dentro de México.    <br><br>    Disponible exclusivamente tienda en línea zyn.com/mx y tiendas IQOS. Aplican términos y condiciones.
---------------------
---------------------
---------------------
-=======================================
-=======================================
-VER2
-=======================================
-=======================================
-=======================================
-
-
-
 --------------------
 --------------------
 --------------------
