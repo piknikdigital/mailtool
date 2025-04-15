@@ -1,0 +1,121 @@
+{% block iq24_footer_iqos_fc_disclaimers %}
+{# FOOTER IQOS FOREVER CURIOUS - DISCLAIMERS #}
+
+{% set footer_logo_iqos_fc    = "footer-fc-logo1.jpg" %}
+
+{% if target is defined and target == "DCE" %}
+{% set footer_logo_iqos_fc    = "CARGAR EN DCE" %}
+{% endif %}
+{% if target is defined and target == "FSH" %}
+{% set footer_logo_iqos_fc    = "CARGAR EN FSH" %}
+{% endif %}
+
+
+
+                        <!-- START iq24-p  DISCLAIMER TOP -->
+                          <tr pik-mail-block="iq24-paragraph">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:transparent;" role="presentation">
+                                <tbody>
+                                  <tr pik-block-inner="paragraph-margin-top" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="30">&nbsp;</th>
+                                  </tr>
+                                  <tr pik-block-inner="paragraph-txt">
+                                    <th valign="top" style="width:100%;"  >
+                                      <table  valign="middle" align="center" cellpadding="0" cellspacing="0"  style="min-width:100%; background-color:transparent;"  border="0" width="100%"  role="presentation">
+                                        <tbody>
+                                          <tr>
+                                            <th style="text-align:center;  font-size:12px;  line-height:16px;">
+                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              {{blocks[index].DTI.txtTop|raw}}
+                                              </div>
+                                            </th>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                  <tr pik-block-inner="paragraph-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="20">&nbsp;</th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        <!-- /END iq24-p -->
+                        <!-- START iq24-center-img  LOGO IQOS Forever Curious -->
+                          <tr pik-mail-block="iq24-center-img">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;background-color:transparent;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%;margin:0 auto;" role="presentation">
+                                <tbody>
+                                  <tr>
+                                    <th valign="top" style="text-align:center" align="center">
+                                      <img src="{{footer_logo_iqos_fc}}" alt="" width="100%"  height="auto"  align="absbottom" style="line-height:0; font-size:0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0 auto; padding:0; border:0;" />
+                                    </th>
+                                  </tr>
+                                  <tr pik-block-inner="paragraph-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="12">&nbsp;</th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        <!-- /END iq24-center-img -->
+                        <!-- START iq24-p  LEGALES DE ESTA PIEZA -->
+                          {% if blocks[index].txt != "" ~%}
+                          <tr pik-mail-block="iq24-paragraph">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:transparent;" role="presentation">
+                                <tbody>
+                                  <tr pik-block-inner="paragraph-txt">
+                                    <th valign="top" style="width:100%;"  >
+                                      <table  valign="middle" align="center" cellpadding="0" cellspacing="0"  style="min-width:100%; background-color:transparent;"  border="0" width="100%"  role="presentation">
+                                        <tbody>
+                                          <tr>
+                                            <th style="text-align:center;  font-size:12px;  line-height:16px;">
+                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                                {{blocks[index].txt|raw}}
+                                              </div>
+                                            </th>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                  <tr pik-block-inner="paragraph-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="16">&nbsp;</th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                          {% endif ~%}  
+                        <!-- /END iq24-p -->
+                        <!-- START iq24-p DISCLAIMER BOTTOM -->
+                          <tr pik-mail-block="iq24-paragraph">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:transparent;" role="presentation">
+                                <tbody>
+                                  <tr pik-block-inner="paragraph-txt">
+                                    <th valign="top" style="width:100%;"  >
+                                      <table  valign="middle" align="center" cellpadding="0" cellspacing="0"  style="min-width:100%; background-color:transparent;"  border="0" width="100%"  role="presentation">
+                                        <tbody>
+                                          <tr>
+                                            <th style="text-align:center;  font-size:12px;  line-height:16px;">
+                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              {{blocks[index].DTI.txtBottom|raw}}
+                                              </div>
+                                            </th>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                  <tr pik-block-inner="paragraph-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="25">&nbsp;</th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        <!-- /END iq24-p -->{% endblock %}

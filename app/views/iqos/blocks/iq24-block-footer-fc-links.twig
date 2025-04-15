@@ -1,0 +1,179 @@
+{% block iq24_footer_iqos_fc_links %}
+{# FOOTER IQOS FOREVER CURIOUS - LINKS & SOCIAL LOGOS #}
+{% set footer_mtop           = "15" %}
+{% set footer_mbottom        = "15" %}
+{% set footer_img_separator  = "footer-fc-line.jpg" %}
+{% set URL_CompraEnLinea     = "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html" %}
+{% set URL_LocalizaUnaTienda = "https://www.iqos.com/mx/es/localizador-tiendas.html" %}
+{% set URL_Email             = "mailto:contact.mx@iqos.com" %}
+{% set URL_Llamanos          = "tel:8001476769" %}
+{% set URL_IQOS_FB           = "https://www.facebook.com/iqosmx/" %}
+{% set URL_IQOS_IG           = "https://www.instagram.com/iqos_mx/" %}
+{% set footer_fc_logo_fb        = "footer-fc-fb.png" %}
+{% set footer_fc_logo_ig        = "footer-fc-ig.png" %}
+
+{% if target is defined and target == "DCE" %}
+	{% set footer_fc_logo_fb   = "#LINK-DCE-FB-ICON" %}
+	{% set footer_fc_logo_ig   = "#LINK-DCE-IG-ICON" %}
+{% endif %}
+{% if target is defined and target == "FSH" %}
+	{% set footer_fc_logo_fb   = "#LINK-FSH-FB-ICON" %}
+	{% set footer_fc_logo_ig   = "#LINK-FSH-IG-ICON" %}
+{% endif %}
+
+                          <tr pik-mail-block="iq24-center-img">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;background-color:transparent;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%;margin:0 auto;" role="presentation">
+                                <tbody>
+                                  <tr>
+                                    <th valign="top" style="text-align:center" align="center">
+                                      <img src="{{footer_img_separator}}" alt="" width="100%"  height="auto"  align="absbottom" style="line-height:0; font-size:0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0 auto; padding:0; border:0;" />
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                          <tr pik-mail-block="iq24-columns">
+                            <th valign="middle" style="text-align:center;background-color:transparent;" class="horizontal-grid">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%; background-color:transparent;" role="presentation">
+                                <tbody>
+                                  <tr>
+                                    <th pik-th-descriptor="columns-content" valign="middle" style="text-align:center; width:100%;" class="horizontal-grid" width="100%" >
+                                      <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                        <tbody>
+                                          <tr pik-inner-element="columns-margin-top" style="background-color:transparent;">
+                                            <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px;height:{{footer_mtop}}px;" class="horizontal-gutter" height="{{footer_mtop}}">&nbsp;</th>
+                                          </tr>
+                                          <tr pik-inner-element="columns-container">
+                                            <th>  
+                                              <table valign="top" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%" role="presentation">
+                                                <tbody>
+                                                  <tr pik-inner-element="columns-content">
+                                                      <!--spacer -->
+                                                      <th pik-this="n2-col-col-spcr" valign="top" style="text-align:center;background-color:transparent; width:7%;" class="image-container" align="center" width="7%">
+                                                          <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                            <tbody>
+                                                              <tr>
+                                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="auto">&nbsp;</th>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                      </th>
+                                                      <!--N2multirow - LINKS--> 
+                                                      <th pik-th-descriptor="column-1-[multirows]"   style="text-align:center;background-color:transparent;" class="" align="center" width="68%">
+                                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                          <tbody>
+                                                            <!-- N2multirow p  -->
+                                                            <tr pik-inner-element="column-1-[multirows-row-0:p]">
+                                                              <th>
+                                                                  <table pik-descriptor="column-1-[multirows-row-0-p]"  align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:transparent;" role="presentation">
+                                                                  <tbody>
+                                                                    {# <tr pik-inner-element="multirow-column-p-margin-top" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;text-align:left;font-size:1px;line-height:1px" height="7">&nbsp;</th>
+                                                                    </tr> #}
+                                                                    <tr pik-inner-element="multirow-column-p-content" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;" class="" >
+                                                                        <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0"  width="100%" style="width:100%; background-color:transparent;  margin:0 auto; " role="presentation">
+                                                                          <tbody><tr>
+                                                                              <th style="text-align:left; font-size:10px; ">
+                                                                                <div style="width:100%;  text-align:left;  font-weight:300; color:#34303d; font-family: Cabin, Gotham, Arial, sans-serif; "  class="fallback-text">
+                                                                                  <span class1="txt_14">
+                                                                                    <table >
+                                                                                      <tbody><tr>
+                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_CompraEnLinea}}" target="_blank" alias="footer_compra_en_linea"><span class="txt_footer_links" style="color:#34303d;">Compra en línea</span></a</th>
+                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_LocalizaUnaTienda}}" target="_blank" alias="footer_localiza_una_tienda"><span class="txt_footer_links" style="color:#34303d;">Localiza una tienda</span></a></th>
+                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Email}}" target="_blank" alias="footer_email"><span class="txt_footer_links" style="color:#34303d;">Email</span></a></th>
+                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Llamanos}}" target="_blank" alias="footer_llamanos"><span class="txt_footer_links" style="color:#34303d;">Llámanos</span></a></th>
+                                                                                      </tr></tbody>
+                                                                                    </table>
+                                                                                  </span>
+                                                                                </div>
+                                                                              </th>
+                                                                            </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                      </th>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
+                                                              </th>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </th>
+                                                      <!--N2img -- FB icon -->
+                                                      <th pik-th-descriptor="column-2-[img]" valign="top"  style="text-align:center; background-color:transparent"  align="center"  width="5%">
+                                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                          <tbody>
+                                                            <tr pik-inner-element="img">
+                                                              <th>
+                                                                <a href="{{URL_IQOS_FB}}" alias="footer_facebook" target="_blank"><img src="{{footer_fc_logo_fb}}"  width="100%"  height="auto"  align="center"  alt=""  style="width:100%; -ms-interpolation-mode: bicubic; outline: none; text-decoration: none; border: none; display: block; margin-left:auto; margin-right:auto; line-height:0; font-size:0; "></a>
+                                                              </th>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </th>
+                                                      <!--spacer -->
+                                                      <th pik-this="n2-col-col-spcr" valign="top" style="text-align:center;background-color:transparent; width:5%;" class="image-container" align="center" width="5%">
+                                                          <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                            <tbody>
+                                                              <tr>
+                                                                <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="auto">&nbsp;</th>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                      </th>
+                                                      <!--N2img -- IG icon -->
+                                                      <th pik-th-descriptor="column-4-[img]" valign="top"  style="text-align:center; background-color:transparent"  align="center"  width="5%">
+                                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                          <tbody>
+                                                            <tr pik-inner-element="img">
+                                                              <th>
+                                                                <a href="{{URL_IQOS_IG}}" alias="footer_instagram" target="_blank"><img src="{{footer_fc_logo_ig}}"  width="100%"  height="auto"  align="center"  alt=""  style="width:100%; -ms-interpolation-mode: bicubic; outline: none; text-decoration: none; border: none; display: block; margin-left:auto; margin-right:auto; line-height:0; font-size:0; "></a>
+                                                              </th>
+                                                            </tr>
+                                                          </tbody>
+                                                        </table>
+                                                      </th>
+                                                      <!--spacer -->
+                                                      <th pik-this="n2-col-col-spcr" valign="top" style="text-align:center;background-color:transparent; width:12%;" class="image-container" align="center" width="10%">
+                                                        <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width:100%;" role="presentation">
+                                                        <tbody>
+                                                            <tr>
+                                                            <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="auto">&nbsp;</th>
+                                                            </tr>
+                                                        </tbody>
+                                                        </table>
+                                                      </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </th>
+                                          </tr>
+                                          <tr pik-inner-element="columns-margin-bottom"  style="background-color:transparent;">
+                                            <th valign="top" style="background-color:transparent; text-align:left; font-size:1px; line-height:1px;height:{{footer_mbottom}}px;" class="horizontal-gutter" height="{{footer_mbottom}}">&nbsp;</th>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                          <tr pik-mail-block="iq24-center-img">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;background-color:transparent;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%;margin:0 auto;" role="presentation">
+                                <tbody>
+                                  <tr>
+                                    <th valign="top" style="text-align:center" align="center">
+                                      <img src="{{footer_img_separator}}" alt="" width="100%"  height="auto"  align="absbottom" style="line-height:0; font-size:0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block;margin:0 auto; padding:0; border:0;" />
+                                    </th>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>
+                        
+{% endblock %}

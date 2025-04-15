@@ -935,7 +935,30 @@ $libraryBlocks['iqos24-Tu-Equipo-IQOS'] ='
             "txt"           : "Tu Equipo IQOS",
             "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
         },';
+$libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
+        {   "SECCION"       :  " FOOTER Forever Curious" },
+        {
+            "type"          :  "iq24-footer-iqos-fc-disclaimers",
+            "txt"           :  "",
+            "this_TXT"      :  "{LEGALES DE ESTA PIEZA}",
+            "DTI":
+            {
+                "txtTop"    :  "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo.<br> Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
+                "txtBottom" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados<br> tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.<br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "this_DTI"  :  "{LEGALES ILUMA - Duty To Inform}"
+            },
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-links",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-address",
+            "version"       :  "iqos-2024-v1.twig"
+        }';
 
+        
 
 /** ----------------------------------------------------
  *    END CRM 2024-08    Plantilla iqos-2024-v1.twig
