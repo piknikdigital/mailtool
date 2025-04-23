@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '117';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '04';
+$p_dd =  '23';
+$p_name4folder =  'nuevos-precios';
+$p_name4json =  'leads-iluma-buy-now-lending-guided-trial1';
+$p_name4folderDCE =  'Guided Trial New Prices';
+$p_mailname4DCE =  'LEADS_2025_ILUMA_Buy_Now_Lending_Guided_Trial1';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'NA';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
@@ -42,13 +42,6 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     
-    "iqos24-greeting-with-bgimg",
-    "iqos24-center-img-with-bgimg",
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
@@ -56,20 +49,12 @@ $requiredBlocks = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
-    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
-    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
-    'iqos24-columns',       // REEMPLAZA A: "columns",
-    'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
-    "iqos24-footer-iqos",    // REEMPLAZA A: "footer_bw_v1_lowercase",
+    "iqos24-footer-iqos"    // REEMPLAZA A: "footer_bw_v1_lowercase",
 
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
 
 );
 
@@ -218,8 +203,8 @@ $requiredBlocks2 = array(
     "3cols_chat_fb_phone",
 
     PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
+    CODIGO PARA CUPON 117117XX :   %%=v(@voucher_code)=%% 
+    CODIGO PARA CUPON 117117XX :   %%referral_code%%
 
     "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
     "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
@@ -282,6 +267,21 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Probar IQOS             https://www.iqos.com/mx/es/prueba-iqos.html
+Síguenos en instagram   https://www.instagram.com/iqos_mx/
+Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda     https://www.iqos.com/mx/es/localizador-tiendas.html
+e-mail                  contact.mx@iqos.com
+--------------------
+--------------------
+--------------------
+v2
+Comprar ahora           https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-azul.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-negro-obsidiana.html
+Comprar ahora           https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+Probar IQOS             https://www.iqos.com/mx/es/prueba-iqos.html
+Síguenos en instagram   https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
@@ -290,9 +290,22 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
+(1) Promoción vigente del 8 de abril al 31 de diciembre del 2024. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>,  al *993 desde tu celular.  Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana.  El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario.
+
+
+---------
+
+
+
+IQOS ILUMA™ está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS™. No utilice IQOS ILUMA™ y unidades de tabaco SMARTCORE STICKS™ con generaciones anteriores de IQOS™, ya que esto puede causar daños a su dispositivo. Más información en www.iqos.com.​
+​
+IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.​
+
+Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.
+
+Consulta la página de información importante para obtener más detalles.​
+​
+Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales aquí.
 --------------------
 --------------------
 --------------------
