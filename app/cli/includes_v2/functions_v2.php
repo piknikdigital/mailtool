@@ -441,8 +441,10 @@ function createBlocks_v2($arguments, $libraryBlocks, $id)
     $res = "";
 
     foreach ($requiredBlocks as $req) {
-        $str1 = str_replace("22.id", $id, $libraryBlocks[$req]);
-        $res .= $str1;
+        if ($req != "" ) {   
+            $str1 = str_replace("22.id", $id, $libraryBlocks[$req]);
+            $res .= $str1;
+        }
     }
 
     $blocks='

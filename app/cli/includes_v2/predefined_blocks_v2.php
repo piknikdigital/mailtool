@@ -815,7 +815,7 @@ $libraryBlocks['iqos24-spacer'] ='
             "height"      : "50",
             "bgcolor"     : "transparent"
         },';
-$libraryBlocks['iqos24-canales-de-comunicacion'] ='
+$libraryBlocks['iqos24-canales-de-comunicacion-2'] ='
         {
             "type"          : "iq24-p",
             "font"          : "Cabin",
@@ -856,63 +856,56 @@ $libraryBlocks['iqos24-canales-de-comunicacion'] ='
             "type"      : "iq24-columns",
             "font"      : "Cabin",
             "msides"    : "0",
-            "mtop"      : "0",
-            "mbottom"   : "0",
-            "bgcolor"   : "#FFFFFF",
+            "mtop"      : "20",
+            "mbottom"   : "20",
+            "bgcolor"   : "transparent",
             "this"      : "Canales de comunicación",
             "columns"   :
             [
                 {
                     "coltype"       : "spacer",
-                    "bgcolor"       : "#FFFFFF",
-                    "width_pc"      : "16",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
                     "height"        : "auto"
                 },
                 {
                     "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "22",
+                    "img_width_pc"  : "70",
                     "mtop"          : "0",
-                    "img"           : "ico-cancom-telefono.png",
-                    "imgulr"        : "tel:8001476769",
-                    "THISIMG"       : "IMG ico-cancom-telefono"
-                },
-                {
-                    "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
-                    "mtop"          : "0",
+                    "mbottom"       : "0",
                     "img"           : "ico-cancom-chat.png",
-                    "imgulr"        : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "url"           : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
                     "THISIMG"       : "IMG ico-cancom-chat"
                 },
                 {
                     "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "22",
+                    "img_width_pc"  : "70",
                     "mtop"          : "0",
-                    "img"           : "ico-cancom-sms.png",
-                    "imgulr"        : "https://cutt.ly/59uY4Ga",
-                    "THISIMG"       : "IMG ico-cancom-sms"
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-celular.png",
+                    "url"           : "tel:8001476769",
+                    "THISIMG"       : "IMG ico-cancom-celular"
                 },
                 {
                     "coltype"       : "img",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "17",
-                    "imgwidth"      : "90",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "22",
+                    "img_width_pc"  : "70",
                     "mtop"          : "0",
-                    "img"           : "ico-cancom-ig.png",
-                    "imgulr"        : "https://www.instagram.com/iqos_mx/",
-                    "THISIMG"       : "IMG ico-cancom-ig"
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-tiendas-iqos-2.png",
+                    "url"           : "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+                    "THISIMG"       : "IMG ico-cancom-tiendas-iqos-2"
                 },
                 {
                     "coltype"       : "spacer",
-                    "color_bkg"     : "#FFFFFF",
-                    "widthp100"     : "16",
-                    "mtop"          : "0"
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "height"        : "auto"
                 }
             ]
         },';

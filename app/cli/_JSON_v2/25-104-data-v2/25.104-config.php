@@ -285,6 +285,7 @@ Siguenos en instagram   https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
+(2) Consulta Términos y Condiciones. Descuento del 30% válido del 26 de mayo al 08 de junio de 2025 en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>. Promoción válida en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>. Limitado a un dispositivo.
 --------------------
 --------------------
 --------------------

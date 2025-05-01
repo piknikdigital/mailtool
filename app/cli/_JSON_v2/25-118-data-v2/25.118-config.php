@@ -11,10 +11,10 @@ $p_name4json =  'leads-iluma-buy-now-lending-guided-trial2';
 $p_name4folderDCE =  'Guided Trial New Prices';
 $p_mailname4DCE =  'LEADS_2025_ILUMA_Buy_Now_Lending_Guided_Trial2';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'NA';
+$p_name4folderFSH =  'Guided Trial Nuevos Precios';
+$p_mailname4FSH =  'LEADS_2025_ILUMA_Buy_Now_Lending_Guided_Trial2';
 $p_customerkey_FSH =  'NA';
-$id_FSH_folder =  'NA';
+$id_FSH_folder =  '237';
 
 
 //-----------------------------------------

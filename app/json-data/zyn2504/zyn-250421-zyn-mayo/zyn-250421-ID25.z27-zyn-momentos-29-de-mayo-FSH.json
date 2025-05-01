@@ -1,0 +1,231 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_Zyn May 21 04 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_MOMENTOS_29_DE_MAYO",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH" } ,
+            { "urlS" : "https://paginum.com/email/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2504/zyn-250421-zyn-mayo/zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-250421-ID25.z27-zyn-momentos-29-de-mayo-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z27 ZYN MOMENTOS 29 DE MAYO",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/da811c62-1afe-40b1-8eed-89d4858e5eae.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b6397a0e-9664-4df2-9301-da48ae4cf7ec.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z27-1b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(FirstName)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/a603acd9-6eb4-4bb5-b9a4-d90a224b4e3b.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z27-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c03157ff-6bdb-462b-ab8b-e29fae28ea27.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z27-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c26c8287-0c24-49cf-a433-3a600ed87e0f.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta descubre mas IMG 25.z27-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/201105d1-f2bc-46ed-b73d-52c8a87869c2.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z27-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/97e94a6c-3664-4260-a3e6-d27107e7b6ee.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta pide tu zyn IMG 25.z27-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/7eb46776-03ae-4491-8b61-1c35eddef250.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z27-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/608cc9c5-13af-4499-97cc-1ca46bae4a37.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG siguenos-ig-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/472ce3b9-592d-4b5e-b029-d6f6f0b93d5c.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

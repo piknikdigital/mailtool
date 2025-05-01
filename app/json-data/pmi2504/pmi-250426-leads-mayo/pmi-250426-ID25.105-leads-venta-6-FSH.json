@@ -1,0 +1,293 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_LEADS Mayo 26 04 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_LOCAL_VENTA_6",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2504/pmi-250426-leads-mayo/pmi-250426-ID25.105-leads-venta-6-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250426-ID25.105-leads-venta-6-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.105 LEADS LOCAL VENTA 6",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/89c57784-534b-4f64-9875-cc351b680dcb.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0b308e71-75da-49d0-b65e-5f5d5c58dab8.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%FirstName%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/804902a7-dbca-43ee-850d-a21b035ae45c.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cb293723-6736-418b-ba3a-951b7b10aebd.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/955ff443-503a-43e0-b1ed-478873a1daa0.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2c6d2bba-d8ec-4779-a971-64d8d6993e7a.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/descubrir.html",
+            "alias": "",
+            "mtop": "25",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta quiero comenzar IMG 25.105-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/3bbd1067-279f-4a3d-9fe7-0e77ac7b520a.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta comprar ahora IMG 25.105-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/571f7aa7-1f2e-4ae3-9b76-d401a84a4eda.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b14546b6-b04b-40b5-9244-d862076d9a90.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/7e2f9f64-6994-45be-89ed-de23aa90df1d.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta comprar ahora IMG 25.105-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cd51723a-f754-4adc-ad1f-fbc98fabaa43.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta pedir ahora IMG 25.105-10",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bef68ee6-953c-4a1c-99fb-dfa12bf303da.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.105-11",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cfeb5e42-0e39-43b9-af3b-b8be287197a5.jpg",
+            "alt": "",
+            "url": "https://conoce-iqos.com/wp-content/localizador-tiendas.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta localizar tienda IMG 25.105-12",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0e350675-fd81-419b-8b0b-68409c6ca5ec.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/iqos_mx/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG siguenos-ig-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "26",
+            "height": "30",
+            "txtclass": "txt_26",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#00d1d2",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Tu Equipo IQOS",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-legales-iluma",
+            "font": "'Noto Sans', Gotham, Arial, sans-serif",
+            "bgcolor": "transparent",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ILUMA",
+            "items": [
+                {
+                    "txt": "​(1) Descuento del 10% vigente del 01 al 31 de mayo de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>    <br><br>    *Envío de 1 hora válido únicamente en Ciudad de México para las alcaldías Cuauhtémoc, Benito Juárez y Miguel Hidalgo. Haz tu pedido de 11 a 23 hrs. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo. Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad. <br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ILUMA - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "iq24-footer-iqos",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

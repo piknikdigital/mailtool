@@ -62,15 +62,16 @@ $requiredBlocks = array(
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
     'iqos24-columns',       // REEMPLAZA A: "columns",
     'iqos24-spacer',        // REEMPLAZA A: "spacer",
-    "iqos24-canales-de-comunicacion",
+    "iqos24-canales-de-comunicacion-2",
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
     
     "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
     "iqos24-footer-iqos",    // REEMPLAZA A: "footer_bw_v1_lowercase",
 
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
+    "iqos24-footer-iqos-forever-curious",    // REEMPLAZA A: "iqos24-footer-iqos",
 
+    ""
 );
 
 
@@ -279,6 +280,27 @@ PRECIO TACHADO:
 <span style=\"font-size:12px;\"><sup class=\"sup_20\">(4)</sup></span>
 <span style=\"font-size:12px;\"><sup class=\"sup_20\">MXN</sup></span>
 ===================================================================
+    LINKS COMUNES IQOS
+Conoce más               https://www.iqos.com/mx/es/descubrir.html
+Comprar ahora            https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
+Probar IQOS              https://www.iqos.com/mx/es/prueba-iqos.html
+Siguenos IG              https://www.instagram.com/iqos_mx/
+Localizador de tiendas   https://conoce-iqos.com/wp-content/localizador-tiendas.html
+                         https://www.iqos.com/mx/es/localizador-tiendas.html
+~~~~~~~~~~~~~~~~~~~~~~~~~
+IQOS wallet - android    https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
+IQOS wallet - iOS        https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+~~~~~~~~~~~~~~~~~~~~~~~~~
+TyC Trade In             https://www.iqos.com/mx/es/codigos-de-descuento.html
+TyC MGM                  https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
+TyC Programa de Prestamo https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
+TyC Entrega en 1 hora    https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Códigos de Descuento     https://www.iqos.com/mx/es/codigos-de-descuento.html
+www.iqos.com             https://www.iqos.com/mx/es/home.html
+información importante   https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
+===================================================================
 --------------------
 --------------------
 --------------------
@@ -308,18 +330,8 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
-Siguenos IG                 https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
-IQOS wallet - android       https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
-IQOS wallet - iOS           https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
-TyC Trade In                https://www.iqos.com/mx/es/codigos-de-descuento.html
-TyC MGM                     https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
-TyC Programa de Prestamo    https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
-Códigos de Descuento        https://www.iqos.com/mx/es/codigos-de-descuento.html
-www.iqos.com                https://www.iqos.com/mx/es/home.html
-información importante      https://www.iqos.com/mx/es/Noticias/informacion-importante.html
-privacy - aqui              https://www.pmiprivacy.com/es-la/consumer
 
 --------------------
 --------------------
@@ -364,6 +376,12 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 ==== [Términos y Condiciones (Programa de Prestamo)] =======
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
+
+==== [Términos y Condiciones (Entrega en 1 hora)] ===================
+<a href=\"https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
+=====================================================================
+
+
 
 
 

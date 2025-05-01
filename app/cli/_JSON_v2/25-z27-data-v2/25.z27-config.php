@@ -24,8 +24,6 @@ $TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
-
-
 //-----------------------------------------
 
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig

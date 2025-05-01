@@ -271,6 +271,16 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+(1) Promoción vigente del 08 de abril al 31 de diciembre del 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.     <br><br>    (2) Programa de Préstamo IQOS disponible en Tiendas IQOS. El Programa de Préstamo IQOS está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, al *993 desde tu celular. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana.  El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Dispositivo y color sujeto a disponibilidad de inventario.
+
+
+
+IQOS ILUMA™ está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS™. No utilice IQOS ILUMA™ y unidades de tabaco SMARTCORE STICKS™ con generaciones anteriores de IQOS™, ya que esto puede causar daños a su dispositivo. Más información en www.iqos.com.
+IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.
+Consulta la página de información importante para obtener más detalles.
+Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales aquí.
+
+
 --------------------
 --------------------
 --------------------
