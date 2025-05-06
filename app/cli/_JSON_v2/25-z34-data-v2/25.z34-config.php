@@ -1,59 +1,79 @@
 <?php
 
-$p_id =  '91';
+$p_id =  'z34';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '04';
-$p_dd =  '21';
-$p_name4folder =  'guided-trial';
-$p_name4json =  'leads-guided-trial-iluma-awareness';
-$p_name4folderDCE =  'Guided Trial';
-$p_mailname4DCE =  'LEADS_2025_ILUMA_Awareness_Guided_Trial';
+$p_mm =  '05';
+$p_dd =  '07';
+$p_name4folder =  'zyn-pool-user';
+$p_name4json =  'zyn-promocion-2x1-dia-18';
+$p_name4folderDCE =  'ZYN Pool User';
+$p_mailname4DCE =  'ZYN_PROMOCIÓN_2X1_DÍA_18';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'Guided Trial';
-$p_mailname4FSH =  'LEADS_2025_ILUMA_Awareness_Guided_Trial';
+$p_name4folderFSH =  'ZYN Pool User';
+$p_mailname4FSH =  'ZYN_PROMOCIÓN_2X1_DÍA_18';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
-
 //-----------------------------------------
 
-$companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+$companyBrand     = "zyn";
+$TwigTemplate     = "zyn-2025-v1.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-legales",
+    "zyn25-footer"
+);
+
+
+// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+$requiredBlocks_iq = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
     
+    "iqos24-greeting-with-bgimg",
+    "iqos24-center-img-with-bgimg",
     
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    "iqos24-canales-de-comunicacion-2",
 
+    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
+    
+    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
+    "iqos24-footer-iqos",    // REEMPLAZA A: "footer_bw_v1_lowercase",
+
+    "iqos24-footer-iqos-forever-curious",    // REEMPLAZA A: "iqos24-footer-iqos",
+
+    ""
 );
 
 
@@ -67,148 +87,6 @@ $requiredBlocks__ZYN = array(
     "zyn25-legales",
     "zyn25-footer"
 );
-
-
-// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
-$requiredBlocks2 = array(
-    "header_brand_world",
-
-    "stageIMG",
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "canales_de_comunicacion",
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    "IQOS-Wallet-Iluma-Turquesa", // 24.165
-    "ElijoIQOS",
-    "Solo_con_IQOS",
-
-    "Tu_equipo_IQOS",
-    "Tu_Equipo_IQOS",
-
-    "bloque_legales_iluma",
-    "footer_bw_v1_lowercase",
-);
-
-
-/* 
-
-    FONDO GRIS CLARO - Iluma, borde redondo
-    "IQOS-Wallet-Iluma-Gray",
-
-
-    FONDO GRIS CLARO:
-    "get_iqos_wallet_app",
-    FONDO TURQUESA:
-    "get_iqos_wallet_app_turquoise",
-    FONDO SLATE
-    "get_iqos_wallet_app_slate",
-
-
-    "header_mgm_tu_codigo_unico",
-
-    "stageIMG",
-    "img",
-    "spacer",
-
-    "pframed",
-    "cta1",
-    "p_v2",
-    "p300_BW",
-    "p700_BW",
-    "greeting_v2",
-    "columns",
-    "cta1_v2",
-    "spacer_v2",
-    "canales_de_comunicacion",
-    
-    "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
-    
-    "ElijoIQOS",
-    "legal_extra",
-    "legales-iluma",
-
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
-    "footer_bw_v1",
-    
-    PARA FUTURO SIN HUMO USAR:
-    "disclaimer_fsh",
-    "footer_fsh"
-    
-    PARA IQOS USAR
-    "ElijoIQOS",
-    "legal_extra",
-    "disclaimer_iqos",
-    "footer_bw_v1_lowercase"
-    
-    
-    
-    "legales-terea",
-    "greeting_negro",
-    "greeting_dorado",
-    "footer_brand_world",
-    "header_brand_world",
-
-    "FSH_Yellow_Share",
-    "FSH_Yellow_Share_2",
-    "FSH_Framed_Card",
-
-
-    "p300",
-    "p700",
-    "img_Logo_Header_HTML",
-    "img_Cover_HTML",
-    "rawHTML",
-    "m_TXT_TXT_m",
-    "m_TXT_IMG_m",
-    "m_IMG_TXT_m",
-    "m_IMG_IMG_m",
-    "btn_sa_comprar_HTML",
-    "one_rs",
-    "two_rs",
-    "three_rs",
-    "sinfuego_sinhumo_sinceniza_negro_HTML",
-    "sinfuego_sinhumo_sinceniza_dorado_HTML",
-    "legal_extra",
-    "disclaimer_iqos",
-    "cols_33_33_33",
-    "form",
-    "form_v2",
-    "mgm_coupon_1",
-    "mgm_coupon_2cols",
-    "rgm_coupon_2cols",
-    "cta_share_WA_coupon",
-    "graylineframed",
-    "shopping_list",
-    "3cols_chat_fb_phone",
-
-    PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 9191XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 9191XX :   %%referral_code%%
-
-    "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
-    "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
-
-
-*/
 
 
 /*
@@ -262,35 +140,27 @@ PRECIO TACHADO:
 <span style=\"font-size:12px;\"><sup class=\"sup_20\">(4)</sup></span>
 <span style=\"font-size:12px;\"><sup class=\"sup_20\">MXN</sup></span>
 ===================================================================
---------------------
---------------------
---------------------
---------------------
-Localizar tienda 	https://www.iqos.com/mx/es/localizador-tiendas.html
-Comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-Comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
-Síguenos en instagram,	https://www.instagram.com/iqos_mx/
-
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-OLD
-(1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    (2) Valido en CDMX en un horario de 11:00 a 23:00 horas.
---------------------
---------------------
---------------------
---------------------
---------------------
-(1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    (2) Disponible en Ciudad de México | Haz tu pedido de 11 a 7 p.m.<br>(No aplica en Milpa Alta, Tláhuac e Iztapalapa)
-
+    LINKS COMUNES IQOS
+Conoce más               https://www.iqos.com/mx/es/descubrir.html
+Comprar ahora            https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
+Probar IQOS              https://www.iqos.com/mx/es/prueba-iqos.html
+Siguenos IG              https://www.instagram.com/iqos_mx/
+Localizador de tiendas   https://conoce-iqos.com/wp-content/localizador-tiendas.html
+                         https://www.iqos.com/mx/es/localizador-tiendas.html
+~~~~~~~~~~~~~~~~~~~~~~~~~
+IQOS wallet - android    https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
+IQOS wallet - iOS        https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+~~~~~~~~~~~~~~~~~~~~~~~~~
+TyC Trade In             https://www.iqos.com/mx/es/codigos-de-descuento.html
+TyC MGM                  https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
+TyC Programa de Prestamo https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
+TyC Entrega en 1 hora    https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Códigos de Descuento     https://www.iqos.com/mx/es/codigos-de-descuento.html
+www.iqos.com             https://www.iqos.com/mx/es/home.html
+información importante   https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
+===================================================================
 --------------------
 --------------------
 --------------------
@@ -300,18 +170,28 @@ OLD
 --------------------
 --------------------
 --------------------
-Siguenos IG                 https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
-IQOS wallet - android       https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
-IQOS wallet - iOS           https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
-TyC Trade In                https://www.iqos.com/mx/es/codigos-de-descuento.html
-TyC MGM                     https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
-TyC Programa de Prestamo    https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html
-Códigos de Descuento        https://www.iqos.com/mx/es/codigos-de-descuento.html
-www.iqos.com                https://www.iqos.com/mx/es/home.html
-información importante      https://www.iqos.com/mx/es/Noticias/informacion-importante.html
-privacy - aqui              https://www.pmiprivacy.com/es-la/consumer
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 
 --------------------
 --------------------
@@ -356,6 +236,12 @@ Consulta <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=
 ==== [Términos y Condiciones (Programa de Prestamo)] =======
 <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>
 ============================================================
+
+==== [Términos y Condiciones (Entrega en 1 hora)] ===================
+<a href=\"https://www.iqos.com/mx/es/terminos-condiciones-para-entrega-por-pari.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones.</a>
+=====================================================================
+
+
 
 
 

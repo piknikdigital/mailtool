@@ -281,6 +281,10 @@ Probar IQOS	https://www.iqos.com/mx/es/prueba-iqos.html
 --------------------
 --------------------
 --------------------
+Probar IQOS	https://www.iqos.com/mx/es/prueba-iqos.html
+Síguenos en instagram,	https://www.instagram.com/iqos_mx/
+Compra en línea 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+Localiza una tienda	https://www.iqos.com/mx/es/localizador-tiendas.html
 --------------------
 --------------------
 --------------------
@@ -290,11 +294,12 @@ Probar IQOS	https://www.iqos.com/mx/es/prueba-iqos.html
 --------------------
 --------------------
 --------------------
+OLD
 (1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    (2) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.
 --------------------
 --------------------
 --------------------
---------------------
+(1) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.    <br><br>    (2) Disponible en Ciudad de México | Haz tu pedido de 11 a 7 p.m.​​​ <br>(No aplica en Milpa Alta, Tláhuac e Iztapalapa)
 --------------------
 --------------------
 --------------------

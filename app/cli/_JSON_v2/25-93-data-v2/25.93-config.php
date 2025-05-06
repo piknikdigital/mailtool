@@ -277,8 +277,7 @@ Compra en línea         https://www.iqos.com/mx/es/descubrir-tabaco-para-calent
 --------------------
 --------------------
 --------------------
-(1) Valido en CDMX en un horario de 11:00 a 23:00 horas.    <br><br>    (2) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
-
+(1) Disponible en Ciudad de México | Haz tu pedido de 11 a 7 p.m.​​​<br>(No aplica en Milpa Alta, Tláhuac e Iztapalapa)    <br><br>    (2) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en www.iqos.com). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en www.iqos.com, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
 
 
 

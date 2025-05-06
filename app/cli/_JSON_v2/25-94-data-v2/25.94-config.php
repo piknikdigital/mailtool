@@ -284,7 +284,8 @@ Síguenos en instagram    https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
-(1) Válido en CDMX en un horario de 11:00 a 23:00 horas.    <br><br>    (2) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través de <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.
+(1)Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.    <br><br>    (2)Disponible en Ciudad de México | Haz tu pedido de 11 a 7 p.m.​​​<br>(No aplica en Milpa Alta, Tláhuac e Iztapalapa).
+ 
 --------------------
 --------------------
 --------------------
