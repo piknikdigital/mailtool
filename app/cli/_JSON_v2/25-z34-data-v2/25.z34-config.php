@@ -31,8 +31,19 @@ $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
     "zyn25-legales",
     "zyn25-footer"
 );
@@ -164,6 +175,21 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+Comprar ahora 	https://www.zyn.com/mx/es/compra-zyn.html
+Comprar ahora 	https://www.zyn.com/mx/es/compra-zyn.html
+Síguenos en IG	https://www.instagram.com/zyn_mxoficial/
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+*Promoción válida al comprar una lata de ZYN y recibir otra sin costo. Válido exclusivamente en <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">zyn.com</a>. Sujeto a disponibilidad de productos. Promoción no acumulable con otras ofertas. Vigencia limitada o hasta agotar existencias.
 --------------------
 --------------------
 --------------------
@@ -177,22 +203,13 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+https://www.zyn.com/mx/es/home.html
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+<a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">zyn.com</a>
 
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------

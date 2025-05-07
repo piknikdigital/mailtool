@@ -31,8 +31,24 @@ $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    'iqos24-columns',       // REEMPLAZA A: "columns",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
     "zyn25-legales",
     "zyn25-footer"
 );
@@ -165,6 +181,9 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+Descubre más       https://www.zyn.com/mx/es/compra-zyn.html
+Descarga wallet    https://www.instagram.com/zyn_mxoficial/
+Síguenos en ig     https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------

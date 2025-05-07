@@ -31,8 +31,23 @@ $requiredBlocks = array(
     "zyn25-header-zyn",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    
     "zyn25-legales",
     "zyn25-footer"
 );
@@ -163,6 +178,10 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+Descubre más      https://www.zyn.com/mx/es/descubre-zyn.html
+Quiero ser parte  tbd
+Localizar tienda  https://conoce-zyn.com/wp-content/localizador-tiendas.html
+Síguenos en IG    https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
