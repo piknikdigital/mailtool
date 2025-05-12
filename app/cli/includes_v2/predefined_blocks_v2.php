@@ -33,6 +33,898 @@ $libraryBlocks = array();
 
 
 
+
+/** ------------------------------------------------------
+ *    START CRM 2025-05    Plantilla clubzero-2025-v1.twig
+ *      Club Zero --> Together Club
+ *  ------------------------------------------------------
+ */
+$libraryBlocks['tc25-header'] ='
+        {
+            "type"          : "iq24-center-img",
+            "bgcolor"       : "transparent",
+            "img"           : "together-club-header.png",
+            "alt"           : "",
+            "url"           : "#",
+            "alias"         : "",
+            "mtop"          : "0",
+            "mbottom"       : "0",
+            "width_pc"      : "100",
+            "this"          : "IMG header TOGETHER CLUB",
+            "template"      : "clubzero-2025-v1.twig"
+        },';
+$libraryBlocks['tc25-textbox-black'] ='
+
+        {   "this"  : "TEXTBOX - BLACK"  },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "\'ClubZero\', Gotham, \'Gabarito\', Gotham, \'Noto Sans\'",
+            "msides"    : "0",
+            "mtop"      : "30",
+            "mbottom"   : "30",
+            "bgcolor"   : "#000000",
+            "this"      : "BLACK BOX - CLAIM PRIZE",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [
+                                {
+                                    "txt"         : "<span style=\"letter-spacing: 9px;\">RECLAMA TU PREMIO:</span>",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "22",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#e6177a",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "14",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [
+                                {
+                                    "txt"         : "Auto último modelo ;)",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "40",
+                                    "height"      : "40",
+                                    "txtclass"    : "txt_40",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "14",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [
+                                {
+                                    "txt"         : "Recuerda, entre más juegues,<br><span style=\"color:#ffffff;font-weight:700;\">más oportunidades tendrás de ganar.</span>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },';
+$libraryBlocks['tc25-textbox-grey'] ='
+
+        {   "this"  : "TEXTBOX - GREY - CTA"  },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "TEXTBOX - GREY - RECUPERAR CONTRASEÑA",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "50",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "40",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "No te preocupes,<br> ¡será rápido!",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "42",
+                                    "height"      : "44",
+                                    "txtclass"    : "txt_42",
+                                    "align"       : "center",
+                                    "color"       : "#e6177a",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "20",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "No eres la primera ni la última persona que<br> olvida su contraseña.<br><br>Crea una nueva con cero complicaciones.<br><span style=\"font-family:Gotham;font-weight:700;\">Haz clic en el botón y sigue<br>las instrucciones.</span>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "20",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_20",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "25.129-1.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "%%LINKRECUPERARCONTRASENA%%",
+                            "THISIMG"       : "25.129-1"
+                        }
+                    ]
+                }
+            ]
+        },';
+
+
+$libraryBlocks['tc25-textbox-gray-listbox-cta'] ='
+
+        {   "this"   :  "TEXTBOX - LISTBOX - CTA"  },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "LISTBOX ITEM 1 : Sigue participando y acumula más puntos.",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "4",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "&bull; ",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#e6177a",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"font-family:Gotham;font-weight:700;\">Sigue participando</span> y acumula más puntos.",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                }
+
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "LISTBOX ITEM 2 : Redime tus puntos por recompensas exclusivas.",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "4",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "&bull; ",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#e6177a",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"font-family:Gotham;font-weight:700;\">Redime tus puntos</span> por recompensas exclusivas.",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                }
+
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "10",
+            "mbottom"   : "10",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "LISTBOX ITEM 3 : Accede a experiencias únicas solo para ti.",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "4",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "&bull; ",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#e6177a",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "90",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<span style=\"font-family:Gotham;font-weight:700;\">Accede a experiencias únicas </span> solo para ti.",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "left",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "3",
+                    "height"        : "auto"
+                }
+
+            ]
+        },
+        {
+            "type"          : "cz25-p",
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "22",
+            "height"        : "26",
+            "txtclass"      : "txt_22",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "#faf7f4",
+            "mtop"          : "30",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "#faf7f4",
+            "txt"           : "Tus amigos también suman.<br>Comparte y acumula recompensas.",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.127-3.jpg",
+            "alt"           :  "",
+            "url"           :  "#LINK",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "CTA compartir ahora IMG 25.127-3",
+            "version"       :  "iqos-2024-v1.twig"
+        },';      
+
+$libraryBlocks['tc25-dudas-contactanos'] ='
+
+        {   "SECCION"       : "¿TIENES DUDAS? ¡CONTACTANOS!"},
+        {
+            "type"          : "cz25-p",            
+            "font"          : "\'ClubZero\', Gotham, \'Gabarito\', \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "26",
+            "height"        : "30",
+            "txtclass"      : "txt_26",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "60",
+            "mbottom"       : "0",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "¿Tienes dudas?<br>¡Contáctanos!",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "30",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "LLAMANOS / SMS",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "18",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "30",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ico1-llamanos.png",
+                    "url"           : "#LINK",
+                    "this"          : "IMG together-club-ico1-llamanos"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "4",
+                    "height"        : "auto"
+                },
+
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "30",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ico2-sms.png",
+                    "url"           : "#LINK",
+                    "this"          : "IMG together-club-ico2-sms"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "18",
+                    "height"        : "auto"
+                }
+            ]
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "20",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "ESCRIBENOS / FAQ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "18",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "30",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ico3-escribenos.png",
+                    "url"           : "#LINK",
+                    "this"          : "IMG together-club-ico3-escribenos"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "4",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "30",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ico4-faq.png",
+                    "url"           : "#LINK",
+                    "this"          : "IMG together-club-ico4-faq"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "18",
+                    "height"        : "auto"
+                }
+            ]
+        },
+        ';
+
+
+$libraryBlocks['tc25-siguenos-rs'] ='
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.126-3.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "45",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.126-3",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "45",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.126-4.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG 25.126-4"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "65",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "25.126-5.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG 25.126-5"
+                }
+            ]
+        },
+        ';
+$libraryBlocks['tc25-siguenos-rs-2'] ='
+
+        {   "this"          :  "SIGUENOS REDES SOCIALES"},
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "together-club-ig2-1.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "45",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG together-club-ig2-1",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "REDES SOCIALES ",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "55",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ig2-2.jpg",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IG IQOS  IMG together-club-ig2-2"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "45",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "together-club-ig2-3.jpg",
+                    "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
+                    "this"          : "IG ZYN IMG together-club-ig2-3"
+                }
+            ]
+        },
+        ';
+
+$libraryBlocks['tc25-footer'] ='
+
+
+        {   "this"          :  "Together Club - Footer"},
+        {
+            "type"          : "cz25-p",
+            "font"          : "\'ClubZero\', Gotham, \'Noto Sans\'",
+            "fontweight"    : "700",
+            "fontsize"      : "23",
+            "height"        : "27",
+            "txtclass"      : "txt_23",
+            "width_pc"      : "94",
+            "align"         : "center",
+            "color"         : "#34303d",
+            "bgcolor"       : "transparent",
+            "mtop"          : "30",
+            "mbottom"       : "20",
+            "msides"        : "0",
+            "mcolor"        : "transparent",
+            "txt"           : "<span style=\"color:#e6177a;font-weight:700;\">Together Club, </span> por ti y para ti.",
+            "this"          : "TXT Together Club, por ti y para ti. | Rosa: e6177a | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "footer-privacy.png",
+            "alt"           :  "",
+            "url"           :  "%%LINK_PRIVACY%%",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG Consulta nuestro aviso de privacidad footer-privacy",
+            "version"       :  "clubzero-2025-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "40",
+            "mbottom"   : "40",
+            "bgcolor"   : "#35303f",
+            "this"      : "LOGO TOGETHER CLUB / EMAIL / LLAMANOS / IG",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "5",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "60",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "footer-together-club-logo.png",
+                    "url"           : "#",
+                    "this"          : "IMG footer-together-club-logo"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "15",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "20",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<a href=\"#LINK\" style=\"text-decoration:none;color:white;\" target=\"_blank\">Email</a>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "14",
+                                    "height"      : "18",
+                                    "txtclass"    : "txt_14",
+                                    "align"       : "left",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },                        
+
+
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "15",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "<a href=\"#LINK\" style=\"text-decoration:none;color:white;\" target=\"_blank\">Llámanos</a>",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "14",
+                                    "height"      : "18",
+                                    "txtclass"    : "txt_14",
+                                    "align"       : "left",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },                        
+
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "footer-logo-ig.png",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "15",
+                            "mbottom"       : "0",
+                            "width_pc"      : "30",
+                            "align"         : "left",
+                            "url"           : "#LINK",
+                            "THISIMG"       : "footer-logo-ig"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"          : "cz25-p",
+            "font"          : "\'Noto Sans\'",
+            "fontweight"    : "300",
+            "fontsize"      : "12",
+            "height"        : "16",
+            "txtclass"      : "txt_12",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "30",
+            "mbottom"       : "10",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México.",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        },
+        {
+            "type"          : "cz25-p",            
+            "font"          : "\'Noto Sans\'",
+            "fontweight"    : "300",
+            "fontsize"      : "10",
+            "height"        : "12",
+            "txtclass"      : "txt_10",
+            "width_pc"      : "100",
+            "align"         : "center",
+            "color"         : "#ffffff",
+            "bgcolor"       : "#000000",
+            "mtop"          : "0",
+            "mbottom"       : "30",
+            "msides"        : "0",
+            "mcolor"        : "#000000",
+            "txt"           : "Si prefieres no recibir más correos como este, puedes darte de baja en cualquier momento. <br><a href=\"%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
+            "version"       : "clubzero-2025-v1.twig"
+        }';
+
 /** ------------------------------------------------------
  *    START CRM 2025-02    Plantilla clubzero-2025-v1.twig
  *  ------------------------------------------------------
@@ -264,6 +1156,9 @@ $libraryBlocks['cz25-table2'] ='
             "mbottom"       : "0",
             "mcolor"        : "transparent",
             "cellcolor"     : "transparent",
+            "acccentcolor"  : "#e6177a",
+            "colorTitle1"   : "#ffffff",
+            "colorTitle2"   : "#ffffff",
             "width_pc"      : "90",
             "this"          : "TABLE Style2",
             "version"       : "clubzero-2025-v1.twig"

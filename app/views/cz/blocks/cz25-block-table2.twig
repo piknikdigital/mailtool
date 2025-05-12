@@ -1,4 +1,23 @@
 {%- block cz25_table2 ~%}
+{% if blocks[index].acccentcolor is defined %}
+{% set accent = blocks[index].acccentcolor %}
+{% else %}
+{% set accent = "#00d1d2" %}
+{% endif %}
+
+{% if blocks[index].colorTitle1 is defined %}
+{% set colorTitle1 = blocks[index].colorTitle1 %}
+{% else %}
+{% set colorTitle1 = "#000000" %}
+{% endif %}
+
+{% if blocks[index].colorTitle2 is defined %}
+{% set colorTitle2 = blocks[index].colorTitle2 %}
+{% else %}
+{% set colorTitle2 = "#00d1d2" %}
+{% endif %}
+
+
                           <tr pik-mail-block="cz25-table1">
                             <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
                               <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:{{blocks[index].mcolor}};" role="presentation">
@@ -12,29 +31,29 @@
                                         <table  style="display:table; box-sizing:border-box; text-indent:0; text-align:center; border-collapse:collapse; border:0;line-height:1.5; width:{{ blocks[index].width_pc }}%; margin-left:auto;margin-right:auto; background-color:{{blocks[index].cellcolor}};">
                                             <thead>
                                                 <tr style="background-color: #000000;">
-                                                    <th style="padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;background-color: #00d1d2;">PUNTOS</th>
-                                                    <th style="padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;color:#00d1d2;">ACTIVIDAD</th>
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;background-color: {{accent}};color:{{colorTitle1}}">PUNTOS</th>
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;color:{{colorTitle2}};">ACTIVIDAD</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr style="border-top: 3px solid #e1e0e2;">
-                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:#00d1d2;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:{{accent}};"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
                                                     <th style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Nombre actividad</span></th>
                                                 </tr>
                                                 <tr style="border-top: 3px solid #e1e0e2;">
-                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:#00d1d2;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:{{accent}};"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
                                                     <th style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Nombre actividad</span></th>
                                                 </tr>
                                                 <tr style="border-top: 3px solid #e1e0e2;">
-                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:#00d1d2;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:{{accent}};"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
                                                     <th style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Nombre actividad</span></th>
                                                 </tr>
                                                 <tr style="border-top: 3px solid #e1e0e2;">
-                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:#00d1d2;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:{{accent}};"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
                                                     <th style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Nombre actividad</span></th>
                                                 </tr>
                                                 <tr style="border-top: 3px solid #e1e0e2;">
-                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:#00d1d2;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;color:{{accent}};"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;font-weight:700;"  class="{{blocks[index].txtclass}}">200 Puntos</span></td>
                                                     <th style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Nombre actividad</span></th>
                                                 </tr>
                                             </tbody>

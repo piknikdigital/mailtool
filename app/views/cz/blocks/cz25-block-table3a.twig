@@ -1,0 +1,52 @@
+{%- block cz25_table3a ~%}
+                          <tr pik-mail-block="cz25-table3a">
+                            <th valign="top" style="text-align:left;margin:0;padding:0;" align="center">
+                              <table valign="top" align=center cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:100%; width:100%; margin:0; background-color:{{blocks[index].mcolor}};" role="presentation">
+                                <tbody>{% if blocks[index].mtop != "0" ~%}
+                                  <tr pik-block-inner="table3a-margin-top" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mtop}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                  <tr pik-block-inner="table3a-txt">
+                                    <th valign="top" style="width:100%;">
+
+                                        <table  style="display:table; box-sizing:border-box; text-indent:0; text-align:center; border-collapse:collapse; border:0;line-height:1.5; width:{{ blocks[index].width_pc }}%; margin-left:auto;margin-right:auto; background-color:{{blocks[index].cellcolor}};">
+                                            <thead>
+                                                <tr style="background-color: #34303d;">
+                                                    <th style="width:50%;padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;color:#ffffff;">PUNTOS A VENCER</th>
+                                                    <th style="width:50%;padding:{{blocks[index].cellpadding}}px;font-family:{{blocks[index].font|raw}};line-height:{{blocks[index].height}}px;color:#ffffff;">FECHA DE VENCIMIENTO</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr style="border-top: 3px solid #e1e0e2;">
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;border-right: 3px solid #e1e0e2;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Cantidad de puntos</span></th>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;"  class="{{blocks[index].txtclass}}">12-12-2025</span></td>
+                                                </tr>
+                                                <tr style="border-top: 3px solid #e1e0e2;">
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;border-right: 3px solid #e1e0e2;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Cantidad de puntos</span></th>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;"  class="{{blocks[index].txtclass}}">12-12-2025</span></td>
+                                                </tr>
+                                                <tr style="border-top: 3px solid #e1e0e2;">
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;border-right: 3px solid #e1e0e2;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Cantidad de puntos</span></th>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;"  class="{{blocks[index].txtclass}}">12-12-2025</span></td>
+                                                </tr>
+                                                <tr style="border-top: 3px solid #e1e0e2;">
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;border-right: 3px solid #e1e0e2;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Cantidad de puntos</span></th>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;"  class="{{blocks[index].txtclass}}">12-12-2025</span></td>
+                                                </tr>
+                                                <tr style="border-top: 3px solid #e1e0e2;">
+                                                    <th style="padding:{{blocks[index].cellpadding}}px;border-right: 3px solid #e1e0e2;"><span style="font-family:{{blocks[index].font|raw}};font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px; font-size:{{blocks[index].fontsize}}" class="{{blocks[index].txtclass}}">Cantidad de puntos</span></th>
+                                                    <td style="padding:{{blocks[index].cellpadding}}px;"><span style="font-family:{{blocks[index].font|raw}}; font-weight:{{blocks[index].fontweight}};line-height:{{blocks[index].height}}px;"  class="{{blocks[index].txtclass}}">12-12-2025</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+
+                                    </th>
+                                  </tr>{% if blocks[index].mbottom != "0" ~%}
+                                  <tr pik-block-inner="table3a-margin-bottom" style="background-color:transparent;">
+                                    <th valign="top" style="text-align:left;font-size:1px;line-height:1px" height="{{blocks[index].mbottom}}">&nbsp;</th>
+                                  </tr>{% endif ~%}
+                                </tbody>
+                              </table>
+                            </th>
+                          </tr>{% endblock -%}

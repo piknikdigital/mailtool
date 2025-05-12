@@ -16,28 +16,25 @@ $p_mailname4FSH    = "NAME4CRM";
 $p_customerkey_FSH = "custkeyFSH";
 $id_FSH_folder     = "999";
 
-
 //-----------------------------------------
 
 $companyBrand     = "pmi";
 $TwigTemplate     = "iqos-2024-v1.twig";
 $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
 $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// $bgColor          = "#0d0c12";    // Dark mode IQOS
-
 
 // $companyBrand     = "zyn";
 // $TwigTemplate     = "zyn-2025-v1.twig";
 // $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
-
-
+// $bgColor          = "#0d0c12";    // Dark mode IQOS
 //-----------------------------------------
 
+$requiredBlocks = array(
+);
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks = array(
+$requiredBlocks__IQOS = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -73,8 +70,6 @@ $requiredBlocks = array(
 
     ""
 );
-
-
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks__ZYN = array(
     "zyn25-header-zyn",
@@ -86,148 +81,35 @@ $requiredBlocks__ZYN = array(
     "zyn25-footer"
 );
 
+// MODULOS PARA TEMPLATE clubzero-2025-v1.twig
+$requiredBlocks = array(
+    "tc25-header",          // 
+    "iqos24-center-img",    // 
+    'cz25-p700',            // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    
+    // saludo
+    "cz25-greeting",        // 
+    'cz25-p700',            // 
+    'cz25-p300',            // 
 
-// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
-$requiredBlocks2 = array(
-    "header_brand_world",
+    "iqos24-center-img",    // 
+    'iqos24-columns',       // 
+        
+    "iqos24-center-img",    // 
+    'cz25-p300',            // 
+    'cz25-p700',            // 
 
-    "stageIMG",
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "canales_de_comunicacion",
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    "IQOS-Wallet-Iluma-Turquesa", // 24.165
-    "ElijoIQOS",
-    "Solo_con_IQOS",
+    "tc25-textbox-black",
+    "tc25-textbox-grey",
+    "tc25-textbox-gray-listbox-cta",
 
-    "Tu_equipo_IQOS",
-    "Tu_Equipo_IQOS",
 
-    "bloque_legales_iluma",
-    "footer_bw_v1_lowercase",
+    "tc25-dudas-contactanos",
+    "tc25-siguenos-rs-2",
+    "tc25-footer"
 );
-
-
-/* 
-
-    FONDO GRIS CLARO - Iluma, borde redondo
-    "IQOS-Wallet-Iluma-Gray",
-
-
-    FONDO GRIS CLARO:
-    "get_iqos_wallet_app",
-    FONDO TURQUESA:
-    "get_iqos_wallet_app_turquoise",
-    FONDO SLATE
-    "get_iqos_wallet_app_slate",
-
-
-    "header_mgm_tu_codigo_unico",
-
-    "stageIMG",
-    "img",
-    "spacer",
-
-    "pframed",
-    "cta1",
-    "p_v2",
-    "p300_BW",
-    "p700_BW",
-    "greeting_v2",
-    "columns",
-    "cta1_v2",
-    "spacer_v2",
-    "canales_de_comunicacion",
-    
-    "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
-    
-    "ElijoIQOS",
-    "legal_extra",
-    "legales-iluma",
-
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
-    "footer_bw_v1",
-    
-    PARA FUTURO SIN HUMO USAR:
-    "disclaimer_fsh",
-    "footer_fsh"
-    
-    PARA IQOS USAR
-    "ElijoIQOS",
-    "legal_extra",
-    "disclaimer_iqos",
-    "footer_bw_v1_lowercase"
-    
-    
-    
-    "legales-terea",
-    "greeting_negro",
-    "greeting_dorado",
-    "footer_brand_world",
-    "header_brand_world",
-
-    "FSH_Yellow_Share",
-    "FSH_Yellow_Share_2",
-    "FSH_Framed_Card",
-
-
-    "p300",
-    "p700",
-    "img_Logo_Header_HTML",
-    "img_Cover_HTML",
-    "rawHTML",
-    "m_TXT_TXT_m",
-    "m_TXT_IMG_m",
-    "m_IMG_TXT_m",
-    "m_IMG_IMG_m",
-    "btn_sa_comprar_HTML",
-    "one_rs",
-    "two_rs",
-    "three_rs",
-    "sinfuego_sinhumo_sinceniza_negro_HTML",
-    "sinfuego_sinhumo_sinceniza_dorado_HTML",
-    "legal_extra",
-    "disclaimer_iqos",
-    "cols_33_33_33",
-    "form",
-    "form_v2",
-    "mgm_coupon_1",
-    "mgm_coupon_2cols",
-    "rgm_coupon_2cols",
-    "cta_share_WA_coupon",
-    "graylineframed",
-    "shopping_list",
-    "3cols_chat_fb_phone",
-
-    PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON XXXXXXXX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON XXXXXXXX :   %%referral_code%%
-
-    "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
-    "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
-
-
-*/
-
 
 /*
 BAD CHR : "", "	"
