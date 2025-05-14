@@ -293,6 +293,9 @@ Siguenos en instagram   https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
+NUEVO
+(1) Descuento del 30 % válido del 26 de mayo al 03 de junio de 2025 en la compra de un dispositivo IQOS ILUMA y/o IQOS ILUMA PRIME, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>. Limitado a un dispositivo.
+
 --------------------
 --------------------
 --------------------

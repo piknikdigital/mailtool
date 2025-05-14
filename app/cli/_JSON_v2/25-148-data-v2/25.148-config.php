@@ -1,52 +1,53 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '148';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '05';
+$p_dd =  '12';
+$p_name4folder =  'transaccionales';
+$p_name4json =  'cz-reseteo-contrasenia';
+$p_name4folderDCE =  'NA';
+$p_mailname4DCE =  'CZ_Reseteo_contraseña';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'NA';
+$p_mailname4FSH =  'CZ_Reseteo_contraseña';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
-
-switch ( (string)$companyBrand ){
-    case 'zyn':
-        // $companyBrand  = "zyn";
-        $TwigTemplate     = "zyn-2025-v1.twig";
-        $bgColor          = "#FFFFFF";    // Don't use "transparent"
-        break;
-    case 'cz':
-        // $companyBrand  = "cz";
-        $TwigTemplate     = "clubzero-2025-v1.twig";
-        $bgColor          = "#FFFFFF";    // Don't use "transparent"
-        break;
-    default:
-        // $companyBrand  = "pmi";
-        $TwigTemplate     = "iqos-2024-v1.twig";
-        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-        $bgColor          = "#FFFFFF";    // Don't use "transparent"
-        break;
-}
-// $bgColor          = "#0d0c12";    // Dark mode IQOS
+$companyBrand     = "cz";
+$TwigTemplate     = "clubzero-2025-v1.twig";
+$bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 //-----------------------------------------
 
+
+// MODULOS PARA TEMPLATE clubzero-2025-v1.twig
 $requiredBlocks = array(
+    "tc25-header",          // 
+    'cz25-p700',            // 
+    
+    'iqos24-columns',       // 
+
+    'cz25-p300',            // 
+    'cz25-p700',            // 
+    "iqos24-cta",           // 
+
+    "iqos24-center-img",    // 
+    'iqos24-columns',       // 
+
+
+    "tc25-dudas-contactanos",
+    "tc25-siguenos-rs-2",
+    "tc25-footer"
 );
 
+
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks__IQOS = array(
+$requiredBlocks_iq = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -81,46 +82,6 @@ $requiredBlocks__IQOS = array(
     "iqos24-footer-iqos-forever-curious",    // REEMPLAZA A: "iqos24-footer-iqos",
 
     ""
-);
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-legales",
-    "zyn25-footer"
-);
-
-// MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
-$requiredBlocks = array(
-    "tc25-header",          // 
-    "iqos24-center-img",    // 
-    'cz25-p700',            // 
-    "iqos24-center-img",    // 
-    "iqos24-center-img",    // 
-    
-    // saludo
-    "cz25-greeting",        // 
-    'cz25-p700',            // 
-    'cz25-p300',            // 
-
-    "iqos24-center-img",    // 
-    'iqos24-columns',       // 
-        
-    "iqos24-center-img",    // 
-    'cz25-p300',            // 
-    'cz25-p700',            // 
-
-    "tc25-textbox-black",
-    "tc25-textbox-grey",
-    "tc25-textbox-gray-listbox-cta",
-
-
-    "tc25-dudas-contactanos",
-    "tc25-siguenos-rs-2",
-    "tc25-footer"
 );
 
 
@@ -204,6 +165,21 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+e6177a
+--------------------
+Turquesa: #00d1d2
+--------------------
+Rosa: #e6177a
+--------------------
+--------------------
+BOLD GOTHAM
+<span style=\"font-family:Gotham;font-weight:700;\">
+</span>
+--------------------
+BOLD GOTHAM ROSA
+<span style=\"font-family:Gotham;font-weight:700;color:#e6177a\">Together Club</span>
+--------------------
+
 --------------------
 --------------------
 --------------------
@@ -212,7 +188,11 @@ privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 --------------------
 --------------------
 --------------------
+Lo que eliges consumir dice mucho de ti.<br> Aquí en <span style=\"font-family:Gotham;font-weight:700;color:#e6177a\">Together Club</span> esa elección se premia. ​​
 --------------------
+--------------------
+Lo que eliges consumir dice mucho de ti. Aquí en Together Club esa elección se premia.
+
 --------------------
 --------------------
 --------------------
