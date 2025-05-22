@@ -1,24 +1,24 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  'z38';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '05';
+$p_dd =  '22';
+$p_name4folder =  'zyn-nps';
+$p_name4json =  'zyn-laus-review-compra-zyn';
+$p_name4folderDCE =  'ZYN NPS';
+$p_mailname4DCE =  'ZYN_LAUS_DCE_REVIEW_COMPRAZYN';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN NPS';
+$p_mailname4FSH =  'ZYN_LAUS_DCE_REVIEW_COMPRAZYN';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,6 +43,25 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+
+    "zyn25-legales",
+    "zyn25-footer"
+
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
