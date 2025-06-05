@@ -66,6 +66,10 @@ $requiredBlocks__IQOS = array(
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
 
+
+    "iqos24-columns-img-img-img",
+    "iqos24-columns-img-greeting-img",
+    
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
     'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",

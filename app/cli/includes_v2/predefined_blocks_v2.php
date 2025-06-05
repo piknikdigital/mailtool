@@ -1336,9 +1336,142 @@ $libraryBlocks['cz25-tableNN'] ='
 
 
 
+/** ----------------------------------------------------
+ *    START CRM 2025.05    Plantilla iqos-2024-v1.twig
+ *  -----------------------------------------------------
+ */
+
+$libraryBlocks['iqos24-columns-img-img-img'] ='
+         {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "GIF",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "80",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.gif",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                }
+            ]
+        },';
+
+
+$libraryBlocks['iqos24-columns-img-greeting-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "GREETING",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "#242729",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "80",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "80",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "Hola, %%first_name%%",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "26",
+                                    "height"      : "30",
+                                    "txtclass"    : "txt_26",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                }
+            ]
+        },';
+
+
+
 
 /** ----------------------------------------------------
- *    START CRM 2024-08    Plantilla iqos-2024-v1.twig
+ *    START CRM 2024.08    Plantilla iqos-2024-v1.twig
  *  -----------------------------------------------------
  */
 
@@ -1372,6 +1505,15 @@ $libraryBlocks['iqos24-center-img'] ='
             "this"          :  "IMG 22.id-x",
             "version"       :  "iqos-2024-v1.twig"
         },';
+
+
+
+
+
+
+
+
+
 $libraryBlocks['iqos24-center-img-with-bgimg'] ='
         {
             "type"          :  "iq24-center-img-with-bgimg",
@@ -1824,6 +1966,8 @@ $libraryBlocks['iqos24-Tu-Equipo-IQOS'] ='
             "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
         },';
 $libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
+
+
         {   "SECCION"       :  " FOOTER Forever Curious" },
         {
             "type"          :  "iq24-footer-iqos-fc-disclaimers",
@@ -1831,9 +1975,12 @@ $libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
             "this_TXT"      :  "{LEGALES DE ESTA PIEZA}",
             "DTI":
             {
-                "txtTop"    :  "IQOS ILUMA&trade; está diseñado para usarse únicamente con unidades de tabaco SMARTCORE STICKS&trade;. No utilice IQOS ILUMA&trade; y unidades de tabaco SMARTCORE STICKS&trade; con generaciones anteriores de IQOS&trade;, ya que esto puede causar daños a su dispositivo.<br> Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.<br><br>IQOS es un dispositivo electrónico que, al calentar unidades de tabaco, entrega nicotina, la cual es adictiva y no está libre de riesgo. Prohibida su venta a menores de edad.",
-                "txtBottom" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados<br> tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.<br><br>Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
-                "this_DTI"  :  "{LEGALES ILUMA - Duty To Inform}"
+                "showIluma"  :  "0",
+                "txtIluma"   :  "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk"    :  "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo"    :  "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS"       :  "{LEGALES [ILUMA], Duty To Inform}"
             },
             "version"       :  "iqos-2024-v1.twig"
         },

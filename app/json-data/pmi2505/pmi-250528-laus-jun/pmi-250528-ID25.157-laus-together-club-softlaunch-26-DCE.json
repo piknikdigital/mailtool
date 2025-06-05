@@ -1,0 +1,234 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250528_LAUS June > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE/LOCAL_TOGETHERCLUB_SOFTLAUNCH_26",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2505/pmi-250528-laus-jun/pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250528-ID25.157-laus-together-club-softlaunch-26-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.157 LAUS DCE/LOCAL TOGETHERCLUB SOFTLAUNCH 26",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9d805d25-29fe-4d0c-85eb-60623266a0c8.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5e759df8-1b63-4ef6-a161-c02f29b5063f.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.157-1b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "26",
+            "height": "28",
+            "txtclass": "txt_26",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "50",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "En 5 días, revelaremos <br><span style=\"font-weight:700;\">una sorpresa que preparamos</span><br><span style=\"color:#e6177a;font-weight:700;\">especialmente para ti.</span>",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-cta",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c5a72a3b-8662-4494-9fe0-4d5a5f63aa13.png",
+            "alt": "",
+            "url": "#LINK",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "40",
+            "this": "CTA cta-conocer-mas"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6ad262a5-89f9-44c1-a635-ccc95ca80255.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "70",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.157-2b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "300",
+            "fontsize": "26",
+            "height": "28",
+            "txtclass": "txt_26",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "60",
+            "mbottom": "0",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "<span style=\"font-weight:700;\">Queremos que seas parte de esta <br>aventura</span> y disfrutes de todo lo que <br>hemos preparado para ti, <br>estamos a tan <span style=\"font-weight:700;\">solo 5 dias.</span>",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-p",
+            "font": "Cabin",
+            "fontweight": "700",
+            "fontsize": "40",
+            "height": "40",
+            "txtclass": "txt_40",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#e6177a",
+            "bgcolor": "transparent",
+            "mtop": "30",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "¡No te lo pierdas!",
+            "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "SECCION": " WALLET"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "30",
+            "mbottom": "30",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0a7234b-903d-403b-9656-92882a946774.jpg",
+                    "url": "https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%",
+                    "this": "IMG WALLET IOS 25.157-3b"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/bc0bee50-5e0e-43fc-ad97-57cae2e47a2e.jpg",
+                    "url": "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "this": "IMG WALLET ANDROID 25.157-4b"
+                }
+            ]
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

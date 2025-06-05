@@ -7,18 +7,22 @@
 {% set URL_LocalizaUnaTienda = "https://www.iqos.com/mx/es/localizador-tiendas.html" %}
 {% set URL_Email             = "mailto:contact.mx@iqos.com" %}
 {% set URL_Llamanos          = "tel:8001476769" %}
+{% set URL_Contactanos       = "tel:8001476769" %}
 {% set URL_IQOS_FB           = "https://www.facebook.com/iqosmx/" %}
 {% set URL_IQOS_IG           = "https://www.instagram.com/iqos_mx/" %}
 {% set footer_fc_logo_fb        = "footer-fc-fb.png" %}
 {% set footer_fc_logo_ig        = "footer-fc-ig.png" %}
 
 {% if target is defined and target == "DCE" %}
-	{% set footer_fc_logo_fb   = "#LINK-DCE-FB-ICON" %}
-	{% set footer_fc_logo_ig   = "#LINK-DCE-IG-ICON" %}
+	{% set footer_fc_logo_fb   = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/dcbef520-a74c-484d-8ca1-fa2368b07da3.png" %}
+	{% set footer_fc_logo_ig   = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c2f1af69-38d7-4090-bcbc-ce469c98178b.png" %}
+  {% set footer_img_separator= "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/59a8a0f1-6b18-4693-b093-def14009d51c.jpg" %}
+
 {% endif %}
 {% if target is defined and target == "FSH" %}
-	{% set footer_fc_logo_fb   = "#LINK-FSH-FB-ICON" %}
-	{% set footer_fc_logo_ig   = "#LINK-FSH-IG-ICON" %}
+	{% set footer_fc_logo_fb   = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/966f1732-6c89-4b0f-9f94-8d24c017d604.png" %}
+	{% set footer_fc_logo_ig   = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bd53c45a-61e7-4934-aca9-681e24d7e329.png" %}
+  {% set footer_img_separator= "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c6a68d85-21e0-48d8-9e35-c0864645b17a.jpg" %}
 {% endif %}
 
                           <tr pik-mail-block="iq24-center-img">
@@ -81,10 +85,11 @@
                                                                                   <span class1="txt_14">
                                                                                     <table >
                                                                                       <tbody><tr>
-                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_CompraEnLinea}}" target="_blank" alias="footer_compra_en_linea"><span class="txt_footer_links" style="color:#34303d;">Compra en línea</span></a</th>
+                                                                                        {# <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_CompraEnLinea}}" target="_blank" alias="footer_compra_en_linea"><span class="txt_footer_links" style="color:#34303d;">Compra en línea</span></a</th> #}
                                                                                         <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_LocalizaUnaTienda}}" target="_blank" alias="footer_localiza_una_tienda"><span class="txt_footer_links" style="color:#34303d;">Localiza una tienda</span></a></th>
-                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Email}}" target="_blank" alias="footer_email"><span class="txt_footer_links" style="color:#34303d;">Email</span></a></th>
-                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Llamanos}}" target="_blank" alias="footer_llamanos"><span class="txt_footer_links" style="color:#34303d;">Llámanos</span></a></th>
+                                                                                        {# <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Email}}" target="_blank" alias="footer_email"><span class="txt_footer_links" style="color:#34303d;">Email</span></a></th> #}
+                                                                                        {# <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Llamanos}}" target="_blank" alias="footer_llamanos"><span class="txt_footer_links" style="color:#34303d;">Llámanos</span></a></th> #}
+                                                                                        <th style="text-align:left;padding-right: 1.8vw;"><a href="{{URL_Contactanos}}" target="_blank" alias="footer_contactanos"><span class="txt_footer_links" style="color:#34303d;">Contáctanos</span></a></th>
                                                                                       </tr></tbody>
                                                                                     </table>
                                                                                   </span>
