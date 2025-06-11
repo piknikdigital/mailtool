@@ -78,25 +78,9 @@
             "this"          :  "IMG 25.134-1",
             "version"       :  "iqos-2024-v1.twig"
         },
-        {
-            "type"          : "cz25-p",
-            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
-            "fontweight"    : "300",
-            "fontsize"      : "20",
-            "height"        : "24",
-            "txtclass"      : "txt_20",
-            "width_pc"      : "100",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "bgcolor"       : "transparent",
-            "mtop"          : "20",
-            "mbottom"       : "0",
-            "msides"        : "0",
-            "mcolor"        : "transparent",
-            "txt"           : "Ser parte de <span style=\"font-family:Gotham;font-weight:700;color:#e6177a\">Together Club</span> también <br>es compartir el cambio. Y tú ya lo hiciste.",
-            "this"          : "TXT | Rosa: #e6177a | Slate: #34303d ",
-            "version"       : "clubzero-2025-v1.twig"
-        },
+
+
+        {"this": "Saludo"},
         {
             "type"          : "cz25-p",
             "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
@@ -131,42 +115,90 @@
             "mbottom"       : "0",
             "msides"        : "0",
             "mcolor"        : "transparent",
-            "txt"           : "Ahora que tu amigo<br><span style=\"color:#e6177a;font-weight:700;\">%%NOMBREDELREFERIDO%%</span><br>ya forma parte de Together Club, podrá <br>disfrutar de todos sus beneficios.",
-            "this"          : "TXT | Rosa: #e6177a | Slate: #34303d ",
-            "version"       : "clubzero-2025-v1.twig"
-        },
-        {
-            "type"          : "cz25-p",            
-            "font"          : "'ClubZero', Gotham, 'Gabarito', 'Noto Sans'",
-            "fontweight"    : "700",
-            "fontsize"      : "30",
-            "height"        : "34",
-            "txtclass"      : "txt_30",
-            "width_pc"      : "100",
-            "align"         : "center",
-            "color"         : "#34303d",
-            "bgcolor"       : "transparent",
-            "mtop"          : "30",
-            "mbottom"       : "0",
-            "msides"        : "0",
-            "mcolor"        : "transparent",
-            "txt"           : "¿Lo mejor de todo? Ganaste<br><span style=\"color:#e6177a;font-weight:700;\">%%puntos ganados%%<br>puntos por esta invitación.</span>",
+            "txt"           : "<span style=\"font-weight:700;\">¡Felicidades!</span><br><br>Ya estan cargados tus %%PUNTOSCARGADOS%%<br>puntos en tu cuenta de <span style=\"font-weight:700;\">Together Club</span> <br>como lo seleccionaste por <span style=\"font-weight:700;\">recomendar <br>IQOS a tus amigos y familiares.</span>",
             "this"          : "TXT | Rosa: #e6177a | Slate: #34303d ",
             "version"       : "clubzero-2025-v1.twig"
         },
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "25.134-2.jpg",
+            "img"           :  "25.134-2b.jpg",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
             "mtop"          :  "10",
             "mbottom"       :  "30",
             "width_pc"      :  "100",
-            "this"          :  "  . . . . . . . . .  IMG 25.134-2",
+            "this"          :  "  . . . . . . . . .  IMG 25.134-2b",
             "version"       :  "iqos-2024-v1.twig"
         },
+
+
+
+
+        {"this": "RECUADRO GRIS - TXT + CTA"},
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "#faf7f4",
+            "this"      : "RECUADRO GRIS",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "40",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "Invita a %%NOMBREDEREFERIDO%%<br>a disfrutar de todos los beneficios <br>de Together Club, creando su cuenta aquí.",
+                                    "fontweight"  : "300",
+                                    "fontsize"    : "22",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_22",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "TXT | Rosa: #e6177a | Slate: #34303d "
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "cta-compartir-together-club.png",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "30",
+                            "mbottom"       : "40",
+                            "width_pc"      : "50",
+                            "align"         : "center",
+                            "url"           : "#LINK",
+                            "THISIMG"       : "cta-compartir-together-club"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type"        : "iq24-spacer",
+            "height"      : "30",
+            "bgcolor"     : "transparent"
+        },
+
+
+
 
 
 
@@ -195,39 +227,19 @@
                         {
                             "rowtype"   : "p",
                             "bgcolor"   : "transparent",
-                            "mtop"      : "30",
-                            "mbottom"   : "0",
+                            "mtop"      : "40",
+                            "mbottom"   : "40",
                             "width_pc"  : "100",
                             "texts"     :
                             [   
                                 {
-                                    "txt"         : "¡Tu acumulado es de",
+                                    "txt"         : "¡Tu acumulado es de<br>%%PUNTOSACUMULADOS%% puntos!",
                                     "fontweight"  : "700",
-                                    "fontsize"    : "18",
-                                    "height"      : "22",
-                                    "txtclass"    : "txt_18",
+                                    "fontsize"    : "22",
+                                    "height"      : "24",
+                                    "txtclass"    : "txt_22",
                                     "align"       : "center",
                                     "color"       : "#ffffff",
-                                    "this"        : "TXT | Rosa: #e6177a | Slate: #34303d "
-                                }
-                            ]
-                        },
-                        {
-                            "rowtype"   : "p",
-                            "bgcolor"   : "transparent",
-                            "mtop"      : "10",
-                            "mbottom"   : "30",
-                            "width_pc"  : "100",
-                            "texts"     :
-                            [   
-                                {
-                                    "txt"         : "%%puntos acumulados%% puntos!",
-                                    "fontweight"  : "700",
-                                    "fontsize"    : "26",
-                                    "height"      : "28",
-                                    "txtclass"    : "txt_26",
-                                    "align"       : "center",
-                                    "color"       : "#e6177a",
                                     "this"        : "TXT | Rosa: #e6177a | Slate: #34303d "
                                 }
                             ]
@@ -477,6 +489,8 @@
 
 
 
+
+        
         {   "SECCION"       : "¿TIENES DUDAS? ¡CONTACTANOS!"},
         {
             "type"          : "cz25-p",            
@@ -494,7 +508,7 @@
             "msides"        : "0",
             "mcolor"        : "transparent",
             "txt"           : "¿Tienes dudas?<br>¡Contáctanos!",
-            "this"          : "TXT | Rosa: #e6177a | Slate: #34303d ",
+            "this"          : "TXT | Turquesa: #00d1d2 | Slate: #34303d ",
             "version"       : "clubzero-2025-v1.twig"
         },
         {
@@ -520,9 +534,9 @@
                     "img_width_pc"  : "100",
                     "mtop"          : "0",
                     "mbottom"       : "0",
-                    "img"           : "together-club-ico1-llamanos.png",
-                    "url"           : "#LINK",
-                    "this"          : "IMG together-club-ico1-llamanos"
+                    "img"           : "together-club-ico1-llamanos_b.png",
+                    "url"           : "tel:*993",
+                    "this"          : "IMG together-club-ico1-llamanos_b"
                 },
                 {
                     "coltype"       : "spacer",
@@ -608,14 +622,14 @@
         {
             "type"          :  "iq24-center-img",
             "bgcolor"       :  "transparent",
-            "img"           :  "together-club-ig2-1.jpg",
+            "img"           :  "together-club-ig2-1b.jpg",
             "alt"           :  "",
             "url"           :  "#",
             "alias"         :  "",
             "mtop"          :  "45",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
-            "this"          :  "IMG together-club-ig2-1",
+            "this"          :  "IMG together-club-ig2-1b",
             "version"       :  "iqos-2024-v1.twig"
         },
         {
@@ -631,24 +645,24 @@
                 {
                     "coltype"       : "img",
                     "bgcolor"       : "transparent",
-                    "width_pc"      : "55",
+                    "width_pc"      : "50",
                     "img_width_pc"  : "100",
                     "mtop"          : "0",
                     "mbottom"       : "0",
-                    "img"           : "together-club-ig2-2.jpg",
+                    "img"           : "together-club-ig2-2b.jpg",
                     "url"           : "https://www.instagram.com/iqos_mx/",
-                    "this"          : "IG IQOS  IMG together-club-ig2-2"
+                    "this"          : "IG IQOS  IMG together-club-ig2-2b"
                 },
                 {
                     "coltype"       : "img",
                     "bgcolor"       : "transparent",
-                    "width_pc"      : "45",
+                    "width_pc"      : "50",
                     "img_width_pc"  : "100",
                     "mtop"          : "0",
                     "mbottom"       : "0",
-                    "img"           : "together-club-ig2-3.jpg",
+                    "img"           : "together-club-ig2-3b.jpg",
                     "url"           : "https://www.instagram.com/zyn_mxoficial/?hl=es",
-                    "this"          : "IG ZYN IMG together-club-ig2-3"
+                    "this"          : "IG ZYN IMG together-club-ig2-3b"
                 }
             ]
         },
@@ -657,7 +671,7 @@
 
         {   "this"          :  "Together Club - Footer"},
         {
-            "type"          : "cz25-p",
+            "___type"          : "cz25-p",
             "font"          : "'ClubZero', Gotham, 'Noto Sans'",
             "fontweight"    : "700",
             "fontsize"      : "23",
@@ -671,8 +685,8 @@
             "mbottom"       : "20",
             "msides"        : "0",
             "mcolor"        : "transparent",
-            "txt"           : "<span style=\"color:#e6177a;font-weight:700;\">Together Club. </span> Menos humo, más recompensas.",
-            "this"          : "TXT Together Club. Menos humo, más recompensas. | Rosa: e6177a | Rosa: #e6177a | Slate: #34303d ",
+            "txt"           : "<span style=\"color:#e6177a;font-weight:700;\">Together Club, </span> por ti y para ti.",
+            "this"          : "TXT Together Club,  por ti y para ti. | Rosa: e6177a | Turquesa: #00d1d2 | Slate: #34303d ",
             "version"       : "clubzero-2025-v1.twig"
         },
         {
@@ -682,7 +696,7 @@
             "alt"           :  "",
             "url"           :  "%%LINK_PRIVACY%%",
             "alias"         :  "",
-            "mtop"          :  "0",
+            "mtop"          :  "40",
             "mbottom"       :  "0",
             "width_pc"      :  "100",
             "this"          :  "IMG Consulta nuestro aviso de privacidad footer-privacy",
@@ -746,7 +760,7 @@
                                     "txtclass"    : "txt_14",
                                     "align"       : "left",
                                     "color"       : "#ffffff",
-                                    "this"        : "TXT | Rosa: #e6177a | Slate: #34303d "
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
                                 }
                             ]
                         },                        
@@ -768,7 +782,7 @@
                                     "txtclass"    : "txt_14",
                                     "align"       : "left",
                                     "color"       : "#ffffff",
-                                    "this"        : "TXT | Rosa: #e6177a | Slate: #34303d "
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
                                 }
                             ]
                         },                        
@@ -804,7 +818,7 @@
             "msides"        : "0",
             "mcolor"        : "#000000",
             "txt"           : "&copy; 2025 Philip Morris Products S.A. Todos los derechos reservados.<br>Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada, <br>Miguel Hidalgo, 11529, CDMX, México.",
-            "this"          : "TXT | Azul: 003b5e | Rosa: #e6177a | Slate: #34303d ",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
             "version"       : "clubzero-2025-v1.twig"
         },
         {
@@ -823,9 +837,12 @@
             "msides"        : "0",
             "mcolor"        : "#000000",
             "txt"           : "Si prefieres no recibir más correos como este, puedes darte de baja en cualquier momento. <br><a href=\"%%LINK_UNSUBSCRIBE%%\"><span style=\"text-decoration:underline;color:white;\">Darme de baja.</span></a>",
-            "this"          : "TXT | Azul: 003b5e | Rosa: #e6177a | Slate: #34303d ",
+            "this"          : "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d ",
             "version"       : "clubzero-2025-v1.twig"
         }
+
+
+
     ],
     
     "END"            :   "#######################"

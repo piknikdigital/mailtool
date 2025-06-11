@@ -211,6 +211,9 @@ Las compras realizadas no requieren <br>ningún paso adicional.<br><span style=\
 --------------------
 --------------------
 --------------------
+Ahora todas tus compras realizadas <br>en nuestros canales cómo página web <br>(iqos.com y zyn.com), Tiendas IQOS, <br>Call Center y con ExpertosIQOS <br>o ZYN se cargaran automáticamente <br>en tu cuenta de Together Club. 
+
+No necesitas ingresarlas nuevamente.
 --------------------
 --------------------
 --------------------

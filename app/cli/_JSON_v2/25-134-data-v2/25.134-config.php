@@ -134,6 +134,7 @@ PRECIO TACHADO:
 --------------------
 ===================================================================
 <span style=\"color:#00d1d2;font-weight:700;\"></span>
+<span style=\"font-weight:700;\"></span>
 ===================================================================
 <span style=\"color:#00d1d2;font-weight:700;font-size:24px;\"></span>
 ===================================================================
@@ -213,9 +214,14 @@ Together Club. Menos humo, más recompensas.
 --------------------
 --------------------
 --------------------
+<span style=\"font-weight:700;\">
+</span>
+--------------------
+<span style=\"font-weight:700;\">¡Felicidades!</span><br><br>Ya estan cargados tus %%PUNTOSCARGADOS%%<br>puntos en tu cuenta de <span style=\"font-weight:700;\">Together Club</span> <br>como lo seleccionaste por <span style=\"font-weight:700;\">recomendar <br>IQOS a tus amigos y familiares.</span>
+​
 --------------------
 --------------------
---------------------
+Invita a %%NOMBREDEREFERIDO%%<br>a disfrutar de todos los beneficios <br>de Together Club, creando su cuenta aquí.
 --------------------
 --------------------
 --------------------
