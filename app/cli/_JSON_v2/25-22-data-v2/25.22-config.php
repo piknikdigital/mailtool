@@ -4,9 +4,14 @@ $p_id =  '22';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '02';
-$p_dd =  '11';
-$p_name4folder =  'leads-marzo';
+
+// $p_mm =  '02';
+// $p_dd =  '11';
+// $p_name4folder =  'leads-marzo';
+$p_mm =  '06';
+$p_dd =  '16';
+$p_name4folder =  'scanpack';
+
 $p_name4json =  'leads-marzo-iluma-awareness-of-iqos-ecosystem-without-guided-trial';
 $p_name4folderDCE =  'LEADS MARCH';
 $p_mailname4DCE =  'LEADS_2025_Marzo_ILUMA_Category_Awareness_Education_Without_Guided_Trial';
@@ -20,24 +25,53 @@ $id_FSH_folder =  'NA';
 //-----------------------------------------
 
 $companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
+
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 
+
+    "iqos24-greeting",      // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    "iqos24-footer-iqos-forever-curious",    // 
+
+    ""
+);
+
+
+
+
+$requiredBlocks_feb = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -297,14 +331,30 @@ VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2 VER 2
 --------------------
 --------------------
 --------------------
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 VER 3 
+--------------------
+--------------------
+Conoce más	https://www.iqos.com/mx/es/descubrir.html
+Pruébalo	https://www.iqos.com/mx/es/beneficios.html
+                https://www.iqos.com/mx/es/prueba-iqos.html
+Compra ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+--------------------
+--------------------
+iqos.com	https://www.iqos.com/mx/es/home.html
+información importante 	https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+Aviso de privacidad	https://www.pmiprivacy.com/mexico/es-la/consumer/
 --------------------
 --------------------
 --------------------
 --------------------
---------------------
---------------------
---------------------
---------------------
+(1) Finanzas o estimaciones de PMI, paneles de usuarios de IQOS e Investigación de mercado de PMI a junio de 2023. Usuarios de productos sin combustión de PMI que han dejado de fumar por completo y para quienes las unidades de tabaco para calentar representan al menos el 70% de su consumo de tabaco calentado en los últimos 7 días.​    <br><br>    (2) El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. *Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.​    <br><br>    (3) Promoción vigente del 01 de julio al 31 de diciembre de 2025. Código de 20% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.​
+
+
 --------------------
 --------------------
 --------------------

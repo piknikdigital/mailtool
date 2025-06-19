@@ -4,9 +4,14 @@ $p_id =  '19';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '02';
-$p_dd =  '11';
-$p_name4folder =  'leads-marzo';
+
+// $p_mm =  '02';
+// $p_dd =  '11';
+// $p_name4folder =  'leads-marzo';
+$p_mm =  '06';
+$p_dd =  '16';
+$p_name4folder =  'scanpack';
+
 $p_name4json =  'leads-marzo-iluma-category-awareness-education-without-guided-trial';
 $p_name4folderDCE =  'LEADS MARCH';
 $p_mailname4DCE =  'LEADS_2025_Marzo_ILUMA_Category_Awareness_Education_Without_Guided_Trial';
@@ -19,10 +24,10 @@ $id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+// $companyBrand     = "pmi";
+// $TwigTemplate     = "iqos-2024-v1.twig";
+// $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+// $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 
@@ -31,6 +36,29 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // $bgColor          = "#FFFFFF";    // Don't use "transparent"
 // // $bgColor          = "#0d0c12";    // Dark mode IQOS
 
+$companyBrand     = "pmi";
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
+// $bgColor          = "#0d0c12";    // Dark mode IQOS
+
+
 
 
 //-----------------------------------------
@@ -38,6 +66,37 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
+
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 
+
+    "iqos24-greeting-with-bgimg",
+    "iqos24-center-img-with-bgimg",
+    "iqos24-columns-img-img-img",
+    "iqos24-columns-img-greeting-img",
+
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    
+    "iqos24-footer-iqos-forever-curious",    // 
+
+    ""
+
+);
+
+
+
+$requiredBlocks_feb = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -310,6 +369,46 @@ CONOCEILUMA-JS
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+VER 3
+--------------------
+Conoce más	https://www.iqos.com/mx/es/descubrir.html
+Localizar tienda	https://www.iqos.com/mx/es/tiendas.html
+Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+iqos.com	https://www.iqos.com/mx/es/home.html
+información importante 	https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+--------------------
+IQOS no está libre de riesgo, entrega nicotina, la cual es adictiva. Para uso exclusivo por mayores de edad que de otra forma seguirán fumando o consumiendo otros productos de nicotina.​
+--------------------
+--------------------
+(1) Promoción vigente del 01 de julio al 31 de diciembre de 2025. Código de 20% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>. Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.​
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales  aquí.
 --------------------
 --------------------
 Siguenos IG                 https://www.instagram.com/iqos_mx/

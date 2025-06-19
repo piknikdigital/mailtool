@@ -29,6 +29,8 @@
                                                                 {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "salesforce_form" -%}                   {#~ multirow - raw HTML ~#}
                                                                   {{ block("iq24_multirows_salesforce_form" , "iq24-blockN3-columns-column-multirows-salesforce-form.twig") -}}
 
+                                                                {%- elseif blocks[index].columns[idx].rows[idxrow].rowtype == "greeting-overlapping-img" -%}                   {#~ multirow - greeting-overlapping-img EXPERIMENTAL ~#}
+                                                                  {{ block("iq24_multirows_greeting_overlapping_img" , "iq24-blockN3-columns-column-multirows-greeting-overlapping-img.twig") -}}
 
 
 

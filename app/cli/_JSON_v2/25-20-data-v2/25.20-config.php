@@ -4,9 +4,13 @@ $p_id =  '20';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '02';
-$p_dd =  '11';
-$p_name4folder =  'leads-marzo';
+// $p_mm =  '02';
+// $p_dd =  '11';
+// $p_name4folder =  'leads-marzo';
+$p_mm =  '06';
+$p_dd =  '16';
+$p_name4folder =  'scanpack';
+
 $p_name4json =  'leads-marzo-iluma-benefits-commitment-to-change-without-guided-trial';
 $p_name4folderDCE =  'LEADS MARCH';
 $p_mailname4DCE =  'LEADS_2025_Marzo_ILUMA_Category_Awareness_Education_Without_Guided_Trial';
@@ -20,24 +24,60 @@ $id_FSH_folder =  'NA';
 //-----------------------------------------
 
 $companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
 
-// MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
+
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 
+
+    "iqos24-greeting",      // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+    
+    "iqos24-footer-iqos-forever-curious",    // 
+
+    ""
+
+);
+
+
+
+// MODULOS PARA TEMPLATE iqos-2024-v1.twig
+$requiredBlocks_feb = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -302,7 +342,29 @@ VER2
 --------------------
 --------------------
 --------------------
+VER3
 --------------------
+--------------------
+--------------------
+Localiza tu tienda 	https://www.iqos.com/mx/es/tiendas.html
+Quiero probar	https://www.iqos.com/mx/es/prueba-iqos.html
+Agendar un	https://iqosmx.com/coaches/
+Llámanos	800 1 476769
+iqos.com	https://www.iqos.com/mx/es/home.html
+información importante 	https://www.iqos.com/mx/es/Noticias/informacion-importante.html
+Aviso de privacidad	https://www.pmiprivacy.com/mexico/es-la/consumer/
+Compra en línea	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+IQOS no está libre de riesgo, entrega nicotina, la cual es adictiva. Para uso exclusivo por mayores de edad que de otra forma seguirán fumando o consumiendo otros productos de nicotina.​
+
+(1) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-prestamo-iqos.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa. *Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario. ​    <br><br>    (2) Descuento del 20% vigente del 01 julio al 31 de deiciembre de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
+
+​Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales  aquí.​
 --------------------
 --------------------
 --------------------

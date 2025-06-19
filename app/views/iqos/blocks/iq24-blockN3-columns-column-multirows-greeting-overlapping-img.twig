@@ -1,0 +1,38 @@
+{#
+  N3-p
+
+  \ COLUMNS
+  |
+  +--\ multirows
+     |
+     +---\ greeting overlapping img
+ set bottom blocks[index].columns[idx].rows[0].text[0].bottompx
+
+#}
+{%- block iq24_multirows_greeting_overlapping_img -%}
+                                                                <table pik-descriptorMMM="column-{{idx}}-[multirows-row-{{0}}-GreetingOverImg]"  align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:100%;background-color:{{blocks[index].columns[idx].rows[0].bgcolor}};" role="presentation">
+                                                                  <tbody>
+                                                                    <tr pik-inner-element="multirow-column-p-content" style="background-color:transparent;">
+                                                                      <th valign="top" style="background-color:transparent;" class="" >
+                                                                        <table valign="middle" align="center" cellpadding="0" cellspacing="0" border="0"  width="{{blocks[index].columns[idx].rows[0].width_pc}}%" style="width:{{blocks[index].columns[idx].rows[0].width_pc}}%; background-color:transparent;  margin:0 auto; " role="presentation">
+                                                                          <tbody>
+
+
+                                                                            <tr>
+                                                                              <th style="text-align:  {{blocks[index].columns[idx].rows[0].text[0].align}};  {#line-height: {{blocks[index].columns[idx].rows[0].text[0].height}}px;#}  font-size :  {{blocks[index].columns[idx].rows[0].text[0].fontsize}}px; ">
+                                                                                <div style=" margin: 0 auto; padding:0; background-color:transparent; width:100%;position:relative; "> 
+                                                                                  <img src="{{blocks[index].columns[idx].rows[0].img}}" width="100%" height="auto" alt="" style="line-height:0;font-size:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;border:none;display:block;width:100%;">
+                                                                                </div>
+                                                                                <div style="width:100%;  {% if blocks[index].columns[idx].rows[0].text[0].align =="center" %}text-align:center; margin:0 auto;{% else %}text-align:{{blocks[index].columns[idx].rows[0].text[0].align}};{% endif %}  font-weight:{{blocks[index].columns[idx].rows[0].text[0].fontweight}}; color:{{blocks[index].columns[idx].rows[0].text[0].color}}; font-family: {{blocks[index].font|raw }}, Gotham, Arial, sans-serif; position: absolute; left:0;"  class="fallback-text txtoverbkg">
+                                                                                  <span class="{{blocks[index].columns[idx].rows[0].text[0].txtclass}}">{{blocks[index].columns[idx].rows[0].text[0].txt|raw}}</span>
+                                                                                </div>
+                                                                              </th>
+                                                                            </tr>
+
+                                                                          </tbody>
+                                                                        </table>
+                                                                      </th>
+                                                                    </tr>
+                                                                    
+                                                                  </tbody>
+                                                                </table>{% endblock ~%}
