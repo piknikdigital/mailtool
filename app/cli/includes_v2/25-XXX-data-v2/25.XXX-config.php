@@ -43,6 +43,29 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 
+    "iqos24-greeting",      // 
+    
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+
+
+    "iqos24-greeting-with-bgimg",      //
+    "iqos24-center-img-with-bgimg",    //
+    "iqos24-columns-img-img-img",      //
+    "iqos24-columns-img-greeting-img", //
+    
+    "iqos24-cta",           // 
+    'iqos24-p700',          // 
+    'iqos24-p300',          // 
+    'iqos24-columns',       // 
+    'iqos24-spacer',        // 
+ 
+    "iqos24-footer-iqos-forever-curious",    // 
+    ""
+
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
@@ -186,11 +209,11 @@ Conoce más               https://www.iqos.com/mx/es/descubrir.html
 Comprar ahora            https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
 Probar IQOS              https://www.iqos.com/mx/es/prueba-iqos.html
 Siguenos IG              https://www.instagram.com/iqos_mx/
-Localizador de tiendas   https://conoce-iqos.com/wp-content/localizador-tiendas.html
-                         https://www.iqos.com/mx/es/localizador-tiendas.html
+Localizador de tiendas   DESDE JUN 2025
+                         https://conoce-iqos.com/localizador-tiendas/
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 IQOS wallet - android    https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
-IQOS wallet - iOS        https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+IQOS wallet - iOS        https://api.iqoswalletmx.com/wallet/passes/download/%%identity_identifier%%
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 TyC Trade In             https://www.iqos.com/mx/es/codigos-de-descuento.html
 TyC MGM                  https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html
@@ -202,10 +225,19 @@ www.iqos.com             https://www.iqos.com/mx/es/home.html
 información importante   https://www.iqos.com/mx/es/Noticias/informacion-importante.html
 privacy - aqui           https://www.pmiprivacy.com/es-la/consumer
 ===================================================================
---------------------
---------------------
---------------------
---------------------
+===================================================================
+===================================================================
+    LINKS COMUNES ZYN
+Home                    https://www.zyn.com/mx/es/home.html
+Comprar ahora           https://www.zyn.com/mx/es/compra-zyn.html
+Conocer más             https://www.zyn.com/mx/es/descubre-zyn.html
+---------------------------
+===================================================================
+    LINKS TOGETHER CLUB
+---------------------------
+https://together-club.com/ 
+===================================================================
+
 --------------------
 --------------------
 --------------------
@@ -242,12 +274,12 @@ IQOS wallet - android
 https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
 
 IQOS wallet - iOS
-https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+https://api.iqoswalletmx.com/wallet/passes/download/%%identity_identifier%%
 ############################################################
 
 
 ==== [LOCALIZADOR TIENDAS] =================================
-https://conoce-iqos.com/wp-content/localizador-tiendas.html
+https://conoce-iqos.com/localizador-tiendas/
 ============================================================
 
 ==== [iqos.com] ============================================
