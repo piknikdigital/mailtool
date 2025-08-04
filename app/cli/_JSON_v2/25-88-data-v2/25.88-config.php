@@ -4,10 +4,10 @@ $p_id =  '88';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '04';
-$p_dd =  '21';
+$p_mm =  '07';
+$p_dd =  '30';
 $p_name4folder =  'guided-trial';
-$p_name4json =  'leads-guided-trial-iluma-benefits-try-a_different';
+$p_name4json =  'leads-guided-trial-iluma-benefits-try-a-different';
 $p_name4folderDCE =  'Guided Trial';
 $p_mailname4DCE =  'LEADS_2025_ILUMA_Benefits_Try_A_Different_Guided_Trial';
 $p_customerkey_DCE =  'NA';
@@ -19,198 +19,87 @@ $id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
+//-----------------------------------------
+
 $companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
+$requiredBlocks = array(
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 1
+    "iqos24-greeting",      // 
+    
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3    Conoce más            https://www.iqos.com/mx/es/descubrir.html
+    "iqos24-center-img",    // 4
+
+    "iqos24-center-img",    // 5    Localiza una tienda   https://conoce-iqos.com/localizador-tiendas/
+    "iqos24-center-img",    // 6    Comprar ahora         https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-verde-jade.html
+    "iqos24-center-img",    // 7
+
+    "iqos24-center-img",    // 8
+    "iqos24-center-img",    // 9    Localiza una tienda   https://conoce-iqos.com/localizador-tiendas/
+
+    'iqos24-spacer',        // 
+ 
+    "iqos24-footer-iqos-forever-curious",    // 
+    ""
+
+);
+
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
-$requiredBlocks = array(
+$requiredBlocks__IQOS = array(
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    "iqos24-greeting-with-bgimg",
+    "iqos24-center-img-with-bgimg",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-columns-img-img-img",
+    "iqos24-columns-img-greeting-img",
+    "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
+    'iqos24-p700',          // REEMPLAZA A: "p700_BW",
+    'iqos24-p300',          // REEMPLAZA A: "p300_BW",
     'iqos24-columns',       // REEMPLAZA A: "columns",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
-
+    'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    "iqos24-canales-de-comunicacion-2",
+    'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
+    "iqos24-legales-iluma", // REEMPLAZA A: "bloque_legales_iluma",
+    "iqos24-footer-iqos",    // REEMPLAZA A: "footer_bw_v1_lowercase",
+    "iqos24-footer-iqos-forever-curious",    // REEMPLAZA A: "iqos24-footer-iqos",
+    ""
 );
 
-
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "zyn25-legales",
-    "zyn25-footer"
-);
-
-
-// MODULOS PARA OLD_TEMPLATE pmi-Brand-World-B01-600-v01.twig
-$requiredBlocks2 = array(
-    "header_brand_world",
-
-    "stageIMG",
-    "img",
-    "img",
-    "img",
-    "img",
-    "greeting_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "cta1_v2",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p300_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "p700_BW",
-    "columns",
-    "spacer",
-    "canales_de_comunicacion",
-    "IQOS-Wallet-Iluma-Gray",  // 24.50
-    "IQOS-Wallet-Iluma-Turquesa", // 24.165
-    "ElijoIQOS",
-    "Solo_con_IQOS",
-
-    "Tu_equipo_IQOS",
-    "Tu_Equipo_IQOS",
-
-    "bloque_legales_iluma",
-    "footer_bw_v1_lowercase",
-);
-
-
-/* 
-
-    FONDO GRIS CLARO - Iluma, borde redondo
-    "IQOS-Wallet-Iluma-Gray",
-
-
-    FONDO GRIS CLARO:
-    "get_iqos_wallet_app",
-    FONDO TURQUESA:
-    "get_iqos_wallet_app_turquoise",
-    FONDO SLATE
-    "get_iqos_wallet_app_slate",
-
-
-    "header_mgm_tu_codigo_unico",
-
-    "stageIMG",
-    "img",
-    "spacer",
-
-    "pframed",
-    "cta1",
-    "p_v2",
-    "p300_BW",
-    "p700_BW",
-    "greeting_v2",
-    "columns",
-    "cta1_v2",
-    "spacer_v2",
-    "canales_de_comunicacion",
-    
-    "disclaimer_iqos",    DTI - DUTY TO INFORM ----> CON RECUADRO
-    
-    "ElijoIQOS",
-    "legal_extra",
-    "legales-iluma",
-
-    "Tu_equipo_IQOS",
-    "Solo_con_IQOS",
-    "footer_bw_v1",
-    
-    PARA FUTURO SIN HUMO USAR:
-    "disclaimer_fsh",
-    "footer_fsh"
-    
-    PARA IQOS USAR
-    "ElijoIQOS",
-    "legal_extra",
-    "disclaimer_iqos",
-    "footer_bw_v1_lowercase"
-    
-    
-    
-    "legales-terea",
-    "greeting_negro",
-    "greeting_dorado",
-    "footer_brand_world",
-    "header_brand_world",
-
-    "FSH_Yellow_Share",
-    "FSH_Yellow_Share_2",
-    "FSH_Framed_Card",
-
-
-    "p300",
-    "p700",
-    "img_Logo_Header_HTML",
-    "img_Cover_HTML",
-    "rawHTML",
-    "m_TXT_TXT_m",
-    "m_TXT_IMG_m",
-    "m_IMG_TXT_m",
-    "m_IMG_IMG_m",
-    "btn_sa_comprar_HTML",
-    "one_rs",
-    "two_rs",
-    "three_rs",
-    "sinfuego_sinhumo_sinceniza_negro_HTML",
-    "sinfuego_sinhumo_sinceniza_dorado_HTML",
-    "legal_extra",
-    "disclaimer_iqos",
-    "cols_33_33_33",
-    "form",
-    "form_v2",
-    "mgm_coupon_1",
-    "mgm_coupon_2cols",
-    "rgm_coupon_2cols",
-    "cta_share_WA_coupon",
-    "graylineframed",
-    "shopping_list",
-    "3cols_chat_fb_phone",
-
-    PREVIO, YA NO USAR: "footer_brand_world"
-    CODIGO PARA CUPON 8888XX :   %%=v(@voucher_code)=%% 
-    CODIGO PARA CUPON 8888XX :   %%referral_code%%
-
-    "rawHTML", // <div data-type=\"slot\" data-key=\"bspwz932ek9\" data-label=\"Drop blocks or content here\">
-    "rawHTML", // %%=ContentBlockbyKey(&quot;Onboarding_Conversion_Check&quot;)=%% 
-
-
-*/
 
 
 /*
@@ -270,6 +159,14 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+Conoce más            https://www.iqos.com/mx/es/descubrir.html
+Localiza una tienda   https://conoce-iqos.com/localizador-tiendas/
+Comprar ahora         https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-verde-jade.html
+Localiza una tienda   https://conoce-iqos.com/localizador-tiendas/
+Síguenos en instagram https://www.instagram.com/iqos_mx/
+
+
+
 --------------------
 --------------------
 --------------------
@@ -282,7 +179,11 @@ PRECIO TACHADO:
 --------------------
 --------------------
 --------------------
+
 (1) Promoción vigente ​del 08 de abril al 31 de diciembre de 2025​. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
+
+
+
 --------------------
 --------------------
 --------------------
@@ -320,7 +221,7 @@ https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
 
 
 ==== [LOCALIZADOR TIENDAS] =================================
-https://conoce-iqos.com/wp-content/localizador-tiendas.html
+https://conoce-iqos.com/localizador-tiendas/
 ============================================================
 
 ==== [iqos.com] ============================================

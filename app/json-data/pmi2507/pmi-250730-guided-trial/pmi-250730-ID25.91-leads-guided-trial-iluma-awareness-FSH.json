@@ -1,0 +1,215 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_Guided Trial 30 07 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_2025_ILUMA_Awareness_Guided_Trial",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2507/pmi-250730-guided-trial/pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250730-ID25.91-leads-guided-trial-iluma-awareness-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.91 LEADS 2025 ILUMA Awareness Guided Trial",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbe5cb37-5e0d-4551-abdb-89e10446f856.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ae5e8dc3-efc5-4d76-9789-1194c6a16218.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.91-1c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%FirstName%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/7b03729d-a5bd-4684-a1cb-64303d00cb46.jpg",
+            "alt": "",
+            "url": "https://conoce-iqos.com/localizador-tiendas/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Localizar tienda IMG 25.91-2c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2d89e1da-ec0a-455e-a0f3-48fbe15c4300.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Comprar ahora IMG 25.91-3c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0867e957-128a-4009-87e5-26e7702a57f2.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.91-4c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c7d7b8af-2e16-43ca-9d8e-1c3637c7e1b6.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.91-5c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/62417947-ad9e-42e7-96f2-6b85888937c4.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.91-6c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/16f10fc9-975e-4737-ac85-9c07905fb995.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Comprar ahora IMG 25.91-7c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/24bea582-d716-444c-a430-eefd25ba8b98.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.91-8c",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "(1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

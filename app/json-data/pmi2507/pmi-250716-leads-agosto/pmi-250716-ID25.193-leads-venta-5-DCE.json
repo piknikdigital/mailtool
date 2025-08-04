@@ -1,0 +1,264 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250716_LEADS AUG > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_DCE_LOCAL_VENTA_5",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2507/pmi-250716-leads-agosto/pmi-250716-ID25.193-leads-venta-5-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250716-ID25.193-leads-venta-5-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.193 LEADS DCE LOCAL VENTA 5",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d3c9004b-9497-4e61-854e-221f318b836b.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/43de6195-5bed-4604-aa7f-735d09396161.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "IMG 25.193-1b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4.3",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#23272a",
+                    "vertical_align": "top",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "50",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b5c0c64f-190b-41d7-86fe-b1986cfa45b8.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.193-2"
+                        },
+                        {
+                            "rowtype": "p",
+                            "bgcolor": "transparent",
+                            "mtop": "20",
+                            "mbottom": "20",
+                            "width_pc": "100",
+                            "texts": [
+                                {
+                                    "txt": "Hola, %%=ProperCase(first_name)=%%",
+                                    "fontweight": "700",
+                                    "fontsize": "26",
+                                    "height": "26",
+                                    "txtclass": "txt_26",
+                                    "align": "center",
+                                    "color": "#ffffff",
+                                    "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b15b7561-a279-42c1-9c8a-9528cfb8ca59.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "10",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.193-3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8b990c89-b0b4-4fb7-8fed-8b9b7ce96126.gif",
+                            "bgcolor": "transparent",
+                            "mtop": "10",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.193-4"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d5c752b3-362a-421b-82e0-5b151e6343ed.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "10",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar.html",
+                            "THISIMG": "cta Descubre IQOS 25.193-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c28942de-ec3f-442a-95f1-fe782c56badc.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "10",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Comprar ahora IMG 25.193-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0c6cbf9a-db15-42f3-9274-dae07079115c.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-verde.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IQOS ILUMA ONE IMG 25.193-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/220b58e7-4a20-4232-920d-cccb97bd05b6.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-azul.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IQOS ILUMA AZUL IMG 25.193-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5fa7d1cd-b907-4679-bb49-4bc2e13e186e.jpg",
+            "alt": "",
+            "url_": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html",
+            "url": "https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IQOS ILUMA PRIME DORADO IMG 25.193-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4f9180a2-957a-44d2-ad03-8f8efb67fd42.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.193-10",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "50",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "(1) Descuento del 10% vigente del 01 al 31 de agosto de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones.",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

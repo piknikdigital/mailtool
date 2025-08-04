@@ -187,6 +187,9 @@ Síguenos en IG     https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
+Registrate ahora        https://together-club.com/
+Acumula puntos 	        https://together-club.com/
+Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------

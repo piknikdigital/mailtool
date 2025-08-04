@@ -189,12 +189,10 @@ Síguenos en IG	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------
-*Promoción válida al comprar una lata de ZYN y recibir otra sin costo. Válido exclusivamente en <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">zyn.com</a>. Sujeto a disponibilidad de productos. Promoción no acumulable con otras ofertas. Vigencia limitada o hasta agotar existencias.
 --------------------
 --------------------
 --------------------
---------------------
---------------------
+*Promoción válida al comprar una lata de ZYN y recibir otra sin costo. Válido exclusivamente en zyn.com. Sujeto a disponibilidad de productos. Promoción no acumulable con otras ofertas. Vigencia limitada o hasta agotar existencias.
 --------------------
 --------------------
 --------------------

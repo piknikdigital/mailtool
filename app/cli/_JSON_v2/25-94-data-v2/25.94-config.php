@@ -4,8 +4,12 @@ $p_id =  '94';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '04';
-$p_dd =  '21';
+
+// $p_mm =  '04';
+// $p_dd =  '21';
+$p_mm =  '07';
+$p_dd =  '30';
+
 $p_name4folder =  'guided-trial';
 $p_name4json =  'leads-without-guided-trial-iluma-benefits-commitment-to-change';
 $p_name4folderDCE =  'Guided Trial';
@@ -20,42 +24,49 @@ $id_FSH_folder =  'NA';
 //-----------------------------------------
 
 $companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 1g
+    "iqos24-greeting",      // 
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4
+    "iqos24-center-img",    // 5
+    "iqos24-center-img",    // 6
+    "iqos24-center-img",    // 7
+    "iqos24-center-img",    // 8    Localizar tienda 	https://conoce-iqos.com/localizador-tiendas/
+    "iqos24-center-img",    // 9    Contáctanos 	    mailto:contact.mx@iqos.com
+    "iqos24-center-img",    // 10
+    "iqos24-center-img",    // 11
 
 
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
+    'iqos24-spacer',        // 
+    "iqos24-footer-iqos-forever-curious"    // 
 
 );
 

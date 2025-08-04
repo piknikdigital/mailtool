@@ -4,8 +4,12 @@ $p_id =  '90';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '04';
-$p_dd =  '21';
+
+// $p_mm =  '04';
+// $p_dd =  '21';
+$p_mm =  '07';
+$p_dd =  '30';
+
 $p_name4folder =  'guided-trial';
 $p_name4json =  'leads-guided-trial-iluma-price-with-discounts-taste-experience';
 $p_name4folderDCE =  'Guided Trial';
@@ -18,43 +22,49 @@ $id_FSH_folder =  'NA';
 
 
 //-----------------------------------------
-
 $companyBrand     = "pmi";
-$TwigTemplate     = "iqos-2024-v1.twig";
-$TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
-$bgColor          = "#FFFFFF";    // Don't use "transparent"
+
+switch ( (string)$companyBrand ){
+    case 'zyn':
+        // $companyBrand  = "zyn";
+        $TwigTemplate     = "zyn-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    case 'cz':
+        // $companyBrand  = "cz";
+        $TwigTemplate     = "clubzero-2025-v1.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+    default:
+        // $companyBrand  = "pmi";
+        $TwigTemplate     = "iqos-2024-v1.twig";
+        $TwigTemplate_OLD = "pmi-Brand-World-B01-600-v01.twig";
+        $bgColor          = "#FFFFFF";    // Don't use "transparent"
+        break;
+}
 // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
-// $companyBrand     = "zyn";
-// $TwigTemplate     = "zyn-2025-v1.twig";
-// $bgColor          = "#FFFFFF";    // Don't use "transparent"
-// // $bgColor          = "#0d0c12";    // Dark mode IQOS
-
-
 
 //-----------------------------------------
 
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 1
+    "iqos24-greeting",      // 
     
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3G   Comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+    "iqos24-center-img",    // 4
 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // 5
+    "iqos24-center-img",    // 6
+    "iqos24-center-img",    // 7    Comprar ahora 	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // 8G
+    "iqos24-center-img",    // 9    Probar IQOS	https://www.iqos.com/mx/es/prueba-iqos.html
 
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
+    "iqos24-footer-iqos-forever-curious"    // 
 
 );
 
@@ -279,7 +289,12 @@ Síguenos en instagram,	https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
-(1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    (2) Valido en CDMX en un horario de 11:00 a 23:00 horas.
+
+(1) Promoción vigente del 08 de abril al 31 de diciembre de 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
+
+
+
+
 --------------------
 --------------------
 --------------------
@@ -324,7 +339,7 @@ https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
 
 
 ==== [LOCALIZADOR TIENDAS] =================================
-https://conoce-iqos.com/wp-content/localizador-tiendas.html
+https://conoce-iqos.com/localizador-tiendas/
 ============================================================
 
 ==== [iqos.com] ============================================

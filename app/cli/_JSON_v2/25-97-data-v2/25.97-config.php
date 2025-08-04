@@ -4,8 +4,12 @@ $p_id =  '97';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
-$p_mm =  '04';
-$p_dd =  '21';
+
+// $p_mm =  '04';
+// $p_dd =  '21';
+$p_mm =  '07';
+$p_dd =  '30';
+
 $p_name4folder =  'guided-trial';
 $p_name4json =  'leads-without-guided-trial-iluma-buy-now-lending';
 $p_name4folderDCE =  'Guided Trial';
@@ -38,21 +42,19 @@ $bgColor          = "#FFFFFF";    // Don't use "transparent"
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
-    
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
-    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 1g
+    "iqos24-greeting",      //     
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3
+    "iqos24-center-img",    // 4g
+    "iqos24-center-img",    // 5    cta Comprar ahora 	https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
+    "iqos24-center-img",    // 6    cta Comprar ahora 	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-verde.html
+    "iqos24-center-img",    // 7    cta Comprar ahora 	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-magenta.html
+    "iqos24-center-img",    // 8    cta Comprar ahora 	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-gris-lila.html
 
-
-    "iqos24-footer-iqos-forever-curious"    // REEMPLAZA A: "iqos24-footer-iqos",
+    'iqos24-spacer',        // 
+    "iqos24-footer-iqos-forever-curious"    // 
 
 );
 
@@ -277,13 +279,7 @@ Síguenos en instagram https://www.instagram.com/iqos_mx/
 --------------------
 --------------------
 --------------------
---------------------
---------------------
-​(1) Disponible en Ciudad de México | Haz tu pedido de 11 a 7 p.m.<br>(No aplica en Milpa Alta, Tláhuac e Iztapalapa)    <br><br>    (2) Promoción vigente del 8 de abril al 31 de diciembre del 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en w<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en w<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.    <br><br>    (3) Precio inicial de $20.00 MXN del Programa de Préstamo IQOS. El Programa de Préstamo IQOS es aplicable en la prueba de tu primer Kit IQOS ILUMA, está disponible a través <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, al *993 desde tu celular y en Tiendas IQOS. Programa exclusivo para fumadores adultos en la Ciudad de México y área metropolitana. El periodo de prueba del Programa de Préstamo IQOS es de hasta 14 días naturales a partir de la entrega del dispositivo. Al cabo de dicho período, el usuario puede optar por comprar o devolver el dispositivo. Consulta Términos y Condiciones del programa. Solo aplica en dispositivos IQOS ILUMA ONE y IQOS ILUMA, color sujeto a disponibilidad de inventario.
-
---------------------
---------------------
---------------------
+(1) Promoción vigente del 8 de abril al 31 de diciembre del 2025. Código de 10% de descuento redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>). Válido únicamente en la compra de tu primer Kit IQOS en la República Mexicana. No es válido en la compra de unidades de tabaco para calentar ni en accesorios IQOS. Aplicable en compras realizadas en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>, Tiendas IQOS y asesores IQOS. Sujeto a disponibilidad de inventario. El código deberá ser canjeado en su totalidad en una sola exhibición. No es acumulable con otros códigos de descuento y no será canjeable por dinero en efectivo ni cualquier otra forma de pago.
 --------------------
 --------------------
 --------------------

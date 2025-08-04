@@ -1,0 +1,292 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_ZYN Agosto 08 07 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_LIVE_PROXIMAMENTE",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH" } ,
+            { "urlS" : "https://paginum.com/email/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2507/zyn-250708-zyn-ago/zyn-250708-ID25.z53-zyn-live-proximamente-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-250708-ID25.z53-zyn-live-proximamente-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z53 ZYN LIVE PROXIMAMENTE",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/da811c62-1afe-40b1-8eed-89d4858e5eae.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cf26d3d7-3e18-4639-af84-09d3a44d6aa2.gif",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/zyn-live-mexico.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z53-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "50",
+            "mbottom": "30",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(FirstName)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/75d6722a-a0f1-4e12-a0e5-6cffbb3e5fe8.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z53-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/77909ff8-3790-4a9b-bf2d-15a51a3b9c5b.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/zyn-live-mexico.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Conoce más IMG 25.z53-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/82f60d56-a60b-44a9-9493-f15e714c42aa.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z53-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "18",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/209f6674-9c18-420d-9bbb-9a7ba7bbe6de.jpg",
+                    "url": "#",
+                    "this": "IMG 25.z53-5"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#efefef",
+                    "bgcolor_": "red",
+                    "width_pc": "64",
+                    "img_width_pc": "95",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/915f9a9c-7b27-42e4-aaa8-8c8f875cd856.gif",
+                    "url": "https://www.instagram.com/reel/DLakrfmB9bt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+                    "this": "IMG 25.z53-6"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "18",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d6a135fb-4483-4637-bdaf-0b417cff6a10.jpg",
+                    "url": "#",
+                    "this": "IMG 25.z53-7"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/a68e3f44-90ad-487c-966a-906f77240e9a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z53-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/92fe8b8e-bf58-400a-84af-282245f32fe8.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/reel/DLakrfmB9bt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "40",
+            "width_pc": "100",
+            "this": "cta Ver más IMG 25.z53-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/04fdb5ac-e6c7-4816-a72a-1ef651034d3f.gif",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/zyn-live-mexico.html",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "Imagen ZYN LIVE IMG 25.z53-10b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "25.z53-11.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z53-11",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "SECCION": "SIGUENOS - FIND YOUR ZYN"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/f3d82486-0de4-46a8-a24b-754893ce7f28.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-siguenos-ig",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e4fc8289-acba-4505-8852-72fe22bc2fcd.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -186,6 +186,9 @@ Descarga wallet    https://www.instagram.com/zyn_mxoficial/
 Síguenos en ig     https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
+¡Quiero ganar!	        https://together-club.com/
+¡Quiero ganar!	        https://together-club.com/
+Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
 --------------------
 --------------------
 --------------------

@@ -1,0 +1,486 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250710_LAUS AGO > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_CURIOUSX_LAMPS_26​",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2507/pmi-250710-laus-ago/pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250710-ID25.192-laus-curiousx-lamps-26​-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.192 LAUS DCE CURIOUSX LAMPS 26​",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d3c9004b-9497-4e61-854e-221f318b836b.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f2363cc1-0712-4138-8d5f-44cb33bea5e3.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.192-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "0",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/eff61339-48fb-448d-9a95-070450e79ba4.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.192-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "CONOCE MAS",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "transparent",
+                    "vertical_align": "top",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "50",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/fd4b0ada-3938-429f-8d72-b083ec98cac5.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.192-3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c7d2e119-0054-4589-b2bb-c7cce4f1a451.gif",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.192-4"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/76015e1e-b132-4e5d-bae2-f7e753a6bc5f.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#LINK",
+                            "THISIMG": "cta Conoce más 25.192-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/544fd95e-8e0c-47f6-852b-af02af964d70.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "0",
+            "width_pc": "92",
+            "this": "IMG 25.192-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "ROW 1",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "10",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "28",
+                    "img_width_pc": "95",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/5388a298-7722-4397-a2db-19fdf07b7be5.gif",
+                    "url": "#",
+                    "this": "IMG 25.192-act1-gif"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "7",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#2e3136",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "47",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a35bba0f-ee33-46d0-869e-cdb7fda10634.png",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "70",
+                            "align": "left",
+                            "url": "#",
+                            "THISIMG": "25.192-act1-txt"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                }
+            ]
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "LINE 1",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "92",
+                    "img_width_pc": "78",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d495e365-0b62-45d5-8626-d11ed90ef811.jpg",
+                    "url": "#",
+                    "this": "25.192-line"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                }
+            ]
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "ROW 2",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "10",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#2e3136",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "44",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/91e264a2-cb68-4482-93f6-ddafadbfe8fe.png",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "90",
+                            "align": "left",
+                            "url": "#",
+                            "THISIMG": "25.192-act2-txt"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "28",
+                    "img_width_pc": "95",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/0ab3097e-753c-432f-bda5-4a28a79a2c72.gif",
+                    "url": "#",
+                    "this": "IMG 25.192-act2-gif"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "10",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                }
+            ]
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "LINE 2",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "92",
+                    "img_width_pc": "78",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d495e365-0b62-45d5-8626-d11ed90ef811.jpg",
+                    "url": "#",
+                    "this": "25.192-line"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                }
+            ]
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "ROW 3",
+            "columns": [
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "10",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "28",
+                    "img_width_pc": "95",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a9bf483a-f3f8-46f6-94bd-a434b0ed5b0c.gif",
+                    "url": "#",
+                    "this": "IMG 25.192-act3-gif"
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "#2e3136",
+                    "width_pc": "7",
+                    "height": "auto"
+                },
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#2e3136",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "47",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8e861158-d674-4f4b-bdd1-3e4920db86ae.png",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "65",
+                            "align": "left",
+                            "url": "#",
+                            "THISIMG": "25.192-act3-txt-b"
+                        }
+                    ]
+                },
+                {
+                    "coltype": "spacer",
+                    "bgcolor": "white",
+                    "width_pc": "4",
+                    "height": "auto"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6ea02d70-6396-4797-97de-f398ef31a456.jpg",
+            "alt": "",
+            "url": "#LINK",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "30",
+            "width_pc": "92",
+            "this": "cta conoce mas IMG 25.192-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}
