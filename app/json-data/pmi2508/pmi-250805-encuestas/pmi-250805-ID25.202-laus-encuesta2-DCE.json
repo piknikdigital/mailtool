@@ -1,0 +1,176 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250805_Survey > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_ENCUESTA2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2508/pmi-250805-encuestas/pmi-250805-ID25.202-laus-encuesta2-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250805-ID25.202-laus-encuesta2-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.202 LAUS DCE ENCUESTA2",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d3c9004b-9497-4e61-854e-221f318b836b.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/bd9a1590-3d27-4e23-a8a6-36aba4bff9f7.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.202-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#34303d",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/4be4ddcc-e0c7-4568-b5ec-b772c2caf33d.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.202-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/64f824b4-b677-4335-a94d-2b1ecbc44cc3.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA elegir recompensa IMG 25.202-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/47ababd6-85c3-47b4-912b-a573006bdb05.jpg",
+            "alt": "",
+            "url": "https://bonosmexicovi.plandereconocimientos.com/pages/login",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA recompensas IQOS IMG 25.202-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3281153e-c36e-4288-9ceb-1d3b7af9a26c.jpg",
+            "alt": "",
+            "url": "#LINK",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "CTA elegir recompensa IMG 25.202-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "TÉRMINOS Y CONDICIONES DEL PROGRAMA “ADOPTION CHECK SYSTEM” (el “Programa”)<br><br>1. OBJETO<br><br>El presente Programa tiene como finalidad incentivar la participación en una encuesta dirigida a usuarios adultos de productos con nicotina seleccionados de forma aleatoria por Philip Morris México, S.A. de C.V. (“PMM”), mediante la entrega de una recompensa equivalente a $200 MXN, en recompensa electrónica o puntos del programa Together Club, por participación completada.<br><br><br>2. ELEGIBILIDAD<br><br>• Programa válido únicamente para usuarios mayores de edad con cuenta activa en IQOS a los que aleatoriamente se les haya enviado la encuesta dirigida y que hayan completado la misma en su totalidad.<br><br>• La participación es únicamente por selección aleatoria de PMM.<br><br>• Se otorgará una (1) recompensa por participación completada, por Participante.<br><br><br>3. OPCIONES DE RECOMPENSA<br><br>a) Puntos Together Club<br>Al seleccionar esta opción de recompensa, el Participante recibirá de manera inmediata una confirmación de los 200 puntos a abonarse en su cuenta de Usuario IQOS. Los puntos serán visibles dentro de las próximas 72 horas en la cuenta de Together Club asociada. Para elegir esta opción es indispensable que el Participante también se encuentre registrado en Together Club.<br><br>b) Cupón JUJU – Bonos Express<br>Cupón digital equivalente a $200 MXN, canjeable en una amplia variedad de establecimientos.<br>Válido únicamente en el sitio <a href=\"https://recompensasiqos.plandereconocimientos.com\" style=\"text-decoration:underline;\" target=\"_blank\">https://recompensasiqos.plandereconocimientos.com</a>.<br><br>3.3. Términos adicionales de las opciones de recompensa<br><br>Cada opción de recompensa está sujeta a los términos y condiciones específicos de la plataforma correspondiente:<br><br>• Los puntos Together Club se rigen por los términos y condiciones del programa de lealtad IQOS Together Club, disponibles en: <a href=\"https://www.iqos.com/mx/es/programa-lealtad-together-club.html\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.iqos.com/mx/es/programa-lealtad-together-club.html</a><br><br>• El cupón JUJU – Bonos Express se rige por los términos y condiciones del sitio <a href=\"https://bonosmexicovi.plandereconocimientos.com/pages/login\" style=\"text-decoration:underline;\" target=\"_blank\">https://bonosmexicovi.plandereconocimientos.com/pages/login</a><br><br>El Participante reconoce y acepta que, al seleccionar una opción de recompensa, deberá consultar y será indispensable aceptar los términos aplicables de dicha plataforma. La empresa no se hace responsable por cambios, restricciones o condiciones impuestas por terceros en relación con el uso o redención de dichas recompensas.<br><br><br>4. CONDICIONES DE LA RECOMPENSA<br><br>• Las recompensas son personales e intransferibles.<br><br>• No son canjeables por dinero en efectivo ni por ningún otro bien o servicio distinto a los establecidos.<br><br>• La recompensa será entregada únicamente si se valida que el Participante cumple con todos los requisitos de elegibilidad.<br><br><br>5. VIGENCIA<br><br>• Estos términos y condiciones estarán vigentes desde el momento en que el Participante reciba la invitación personalizada para participar en la encuesta por parte de PMM, misma que permanecerá activa por un periodo de 30 (treinta) días naturales, tiempo en el que el Participante deberá completarla efectivamente para finalmente redimir la recompensa correspondiente. Transcurrido el plazo antes mencionado, la encuesta caducará automáticamente y la recompensa no podrá ser redimida.<br><br>PMM se reserva el derecho de modificar o cancelar este Programa en cualquier momento, notificando a los participantes a través de los canales oficiales de IQOS y ZYN.<br><br><br>6. PRIVACIDAD Y DATOS PERSONALES<br><br>El tratamiento de los datos personales se realizará conforme a nuestro Aviso de Privacidad, disponible en el siguiente enlace: <a href=\"https://www.pmiprivacy.com/mexico/es-la/consumer/\" style=\"text-decoration:underline;\" target=\"_blank\">https://www.pmiprivacy.com/mexico/es-la/consumer/</a>.<br><br><br><br>7. LIMITACIÓN DE RESPONSABILIDAD<br><br>• PMM no se hace responsable por fallas técnicas, errores de conexión, interrupciones del servicio o cualquier otro inconveniente que impida la participación o redención de la recompensa emitida por terceros independientes a esta empresa.<br><br>• PMM se reserva el derecho de verificar la identidad y elegibilidad del Participante antes de otorgar la recompensa.<br><br><br>8. MODIFICACIONES Y CANCELACIÓN<br><br>PMM se reserva el derecho de modificar o cancelar este Programa en cualquier momento, notificando a los participantes a través de los canales oficiales de IQOS y ZYN.<br><br><br>9. ACEPTACIÓN DE LOS TÉRMINOS<br><br>La participación en este Programa implica la aceptación total de los presentes Términos y Condiciones.",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}
