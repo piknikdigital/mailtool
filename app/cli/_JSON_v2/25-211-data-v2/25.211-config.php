@@ -1,20 +1,21 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '211';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '20';
+$p_name4folder =  'laus-sep';
+$p_name4json =  'laus-mgm-29';
+$p_name4folderDCE =  'LAUS September';
+$p_mailname4DCE =  'LAUS_DCE_MGM_29';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LAUS Septiembre';
+$p_mailname4FSH =  'LAUS_DCE_MGM_29';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
@@ -44,35 +45,28 @@ switch ( (string)$companyBrand ){
 
 $requiredBlocks = array(
     "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
+    "iqos24-center-img",    // 1g
     "iqos24-greeting",      // 
-    
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
     
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
+    "iqos24-center-img",    // 3
+    'iqos24-columns',       // 4,xxx,5 (21%, 58% ,21%)
+    "iqos24-center-img",    // 6    Compartir mi código	TBD
+
+    "iqos24-center-img",    // 7g
+    "iqos24-center-img",    // 8    Quiero registrarme	https://together-club.com/Account/Account/AgeGate
+    
+    
+    "iqos24-center-img",    // 9
+    'iqos24-columns',       // 10,11 WALLETS
+    
+// Compartir mi código	TBD
+// Quiero registrarme	https://together-club.com/Account/Account/AgeGate
+// App Store	https://api.iqoswalletmx.com/wallet/passes/download/%%referral_code%%
+// Google Play	https://play.google.com/store/apps/details?id=com.iqos.referral
 
 
-    'iqos24-spacer',        // 
+    'iqos24-spacer',        //  
     "iqos24-footer-iqos-forever-curious",    // 
     ""
 
@@ -266,6 +260,10 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (2) Descuento del 25% vigente del 01 al 30 de septiembre de 2025. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a>. Válido en la compra del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a> y hacerlo válido en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>    <br><br>    (3) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.
+
+
+
 --------------------
 --------------------
 --------------------

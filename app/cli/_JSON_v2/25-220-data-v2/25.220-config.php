@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '220';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '21';
+$p_name4folder =  'leads-sep';
+$p_name4json =  'leads-ventadirecta-29-sep';
+$p_name4folderDCE =  'LEADS September';
+$p_mailname4DCE =  'LEADS_LOCAL_VENTADIRECTA_29SEPT';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS Septiembre';
+$p_mailname4FSH =  'LEADS_LOCAL_VENTADIRECTA_29SEPT';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -46,30 +46,21 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // 
     "iqos24-center-img",    // 1
     "iqos24-greeting",      // 
-    
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4    Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+    "iqos24-center-img",    // 5    IQOS ILUMA ONE AZUL	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+    "iqos24-center-img",    // 6    IQOS ILUMA MID VERDE	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-verde.html
+    "iqos24-center-img",    // 7    IQOS ILUMA PRIME GOLD	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html
+    "iqos24-center-img",    // 8    Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
     "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
 
 
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
+// Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+// IQOS ILUMA ONE AZUL	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-azul.html
+// IQOS ILUMA MID VERDE	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-verde.html
+// IQOS ILUMA PRIME GOLD	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-prime-dorado-caqui.html
+// Comprar ahora	https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
 
 
     'iqos24-spacer',        // 
@@ -254,7 +245,7 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
---------------------
+(1) Descuento del 10% vigente del 01 al 30 de septiembre de 2025 aplicable en la compra de tu primer kit IQOS ILUMA, en iqos.com, Tiendas IQOS, Sanborns seleccionados, IQOS  coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 --------------------
 --------------------
 --------------------

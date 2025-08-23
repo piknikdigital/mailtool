@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '203';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '20';
+$p_name4folder =  'laus-sep';
+$p_name4json =  'laus-portafolio-2';
+$p_name4folderDCE =  'LAUS September';
+$p_mailname4DCE =  'LAUS_DCE_PORTAFOLIO_2';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LAUS Septiembre';
+$p_mailname4FSH =  'LAUS_DCE_PORTAFOLIO_2';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -44,35 +44,19 @@ switch ( (string)$companyBrand ){
 
 $requiredBlocks = array(
     "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
+    "iqos24-center-img",    // 1g
     "iqos24-greeting",      // 
     
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
-
+    'iqos24-columns',       // 3,4,5g, 6 Llamar ahora	tel:8001476769
+    "iqos24-center-img",    // 7 Registrate ahora	https://together-club.com/Account/Account/AgeGate
 
     'iqos24-spacer',        // 
+ 
+// Llamar ahora	800 1 476769
+// Registrate ahora	https://together-club.com/Account/Account/AgeGate
+
+
     "iqos24-footer-iqos-forever-curious",    // 
     ""
 

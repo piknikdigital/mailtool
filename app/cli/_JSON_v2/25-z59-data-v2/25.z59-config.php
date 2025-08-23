@@ -1,24 +1,25 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  'z59';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '13';
+$p_name4folder =  'zyn-septiembre';
+$p_name4json =  'zyn-tc-18-sep';
+$p_name4folderDCE =  'ZYN SEPTEMBER';
+$p_mailname4DCE =  'ZYN_TC_18SEPT';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN Septiembre';
+$p_mailname4FSH =  'ZYN_TC_18SEPT';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,40 +44,51 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // 1    Imagen header  https://together-club.com/
+    "zyn25-greeting",       // 
+    "iqos24-center-img",    // 2    
+    "iqos24-center-img",    // 3    Descubre más   https://together-club.com/
+    "iqos24-center-img",    // 4    Quiero ganar   https://together-club.com/
+    "iqos24-center-img",    // 5g                   https://together-club.com/
+    "iqos24-center-img",    // 6    Conoce más     https://together-club.com/
+    "iqos24-center-img",    // Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html
 
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
+// Imagen header       https://together-club.com/
+// Descubre más        https://together-club.com/
+// Quiero ganar        https://together-club.com/
+// Conoce más          https://together-club.com/
+// Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
-
-
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    ""
-
+    "zyn25-legales",
+    "zyn25-footer"
 );
+
+
+// "iqos24-center-img",    // 1g   https://together-club.com/
+// "zyn25-greeting",       // 
+// "iqos24-center-img",    // 2    https://together-club.com/
+// "iqos24-center-img",    // 3g   https://together-club.com/
+// "iqos24-center-img",    // 4
+// 'iqos24-columns',       // 5,6
+//                             // IQOS wallet - android    https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1
+//                             // IQOS wallet - iOS        https://api.iqoswalletmx.com/wallet/passes/download/%%identity_identifier%%
+// 'iqos24-spacer',        // 
+// "iqos24-center-img",    // ig
+// "iqos24-center-img",    // find-zyn
+
+
+// OLD Imagen header       https://together-club.com/
+// OLD Conoce más          https://together-club.com/
+// OLD GIF ruleta          https://together-club.com/
+// OLD Descubre más        https://together-club.com/
+// OLD Síguenos en Ig      https://www.instagram.com/zyn_mxoficial/
+// OLD Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html
+
+
+
+
+
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks__IQOS = array(
@@ -262,6 +274,19 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+​
+
+(1) Válido para participar por los pases de VAIVÉN hasta el 30 de septiembre. Los ganadores se escogerán según el ranking por acumulación de puntos.
+
+
+
+Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. 
+Venta exclusiva para adultos. ​
+  ​
+Consulta la página de  información importante para obtener más detalles. ​
+
+Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales  aquí.
+ ​
 --------------------
 --------------------
 --------------------

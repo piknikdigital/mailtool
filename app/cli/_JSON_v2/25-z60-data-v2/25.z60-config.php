@@ -1,24 +1,25 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  'z60';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '13';
+$p_name4folder =  'zyn-septiembre';
+$p_name4json =  'zyn-availability-30-sep';
+$p_name4folderDCE =  'ZYN SEPTEMBER';
+$p_mailname4DCE =  'ZYN_AVAILABILITY_30SEPT';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN Septiembre';
+$p_mailname4FSH =  'ZYN_AVAILABILITY_30SEPT';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,39 +44,33 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // 1g   https://www.zyn.com/mx/es/home.html
+    "zyn25-greeting",       // 
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
+    "iqos24-center-img",    // 3g   https://conoce-zyn.com/wp-content/localizador-tiendas.html
+    "iqos24-center-img",    // 4g   https://conoce-zyn.com/wp-content/localizador-tiendas.html
+    "iqos24-center-img",    // 5g   https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
     "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
-
 
     'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    ""
+    "iqos24-center-img",    // ig
+    "iqos24-center-img",    // find-zyn
 
+
+// iMAGEN HEADER       https://www.zyn.com/mx/es/home.html
+// GIF de camino       https://conoce-zyn.com/wp-content/localizador-tiendas.html
+// Localizar tienda    https://conoce-zyn.com/wp-content/localizador-tiendas.html
+// GIF de sabores      https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// GIF de celular      https://conoce-zyn.com/wp-content/localizador-tiendas.html
+// Localizar tienda    https://conoce-zyn.com/wp-content/localizador-tiendas.html
+// Síguenos en Instag  https://www.instagram.com/zyn_mxoficial/
+// Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html
+
+
+
+    "zyn25-legales",
+    "zyn25-footer"
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig

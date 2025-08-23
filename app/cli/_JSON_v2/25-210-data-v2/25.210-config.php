@@ -1,20 +1,21 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '210';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '08';
+$p_dd =  '20';
+$p_name4folder =  'laus-sep';
+$p_name4json =  'laus-xselling-25';
+$p_name4folderDCE =  'LAUS September';
+$p_mailname4DCE =  'LAUS_DCE_XSELLING_25';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LAUS Septiembre';
+$p_mailname4FSH =  'LAUS_DCE_XSELLING_25';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
@@ -45,32 +46,14 @@ switch ( (string)$companyBrand ){
 $requiredBlocks = array(
     "iqos24-header-iqos",   // 
     "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
+    "iqos24-greeting",      //     
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
+    "iqos24-center-img",    // 3g Conoce más	https://www.zyn.com/mx/es/descubre-zyn.html
+    "iqos24-center-img",    // 4  Comprar ahora	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
 
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
-
+    // Conoce más           https://www.zyn.com/mx/es/descubre-zyn.html
+    // Comprar ahora        https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+    // Localiza una tienda  https://www.iqos.com/mx/es/localizador-tiendas.html
 
     'iqos24-spacer',        // 
     "iqos24-footer-iqos-forever-curious",    // 
@@ -264,6 +247,11 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+​
+
+ZYN es un producto que no es libre de riesgo y contiene nicotina, la cual es adictiva. <br>Venta exclusiva para adultos.<br>*Promoción válida al comprar una lata de ZYN y recibir otra sin costo. Válido exclusivamente en <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">zyn.com</a>. Sujeto a disponibilidad de productos. Promoción no acumulable con otras ofertas. Vigencia limitada o hasta agotar existencias.
+
+​
 --------------------
 --------------------
 --------------------

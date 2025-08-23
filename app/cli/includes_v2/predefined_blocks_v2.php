@@ -1580,7 +1580,7 @@ $libraryBlocks['iqos24-greeting'] ='
             "color"         : "#34303d",
             "bgcolor"       : "transparent",
             "mtop"          : "40",
-            "mbottom"       : "0",
+            "mbottom"       : "20",
             "txt"           : "Hola, %%first_name%%",
             "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
         },';
