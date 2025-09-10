@@ -1,24 +1,24 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  'z62';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '09';
+$p_dd =  '10';
+$p_name4folder =  'zyn-octubre';
+$p_name4json =  'zyn-sabores-intensidades-14';
+$p_name4folderDCE =  'ZYN October';
+$p_mailname4DCE =  'ZYN_SABORES_INTENSIDADES_14';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN Octubre';
+$p_mailname4FSH =  'ZYN_SABORES_INTENSIDADES_14';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,39 +43,34 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // 1g       https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
     "iqos24-greeting",      // 
     
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
+    "iqos24-center-img",    // 3g       https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+    "iqos24-center-img",    // 4 cta comprar ahora https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
 
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
+    "iqos24-center-img",    // 5 cta comprar ahora https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+    "iqos24-center-img",    // 6 cta ordena ahora   https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
+    "iqos24-center-img",    // zyn-siguenos-ig.jpg      https://www.instagram.com/zyn_mxoficial/
+    "iqos24-center-img",    // zyn-find-your-zyn.jpg    https://conoce-zyn.com/wp-content/localizador-tiendas.html
 
 
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
+// Imagen header 	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// GIF SABORES 	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// Comprar ahora 	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// Comprar ahora 	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// Ordena ahora 	https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html
+// Síguenos en Instagram	https://www.instagram.com/zyn_mxoficial/
+// Logo FIND YOUR ZYN	https://conoce-zyn.com/wp-content/localizador-tiendas.html
 
 
     'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
+    "zyn25-legales",
+    "zyn25-footer",
     ""
-
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
@@ -121,23 +116,13 @@ $requiredBlocks__IQOS = array(
 );
 // MODULOS PARA TEMPLATE zyn-2025-v1.twig
 $requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",     
-    "iqos24-center-img",    // 1
-    "zyn25-greeting",       // 
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-
-    "iqos24-center-img",    // zyn-siguenos-ig.jpg
-    "iqos24-center-img",    // zyn-find-your-zyn.jpg
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-
-    'iqos24-spacer',        // 
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "zyn25-greeting",       // REEMPLAZA A: "greeting_v2",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
+    "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "zyn25-legales",
-    "zyn25-footer",
-    ""
+    "zyn25-footer"
 );
 
 // MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
@@ -272,6 +257,8 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+(1) Promoción 5x4: Compra 5 y paga sólo 4. Válido únicamente en tienda en línea <a href=\"https://www.zyn.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">zyn.com</a> Consulta términos y condiciones.
+
 --------------------
 --------------------
 --------------------

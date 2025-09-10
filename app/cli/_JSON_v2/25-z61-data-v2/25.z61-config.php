@@ -1,24 +1,24 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  'z61';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '09';
+$p_dd =  '10';
+$p_name4folder =  'zyn-octubre';
+$p_name4json =  'zyn-tc-7';
+$p_name4folderDCE =  'ZYN October';
+$p_mailname4DCE =  'ZYN_TC_7';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN Octubre';
+$p_mailname4FSH =  'ZYN_TC_7';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,39 +43,29 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // 1g   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+    "zyn25-greeting",       // 
+    "iqos24-center-img",    // 2    
+    "iqos24-center-img",    // 3    cta participar https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+    "iqos24-center-img",    // 4    cta quiero participar   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+    "iqos24-center-img",    // 5g   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
     "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
+    'iqos24-columns',       // 7 android, 8 iOS
+    "iqos24-center-img",    // zyn-find-your-zyn.jpg
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
-
+// Imagen header       https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+// Participar          https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+// Quiero participar   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+// GIF F1              https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+// Descarga wallet     https://play.google.com/store/apps/details?id=com.iqos.referral&hl=es_MX
+// Síguenos en IG      https://www.instagram.com/zyn_mxoficial/
+// Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html
 
     'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
+    "zyn25-legales",
+    "zyn25-footer",
     ""
-
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
@@ -274,6 +264,16 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+(1) Promoción válida hasta agotar existencias. Disponibles 21 boletos en total, distribuidos entre los 3 días del evento. Sujeto a disponibilidad al momento de la selección por parte de los ganadores.     <br><br>    (2) Las bocinas Alexa están disponibles hasta agotar existencias.
+
+
+Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. 
+Venta exclusiva para adultos. ​
+  ​
+Consulta la página de  información importante para obtener más detalles. ​
+
+Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales  aquí.
+ ​
 --------------------
 --------------------
 --------------------
