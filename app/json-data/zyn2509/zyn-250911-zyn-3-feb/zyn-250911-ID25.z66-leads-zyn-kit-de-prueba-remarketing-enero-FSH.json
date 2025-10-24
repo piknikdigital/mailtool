@@ -1,0 +1,360 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_ZYN 11 09 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "Leads_ZYN_KitDePrueba_Remarketing_enero",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH" } ,
+            { "urlS" : "https://paginum.com/email/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2509/zyn-250911-zyn-3-feb/zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-250911-ID25.z66-leads-zyn-kit-de-prueba-remarketing-enero-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z66 Leads ZYN KitDePrueba Remarketing enero",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/da811c62-1afe-40b1-8eed-89d4858e5eae.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cb9cc367-6548-4ee8-8510-0652911e226f.gif",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(FirstName)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/4d7263d1-2d94-4937-a2af-51bcd24d0506.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/82d65fe8-448d-48c9-aaef-0bcbee983d1a.gif",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn/compra-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "GIF SABORES IMG 25.z66-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/133306b3-05ab-4300-8e15-71c57a0cb461.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn/mix-and-match.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Conoce más IMG 25.z66-4",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/88c071d0-a705-418f-9627-c0ab3f744aa2.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/281b19d6-f94a-4ae8-87b9-ccf032e7b1c4.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn/mix-and-match.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/8da8475e-8cd6-4437-bb62-9da0a1ecdf82.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/prueba-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/20c9769d-57a1-41ea-9dae-c8b1374ad23c.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/home.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/65e5164e-b140-4d83-9065-086cf8276ded.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/prueba-zyn.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z66-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/4dda87e8-31c2-40a6-bc8b-74951f29231b.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/descubre-zyn/mix-and-match.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "cta Obtén tu kit IMG 25.z66-10",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "Seccion": "ZYNZYNZYNZYNZYNZYNZYN"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/3b226e97-941e-4eb4-be63-91459be2956f.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-zyn-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "Seccion": "SIGUENOS IG"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/70c9fa92-1c9c-4562-bef0-a0bcf51eff65.jpg",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-siguenos-ig",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "Seccion": "TIENES DUDAS?"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/88bd9789-cb4d-49d0-967b-0cf6923e4a18.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-tienes-dudas",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "Seccion": "CHAT EN VIVO - CELULAR - TIENDA IQOS"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "40",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "IQOS CONTACTO",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/5dcb0cfa-a713-4151-8014-0572490454d4.jpg",
+                    "url": "https://www.zyn.com/mx/es/home.html",
+                    "this": "IMG ico1-chat-en-vivo"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "20",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/664eb70e-9b4a-4945-bda0-44fbd76c5cef.jpg",
+                    "url": "tel:8000440836",
+                    "this": "IMG ico2-celular"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "40",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9082b1ae-41c6-4f81-a430-bc15f58d1772.jpg",
+                    "url": "https://conoce-zyn.com/wp-content/localizador-tiendas.html",
+                    "this": "IMG ico3-tienda-iqos"
+                }
+            ]
+        },
+        {
+            "Seccion": "FIND YOUR ZYN"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/c3f582b3-45f9-47c5-a58c-0413b1c5082b.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "(1) Válido solo en la primera compra dentro del sitio.",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -1,0 +1,342 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20250917_LAUS October > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_MGM_TC_23",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2509/pmi-250917-laus-octubre/pmi-250917-ID25.226-laus-mgm-tc-23-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-250917-ID25.226-laus-mgm-tc-23-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.226 LAUS DCE MGM TC 23",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d3c9004b-9497-4e61-854e-221f318b836b.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ff93eb82-32af-44bd-a586-d60f6709fa78.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "30",
+            "width_pc": "100",
+            "this": "IMG 25.226-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4.3",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "GREETING",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#2c3138",
+                    "vertical_align": "top",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3261440f-b8e9-41aa-9b13-c32420922a78.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.226-2"
+                        },
+                        {
+                            "rowtype": "p",
+                            "bgcolor": "transparent",
+                            "mtop": "20",
+                            "mbottom": "5",
+                            "width_pc": "100",
+                            "texts": [
+                                {
+                                    "txt": "Hola, %%=ProperCase(first_name)=%%",
+                                    "fontweight": "700",
+                                    "fontsize": "26",
+                                    "height": "26",
+                                    "txtclass": "txt_26",
+                                    "align": "center",
+                                    "color": "#ffffff",
+                                    "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a91e846e-e2b4-4c8d-876d-6d9894279e5b.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "10",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.226-3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4.3",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "SHARE CODE MGM",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#f0eeed",
+                    "vertical_align": "top",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e7cd1214-12bd-4478-8789-db6aabbe8047.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "20",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.226-4"
+                        },
+                        {
+                            "README": "XXXXX (Referral_Code)",
+                            "rowtype": "pframed",
+                            "bgcolor": "transparent",
+                            "txt": "%%referral_code%%",
+                            "fontweight": "700",
+                            "fontsize": "24",
+                            "height": "24",
+                            "txtclass": "txt_24",
+                            "align": "center",
+                            "width_pc": "80",
+                            "mtop": "20",
+                            "mbottom": "0",
+                            "color": "#34303d",
+                            "framecolor": "transparent",
+                            "framebgcolor": "transparent",
+                            "framepadding": "6",
+                            "border": "2",
+                            "this": ""
+                        },
+                        {
+                            "README": "COMPARTE TU CODIGO",
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/dcac1a8c-4800-4bbf-908a-752b763995be.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "15",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+                            "url_ctaDECODED": "whatsapp://send?text=",
+                            "txt2Encode_ILUMA20pc": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA20pc": "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA25pc": "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA25pc": "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "txt2Encode_ILUMA35pc": "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+                            "txtEncoded_ILUMA35pc": "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "url_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+                            "url_OK": "https://wa.me/?text=",
+                            "url": "https://wa.me/?text=Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+                            "THISIMG": "25.226-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/75838417-18b3-4188-817d-620dc7a9c7d5.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "IMG 25.226-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/55313b46-d184-43c6-95ba-35c0dd6937cd.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "91.4",
+            "this": "IMG 25.226-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/e5f3e13d-7d9d-4706-8c83-565a951fe518.jpg",
+            "alt": "",
+            "url": "https://together-club.com/iniciar-sesion",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "10",
+            "width_pc": "100",
+            "this": "cta quiero registrarme IMG 25.226-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a0f24712-ad07-405e-8f23-ac1ca0a0fe8a.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.226-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "50",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/36eb11ab-a370-40d0-b0a7-ad03dd942ffd.jpg",
+                    "url": "https://api.iqoswalletmx.com/wallet/passes/download/%%identity_identifier%%",
+                    "this": "IQOS wallet - iOS IMG 25.226-10"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "50",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/284daf59-4de6-4ea4-b496-65f612fcd3ac.jpg",
+                    "url": "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "this": "IQOS wallet - android IMG 24.226-11"
+                }
+            ]
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (2) Cada beneficio equivale a $150 MXN en dinero electrónico, no canjeable por dinero en efectivo. Por cada amigo que utilice tu código, obtendrás $150 MXN en beneficios, teniendo la oportunidad de recibir hasta $1,500 MXN en beneficios. Limitado a los primeros 10 amigos referidos que compren y registren su dispositivo con tu código único. Redimible solo una vez por usuario registrado (con cuenta creada en iqos.com). Cada recompensa deberá ser canjeada en su totalidad en una sola exhibición. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;\" target=\"_blank\">Términos y Condiciones</a> del programa.    <br><br>    (3) Descuento del 25% vigente del 01 al 30 de septiembre de 2025. Consulta Términos y Condiciones. Válido en la compra del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse en iqos.com y hacerlo válido en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

@@ -1336,13 +1336,226 @@ $libraryBlocks['cz25-tableNN'] ='
 
 
 
+
+
+
+/** ----------------------------------------------------
+ *    START CRM 2025-10    Plantilla iqos-2024-v1.twig
+ *  -----------------------------------------------------
+ */
+
+$libraryBlocks['iqos24-IQOS-Wallet'] ='
+
+
+        {   "SECCION"       :  "IQOS WALLET" },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "22.id-x.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 22.id-x",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "https://play.google.com/store/apps/details?id=com.iqos.referral&pli=1",
+                    "this"          : "Wallet Android IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "50",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "https://api.iqoswalletmx.com/wallet/passes/download/%%identity_identifier%%",
+                    "this"          : "Wallet iOS IMG 22.id-x"
+                }
+            ]
+        },';
+$libraryBlocks['iqos24-columns-img-xxxxx-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : " CODE MGM",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "#17191b",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "66",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "#17191b",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "80",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "%%referral_code%%",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "24",
+                                    "height"      : "22",
+                                    "txtclass"    : "txt_24",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                }
+            ]
+        },';
+
+$libraryBlocks['iqos24-img-sharemycode'] ='
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "22.id-x.jpg",
+            "alt"           :  "",
+
+            "donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+            "url_ctaDECODED"       : "whatsapp://send?text=",
+                                        
+            "txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+            "url_OK"        : "https://wa.me/?text=",
+            "url"           : "https://wa.me/?text=Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 22.id-x",
+            "version"       :  "iqos-2024-v1.twig"
+
+        },';
+
+ 
+
+$libraryBlocks['iqos24-columns-multirows-img-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "4.7",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.gif",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        }
+                    ]
+                }
+            ]
+        },';
+
+
+ 
+
 /** ----------------------------------------------------
  *    START CRM 2025.05    Plantilla iqos-2024-v1.twig
  *  -----------------------------------------------------
  */
 
 $libraryBlocks['iqos24-columns-img-img-img'] ='
-         {
+        {
             "type"      : "iq24-columns",
             "font"      : "Cabin",
             "msides"    : "0",
@@ -1973,12 +2186,16 @@ $libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
         {
             "type"          :  "iq24-footer-iqos-fc-disclaimers",
             "txt"           :  "",
+            "darkmode_img"  :  "0",
+            "color"         :  "#34303d",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#34303d",
             "this_TXT"      :  "{LEGALES DE ESTA PIEZA}",
             "DTI":
             {
                 "showIluma"  :  "0",
                 "txtIluma"   :  "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
-                "txtRisk"    :  "Este producto no es libre de riesgo,<br>contiene nicotina la cual es adictiva.<br>Solo para adultos.",
+                "txtRisk"    :  "Este producto no es libre de riesgo, contiene nicotina<br> la cual es adictiva. Solo para adultos.",
                 "txtInfo"    :  "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
                 "txtPrivacy" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
                 "THIS"       :  "{LEGALES [ILUMA], Duty To Inform}"
@@ -1987,10 +2204,16 @@ $libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
         },
         {
             "type"          :  "iq24-footer-iqos-fc-links",
+            "darkmode_img"  :  "0",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#34303d",
             "version"       :  "iqos-2024-v1.twig"
         },
         {
             "type"          :  "iq24-footer-iqos-fc-address",
+            "color"         :  "#34303d",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#34303d",
             "version"       :  "iqos-2024-v1.twig"
         }';
 

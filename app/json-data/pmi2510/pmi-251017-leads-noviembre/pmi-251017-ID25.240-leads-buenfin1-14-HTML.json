@@ -1,0 +1,231 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "",
+                "CustomerKey" : ""
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML" } ,
+            { "urlS" : "https://paginum.com/email/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2510/pmi-251017-leads-noviembre/pmi-251017-ID25.240-leads-buenfin1-14-HTML.html",
+
+    "trackmailopen"            :   "0",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "HTML",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-251017-ID25.240-leads-buenfin1-14-HTML",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.240 LEADS LOCAL BUENFIN1 14",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#191a1e",
+    
+    "blocks" : 
+    [
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-iqos-fc-dark.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG header IQOS New Brand World",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-1b.gif",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.240-1b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          : "iq24-greeting",
+            "fontweight"    : "700",
+            "color"         : "#ffffff",
+            "bgcolor"       : "transparent",
+            "mtop"          : "40",
+            "mbottom"       : "20",
+            "txt"           : "Hola, %%first_name%%",
+            "this"          : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-2b.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.240-2b",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-comprar.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "cta Comprar ahora IMG 25.240-comprar",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-3.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-dorado.html",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IQOS MID IMG 25.240-3",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+                {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-comprar.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-dorado.html",
+            "alias"         :  "",
+            "mtop"          :  "20",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "cta Comprar ahora IMG 25.240-comprar",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+
+
+
+
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-4.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-dorado.html",
+            "alias"         :  "",
+            "mtop"          :  "30",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IQOS One Dorado IMG 25.240-4",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-comprar.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-one-dorado.html",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "cta Comprar ahora IMG 25.240-comprar",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "25.240-5.jpg",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG 25.240-5",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"        : "iq24-spacer",
+            "height"      : "20",
+            "bgcolor"     : "transparent"
+        },
+
+
+        {   "SECCION"       :  " FOOTER Forever Curious" },
+        {
+            "type"          :  "iq24-footer-iqos-fc-disclaimers",
+            "txt"           :  "(1) Descuentos válidos únicamente en la compra de dispositivos IQOS ILUMA ONE y IQOS ILUMA, del 14 de noviembre al  01 de diciembre de 2025. Exclusivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>.<br>Promoción sujeta a disponibilidad y hasta agotar existencias.",
+            "darkmode_img"  :  "1",
+            "color"         :  "#ffffff",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
+            "this_TXT"      :  "{LEGALES DE ESTA PIEZA}",
+            "DTI":
+            {
+                "showIluma"  :  "0",
+                "txtIluma"   :  "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk"    :  "Este producto no es libre de riesgo, contiene nicotina<br> la cual es adictiva. Solo para adultos.",
+                "txtInfo"    :  "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                "THIS"       :  "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-links",
+            "darkmode_img"  :  "1",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-address",
+            "color"         :  "#ffffff",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
+            "version"       :  "iqos-2024-v1.twig"
+        }
+    ],
+    
+    "END"            :   "#######################"
+
+}

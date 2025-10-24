@@ -1,13 +1,43 @@
 {% block iq24_footer_iqos_fc_disclaimers %}
 {# FOOTER IQOS FOREVER CURIOUS - DISCLAIMERS #}
 
-{% set footer_logo_iqos_fc    = "footer-fc-logo.png" %}
+{% if blocks[index].darkmode_img is not defined %}
+    {% set darkmode_img  = "0" %}
+{% else %}
+    {% set darkmode_img  = blocks[index].darkmode_img %}
+{% endif %}
+
+{% if blocks[index].color is not defined %}
+    {% set color  = "#34303d" %}
+{% else %}
+    {% set color  = blocks[index].color %}
+{% endif %}
+
+
+{% if darkmode_img == "0" %}
+    {# modo normal #}
+    {% set footer_logo_iqos_fc    = "footer-fc-logo.png" %}
+{% else %}
+    {# modo obscuro #}
+    {% set footer_logo_iqos_fc    = "footer-fc-logo-dark.png" %}
+{% endif %}
+
 
 {% if target is defined and target == "DCE" %}
-{% set footer_logo_iqos_fc    = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3e8f4cfe-758d-47f3-b1af-2b31314e11ab.png" %}
+    {% if darkmode_img == "0" %}
+        {% set footer_logo_iqos_fc    = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/3e8f4cfe-758d-47f3-b1af-2b31314e11ab.png" %}
+    {% else %}
+        {% set footer_logo_iqos_fc    = "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/9c93260f-0c8d-4ed4-b395-ec13dbe46cbe.png" %}
+    {% endif %}
 {% endif %}
+
+
 {% if target is defined and target == "FSH" %}
-{% set footer_logo_iqos_fc    = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ddb25b8d-784c-4fa9-aaac-dd23817de838.png" %}
+    {% if darkmode_img == "0" %}
+        {% set footer_logo_iqos_fc    = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/ddb25b8d-784c-4fa9-aaac-dd23817de838.png" %}
+    {% else %}
+        {% set footer_logo_iqos_fc    = "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/585ec43b-2e2e-4c70-be68-7911ccf60c09.png" %}
+    {% endif %}
 {% endif %}
 
 
@@ -26,7 +56,7 @@
                                         <tbody>
                                           <tr>
                                             <th style="text-align:center;  font-size:14px;  line-height:14px;">
-                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:300;  color:{{color}};  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
                                               {{blocks[index].DTI.txtIluma|raw}}
                                               </div>
                                             </th>
@@ -58,7 +88,7 @@
                                         <tbody>
                                           <tr>
                                             <th style="text-align:center;  font-size:16px;  line-height:20px;">
-                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:700;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc2">
+                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:700;  color:{{color}};  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc2">
                                               {{blocks[index].DTI.txtRisk|raw}}
                                               </div>
                                             </th>
@@ -108,7 +138,7 @@
                                         <tbody>
                                           <tr>
                                             <th style="text-align:center;  font-size:14px;  line-height:16px;">
-                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:700;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              <div style="width:88%;  margin:0 auto;  text-align:center;  font-weight:700;  color:{{color}};  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
                                               {{blocks[index].DTI.slogan|raw}}
                                               </div>
                                             </th>
@@ -138,7 +168,7 @@
                                         <tbody>
                                           <tr>
                                             <th style="text-align:center;  font-size:12px;  line-height:16px;">
-                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:{{color}};  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
                                                 {{blocks[index].txt|raw}}
                                               </div>
                                             </th>
@@ -167,7 +197,7 @@
                                         <tbody>
                                           <tr>
                                             <th style="text-align:center;  font-size:12px;  line-height:16px;">
-                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:#34303d;  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
+                                              <div style="width:90%;  margin:0 auto;  text-align:center;  font-weight:300;  color:{{color}};  font-family: 'Noto Sans', Gotham, Arial, sans-serif; "   class="fallback-text txt_footer_fc_disc">
                                               {{blocks[index].DTI.txtPrivacy|raw}}
                                               </div>
                                             </th>

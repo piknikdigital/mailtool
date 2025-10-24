@@ -44,20 +44,21 @@ switch ( (string)$companyBrand ){
 
 $requiredBlocks = array(
     "zyn25-header-zyn",
-    "iqos24-center-img",    // 1g   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+    "iqos24-center-img",    // 1g   https://together-club.com/
     "zyn25-greeting",       // 
     "iqos24-center-img",    // 2    
-    "iqos24-center-img",    // 3    cta participar https://www.iqos.com/mx/es/programa-lealtad-together-club.html
-    "iqos24-center-img",    // 4    cta quiero participar   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
-    "iqos24-center-img",    // 5g   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+    "iqos24-center-img",    // 3    cta participar https://together-club.com/
+    "iqos24-center-img",    // 4    cta quiero participar   https://together-club.com/
+    "iqos24-center-img",    // 5g   https://together-club.com/
     "iqos24-center-img",    // 6
     'iqos24-columns',       // 7 android, 8 iOS
     "iqos24-center-img",    // zyn-find-your-zyn.jpg
 
-// Imagen header       https://www.iqos.com/mx/es/programa-lealtad-together-club.html
-// Participar          https://www.iqos.com/mx/es/programa-lealtad-together-club.html
-// Quiero participar   https://www.iqos.com/mx/es/programa-lealtad-together-club.html
-// GIF F1              https://www.iqos.com/mx/es/programa-lealtad-together-club.html
+
+// Imagen header       https://together-club.com/
+// Participar          https://together-club.com/
+// Quiero participar   https://together-club.com/
+// GIF F1              https://together-club.com/
 // Descarga wallet     https://play.google.com/store/apps/details?id=com.iqos.referral&hl=es_MX
 // Síguenos en IG      https://www.instagram.com/zyn_mxoficial/
 // Logo FIND YOUR ZYN  https://conoce-zyn.com/wp-content/localizador-tiendas.html

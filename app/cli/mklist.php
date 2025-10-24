@@ -50,6 +50,11 @@ $f2= "";
 
 
 $f2_commonfiles =',
+
+
+
+
+
             {
                 "HTML"       : "header-iqos-fc.png",
                 "FSH"        : "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/cbe5cb37-5e0d-4551-abdb-89e10446f856.png",

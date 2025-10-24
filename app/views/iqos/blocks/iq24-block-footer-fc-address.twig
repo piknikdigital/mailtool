@@ -1,27 +1,62 @@
 {% block iq24_footer_iqos_fc_address %}
+{# FOOTER IQOS FOREVER CURIOUS - CLEAR/DARK MODE SETTINGS #}
+
+{#
+{% if blocks[index].darkmode is defined  %}
+    {% set darkmode = blocks[index].darkmode %}
+{% else %}
+    {% set darkmode = "0" %}
+{% endif %}
+#}
+
+{% if blocks[index].color is defined  %}
+    {% set color = blocks[index].color %}
+{% else %}
+    {% set color = "#34303d" %}
+{% endif %}
+
+{% if blocks[index].bgcolor is defined  %}
+    {% set bgcolor = blocks[index].bgcolor %}
+{% else %}
+    {% set bgcolor = "white" %}
+{% endif %}
+
+{% if blocks[index].linkcolor is defined  %}
+    {% set linkcolor = blocks[index].linkcolor %}
+{% else %}
+    {% set linkcolor = "blue" %}
+{% endif %}
+
+{# 
+{% if darkmode == "0" %}
+{% else %}
+{% endif%}
+#}
+
+
 {# FOOTER IQOS FOREVER CURIOUS - ADDRESS PMM #}
 {% set BizName          = "Philip Morris Products S.A." %}
 {% set BizAddress1      = "Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada," %}
 {% set BizAddress2      = "Miguel Hidalgo, 11529, CDMX, México. " %}
-{% set link_unsub       = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a></span>' %}
+{% set link_unsub       = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:' ~  linkcolor ~ ';">Darme de baja.</span></a></span>' %}
 {% set link_prefer      = '' %}
 {% if target is defined and target == "DCE" %}
     {% set BizName      = "Philip Morris Products S.A." %}
     {% set BizAddress1  = "Lago Zurich No. 245, Edificio Presa Falcón, Tercer Piso, Ampliación Granada," %}
     {% set BizAddress2  = "Miguel Hidalgo, 11529, CDMX, México. " %}
-    {% set link_unsub   = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:blue;">Darme de baja.</span></a>' %}
+    {% set link_unsub   = '<a href="https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%" alias="unsubscribe"><span style="text-decoration:underline;color:' ~  linkcolor ~ ';">Darme de baja.</span></a>' %}
     {% set link_prefer  = '' %}
 {% endif %}
 {% if target is defined and target == "FSH" %}
     {% set BizName      = "%%Member_Busname%%" %}
     {% set BizAddress1  = "%%Member_Addr%%," %}
     {% set BizAddress2  = "%%Member_City%%, %%Member_PostalCode%%, %%Member_State%%, %%Member_Country%% <br>" %}
-    {% set link_unsub   = '<a href="%%unsub_center_url%%"><span style="text-decoration:underline;color:blue;">Darme de baja</span></a>' %}
-    {% set link_prefer  = ' | <a href="%%profile_center_url%%"><span style="text-decoration:underline;color:blue;">Actualizar perfil</span></a>' %}
+    {% set link_unsub   = '<a href="%%unsub_center_url%%"><span style="text-decoration:underline;color:' ~  linkcolor ~ ';">Darme de baja</span></a>' %}
+    {% set link_prefer  = ' | <a href="%%profile_center_url%%"><span style="text-decoration:underline;color:' ~  linkcolor ~ ';">Actualizar perfil</span></a>' %}
 {% endif %}
 
-                            <tr pik-mail-block="footer-info" style="background-color:white;">
-                              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px; background-color:white;margin:0 auto;padding:0;" role="presentation">
+                            <tr pik-mail-block="footer-info" style="background-color:{{bgcolor}};">
+                              <table cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width:600px; background-color:{{bgcolor}};margin:0 auto;padding:0;" role="presentation">
                                 <tbody>
                                     <tr pik-block-inner="footer-info-margin-top">
                                         <th valign="top" style="text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="25">&nbsp;</th>
@@ -32,7 +67,7 @@
                                             <tbody>
                                                 <tr>
                                                     <th style="text-align:center;font-size:10px;line-height:10px;">
-                                                        <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-weight:300;color:#333333; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text txt_footer_info">
+                                                        <span style="width:100%;text-align:center;margin:0 auto;text-align:center;font-weight:300;color:{{color}}; font-family: 'Noto Sans', Gotham, Arial, sans-serif;" class="fallback-text txt_footer_info">
                                                         &copy; {{ 'now' | date('Y') }} {{ BizName }} Todos los derechos reservados.<br>
                                                         {{ BizAddress1 | raw  }}<br> {{ BizAddress2 | raw  }} {{ link_unsub | raw }} {{ link_prefer | raw  }}
                                                         </span>
@@ -42,8 +77,8 @@
                                             </table>
                                         </th>
                                     </tr>
-                                    <tr pik-block-inner="footer-info-margin-bottom" style="background-color:white;">
-                                        <th valign="top" style="background-color:white;text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="30">&nbsp;</th>
+                                    <tr pik-block-inner="footer-info-margin-bottom" style="background-color:{{bgcolor}};">
+                                        <th valign="top" style="background-color:{{bgcolor}};text-align:left;font-size:1px;line-height:1px" class="horizontal-gutter" height="30">&nbsp;</th>
                                     </tr>
                                 </tbody>
                               </table>

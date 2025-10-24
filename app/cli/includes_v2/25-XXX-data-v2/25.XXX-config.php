@@ -64,6 +64,8 @@ $requiredBlocks = array(
     "iqos24-center-img-with-bgimg",    //
     "iqos24-columns-img-img-img",      //
     "iqos24-columns-img-greeting-img", //
+    'iqos24-IQOS-Wallet',   //  x, x, x 
+    "iqos24-columns-img-referralcode-img",
     
     "iqos24-cta",           // 
     'iqos24-p700',          // 
@@ -102,12 +104,26 @@ $requiredBlocks__IQOS = array(
 
     "iqos24-columns-img-img-img",
     "iqos24-columns-img-greeting-img",
-    
+
+
+    'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-XXXX, columna 3: margen derecho  
+    'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
+    'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
+
+      
     "iqos24-cta",           // REEMPLAZA A: "cta1_v2",
     'iqos24-p700',          // REEMPLAZA A: "p700_BW",
     'iqos24-p300',          // REEMPLAZA A: "p300_BW",
     'iqos24-columns',       // REEMPLAZA A: "columns",
     'iqos24-spacer',        // REEMPLAZA A: "spacer",
+    
+
+
+
+
+
+    
     "iqos24-canales-de-comunicacion-2",
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
