@@ -43,6 +43,7 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
+    "iqos24-header-iqos-DARK",
     "iqos24-header-iqos",   // 
     "iqos24-center-img",    // 1
     "iqos24-greeting",      // 
@@ -64,6 +65,7 @@ $requiredBlocks = array(
     "iqos24-center-img-with-bgimg",    //
     "iqos24-columns-img-img-img",      //
     "iqos24-columns-img-greeting-img", //
+    "iqos24-columns-multirows-img-img-img", //
     'iqos24-IQOS-Wallet',   //  x, x, x 
     "iqos24-columns-img-referralcode-img",
     
@@ -74,8 +76,9 @@ $requiredBlocks = array(
     'iqos24-columns',       // 
 
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
+    'iqos24-spacer',
+    "iqos24-footer-iqos-forever-curious",
+    "iqos24-footer-iqos-forever-curious-DARK",
     ""
 
 );

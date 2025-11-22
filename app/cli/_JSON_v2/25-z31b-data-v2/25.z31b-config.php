@@ -1,24 +1,23 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
-
+$p_id =  'z31b';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '10';
+$p_dd =  '29';
+$p_name4folder =  'zyn-pool-user';
+$p_name4json =  'zyn-entendimiento-de-categoria-dia-0';
+$p_name4folderDCE =  'ZYN Pool User';
+$p_mailname4DCE =  'ZYN_ENTENDIMIENTO_DE_CATEGORÍA_DÍA_0';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'ZYN Pool User';
+$p_mailname4FSH =  'ZYN_ENTENDIMIENTO_DE_CATEGORÍA_DÍA_0';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 //-----------------------------------------
 
-$companyBrand     = "pmi";
+$companyBrand     = "zyn";
 
 switch ( (string)$companyBrand ){
     case 'zyn':
@@ -43,40 +42,28 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
+    "zyn25-header-zyn",
+    "iqos24-center-img",    // 1g
+    "zyn25-greeting",       // 
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4    Descubre más           https://www.zyn.com/mx/es/descubre-zyn.html
     "iqos24-center-img",    // 5
     "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
+    "iqos24-center-img",    // 7g   https://www.zyn.com/mx/es/compra-zyn.html
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
+    "iqos24-center-img",    // zyn-siguenos-ig.jpg
+    "iqos24-center-img",    // zyn-find-your-zyn.jpg
 
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-    "iqos24-columns-img-img-img",      //
-    "iqos24-columns-img-greeting-img", //
-    'iqos24-IQOS-Wallet',   //  x, x, x 
-    "iqos24-columns-img-referralcode-img",
-    
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-    'iqos24-columns',       // 
+// Descubre más           https://www.zyn.com/mx/es/descubre-zyn.html
+// Comprar ahora          https://www.zyn.com/mx/es/compra-zyn.html
+// Síguenos en Instagram  https://www.instagram.com/zyn_mxoficial/
+// Compra en línea        https://www.zyn.com/mx/es/compra-zyn.html
 
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    ""
+    'iqos24-spacer',        //
+    "zyn25-legales",
+    "zyn25-footer"
 
 );
 

@@ -1679,6 +1679,130 @@ $libraryBlocks['iqos24-columns-img-greeting-img'] ='
                 }
             ]
         },';
+$libraryBlocks['iqos24-columns-img-referralcode-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "%%referral_code%%",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                },
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "#242729",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "80",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "80",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "%%referral_code%%",
+                                    "txt_"         : "XXXXXXXXX",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "26",
+                                    "height"      : "30",
+                                    "txtclass"    : "txt_26",
+                                    "align"       : "center",
+                                    "color"       : "#ffffff",
+                                    "this"        : "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "10",
+                    "img_width_pc"  : "100",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "22.id-x.jpg",
+                    "url"           : "#",
+                    "this"          : "IMG 22.id-x"
+                }
+            ]
+        },';
+$libraryBlocks['iqos24-columns-multirows-img-img-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "MultiRows[img,img,img]",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "#242729",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        }
+                    ]
+                }
+            ]
+        },';
 
 
 
@@ -1704,6 +1828,22 @@ $libraryBlocks['iqos24-header-iqos'] ='
             "this"          :  "IMG header IQOS New Brand World",
             "version"       :  "iqos-2024-v1.twig"
         },';
+$libraryBlocks['iqos24-header-iqos-DARK'] ='
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "header-iqos-fc-dark.png",
+            "alt"           :  "",
+            "url"           :  "#",
+            "alias"         :  "",
+            "mtop"          :  "0",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG header IQOS New Brand World",
+            "version"       :  "iqos-2024-v1.twig"
+        },';
+
+
 $libraryBlocks['iqos24-center-img'] ='
         {
             "type"          :  "iq24-center-img",
@@ -2214,6 +2354,44 @@ $libraryBlocks['iqos24-footer-iqos-forever-curious'] ='
             "color"         :  "#34303d",
             "bgcolor"       :  "transparent",
             "linkcolor"     :  "#34303d",
+            "version"       :  "iqos-2024-v1.twig"
+        }';
+
+$libraryBlocks['iqos24-footer-iqos-forever-curious-DARK'] ='
+
+
+        {   "SECCION"       :  " FOOTER Forever Curious" },
+        {
+            "type"          :  "iq24-footer-iqos-fc-disclaimers",
+            "txt"           :  "",
+            "darkmode_img"  :  "1",
+            "color"         :  "#ffffff",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
+            "this_TXT"      :  "{LEGALES DE ESTA PIEZA}",
+            "DTI":
+            {
+                "showIluma"  :  "0",
+                "txtIluma"   :  "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk"    :  "Este producto no es libre de riesgo, contiene nicotina<br> la cual es adictiva. Solo para adultos.",
+                "txtInfo"    :  "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy" :  "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                "THIS"       :  "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-links",
+            "darkmode_img"  :  "1",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
+            "version"       :  "iqos-2024-v1.twig"
+        },
+        {
+            "type"          :  "iq24-footer-iqos-fc-address",
+            "color"         :  "#ffffff",
+            "bgcolor"       :  "transparent",
+            "linkcolor"     :  "#ffffff",
             "version"       :  "iqos-2024-v1.twig"
         }';
 
