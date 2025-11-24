@@ -1,0 +1,238 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_ZYN Diciembre 19 11 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_ZYN LIVE_20",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH" } ,
+            { "urlS" : "https://paginum.com/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z76-zyn-zyn-live-20-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-251119-ID25.z76-zyn-zyn-live-20-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z76 ZYN ZYN LIVE 20",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/da811c62-1afe-40b1-8eed-89d4858e5eae.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/e6c28be5-68f3-481e-a1d5-051144604f7e.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z76-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(FirstName)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0d357654-e8a8-475d-845d-4c99ce50959d.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z76-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4.3",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "MultiRows[img,img,img]",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#003b5e",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/9b0a9bd7-49a5-4b8a-8894-5ea7c1fbf757.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.z76-3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b754ff16-5090-4447-8beb-6f8fe698cd5d.gif",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "90",
+                            "align": "center",
+                            "url": "https://www.instagram.com/zyn_mxoficial/",
+                            "THISIMG": "GIF recap 25.z76-4b"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0844e2ed-033d-4a6f-861a-4cb5c722010b.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "https://www.instagram.com/zyn_mxoficial/",
+                            "THISIMG": "Descubre más 25.z76-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/a515f029-c3df-4220-a4f8-7d34f48e159f.jpg",
+            "alt": "",
+            "url": "https://www.zyn.com/mx/es/zyn-live-mexico.html",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "imagen concierto IMG 25.z76-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/7138d434-ed50-4e50-bbae-7839cb3c1bb3.gif",
+            "alt": "",
+            "url": "https://www.instagram.com/zyn_mxoficial/",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "60",
+            "this": "Síguenos en Instagram IMG 25.z76-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d8f8f2ff-d6ce-48ac-9bf9-a5ac6c6047ce.jpg",
+            "alt": "",
+            "url": "https://conoce-zyn.com/wp-content/localizador-tiendas.html",
+            "alias": "",
+            "mtop": "40",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "20",
+            "bgcolor": "transparent"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

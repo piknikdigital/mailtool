@@ -1,0 +1,257 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20251121_LEADS December > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_LOCAL_ZAMNA_PERFUMERICA_4",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2511/pmi-251121-leads-diciembre/pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-251121-ID25.263-leads-zamna-perfumerica-4-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.263 LEADS LOCAL ZAMNA PERFUMERICA 4",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#002115",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c541f6dc-1d68-475a-be8a-b3a0e0c89212.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/bdbf6f96-05a8-416f-a02f-a9b11e179a49.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.263-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/15cc525e-55d3-4d36-b0a8-721444266ea2.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-gris.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "Comprar ahora IMG 25.263-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/d3f8198a-5540-40d9-b0b0-46285846a904.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.263-3b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8fa3f3ad-6e24-4dd4-840d-ef1980a93d0c.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/shop/kit-iqos-iluma-gris.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "Comprar ahora IMG 25.263-4b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/aacc4c79-bedc-437f-be9b-909ce32fb132.jpg",
+            "alt": "",
+            "url": "https://www.pmiprivacy.com/es-la/consumer",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "LINK PRIVACY IMG 25.263-5b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1355c3d2-ba3f-48d1-82d6-35a2434c2910.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.263-6b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "GIF",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "30",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/438edd9c-8fd9-46d8-b452-acbff2c63e8a.jpg",
+                    "url": "https://conoce-iqos.com/localizador-tiendas/",
+                    "this": "LOCALIZA UNA TIENDA IMG 25.263-7b"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "20",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/95de63bf-e9a2-4d80-9394-ee07af8bb977.jpg",
+                    "url": "tel:8001476769",
+                    "this": "CONTACTANOS IMG 25.263-8b"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "36",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/b650eda0-d037-4dce-bf03-b9832644c1af.jpg",
+                    "url": "https://www.facebook.com/iqosmx/",
+                    "this": "FACEBOOK IMG 25.263-9b"
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "14",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/7a3319cb-ebae-4776-9078-39a908228779.jpg",
+                    "url": "https://www.instagram.com/iqos_mx/",
+                    "this": "INSTAGRAM IMG 25.263-10b"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/58131a0a-226a-4267-a70f-ed32f1119c2b.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.263-11b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/cfdae5c7-0e1f-45c5-8312-c42b893891ca.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "LINK DARME DE BAJA IMG 25.263-12b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "_type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "",
+            "darkmode_img": "1",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

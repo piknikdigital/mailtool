@@ -1,0 +1,251 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20251119_ZYN December > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "ZYN_TOGETHERCLUB_2",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE" } ,
+            { "urlS" : "https://paginum.com/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "zyn2511/zyn-251119-zyn-diciembre/zyn-251119-ID25.z73-zyn-togetherclub-2-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "zyn-2025-v1.twig",
+    "Source"           :   "zyn-251119-ID25.z73-zyn-togetherclub-2-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.z73 ZYN TOGETHERCLUB 2",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#FFFFFF",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/905a3057-e5e6-4fcb-8c46-6b0448c08c41.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header ZYN",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/1fa9d093-506e-42bd-bebd-bc8679f62515.gif",
+            "alt": "",
+            "url": "https://together-club.com/Account/Account/AgeGate",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.z73-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-p",
+            "font": "Figtree",
+            "fontweight": "700",
+            "fontsize": "30",
+            "height": "34",
+            "txtclass": "txt_30",
+            "width_pc": "100",
+            "align": "center",
+            "color": "#003b5e",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "msides": "0",
+            "mcolor": "transparent",
+            "txt": "Hola, %%=Uppercase(first_name)=%%",
+            "this": "TXT | Azul: 003b5e | Turquesa: #00d1d2 | Slate: #34303d "
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2ac674af-da8d-418f-b991-5d095c06ba24.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "IMG 25.z73-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "4.3",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "MultiRows[img,img,img]",
+            "columns": [
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#f1efee",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "100",
+                    "rows": [
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/a1ed1912-6ace-43a3-9c75-ca8fd17fe25a.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "#",
+                            "THISIMG": "25.z73-3"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/552ce29f-ea0b-498b-a0d4-8d8f9c919f48.gif",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "90",
+                            "align": "center",
+                            "url": "https://together-club.com/Account/Account/AgeGate",
+                            "THISIMG": "RULETA 25.z73-4"
+                        },
+                        {
+                            "rowtype": "img",
+                            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/35f2c72f-4901-4988-813c-739782e5570f.jpg",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "100",
+                            "align": "center",
+                            "url": "https://together-club.com/Account/Account/AgeGate",
+                            "THISIMG": "Quiero ganar 25.z73-5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/65a45306-5912-4d4f-a672-240cab0baba7.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "20",
+            "width_pc": "100",
+            "this": "IMG 25.z73-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/74df9af8-44b6-4525-8fef-fedd99434aba.gif",
+            "alt": "",
+            "url": "https://together-club.com/Account/Account/AgeGate",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "91.4",
+            "this": "premios IMG 25.z73-7b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/2e086159-f13b-445c-aa89-22e5b5c310a1.jpg",
+            "alt": "",
+            "url": "https://together-club.com/Account/Account/AgeGate",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "40",
+            "width_pc": "100",
+            "this": "Quiero ganar IMG 25.z73-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/f34574db-3fed-491b-8d00-92ae0e82a4d0.jpg",
+            "alt": "",
+            "url": "https://conoce-zyn.com/wp-content/localizador-tiendas.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG zyn-find-your-zyn",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "type": "zyn25-legales",
+            "font": "Gotham, Arial, sans-serif",
+            "bgcolor": "#ffffff",
+            "color": "#34303d",
+            "align": "justify",
+            "fontsize": "11",
+            "mtop": "30",
+            "mbottom": "30",
+            "this": "BLOQUE DE LEGALES ZYN",
+            "items": [
+                {
+                    "txt": "",
+                    "this": "{LEGALES DE ESTA PIEZA}"
+                },
+                {
+                    "txt": "Este producto no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.<br><br>Consulta la página de  <a href=\"https://www.zyn.com/mx/es/informacion-importante/\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.<br><br>Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;\" target=\"_blank\">aquí</a>.",
+                    "this": "{LEGALES ZYN - Duty To Inform}"
+                }
+            ]
+        },
+        {
+            "type": "zyn25-footer",
+            "version": "zyn-2025-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}
