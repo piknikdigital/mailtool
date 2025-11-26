@@ -1,20 +1,21 @@
 <?php
 
-$p_id =  '260';
+$p_id =  '256';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '11';
 $p_dd =  '25';
 $p_name4folder =  'laus-diciembre';
-$p_name4json =  'laus-feliznavidad-23';
+$p_name4json =  'laus-ultimas-semanas-zamna-9';
 $p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_FELIZNAVIDAD_23';
+$p_mailname4DCE =  'LAUS_DCE_ULTIMAS_SEMANAS_ZAMNA_9';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
@@ -38,25 +39,31 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#191a1e";    // Dark mode IQOS
+$bgColor          = "#1b1b1b";    // Dark mode IQOS
 
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
+    "iqos24-header-iqos-DARK",
     "iqos24-center-img",    // 1g
-    "iqos24-columns-img-greeting-img", // 2, greeting, 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5g
-    "iqos24-center-img",    // 6    Instagram	https://www.instagram.com/iqos_mx/
-    "iqos24-center-img",    // 7
-    
-    
-// Instagram	https://www.instagram.com/iqos_mx/
+    "iqos24-greeting",      // 
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3g   Gira la ruleta	https://together-club.com/Account/Account/AgeGate
+    "iqos24-center-img",    // 4g
+    "iqos24-center-img",    // 5
+    "iqos24-columns-img-referralcode-img",  // 6, XX , 7  (30%, 40%, 30%)
+    "iqos24-center-img",    // 8    SHARE CODE 25%
+    "iqos24-center-img",    // 9    
+    "iqos24-center-img",    // 10   IG
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    "iqos24-center-img",    // 8
+
+// Gira la ruleta	https://together-club.com/Account/Account/AgeGate
+// Conoce más	    https://www.iqos.com/mx/es/curious-zamna-tulum.html
+// Compartir mi código	TBD
+
+
+    'iqos24-spacer',
+    "iqos24-footer-iqos-forever-curious-DARK",
     ""
 
 );
@@ -88,7 +95,7 @@ $requiredBlocks__IQOS = array(
 
 
     'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-260X, columna 3: margen derecho  
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-256X, columna 3: margen derecho  
     'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
     'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
 
@@ -116,6 +123,8 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
+
+
 
 
 
@@ -218,7 +227,8 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
---------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.​    <br><br>   (2) Descuento del 25% vigente del 01 al 31 de diciembre de 2025. Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>. Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> para más detalles.
+
 --------------------
 --------------------
 --------------------

@@ -1,15 +1,15 @@
 <?php
 
-$p_id =  '260';
+$p_id =  '255';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '11';
 $p_dd =  '25';
 $p_name4folder =  'laus-diciembre';
-$p_name4json =  'laus-feliznavidad-23';
+$p_name4json =  'laus-zamna-perfumerica-4';
 $p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_FELIZNAVIDAD_23';
+$p_mailname4DCE =  'LAUS_DCE_ZAMNA_PERFUMERICA_4';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -38,25 +38,27 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#191a1e";    // Dark mode IQOS
+$bgColor          = "#1b1b1b";    // Dark mode IQOS
 
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
+    "iqos24-header-iqos-DARK",
     "iqos24-center-img",    // 1g
-    "iqos24-columns-img-greeting-img", // 2, greeting, 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5g
-    "iqos24-center-img",    // 6    Instagram	https://www.instagram.com/iqos_mx/
-    "iqos24-center-img",    // 7
-    
-    
-// Instagram	https://www.instagram.com/iqos_mx/
+    "iqos24-greeting",      // 
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3
+    "iqos24-center-img",    // 4    Descubre más    https://www.iqos.com/mx/es/home.html
+    "iqos24-center-img",    // 5g   Comprar ahora	https://www.iqos.com/mx/es/shop/kit-iqos-iluma-gris.html
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    "iqos24-center-img",    // 8
+
+// Descubre más           https://www.iqos.com/mx/es/home.html
+// Descubre más           https://www.iqos.com/mx/es/home.html
+// Compartir mi código    TBD
+// Localiza una tienda    https://www.iqos.com/mx/es/localizador-tiendas.html
+
+    'iqos24-spacer',
+    "iqos24-footer-iqos-forever-curious-DARK",
     ""
 
 );
@@ -88,7 +90,7 @@ $requiredBlocks__IQOS = array(
 
 
     'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-260X, columna 3: margen derecho  
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-255X, columna 3: margen derecho  
     'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
     'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
 
@@ -116,6 +118,9 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
+
+
+
 
 
 

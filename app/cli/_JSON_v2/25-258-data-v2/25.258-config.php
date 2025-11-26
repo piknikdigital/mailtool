@@ -1,20 +1,21 @@
 <?php
 
-$p_id =  '260';
+$p_id =  '258';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '11';
 $p_dd =  '25';
 $p_name4folder =  'laus-diciembre';
-$p_name4json =  'laus-feliznavidad-23';
+$p_name4json =  'laus-perfumerica-16';
 $p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_FELIZNAVIDAD_23';
+$p_mailname4DCE =  'LAUS_DCE_PERFUMERICA_16';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
+
 
 //-----------------------------------------
 
@@ -38,25 +39,36 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#191a1e";    // Dark mode IQOS
+$bgColor          = "#00150e";    // Dark mode IQOS
 
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
+    "iqos24-header-iqos-DARK",
     "iqos24-center-img",    // 1g
-    "iqos24-columns-img-greeting-img", // 2, greeting, 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5g
-    "iqos24-center-img",    // 6    Instagram	https://www.instagram.com/iqos_mx/
-    "iqos24-center-img",    // 7
-    
-    
-// Instagram	https://www.instagram.com/iqos_mx/
+    "iqos24-greeting",      // 
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4    Comprar ahora  https://www.iqos.com/mx/es/shop/kit-iqos-iluma-gris.html
+    "iqos24-center-img",    // 5    Instagram      https://www.instagram.com/iqos_mx/
+    "iqos24-center-img",    // 6
+    "iqos24-center-img",    // 7    AQUI            https://www.pmiprivacy.com/es-la/consumer
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    "iqos24-center-img",    // 8
+    "iqos24-columns-img-img-img",      //
+                            // 8    Loc tienda      https://conoce-iqos.com/localizador-tiendas/ 
+                            // 9    Contactanos
+                            // 10   FB
+                            // 11   IG
+    
+    "iqos24-center-img",    // 12
+    "iqos24-center-img",    // 13   DAR -DE BAJA    https://www.iqos.com/mx/es/preference-center.html?data=sDm1jmlDBx8hegPLF8R%2fyCqu1tRRL2yfnvTUZajduvA%3d&key=79d6bb837848a629&mode=form&Tracking_Parameter=%%__AdditionalEmailAttribute1%%
+
+
+// Comprar ahora  https://www.iqos.com/mx/es/shop/kit-iqos-iluma-gris.html
+// Instagram      https://www.instagram.com/iqos_mx/
+
+    'iqos24-spacer',
+    "iqos24-footer-iqos-forever-curious-DARK",
     ""
 
 );
@@ -88,7 +100,7 @@ $requiredBlocks__IQOS = array(
 
 
     'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-260X, columna 3: margen derecho  
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-258X, columna 3: margen derecho  
     'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
     'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
 
@@ -116,6 +128,57 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
+// MODULOS PARA TEMPLATE zyn-2025-v1.twig
+$requiredBlocks__ZYN = array(
+    "zyn25-header-zyn",     
+    "iqos24-center-img",    // 1
+    "zyn25-greeting",       // 
+    "iqos24-center-img",    // 2
+    "iqos24-center-img",    // 3
+    "iqos24-center-img",    // 4
+    "iqos24-center-img",    // 5
+    "iqos24-center-img",    // 6
+
+    "iqos24-center-img",    // zyn-siguenos-ig.jpg
+    "iqos24-center-img",    // zyn-find-your-zyn.jpg
+    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
+
+    'iqos24-spacer',        // 
+    "zyn25-legales",
+    "zyn25-footer",
+    ""
+);
+
+// MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
+$requiredBlocks_cz = array(
+    "tc25-header",          // 
+    "iqos24-center-img",    // 
+    'cz25-p700',            // 
+    "iqos24-center-img",    // 
+    "iqos24-center-img",    // 
+    
+    // saludo
+    "cz25-greeting",        // 
+    'cz25-p700',            // 
+    'cz25-p300',            // 
+
+    "iqos24-center-img",    // 
+    'iqos24-columns',       // 
+        
+    "iqos24-center-img",    // 
+    'cz25-p300',            // 
+    'cz25-p700',            // 
+
+    "tc25-textbox-black",
+    "tc25-textbox-grey",
+    "tc25-textbox-gray-listbox-cta",
+
+
+    "tc25-dudas-contactanos",
+    "tc25-siguenos-rs-2",
+    "tc25-footer"
+);
+
 
 
 

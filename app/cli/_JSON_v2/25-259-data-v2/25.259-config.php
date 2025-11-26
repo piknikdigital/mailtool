@@ -1,15 +1,15 @@
 <?php
 
-$p_id =  '260';
+$p_id =  '259';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '11';
 $p_dd =  '25';
 $p_name4folder =  'laus-diciembre';
-$p_name4json =  'laus-feliznavidad-23';
+$p_name4json =  'laus-mgm-18';
 $p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_FELIZNAVIDAD_23';
+$p_mailname4DCE =  'LAUS_DCE_MGM_18';
 $p_customerkey_DCE =  'NA';
 $p_name4folderFSH =  'NA';
 $p_mailname4FSH =  'NA';
@@ -38,25 +38,35 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#191a1e";    // Dark mode IQOS
+$bgColor          = "#1b1b1b";    // Dark mode IQOS
 
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos",   // 
+    "iqos24-header-iqos-DARK",
     "iqos24-center-img",    // 1g
-    "iqos24-columns-img-greeting-img", // 2, greeting, 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5g
-    "iqos24-center-img",    // 6    Instagram	https://www.instagram.com/iqos_mx/
-    "iqos24-center-img",    // 7
-    
-    
-// Instagram	https://www.instagram.com/iqos_mx/
+    "iqos24-center-img",    // 2
+    "iqos24-columns-img-greeting-img", // 3(5%), saludo(90%), 4(5%)
+                            // 3
+                            // 4
+    "iqos24-center-img",    // 5
+    "iqos24-center-img",    // 6
+    "iqos24-columns-img-referralcode-img", // 7(5%), xxxx(90%), 8(5%)
+                            // 7    
+                            // 8
+    "iqos24-center-img",    // 9    WA sharecode 25%
+    "iqos24-center-img",    // 10
+    "iqos24-columns-img-img-img",      //
+                            // 11
+                            // 12g
+    "iqos24-center-img",    // 13   Registrarme ahora     https://together-club.com/Account/Account/AgeGate
 
-    'iqos24-spacer',        // 
-    "iqos24-footer-iqos-forever-curious",    // 
-    "iqos24-center-img",    // 8
+
+// Compartir mi código   TBD 25% descuento
+// Registrarme ahora     https://together-club.com/Account/Account/AgeGate
+// Localiza una tienda   https://www.iqos.com/mx/es/localizador-tiendas.html
+
+    "iqos24-footer-iqos-forever-curious-DARK",
     ""
 
 );
@@ -88,7 +98,7 @@ $requiredBlocks__IQOS = array(
 
 
     'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-260X, columna 3: margen derecho  
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-259X, columna 3: margen derecho  
     'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
     'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
 
@@ -218,6 +228,25 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+"donde_codificar_la_siguiente url" : "https://www.urlencoder.org/",
+"url_ctaDECODED"       : "whatsapp://send?text=",
+
+"txt2Encode_ILUMA20pc" : "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA20pc" : "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+"txt2Encode_ILUMA25pc" : "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA25pc" : "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+"txt2Encode_ILUMA30pc" : "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA30pc" : "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+"txt2Encode_ILUMA35pc" : "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+"txtEncoded_ILUMA35pc" : "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
+"url_NOK"       : " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+"url_OK"        : "https://wa.me/?text=",
+"url"           : "https://wa.me/?text=Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+
 --------------------
 --------------------
 --------------------
@@ -225,6 +254,8 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+(1) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (2) Descuento del 25% vigente del 01 al 31 de diciembre de 2025. Consulta Términos y Condiciones. Válido en la compra y registro del primer dispositivo (IQOS Holder + Cargador IQOS) de cada amigo referido. Para obtener su descuento, el amigo referido debe registrarse y registrar su dispositivo en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y hacerlo válido en Tiendas IQOS, IQOS Corners en Sanborns seleccionados y en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>.​<br><br>Consulta <a href=\"https://www.iqos.com/mx/es/terminos-y-condiciones-del-programa-refiere-a-un-amigo.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">Términos y Condiciones</a> para más detalles.
+
 --------------------
 --------------------
 --------------------
@@ -251,11 +282,11 @@ https://conoce-iqos.com/localizador-tiendas/
 ============================================================
 
 ==== [iqos.com] ============================================
-<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>
 ============================================================
 
 ==== [ www.iqos.com ] ======================================
-<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>
 ============================================================
 
 
