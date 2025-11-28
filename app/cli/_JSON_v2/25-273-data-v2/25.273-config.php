@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "25";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '273';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '25';
+$p_mm =  '11';
+$p_dd =  '30';
+$p_name4folder =  'scanpack';
+$p_name4json =  'leads-5-tryorbuy-uic-28-full';
+$p_name4folderDCE =  'Scanpack';
+$p_mailname4DCE =  'LEADS_DCE_LOCAL_5_TRYORBUY_UIC_28_FULL';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'Scanpack';
+$p_mailname4FSH =  'LEADS_DCE_LOCAL_5_TRYORBUY_UIC_28_FULL';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -46,36 +46,26 @@ $requiredBlocks = array(
     "iqos24-header-iqos",   // 
     "iqos24-center-img",    // 1
     "iqos24-greeting",      // 
-    
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4    Localiza una tienda  https://conoce-iqos.com/localizador-tiendas/
     "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-273X, columna 3: margen derecho  
+                            // 6    35%
+                            // 7    35%
 
+    "iqos24-center-img",    // 8    Comprar ahora        https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
 
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-
-    'iqos24-columns-img-xxxxx-img',         //  #, referralcode, # (x%, x%, x%)
-    'iqos24-columns-multirows-img-img',     //  Tarjeta IMG SUP/IMG INF
+    "iqos24-columns-img-img-img",      //
+    "iqos24-columns-img-greeting-img", //
     "iqos24-columns-multirows-img-img-img", //
-    'iqos24-IQOS-Wallet',                   //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-img-sharemycode',               //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
-    "iqos24-columns-img-img-img",           //  #, # , #  (x%, x%, x%)
-    "iqos24-columns-img-greeting-img",      //  #, hola , #  (x%, x%, x%)
     
-
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
     'iqos24-columns',       // 
+
+// Localiza una tienda  https://conoce-iqos.com/localizador-tiendas/
+// Comprar ahora        https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
+// Localiza una tienda  https://conoce-iqos.com/localizador-tiendas/
 
 
     'iqos24-spacer',
@@ -86,10 +76,6 @@ $requiredBlocks = array(
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
 $requiredBlocks__IQOS = array(
-    "iqos24-header-iqos-DARK",
-    "iqos24-footer-iqos-forever-curious-DARK",
-
-
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -113,12 +99,9 @@ $requiredBlocks__IQOS = array(
     "iqos24-columns-img-img-img",
     "iqos24-columns-img-greeting-img",
 
-    //Hacen lo mismo:
-    'iqos24-columns-img-xxxxx-img',         //  Columna 1: IMG1 margen izq, Columna 2: CODIGO-MGM, columna 3: margen derecho  
-    "iqos24-columns-img-referralcode-img",
-    
 
     'iqos24-IQOS-Wallet',                //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
+    'iqos24-columns-img-xxxxx-img',      //  Columna 1: IMG1 margen izq, Columna 2:  CODIGO-MGM-273X, columna 3: margen derecho  
     'iqos24-img-sharemycode',            //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
     'iqos24-columns-multirows-img-img',  //  Tarjeta IMG SUP/IMG INF
 
@@ -146,57 +129,6 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",     
-    "iqos24-center-img",    // 1
-    "zyn25-greeting",       // 
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-
-    "iqos24-center-img",    // zyn-siguenos-ig.jpg
-    "iqos24-center-img",    // zyn-find-your-zyn.jpg
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
-
-    'iqos24-spacer',        // 
-    "zyn25-legales",
-    "zyn25-footer",
-    ""
-);
-
-// MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
-$requiredBlocks_cz = array(
-    "tc25-header",          // 
-    "iqos24-center-img",    // 
-    'cz25-p700',            // 
-    "iqos24-center-img",    // 
-    "iqos24-center-img",    // 
-    
-    // saludo
-    "cz25-greeting",        // 
-    'cz25-p700',            // 
-    'cz25-p300',            // 
-
-    "iqos24-center-img",    // 
-    'iqos24-columns',       // 
-        
-    "iqos24-center-img",    // 
-    'cz25-p300',            // 
-    'cz25-p700',            // 
-
-    "tc25-textbox-black",
-    "tc25-textbox-grey",
-    "tc25-textbox-gray-listbox-cta",
-
-
-    "tc25-dudas-contactanos",
-    "tc25-siguenos-rs-2",
-    "tc25-footer"
-);
-
 
 
 

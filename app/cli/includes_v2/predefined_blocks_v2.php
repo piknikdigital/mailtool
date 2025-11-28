@@ -1403,7 +1403,7 @@ $libraryBlocks['iqos24-columns-img-xxxxx-img'] ='
             "mtop"      : "0",
             "mbottom"   : "0",
             "bgcolor"   : "transparent",
-            "this"      : " CODE MGM",
+            "this"      : "CODE MGM",
             "columns"   :
             [
                 {
@@ -1545,6 +1545,120 @@ $libraryBlocks['iqos24-columns-multirows-img-img'] ='
                 }
             ]
         },';
+$libraryBlocks['iqos24-columns-multirows-img-greeting-img'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "4.3",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "middle",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        },
+                        {
+                            "rowtype"   : "p",
+                            "bgcolor"   : "transparent",
+                            "mtop"      : "0",
+                            "mbottom"   : "0",
+                            "width_pc"  : "100",
+                            "texts"     :
+                            [   
+                                {
+                                    "txt"         : "Hola, %%first_name%%",
+                                    "fontweight"  : "700",
+                                    "fontsize"    : "26",
+                                    "height"      : "26",
+                                    "txtclass"    : "txt_26",
+                                    "align"       : "center",
+                                    "color"       : "#34303d",
+                                    "this"        : "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+                                }
+                            ]
+                        },
+                        {
+                            "rowtype"       : "img",
+                            "img"           : "22.id-x.jpg",
+                            "bgcolor"       : "transparent",
+                            "mtop"          : "0",
+                            "mbottom"       : "0",
+                            "width_pc"      : "100",
+                            "align"         : "center",
+                            "url"           : "#",
+                            "THISIMG"       : "22.id-x"
+                        }
+                    ]
+                }
+            ]
+        },';
+
+
+
+$libraryBlocks['iqos24-referralcode'] ='
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "multirows",
+                    "bgcolor"       : "transparent",
+                    "vertical_align": "top",
+                    "param_info"    : "opciones vertical_align: top|middle|bottom",
+                    "bgimg"         : "",
+                    "width_pc"      : "100",
+                    "rows"          :
+                    [
+                        {
+                            "README"        : "XXXXX (Referral_Code)",
+                            "rowtype"       : "pframed",
+                            "bgcolor"       : "transparent",
+                            "txt"           : "%%referral_code%%",
+                            "fontweight"    : "700",
+                            "fontsize"      : "16",
+                            "height"        : "22",
+                            "txtclass"      : "txt_16",
+                            "align"         : "center",
+                            "width_pc"      : "80",
+                            "mtop"          : "20",
+                            "mbottom"       : "0",
+                            "color"         : "#ffffff",
+                            "framecolor"    : "#ffffff",
+                            "framebgcolor"  : "transparent",
+                            "framepadding"  : "6",
+                            "border"        : "2",
+                            "this"          : ""
+                        }
+                    ]
+                }
+            ]
+        },';
+
 
 
  
