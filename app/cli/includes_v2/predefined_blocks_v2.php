@@ -1327,6 +1327,35 @@ $libraryBlocks['cz25-tableNN'] ='
                 }
             ]
         },';
+ $libraryBlocks['zyn25-zyn-siguenos-ig'] = '
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "zyn-siguenos-ig.jpg",
+            "alt"           :  "",
+            "url"           :  "https://www.instagram.com/zyn_mxoficial/",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG zyn-siguenos-ig",
+            "version"       :  "iqos-2024-v1.twig"
+        },';
+ $libraryBlocks['zyn25-zyn-find-your-zyn'] = '
+        {
+            "type"          :  "iq24-center-img",
+            "bgcolor"       :  "transparent",
+            "img"           :  "zyn-find-your-zyn.jpg",
+            "alt"           :  "",
+            "url"           :  "https://conoce-zyn.com/wp-content/localizador-tiendas.html",
+            "alias"         :  "",
+            "mtop"          :  "40",
+            "mbottom"       :  "0",
+            "width_pc"      :  "100",
+            "this"          :  "IMG zyn-find-your-zyn",
+            "version"       :  "iqos-2024-v1.twig"
+        },';
+
 
 /** ----------------------------------------------------
  *    END CRM 2024-10    Plantilla zyn-2025-v1.twig

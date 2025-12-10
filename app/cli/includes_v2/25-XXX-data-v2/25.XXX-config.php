@@ -89,7 +89,6 @@ $requiredBlocks__IQOS = array(
     "iqos24-header-iqos-DARK",
     "iqos24-footer-iqos-forever-curious-DARK",
 
-
     "iqos24-header-iqos",   // REEMPLAZA A: "header_brand_world", 
     "iqos24-center-img",    // REEMPLAZA A: "img", "stageIMG",
     "iqos24-greeting",      // REEMPLAZA A: "greeting_v2",
@@ -129,12 +128,6 @@ $requiredBlocks__IQOS = array(
     'iqos24-columns',       // REEMPLAZA A: "columns",
     'iqos24-spacer',        // REEMPLAZA A: "spacer",
     
-
-
-
-
-
-    
     "iqos24-canales-de-comunicacion-2",
 
     'iqos24-Tu-Equipo-IQOS',// REEMPLAZA A: "Tu_Equipo_IQOS",
@@ -157,11 +150,11 @@ $requiredBlocks__ZYN = array(
     "iqos24-center-img",    // 5
     "iqos24-center-img",    // 6
 
-    "iqos24-center-img",    // zyn-siguenos-ig.jpg
-    "iqos24-center-img",    // zyn-find-your-zyn.jpg
-    'iqos24-columns',       // #, XX , #  (21%, 58%, 21%)
+    "zyn25-zyn-siguenos-ig",   // zyn-siguenos-ig.jpg
+    "zyn25-zyn-find-your-zyn", // zyn-find-your-zyn.jpg
+    "iqos24-columns",       // #, XX , #  (21%, 58%, 21%)
 
-    'iqos24-spacer',        // 
+    "iqos24-spacer",
     "zyn25-legales",
     "zyn25-footer",
     ""
