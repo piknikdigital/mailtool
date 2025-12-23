@@ -1,0 +1,261 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > Mexico > Commercial > MX_20251216_LAUS January > 01_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LAUS_DCE_MGM10_27",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE" } ,
+            { "urlS" : "https://paginum.com/email/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2512/pmi-251216-laus-enero/pmi-251216-ID25.301-laus-mgm10-27-DCE.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "1",    
+
+    "target"                   :   "DCE",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-251216-ID25.301-laus-mgm10-27-DCE",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.301 LAUS DCE MGM10 27",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#020a1f",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/c541f6dc-1d68-475a-be8a-b3a0e0c89212.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8fe24887-59a6-49f9-8e18-84243f25d995.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.301-1b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-greeting",
+            "fontweight": "700",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "mtop": "40",
+            "mbottom": "20",
+            "txt": "Hola, %%=ProperCase(first_name)=%%",
+            "this": "Hola [nombre] | Turquesa: #00d1d2 | Slate: #34303d"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/16ce34f8-5ddb-450d-8783-d26af29af1db.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.301-2b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/ff0f5a83-583a-4071-a7b5-19fdb4666f32.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "91",
+            "this": "IMG 25.301-3",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/54247a3e-05cc-41c9-aa98-1626ece6e77f.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.301-4b",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "CODE MGM",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "34",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/6cf74cc3-4436-409f-89a5-a7c477475704.jpg",
+                    "url": "#",
+                    "this": "IMG 25.301-5b"
+                },
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#020a1f",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "32",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "bgcolor": "#020a1f",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "90",
+                            "texts": [
+                                {
+                                    "txt1": "xx",
+                                    "txt": "%%referral_code%%",
+                                    "fontweight": "700",
+                                    "fontsize": "18",
+                                    "height": "18",
+                                    "txtclass": "txt_18",
+                                    "align": "center",
+                                    "color": "#ffffff",
+                                    "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "34",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/749d1bac-12e1-4d0a-9ca1-176411098543.jpg",
+                    "url": "#",
+                    "this": "IMG 25.301-6b"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.e.iqos.com/lib/fe3a15707564067e7d1073/m/1/8505be81-3489-4baa-8e43-c58b3895b657.jpg",
+            "alt": "",
+            "donde_codificar_la_siguiente url": "https://www.urlencoder.org/",
+            "url_ctaDECODED": "whatsapp://send?text=",
+            "txt2Encode_ILUMA20pc": "Te regalo 20% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA20pc": "Te%20regalo%2020%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA25pc": "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA25pc": "Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA30pc": "Te regalo 30% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA30pc": "Te%20regalo%2030%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "txt2Encode_ILUMA35pc": "Te regalo 35% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar.",
+            "txtEncoded_ILUMA35pc": "Te%20regalo%2035%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "url_NOK": " [whatsapp://send?text=] [https://web.whatsapp.com/send?text=]",
+            "url_OK": "https://wa.me/?text=",
+            "url": "https://wa.me/?text=Te%20regalo%2025%25%20de%20descuento%20en%20la%20compra%20de%20tu%20primer%20Kit%20IQOS%20ILUMA%2C%20exclusivo%20en%20iqos.com.%20No%20olvides%20utilizar%20mi%20c%C3%B3digo%20%25%25referral_code%25%25%20al%20comprar.",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.301-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "50",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "(1) El dispositivo que se entregará podrá variar entre IQOS ILUMA ONE X Steve Aoki e IQOS ILUMA X Steve Aoki, sujeto a disponibilidad de inventario.    <br><br>    (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (3) Amazon Echo Show 5 G3 Asistente de Voz 5.5\" inalámbrico, WiFi, Bluetooth, Blanco, sujeto a disponibilidad de inventario.    <br><br>    (4) iPad 11a generación 128 GB en plata, sujeto a disponibilidad de inventario.",
+            "darkmode_img": "1",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo, contiene nicotina<br> la cual es adictiva. Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "darkmode_img": "1",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

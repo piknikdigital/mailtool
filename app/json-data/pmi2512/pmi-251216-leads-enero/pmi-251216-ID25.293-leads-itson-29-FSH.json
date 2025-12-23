@@ -1,0 +1,277 @@
+{
+    "DESCRIPTION"      :   "########### PMI  ############",
+   
+    "config_template" :
+    {
+        "MAMP-PRO-ON-MAC"  :   "http://mailtool.lan:8888/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH",
+        "MAMP-PRO-ON-PC"   :        "http://mailtool.lan/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH",
+
+        "MAMP-ON-MAC"      :   "http://localhost:8888/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH",
+        "openHTML-MAC"     :   "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH.html",
+
+        "Subject"          :   "",
+        "Preheader"        :   "",
+
+        "PATH"             :   "Content Builder > NA_LEADS Enero 16 12 2025 > 02_HTML",
+        "Name-CustomerKey" :   
+        [
+            { 
+                "name"        : "LEADS_LOCAL_ITSON_29",
+                "CustomerKey" : "NA"
+            }
+        ],
+        "test-url"         :   
+        [
+            { "urlD" : "https://paginum.com/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH" } ,
+            { "urlS" : "https://paginum.com/email/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH.html"  },
+            { "urlS" : "http://mailtool.lan:8888/email/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH.html"},
+            { "urlS" : "file:///Users/armandoromero/Documents/devF1/mailtool.lan/email/pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH.html" },
+            { "THIS" :  "urlD: Dynamic content / urlS: Static content" }
+        ]
+    },
+
+    "SECTION_1"        :   "########### CONFIGURACION DE PLANTILLA ####################", 
+    "BaseURLassets"    :   "",
+    "BaseURLimg"       :   "",
+    
+    "HTMLstaticfile"   :   "pmi2512/pmi-251216-leads-enero/pmi-251216-ID25.293-leads-itson-29-FSH.html",
+
+    "trackmailopen"            :   "1",
+    "trackmailaudience"        :   "0",    
+
+    "target"                   :   "FSH",
+
+    "TwigTemplate"     :   "iqos-2024-v1.twig",
+    "Source"           :   "pmi-251216-ID25.293-leads-itson-29-FSH",
+    "isWebVer"         :   " ",
+    
+    "SECTION_2"        :   "############ CONTENIDOS #####################################",
+    "PageTitle"        :   "ID25.293 LEADS LOCAL ITSON 29",
+    "PREHEADER"        :   "",
+    "content_bgcolor"  :   "#0d0c12",
+      "blocks" : 
+    [
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/b3276919-8d64-4cea-bae4-68d9014d69c0.png",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG header IQOS New Brand World",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/2b644fb6-c280-4761-93ad-40344d52385f.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-1",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/20010f6e-6a73-4404-8b3d-00b996afa82d.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-2",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-columns",
+            "font": "Cabin",
+            "msides": "0",
+            "mtop": "0",
+            "mbottom": "0",
+            "bgcolor": "transparent",
+            "this": "GREETING",
+            "columns": [
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "5",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/463e84f1-de75-43b1-b017-31298992ed46.jpg",
+                    "url": "#",
+                    "this": "IMG 25.293-3"
+                },
+                {
+                    "coltype": "multirows",
+                    "bgcolor": "#efedec",
+                    "vertical_align": "middle",
+                    "param_info": "opciones vertical_align: top|middle|bottom",
+                    "bgimg": "",
+                    "width_pc": "90",
+                    "rows": [
+                        {
+                            "rowtype": "p",
+                            "bgcolor": "transparent",
+                            "mtop": "0",
+                            "mbottom": "0",
+                            "width_pc": "90",
+                            "texts": [
+                                {
+                                    "txt": "Hola, %%FirstName%%",
+                                    "fontweight": "700",
+                                    "fontsize": "26",
+                                    "height": "30",
+                                    "txtclass": "txt_26",
+                                    "align": "center",
+                                    "color": "#34303d",
+                                    "this": "TXT | Turquesa: #00d1d2 | Slate: #34303d "
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "coltype": "img",
+                    "bgcolor": "transparent",
+                    "width_pc": "5",
+                    "img_width_pc": "100",
+                    "mtop": "0",
+                    "mbottom": "0",
+                    "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/0c36f674-9b53-4d3f-948b-f2b093969730.jpg",
+                    "url": "#",
+                    "this": "IMG 25.293-4"
+                }
+            ]
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/5962a0b1-cf52-4796-ba0e-d6be4891bc63.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-5",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/bf768a30-c3ea-421d-b8b9-4abbacb3e3f4.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-6",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/feed20f5-45ad-4a7f-bb80-379fd6c8fbf6.jpg",
+            "alt": "",
+            "url": "https://conoce-iqos.com/calculadora",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "Calcular ahora IMG 25.293-7",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/07ff2306-b226-4ac3-9134-05ec35d0410a.gif",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "30",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-8",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/d5a3e32d-0267-4bf3-baba-627bcc92064b.jpg",
+            "alt": "",
+            "url": "#",
+            "alias": "",
+            "mtop": "20",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "IMG 25.293-9",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-center-img",
+            "bgcolor": "transparent",
+            "img": "https://image.email-futurosinhumo.com/lib/fe42157175640478741574/m/1/a5f6a4ac-9f68-4bf4-9235-f996f08f0d16.jpg",
+            "alt": "",
+            "url": "https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html",
+            "alias": "",
+            "mtop": "0",
+            "mbottom": "0",
+            "width_pc": "100",
+            "this": "Comprar ahora IMG 25.293-10",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-spacer",
+            "height": "30",
+            "bgcolor": "transparent"
+        },
+        {
+            "SECCION": " FOOTER Forever Curious"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-disclaimers",
+            "txt": "(1) Nuevo precio vigente del 01 al 31 de enero de 2026 aplicable en la compra de los dispositivos IQOS ILUMA ONE y IQOS ILUMA en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS y Sanborns. Sujeto a disponibilidad de inventario. Consulta términos y condiciones | IQOS México.       <br><br>        (2) Descuento del 10% vigente del 01 al 31 enero de 2026 aplicable en la compra de tu primer IQOS ILUMA ONE y IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y Tiendas IQOS. Sujeto a disponibilidad de inventario. No aplicable con otro descuento o promoción. Consulta términos y condiciones | IQOS México.",
+            "darkmode_img": "1",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "this_TXT": "{LEGALES DE ESTA PIEZA}",
+            "DTI": {
+                "showIluma": "0",
+                "txtIluma": "IQOS ILUMA<sup>&trade;</sup> está diseñado para usarse únicamente con unidades de tabaco<br>SMARTCORE STICKS<sup>&trade;</sup>.<br><br>No utilice IQOS ILUMA<sup>&trade;</sup> y unidades de tabaco SMARTCORE STICKS<sup>&trade;</sup> con generaciones anteriores de IQOS<sup>&trade;</sup>, ya que esto puede causar daños a su dispositivo.<br><br>Más información en <a href=\"https://www.iqos.com/\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>.",
+                "txtRisk": "Este producto no es libre de riesgo, contiene nicotina<br> la cual es adictiva. Solo para adultos.",
+                "txtInfo": "Consulta la página de <a href=\"https://www.iqos.com/mx/es/Noticias/informacion-importante.html\" style=\"text-decoration:underline;\" target=\"_blank\">información importante</a> para obtener más detalles.",
+                "txtPrivacy": "Consulta nuestro aviso de privacidad con base en el cual son tratados tus datos personales <a href=\"https://www.pmiprivacy.com/es-la/consumer\" alias=\"footer_pmi_privacy\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">aquí</a>.",
+                "THIS": "{LEGALES [ILUMA], Duty To Inform}"
+            },
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-links",
+            "darkmode_img": "1",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "version": "iqos-2024-v1.twig"
+        },
+        {
+            "type": "iq24-footer-iqos-fc-address",
+            "color": "#ffffff",
+            "bgcolor": "transparent",
+            "linkcolor": "#ffffff",
+            "version": "iqos-2024-v1.twig"
+        }
+    ],
+
+    "END"            :   "#######################"
+
+}

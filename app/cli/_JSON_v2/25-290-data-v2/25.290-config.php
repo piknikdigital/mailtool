@@ -1,18 +1,18 @@
 <?php
 
-$p_id =  '301';
+$p_id =  '290';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '12';
 $p_dd =  '16';
-$p_name4folder =  'laus-enero';
-$p_name4json =  'laus-mgm10-27';
-$p_name4folderDCE =  'LAUS January';
-$p_mailname4DCE =  'LAUS_DCE_MGM10_27';
+$p_name4folder =  'leads-enero';
+$p_name4json =  'leads-itson-venta-20';
+$p_name4folderDCE =  'LEADS January';
+$p_mailname4DCE =  'LEADS_LOCAL_ITSON_VENTA_20';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'LAUS_DCE_MGM10_27';
+$p_name4folderFSH =  'LEADS Enero';
+$p_mailname4FSH =  'LEADS_LOCAL_ITSON_VENTA_20';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
@@ -39,7 +39,7 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#020a1f";    // Dark mode IQOS
+$bgColor          = "#020a1e";    // Dark mode IQOS
 
 //-----------------------------------------
 
@@ -47,14 +47,15 @@ $requiredBlocks = array(
     "iqos24-header-iqos-DARK",
     "iqos24-center-img",    // 1g
     "iqos24-greeting",      // 
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3g
-    "iqos24-center-img",    // 4
-    'iqos24-columns-img-xxxxx-img',         //  5, referralcode, 6 (34%, 32%, 34%)
-                            // 5
-                            // 6
-    'iqos24-img-sharemycode',//7  IMG con MSG WA: "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
-
+    "iqos24-center-img",    // 2    Conoce más       https://www.iqos.com/mx/es/beneficios.html
+    "iqos24-center-img",    // 3
+    "iqos24-center-img",    // 4g
+    "iqos24-center-img",    // 5    Comprar ahora    https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+    "iqos24-center-img",    // 6    Calcular ahora   https://conoce-iqos.com/calculadora
+    
+    // Conoce más       https://www.iqos.com/mx/es/beneficios.html
+    // Comprar ahora    https://www.iqos.com/mx/es/descubrir-tabaco-para-calentar/comprar-dispositivos.html
+    // Calcular ahora   https://conoce-iqos.com/calculadora
 
     'iqos24-spacer',
     "iqos24-footer-iqos-forever-curious-DARK",
@@ -117,6 +118,8 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
+
+
 
 
 
@@ -220,7 +223,9 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
-(1) El dispositivo que se entregará podrá variar entre IQOS ILUMA ONE X Steve Aoki e IQOS ILUMA X Steve Aoki, sujeto a disponibilidad de inventario.    <br><br>    (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (3) Amazon Echo Show 5 G3 Asistente de Voz 5.5\" inalámbrico, WiFi, Bluetooth, Blanco, sujeto a disponibilidad de inventario.    <br><br>    (4) iPad 11a generación 128 GB en plata, sujeto a disponibilidad de inventario.
+--------------------
+--------------------
+(1) Nuevo precio vigente del 01 al 31 de enero de 2026 aplicable en la compra de los dispositivos IQOS ILUMA ONE y IQOS ILUMA en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS y Sanborns. Sujeto a disponibilidad de inventario. Consulta términos y condiciones | IQOS México.      <br><br>        (2) Descuento del 10% vigente del 01 al 31 enero de 2026 aplicable en la compra de tu primer IQOS ILUMA ONE y IQOS ILUMA, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a> y Tiendas IQOS. Sujeto a disponibilidad de inventario. No aplicable con otro descuento o promoción. Consulta términos y condiciones | IQOS México.
 --------------------
 --------------------
 --------------------
@@ -233,9 +238,6 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
---------------------
---------------------
-
 --------------------
 --------------------
 --------------------
@@ -253,11 +255,11 @@ https://conoce-iqos.com/localizador-tiendas/
 ============================================================
 
 ==== [iqos.com] ============================================
-<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">iqos.com</a>
 ============================================================
 
 ==== [ www.iqos.com ] ======================================
-<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">www.iqos.com</a>
+<a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;color:white;\" target=\"_blank\">www.iqos.com</a>
 ============================================================
 
 

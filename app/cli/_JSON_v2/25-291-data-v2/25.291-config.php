@@ -1,21 +1,20 @@
 <?php
 
-$p_id =  '301';
+$p_id =  '291';
 $p_subject =  '';
 $p_preheader =  '';
 $p_yy =  '25';
 $p_mm =  '12';
 $p_dd =  '16';
-$p_name4folder =  'laus-enero';
-$p_name4json =  'laus-mgm10-27';
-$p_name4folderDCE =  'LAUS January';
-$p_mailname4DCE =  'LAUS_DCE_MGM10_27';
+$p_name4folder =  'leads-enero';
+$p_name4json =  'leads-itson-venta-producsets-22';
+$p_name4folderDCE =  'LEADS January';
+$p_mailname4DCE =  'LEADS_LOCAL_ITSON_VENTA_PRODUCSETS_22';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'LAUS_DCE_MGM10_27';
+$p_name4folderFSH =  'LEADS Enero';
+$p_mailname4FSH =  'LEADS_LOCAL_ITSON_VENTA_PRODUCSETS_22';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
-
 
 //-----------------------------------------
 
@@ -39,25 +38,27 @@ switch ( (string)$companyBrand ){
         $bgColor          = "#FFFFFF";    // Don't use "transparent"
         break;
 }
-$bgColor          = "#020a1f";    // Dark mode IQOS
+// $bgColor          = "#0d0c12";    // Dark mode IQOS
 
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos-DARK",
+    "iqos24-header-iqos",   // 
     "iqos24-center-img",    // 1g
     "iqos24-greeting",      // 
     "iqos24-center-img",    // 2
     "iqos24-center-img",    // 3g
-    "iqos24-center-img",    // 4
-    'iqos24-columns-img-xxxxx-img',         //  5, referralcode, 6 (34%, 32%, 34%)
-                            // 5
-                            // 6
-    'iqos24-img-sharemycode',//7  IMG con MSG WA: "Te regalo 25% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
+    "iqos24-center-img",    // 4    Contáctanos     tel:8001476769
+    "iqos24-center-img",    // 5g
+    "iqos24-center-img",    // 6    Localiza una tienda https://conoce-iqos.com/localizador-tiendas/
+
+
+// Contáctanos	tel:8001476769
+// Localiza una tienda	https://conoce-iqos.com/localizador-tiendas/
 
 
     'iqos24-spacer',
-    "iqos24-footer-iqos-forever-curious-DARK",
+    "iqos24-footer-iqos-forever-curious",
     ""
 
 );
@@ -117,6 +118,7 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
+
 
 
 
@@ -214,13 +216,14 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+
+(1) Descuento válido del 01 al 31 de enero de 2026 aplicable en la compra de tu primer Kit IQOS ILUMA, en Call Center IQOS. Sujeto a disponibilidad de inventario. Consulta términos y condiciones Códigos de Descuento | IQOS México.
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
 --------------------
-(1) El dispositivo que se entregará podrá variar entre IQOS ILUMA ONE X Steve Aoki e IQOS ILUMA X Steve Aoki, sujeto a disponibilidad de inventario.    <br><br>    (2) Solo para fumadores adultos o usuarios adultos de otros productos con nicotina.    <br><br>    (3) Amazon Echo Show 5 G3 Asistente de Voz 5.5\" inalámbrico, WiFi, Bluetooth, Blanco, sujeto a disponibilidad de inventario.    <br><br>    (4) iPad 11a generación 128 GB en plata, sujeto a disponibilidad de inventario.
 --------------------
 --------------------
 --------------------
