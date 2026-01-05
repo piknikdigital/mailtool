@@ -1364,9 +1364,83 @@ $libraryBlocks['cz25-tableNN'] ='
 
 
 
+/** ----------------------------------------------------
+ *    START CRM 2026-01    Plantilla iqos-2024-v1.twig
+ *  -----------------------------------------------------
+ */
+$libraryBlocks['iqos24-canales-de-comunicacion-3'] ='
 
 
 
+        {   "this"      : "Canales de comunicación"},
+        {
+            "type"      : "iq24-columns",
+            "font"      : "Cabin",
+            "msides"    : "0",
+            "mtop"      : "0",
+            "mbottom"   : "0",
+            "bgcolor"   : "transparent",
+            "this"      : "Canales de comunicación",
+            "columns"   :
+            [
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "16",
+                    "height"        : "auto"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "90",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-telefono.png",
+                    "url"           : "tel:8001476769",
+                    "this"          : "IMG ico-cancom-telefono"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "90",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-chat.png",
+                    "url"           : "https://www.iqos.com/mx/es/ayuda/contacto.html#openchat",
+                    "this"          : "IMG ico-cancom-chat"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "90",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-sms.png",
+                    "url"           : "https://cutt.ly/59uY4Ga",
+                    "this"          : "IMG ico-cancom-sms"
+                },
+                {
+                    "coltype"       : "img",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "17",
+                    "img_width_pc"  : "90",
+                    "mtop"          : "0",
+                    "mbottom"       : "0",
+                    "img"           : "ico-cancom-ig.png",
+                    "url"           : "https://www.instagram.com/iqos_mx/",
+                    "this"          : "IMG ico-cancom-ig"
+                },
+                {
+                    "coltype"       : "spacer",
+                    "bgcolor"       : "transparent",
+                    "width_pc"      : "16",
+                    "height"        : "auto"
+                }
+            ]
+        },';
 
 /** ----------------------------------------------------
  *    START CRM 2025-10    Plantilla iqos-2024-v1.twig
