@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "26";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '13';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '26';
+$p_mm =  '01';
+$p_dd =  '09';
+$p_name4folder =  'leads-nuevos-journeys';
+$p_name4json =  'leads-3_educatesme-flavors-14';
+$p_name4folderDCE =  'LEADS Nuevos Journeys';
+$p_mailname4DCE =  'LEADS_DCE_LOCAL_3_EDUCATESME_FLAVORS_14';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS Nuevos Journeys';
+$p_mailname4FSH =  'LEADS_DCE_LOCAL_3_EDUCATESME_FLAVORS_14';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -44,40 +44,19 @@ switch ( (string)$companyBrand ){
 
 $requiredBlocks = array(
     "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
-    "iqos24-greeting",      // 
-    
+    "iqos24-center-img",    // 1g
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
+    "iqos24-columns-img-greeting-img",
+                            // 3
+                            // 4
     "iqos24-center-img",    // 5
     "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
+    "iqos24-center-img",    // 7g
+    "iqos24-center-img",    // 8    Descubre más         
+    "iqos24-center-img",    // 9    Localiza una tienda  https://conoce-iqos.com/localizador-tiendas/
 
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-
-    'iqos24-columns-img-xxxxx-img',         //  #, referralcode, # (x%, x%, x%)
-    'iqos24-columns-multirows-img-img',     //  Tarjeta IMG SUP/IMG INF
-    "iqos24-columns-multirows-img-img-img", //
-    "iqos24-columns-multirows-img-greeting-img",//
-    'iqos24-IQOS-Wallet',                   //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-img-sharemycode',               //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
-    "iqos24-columns-img-img-img",           //  #, # , #  (x%, x%, x%)
-    "iqos24-columns-img-greeting-img",      //  #, hola , #  (x%, x%, x%)
-    
-
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // 
-
+// Descubre más         
+// Localiza una tienda  https://conoce-iqos.com/localizador-tiendas/
 
     'iqos24-spacer',
     "iqos24-footer-iqos-forever-curious",

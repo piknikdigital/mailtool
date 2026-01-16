@@ -1,20 +1,20 @@
 <?php
 
-$p_id              = "000";
-$p_subject         = "xxx";
-$p_preheader       = "xxx";
-$p_yy              = "26";
-$p_mm              = "00";
-$p_dd              = "00";
-$p_name4folder     = "serverfolder";
-$p_name4json       = "jsonname";
-$p_name4folderDCE  = "folderdce";
-$p_mailname4DCE    = "NAME4CRM";
-$p_customerkey_DCE = "custkeyDCE";
-$p_name4folderFSH  = "folderfsh";
-$p_mailname4FSH    = "NAME4CRM";
-$p_customerkey_FSH = "custkeyFSH";
-$id_FSH_folder     = "999";
+$p_id =  '15';
+$p_subject =  '';
+$p_preheader =  '';
+$p_yy =  '26';
+$p_mm =  '01';
+$p_dd =  '09';
+$p_name4folder =  'leads-nuevos-journeys';
+$p_name4json =  'leads-6_inspiresme-moments-43';
+$p_name4folderDCE =  'LEADS Nuevos Journeys';
+$p_mailname4DCE =  'LEADS_DCE_LOCAL_6_INSPIRESME_MOMENTS_43';
+$p_customerkey_DCE =  'NA';
+$p_name4folderFSH =  'LEADS Nuevos Journeys';
+$p_mailname4FSH =  'LEADS_DCE_LOCAL_6_INSPIRESME_MOMENTS_43';
+$p_customerkey_FSH =  'NA';
+$id_FSH_folder =  'NA';
 
 //-----------------------------------------
 
@@ -44,40 +44,16 @@ switch ( (string)$companyBrand ){
 
 $requiredBlocks = array(
     "iqos24-header-iqos",   // 
-    "iqos24-center-img",    // 1
+    "iqos24-center-img",    // 1g
     "iqos24-greeting",      // 
-    
     "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-    "iqos24-center-img",    // 7
-
-    "iqos24-center-img",    // 8
-    "iqos24-center-img",    // 9
-    "iqos24-center-img",    // 10
-
-
-    "iqos24-greeting-with-bgimg",      //
-    "iqos24-center-img-with-bgimg",    //
-
-    'iqos24-columns-img-xxxxx-img',         //  #, referralcode, # (x%, x%, x%)
     'iqos24-columns-multirows-img-img',     //  Tarjeta IMG SUP/IMG INF
-    "iqos24-columns-multirows-img-img-img", //
-    "iqos24-columns-multirows-img-greeting-img",//
-    'iqos24-IQOS-Wallet',                   //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    'iqos24-img-sharemycode',               //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
-    "iqos24-columns-img-img-img",           //  #, # , #  (x%, x%, x%)
-    "iqos24-columns-img-greeting-img",      //  #, hola , #  (x%, x%, x%)
-    
+                            // 3g
+                            // 4        Conoce más           https://www.iqos.com/mx/es/beneficios.html
+    "iqos24-center-img",    // 5        Comprar ahora        https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
 
-    "iqos24-cta",           // 
-    'iqos24-p700',          // 
-    'iqos24-p300',          // 
-    'iqos24-columns',       // 
-
+// Conoce más           https://www.iqos.com/mx/es/beneficios.html
+// Comprar ahora        https://www.iqos.com/mx/es/discover-heated-tobacco/comprar-dispositivos.html
 
     'iqos24-spacer',
     "iqos24-footer-iqos-forever-curious",
@@ -140,56 +116,7 @@ $requiredBlocks__IQOS = array(
 
     ""
 );
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",     
-    "iqos24-center-img",    // 1
-    "zyn25-greeting",       // 
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
 
-    "zyn25-zyn-siguenos-ig",   // zyn-siguenos-ig.jpg
-    "zyn25-zyn-find-your-zyn", // zyn-find-your-zyn.jpg
-    "iqos24-columns",       // #, XX , #  (21%, 58%, 21%)
-
-    "iqos24-spacer",
-    "zyn25-legales",
-    "zyn25-footer",
-    ""
-);
-
-// MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
-$requiredBlocks_cz = array(
-    "tc25-header",          // 
-    "iqos24-center-img",    // 
-    'cz25-p700',            // 
-    "iqos24-center-img",    // 
-    "iqos24-center-img",    // 
-    
-    // saludo
-    "cz25-greeting",        // 
-    'cz25-p700',            // 
-    'cz25-p300',            // 
-
-    "iqos24-center-img",    // 
-    'iqos24-columns',       // 
-        
-    "iqos24-center-img",    // 
-    'cz25-p300',            // 
-    'cz25-p700',            // 
-
-    "tc25-textbox-black",
-    "tc25-textbox-grey",
-    "tc25-textbox-gray-listbox-cta",
-
-
-    "tc25-dudas-contactanos",
-    "tc25-siguenos-rs-2",
-    "tc25-footer"
-);
 
 
 
@@ -293,6 +220,7 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+(1) Descuento del 10% vigente del 01 de febrero al 31 de diciembre de 2026 aplicable en la compra de tu primer kit IQOS ILUMA i, en <a href=\"https://www.iqos.com/mx/es/home.html\" style=\"text-decoration:underline;\" target=\"_blank\">iqos.com</a>, Tiendas IQOS, Sanborns seleccionados, IQOS coaches y call center IQOS sujeto a disponibilidad de inventario. Consulta términos y condiciones <a href=\"https://www.iqos.com/mx/es/codigos-de-descuento.html\" style=\"text-decoration:underline;\" target=\"_blank\">Códigos de Descuento | IQOS México.</a>
 --------------------
 --------------------
 --------------------

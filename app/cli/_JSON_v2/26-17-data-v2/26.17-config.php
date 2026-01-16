@@ -1,18 +1,18 @@
 <?php
 
-$p_id =  '999';
+$p_id =  '17';
 $p_subject =  '';
 $p_preheader =  '';
-$p_yy =  '25';
-$p_mm =  '12';
-$p_dd =  '16';
-$p_name4folder =  'laus-diciembre';
-$p_name4json =  'laus-availability-20';
-$p_name4folderDCE =  'LAUS December';
-$p_mailname4DCE =  'LAUS_DCE_AVAILABILITY_20';
+$p_yy =  '26';
+$p_mm =  '01';
+$p_dd =  '09';
+$p_name4folder =  'leads-nuevos-journeys';
+$p_name4json =  'leads-9_xawareness-peach-88-general';
+$p_name4folderDCE =  'LEADS Nuevos Journeys';
+$p_mailname4DCE =  'LEADS_DCE_LOCAL_9_XAWARENESS_PEACH_88GENERAL';
 $p_customerkey_DCE =  'NA';
-$p_name4folderFSH =  'NA';
-$p_mailname4FSH =  'LAUS_DCE_AVAILABILITY_20';
+$p_name4folderFSH =  'LEADS Nuevos Journeys';
+$p_mailname4FSH =  'LEADS_DCE_LOCAL_9_XAWARENESS_PEACH_88GENERAL';
 $p_customerkey_FSH =  'NA';
 $id_FSH_folder =  'NA';
 
@@ -43,49 +43,22 @@ switch ( (string)$companyBrand ){
 //-----------------------------------------
 
 $requiredBlocks = array(
-    "iqos24-header-iqos-DARK",
-    "iqos24-footer-iqos-forever-curious-DARK",
+    "iqos24-header-iqos",   // 
+    "iqos24-center-img",    // 1g
+    "iqos24-greeting",      // 
+    "iqos24-center-img",    // 2    conoce mas         https://www.zyn.com/mx/es/descubre-zyn.html
+    "iqos24-center-img",    // 3g
+    "iqos24-center-img",    // 4g
+    "iqos24-center-img",    // 5    Probar ahora       https://www.zyn.com/mx/es/prueba-zyn.html
+    "iqos24-center-img",    // 6g   ¡Quiero mi kit!    https://www.zyn.com/mx/es/prueba-zyn.html
 
+// Conocer más        https://www.zyn.com/mx/es/descubre-zyn.html
+// Probar ahora       https://www.zyn.com/mx/es/prueba-zyn.html
+// ¡Quiero mi kit!    https://www.zyn.com/mx/es/prueba-zyn.html
 
-    // "iqos24-header-iqos",   // 
-    // "iqos24-center-img",    // 1
-    // "iqos24-greeting",      // 
-    
-    // "iqos24-center-img",    // 2
-    // "iqos24-center-img",    // 3
-    // "iqos24-center-img",    // 4
-
-    // "iqos24-center-img",    // 5
-    // "iqos24-center-img",    // 6
-    // "iqos24-center-img",    // 7
-
-    // "iqos24-center-img",    // 8
-    // "iqos24-center-img",    // 9
-    // "iqos24-center-img",    // 10
-
-
-    // "iqos24-greeting-with-bgimg",      //
-    // "iqos24-center-img-with-bgimg",    //
-
-    // 'iqos24-columns-img-xxxxx-img',         //  #, referralcode, # (x%, x%, x%)
-    // 'iqos24-columns-multirows-img-img',     //  Tarjeta IMG SUP/IMG INF
-    // "iqos24-columns-multirows-img-img-img", //
-    // 'iqos24-IQOS-Wallet',                   //  IMG: texto descarga tu wallet  IMG WALLET COLUMNA1, IMG WALLET COLUMNA2 
-    // 'iqos24-img-sharemycode',               //  IMG con MSG WA: "Te regalo XX% de descuento en la compra de tu primer Kit IQOS ILUMA, exclusivo en iqos.com. No olvides utilizar mi código %%referral_code%% al comprar."
-    // "iqos24-columns-img-img-img",           //  #, # , #  (x%, x%, x%)
-    // "iqos24-columns-img-greeting-img",      //  #, hola , #  (x%, x%, x%)
-    
-
-    // "iqos24-cta",           // 
-    // 'iqos24-p700',          // 
-    // 'iqos24-p300',          // 
-    // 'iqos24-columns',       // 
-
-
-    // 'iqos24-spacer',
-    // "iqos24-footer-iqos-forever-curious",
+    'iqos24-spacer',
+    "iqos24-footer-iqos-forever-curious",
     ""
-
 );
 
 // MODULOS PARA TEMPLATE iqos-2024-v1.twig
@@ -142,56 +115,6 @@ $requiredBlocks__IQOS = array(
     "iqos24-footer-iqos-forever-curious",    // REEMPLAZA A: "iqos24-footer-iqos",
 
     ""
-);
-// MODULOS PARA TEMPLATE zyn-2025-v1.twig
-$requiredBlocks__ZYN = array(
-    "zyn25-header-zyn",     
-    "iqos24-center-img",    // 1
-    "zyn25-greeting",       // 
-    "iqos24-center-img",    // 2
-    "iqos24-center-img",    // 3
-    "iqos24-center-img",    // 4
-    "iqos24-center-img",    // 5
-    "iqos24-center-img",    // 6
-
-    "zyn25-zyn-siguenos-ig",   // zyn-siguenos-ig.jpg
-    "zyn25-zyn-find-your-zyn", // zyn-find-your-zyn.jpg
-    "iqos24-columns",       // #, XX , #  (21%, 58%, 21%)
-
-    "iqos24-spacer",
-    "zyn25-legales",
-    "zyn25-footer",
-    ""
-);
-
-// MODULOS PARA TEMPLATE clubzero-2025-v1.twig [TOGETHER CLUB]
-$requiredBlocks_cz = array(
-    "tc25-header",          // 
-    "iqos24-center-img",    // 
-    'cz25-p700',            // 
-    "iqos24-center-img",    // 
-    "iqos24-center-img",    // 
-    
-    // saludo
-    "cz25-greeting",        // 
-    'cz25-p700',            // 
-    'cz25-p300',            // 
-
-    "iqos24-center-img",    // 
-    'iqos24-columns',       // 
-        
-    "iqos24-center-img",    // 
-    'cz25-p300',            // 
-    'cz25-p700',            // 
-
-    "tc25-textbox-black",
-    "tc25-textbox-grey",
-    "tc25-textbox-gray-listbox-cta",
-
-
-    "tc25-dudas-contactanos",
-    "tc25-siguenos-rs-2",
-    "tc25-footer"
 );
 
 
@@ -291,6 +214,8 @@ https://together-club.com/
 --------------------
 --------------------
 --------------------
+ZYN es un producto que no es libre de riesgo y contiene nicotina, la cual es adictiva. Venta exclusiva para adultos.
+
 --------------------
 --------------------
 --------------------
